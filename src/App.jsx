@@ -1,0 +1,20 @@
+import { Routes, Route, Navigate } from "react-router-dom";
+import routes from "@/routes";
+import NavbarMenu from "./component/navbars/NavbarMenu";
+
+function App() {
+  return (
+    <>
+      <NavbarMenu />
+      <Routes>
+        {routes.map(
+          ({ path, element }, key) =>
+            element && <Route key={key} exact path={path} element={element} />
+        )}
+        <Route path="*" element={<Navigate to="/home" replace />} />
+      </Routes>
+    </>
+  );
+}
+
+export default App;

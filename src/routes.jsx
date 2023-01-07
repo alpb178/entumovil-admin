@@ -1,23 +1,27 @@
 import { Home} from "@/pages";
 
 import {
+  INMOCOR_CONTACT_PAGE,
   INMOCOR_GLOSARY_PAGE,
   INMOCOR_LEGISLATION_AR,
   INMOCOR_LEGISLATION_ES,
   INMOCOR_LEGISLATION_EU,
   INMOCOR_LEGISLATION_RU,
   INMOCOR_LEGISLATION_UE,
+  INMOCOR_MANAGMENT_INMOCOR_PAGE,
   INMOCOR_TEMPLATE_III_PAGE,
   INMOCOR_TEMPLATE_II_PAGE,
   INMOCOR_TEMPLATE_IV_PAGE,
   INMOCOR_TEMPLATE_I_PAGE,
 } from "./lib/constants";
+import ContactsPage from "./pages/contacts";
 import GlosaryPage from "./pages/glosary";
 import LegislationArPage from "./pages/LegislationAr";
 import LegislationEsPage from "./pages/legislationEs";
 import LegislationEuPage from "./pages/legislationEu";
 import LegislationRuPage from "./pages/legislationRu";
 import LegislationUEPage from "./pages/legislationUe";
+import ManagmentInmocorPage from "./pages/managmentInmocor";
 import TemplateIPage from "./pages/templateI";
 import TemplateIIPage from "./pages/templateII";
 import TemplateIIIPage from "./pages/templateIII";
@@ -83,6 +87,16 @@ export const routes = [
     name: "Glosario",
     path: INMOCOR_GLOSARY_PAGE,
     element: <GlosaryPage />,
+  },
+  {
+    name: "Contacto",
+    path: INMOCOR_CONTACT_PAGE,
+    element: <ContactsPage />,
+  },
+  {
+    name: "Gestor-Inmocor",
+    path: INMOCOR_MANAGMENT_INMOCOR_PAGE,
+    element: <ManagmentInmocorPage />,
   },
 ];
 

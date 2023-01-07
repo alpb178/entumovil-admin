@@ -5,7 +5,6 @@ import NavbarMenu from "./component/navbars/NavbarMenu";
 function App() {
   return (
     <>
-      <NavbarMenu />
       <Routes>
         {routes.map(
           ({ path, element }, key) =>

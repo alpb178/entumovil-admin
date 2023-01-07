@@ -1,27 +1,11 @@
 import FooterSite from "@/component/footer";
+import TopImage from "@/component/topImage";
 import { Typography } from "@material-tailwind/react";
 import styles from "./glosary.module.scss";
 export default function Glosary() {
   return (
     <>
-      <div className="relative flex h-screen content-center items-center justify-center pt-16">
-        <div className="absolute top-0 h-5/6 w-full bg-white bg-center" />
-        <div className="absolute top-0 h-full w-full  bg-center" />
-        <div className="max-w-8xl container relative mx-auto">
-          <div className="flex flex-wrap items-center">
-            <div className="ml-auto mr-auto w-full px-4 text-center lg:w-8/12">
-              <Typography
-                variant="h1"
-                color="black"
-                className="mb-6 font-black"
-              >
-                Glosario
-              </Typography>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      <TopImage name={"Glosario"} />;
       <section className="px-4 pt-0 pb-10">
         <div className="container mx-auto">
           <p className={styles.p}>
@@ -35,7 +19,6 @@ export default function Glosary() {
           </p>
         </div>
       </section>
-
       <section className="px-4 pt-0 pb-10">
         <div className="container mx-auto">
           <div>
@@ -3949,7 +3932,6 @@ export default function Glosary() {
           </div>
         </div>
       </section>
-
       <FooterSite />
     </>
   );

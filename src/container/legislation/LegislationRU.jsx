@@ -1,26 +1,10 @@
 import FooterSite from "@/component/footer";
-import { Typography } from "@material-tailwind/react";
+import TopImage from "@/component/topImage";
 import styles from "./legislation.module.scss";
 export default function LegislationRU() {
   return (
     <>
-      <div className="relative flex h-screen content-center items-center justify-center pt-16">
-        <div className="absolute top-0 h-5/6 w-full bg-[url('/img/header-compraventacor.jpg')]  bg-center" />
-        <div className="absolute top-0 h-full w-full  bg-center" />
-        <div className="max-w-8xl container relative mx-auto">
-          <div className="flex flex-wrap items-center">
-            <div className="ml-auto mr-auto w-full px-4 text-center lg:w-8/12">
-              <Typography
-                variant="h1"
-                color="black"
-                className="mb-6 font-black"
-              >
-                Legislación Reino Unido (Inglaterra/ Gales)
-              </Typography>
-            </div>
-          </div>
-        </div>
-      </div>
+      <TopImage name={"Legislación Reino Unido (Inglaterra/ Gales)"} />
 
       <section className="px-4 pt-0 pb-10">
         <div className="container mx-auto">

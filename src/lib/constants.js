@@ -19,7 +19,7 @@ export const INMOCOR_TEMPLATE_IV_PAGE = '/plantilla-4';
 
 export const INMOCOR_GLOSARY_PAGE = '/glosario';
 export const INMOCOR_CONTACT_PAGE = '/contacto';
-export const INMOCOR_MANAGMENT_INMOCOR_PAGE = '/managmentInmocor';
+export const INMOCOR_MANAGMENT_INMOCOR_PAGE = '/gestor-inmocor';
 
 
 export const templates = [

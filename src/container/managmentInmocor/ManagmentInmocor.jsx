@@ -1,7 +1,9 @@
-import useTranslation from 'next-translate/useTranslation';
+import TopImage from "@/component/topImage";
 
 export default function ManagmentInmocor() {
-  const { t } = useTranslation('common');
-
-  return <>Gestor Inmocor</>;
+  return (
+    <>
+      <TopImage name={"Gestor Inmocor"} />
+    </>
+  );
 }

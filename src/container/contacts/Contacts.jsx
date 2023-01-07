@@ -1,7 +1,9 @@
-import useTranslation from 'next-translate/useTranslation';
+import TopImage from "@/component/topImage";
 
 export default function Contacts() {
-  const { t } = useTranslation('common');
-
-  return <>Contactos</>;
+  return (
+    <>
+      <TopImage name={"Contactos"} />
+    </>
+  );
 }

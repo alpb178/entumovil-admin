@@ -1,5 +1,5 @@
 import { Popover, Transition } from "@headlessui/react";
-import { ArrowDownIcon } from "@heroicons/react/24/solid";
+import { ArrowDownIcon, ChevronDownIcon } from "@heroicons/react/24/solid";
 import { Fragment } from "react";
 
 function classNames(...classes) {
@@ -18,9 +18,9 @@ export default function ItemsMenuNavbar({ title, items }) {
             )}
           >
             {title}
-            <ArrowDownIcon
+            <ChevronDownIcon
               className={classNames(
-                open ? "text-gray-600" : "text-gray-400",
+                open ? "text-red-500" : "text-gray-900",
                 "ml-2 h-5 w-5 group-hover:text-red-500"
               )}
               aria-hidden="true"
@@ -37,13 +37,13 @@ export default function ItemsMenuNavbar({ title, items }) {
             leaveTo="opacity-0 translate-y-1"
           >
             <Popover.Panel className="absolute left-1/2 z-10 mt-3 w-screen max-w-xs -translate-x-1/2 transform px-2 sm:px-0">
-              <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
+              <div className="overflow-hidden shadow-lg ring-1 ring-black ring-opacity-5">
                 <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                   {items.map((item) => (
                     <a
                       key={item.name}
                       href={item.href}
-                      className="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50"
+                      className="-m-3 block  p-3 transition duration-150 ease-in-out hover:bg-gray-50"
                     >
                       <p className="text-base font-medium text-gray-900">
                         {item.name}

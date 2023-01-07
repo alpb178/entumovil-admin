@@ -18,6 +18,15 @@
 }
 }
 
+.email {
+ background-color: red;
+ text-align: right;
+ font-size: 16px;
+ color: azure;
+ width: 100;
+ 
+}
+
 .itemsHome {
   font-size: 16px;
   display: flex;
@@ -27,9 +36,16 @@
   
 }
 
-.text-green-500 {
+.div{
+  height: 70vh;
   
+ 
+ 
+  z-index: 10;
+
 }
+
+
 
   
 

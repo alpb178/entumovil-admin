@@ -29,7 +29,7 @@ export default function NavbarMenu() {
   const navList = (
     <ul className="mb-4  mt-4 flex flex-col gap-2 font-medium text-gray-900 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <a href={INMOCOR_HOME_PAGE} className={styles.itemsHome}>
-        Inicio
+       INICIO
       </a>
 
       <ItemsMenuNavbar title="LEGISLACIÓN" items={legislation} />
@@ -51,7 +51,7 @@ export default function NavbarMenu() {
   );
 
   return (
-    <Navbar className="relative z-10" color="white">
+    <Navbar className="relative z-10 rounded-none" color="white">
       <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
         <img
           src="/img/sticky-logo.png"

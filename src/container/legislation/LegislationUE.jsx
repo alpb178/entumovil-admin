@@ -1,23 +1,12 @@
 import FooterSite from "@/component/footer";
+import TopImage from "@/component/topImage";
 import { Typography } from "@material-tailwind/react";
 import styles from "./legislation.module.scss";
 
 export default function LegislationUE() {
   return (
     <>
-      <div className="relative flex h-screen content-center items-center justify-center">
-        <div className="absolute top-0 h-5/6 w-full bg-[url('/img/header-compraventacor.jpg')]  bg-center" />
-        <div className="absolute top-0 h-full w-full  bg-center" />
-        <div className="max-w-8xl container relative mx-auto">
-          <div className="flex flex-wrap items-center">
-            <div className="ml-auto mr-auto w-full px-4 text-center lg:w-8/12">
-              <Typography variant="h1" color="black" className=" font-black">
-                Unión Europea
-              </Typography>
-            </div>
-          </div>
-        </div>
-      </div>
+      <TopImage name={"Unión Europea"} />
 
       <section className="px-4 pb-10">
         <div className="container mx-auto">

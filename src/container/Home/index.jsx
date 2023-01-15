@@ -22,19 +22,19 @@ export function HomeContainer() {
         <div className="absolute top-0 h-full w-full bg-[url('/img/slider1.jpg')] bg-cover bg-center" />
         <div className="absolute top-0 h-full w-full  bg-cover bg-center" />
         <div className="max-w-8xl container relative mx-auto">
-          <div className="flex flex-wrap items-center">
+          <div className="flex flex-wrap items-right text-right">
             <div className="ml-auto mr-auto w-full px-4 text-center lg:w-8/12">
               <Typography
-                variant="h1"
+                variant="h2"
                 color="white"
                 className="mb-6 font-black"
               >
                 Contratos de compraventa de viviendas
               </Typography>
-              <Typography variant="lead" color="white" className="opacity-80">
+              <Typography variant="h2" color="black" className="font-black">
                 Normativa
               </Typography>
-              <Typography variant="lead" color="white" className="opacity-80">
+              <Typography variant="h2" color="black" className="mt-5" >
                 España, Argentina, Estados Unidos, Reino Unido
               </Typography>
             </div>

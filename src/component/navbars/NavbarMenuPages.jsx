@@ -58,7 +58,7 @@ export default function NavbarMenuPages() {
         <img src="/img/logo.png" />
       </div>
       <div class=" h-full w-full bg-white">
-        <div className={styles.toolbar}>info@inmocor.com</div>
+        <div className={styles.toolbar}><p className="text-right">info@inmocor.com</p></div>
         <div className=" ml-20 mt-5 flex h-full w-full content-center items-center lg:block">
           {navList}
         </div>

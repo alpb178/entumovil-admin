@@ -53,12 +53,12 @@ export default function NavbarMenuPages() {
   );
 
   return (
-    <div className=" z-10 mb-10 flex  h-32 bg-white">
-      <div class="flex  h-5/6  w-1/4 content-center text-center ">
+    <div className=" z-10 mb-10 flex h-32 bg-white">
+      <div class="flex  ml-5 h-5/6  w-1/4 content-center items-center text-center ">
         <img src="/img/logo.png" />
       </div>
       <div class=" h-full w-full bg-white">
-        <div className={styles.toolbar}><p className="text-right">info@inmocor.com</p></div>
+        <div className={styles.toolbar}>info@inmocor.com</div>
         <div className=" ml-20 mt-5 flex h-full w-full content-center items-center lg:block">
           {navList}
         </div>

@@ -2,6 +2,7 @@ import FooterSite from "@/component/footer";
 import TopImage from "@/component/topImage";
 import { Typography } from "@material-tailwind/react";
 import styles from "./legislation.module.scss";
+import MenuFooterPage from "@/component/menuFooterPage";
 
 export default function LegislationUE() {
   return (
@@ -140,6 +141,7 @@ export default function LegislationUE() {
           </p>
         </div>
       </section>
+      <MenuFooterPage />
       <FooterSite />
     </>
   );

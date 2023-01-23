@@ -1,3 +1,5 @@
+
+import MenuFooterPage from "@/component/menuFooterPage";
 import FooterSite from "@/component/footer";
 import TopImage from "@/component/topImage";
 import styles from "./legislation.module.scss";
@@ -201,7 +203,7 @@ export default function LegislationES() {
           </div>
         </div>
       </section>
-
+      <MenuFooterPage />
       <FooterSite />
     </>
   );

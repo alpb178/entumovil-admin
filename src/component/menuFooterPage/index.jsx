@@ -19,7 +19,6 @@ export default function MenuFooterPage() {
                 Análisis, redacción y traducción (inglés-español)
               </p>
               <p className="text-gray-600">
-                
                 del contrato de compraventa de vivienda basados en corpus: un
                 estudio aplicado a España, Argentina, Estados Unidos, Reino
                 Unido
@@ -68,31 +67,31 @@ export default function MenuFooterPage() {
             <a className="" href={INMOCOR_HOME_PAGE}>
               <div className="content-left mt-5  flex text-gray-600">
                 <ChevronRightIcon className="mr-2 h-5 w-5" />
-                ESPAÑA, POTENCIA TURÍSTICA
+                EMPRESAS ESPAÑOLAS
               </div>
             </a>
             <a className="" href={INMOCOR_HOME_PAGE}>
               <div className="mt-5 flex content-center text-gray-600">
                 <ChevronRightIcon className="mr-2 h-5 w-5" />
-                BOOM INMOBILIARIO
+                INVERSIÓN EXTRANJERA
               </div>
             </a>
             <a className="" href={INMOCOR_HOME_PAGE}>
               <div className="mt-5  flex content-center text-gray-600">
                 <ChevronRightIcon className="mr-2 h-5 w-5" />
-                BRITÁNICOS COMPRAN MÁS
+                USO DE CORPUS
               </div>
             </a>
             <a className="" href={INMOCOR_HOME_PAGE}>
               <div className="mt-5 flex content-center text-gray-600">
                 <ChevronRightIcon className="mr-2 h-5 w-5" />
-                INVERSIÓN EN ARGENTINA
+                TECNOLOGÍA Y TRADUCCIÓN
               </div>
             </a>
             <a className="" href={INMOCOR_HOME_PAGE}>
               <div className="mt-5 flex content-center text-gray-600">
                 <ChevronRightIcon className="mr-2 h-5 w-5" />
-                SITUACIÓN INMOBILIARIA
+                ALGORITMO N-COR
               </div>
             </a>
           </div>

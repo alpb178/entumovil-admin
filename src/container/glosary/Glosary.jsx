@@ -1,6 +1,8 @@
 import FooterSite from "@/component/footer";
 import TopImage from "@/component/topImage";
+import MenuFooterPage from "@/component/menuFooterPage";
 import { Typography } from "@material-tailwind/react";
+
 import styles from "./glosary.module.scss";
 export default function Glosary() {
   return (
@@ -18,21 +20,28 @@ export default function Glosary() {
             compraventa de viviendas.
           </p>
         </div>
-      </section>
+      </section>    
       <section className="px-4 pt-0 pb-10">
+      <div>
+        <h6 style={{textAlign: "center"}}>
+        <strong style={{textAlign: "center"}}>
+          GLOSARO PARA LA TRADUCCIÓN DE LOS CONTRATOS DE COMPRAVENTA DE VIVIENDAS
+        </strong>
+        </h6>
+      </div> 
         <div className="container mx-auto">
           <div>
-            <table className={styles.table} width="full">
+            <table className={styles.table} width="full" class="hover:border-collapse">
               <tbody>
                 <tr className="">
                   <td colSpan="2" width={300}>
                     <h6 className={styles.p}>
-                      <strong>ESPAÑOL</strong>
+                      <strong color="black">ESPAÑOL</strong>
                     </h6>
                   </td>
                   <td className={styles.p} colSpan="2" width="340">
                     <h6 className={styles.p}>
-                      <strong>INGLÉS</strong>
+                      <strong color="black">INGLÉS</strong>
                     </h6>
                   </td>
                 </tr>
@@ -3932,6 +3941,7 @@ export default function Glosary() {
           </div>
         </div>
       </section>
+      <MenuFooterPage />
       <FooterSite />
     </>
   );

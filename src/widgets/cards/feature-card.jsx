@@ -5,33 +5,50 @@ import styles from "./feature-card.module.scss";
 export function FeatureCard({ title, description }) {
   return (
     <Card className=" shadow-lg shadow-gray-500/10">
-      <CardBody className="px-8 text-center">
-        <h5 className={styles.h5}>{title}</h5>
-        <p className={styles.p}>
-          El presente apartado recoge, debido a la delimitación diatópica
-          realizada para este estudio, la{" "}
-          <strong>
-            legislación aplicable a los contratos de compraventa de viviendas
-          </strong>{" "}
-          relativa a <strong>España</strong>, <strong>Argentina</strong>,{" "}
-          <strong>Reino Unido</strong> (con especial referencia a
-          <strong> Inglaterra y Gales</strong>) y{" "}
-          <strong>Estados Unidos</strong> (concretamente, en el Estado de{" "}
-          <strong>Luisiana</strong>); así como la{" "}
-          <strong>normativa comunitaria europea</strong>. La identificación de
-          dicha normativa ha hecho posible la creación de un corpus legislativo,
-          al que hemos denominado <strong>LEXCOR</strong>, un recurso de gran
-          utilidad para responder a las necesidades documentales del traductor
-          jurídico, ya que permite observar dicho discurso de especialidad (en
-          materia de compraventa de viviendas) en su contexto puramente original
-          de producción.
+      <CardBody className="px-8 text-left">
+        <p className="font-black ">{title}</p>
+
+        <p className='mt-5 mb-5 text-hover font-black'>
+          Compilación de un macrocorpus para la generación de recursos
+          multilingües en al ámbito inmobiliario
+          (español-inglés/francés/italiano)
         </p>
-        <p className={styles.p}>
-          En los diferentes apartados de esta sección se puede acceder, de forma
-          particular, a la normativa de los ordenamientos jurídicos implicados
-          en el estudio, al tiempo que a la publicación de cada una de la norma
-          en cuestión gracias al hipervínculo, en color amarillo, habilitado en
-          cada una de ellas.
+
+        <p>
+          INMOCOR es un proyecto de excelencia financiado por la Junta de
+          Andalucía (N.º de ref. P20-00109, 2021-2023), de carácter transversal,
+          plurinstitucional y multidisciplinar, aúna a profesionales e
+          investigadores especialistas en tres disciplinas —Traducción
+          (especializados en Lingüística de Corpus y Terminología), Derecho y
+          Tecnología— para realizar avances relevantes en el ámbito de la
+          compraventa inmobiliaria, y cuyos resultados serán de aplicación
+          directa y gratuita para la investigación, el ámbito profesional y la
+          enseñanza. Así, en un mundo laboral cada vez más competitivo es
+          fundamental que los profesionales cuenten con herramientas que puedan
+          dar mayor rentabilidad a su negocio. No cabe duda de que un mercado
+          como el español —y en particular el andaluz— la construcción y la
+          compraventa inmobiliaria son los grandes artífices de la dinamización
+          económica debido, principalmente, a las inversiones de capital
+          extranjero (en particular británico, alemán, americano, irlandés,
+          francés e italiano); de hecho, según datos de la Junta de Andalucía de
+          2019, la economía andaluza creció un 2,5%, dos décimas más que la
+          media española, gracias al sector servicios y la construcción, siendo
+          este último el que más aumentó. A ello se suma la inversión española
+          en el ámbito inmobiliario y construcción en otros países, en
+          particular Reino Unido, EE.UU. y Argentina (PIEL, 2016). Todo ello
+          trae consigo un negocio de compraventa internacional de bienes
+          inmuebles —con especial incidencia en España y, en particular,
+          Andalucía— en el que intervienen no sólo lenguas sino sistemas
+          jurídicos diferentes. Con esta idea en mente, este proyecto persigue
+          el siguiente objetivo principal: Compilar un macrocorpus para la
+          generación de recursos multilingües (español-inglés/francés/italiano)
+          para la compraventa inmobiliaria. A partir de este macrocorpus (que
+          contiene legislación y contratos), se han generado glosarios
+          multilingües y redactores de contratos de compraventa de viviendas
+          para todas las lenguas y variedades diatópicas objeto de estudio de
+          este proyecto, a saber, español (variedades de Argentina y España),
+          inglés (de Irlanda, EE.UU. y Reino Unido), alemán, francés, italiano y
+          catalán.
         </p>
       </CardBody>
     </Card>

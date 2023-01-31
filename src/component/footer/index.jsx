@@ -4,7 +4,7 @@ import { APP_NAME } from "@/lib/constants";
 export default function FooterSite() {
   return (
     
-    <footer className="relative p-5 bg-footer text-white px-4">
+    <footer className="relative p-5 bg-gradient-to-r from-gradient-for-footer to-gradient-to text-white px-4">
       <div className="container mx-auto">
         <div className="  flex justify-between px-8">
           <div className="flex items-center  ">

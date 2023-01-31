@@ -1,22 +1,9 @@
-.h5{
-    text-align: justify;font-weight: 700
-}
+table{
+    margin-left: auto; 
+    margin-right: auto;
 
-.p{
-    margin-top: 20px;
-    text-align: justify;
-     font-family: lato;
-    color: #969696;
-    font-size: 18px;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-   
-    
-    
-}
+    border-collapse: separate;
 
-.table{
     height: 5339px;
     width: 100%;
     color: #969696;
@@ -24,13 +11,19 @@
     font-family: lato;
     border: 10px;
     border-top: 20px;
-    border-color: black;
-} 
+    border-color: rgb(223, 8, 8);
+    
+}
 
-
+.h5{
+    border-collapse: separate;
+    text-align: justify;font-weight: 700
+}
 
 .td149{
+    border-collapse: separate;
     text-align: center; 
     border: 10px;
     border-color: black;
-    width: 149px;}
+    width: 149px;
+}

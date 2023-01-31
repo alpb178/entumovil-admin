@@ -28,7 +28,7 @@ export default function NavbarMenu() {
 
   const navList = (
     <ul className="mb-4  mt-4 flex flex-col gap-2 font-medium text-gray-900 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-      <a href={INMOCOR_HOME_PAGE} className={styles.itemsHome}>
+      <a href={INMOCOR_HOME_PAGE} className={styles.items}>
        INICIO
       </a>
 
@@ -40,11 +40,11 @@ export default function NavbarMenu() {
 
       <ItemsMenuNavbar title="PLANTILLA" items={templates} />
 
-      <a href={INMOCOR_GLOSARY_PAGE} className={styles.a}>
+      <a href={INMOCOR_GLOSARY_PAGE} className={styles.items}>
         GLOSARIO
       </a>
 
-      <a href={INMOCOR_CONTACT_PAGE} className={styles.a}>
+      <a href={INMOCOR_CONTACT_PAGE} className={styles.items}>
         CONTACTOS
       </a>
     </ul>

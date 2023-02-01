@@ -7,7 +7,7 @@ import styles from "./glosary.module.scss";
 export default function Glosary() {
   return (
     <>
-      <TopImage name={"Glosario"} />;
+      <TopImage name={"Glosario"} imageUrl="cabecera-glosario-inmocor.jpg" />;
       <section className="px-4 pt-0 pb-10">
         <div className="container mx-auto">
           <p className={styles.p}>

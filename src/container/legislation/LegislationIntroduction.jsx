@@ -1,5 +1,6 @@
 import FooterSite from "@/component/footer";
 import MenuFooterPage from "@/component/menuFooterPage";
+import NavbarMenuPages from "@/component/navbars/NavbarMenuPages";
 import TopImage from "@/component/topImage";
 import {
   INMOCOR_LEGISLATION_AL,
@@ -14,19 +15,36 @@ import {
   INMOCOR_LEGISLATION_UE,
 } from "@/lib/constants";
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
+import { Typography } from "@material-tailwind/react";
 export default function LegislationIntroduction() {
   return (
     <>
-      <TopImage
-        name="Legislación"
-        description="Normativa de los diferentes ordenamientos jurídicos"
-        imageUrl="cabecera-legislacion-inmocor.jpg"
-      />
+      <div className="relative flex  h-96 content-center items-center justify-center pt-16 pb-32">
+        <div className="absolute  top-0 h-full w-full bg-[url('/img/bg/cabecera-legislacion-inmocor.jpg')] bg-cover bg-center" />
+        <div className="absolute  top-0 h-full w-full backdrop-brightness-50" />
 
-      <section className=" h-80 bg-legislation-gray text-xl text-gray">
+        <div className="max-w-8xl container  relative mx-auto ">
+          <div className="items-right flex flex-wrap text-right">
+            <NavbarMenuPages />
+            <div className="ml-auto mr-auto w-full px-4 text-center lg:w-8/12">
+              <Typography
+                variant="h2"
+                color="white"
+                className="mb-6 font-black"
+              >
+                Legislación
+              </Typography>
+              <Typography variant="h6" color="white" className="font-black">
+                Normativa de los diferentes ordenamientos jurídicos
+              </Typography>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section className="bg-gray-50  bg-legislation-gray px-4 pb-20 pt-4 text-xl text-gray">
         <div className="container mx-auto">
-          <div className="item-center content-center  ">
-            <h1 className="mb-6 block font-sans text-5xl font-semibold leading-tight tracking-normal text-red antialiased">
+          <div className="w-full text-gray">
+            <h1 className="mb-6 mt-10 block font-sans text-5xl font-semibold leading-tight tracking-normal text-red antialiased">
               INMOLAW: Un corpus legislativo especializado
             </h1>
             <p>
@@ -56,7 +74,7 @@ export default function LegislationIntroduction() {
         </div>
       </section>
 
-      <section className="mt-10 mb-20 flex px-4 text-xl text-gray">
+      <section className=" mb-20 flex px-4 text-xl text-gray">
         <div className="container mx-auto">
           <div className="item-center content-center  ">
             <div className="row px-md-4 m-0 bg-white py-5">
@@ -65,13 +83,13 @@ export default function LegislationIntroduction() {
                   <h1 className="mb-6 block font-sans text-5xl font-semibold leading-tight tracking-normal text-black antialiased">
                     Legislaciones incluidas
                   </h1>
-                  <p>
+                  <p className="mb-12">
                     Seleccione el ámbito legislativo de su interés. También
                     puede utilizar el menú superior para ello.
                   </p>
                 </div>
                 <ul className="list-check ">
-                  <li className="border-bottom flex-inline flex pb-3">
+                  <li className="border-bottom flex-inline mb-4 flex pb-3">
                     <div class="rounded-full bg-legislation-gray">
                       <i className="fas fa-check m-1 rounded-full text-red" />
                     </div>
@@ -81,11 +99,11 @@ export default function LegislationIntroduction() {
                         className="icon-btn btn-link btn-arrow text-dark flex-inline flex"
                       >
                         Legislación en la Unión Europea
-                        <ArrowRightIcon className="mt flex h-7 w-10 ml-2  font-black text-red hover:w-20" />
+                        <ArrowRightIcon className="mt ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
                       </a>
                     </h5>
                   </li>
-                  <li className="border-bottom flex-inline flex pb-3">
+                  <li className="border-bottom flex-inline mb-4 flex pb-3">
                     <div class="rounded-full bg-legislation-gray">
                       <i className="fas fa-check m-1 rounded-full text-red" />
                     </div>
@@ -95,11 +113,11 @@ export default function LegislationIntroduction() {
                         className="icon-btn btn-link btn-arrow text-dark flex-inline flex"
                       >
                         Legislación en España<span></span>
-                        <ArrowRightIcon className="mt flex h-7 w-10 ml-2  font-black text-red hover:w-20" />
+                        <ArrowRightIcon className="mt ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
                       </a>
                     </h5>
                   </li>
-                  <li className="border-bottom flex-inline flex pb-3">
+                  <li className="border-bottom flex-inline mb-4 flex pb-3">
                     <div class="rounded-full bg-legislation-gray">
                       <i className="fas fa-check m-1 rounded-full text-red" />
                     </div>
@@ -109,11 +127,11 @@ export default function LegislationIntroduction() {
                         className="icon-btn btn-link btn-arrow text-dark flex-inline flex"
                       >
                         Legislación en Argentina<span></span>
-                        <ArrowRightIcon className="mt flex h-7 w-10 ml-2  font-black text-red hover:w-20" />
+                        <ArrowRightIcon className="mt ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
                       </a>
                     </h5>
                   </li>
-                  <li className="border-bottom flex-inline flex pb-3">
+                  <li className="border-bottom flex-inline mb-4 flex pb-3">
                     <div class="rounded-full bg-legislation-gray">
                       <i className="fas fa-check m-1 rounded-full text-red" />
                     </div>
@@ -123,11 +141,11 @@ export default function LegislationIntroduction() {
                         className="icon-btn btn-link btn-arrow text-dark flex-inline flex"
                       >
                         Legislación en Reino Unido<span></span>
-                        <ArrowRightIcon className="mt flex h-7 w-10 ml-2  font-black text-red hover:w-20" />
+                        <ArrowRightIcon className="mt ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
                       </a>
                     </h5>
                   </li>
-                  <li className="border-bottom flex-inline flex pb-3">
+                  <li className="border-bottom flex-inline mb-4 flex pb-3">
                     <div class="rounded-full bg-legislation-gray">
                       <i className="fas fa-check m-1 rounded-full text-red" />
                     </div>
@@ -137,11 +155,11 @@ export default function LegislationIntroduction() {
                         className="icon-btn btn-link btn-arrow text-dark flex-inline flex"
                       >
                         Legislación en EE. UU.<span></span>
-                        <ArrowRightIcon className="mt flex h-7 w-10 ml-2  font-black text-red hover:w-20" />
+                        <ArrowRightIcon className="mt ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
                       </a>
                     </h5>
                   </li>
-                  <li className="border-bottom flex-inline flex pb-3">
+                  <li className="border-bottom flex-inline mb-4 flex pb-3">
                     <div class="rounded-full bg-legislation-gray">
                       <i className="fas fa-check m-1 rounded-full text-red" />
                     </div>
@@ -151,11 +169,11 @@ export default function LegislationIntroduction() {
                         className="icon-btn btn-link btn-arrow text-dark flex-inline flex"
                       >
                         Legislación en Irlanda<span></span>
-                        <ArrowRightIcon className="mt flex h-7 w-10 ml-2  font-black text-red hover:w-20" />
+                        <ArrowRightIcon className="mt ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
                       </a>
                     </h5>
                   </li>
-                  <li className="border-bottom flex-inline flex pb-3">
+                  <li className="border-bottom flex-inline mb-4 flex pb-3">
                     <div class="rounded-full bg-legislation-gray">
                       <i className="fas fa-check m-1 rounded-full text-red" />
                     </div>
@@ -165,11 +183,11 @@ export default function LegislationIntroduction() {
                         className="icon-btn btn-link btn-arrow text-dark flex-inline flex"
                       >
                         Legislación en Alemania<span></span>
-                        <ArrowRightIcon className="mt flex h-7 w-10 ml-2  font-black text-red hover:w-20" />
+                        <ArrowRightIcon className="mt ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
                       </a>
                     </h5>
                   </li>
-                  <li className="border-bottom flex-inline flex pb-3">
+                  <li className="border-bottom flex-inline mb-4 flex pb-3">
                     <div class="rounded-full bg-legislation-gray">
                       <i className="fas fa-check m-1 rounded-full text-red" />
                     </div>
@@ -179,11 +197,11 @@ export default function LegislationIntroduction() {
                         className="icon-btn btn-link btn-arrow text-dark flex-inline flex"
                       >
                         Legislación en Francia<span></span>
-                        <ArrowRightIcon className="mt flex h-7 w-10 ml-2  font-black text-red hover:w-20" />
+                        <ArrowRightIcon className="mt ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
                       </a>
                     </h5>
                   </li>
-                  <li className="border-bottom flex-inline flex pb-3">
+                  <li className="border-bottom flex-inline mb-4 flex pb-3">
                     <div class="rounded-full bg-legislation-gray">
                       <i className="fas fa-check m-1 rounded-full text-red" />
                     </div>
@@ -193,11 +211,11 @@ export default function LegislationIntroduction() {
                         className="icon-btn btn-link btn-arrow text-dark flex-inline flex"
                       >
                         Legislación en Italia<span></span>
-                        <ArrowRightIcon className="mt flex h-7 w-10 ml-2  font-black text-red hover:w-20" />
+                        <ArrowRightIcon className="mt ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
                       </a>
                     </h5>
                   </li>
-                  <li className="border-bottom flex-inline flex pb-3">
+                  <li className="border-bottom flex-inline mb-4 flex pb-3">
                     <div class="rounded-full bg-legislation-gray">
                       <i className="fas fa-check m-1 rounded-full text-red" />
                     </div>
@@ -207,7 +225,7 @@ export default function LegislationIntroduction() {
                         className="icon-btn btn-link btn-arrow text-dark flex-inline flex"
                       >
                         Legislación en Cataluña<span></span>
-                        <ArrowRightIcon className="mt flex h-7 w-10 ml-2  font-black text-red hover:w-20" />
+                        <ArrowRightIcon className="mt ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
                       </a>
                     </h5>
                   </li>
@@ -217,11 +235,7 @@ export default function LegislationIntroduction() {
           </div>
         </div>
       </section>
-      <section className="px-4 pt-0 pb-10 text-xl text-gray">
-        <div className="container mx-auto">
-          <div className="item-center flex"></div>
-        </div>
-      </section>
+
       <MenuFooterPage />
       <FooterSite />
     </>

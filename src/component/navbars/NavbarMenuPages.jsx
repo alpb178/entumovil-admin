@@ -26,10 +26,10 @@ export default function NavbarMenuPages() {
       <div className="h-5 w-full bg-red"></div>
 
       <div className=" flex h-full w-full bg-white text-right">
-        <div className="ml-5  flex h-5/6  w-1/4 content-center items-center text-center ">
+        <div className="mr-5 ml-10  flex h-5/6  w-1/6 content-center items-center text-center ">
           <img src="/img/logo.png" />
         </div>
-        <div className=" ml-20 mt-5 flex h-full w-full content-center items-center lg:block">
+        <div className=" m-25 mt-1 flex h-full w-5/6 content-center items-center">
           {navList}
         </div>
       </div>

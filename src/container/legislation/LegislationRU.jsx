@@ -6,7 +6,7 @@ import MenuFooterPage from "@/component/menuFooterPage";
 export default function LegislationRU() {
   return (
     <>
-      <TopImage name={"Legislación Reino Unido "} imageUrl='cabecera-legislacion-union-europea-inmocor.jpg' />
+      <TopImage name="Legislación Reino Unido" imageUrl="cabecera-legislacion-union-europea-inmocor" />
 
       <section className="px-4 pt-0 pb-10">
         <div className="container mx-auto">
@@ -23,7 +23,7 @@ export default function LegislationRU() {
                 El derecho del Reino Unido deriva del{" "}
               </span>
 
-              <h6 className="divider-title" className={styles.h6}>
+              <h6 className="divider-title">
                 common law o derecho consuetudinario
               </h6>
               <p className={styles.p}>
@@ -75,44 +75,7 @@ export default function LegislationRU() {
             </a>
             .
           </p>
-          <p className={styles.p}>
-            La primera de ellas (<em>Sale of Good Act 1979</em>) recoge bajo{" "}
-            <em>Part II Formation of the Contract </em>diversos apartados en
-            materia de contratos de compraventa. En primer lugar, se aborda el
-            contrato de compraventa de forma general;{" "}
-            <em>Contract of sale (2)</em>
-            en el cual se define el contrato de compraventa como «A contract of
-            sale of goods is a contract by which the seller transfer or agrees
-            to transfer the property in goods to the buyer for money
-            consideration, called the price» y{" "}
-            <em>(3) Capacity to buy and sell</em>. Seguidamente, se detallan las
-            formalidades del contrato, <em>(4) How contract of sale is made</em>
-            ; el objeto de estudio del contrato en los apartados{" "}
-            <em>(5) Existing or future goods</em>,{" "}
-            <em>(6) Goods which have perishes</em> y
-            <em> (7) Good pershing before sale but after agreement to sell</em>,
-            así como el precio <em>(8) Ascertainment of price</em> y{" "}
-            <em>(9) Agreement to sell at valuation, </em>entre los más
-            generales. En segundo lugar,
-            <em> Part III Effects of the contract</em>;{" "}
-            <em>Part IV Performance of the Contract</em>, en el que se regula{" "}
-            <em>(27) Duties of seller and buyer</em>,{" "}
-            <em>(28) Payment and delivery are concurrent conditions</em>,{" "}
-            <em>(29) Rules about delivery</em>,{" "}
-            <em>(30) Delivery of wrong quantity</em>, entre los más aspectos más
-            relevantes y, finalmente,{" "}
-            <em>Part V Rights of unpaid seller agains the goods </em>y{" "}
-            <em>Part VI Actions for Breach of the contract</em>.
-          </p>
-          <p className={styles.p}>
-            En segundo lugar, <em>Credict Consumer Act 1974,</em>
-            promulgada con el objetivo de regular tanto las compras realizadas
-            con tarjeta de crédito como para la protección cuando se accede a un
-            préstamo para la compra o alquiler de una vivienda, fue
-            posteriormente modificada por <em>Consumer Act 2006</em> destinada a
-            aumentar la protección del consumidor en los casos previamente
-            abordados.
-          </p>
+      
           <p className={styles.p}>
             Como &nbsp;ley secundaria, de aplicación exclusiva en Inglaterra y
             Gales, destaca{" "}

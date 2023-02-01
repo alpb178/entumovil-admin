@@ -6,7 +6,8 @@ import styles from "./legislation.module.scss";
 export default function LegislationES() {
   return (
     <>
-      <TopImage name={"Legislación España"} />
+      <TopImage name={"Legislación España"} imageUrl='cabecera-legislacion-union-europea-inmocor.jpg' />
+      
 
       <section className="px-4  pb-10">
         <div className="container mx-auto">
@@ -63,7 +64,7 @@ export default function LegislationES() {
       <section className="px-4 pt-0 pb-10">
         <div className="container mx-auto">
           <div className="item-center flex">
-            <div class="w-1/2  p-2 text-center">
+            <div className="w-1/2  p-2 text-center">
               <img
                 alt="Card Image"
                 src="/img/BANDERA-ESPANA0-500x500.jpg"
@@ -71,7 +72,7 @@ export default function LegislationES() {
                 height={581}
               />
             </div>
-            <div class="w-1/2  p-2 text-center">
+            <div className="w-1/2  p-2 text-center">
               <p className={styles.p}>
                 En cuanto a normativa específica en materia de contratos de
                 compraventa de vivienda, destacan la{" "}

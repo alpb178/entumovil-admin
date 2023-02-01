@@ -5,18 +5,18 @@ import styles from "./legislation.module.scss";
 export default function LegislationAr() {
   return (
     <>
-      <TopImage name={"Legislación Argentina"} />
+     <TopImage name={"Legislación en Argentina"} imageUrl='cabecera-legislacion-union-europea-inmocor' />
       <section className="px-4 pt-0 pb-10">
         <div className="container mx-auto">
           <div className="item-center flex">
-            <div class="w-1/2  p-2 text-center">
+            <div className="w-1/2  p-2 text-center">
               <img
                 alt="Card Image"
                 src="/img/KYR4GDVKXZHK5I542RZKNKFHMY.jpg"
                 height={581}
               />
             </div>
-            <div class="mt-20 ml-10 w-1/2  p-2 text-center">
+            <div className="mt-20 ml-10 w-1/2  p-2 text-center">
               <h5 className={styles.h5Title}>
                 En lo que a contratos de compraventa en general se refiere{" "}
               </h5>

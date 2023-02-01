@@ -6,24 +6,24 @@ import MenuFooterPage from "@/component/menuFooterPage";
 export default function LegislationRU() {
   return (
     <>
-      <TopImage name={"Legislación Reino Unido (Inglaterra/ Gales)"} />
+      <TopImage name={"Legislación Reino Unido "} imageUrl='cabecera-legislacion-union-europea-inmocor.jpg' />
 
       <section className="px-4 pt-0 pb-10">
         <div className="container mx-auto">
           <div className="item-center flex">
-            <div class="w-1/2  p-2 text-center">
+            <div className="w-1/2  p-2 text-center">
               <img
                 alt="Card Image"
                 src="/img/Gales-Inglaterra.jpg"
                 height={581}
               />
             </div>
-            <div class="w-1/2  p-2 text-left">
+            <div className="w-1/2  p-2 text-left">
               <span className={styles.span}>
                 El derecho del Reino Unido deriva del{" "}
               </span>
 
-              <h6 class="divider-title" className={styles.h6}>
+              <h6 className="divider-title" className={styles.h6}>
                 common law o derecho consuetudinario
               </h6>
               <p className={styles.p}>

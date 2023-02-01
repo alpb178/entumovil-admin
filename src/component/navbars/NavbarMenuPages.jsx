@@ -37,30 +37,35 @@ export default function NavbarMenuPages() {
       <ItemsMenuNavbar title="LEGISLACIÓN" items={legislation} />
 
       <a href={INMOCOR_MANAGMENT_INMOCOR_PAGE} className={styles.items}>
-        GESTOR INMOCOR
+        MACROCORPUS INMOCOR
       </a>
 
-      <ItemsMenuNavbar title="PLANTILLA" items={templates} />
+      <a href={INMOCOR_MANAGMENT_INMOCOR_PAGE} className={styles.items}>
+        INMOGEN
+      </a>
 
       <a href={INMOCOR_GLOSARY_PAGE} className={styles.items}>
         GLOSARIO
       </a>
 
+      <a href={INMOCOR_GLOSARY_PAGE} className={styles.items}>
+        PUBLICACIONES
+      </a>
+
       <a href={INMOCOR_CONTACT_PAGE} className={styles.items}>
-        CONTACTOS
+        EQUIPO Y CONTACTOS
       </a>
     </ul>
   );
 
   return (
     <div className=" z-10 mb-10 h-20 bg-white">
-      <div className='w-full bg-red h-5'></div>
-     
+      <div className="h-5 w-full bg-red"></div>
 
-      <div class=" h-full w-full bg-white flex text-right">
-      <div class="ml-5  flex h-5/6  w-1/4 content-center items-center text-center ">
-        <img src="/img/logo.png" />
-      </div>
+      <div className=" flex h-full w-full bg-white text-right">
+        <div className="ml-5  flex h-5/6  w-1/4 content-center items-center text-center ">
+          <img src="/img/logo.png" />
+        </div>
         <div className=" ml-20 mt-5 flex h-full w-full content-center items-center lg:block">
           {navList}
         </div>

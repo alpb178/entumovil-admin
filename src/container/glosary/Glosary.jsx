@@ -31,7 +31,7 @@ export default function Glosary() {
       </div> 
         <div className="container mx-auto">
           <div>
-            <table className={styles.table} width="full" class="hover:border-collapse">
+            <table className={styles.table} width="full" className="hover:border-collapse">
               <tbody>
                 <tr className="">
                   <td colSpan="2" width={300}>

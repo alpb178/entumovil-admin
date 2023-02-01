@@ -55,7 +55,7 @@ export default function NavbarMenu() {
       <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
         <img
           src="/img/sticky-logo.png"
-          class="block w-40 "
+          className="block w-40 "
           alt="Motorbike Smoke"
         />
         <div className="hidden lg:block">{navList}</div>

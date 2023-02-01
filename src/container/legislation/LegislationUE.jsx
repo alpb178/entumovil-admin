@@ -7,12 +7,12 @@ import MenuFooterPage from "@/component/menuFooterPage";
 export default function LegislationUE() {
   return (
     <>
-      <TopImage name={"Unión Europea"} />
+      <TopImage name={"Legislación en la Unión Europea"} imageUrl='cabecera-legislacion-irlanda-inmocor' />
 
       <section className="px-4 pb-10">
         <div className="container mx-auto">
           <div className="item-center flex">
-            <div class="w-1/2  p-2 text-center">
+            <div className="w-1/2  p-2 text-center">
               <p className={styles.p}>
                 El ordenamiento jurídico de la Unión Europea, en materia de
                 contratos internacionales, se apoya, con carácter general, en
@@ -45,7 +45,7 @@ export default function LegislationUE() {
                 directivas:
               </p>
             </div>
-            <div class="w-1/2  p-2 text-center">
+            <div className="w-1/2  p-2 text-center">
               <img
                 alt="Card Image"
                 src="/img/union-europea.jpg"

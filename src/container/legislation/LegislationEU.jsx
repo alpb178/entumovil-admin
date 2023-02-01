@@ -6,19 +6,19 @@ import MenuFooterPage from "@/component/menuFooterPage";
 export default function LegislationEU() {
   return (
     <>
-      <TopImage name={"Legislación Estados Unidos"} />
+      <TopImage name={"Legislación Estados Unidos"} imageUrl='cabecera-legislacion-union-europea-inmocor.jpg' />
 
       <section className="px-4 pt-0 pb-10">
         <div className="container mx-auto">
           <div className="item-center flex">
-            <div class="w-1/2  p-2 text-center">
+            <div className="w-1/2  p-2 text-center">
               <img
                 alt="Card Image"
                 src="/img/louisiana-550x550.jpg"
                 height={581}
               />
             </div>
-            <div class="ml-10 w-1/2 p-2 text-center">
+            <div className="ml-10 w-1/2 p-2 text-center">
               <h3 className={styles.h3}>
                 Legislación Estados Unidos (Luisiana){" "}
               </h3>

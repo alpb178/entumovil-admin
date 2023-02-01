@@ -7,6 +7,7 @@ module.exports = withMT({
     colors: {
       gray: "#626262",
       footer: "#1e2325",
+      "legislation-gray": "#f4f4f5",
       "gradient-for": "#6d1017",
       "gradient-to": "#592036",
       "gradient-for-footer": "#161427",

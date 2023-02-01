@@ -1,14 +1,6 @@
-import {
-  INMOCOR_CONTACT_PAGE,
-  INMOCOR_GLOSARY_PAGE,
-  INMOCOR_HOME_PAGE,
-  INMOCOR_MANAGMENT_INMOCOR_PAGE,
-  INMOCOR_MANAGMENT_INMOGEN_PAGE,
-  legislation,
-} from "@/lib/constants";
+
 
 import { useEffect, useState } from "react";
-import ItemsMenuNavbar from "./ItemsMenuNavbar";
 import { navList } from "./NavbarMenu";
 
 export default function NavbarMenuPages() {
@@ -22,14 +14,14 @@ export default function NavbarMenuPages() {
   }, []);
 
   return (
-    <div className=" z-10 mb-10 h-20 text-lg bg-white">
+    <div className=" z-10 mb-10 h-20 w-full text-lg bg-white">
       <div className="h-5 w-full bg-red"></div>
 
       <div className=" flex h-full w-full bg-white text-right">
-        <div className="mr-5 ml-10  flex h-5/6  w-1/6 content-center items-center text-center ">
-          <img src="/img/logo.png" />
+        <div className=" ml-3  flex h-full  w-1/6 content-center items-center text-center ">
+          <img className="h-36 w-36" src="/img/inmocor-compraventa-logo.svg" />
         </div>
-        <div className=" m-25 mt-1 flex h-full w-5/6 content-center items-center">
+        <div className="flex h-full ml-12 w-6/6 content-center items-center">
           {navList}
         </div>
       </div>

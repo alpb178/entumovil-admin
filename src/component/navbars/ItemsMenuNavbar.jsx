@@ -70,11 +70,11 @@ export default function ItemsMenuNavbar({ title, items }) {
   return (
     <Popover placement="bottom-start">
       <PopoverHandler>
-        <Button className="shadow-none mr-4 bg-white text-black text-lg flex text-left font-black hover:shadow-none hover:text-red">
+        <Button className="shadow-none bg-white text-black text-lg flex text-left font-black hover:shadow-none hover:text-red">
           {title} <i class="fas mr-6 mt-3  ml-1 fa-chevron-down fa-xs"/>
         </Button>
       </PopoverHandler>
-      <PopoverContent className="mt-2">
+      <PopoverContent className="mt-5">
         <div className="relative grid gap-6 text-black text-lg font-medium  bg-white px-5 py-6 sm:gap-8 sm:p-8">
           {items.map((item) => (
             <a

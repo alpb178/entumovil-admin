@@ -19,6 +19,7 @@ export function ManagmentInmocor() {
     <>
       <div className="relative flex h-96 content-center items-center justify-center pt-16 pb-32">
         <div className="absolute top-0 h-full w-full bg-[url('/img/bg/cabecera-legislacion-generalidades-inmocor.jpg')] bg-cover bg-center" />
+        <div className="absolute  top-0 h-full w-full backdrop-brightness-50" />
 
         <div className="max-w-8xl container relative mx-auto">
           <div className="items-right flex flex-wrap text-right">
@@ -38,7 +39,7 @@ export function ManagmentInmocor() {
           </div>
         </div>
       </div>
-      <section className="bg-gray-50 -mt-20 px-4 pb-20 pt-4">
+      <section className="bg-gray-50 -mt-20 text-xl px-4 pb-20 pt-4">
         <div className="container mx-auto">
           <Card className=" shadow-gray-500/10 shadow-lg">
             <CardBody className="px-8 text-left">

@@ -2,12 +2,32 @@ import FooterSite from "@/component/footer";
 import TopImage from "@/component/topImage";
 import MenuFooterPage from "@/component/menuFooterPage";
 
-
 import styles from "./glosary.module.scss";
+import { Typography } from "@material-tailwind/react";
+import NavbarMenuPages from "@/component/navbars/NavbarMenuPages";
 export default function Glosary() {
   return (
-    <>
-      <TopImage name={"Glosario"} imageUrl="cabecera-glosario-inmocor.jpg" />;
+    < div className="text-xl">
+      <div className="relative flex h-96 content-center items-center justify-center pt-16 pb-32">
+        <div className="absolute top-0 h-full w-full bg-[url('/img/bg/cabecera-glosario-inmocor.jpg')] bg-cover bg-center" />
+        <div className="absolute  top-0 h-full w-full backdrop-brightness-50" />
+
+        <div className="max-w-8xl container relative mx-auto">
+          <div className="items-right flex flex-wrap text-right">
+            <NavbarMenuPages />
+            <div className="ml-auto mr-auto w-full px-4 text-center lg:w-8/12">
+              <Typography
+                variant="h2"
+                color="white"
+                className="mb-6 font-black"
+              >
+                Glosario
+              </Typography>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <section className="px-4 pt-0 pb-10">
         <div className="container mx-auto">
           <p className={styles.p}>
@@ -20,15 +40,16 @@ export default function Glosary() {
             compraventa de viviendas.
           </p>
         </div>
-      </section>    
+      </section>
       <section className="px-4 pt-0 pb-10">
-      <div>
-        <h6 style={{textAlign: "center"}}>
-        <strong style={{textAlign: "center"}}>
-          GLOSARO PARA LA TRADUCCIÓN DE LOS CONTRATOS DE COMPRAVENTA DE VIVIENDAS
-        </strong>
-        </h6>
-      </div> 
+        <div>
+          <h6 style={{ textAlign: "center" }}>
+            <strong style={{ textAlign: "center" }}>
+              GLOSARO PARA LA TRADUCCIÓN DE LOS CONTRATOS DE COMPRAVENTA DE
+              VIVIENDAS
+            </strong>
+          </h6>
+        </div>
         <div className="container mx-auto">
           <div>
             <table className={styles.table} width="full">
@@ -3943,6 +3964,6 @@ export default function Glosary() {
       </section>
       <MenuFooterPage />
       <FooterSite />
-    </>
+    </div>
   );
 }

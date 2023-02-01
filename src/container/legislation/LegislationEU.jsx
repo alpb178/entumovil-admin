@@ -1,6 +1,5 @@
 import FooterSite from "@/component/footer";
 import TopImage from "@/component/topImage";
-import styles from "./legislation.module.scss";
 import MenuFooterPage from "@/component/menuFooterPage";
 
 export default function LegislationEU() {
@@ -11,7 +10,7 @@ export default function LegislationEU() {
         imageUrl="cabecera-legislacion-estados-unidos-inmocor.jpg"
       />
 
-      <section className="mt-10 mb-20 px-4">
+      <section className="mt-10 mb-20 text-xl text-gray px-4">
         <div className="container mx-auto">
           <div className="item-center content-center text-gray ">
             <Typography variant="h1" className="mb-6 text-red">

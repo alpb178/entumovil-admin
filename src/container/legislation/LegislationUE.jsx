@@ -1,7 +1,6 @@
 import FooterSite from "@/component/footer";
 import TopImage from "@/component/topImage";
 import { Typography } from "@material-tailwind/react";
-import styles from "./legislation.module.scss";
 import MenuFooterPage from "@/component/menuFooterPage";
 
 export default function LegislationUE() {
@@ -12,7 +11,7 @@ export default function LegislationUE() {
         imageUrl="cabecera-legislacion-union-europea-inmocor.jpg"
       />
 
-      <section className="mt-10 px-4 mb-20">
+      <section className="mt-10 px-4 mb-20 text-xl text-gray">
         <div className="container mx-auto">
           <div className="item-center content-center text-gray ">
             <Typography variant="h1" className="mb-6 text-red">

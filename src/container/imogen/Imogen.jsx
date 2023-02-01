@@ -17,10 +17,11 @@ import MenuFooterPage from "@/component/menuFooterPage";
 export function Inmogen() {
   return (
     <>
-      <div className="relative flex h-96 content-center items-center justify-center pt-16 pb-32">
-        <div className="absolute top-0 h-full w-full bg-[url('/img/bg/cabecera-contratos-inmocor.jpg')] bg-cover bg-center" />
+      <div className="relative flex  h-96 content-center items-center justify-center pt-16 pb-32">
+        <div className="absolute  top-0 h-full w-full bg-[url('/img/bg/cabecera-contratos-inmocor.jpg')] bg-cover bg-center" />
+        <div className="absolute  top-0 h-full w-full backdrop-brightness-50" />
 
-        <div className="max-w-8xl container relative mx-auto">
+        <div className="max-w-8xl container  relative mx-auto ">
           <div className="items-right flex flex-wrap text-right">
             <NavbarMenuPages />
             <div className="ml-auto mr-auto w-full px-4 text-center lg:w-8/12">
@@ -38,7 +39,7 @@ export function Inmogen() {
           </div>
         </div>
       </div>
-      <section className="bg-gray-50 mt-20 px-4 pb-20 pt-4">
+      <section className="bg-gray-50 mt-20 px-4 text-xl pb-20 pt-4">
         <div className="container mx-auto">
           <div className="w-full text-gray">
             <Typography variant="h2" className="mb-6 font-black text-red">

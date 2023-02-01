@@ -8,7 +8,7 @@ function classNames(...classes) {
 
 export default function ItemsMenuNavbar({ title, items }) {
   return (
-    <Popover className="relative ">
+    <Popover className="relative text-lg ">
       {({ open }) => (
         <>
           <Popover.Button
@@ -21,7 +21,7 @@ export default function ItemsMenuNavbar({ title, items }) {
             <ChevronDownIcon
               className={classNames(
                 open ? " text-red" : "text-black",
-                "ml-2 h-5 w-5  group-hover:text-red"
+                "ml-1 h-6 w-6  group-hover:text-red"
               )}
             />
           </Popover.Button>
@@ -35,7 +35,7 @@ export default function ItemsMenuNavbar({ title, items }) {
             leaveFrom="opacity-100 translate-y-0"
             leaveTo="opacity-0 translate-y-1"
           >
-            <Popover.Panel className="absolute left-1/2 z-10 mt-3 w-screen max-w-xs -translate-x-1/2 transform  px-2 sm:px-0">
+            <Popover.Panel className="absolute left-1/2 z-10 mt-4 w-screen max-w-sm -translate-x-1/2 transform  px-2 sm:px-0">
               <div className="overflow-hidden  shadow-lg ring-1 ring-black ring-opacity-5">
                 <div className="relative grid rounded gap-6 mt-2  bg-white px-5 py-6 sm:gap-8 sm:p-8">
                   {items.map((item) => (

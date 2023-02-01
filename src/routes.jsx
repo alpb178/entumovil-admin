@@ -16,6 +16,7 @@ import {
   INMOCOR_LEGISLATION_UE,
   INMOCOR_MANAGMENT_INMOCOR_PAGE,
   INMOCOR_MANAGMENT_INMOGEN_PAGE,
+  INMOCOR_MANAGMENT_PUBLICATIONS_PAGE,
   INMOCOR_TEMPLATE_III_PAGE,
   INMOCOR_TEMPLATE_II_PAGE,
   INMOCOR_TEMPLATE_IV_PAGE,
@@ -36,6 +37,7 @@ import LegislationITPage from "./pages/legislation/legislationIt";
 import LegislationRuPage from "./pages/legislation/legislationRu";
 import LegislationUEPage from "./pages/legislation/legislationUe";
 import ManagmentInmocorPage from "./pages/managmentInmocor";
+import ManagmentPublicationsPage from "./pages/publications";
 import TemplateIPage from "./pages/templateI";
 import TemplateIIPage from "./pages/templateII";
 import TemplateIIIPage from "./pages/templateIII";
@@ -143,6 +145,11 @@ export const routes = [
     name: "Legislacion-Cataluña",
     path: INMOCOR_LEGISLATION_CA,
     element: <LegislationCtPage />,
+  },
+  {
+    name: "Publicaciones",
+    path: INMOCOR_MANAGMENT_PUBLICATIONS_PAGE,
+    element: <ManagmentPublicationsPage />,
   },
   {
     name: "Legislacion",

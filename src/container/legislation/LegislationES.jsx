@@ -6,7 +6,7 @@ import styles from "./legislation.module.scss";
 export default function LegislationES() {
   return (
     <>
-      <TopImage name="Legislación España" imageUrl="cabecera-legislacion-espana-inmocor"/>
+      <TopImage name="Legislación España" imageUrl="cabecera-legislacion-espana-inmocor.jpg"/>
       
 
       <section className="px-4  pb-10">

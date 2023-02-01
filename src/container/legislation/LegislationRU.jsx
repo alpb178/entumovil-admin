@@ -6,7 +6,7 @@ import MenuFooterPage from "@/component/menuFooterPage";
 export default function LegislationRU() {
   return (
     <>
-      <TopImage name="Legislación Reino Unido" imageUrl="cabecera-legislacion-union-europea-inmocor" />
+      <TopImage name="Legislación Reino Unido" imageUrl="cabecera-legislacion-union-europea-inmocor.jpg" />
 
       <section className="px-4 pt-0 pb-10">
         <div className="container mx-auto">

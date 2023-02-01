@@ -5,7 +5,7 @@ import styles from "./legislation.module.scss";
 export default function LegislationAr() {
   return (
     <>
-     <TopImage name={"Legislación en Argentina"} imageUrl='cabecera-legislacion-union-europea-inmocor' />
+     <TopImage name="Legislación en Argentina" imageUrl="cabecera-legislacion-union-europea-inmocor.jpg" />
       <section className="px-4 pt-0 pb-10">
         <div className="container mx-auto">
           <div className="item-center flex">

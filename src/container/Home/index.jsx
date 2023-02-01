@@ -1,30 +1,15 @@
 import React from "react";
-import {
-  Card,
-  Button,
-  CardBody,
-} from "@material-tailwind/react";
+import { Card, Button, CardBody } from "@material-tailwind/react";
 import FooterSite from "@/component/footer";
 import NavbarMenu from "@/component/navbars/NavbarMenu";
 import MenuFooterPage from "@/component/menuFooterPage";
+import Carrousel from "@/component/carrousel";
 
 export function HomeContainer() {
   return (
     <>
       <NavbarMenu />
-      <div className="relative flex h-screen content-center items-center justify-center pt-16 pb-32">
-        <div className="absolute top-0 h-full w-full bg-[url('/img/slides/inmocor-compraventa-slide-madrid-espana.jpg')] bg-cover bg-center" />
-        <div className="absolute top-0 h-full w-full bg-cover  bg-center backdrop-brightness-50" />
-        <div className="max-w-8xl container relative mx-auto">
-          <div className="items-right flex flex-wrap text-right">
-            <div className="ml-auto mr-auto w-full px-4 text-center lg:w-8/12">
-              <p className="mb-6 text-7xl font-black text-white">
-                Realice Búsquedas en materia de Legislación y Contratos
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Carrousel />
       <section className="bg-gray-50 -mt-32 px-4 pb-20 pt-4">
         <div className="container mx-auto">
           <Card className=" shadow-gray-500/10 shadow-lg">
@@ -84,6 +69,7 @@ export function HomeContainer() {
           </Card>
         </div>
       </section>
+
       <MenuFooterPage />
       <FooterSite />
     </>

@@ -1,6 +1,7 @@
 import FooterSite from "@/component/footer";
 import TopImage from "@/component/topImage";
 import MenuFooterPage from "@/component/menuFooterPage";
+import { Typography } from "@material-tailwind/react";
 
 export default function LegislationEU() {
   return (

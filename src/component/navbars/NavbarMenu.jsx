@@ -16,14 +16,14 @@ import { useEffect, useState } from "react";
 import ItemsMenuNavbar from "./ItemsMenuNavbar";
 
 export const navList = (
-  <ul className="mb-4 mr-8 flex flex-col gap-2  text-lg font-medium text-black  lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+  <ul className="mb-4 mr-8 flex text-left flex-col justify-items-center gap-2  text-lg font-medium text-black  lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
     <a href={INMOCOR_HOME_PAGE} className="hover:text-red">
       INICIO
     </a>
 
     <ItemsMenuNavbar title="LEGISLACIÓN" items={legislation} />
 
-    <a href={INMOCOR_MANAGMENT_INMOCOR_PAGE} className="hover:text-red">
+    <a href={INMOCOR_MANAGMENT_INMOCOR_PAGE} className="hover:text-red items-center content-center flex">
       MACROCORPUS INMOCOR
     </a>
 

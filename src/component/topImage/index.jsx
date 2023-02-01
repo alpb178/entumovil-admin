@@ -4,15 +4,17 @@ import NavbarMenuPages from "../navbars/NavbarMenuPages";
 export default function TopImage({ name, imageUrl }) {
   return (
     <div className="relative flex h-96">
-      <div className="bg-center` absolute top-0 h-96 w-full">
+      <div className="absolute   top-0 h-96 w-full  bg-center backdrop-brightness-50">
         <img
           alt="Card Image"
-          className="h-full w-full"
+          className="h-full w-full backdrop-brightness-50"
           src={`/img/bg/${imageUrl}`}
         />
       </div>
 
-      <div className="max-w-8xl container mt-10 relative mx-auto">
+      <div className="absolute   top-0 h-96 w-full  bg-center backdrop-brightness-50"/>
+
+      <div className="max-w-8xl container relative mx-auto mt-10">
         <NavbarMenuPages />
         <div className="flex flex-wrap items-center">
           <div className="ml-auto mr-auto w-full px-4 text-center lg:w-8/12">

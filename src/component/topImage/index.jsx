@@ -12,9 +12,9 @@ import NavbarMenuPages from "../navbars/NavbarMenuPages";
 
 export default function TopImage({ name, imageUrl }) {
   return (
-    <div className={styles.div}>
+    <div className="relative flex h-96">
       <div
-        className={`absolute top-0 h-5/6 w-full bg-[url('/img/header-compraventacor.jpg')]  bg-center`}
+        className={`absolute top-0 h-5/6 w-full bg-[url('/img/${imageUrl}')]  bg-center`}
       />
       <div className="absolute top-0 h-full w-full  bg-center" />
       <div className="max-w-8xl container relative mx-auto">

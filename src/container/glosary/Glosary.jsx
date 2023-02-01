@@ -1,13 +1,13 @@
 import FooterSite from "@/component/footer";
 import TopImage from "@/component/topImage";
 import MenuFooterPage from "@/component/menuFooterPage";
-import { Typography } from "@material-tailwind/react";
+
 
 import styles from "./glosary.module.scss";
 export default function Glosary() {
   return (
     <>
-      <TopImage name={"Glosario"} />;
+      <TopImage name={"Glosario"} imageUrl="cabecera-glosario-inmocor.jpg" />;
       <section className="px-4 pt-0 pb-10">
         <div className="container mx-auto">
           <p className={styles.p}>
@@ -31,7 +31,7 @@ export default function Glosary() {
       </div> 
         <div className="container mx-auto">
           <div>
-            <table className={styles.table} width="full" class="hover:border-collapse">
+            <table className={styles.table} width="full">
               <tbody>
                 <tr className="">
                   <td colSpan="2" width={300}>

@@ -12,6 +12,13 @@ export const INMOCOR_LEGISLATION_EU = '/legislacion-Estados-Unidos';
 export const INMOCOR_LEGISLATION_RU = '/legislation-Reino-Unido';
 export const INMOCOR_LEGISLATION_UE = '/legislation-Union-Europea';
 
+export const INMOCOR_LEGISLATION_AL = '/legislacion-Alemania';
+export const INMOCOR_LEGISLATION_IR = '/legislacion-Irlanda';
+export const INMOCOR_LEGISLATION_IT = '/legislacion-Italia';
+export const INMOCOR_LEGISLATION_CA = '/legislation-Cataluña';
+export const INMOCOR_LEGISLATION_FR = '/legislation-Francia';
+export const INMOCOR_LEGISLATION = '/legislacion';
+
 export const INMOCOR_TEMPLATE_I_PAGE = '/plantilla-1';
 export const INMOCOR_TEMPLATE_II_PAGE = '/plantilla-2';
 export const INMOCOR_TEMPLATE_III_PAGE = '/plantilla-3';
@@ -19,7 +26,8 @@ export const INMOCOR_TEMPLATE_IV_PAGE = '/plantilla-4';
 
 export const INMOCOR_GLOSARY_PAGE = '/glosario';
 export const INMOCOR_CONTACT_PAGE = '/contacto';
-export const INMOCOR_MANAGMENT_INMOCOR_PAGE = '/gestor-inmocor';
+export const INMOCOR_MANAGMENT_INMOCOR_PAGE = '/macrocorpus-INMOCOR';
+export const INMOCOR_MANAGMENT_INMOGEN_PAGE = '/inmogen';
 
 
 export const templates = [
@@ -44,6 +52,10 @@ export const templates = [
 
 export const legislation = [
   {
+    name: 'Introducción',
+    href: INMOCOR_LEGISLATION
+  },
+  {
     name: 'Legislacion en la Union Europea',
     href: INMOCOR_LEGISLATION_UE
   },
@@ -60,7 +72,12 @@ export const legislation = [
 
     href: INMOCOR_LEGISLATION_RU
   },
-  { name: 'Legislacion en Estados Unidos', href: INMOCOR_LEGISLATION_EU }
+  { name: 'Legislacion en Estados Unidos', href: INMOCOR_LEGISLATION_EU },
+  { name: 'Legislacion en Irlanda', href: INMOCOR_LEGISLATION_IR },
+  { name: 'Legislacion en Alemania', href: INMOCOR_LEGISLATION_AL },
+  { name: 'Legislacion en Francia', href: INMOCOR_LEGISLATION_FR },
+  { name: 'Legislacion en Italia', href: INMOCOR_LEGISLATION_IT },
+  { name: 'Legislacion en Cataluña', href: INMOCOR_LEGISLATION_CA }
 ];
 
 // link Footer

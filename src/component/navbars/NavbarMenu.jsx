@@ -3,8 +3,8 @@ import {
   INMOCOR_GLOSARY_PAGE,
   INMOCOR_HOME_PAGE,
   INMOCOR_MANAGMENT_INMOCOR_PAGE,
+  INMOCOR_MANAGMENT_INMOGEN_PAGE,
   legislation,
-  templates,
 } from "@/lib/constants";
 import {
   Button,
@@ -14,7 +14,6 @@ import {
 } from "@material-tailwind/react";
 import { useEffect, useState } from "react";
 import ItemsMenuNavbar from "./ItemsMenuNavbar";
-import styles from "./navbar.module.scss";
 
 export default function NavbarMenu() {
   const [openNav, setOpenNav] = useState(false);
@@ -27,25 +26,31 @@ export default function NavbarMenu() {
   }, []);
 
   const navList = (
-    <ul className="mb-4  mt-4 flex flex-col gap-2 font-medium text-gray-900 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-      <a href={INMOCOR_HOME_PAGE} className={styles.items}>
-       INICIO
+    <ul className="mb-4  mt-4 flex flex-col gap-2  font-black font-medium text-black  lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+      <a href={INMOCOR_HOME_PAGE} className="hover:text-red">
+        INICIO
       </a>
 
       <ItemsMenuNavbar title="LEGISLACIÓN" items={legislation} />
 
-      <a href={INMOCOR_MANAGMENT_INMOCOR_PAGE} className={styles.items}>
-        GESTOR INMOCOR
+      <a href={INMOCOR_MANAGMENT_INMOCOR_PAGE} className="hover:text-red">
+        MACROCORPUS INMOCOR
       </a>
 
-      <ItemsMenuNavbar title="PLANTILLA" items={templates} />
+      <a href={INMOCOR_MANAGMENT_INMOGEN_PAGE} className="hover:text-red">
+        INMOGEN
+      </a>
 
-      <a href={INMOCOR_GLOSARY_PAGE} className={styles.items}>
+      <a href={INMOCOR_GLOSARY_PAGE} className="hover:text-red">
         GLOSARIO
       </a>
 
-      <a href={INMOCOR_CONTACT_PAGE} className={styles.items}>
-        CONTACTOS
+      <a href={INMOCOR_GLOSARY_PAGE} className="hover:text-red">
+        PUBLICACIONES
+      </a>
+
+      <a href={INMOCOR_CONTACT_PAGE} className="hover:text-red">
+        EQUIPO Y CONTACTOS
       </a>
     </ul>
   );
@@ -55,7 +60,7 @@ export default function NavbarMenu() {
       <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
         <img
           src="/img/sticky-logo.png"
-          class="block w-40 "
+          className="block w-40 "
           alt="Motorbike Smoke"
         />
         <div className="hidden lg:block">{navList}</div>

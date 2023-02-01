@@ -9,7 +9,7 @@ export default function LegislationIr() {
         name="Legislación en Irlanda"
         imageUrl="cabecera-legislacion-irlanda-inmocor.jpg"
       />
-      <section className="mt-10 mb-20 px-4">
+      <section className="mt-10 mb-20 text-xl text-gray px-4">
         <div className="container mx-auto">
           <div className="item-center content-center text-gray ">
             <Typography variant="h1" className="mb-6 text-red">

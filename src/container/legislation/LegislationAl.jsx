@@ -9,9 +9,9 @@ export default function LegislationAL() {
         name="Legislación en Alemania"
         imageUrl="cabecera-legislacion-alemania-inmocor.jpg"
       />
-      <section className="mt-10 mb-20 px-4">
+      <section className="mt-10 mb-20 text-xl text-gray  px-4">
         <div className="container mx-auto">
-          <div className="item-center content-center text-gray ">
+          <div className="item-center content-center  ">
             <Typography variant="h1" className="mb-6 text-red">
               Normativa de Compraventa Inmobiliaria en el Ordenamiento Jurídico
               de Alemania

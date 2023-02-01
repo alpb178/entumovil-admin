@@ -3,7 +3,7 @@ import { InboxIcon, MapPinIcon, PhoneIcon } from "@heroicons/react/24/solid";
 
 export default function MenuFooterPage() {
   return (
-    <section className="bg-gradient-to-r from-gradient-for to-gradient-to px-4">
+    <section className="bg-gradient-to-r text-xl from-gradient-for to-gradient-to px-4">
       <div className="container mx-auto">
         <div className="item-center flex">
           <div className="m-10  bg-white">
@@ -46,7 +46,7 @@ export default function MenuFooterPage() {
                 </div>
               </div>
             </div>
-            <p className="text-black-600 content-left m-5 p-2  text-sm font-normal ">
+            <p className="text-black-600 content-left m-5 p-2  font-normal ">
               Editado en Málaga por Miriam Seghiri, Míriam Pérez-Carrasco y
               Lorena Arce Romeral. Esta base de datos está registrada en la
               Biblioteca Nacional con el ISSN XXXX-XXXX. El presente trabajo ha

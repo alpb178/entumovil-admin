@@ -2,7 +2,6 @@ import FooterSite from "@/component/footer";
 import MenuFooterPage from "@/component/menuFooterPage";
 import TopImage from "@/component/topImage";
 import { Typography } from "@material-tailwind/react";
-import styles from "./legislation.module.scss";
 export default function LegislationIt() {
   return (
     <>
@@ -10,7 +9,7 @@ export default function LegislationIt() {
         name="Legislación en Italia"
         imageUrl="cabecera-legislacion-italia-inmocor.jpg"
       />
-      <section className="mt-10 mb-20 px-4">
+      <section className="mt-10 mb-20 text-xl text-gray px-4">
         <div className="container mx-auto">
           <div className="item-center content-center text-gray ">
             <Typography variant="h1" className="mb-6 text-red">

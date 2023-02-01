@@ -10,7 +10,7 @@ export default function LegislationCt() {
         name="Legislación en Cataluña"
         imageUrl="cabecera-legislacion-cataluna-inmocor.jpg"
       />
-      <section className="mt-10 mb-20 px-4">
+      <section className="mt-10 mb-20 text-xl text-gray px-4">
         <div className="container mx-auto">
           <div className="item-center content-center text-gray ">
             <Typography variant="h1" className="mb-6 text-red">

@@ -15,6 +15,36 @@ import {
 import { useEffect, useState } from "react";
 import ItemsMenuNavbar from "./ItemsMenuNavbar";
 
+export const navList = (
+  <ul className="mb-4 mr-8 flex flex-col gap-2  text-lg font-medium text-black  lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <a href={INMOCOR_HOME_PAGE} className="hover:text-red">
+      INICIO
+    </a>
+
+    <ItemsMenuNavbar title="LEGISLACIÓN" items={legislation} />
+
+    <a href={INMOCOR_MANAGMENT_INMOCOR_PAGE} className="hover:text-red">
+      MACROCORPUS INMOCOR
+    </a>
+
+    <a href={INMOCOR_MANAGMENT_INMOGEN_PAGE} className="hover:text-red">
+      INMOGEN
+    </a>
+
+    <a href={INMOCOR_GLOSARY_PAGE} className="hover:text-red">
+      GLOSARIO
+    </a>
+
+    <a href={INMOCOR_GLOSARY_PAGE} className="hover:text-red">
+      PUBLICACIONES
+    </a>
+
+    <a href={INMOCOR_CONTACT_PAGE} className="hover:text-red">
+      EQUIPO Y CONTACTOS
+    </a>
+  </ul>
+);
+
 export default function NavbarMenu() {
   const [openNav, setOpenNav] = useState(false);
 
@@ -25,35 +55,7 @@ export default function NavbarMenu() {
     );
   }, []);
 
-  const navList = (
-    <ul className="mb-4  mt-4 flex flex-col gap-2  font-black font-medium text-black  lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-      <a href={INMOCOR_HOME_PAGE} className="hover:text-red">
-        INICIO
-      </a>
-
-      <ItemsMenuNavbar title="LEGISLACIÓN" items={legislation} />
-
-      <a href={INMOCOR_MANAGMENT_INMOCOR_PAGE} className="hover:text-red">
-        MACROCORPUS INMOCOR
-      </a>
-
-      <a href={INMOCOR_MANAGMENT_INMOGEN_PAGE} className="hover:text-red">
-        INMOGEN
-      </a>
-
-      <a href={INMOCOR_GLOSARY_PAGE} className="hover:text-red">
-        GLOSARIO
-      </a>
-
-      <a href={INMOCOR_GLOSARY_PAGE} className="hover:text-red">
-        PUBLICACIONES
-      </a>
-
-      <a href={INMOCOR_CONTACT_PAGE} className="hover:text-red">
-        EQUIPO Y CONTACTOS
-      </a>
-    </ul>
-  );
+ 
 
   return (
     <Navbar className="relative z-10 rounded-none" color="white">

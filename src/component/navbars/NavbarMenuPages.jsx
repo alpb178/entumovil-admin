@@ -15,7 +15,7 @@ export default function NavbarMenuPages() {
 
   return (
     <div className=" z-10 mb-10 h-20 w-full text-lg bg-white">
-      <div className="h-5 w-full bg-red"></div>
+      <div className="h-5 w-full bg-ocre-red"></div>
 
       <div className=" flex h-full w-full bg-white text-right">
         <div className=" ml-3  flex h-full  w-1/6 content-center items-center text-center ">

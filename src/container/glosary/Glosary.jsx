@@ -58,14 +58,28 @@ export default function Glosary() {
         <div className="container mx-auto">
           <div className="row m-0 px-md-4 pt-5 pb-1">
             <div className="col-12 mb-4 mb-md-0">
-              <div className="section-title">
-                <p variant="h4" className="ml-0 text-ocre-red">
-                Seleccione la(s) lengua(s) en las que desee visualizar el Glosario:
-                </p>
-                <p className="display-10 text-center">La gestión del corpus INMOCOR ha dado como resultado un glosario multilingüe para la traducción de los contratos de compraventa de viviendas.<br />En concreto, incluye las siguientes lenguas y variedades diatópicas:</p>
-              </div>
+              <fieldset>
+                <div className="section-title">
+                  <legend variant="h4" className="ml-0 text-ocre-red">
+                    Seleccione la(s) lengua(s) en las que desee visualizar el Glosario:
+                  </legend>
+                </div>
+                <div class="form-group">
+                      <select multiple class="form-control mb-2" id="InmolawFormControlSelect">
+                        <option>Glosario en español (variedad peninsular)</option>
+                        <option>Glosario en español (variedad argentina)</option>
+                        <option>Glosario en inglés (variedad británica)</option>
+                        <option>Glosario en inglés (variedad estadounidense)</option>
+                        <option>Glosario en inglés (variedad irlandesa)</option>
+                        <option>Glosario en francés</option>
+                        <option>Glosario en italiano</option>
+                        <option>Glosario en alemán</option>
+                        <option>Glosario en catalán</option>
+                      </select>
+                      <p>Permite seleccionar varios glosarios pulsando Crtl (Windows) o Cmd (MacOS).</p>
+                    </div>
+              </fieldset>
               <div>
-                
               </div>
             </div>
           </div>

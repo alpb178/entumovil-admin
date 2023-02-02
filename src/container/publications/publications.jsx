@@ -36,6 +36,15 @@ export default function Publications() {
           </div>
         </div>
       </div>
+      <section className="bg-gray-50  bg-legislation-gray px-4 pb-20 pt-2 text-xl text-gray">
+        <div className="container mx-auto">
+          <div className="w-full text-gray">
+            <h4 className="mb-10 mt-16 block font-sans leading-tight tracking-normal text-center">
+            A continuación se incluyen algunas de las publicaciones mas relevantes derivadas del proyecto:
+            </h4>
+          </div>
+        </div>
+      </section>
 
       <MenuFooterPage />
       <FooterSite />

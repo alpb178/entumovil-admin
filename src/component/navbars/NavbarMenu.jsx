@@ -4,6 +4,7 @@ import {
   INMOCOR_HOME_PAGE,
   INMOCOR_MANAGMENT_INMOCOR_PAGE,
   INMOCOR_MANAGMENT_INMOGEN_PAGE,
+  INMOCOR_MANAGMENT_PUBLICATIONS_PAGE,
   legislation,
 } from "@/lib/constants";
 import {
@@ -38,7 +39,7 @@ export const navList = (
       GLOSARIO
     </a>
 
-    <a href={INMOCOR_GLOSARY_PAGE} className="hover:text-red">
+    <a href={INMOCOR_MANAGMENT_PUBLICATIONS_PAGE} className="hover:text-red">
       PUBLICACIONES
     </a>
 

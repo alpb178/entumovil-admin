@@ -28,6 +28,7 @@ export const INMOCOR_GLOSARY_PAGE = '/glosario';
 export const INMOCOR_CONTACT_PAGE = '/contacto';
 export const INMOCOR_MANAGMENT_INMOCOR_PAGE = '/macrocorpus-INMOCOR';
 export const INMOCOR_MANAGMENT_INMOGEN_PAGE = '/inmogen';
+export const INMOCOR_MANAGMENT_PUBLICATIONS_PAGE = '/publicaciones';
 
 
 export const templates = [

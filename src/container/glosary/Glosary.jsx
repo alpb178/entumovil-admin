@@ -58,14 +58,14 @@ export default function Glosary() {
         <div className="container mx-auto">
           <div className="row m-0 px-md-4 pt-5 pb-1">
             <div className="col-12 mb-4 mb-md-0">
-              <fieldset>
+              <fieldset className="shadow-none">
                 <div className="section-title">
                   <legend variant="h4" className="ml-0 text-ocre-red">
                     Seleccione la(s) lengua(s) en las que desee visualizar el Glosario:
                   </legend>
                 </div>
-                <div class="form-group">
-                      <select multiple class="form-control mb-2" id="InmolawFormControlSelect">
+                <div className="overflow-auto shadow-none">
+                      <select multiple className="form-control mb-2 w-11/12 px-5 py-5 bg-legislation-gray shadow-none" id="InmolawFormControlSelect">
                         <option>Glosario en español (variedad peninsular)</option>
                         <option>Glosario en español (variedad argentina)</option>
                         <option>Glosario en inglés (variedad británica)</option>

@@ -10,7 +10,7 @@ export default function FooterSite() {
             Compraventa de Inmuebles. Todos los derechos reservados.
           </a>
           <div className=" items-center w-1/2 ">
-            <ul class="footer-bottom-link flex-inline flex">
+            <ul clasName="footer-bottom-link flex-inline flex">
               <li className="mr-10 hover:text-red">
                 <a href="#">Avisos legales</a>
               </li>

@@ -71,7 +71,7 @@ export default function LegislationIntroduction() {
                 </div>
                 <ul className="list-check ">
                   <li className="border-bottom flex-inline mb-4 flex pb-3">
-                    <div class="rounded-full bg-legislation-gray">
+                    <div className="rounded-full bg-legislation-gray">
                       <i className="fas fa-check m-1 rounded-full text-red" />
                     </div>
                     <h5 className="flex-inline ml-5 flex ">
@@ -85,7 +85,7 @@ export default function LegislationIntroduction() {
                     </h5>
                   </li>
                   <li className="border-bottom flex-inline mb-4 flex pb-3">
-                    <div class="rounded-full bg-legislation-gray">
+                    <div className="rounded-full bg-legislation-gray">
                       <i className="fas fa-check m-1 rounded-full text-red" />
                     </div>
                     <h5 className="ml-5">
@@ -99,7 +99,7 @@ export default function LegislationIntroduction() {
                     </h5>
                   </li>
                   <li className="border-bottom flex-inline mb-4 flex pb-3">
-                    <div class="rounded-full bg-legislation-gray">
+                    <div className="rounded-full bg-legislation-gray">
                       <i className="fas fa-check m-1 rounded-full text-red" />
                     </div>
                     <h5 className="ml-5">
@@ -113,7 +113,7 @@ export default function LegislationIntroduction() {
                     </h5>
                   </li>
                   <li className="border-bottom flex-inline mb-4 flex pb-3">
-                    <div class="rounded-full bg-legislation-gray">
+                    <div className="rounded-full bg-legislation-gray">
                       <i className="fas fa-check m-1 rounded-full text-red" />
                     </div>
                     <h5 className="ml-5">
@@ -127,7 +127,7 @@ export default function LegislationIntroduction() {
                     </h5>
                   </li>
                   <li className="border-bottom flex-inline mb-4 flex pb-3">
-                    <div class="rounded-full bg-legislation-gray">
+                    <div className="rounded-full bg-legislation-gray">
                       <i className="fas fa-check m-1 rounded-full text-red" />
                     </div>
                     <h5 className="ml-5">
@@ -141,7 +141,7 @@ export default function LegislationIntroduction() {
                     </h5>
                   </li>
                   <li className="border-bottom flex-inline mb-4 flex pb-3">
-                    <div class="rounded-full bg-legislation-gray">
+                    <div className="rounded-full bg-legislation-gray">
                       <i className="fas fa-check m-1 rounded-full text-red" />
                     </div>
                     <h5 className="ml-5">
@@ -155,7 +155,7 @@ export default function LegislationIntroduction() {
                     </h5>
                   </li>
                   <li className="border-bottom flex-inline mb-4 flex pb-3">
-                    <div class="rounded-full bg-legislation-gray">
+                    <div className="rounded-full bg-legislation-gray">
                       <i className="fas fa-check m-1 rounded-full text-red" />
                     </div>
                     <h5 className="ml-5">
@@ -169,7 +169,7 @@ export default function LegislationIntroduction() {
                     </h5>
                   </li>
                   <li className="border-bottom flex-inline mb-4 flex pb-3">
-                    <div class="rounded-full bg-legislation-gray">
+                    <div className="rounded-full bg-legislation-gray">
                       <i className="fas fa-check m-1 rounded-full text-red" />
                     </div>
                     <h5 className="ml-5">
@@ -183,7 +183,7 @@ export default function LegislationIntroduction() {
                     </h5>
                   </li>
                   <li className="border-bottom flex-inline mb-4 flex pb-3">
-                    <div class="rounded-full bg-legislation-gray">
+                    <div className="rounded-full bg-legislation-gray">
                       <i className="fas fa-check m-1 rounded-full text-red" />
                     </div>
                     <h5 className="ml-5">
@@ -197,7 +197,7 @@ export default function LegislationIntroduction() {
                     </h5>
                   </li>
                   <li className="border-bottom flex-inline mb-4 flex pb-3">
-                    <div class="rounded-full bg-legislation-gray">
+                    <div className="rounded-full bg-legislation-gray">
                       <i className="fas fa-check m-1 rounded-full text-red" />
                     </div>
                     <h5 className="ml-5">

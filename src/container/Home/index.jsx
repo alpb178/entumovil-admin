@@ -1,14 +1,14 @@
 import React from "react";
-import { Card, Button, CardBody } from "@material-tailwind/react";
+import { Card, CardBody } from "@material-tailwind/react";
 import FooterSite from "@/component/footer";
-import NavbarMenu from "@/component/navbars/NavbarMenu";
 import MenuFooterPage from "@/component/menuFooterPage";
 import Carrousel from "@/component/carrousel";
+import NavbarMenuPages from "@/component/navbars/NavbarMenuPages";
 
 export function HomeContainer() {
   return (
     <>
-      <NavbarMenu />
+      <NavbarMenuPages />
       <Carrousel />
       <section className="bg-gray-50 -mt-32 px-4 pb-20 pt-4">
         <div className="container mx-auto">

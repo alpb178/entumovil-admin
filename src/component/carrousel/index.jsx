@@ -1,4 +1,5 @@
 import { Carousel } from "react-carousel-minimal";
+import NavbarHome from "../navbars/NavbarHome";
 
 function Carrousel() {
   const data = [
@@ -21,7 +22,7 @@ function Carrousel() {
   };
   return (
     <div>
-      <div style={{ textAlign: "center" }}>
+      <div className="static" style={{ textAlign: "center" }}>
         <div  className="mb-6 text-2xl font-black text-white">
           <Carousel
            
@@ -42,6 +43,7 @@ function Carrousel() {
           />
         </div>
       </div>
+      <NavbarHome/>
     </div>
   );
 }

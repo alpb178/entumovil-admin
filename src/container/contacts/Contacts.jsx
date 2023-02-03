@@ -1,7 +1,6 @@
 import FooterSite from "@/component/footer";
 import MenuFooterPage from "@/component/menuFooterPage";
 import TopImage from "@/component/topImage";
-import { Typography } from "@material-tailwind/react";
 
 export default function Contacts() {
   return (

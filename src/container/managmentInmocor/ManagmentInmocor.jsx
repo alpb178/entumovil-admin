@@ -40,9 +40,9 @@ export function ManagmentInmocor() {
         </div>
       </div>
       <section className="bg-gray-50 -mt-20 text-xl px-4 pb-20 pt-4">
-        <div className="container mx-auto">
+        <div className="container mx-auto ">
           <Card className=" shadow-gray-500/10 shadow-lg">
-            <CardBody className="px-8 text-left">
+            <CardBody className="px-8 text-left row border-bottom">
               <div className="flex">
                 <div className="w-1/3">
                   <Typography variant="h2" className="mb-6 font-black text-red">

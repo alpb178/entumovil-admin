@@ -12,7 +12,7 @@ export default function MenuFooterPage() {
                 <img
                   alt="Card Image"
                   className="h-26 w-204"
-                  src="/img/sticky-logo.png"
+                  src="/img/inmocor-compraventa-logo.svg"
                 />
                 <div className="content-left mt-5">
                   <p className="text-black-600">

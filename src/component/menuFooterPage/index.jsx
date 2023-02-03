@@ -3,7 +3,7 @@ import { InboxIcon, MapPinIcon, PhoneIcon } from "@heroicons/react/24/solid";
 
 export default function MenuFooterPage() {
   return (
-    <section className="bg-gradient-to-r text-xl from-gradient-for to-gradient-to px-4">
+    <section className="bg-gradient-to-r from-gradient-for to-gradient-to px-4 text-xl">
       <div className="container mx-auto">
         <div className="item-center flex">
           <div className="m-10  bg-white">
@@ -11,11 +11,11 @@ export default function MenuFooterPage() {
               <div className="m-5 w-1/2  bg-white p-2">
                 <img
                   alt="Card Image"
-                  className="h-26 w-204"
+                  className="w-80"
                   src="/img/inmocor-compraventa-logo.svg"
                 />
                 <div className="content-left mt-5">
-                  <p className="text-black-600">
+                  <p className="text-black-600 mt-15">
                     Compilación de un macrocorpus para la generación de recursos
                     multilingües en el ámbito inmobiliario
                     (español-inglés/francés/italiano) (Proyecto de excelencia
@@ -28,19 +28,19 @@ export default function MenuFooterPage() {
                   Contacto
                 </Typography>
 
-                <div className="content-left mt-5  flex text-gray-600">
+                <div className="content-left text-gray-600  mt-5 flex">
                   <MapPinIcon className="mr-2 h-5 w-5 text-red" />
                   Campus de Teatinos. Bulevar Louis Pasteur, 27 Facultad
                   Filosofía y Letras (Departamento de Traducción e
                   Interpretación) 29010 Málaga
                 </div>
 
-                <div className="mt-5 flex content-center text-gray-600">
+                <div className="text-gray-600 mt-5 flex content-center">
                   <InboxIcon className="mr-2 h-5 w-5 text-red" />
                   <p className="text-red">seghiri@uma.es</p>
                 </div>
 
-                <div className="mt-5 flex content-center text-gray-600">
+                <div className="text-gray-600 mt-5 flex content-center">
                   <PhoneIcon className="mr-2 h-5 w-5 text-red" />
                   952 137 357
                 </div>

@@ -1,8 +1,6 @@
 import FooterSite from "@/component/footer";
-import TopImage from "@/component/topImage";
 import MenuFooterPage from "@/component/menuFooterPage";
 import Table from "@/component/table";
-import styles from "./glosary.module.scss";
 import { Typography } from "@material-tailwind/react";
 import NavbarMenuPages from "@/component/navbars/NavbarMenuPages";
 import { ArrowRightIcon } from "@heroicons/react/24/solid";

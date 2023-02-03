@@ -13,8 +13,11 @@ function Carrousel() {
   ];
 
   const captionStyle = {
+    textAlign: "center",
     fontSize: "2em",
     fontWeight: "bold",
+    marginLeft:"12px",
+    marginRight:"12px",
   };
   return (
     <div>

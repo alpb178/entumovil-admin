@@ -11,7 +11,7 @@ export default function MenuFooterPage() {
               <div className="m-5 w-1/2  bg-white p-2">
                 <img
                   alt="Card Image"
-                  className=" w-204"
+                  className="w-80"
                   src="/img/inmocor-compraventa-logo.svg"
                 />
                 <div className="content-left mt-5">

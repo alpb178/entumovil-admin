@@ -50,8 +50,8 @@ export default function NavbarMenuPages() {
       <div className="h-5 w-full bg-ocre-red"></div>
 
       <div className=" flex h-full w-full bg-white text-right">
-        <div className=" ml-3  flex h-full  w-1/6 content-center items-center text-center ">
-          <img className="w-204" src="/img/inmocor-compraventa-logo.svg" />
+        <div className=" flex content-center items-center align-center mt-15 text-center ">
+          <img className="w-80 ml-3 " src="/img/inmocor-compraventa-logo.svg" />
         </div>
         <div className="w-6/6 ml-12 flex h-full content-center items-center">
           {navList}

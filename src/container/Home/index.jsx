@@ -3,15 +3,12 @@ import { Card, CardBody } from "@material-tailwind/react";
 import FooterSite from "@/component/footer";
 import MenuFooterPage from "@/component/menuFooterPage";
 import Carrousel from "@/component/carrousel";
-import NavbarMenuPages from "@/component/navbars/NavbarMenuPages";
-import NavbarHome from "@/component/navbars/NavbarHome";
 
 export function HomeContainer() {
   return (
     <>
       <Carrousel />
-
-      <section className="bg-gray-50 mt-20 px-4 pb-20 pt-4">
+      <section className="bg-gray-50 -mt-32 px-4 pb-20 pt-4">
         <div className="container mx-auto">
           <Card className=" shadow-gray-500/10 shadow-lg">
             <CardBody className="px-8 text-left">

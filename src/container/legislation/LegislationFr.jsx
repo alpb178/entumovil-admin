@@ -1,7 +1,6 @@
 import FooterSite from "@/component/footer";
 import MenuFooterPage from "@/component/menuFooterPage";
 import TopImage from "@/component/topImage";
-import { Typography } from "@material-tailwind/react";
 export default function LegislationFr() {
   return (
     <>
@@ -9,13 +8,13 @@ export default function LegislationFr() {
         name="Legislación en Francia"
         imageUrl="cabecera-legislacion-francia-inmocor.jpg"
       />
-      <section className="mt-10 mb-20 text-xl text-gray px-4">
+      <section className="mt-10 mb-20 px-4 text-xl text-gray">
         <div className="container mx-auto">
           <div className="item-center content-center text-gray ">
-            <Typography variant="h1" className="mb-6 text-red">
+            <p className="mb-6 text-5xl font-black text-red">
               Legislación francesa sobre contratos de venta de un bien
               inmobiliario
-            </Typography>
+            </p>
             <p>
               El contrato de venta de cualquier bien inmobiliario en Francia
               está regulado por un conjunto de leyes que exponemos a

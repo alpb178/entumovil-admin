@@ -1,7 +1,7 @@
 import MenuFooterPage from "@/component/menuFooterPage";
 import FooterSite from "@/component/footer";
 import TopImage from "@/component/topImage";
-import { Typography } from "@material-tailwind/react";
+
 export default function LegislationES() {
   return (
     <>
@@ -10,13 +10,13 @@ export default function LegislationES() {
         imageUrl="cabecera-legislacion-espana-inmocor.jpg"
       />
 
-      <section className="mt-10 mb-20 text-xl text-gray px-4">
+      <section className="mt-10 mb-20 px-4 text-xl text-gray">
         <div className="container mx-auto">
           <div className="item-center content-center text-gray ">
-            <Typography variant="h1" className="mb-6 text-red">
+            <p className="mb-6 text-5xl font-black text-red">
               Normativa de Compraventa Inmobiliaria en el Ordenamiento Jurídico
               de España
-            </Typography>
+            </p>
             <p>
               El artículo 1445 del <a className=" text-red">Código Civil</a>{" "}
               español establece que un contrato de compra y venta implica que

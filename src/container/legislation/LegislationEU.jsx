@@ -1,7 +1,6 @@
 import FooterSite from "@/component/footer";
 import TopImage from "@/component/topImage";
 import MenuFooterPage from "@/component/menuFooterPage";
-import { Typography } from "@material-tailwind/react";
 
 export default function LegislationEU() {
   return (
@@ -11,13 +10,13 @@ export default function LegislationEU() {
         imageUrl="cabecera-legislacion-estados-unidos-inmocor.jpg"
       />
 
-      <section className="mt-10 mb-20 text-xl text-gray px-4">
+      <section className="mt-10 mb-20 px-4 text-xl text-gray">
         <div className="container mx-auto">
           <div className="item-center content-center text-gray ">
-            <Typography variant="h1" className="mb-6 text-red">
+            <p className="mb-6 text-5xl font-black text-red">
               Normativa de Compraventa Inmobiliaria en el Ordenamiento Jurídico
               de Estados Unidos (Luisiana)
-            </Typography>
+            </p>
             <p>
               El derecho de los Estados Unidos se basa en el sistema common law
               (derecho común o anglosajón), que constituye la base para un gran

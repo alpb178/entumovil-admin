@@ -12,10 +12,10 @@ export default function LegislationIt() {
       <section className="mt-10 mb-20 text-xl text-gray px-4">
         <div className="container mx-auto">
           <div className="item-center content-center text-gray ">
-            <Typography variant="h1" className="mb-6 text-red">
+          <p className="mb-6 text-5xl font-black text-red">
               Normativa de Compraventa Inmobiliaria en el Ordenamiento Jurídico
               de Italia
-            </Typography>
+            </p>
             <p>
               En el sistema italiano, el contrato de compraventa inmobiliario se
               rige por los artículos{" "}

@@ -1,4 +1,3 @@
-import { Typography } from "@material-tailwind/react";
 import NavbarMenuPages from "../navbars/NavbarMenuPages";
 
 export default function TopImage({ name, imageUrl, description }) {
@@ -16,14 +15,14 @@ export default function TopImage({ name, imageUrl, description }) {
 
       <div className="max-w-8xl container relative mx-auto mt-10">
         <NavbarMenuPages />
-        <div className="flex flex-wrap items-center">
+        <div className="flex flex-wrap text-white items-center">
           <div className="ml-auto mr-auto w-full px-4 text-center lg:w-8/12">
-            <Typography variant="h1" color="white" className="mb-6 font-black">
+            <p  className="mb-6 text-5xl font-black">
               {name}
-            </Typography>
-            <Typography variant="h5" color="white" className="mb-6 font-black">
+            </p>
+            <p  className="mb-6 text-3xl font-black">
               {description}
-            </Typography>
+            </p>
           </div>
         </div>
       </div>

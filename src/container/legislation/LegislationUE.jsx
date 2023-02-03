@@ -1,6 +1,5 @@
 import FooterSite from "@/component/footer";
 import TopImage from "@/component/topImage";
-import { Typography } from "@material-tailwind/react";
 import MenuFooterPage from "@/component/menuFooterPage";
 
 export default function LegislationUE() {
@@ -11,13 +10,13 @@ export default function LegislationUE() {
         imageUrl="cabecera-legislacion-union-europea-inmocor.jpg"
       />
 
-      <section className="mt-10 px-4 mb-20 text-xl text-gray">
+      <section className="mt-10 mb-20 px-4 text-xl text-gray">
         <div className="container mx-auto">
           <div className="item-center content-center text-gray ">
-            <Typography variant="h1" className="mb-6 text-red">
+            <p className="mb-6 text-5xl font-black text-red">
               Normativa de Compraventa Inmobiliaria en el Ordenamiento Jurídico
               de la UE
-            </Typography>
+            </p>
             <p>
               El ordenamiento jurídico de la Unión Europea, en materia de
               contratos internacionales, se apoya, con carácter general, en dos

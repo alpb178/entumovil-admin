@@ -1,7 +1,6 @@
 import FooterSite from "@/component/footer";
 import MenuFooterPage from "@/component/menuFooterPage";
 import TopImage from "@/component/topImage";
-import { Typography } from "@material-tailwind/react";
 export default function LegislationAr() {
   return (
     <>
@@ -9,13 +8,13 @@ export default function LegislationAr() {
         name="Legislación en Argentina"
         imageUrl="cabecera-legislacion-argentina-inmocor.jpg"
       />
-      <section className="mt-10 mb-20 text-xl text-gray px-4">
+      <section className="mt-10 mb-20 px-4 text-xl text-gray">
         <div className="container mx-auto">
           <div className="item-center content-center text-gray ">
-            <Typography variant="h1" className="mb-6 text-red">
+            <p className="mb-6 text-5xl font-black text-red">
               Normativa de Compraventa Inmobiliaria en el Ordenamiento Jurídico
               de Argentina
-            </Typography>
+            </p>
             <p>
               En lo que a contratos de compraventa en general se refiere destaca
               la regulación que establece{" "}

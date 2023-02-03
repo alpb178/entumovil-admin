@@ -1,8 +1,6 @@
 import FooterSite from "@/component/footer";
 import MenuFooterPage from "@/component/menuFooterPage";
-import NavbarMenuPages from "@/component/navbars/NavbarMenuPages";
 import TopImage from "@/component/topImage";
-import { Typography } from "@material-tailwind/react";
 export default function LegislationAL() {
   return (
     <>
@@ -13,10 +11,10 @@ export default function LegislationAL() {
       <section className="mt-10 mb-20 px-4 text-xl  text-gray">
         <div className="container mx-auto">
           <div className="item-center content-center  ">
-            <Typography variant="h1" className="mb-6 text-red">
+            <p className="mb-6 text-5xl font-black text-red">
               Normativa de Compraventa Inmobiliaria en el Ordenamiento Jurídico
               de Alemania
-            </Typography>
+            </p>
             <p>
               La norma fundamental que regula los contratos de compraventa
               inmobiliaria en Alemania es el Código Civil (Bürgerliches

@@ -24,9 +24,9 @@ export default function MenuFooterPage() {
                 </div>
               </div>
               <div className="m-8 w-1/2 ">
-                <Typography variant="h5" color="black" className="mb-6">
+                <p  className="mb-6 text-xl">
                   Contacto
-                </Typography>
+                </p>
 
                 <div className="content-left text-gray-600  mt-5 flex">
                   <MapPinIcon className="mr-2 h-5 w-5 text-red" />

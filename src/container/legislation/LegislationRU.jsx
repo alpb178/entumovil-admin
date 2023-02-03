@@ -1,7 +1,7 @@
 import FooterSite from "@/component/footer";
 import TopImage from "@/component/topImage";
 import MenuFooterPage from "@/component/menuFooterPage";
-import { Typography } from "@material-tailwind/react";
+
 
 export default function LegislationRU() {
   return (
@@ -14,10 +14,10 @@ export default function LegislationRU() {
       <section className="mt-10 mb-20 text-xl text-gray px-4">
         <div className="container mx-auto">
           <div className="item-center content-center ">
-            <Typography variant="h1" className="mb-6 text-red">
+          <p className="mb-6 text-5xl font-black text-red">
               Normativa de Compraventa Inmobiliaria en el Ordenamiento Jurídico
               de Reino Unido
-            </Typography>
+            </p>
             <p>
               El derecho del reino unido deriva del common law o derecho
               consuetudinario (muy diferente a las concepciones de Europa

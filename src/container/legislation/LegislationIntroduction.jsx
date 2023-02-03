@@ -1,6 +1,5 @@
 import FooterSite from "@/component/footer";
 import MenuFooterPage from "@/component/menuFooterPage";
-import NavbarMenuPages from "@/component/navbars/NavbarMenuPages";
 import TopImage from "@/component/topImage";
 import {
   INMOCOR_LEGISLATION_AL,
@@ -15,32 +14,14 @@ import {
   INMOCOR_LEGISLATION_UE,
 } from "@/lib/constants";
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
-import { Typography } from "@material-tailwind/react";
 export default function LegislationIntroduction() {
   return (
     <>
-      <div className="relative flex  h-96 content-center items-center justify-center pt-16 pb-32">
-        <div className="absolute  top-0 h-full w-full bg-[url('/img/bg/cabecera-legislacion-inmocor.jpg')] bg-cover bg-center" />
-        <div className="absolute  top-0 h-full w-full backdrop-brightness-50" />
-
-        <div className="max-w-8xl container  relative mx-auto ">
-          <div className="items-right flex flex-wrap text-right">
-            <NavbarMenuPages />
-            <div className="ml-auto mr-auto w-full px-4 text-center lg:w-8/12">
-              <Typography
-                variant="h2"
-                color="white"
-                className="mb-6 font-black"
-              >
-                Legislación
-              </Typography>
-              <Typography variant="h6" color="white" className="font-black">
-                Normativa de los diferentes ordenamientos jurídicos
-              </Typography>
-            </div>
-          </div>
-        </div>
-      </div>
+      <TopImage
+        name="Legislación"
+        description="Normativa de los diferentes ordenamientos jurídicos"
+        imageUrl="cabecera-legislacion-inmocor.jpg"
+      />
       <section className="bg-gray-50  bg-legislation-gray px-4 pb-20 pt-4 text-xl text-gray">
         <div className="container mx-auto">
           <div className="w-full text-gray">

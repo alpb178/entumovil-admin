@@ -28,8 +28,8 @@ const Translate = () => {
   };
 
   return (
-    <div className=" h-10 w-full items-center bg-ocre-red">
-      <a className="bg-red" id="google_translate_element" />
+    <div className=" relative flex h-10  w-full bg-ocre-red">
+      <a className="ml-auto m-2" id="google_translate_element" />
     </div>
   );
 };

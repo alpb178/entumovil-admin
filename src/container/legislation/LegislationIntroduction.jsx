@@ -1,5 +1,5 @@
 import FooterSite from "@/component/footer";
-import MenuFooterPage from "@/component/menuFooterPage";
+
 import TopImage from "@/component/topImage";
 import {
   INMOCOR_LEGISLATION_AL,
@@ -217,7 +217,6 @@ export default function LegislationIntroduction() {
         </div>
       </section>
 
-      <MenuFooterPage />
       <FooterSite />
     </>
   );

@@ -1,5 +1,5 @@
 import FooterSite from "@/component/footer";
-import MenuFooterPage from "@/component/menuFooterPage";
+
 import TopImage from "@/component/topImage";
 
 export default function LegislationCt() {
@@ -78,7 +78,6 @@ export default function LegislationCt() {
           </div>
         </div>
       </section>
-      <MenuFooterPage />
       <FooterSite />
     </>
   );

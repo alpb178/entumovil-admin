@@ -1,6 +1,5 @@
 import FooterSite from "@/component/footer";
 import TopImage from "@/component/topImage";
-import MenuFooterPage from "@/component/menuFooterPage";
 
 
 export default function LegislationRU() {
@@ -11,10 +10,10 @@ export default function LegislationRU() {
         imageUrl="cabecera-legislacion-reino-unido-inmocor.jpg"
       />
 
-      <section className="mt-10 mb-20 text-xl text-gray px-4">
+      <section className="mt-10 mb-20 px-4 text-xl text-gray">
         <div className="container mx-auto">
           <div className="item-center content-center ">
-          <p className="mb-6 text-5xl font-black text-red">
+            <p className="mb-6 text-5xl font-black text-red">
               Normativa de Compraventa Inmobiliaria en el Ordenamiento Jurídico
               de Reino Unido
             </p>
@@ -99,7 +98,7 @@ export default function LegislationRU() {
           </div>
         </div>
       </section>
-      <MenuFooterPage />
+
       <FooterSite />
     </>
   );

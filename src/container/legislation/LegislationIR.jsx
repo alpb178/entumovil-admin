@@ -1,5 +1,5 @@
 import FooterSite from "@/component/footer";
-import MenuFooterPage from "@/component/menuFooterPage";
+
 import TopImage from "@/component/topImage";
 export default function LegislationIr() {
   return (
@@ -8,10 +8,10 @@ export default function LegislationIr() {
         name="Legislación en Irlanda"
         imageUrl="cabecera-legislacion-irlanda-inmocor.jpg"
       />
-      <section className="mt-10 mb-20 text-xl text-gray px-4">
+      <section className="mt-10 mb-20 px-4 text-xl text-gray">
         <div className="container mx-auto">
           <div className="item-center content-center text-gray ">
-          <p className="mb-6 text-5xl font-black text-red">
+            <p className="mb-6 text-5xl font-black text-red">
               Normativa de Compraventa Inmobiliaria en el Ordenamiento Jurídico
               de Irlanda
             </p>
@@ -101,7 +101,6 @@ export default function LegislationIr() {
           </div>
         </div>
       </section>
-      <MenuFooterPage />
       <FooterSite />
     </>
   );

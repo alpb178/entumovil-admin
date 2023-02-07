@@ -1,6 +1,6 @@
 import FooterSite from "@/component/footer";
 import TopImage from "@/component/topImage";
-import MenuFooterPage from "@/component/menuFooterPage";
+
 
 export default function LegislationEU() {
   return (
@@ -89,7 +89,7 @@ export default function LegislationEU() {
           </div>
         </div>
       </section>
-      <MenuFooterPage />
+
       <FooterSite />
     </>
   );

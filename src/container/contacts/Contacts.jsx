@@ -1,5 +1,5 @@
 import FooterSite from "@/component/footer";
-import MenuFooterPage from "@/component/menuFooterPage";
+
 import TopImage from "@/component/topImage";
 
 export default function Contacts() {
@@ -230,7 +230,6 @@ export default function Contacts() {
           </div>
         </div>
       </section>
-      <MenuFooterPage />
       <FooterSite />
     </>
   );

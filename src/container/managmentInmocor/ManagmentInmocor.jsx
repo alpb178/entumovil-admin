@@ -3,7 +3,7 @@ import { Card, Typography, CardBody } from "@material-tailwind/react";
 
 import FooterSite from "@/component/footer";
 import NavbarMenuPages from "@/component/navbars/NavbarMenuPages";
-import MenuFooterPage from "@/component/menuFooterPage";
+
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import TopImage from "@/component/topImage";
 
@@ -206,7 +206,6 @@ export function ManagmentInmocor() {
         </div>
       </section>
 
-      <MenuFooterPage />
       <FooterSite />
     </>
   );

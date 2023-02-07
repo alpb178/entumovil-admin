@@ -1,6 +1,6 @@
 import React from "react";
 import FooterSite from "@/component/footer";
-import MenuFooterPage from "@/component/menuFooterPage";
+
 import TopImage from "@/component/topImage";
 
 export default function Publications() {
@@ -429,7 +429,6 @@ export default function Publications() {
           </div>
         </div>
       </section>
-      <MenuFooterPage />
       <FooterSite />
     </>
   );

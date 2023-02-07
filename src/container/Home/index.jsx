@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, CardBody } from "@material-tailwind/react";
 import FooterSite from "@/component/footer";
-import MenuFooterPage from "@/component/menuFooterPage";
+
 import Carrousel from "@/component/carrousel";
 
 export function HomeContainer() {
@@ -10,8 +10,8 @@ export function HomeContainer() {
       <Carrousel />
       <section className=" bg-gray-50  -mt-32 px-4 pb-20 pt-4">
         <div className="container mx-auto">
-          <Card className=" border-0 shadow-gray-500/10 shadow-lg">
-            <CardBody className="border-0 static px-8 text-left">
+          <Card className=" shadow-gray-500/10 border-0 shadow-lg">
+            <CardBody className="static border-0 px-8 text-left">
               <p className="mb-6 text-5xl font-black text-red">INMOCOR</p>
               <p className="mb-6 text-2xl font-black">
                 Compilación de un macrocorpus para la generación de recursos
@@ -29,6 +29,7 @@ export function HomeContainer() {
                 resultados serán de aplicación directa y gratuita para la
                 investigación, el ámbito profesional y la enseñanza.
               </p>
+
               <p className="mb-5 text-xl text-gray">
                 Así, en un mundo laboral cada vez más competitivo es fundamental
                 que los profesionales cuenten con herramientas que puedan dar
@@ -71,7 +72,6 @@ export function HomeContainer() {
         </div>
       </section>
 
-      <MenuFooterPage />
       <FooterSite />
     </>
   );

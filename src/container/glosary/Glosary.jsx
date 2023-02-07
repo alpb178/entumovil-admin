@@ -1,5 +1,5 @@
 import FooterSite from "@/component/footer";
-import MenuFooterPage from "@/component/menuFooterPage";
+
 import Table from "@/component/table";
 import { Typography } from "@material-tailwind/react";
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
@@ -109,7 +109,6 @@ export default function Glosary() {
         </div>
       </section>
 
-      <MenuFooterPage />
       <FooterSite />
     </div>
   );

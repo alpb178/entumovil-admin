@@ -1,4 +1,4 @@
-import MenuFooterPage from "@/component/menuFooterPage";
+
 import FooterSite from "@/component/footer";
 import TopImage from "@/component/topImage";
 
@@ -109,7 +109,7 @@ export default function LegislationES() {
           </div>
         </div>
       </section>
-      <MenuFooterPage />
+
       <FooterSite />
     </>
   );

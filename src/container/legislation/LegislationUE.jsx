@@ -1,6 +1,6 @@
 import FooterSite from "@/component/footer";
 import TopImage from "@/component/topImage";
-import MenuFooterPage from "@/component/menuFooterPage";
+
 
 export default function LegislationUE() {
   return (
@@ -82,7 +82,6 @@ export default function LegislationUE() {
         </div>
       </section>
 
-      <MenuFooterPage />
       <FooterSite />
     </>
   );

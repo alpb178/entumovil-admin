@@ -1,6 +1,6 @@
 import React from "react";
 import FooterSite from "@/component/footer";
-import MenuFooterPage from "@/component/menuFooterPage";
+
 import { INMOCOR_MANAGMENT_INMOGEN_PAGE } from "@/lib/constants";
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import TopImage from "@/component/topImage";
@@ -184,7 +184,6 @@ export function Inmogen() {
         </div>
       </section>
 
-      <MenuFooterPage />
       <FooterSite />
     </>
   );

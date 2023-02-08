@@ -45,8 +45,8 @@ import TemplateIVPage from "./pages/templateIV";
 
 export const routes = [
   {
-    name: "home",
-    path: "/home",
+    name: "Inicio",
+    path: "/Inicio",
     element: <Home />,
   },
   {

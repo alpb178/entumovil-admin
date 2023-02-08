@@ -4,7 +4,7 @@ export const DEFAULT_PAGE_SIZE = 10;
 export const NAVBAR_HEIGHT = 92;
 export const FOOTER_HEIGHT = 80;
 
-export const INMOCOR_HOME_PAGE = '/home';
+export const INMOCOR_HOME_PAGE = '/Inicio';
 
 export const INMOCOR_LEGISLATION_AR = '/legislacion-Argentina';
 export const INMOCOR_LEGISLATION_ES = '/legislacion-España';

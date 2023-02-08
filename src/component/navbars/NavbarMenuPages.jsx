@@ -9,8 +9,6 @@ import {
 } from "@/lib/constants";
 import { useEffect, useState } from "react";
 import Translate from "../googleTranslate";
-import SamplePage from "../googleTranslate";
-import GoogleTranslate from "../googleTranslate";
 import ItemsMenuNavbar from "./ItemsMenuNavbar";
 
 export const navList = (
@@ -77,11 +75,11 @@ export default function NavbarMenuPages() {
             <div className="w-6/6 ml-12 flex h-full content-center items-center">
               {navList}
             </div>
-          </div>{" "}
+          </div>
         </div>
       ) : (
         <div className="max-w-8xl container relative z-10 mx-auto mt-10 mb-10 h-20 w-full bg-white text-lg">
-          <Translate />
+          <Translate  />
 
           <div className=" flex h-full w-full bg-white text-right">
             <div className=" align-center mt-15 flex content-center items-center text-center ">

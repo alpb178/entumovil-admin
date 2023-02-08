@@ -71,7 +71,7 @@ export function HomeContainer() {
           </Card>
         </div>
       </section>
-
+     
       <FooterSite />
     </>
   );

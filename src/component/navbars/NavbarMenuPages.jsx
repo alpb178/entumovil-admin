@@ -78,8 +78,8 @@ export default function NavbarMenuPages() {
           </div>
         </div>
       ) : (
-        <div className="max-w-8xl container relative z-10 mx-auto mt-10 mb-10 h-20 w-full bg-white text-lg">
-          <Translate  />
+        <div className=" container relative z-10 mx-auto mt-10 mb-10 h-20 w-full bg-white">
+          <Translate />
 
           <div className=" flex h-full w-full bg-white text-right">
             <div className=" align-center mt-15 flex content-center items-center text-center ">

@@ -14,7 +14,7 @@ export default function ItemsMenuNavbar({ title, items }) {
         </Button>
       </PopoverHandler>
       <PopoverContent className="mt-5">
-        <div className="relative grid gap-6 bg-white px-5 py-6  text-lg font-medium text-black sm:gap-8 sm:p-8">
+        <div className="relative grid gap-6 bg-white px-5 py-6  text-xl font-black text-black sm:gap-8 sm:p-8">
           {items.map((item) => (
             <a
               key={item.name}

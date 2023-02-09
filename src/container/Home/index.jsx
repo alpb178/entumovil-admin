@@ -10,9 +10,9 @@ export function HomeContainer() {
       <Carrousel />
       <section className=" bg-gray-50  -mt-32 px-4 pb-20 pt-4">
         <div className="container mx-auto">
-          <Card className=" shadow-gray-500/10 border-0 shadow-lg">
-            <CardBody className="static border-0 px-8 text-left">
-              <p className="mb-6 text-5xl font-black text-red">INMOCOR</p>
+          <Card className=" shadow-gray-500/10 rounded-none shadow-lg">
+            <CardBody className="static rounded-none px-8 text-left">
+              <p className="mb-6 text-5xl mt-10 font-black text-red">INMOCOR</p>
               <p className="mb-6 text-2xl font-black">
                 Compilación de un macrocorpus para la generación de recursos
                 multilingües en al ámbito inmobiliario
@@ -66,7 +66,7 @@ export function HomeContainer() {
               </p>
             </CardBody>
             <div className="absolute bottom-0 right-0">
-              <img alt="Card Image" src="/img/favicon-32x32.png" />
+              <img alt="Card Image" className="w-20 mt-10 h-20" src="/img/android-chrome-192x192.png" />
             </div>
           </Card>
         </div>

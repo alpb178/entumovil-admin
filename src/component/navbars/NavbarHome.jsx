@@ -7,12 +7,11 @@ import {
   INMOCOR_MANAGMENT_PUBLICATIONS_PAGE,
   legislation,
 } from "@/lib/constants";
-import { useEffect, useState } from "react";
 import ItemsMenuNavbar from "./ItemsMenuNavbar";
 import NavbarMenuPages from "./NavbarMenuPages";
 
 export const navList = (
-  <ul className="mb-4 mr-8 flex flex-col justify-items-center gap-2 text-left  text-lg font-black text-black  lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+  <ul className="mb-4 mr-8 flex flex-col justify-items-center gap-2 text-left  font-black text-black  lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
     <a href={INMOCOR_HOME_PAGE} className="text-red">
       INICIO
     </a>
@@ -45,11 +44,9 @@ export const navList = (
 );
 
 export default function NavbarHome() {
- 
-
   return (
     <div className="absolute top-0 left-0 right-0">
-      <NavbarMenuPages/>
-     </div>
-  )
+      <NavbarMenuPages />
+    </div>
+  );
 }

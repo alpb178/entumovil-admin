@@ -21,14 +21,14 @@ export default function LegislationUE() {
               El ordenamiento jurídico de la Unión Europea, en materia de
               contratos internacionales, se apoya, con carácter general, en dos
               reglamentos, saber,
-              <a className="font-black text-red">
+              <a className="font-black text-red hover:text-link-red" href="https://eur-lex.europa.eu/legal-content/ES/ALL/?uri=CELEX%3A32001R0044">
                 Reglamento (CE) n.º 44/2001 del Consejo, de 22 de diciembre del
                 2002, relativo a la competencia judicial, el reconocimiento y la
                 ejecución de resoluciones judiciales en materia civil y
                 mercantil
               </a>{" "}
               (conocido como Bruselas I) y{" "}
-              <a className="font-black text-red">
+              <a className="font-black text-red hover:text-link-red" href="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2008:177:0006:0016:ES:PDF">
                 Reglamento (CE) n.º 593/2008 del Parlamento Europeo y del
                 Consejo de 17 de junio de 2008 sobre la ley aplicable a las
                 obligaciones contractuales
@@ -40,32 +40,32 @@ export default function LegislationUE() {
               de la Unión, se han aprobado las siguientes directivas:
             </p>
             <p className="m-10">
-              <a className="font-black text-red">Directiva 94/47/CE</a> del
+              <a className="font-black text-red hover:text-link-red" href="https://eur-lex.europa.eu/legal-content/ES/ALL/?uri=celex:31994L0047">Directiva 94/47/CE</a> del
               Parlamento Europeo y del Consejo, de 26 de octubre de 1994,
               relativa a la protección de los adquirientes en lo relativo a
               determinados aspectos de los contratos.
             </p>
             <p className="m-10">
-              <a className="font-black text-red">Directiva 2011/83/UE</a> del
+              <a className="font-black text-red hover:text-link-red" href="https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32011L0083">Directiva 2011/83/UE</a> del
               Parlamento Europeo y del Consejo de, 25 de octubre de 2011, sobre
               los derechos de los consumidores, por la que se modifican la
-              <a className=" text-red"> Directiva 93/13/CEE</a> del Consejo, de
+              <a className=" text-red hover:text-link-red" href="https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=celex%3A31993L0013"> Directiva 93/13/CEE</a> del Consejo, de
               5 de abril de 1993, sobre las cláusulas abusivas en los contratos
               celebrados con consumidores y
-              <a className=" text-red">Directiva 1999/44/CE</a> del Parlamento
+              <a className=" text-red hover:text-link-red" href="https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=celex%3A31999L0044">Directiva 1999/44/CE</a> del Parlamento
               Europeo y del Consejo, de 25 de mayo de 1999, sobre determinados
               aspectos de la venta y las garantías de los bienes de consumo y se
-              derogan la <a className=" text-red">Directiva 85/577/CEE</a> del
+              derogan la <a className=" text-red hover:text-link-red" href="https://eur-lex.europa.eu/legal-content/ES/ALL/?uri=CELEX%3A31985L0577">Directiva 85/577/CEE</a> del
               Consejo, de 20 de diciembre de 1985, referente a la protección de
               los consumidores en el caso de contratos negociados fuera de los
               establecimientos comerciales y la
-              <a className=" text-red">Directiva 97/7/CE</a>
+              <a className=" text-red hover:text-link-red" href="https://eur-lex.europa.eu/legal-content/ES/ALL/?uri=CELEX%3A31997L0007">Directiva 97/7/CE</a>
               del Parlamento Europeo y del Consejo de 20 de mayo de 1997,
               relativa a la protección de los consumidores en materia de
               contratos a distancia.
             </p>
             <p className="m-10">
-              <a className="font-black text-red ">Directiva 2014/55/UE</a> del
+              <a className="font-black text-red hover:text-link-red" href="https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=celex%3A32014L0055">Directiva 2014/55/UE</a> del
               Parlamento Europeo y del Consejo, de 16 de abril de 2014, relativa
               a la facturación electrónica en la contratación pública.
             </p>

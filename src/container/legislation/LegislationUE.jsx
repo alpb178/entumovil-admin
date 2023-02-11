@@ -22,7 +22,7 @@ export default function LegislationUE() {
               contratos internacionales, se apoya, con carácter general, en dos
               reglamentos, saber,
               <a className="font-black text-red hover:text-link-red" href="https://eur-lex.europa.eu/legal-content/ES/ALL/?uri=CELEX%3A32001R0044">
-                Reglamento (CE) n.º 44/2001 del Consejo, de 22 de diciembre del
+              {" "}Reglamento (CE) n.º 44/2001 del Consejo, de 22 de diciembre del
                 2002, relativo a la competencia judicial, el reconocimiento y la
                 ejecución de resoluciones judiciales en materia civil y
                 mercantil
@@ -52,14 +52,14 @@ export default function LegislationUE() {
               <a className=" text-red hover:text-link-red" href="https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=celex%3A31993L0013"> Directiva 93/13/CEE</a> del Consejo, de
               5 de abril de 1993, sobre las cláusulas abusivas en los contratos
               celebrados con consumidores y
-              <a className=" text-red hover:text-link-red" href="https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=celex%3A31999L0044">Directiva 1999/44/CE</a> del Parlamento
+              <a className=" text-red hover:text-link-red" href="https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=celex%3A31999L0044">{" "}Directiva 1999/44/CE</a> del Parlamento
               Europeo y del Consejo, de 25 de mayo de 1999, sobre determinados
               aspectos de la venta y las garantías de los bienes de consumo y se
               derogan la <a className=" text-red hover:text-link-red" href="https://eur-lex.europa.eu/legal-content/ES/ALL/?uri=CELEX%3A31985L0577">Directiva 85/577/CEE</a> del
               Consejo, de 20 de diciembre de 1985, referente a la protección de
               los consumidores en el caso de contratos negociados fuera de los
               establecimientos comerciales y la
-              <a className=" text-red hover:text-link-red" href="https://eur-lex.europa.eu/legal-content/ES/ALL/?uri=CELEX%3A31997L0007">Directiva 97/7/CE</a>
+              <a className=" text-red  hover:text-link-red" href="https://eur-lex.europa.eu/legal-content/ES/ALL/?uri=CELEX%3A31997L0007">{" "}Directiva 97/7/CE{" "}</a>
               del Parlamento Europeo y del Consejo de 20 de mayo de 1997,
               relativa a la protección de los consumidores en materia de
               contratos a distancia.

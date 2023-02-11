@@ -35,15 +35,15 @@ export default function LegislationRU() {
               Debido a la delimitación diatópica realizada, nos centraremos en
               Inglaterra y Gales. Para ello, se ha identificado la normativa
               primaria (que rige todo el Reino Unido), a saber,{" "}
-              <a className="font-black italic text-red">
+              <a className="font-black italic text-red hover:text-link-red" href="https://www.legislation.gov.uk/ukpga/1979/54">
                 Sale of Goods Act 1979
               </a>{" "}
               y{" "}
-              <a className="font-black italic text-red">
+              <a className="font-black italic text-red hover:text-link-red" href="https://www.legislation.gov.uk/ukpga/1974/39/contents">
                 Consumer Credit Act 1974
               </a>
               , posteriormente modificada por
-              <a className="font-black italic text-red">
+              <a className="font-black italic text-red hover:text-link-red" href="https://www.legislation.gov.uk/ukpga/2006/14/contents">
                 Consumer Credit Act 2006
               </a>
               .
@@ -82,7 +82,7 @@ export default function LegislationRU() {
             <p className="mt-5">
               Como ley secundaria, de aplicación exclusiva en Inglaterra y
               Gales, destaca{" "}
-              <a className="font-black italic text-red">
+              <a className="font-black italic text-red hover:text-link-red" href="https://www.legislation.gov.uk/ukpga/Geo5/15-16/20">
                 Law of Property Act 1925
               </a>{" "}
               (modificada con fecha 5 de febrero de 2019), cuyo principal

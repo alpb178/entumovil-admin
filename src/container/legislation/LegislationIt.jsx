@@ -18,8 +18,8 @@ export default function LegislationIt() {
             <p>
               En el sistema italiano, el contrato de compraventa inmobiliario se
               rige por los artículos{" "}
-              <a className="font-black italic text-red">1470</a> a{" "}
-              <a className="font-black italic text-red">1509</a> del Codice
+              <a className="font-black italic text-red hover:text-link-red" href="https://www.brocardi.it/codice-civile/libro-quarto/titolo-iii/capo-i/sezione-i/art1470.html">1470</a> a{" "}
+              <a className="font-black italic text-red hover:text-link-red" href="https://www.brocardi.it/codice-civile/libro-quarto/titolo-iii/capo-i/sezione-i/art1509.html">1509</a> del Codice
               Civile, que lo denomina simplemente venta ("vendita"). Así, el
               artículo 1470 establece que "la venta es el contrato que tiene por
               objeto la transmisión de la propiedad de una cosa o la transmisión
@@ -32,7 +32,7 @@ export default function LegislationIt() {
               El ordenamiento jurídico italiano establece con precisión los
               deberes y obligaciones del vendedor. Con el contrato de
               compraventa, el vendedor (art.{" "}
-              <a className="font-black italic text-red">1476</a> del Codice
+              <a className="font-black italic text-red hover:text-link-red" href="https://www.brocardi.it/codice-civile/libro-quarto/titolo-iii/capo-i/sezione-i/art1476.html">1476</a> del Codice
               Civile) se compromete a entregar la propiedad al comprador,
               transferir la propiedad u otro derecho real a favor del comprador
               y a garantizar al comprador contra el riesgo de desahucio y los
@@ -40,7 +40,7 @@ export default function LegislationIt() {
             </p>
             <p className="mt-5">
               Por su parte, el artículo{" "}
-              <a className="font-black italic text-red">1477</a> del Codice
+              <a className="font-black italic text-red hover:text-link-red" href="https://www.brocardi.it/codice-civile/libro-quarto/titolo-iii/capo-i/sezione-i/art1477.html">1477</a> del Codice
               Civile especifica que el bien que se vende debe entregarse "en el
               estado en que se encontraba en el momento de la venta". El
               vendedor también está obligado a entregar al comprador los
@@ -52,13 +52,13 @@ export default function LegislationIt() {
               momento del contrato preliminar de venta el inmueble no era
               propiedad del vendedor "... el vendedor está obligado a procurar
               su compra al comprador" (art.{" "}
-              <a className="font-black italic text-red">1478</a> del Codice
+              <a className="font-black italic text-red hover:text-link-red" href="https://www.brocardi.it/codice-civile/libro-quarto/titolo-iii/capo-i/sezione-i/art1478.html">1478</a> del Codice
               Civile).
             </p>
             <p className="mt-5">
               Como consecuencia de la constatación jurisdiccional del título de
               propiedad del vendedor, se produce el desahucio (art.{" "}
-              <a className="font-black italic text-red">1485</a> del Codice
+              <a className="font-black italic text-red hover:text-link-red" href="https://www.brocardi.it/codice-civile/libro-quarto/titolo-iii/capo-i/sezione-i/art1485.html">1485</a> del Codice
               Civile). De este modo, el comprador se ve privado de su derecho a
               la transferencia de los bienes. Las obligaciones del vendedor en
               este caso prevén: la indemnización del daño sufrido por el
@@ -66,10 +66,10 @@ export default function LegislationIt() {
               gastos incurridos por el comprador.
             </p>
             Por otra parte, de acuerdo con el artículo{" "}
-            <a className="font-black italic text-red">1490</a> del Codice
+            <a className="font-black italic text-red hover:text-link-red" href="https://www.brocardi.it/codice-civile/libro-quarto/titolo-iii/capo-i/sezione-i/art1490.html">1490</a> del Codice
             Civile, el vendedor debe garantizar al comprador que la propiedad
             vendida está libre de defectos. Por su parte, el artículo{" "}
-            <a className="font-black italic text-red">1477</a> establece
+            <a className="font-black italic text-red hover:text-link-red" href="https://www.brocardi.it/codice-civile/libro-quarto/titolo-iii/capo-i/sezione-i/art1477.html">1477</a> establece
             expresamente que las obligaciones del vendedor incluyen la entrega
             de documentos y títulos relativos a la propiedad.
           </div>

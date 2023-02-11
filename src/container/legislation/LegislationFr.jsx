@@ -21,16 +21,16 @@ export default function LegislationFr() {
               continuación.
             </p>
             <p className="mt-5">
-              En primer lugar, destaca el{" "}
-              <a className="font-black italic text-red">
-                Código Civil de Francia
+              En primer lugar, destaca el Código Civil de Francia{" "}
+              <a className="font-black italic text-red hover:text-link-red" href="https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006070721">
+              (Code Civil)
               </a>{" "}
-              (Code Civil) que regula todo lo que corresponde a las personas
+               que regula todo lo que corresponde a las personas
               físicas y jurídicas, así como a los bienes y a las relaciones
               entre los ciudadanos de este país. En lo que concierne a las
               acciones de compra-venta de un bien inmobiliario, el Code Civil
               dedica su
-              <a className="font-black italic text-red">
+              <a className="font-black italic text-red hover:text-link-red" href="https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000006090271/#LEGISCTA000006090271">
                 Livre III a la adquisición de una propiedad: Livre III: Des
                 différentes manières dont on acquiert la propriété (Articles 711
                 à 2278)
@@ -39,13 +39,14 @@ export default function LegislationFr() {
               concepto de venta (vente) de forma general hasta cada una de las
               obligaciones y derechos de cualquier comprador y vendedor, así
               como los tipos de contrato, por ejemplo, con el{" "}
-              <a className="font-black italic text-red"></a>Titre VI: De la
-              vente (Articles 1582 à 1701-1). También se puede mencionar el
-              <a className="font-black italic text-red">
+              <a className="font-black italic text-red hover:text-link-red" href="https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000006118107/#LEGISCTA000006118107"></a>Titre VI: De la
+              vente (Articles 1582 à 1701-1)
+              <a>. También se puede mencionar el {" "}</a>
+              <a className="font-black italic text-red hover:text-link-red" href="https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000006118032/#LEGISCTA000032040794">
                 Titre III: Des sources d’obligations (Articles 1100 à 1303-4)
               </a>{" "}
               y
-              <a className="font-black italic text-red">
+              <a className="font-black italic text-red hover:text-link-red" href="https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000006118073/#LEGISCTA000032041884">
                 Titre IV: Du régime général des obligations (Articles 1304 à
                 1352-9)
               </a>
@@ -54,18 +55,18 @@ export default function LegislationFr() {
             </p>
             <p className="mt-5">
               Para continuar, cabe citar el{" "}
-              <a className="font-black italic text-red">
+              <a className="font-black italic text-red hover:text-link-red" href="https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006074096/2022-07-10/">
                 Code de la construction et de l’habitation
               </a>
               , cuyos artículos se orientan hacia la regulación de la
               construcción de edificios y bienes inmuebles, el estado de los
               constructores y las medidas de protección relativas a estos bienes
               inmobiliarios con el{" "}
-              <a className="font-black italic text-red">
+              <a className="font-black italic text-red hover:text-link-red" href="https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074096/LEGISCTA000006128681/#LEGISCTA000006128681">
                 Livre II: Statut de constructeurs (Articles L200-1 à L291-4)
               </a>
               . Y, dentro de este Código, hemos de mencionar también el{" "}
-              <a className="font-black italic text-red">
+              <a className="font-black italic text-red hover:text-link-red" href="https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074096/LEGISCTA000006128692/#LEGISCTA000042342704">
                 Livre V: Lutte contre l’habitat indigne (Articles L411 à L551-1)
               </a>{" "}
               ya que sus artículos se centran en el derecho a tener una vivienda
@@ -77,15 +78,15 @@ export default function LegislationFr() {
               en alguno de estos contratos inmobiliarios, así como el control de
               las obligaciones que tienen los vendedores para con sus clientes.
               Esto, entre otros muchos puntos, se regulariza con el{" "}
-              <a className="font-black italic text-red">
+              <a className="font-black italic text-red hover:text-link-red" href="https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006069565/2022-07-10/">
                 Code de la consommation
               </a>
               , del que subrayamos el{" "}
-              <a className="font-black italic text-red">
+              <a className="font-black italic text-red hover:text-link-red" href="https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069565/LEGISCTA000032221961/#LEGISCTA000032226222">
                 Livre III: Crédit (Articles L311-1 à L354-6)
               </a>{" "}
               y, dentro de este libro, el{" "}
-              <a className="font-black italic text-red">
+              <a className="font-black italic text-red hover:text-link-red" href="https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069565/LEGISCTA000032222201/#LEGISCTA000032225973">
                 Chapitre III: Crédit immobilier (Articles L313-1 à L313-64)
               </a>{" "}
               cuyos artículos están dedicados a la financiación de la compra
@@ -96,7 +97,7 @@ export default function LegislationFr() {
               rigen el proceso civil, es decir, cualquier solicitud, citación,
               juicio, condición de admisibilidad o los plazos entre las partes
               de cualquier tipo de contrato viene normalizado por el{" "}
-              <a className="font-black italic text-red">
+              <a className="font-black italic text-red hover:text-link-red" href="https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006070716/2022-07-10/">
                 Code de la procédure civile
               </a>
               , lo que en España sería el Código procesal civil.

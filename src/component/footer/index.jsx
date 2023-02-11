@@ -37,9 +37,8 @@ export default function FooterSite() {
 
                   <div className="text-gray-600 mt-5 flex content-center">
                     <InboxIcon className="mr-2 h-5 w-5 text-red" />
-                    <p className="text-red">seghiri@uma.es</p>
+                    <a className="text-red hover:text-link-red" href="mailto:seghiri@uma.es">seghiri@uma.es</a>
                   </div>
-
                   <div className="text-gray-600 mt-5 flex content-center">
                     <PhoneIcon className="mr-2 h-5 w-5 text-red" />
                     <div className="text-gray">952 137 357</div>

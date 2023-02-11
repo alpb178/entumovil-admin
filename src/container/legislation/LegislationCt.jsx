@@ -18,8 +18,8 @@ export default function LegislationCt() {
             </p>
             <p>
               En materia de derecho privado, Cataluña dispone de una legislación
-              específica establecida principalmente en el Código civil de
-              Cataluña y, en concreto, en sus libros cinco y seis.
+              específica establecida principalmente en el <a className=" text-red font-black italic hover:text-link-red" href="">Código civil de
+              Cataluña</a> y, en concreto, en sus libros cinco y seis.
             </p>
 
             <p className="mt-5">
@@ -30,7 +30,7 @@ export default function LegislationCt() {
               la propiedad horizontal.
             </p>
             <p className="mt-5">
-              La Ley 3/2017, de 15 de febrero, del libro sexto del Código civil
+            <a className=" text-red font-black italic hover:text-link-red" href=""> La Ley 3/2017, de 15 de febrero</a>, del libro sexto del Código civil
               de Cataluña, relativo a las obligaciones y los contratos, y de
               modificación de los libros primero, segundo, tercero, cuarto y
               quinto, supuso la aprobación del libro sexto del Código civil de
@@ -70,7 +70,7 @@ export default function LegislationCt() {
             </p>
             <p className="mt-5">
               Como leyes complementarias, en materia de derecho a la vivienda,
-              la Ley 18/2007, de 28 de diciembre, del derecho a la vivienda
+              <a className=" text-red font-black italic hover:text-link-red" href="">{" "}la Ley 18/2007, de 28 de diciembre, del derecho a la vivienda {" "}</a>
               regula, entre otros aspectos, los relativos a los requisitos de
               información en materia de protección de los consumidores y
               usuarios de viviendas en el mercado inmobiliario.

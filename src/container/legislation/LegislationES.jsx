@@ -18,7 +18,7 @@ export default function LegislationES() {
               de España
             </p>
             <p>
-              El artículo 1445 del <a className=" text-red">Código Civil</a>{" "}
+              El artículo 1445 del <a className=" text-red hover:text-link-red" href="https://boe.es/buscar/act.php?id=BOE-A-1889-4763">Código Civil</a>{" "}
               español establece que un contrato de compra y venta implica que
               «[…] uno de los contratantes se obliga a entregar una cosa
               determinada y el otro a pagar por ella un precio cierto en dinero
@@ -53,28 +53,28 @@ export default function LegislationES() {
             <p>
               En cuanto a normativa específica en materia de contratos de
               compraventa de vivienda, destacan la Ley 26/1984, de 19 de junio,
-              <a className="font-black italic text-red">
+              <a className="font-black italic text-red hover:text-link-red" href="https://boe.es/buscar/doc.php?id=BOE-A-1984-16737">
                 General para la Defensa de los Consumidores y Usuarios
               </a>{" "}
               que ha sido modificada por la Ley 7/1998 de 13 de abril,
-              <a className="font-black italic text-red">
+              <a className="font-black italic text-red hover:text-link-red" href="">
                 sobre las Condiciones Generales de Contratación
               </a>{" "}
               (concretamente, el artículo 10 bis, en relación a las cláusulas
               abusivas) y por el{" "}
-              <a className="font-black italic text-red">
+              <a className="font-black italic text-red hover:text-link-red" href="https://boe.es/buscar/act.php?id=BOE-A-2007-20555">
                 Real Decreto Legislativo 1/2007, de 16 de noviembre, por el que
                 se aprueba el texto refundido de la Ley General para la Defensa
                 de los Consumidores y Usuarios y otras leyes complementarias
               </a>{" "}
               . Asimismo, se ha visto afectada con la promulgación de la{" "}
-              <a className="font-black italic text-red">
+              <a className="font-black italic text-red hover:text-link-red" href="https://www.boe.es/buscar/doc.php?id=BOE-A-2002-20855">
                 Ley 39/2002, de 28 de octubre, de transposición al ordenamiento
                 jurídico español de Directivas Comunitarias en materia de
                 protección de intereses de los consumidores y usuarios
               </a>{" "}
               . Sobre esta misma materia, se ha aprobado la{" "}
-              <a className="font-black italic text-red">
+              <a className="font-black italic text-red hover:text-link-red" href="https://www.boe.es/buscar/doc.php?id=BOE-A-2006-22950">
                 Ley 44/2006, de 29 de diciembre, de mejora de la protección de
                 los consumidores y usuarios y el Real Decreto 515/1989, de 21 de
                 abril, sobre protección de los consumidores en cuanto a la
@@ -82,23 +82,23 @@ export default function LegislationES() {
                 viviendas
               </a>
               ; así como, la
-              <a className="font-black italic text-red">
+              <a className="font-black italic text-red hover:text-link-red" href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-1979-3281">
                 Orden de 26 de enero de 1979
               </a>{" "}
               , por la que se establecen las cláusulas de inclusión obligatoria
               en los contratos de compraventa y arrendamiento de viviendas de
               protección oficial de promoción privada, en cumplimiento de lo
               dispuesto en el artículo 13 del{" "}
-              <a className="font-black italic text-red">
+              <a className="font-black italic text-red hover:text-link-red" href="https://www.boe.es/buscar/pdf/1979/BOE-A-1979-1217-consoli%20dado.pdf">
                 Real Decreto 3146/1978
               </a>
               , de 10 de noviembre, por el que se desarrolla el{" "}
-              <a className="font-black italic text-red">
+              <a className="font-black italic text-red hover:text-link-red" href="https://www.boe.es/buscar/doc.php?id=BOE-A-1978-27765">
                 Real Decreto-ley 31/1978
               </a>
               , de 31 de octubre, sobre Política de Vivienda. Finalmente, y de
               muy reciente aprobación, el{" "}
-              <a className="font-black italic text-red">
+              <a className="font-black italic text-red hover:text-link-red" href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-6299">
                 Real Decreto 309/2019
               </a>
               , de 26 de abrilstrong, por el que se desarrolla parcialmente la

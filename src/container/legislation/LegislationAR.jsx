@@ -18,7 +18,7 @@ export default function LegislationAr() {
             <p>
               En lo que a contratos de compraventa en general se refiere destaca
               la regulación que establece{" "}
-              <a className="font-black italic text-red">
+              <a className="font-black italic text-red hover:text-link-red" href="https://www.oas.org/dil/esp/Codigo_Civil_de_la_Republica_Argentina.pdf">
                 el Libro II De los derechos personales en las relaciones civiles
                 en su Sección tercera De las obligaciones que nacen de los
                 contratos del Código Civil de Argentina
@@ -57,20 +57,20 @@ export default function LegislationAr() {
             <p>
               En lo que a materia de protección de datos se refiere, cabe
               mencionar la{" "}
-              <a className="font-black italic text-red">Ley n.º 24 240</a>,
+              <a className="font-black italic text-red hover:text-link-red" href="http://servicios.infoleg.gob.ar/infolegInternet/anexos/0-4999/638/texact.htm">Ley n.º 24 240</a>,
               relativa a las normas de protección y defensa de los consumidores,
               autoridad de aplicación, procedimiento y sanciones; reformada por
               la Ley n.º 26 361 de Normas de Protección y Defensa de los
               Consumidores.{" "}
-              <a className="font-black italic text-red">
+              <a className="font-black italic text-red hover:text-link-red" href="http://servicios.infoleg.gob.ar/infolegInternet/anexos/135000-139999/139252/norma.htm">
                 Autoridad de Aplicación. Procedimiento y Sanciones
               </a>
               . Asimismo, y en relación a los contratos de compraventa de
               viviendas, se encuentra la
-              <a className="font-black italic text-red">Ley 14 005</a> de Venta
+              <a className="font-black italic text-red hover:text-link-red" href="http://servicios.infoleg.gob.ar/infolegInternet/anexos/185000-189999/189846/norma.htm">{" "}Ley 14 005{" "}</a> de Venta
               de Inmuebles fraccionados en lotes y a plazos. Finalmente, se ha
               aprobado la{" "}
-              <a className="font-black italic text-red">
+              <a className="font-black italic text-red hover:text-link-red" href="http://servicios.infoleg.gob.ar/infolegInternet/anexos/265000-269999/268322/norma.htm">
                 Ley 27 328 de Contratos de Participación Pública-Privada
               </a>
               , en aras a regular los aspectos esenciales del contrato de

@@ -28,8 +28,8 @@ export default function LegislationEU() {
               ordenamiento jurídico español.
             </p>
             <p className="mt-5">
-              La Constitución de Luisiana ({" "}
-              <a className="font-black italic text-red">
+              La Constitución de Luisiana (
+              <a className="font-black italic text-red hover:text-link-red" href="https://senate.legis.state.la.us/documents/constitution/">
                 Constitution of Louisiana
               </a>
               ) regula, de manera general, en el apartado Disposiciones
@@ -37,7 +37,7 @@ export default function LegislationEU() {
               la adquisición de la propiedad (§23 Acquisition of Property) el
               contrato de compra y venta como modo de adquisición de la
               propiedad. Por su parte, el Código Civil de Luisiana (
-              <a className="font-black italic text-red">Louisiana Civil Code</a>
+              <a className="font-black italic text-red hover:text-link-red" href="https://lcco.law.lsu.edu/?uid=1&ver=en#1">Louisiana Civil Code</a>
               ) contiene regulación general en materia de contratos bajo los
               siguientes títulos: Title IV Conventional Obligations or Contract
               (arts. 1903-2291), con referencia a los siguientes capítulos, a
@@ -76,10 +76,10 @@ export default function LegislationEU() {
             <p className="mt-5">
               En materia de contratos de compraventa de vivienda, Louisiana
               State Licensing Board aprobó en al año 2006 el Act 3 141{" "}
-              <a className="font-black italic text-red">New home warranty</a>.
+              <a className="font-black italic text-red hover:text-link-red" href="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/http://www.lslbc.louisiana.gov/wp-content/uploads/New_Home_Warranty_Act.pdf">New home warranty</a>.
               En ese mismo año, por Lousiana Real Estate Commission aprobó el
               Act 333 (anexo al{" "}
-              <a className="font-black italic text-red">
+              <a className="font-black italic text-red hover:text-link-red" href="https://lrec.gov/wp-content/uploads/Laws/Real-Estate-License-Law-Updated-through-8-2016.pdf">
                 Louisiana Real Estate License Law
               </a>
               ), en virtud del cual se establece un modelo estandarizado de

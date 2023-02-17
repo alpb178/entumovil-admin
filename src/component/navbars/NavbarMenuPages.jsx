@@ -8,7 +8,6 @@ import {
   legislation,
 } from "@/lib/constants";
 import { useEffect, useState } from "react";
-import Translate from "../googleTranslate";
 import ItemsMenuNavbar from "./ItemsMenuNavbar";
 
 export const navList = (
@@ -79,7 +78,12 @@ export default function NavbarMenuPages() {
         </div>
       ) : (
         <div className=" container relative z-10 mx-auto mt-10 mb-10 h-20 w-full bg-white">
-          <Translate />
+          <div className=" flex h-10  w-full bg-ocre-red">
+            <div
+              className="absolute top-1 bottom-0 right-2  ml-auto"
+              id="google_translate_element"
+            />
+          </div>
 
           <div className=" flex h-full w-full bg-white text-right">
             <div className=" align-center mt-15 flex content-center items-center text-center ">

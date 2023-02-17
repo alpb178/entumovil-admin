@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+  
+  .goog-te-gadget-simple {
+    
+     width: auto;
+     height: 30px;
+      display: flex;
+    
+  }
+  
+  .goog-te-gadget-simple  span {
+    display:flex;
+    width: auto;
+    height: 30px;
+    border: none;
+    }
+
+    .goog-te-gadget-simple  span {
+        display:flex;
+        width: auto;
+        height: 30px;
+        border: none;
+        }
+
+    .goog-te-gadget-simple span:nth-child(3) {
+        display:none;
+        }
+
+        .goog-te-gadget-simple span:nth-child(5) {
+            display:none;
+            }

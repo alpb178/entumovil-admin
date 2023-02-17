@@ -1,12 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.goog-te-gadget-icon {
+    display:flex;
+    margin-top: 5px;
+  }
+  
   
   .goog-te-gadget-simple {
     
      width: auto;
      height: 30px;
       display: flex;
+      font-size: large;
     
   }
   

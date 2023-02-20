@@ -12,7 +12,7 @@ import ItemsMenuNavbar from "./ItemsMenuNavbar";
 
 export const navList = (
   <ul className="mb-4 mr-8 flex flex-col justify-items-center gap-2 text-left  text-lg font-black text-black  lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-    <a href={INMOCOR_HOME_PAGE} className="text-red">
+    <a href={INMOCOR_HOME_PAGE} className="hover:text-red">
       INICIO
     </a>
 
@@ -77,12 +77,11 @@ export default function NavbarMenuPages() {
           </div>
         </div>
       ) : (
-        <div className=" container relative z-10 mx-auto mt-10 mb-10 h-20 w-full bg-white">
+        <div className=" container relative z-10 mx-auto mt-10 mb-10 h-20 w-full">
           <div className=" flex h-10  w-full bg-ocre-red">
-            <div
-              className="absolute top-1 bottom-0 right-2  ml-auto"
-              id="google_translate_element"
-            />
+            <div className="absolute top-1 bottom-0 right-2 z-10  ml-auto">
+              <div id="google_translate_element" />
+            </div>
           </div>
 
           <div className=" flex h-full w-full bg-white text-right">

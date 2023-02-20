@@ -17,7 +17,7 @@ export default function TopImage({ name, imageUrl, description }) {
         <NavbarMenuPages />
         <div className="flex flex-wrap text-white items-center">
           <div className="ml-auto mr-auto w-full px-4 text-center lg:w-8/12">
-            <p  className="mb-6 text-5xl font-black">
+            <p  className="mb-6 mt-10 text-5xl font-black">
               {name}
             </p>
             <p  className="mb-6 text-3xl font-black">

@@ -17,47 +17,49 @@ export function ManagmentInmocor() {
       />
       <section className="bg-gray-50 -mt-20 px-4 pb-20 pt-4 text-xl">
         <div className="container mx-auto ">
-          <Card className=" shadow-gray-500/10 shadow-lg">
+          <Card className="shadow-gray-500/10 shadow-lg">
             <CardBody className="px-8 text-left">
-              <div className="flex">
-                <div className="w-1/3">
-                  <p
-                    variant="h2"
-                    className="m-5 mb-6 text-5xl font-black text-red"
-                  >
-                    Macrocorpus INMOCOR
-                  </p>
+              <div className="m-5">
+                <div className="flex">
+                  <div className="w-1/3">
+                    <p
+                      variant="h2"
+                      className="m-5 mb-6 text-5xl font-black text-red"
+                    >
+                      Macrocorpus INMOCOR
+                    </p>
+                  </div>
+                  <div className="m-5 w-full text-gray">
+                    La presente herramienta pone a disposición el macrocorpus
+                    INMOCOR, que contiene, por un lado, un corpus de legislación
+                    aplicable a la compraventa inmobiliaria (INMOLAW) y, por
+                    otro, un corpus de contratos de compraventa de viviendas
+                    (INMOCOR). Con esta herramienta se pueden llevar a cabo
+                    búsquedas terminológicas a partir de un gestor de consulta
+                    que permite categorizar por lengua y variedad diatópica, a
+                    saber, español (variedades de Argentina y España), inglés
+                    (de Irlanda, EE.UU. y Reino Unido), alemán, francés,
+                    italiano y catalán.
+                  </div>
                 </div>
-                <div className="m-5 w-full text-gray">
-                  La presente herramienta pone a disposición el macrocorpus
-                  INMOCOR, que contiene, por un lado, un corpus de legislación
-                  aplicable a la compraventa inmobiliaria (INMOLAW) y, por otro,
-                  un corpus de contratos de compraventa de viviendas (INMOCOR).
-                  Con esta herramienta se pueden llevar a cabo búsquedas
-                  terminológicas a partir de un gestor de consulta que permite
-                  categorizar por lengua y variedad diatópica, a saber, español
-                  (variedades de Argentina y España), inglés (de Irlanda, EE.UU.
-                  y Reino Unido), alemán, francés, italiano y catalán.
+                <div className="mt-28 text-ocre-red">
+                  Para empezar, defina su búsqueda
+                </div>
+                <div className="from-group mt-5">
+                  <div className="text-base">Su búsqueda</div>
+                  <div className="mt-2">
+                    <input
+                      className="form-control w-full bg-legislation-gray p-4"
+                      placeholder="Introduzca los términos de búsqueda..."
+                    ></input>
+                  </div>
+                </div>
+                <div className="mt-10 text-ocre-red">
+                  Y a continuación, seleccione el/los corpus/subcorpus de su
+                  interés:
                 </div>
               </div>
-              <div className="mt-28 text-ocre-red">
-                Para empezar, defina su búsqueda
-              </div>
-              <div className="from-group mt-5">
-                <div className="text-base">Su búsqueda</div>
-                <div className="mt-2">
-                  <input
-                    className="form-control w-full bg-legislation-gray p-4"
-                    placeholder="Introduzca los términos de búsqueda..."
-                  ></input>
-                </div>
-              </div>
-              <div className="mt-10 text-ocre-red">
-                Y a continuación, seleccione el/los corpus/subcorpus de su
-                interés:
-              </div>
-
-              <div className="mb-4 mt-5 flex items-center">
+              <div className="m-5 mb-4 mt-5 flex items-center">
                 <input
                   id="default-radio-1"
                   type="radio"
@@ -72,11 +74,10 @@ export function ManagmentInmocor() {
                   Macrocorpus INMOCOR
                 </p>
               </div>
-              <p>
+              <p className="m-7">
                 Realiza búsquedas en todos los textos, legislación y contratos,
                 en todas las lenguas.
               </p>
-
               <div className="mb-10 flex ">
                 <div className="m-5 w-1/2">
                   <div className="mb-4 mt-5 flex items-center">
@@ -149,13 +150,12 @@ export function ManagmentInmocor() {
                       variant="h4"
                       className="m-2 mb-6 mt-6 text-2xl font-black text-ocre-red"
                     >
-                      CORPUS DE LEGISLACIÓN INMOLAW
+                      CORPUS DE CONTRATACIÓN INMOCOR
                     </p>
                   </div>
 
                   <div className="mb-10 ">
-                    Corpus de Legislación aplicable a la Compraventa
-                    Inmobiliaria*
+                    Corpus de Contratos de Compraventa Inmobiliaria*
                   </div>
                   <div className="overflow-auto shadow-none">
                     <select

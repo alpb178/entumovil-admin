@@ -19,6 +19,16 @@ module.exports = withMT({
       red: "#fd4632",
       "footer-background": "#f5f5f5",
     },
+    screens: {
+      'tablet': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'laptop': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'desktop': '1280px',
+      // => @media (min-width: 1280px) { ... }
+    },
     extend: {
       spacing: {
         26: "26px",

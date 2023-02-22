@@ -4,32 +4,20 @@
 
 .goog-te-gadget-icon {
     display:flex;
-    margin-top: 5px;
+ 
   }
   
   
   .goog-te-gadget-simple {
-    
+    padding: 2px;
      width: auto;
      height: 30px;
      display: flex;
-     font-size: large;
-    
+     
   }
   
-  .goog-te-gadget-simple  span {
-    display:flex;
-    width: auto;
-    height: 30px;
-    border: none;
-    }
-
-    .goog-te-gadget-simple  span {
-        display:flex;
-        width: auto;
-        height: 30px;
-        border: none;
-        }
+ 
+    
 
     .goog-te-gadget-simple span:nth-child(3) {
         display:none;

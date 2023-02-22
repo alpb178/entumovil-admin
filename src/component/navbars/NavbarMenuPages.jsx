@@ -65,6 +65,7 @@ export default function NavbarMenuPages() {
       {scrollActive ? (
         <div className="fixed top-0 left-0 right-0 z-10 mb-10 h-20 w-full bg-white text-lg">
           <div className=" flex h-full w-full bg-white text-right">
+            <div className="hidden" id="google_translate_element" />
             <div className=" align-center mt-15 flex content-center items-center text-center ">
               <img
                 className="ml-3 w-80 "
@@ -79,9 +80,7 @@ export default function NavbarMenuPages() {
       ) : (
         <div className=" container relative z-10 mx-auto mt-10 mb-10 h-20 w-full">
           <div className=" flex h-10  w-full bg-ocre-red">
-            <div className="absolute top-1 bottom-0 right-2 z-10  ml-auto">
-              <div id="google_translate_element" />
-            </div>
+            <div className="m-2 ml-auto" id="google_translate_element" />
           </div>
 
           <div className=" flex h-full w-full bg-white text-right">

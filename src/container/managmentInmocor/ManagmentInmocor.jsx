@@ -150,7 +150,7 @@ export function ManagmentInmocor() {
                       variant="h4"
                       className="m-2 mb-6 mt-6 text-2xl font-black text-ocre-red"
                     >
-                      CORPUS DE LEGISLACIÓN INMOLAW
+                      CORPUS DE CONTRATACIÓN INMOCOR
                     </p>
                   </div>
 

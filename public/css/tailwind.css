@@ -4,9 +4,8 @@
 
 .goog-te-gadget-icon {
    
-    padding: auto;
-    margin-top: 3px;
- 
+   padding: 2px; 
+   
   }
   
   
@@ -14,6 +13,7 @@
      width: auto;
      height: 30px;
      display: flex;
+     padding: 2px; 
      
   }
   

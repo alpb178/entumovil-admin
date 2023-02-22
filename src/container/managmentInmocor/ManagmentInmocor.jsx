@@ -15,9 +15,9 @@ export function ManagmentInmocor() {
         description="Legislación y Contratos"
         imageUrl="cabecera-legislacion-generalidades-inmocor.jpg"
       />
-      <section className="bg-gray-50 -mt-20 px-4 pb-20 pt-4 text-xl">
+      <section className="bg-gray-50 -mt-14 px-4 pb-20 pt-4 text-xl">
         <div className="container mx-auto ">
-          <Card className="shadow-gray-500/10 shadow-lg">
+          <Card className="shadow-gray-500/10 rounded-none shadow-lg">
             <CardBody className="px-8 text-left">
               <div className="m-5">
                 <div className="flex">

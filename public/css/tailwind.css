@@ -3,20 +3,23 @@
 @tailwind utilities;
 
 .goog-te-gadget-icon {
-    display:flex;
+   
+    padding: auto;
+    margin-top: 3px;
  
   }
   
   
   .goog-te-gadget-simple {
-    padding: 2px;
      width: auto;
      height: 30px;
      display: flex;
      
   }
   
- 
+  .goog-te-gadget-simple span:nth-child(1) {
+    align-items: center;
+    }
     
 
     .goog-te-gadget-simple span:nth-child(3) {

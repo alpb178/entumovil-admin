@@ -78,7 +78,7 @@ export default function NavbarMenuPages() {
           </div>
         </div>
       ) : (
-        <div className=" container relative z-10 mx-auto mt-10 mb-10 h-20 w-full">
+        <div className=" container relative z-10 mx-auto mt-5 h-20 w-full">
           <div className=" flex h-10  w-full bg-ocre-red">
             <div className="m-2 ml-auto" id="google_translate_element" />
           </div>

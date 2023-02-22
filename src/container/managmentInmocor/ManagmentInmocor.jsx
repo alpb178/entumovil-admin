@@ -20,7 +20,7 @@ export function ManagmentInmocor() {
           <Card className="shadow-gray-500/10 rounded-none shadow-lg">
             <CardBody className="px-8 text-left">
               <div className="m-5">
-                <div className="flex">
+                <div className="flex md:block lg:flex">
                   <div className="w-1/3">
                     <p
                       variant="h2"
@@ -78,8 +78,8 @@ export function ManagmentInmocor() {
                 Realiza búsquedas en todos los textos, legislación y contratos,
                 en todas las lenguas.
               </p>
-              <div className="mb-10 flex ">
-                <div className="m-5 w-1/2">
+              <div className="mb-10 flex md:block lg:flex">
+                <div className="m-5 w-1/2 md:w-full">
                   <div className="mb-4 mt-5 flex items-center">
                     <input
                       id="default-radio-1"
@@ -137,7 +137,7 @@ export function ManagmentInmocor() {
                     </p>
                   </div>
                 </div>
-                <div className="m-5 w-1/2">
+                <div className="m-5 w-1/2 md:w-full">
                   <div className="mb-4 mt-5 flex items-center">
                     <input
                       id="default-radio-1"

@@ -78,7 +78,7 @@ export function ManagmentInmocor() {
                 Realiza búsquedas en todos los textos, legislación y contratos,
                 en todas las lenguas.
               </p>
-              <div className="mb-10 flex md:block lg:flex">
+              <div className="mb-10 flex sm:block md:block lg:flex">
                 <div className="m-5 w-1/2 md:w-full">
                   <div className="mb-4 mt-5 flex items-center">
                     <input

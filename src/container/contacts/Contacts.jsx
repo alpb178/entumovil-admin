@@ -9,21 +9,34 @@ export default function Contacts() {
         name="Equipo y Contacto"
         imageUrl="cabecera-equipo-contacto-inmocor.jpg"
       />
-      <section className="mt-10 mb-20 px-4 text-xl  text-gray">
+      <div className="bg-gray-50  bg-legislation-gray px-4 pb-20 pt-4 text-xl text-gray">
         <div className="container mx-auto">
-          <div className="item-center content-center  ">
-            <p className="text-4xl font-black text-black">Contacto</p>
+          <div className="w-full text-gray">
+            <p className="mt-5 text-4xl font-black text-black">Contacto</p>
             <p className="mt-5">
               Para cualquier consulta diríjanse a la investigadora principal de
               proyecto: <a className="font-black">Miriam Seghiri</a> (
-              <a className="text-red">seghiri@uma.es</a>).
+              <a className="text-red" href="seghiri@uma.es">
+                seghiri@uma.es
+              </a>
+              ).
             </p>
+          </div>
+        </div>
+      </div>
+      
+      <section className="mt-10 mb-20 px-4 text-xl  text-gray">
+        <div className="container mx-auto">
+          <div className="item-center content-center  ">
+            <div className=" bg-legislation-gray">
+              <div className="container mx-auto"></div>
+            </div>
 
             <div>
               <p className="mt-10 text-3xl font-black text-black">
                 Equipo de investigación (universidades andaluzas)
               </p>
-              <div className="mt-5 flex">
+              <div className="mt-5 flex sm:block md:block  lg:flex">
                 <div className="w-1/2">
                   <p className="mt-10 text-2xl font-black text-black">
                     Universidad de Málaga
@@ -50,7 +63,7 @@ export default function Contacts() {
                   </ul>
                 </div>
                 <div className="w-1/2">
-                  <p className="mt-10 text-4xl font-black text-black">
+                  <p className="mt-10 text-2xl font-black text-black">
                     Universidad Pablo de Olavide
                   </p>
                   <ul className="ml-10 mt-2 list-disc">
@@ -59,7 +72,7 @@ export default function Contacts() {
                   </ul>
                 </div>
               </div>
-              <div className="mt-2 flex">
+              <div className="mt-2 flex sm:block md:block  lg:flex">
                 <div className="w-1/2">
                   <p className="mt-10 text-2xl font-black text-black">
                     Universidad de Cádiz
@@ -81,13 +94,13 @@ export default function Contacts() {
               </div>
             </div>
 
-            <div className="mt-32">
+            <div className="mt-32 bg-gray-50  bg-legislation-gray px-4 pb-20 pt-10">
               <p className="text-3xl font-black text-black">Colaboradores</p>
-              <div>
+              <div className="sm:block md:block  lg:flex-direction:coloumn">
                 <p className="mt-2 text-2xl text-black">
                   Universidades españolas
                 </p>
-                <div className="mt-2 flex">
+                <div className="mt-2 flex sm:block md:block  lg:flex">
                   <div className="w-1/2">
                     <p className="mt-2 text-2xl font-black text-black">
                       Universitat Autònoma de Barcelona
@@ -108,7 +121,7 @@ export default function Contacts() {
                     </ul>
                   </div>
                   <div className="w-1/2">
-                    <p className="mt-10 text-2xl font-black text-black">
+                    <p className="mt-2 text-2xl font-black text-black">
                       Universidad de Alicante
                     </p>
                     <ul className="ml-10 mt-2 list-disc">
@@ -116,7 +129,7 @@ export default function Contacts() {
                     </ul>
                   </div>
                 </div>
-                <div className="mt-2 flex">
+                <div className="mt-2 flex sm:block md:block  lg:flex">
                   <div className="w-1/2">
                     <p className="mt-2 text-2xl font-black text-black">
                       Universidad de Córdoba
@@ -133,7 +146,7 @@ export default function Contacts() {
                     <p className="mt-2 text-2xl font-black text-black">
                       Universitat Málaga
                     </p>
-                    <ul className="ml-2 mt-2 list-disc">
+                    <ul className="ml-10 mt-2 list-disc">
                       <li className="m-2"> José Jesús Benito Picazo</li>
                       <li className="m-2"> Carlos Manuel Hidalgo Ternero</li>
                       <li className="m-2"> Ángela Luque Peñalver</li>
@@ -152,7 +165,7 @@ export default function Contacts() {
                     </ul>
                   </div>
                 </div>
-                <div className="mt-2 flex">
+                <div className="mt-2 flex sm:block md:block  lg:flex">
                   <div className="w-1/2">
                     <p className="mt-2 text-2xl font-black text-black">
                       Universidad Internacional de Valencia
@@ -168,10 +181,10 @@ export default function Contacts() {
               </div>
 
               <div>
-                <p className="mt-2 text-2xl text-black">
+                <p className="mt-10 text-2xl text-black">
                   Universidades extranjeras
                 </p>
-                <div className="mt-2 flex">
+                <div className="mt-2 flex sm:block md:block  lg:flex">
                   <div className="w-1/2">
                     <p className="mt-2 text-2xl font-black text-black">
                       Universitè d'Artois (Francia)
@@ -189,7 +202,7 @@ export default function Contacts() {
                     </ul>
                   </div>
                   <div className="w-1/2">
-                    <p className="mt-10 text-2xl font-black text-black">
+                    <p className="mt-2 text-2xl font-black text-black">
                       Universidad Nacional de Mar de Plata (Argentina)
                     </p>
                     <ul className="ml-10 mt-2 list-disc">
@@ -197,7 +210,7 @@ export default function Contacts() {
                     </ul>
                   </div>
                 </div>
-                <div className="mt-2 flex">
+                <div className="mt-2 flex sm:block md:block  lg:flex">
                   <div className="w-1/2">
                     <p className="mt-2 text-2xl font-black text-black">
                       Università di Verona (Italia)
@@ -227,6 +240,7 @@ export default function Contacts() {
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </section>

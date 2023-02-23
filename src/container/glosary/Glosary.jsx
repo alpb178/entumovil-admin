@@ -6,11 +6,11 @@ import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import TopImage from "@/component/topImage";
 export default function Glosary() {
   return (
-    <div className="text-xl">
+    <div className="text-xl md:w-full">
       <TopImage name="Glosario" imageUrl="cabecera-glosario-inmocor.jpg" />
       <section className="bg-gray-50  bg-legislation-gray px-4 pb-20 pt-4 text-xl text-gray">
         <div className="container mx-auto">
-          <div className="row px-md-4 m-0 pt-5 pb-1">
+          <div className="row px-md-4 m-0 pt-5 pb-1 md:w-full">
             <div className="col-12 mb-md-0 mb-4">
               <div className="section-title text-center">
                 <p className="mb-6 text-4xl font-black text-ocre-red">

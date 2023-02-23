@@ -20,7 +20,7 @@ export function ManagmentInmocor() {
           <Card className="shadow-gray-500/10 rounded-none shadow-lg">
             <CardBody className="px-8 text-left">
               <div className="m-5">
-                <div className="flex md:block lg:flex">
+                <div className="flex sm:block md:block  lg:flex">
                   <div className="w-1/3">
                     <p
                       variant="h2"

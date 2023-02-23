@@ -29,7 +29,7 @@ export default function Publications() {
               </p>
             </strong>
             <div className="">
-              <div className="mt-5 flex ">
+              <div className="mt-5 flex sm:block md:block  lg:flex">
                 <div className="w-1/2">
                   <p className="mt-10 text-2xl font-black text-black">
                     «Creación de una plantilla de redacción de contratos de
@@ -223,7 +223,7 @@ export default function Publications() {
               </p>
             </strong>
             <div className="">
-              <div className="mt-5 flex">
+              <div className="mt-5 flex sm:block  md:block  lg:flex">
                 <div className="w-1/2">
                   <p className="mt-10 text-2xl  font-black text-black">
                     Título: «Diseño de plantillas de redacción y traducción al

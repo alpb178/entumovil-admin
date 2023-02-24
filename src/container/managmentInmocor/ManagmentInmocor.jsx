@@ -9,7 +9,50 @@ import ViewPDf from "@/component/pdf";
 
 export function ManagmentInmocor() {
   const [openFind, setOpenFind] = useState(false);
-  const [radio, setRadio] = useState("");
+  const [radio, setRadio] = useState("Macrocorpus-INMOCOR");
+  const [valueSelect, setValueSelect] = useState([]);
+  const [disabledSelectInmolaw, setDisabledSelectInmolaw] = useState(true);
+  const [disabledSelectCorpus, setDisabledSelectCorpus] = useState(true);
+
+  const handleClickRadio = () => {
+    setOpenFind(false);
+    setRadio("Macrocorpus-INMOCOR");
+
+    setDisabledSelectCorpus(true);
+    setDisabledSelectInmolaw(true);
+    setValueSelect([]);
+  };
+
+  const handleClickRadioCorpus = () => {
+    setOpenFind(false);
+    setRadio("corpus");
+    setDisabledSelectCorpus(false);
+    setDisabledSelectInmolaw(true);
+    setValueSelect([]);
+  };
+
+  const handleClickRadioInmolaw = () => {
+    setOpenFind(false);
+    setRadio("legislation");
+    setDisabledSelectInmolaw(false);
+    setDisabledSelectCorpus(true);
+    setValueSelect([]);
+  };
+
+  const handleClickFind = () => {
+    setOpenFind(true);
+    var selected = [];
+    var id =
+      radio === "corpus"
+        ? "CorpusFormControlSelect"
+        : "InmolawFormControlSelect";
+    for (var option of document.getElementById(id).options) {
+      if (option.selected) {
+        selected.push(radio + "/" + option.value);
+      }
+      setValueSelect(selected);
+    }
+  };
 
   return (
     <>
@@ -67,8 +110,8 @@ export function ManagmentInmocor() {
                 <input
                   id="radio-macrocorpus-inmocor"
                   type="radio"
-                  value=""
-                  onClick={() => setRadio("macrocorpus-inmocor")}
+                  defaultChecked
+                  onClick={() => handleClickRadio()}
                   name="default-radio"
                   className="h-4 w-4 text-blue-600 focus:ring-blue-500"
                 ></input>
@@ -89,7 +132,7 @@ export function ManagmentInmocor() {
                     <input
                       id="radio-corpus-INMOLAW"
                       type="radio"
-                      onClick={() => setRadio("legislation")}
+                      onClick={() => handleClickRadioInmolaw("legislation")}
                       name="default-radio"
                       className="h-4 w-4 text-blue-600 focus:ring-blue-500"
                     ></input>
@@ -107,32 +150,33 @@ export function ManagmentInmocor() {
                   </div>
                   <div className="overflow-auto shadow-none">
                     <select
-                      multiple
+                      multiple={true}
                       className="form-control mb-2 bg-legislation-gray px-5 py-4 shadow-none"
                       id="InmolawFormControlSelect"
+                      disabled={disabledSelectInmolaw}
                     >
-                      <option>
+                      <option key="UE" value="UE" >
                         Subcorpus INMOLAW comunitario Unión Europea
                       </option>
-                      <option>
+                      <option key="ES" value="ES">
                         Subcorpus INMOLAW en español (variedad peninsular)
                       </option>
-                      <option>
+                      <option key="ARG" value="ARG">
                         Subcorpus INMOLAW en español (variedad argentina)
                       </option>
-                      <option>
+                      <option key="BR" value="BR">
                         Subcorpus INMOLAW en inglés (variedad británica)
                       </option>
-                      <option>
+                      <option key="EEUU" value="EEUU">
                         Subcorpus INMOLAW en inglés (variedad estadounidense)
                       </option>
-                      <option>
+                      <option key="IR" value="IR">
                         Subcorpus INMOLAW en inglés (variedad irlandesa)
                       </option>
-                      <option>Subcorpus INMOLAW en francés</option>
-                      <option>Subcorpus INMOLAW en italiano</option>
-                      <option>Subcorpus INMOLAW en alemán</option>
-                      <option>Subcorpus INMOLAW en catalán</option>
+                      <option key="FR" value="FR">Subcorpus INMOLAW en francés</option>
+                      <option key="IT" value="IT">Subcorpus INMOLAW en italiano</option>
+                      <option key="DE" value="DE">Subcorpus INMOLAW en alemán</option>
+                      <option key="CA" value="CA">Subcorpus INMOLAW en catalán</option>
                     </select>
                     <p className="mt-5 text-justify">
                       Permite buscar, en todos los subcorpus de{" "}
@@ -147,7 +191,7 @@ export function ManagmentInmocor() {
                     <input
                       id="radio-corpus-contratacion"
                       type="radio"
-                      onClick={() => setRadio("corpus")}
+                      onClick={() => handleClickRadioCorpus()}
                       name="default-radio"
                       className="h-4 w-4 text-blue-600 focus:ring-blue-500"
                     ></input>
@@ -166,27 +210,36 @@ export function ManagmentInmocor() {
                     <select
                       multiple
                       className="form-control mb-2 bg-legislation-gray px-5 py-4 shadow-none"
-                      id="InmolawFormControlSelect"
+                      id="CorpusFormControlSelect"
+                      disabled={disabledSelectCorpus}
                     >
-                      <option>
+                      <option key="ES" value="ES">
                         Subcorpus INMOCOR en español (variedad peninsular)
                       </option>
-                      <option>
+                      <option key="ARG" value="ARG">
                         Subcorpus INMOCOR en español (variedad argentina)
                       </option>
-                      <option>
+                      <option key="BR" value="BR">
                         Subcorpus INMOCOR en inglés (variedad británica)
                       </option>
-                      <option value={"EEUU"}>
+                      <option key="EEUU" value="EEUU">
                         Subcorpus INMOCOR en inglés (variedad estadounidense)
                       </option>
-                      <option>
+                      <option key="IR" value="IR">
                         Subcorpus INMOCOR en inglés (variedad irlandesa)
                       </option>
-                      <option>Subcorpus INMOCOR en francés</option>
-                      <option>Subcorpus INMOCOR en italiano</option>
-                      <option>Subcorpus INMOCOR en alemán</option>
-                      <option>Subcorpus INMOCOR en catalán</option>
+                      <option key="FR" value="FR">
+                        Subcorpus INMOCOR en francés
+                      </option>
+                      <option key="IT" value="IT">
+                        Subcorpus INMOCOR en italiano
+                      </option>
+                      <option key="DE" value="DE">
+                        Subcorpus INMOCOR en alemán
+                      </option>
+                      <option key="CA" value="CA">
+                        Subcorpus INMOCOR en catalán
+                      </option>
                     </select>
                     <p className="mt-5 text-justify">
                       Permite buscar, en todos los subcorpus de{" "}
@@ -204,14 +257,14 @@ export function ManagmentInmocor() {
               </p>
               <button
                 className="flex-inline m-5 mt-5 flex rounded bg-gradient-to-r from-gradient-for-footer to-gradient-to py-2 px-4 font-bold text-white"
-                onClick={(e) => setOpenFind(true)}
+                onClick={() => handleClickFind()}
               >
                 Buscar
                 <ArrowRightIcon className="mt flex-inline ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
               </button>
               {openFind && (
                 <div className="mb-10 ">
-                  <ViewPDf radio={radio} />
+                  <ViewPDf radio={radio} valueSelect={valueSelect} />
                 </div>
               )}
             </CardBody>

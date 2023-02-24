@@ -2,13 +2,16 @@ import { Doc } from "@/lib/constants";
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import React from "react";
 
-const ViewPDf = ({ radio }) => {
+const ViewPDf = ({ radio, valueSelect }) => {
   return (
     <>
       {Doc.map(({ src }) => {
-        if (src.includes(radio)) {
+        if (
+          src.includes(radio) &&
+          !!valueSelect.find((element) => src.includes(element))
+        ) {
           return (
-            <li className="border-bottom flex-inline mb-4 flex pb-3">
+            <li key={src} className="border-bottom flex-inline mb-4 flex pb-3">
               <div className="rounded-full bg-legislation-gray">
                 <i className="fas fa-check m-1 rounded-full text-red" />
               </div>
@@ -17,15 +20,15 @@ const ViewPDf = ({ radio }) => {
                   href={`/doc/${src}.pdf`}
                   className="icon-btn btn-link btn-arrow text-dark flex-inline flex"
                 >
-                  {src}
+                  {src.split("/")[2]}
                   <ArrowRightIcon className="mt ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
                 </a>
               </h5>
             </li>
           );
-        } else if (radio === "macrocorpus-inmocor") {
+        } else if (radio === "Macrocorpus-INMOCOR") {
           return (
-            <li className="border-bottom flex-inline mb-4 flex pb-3">
+            <li key={src} className="border-bottom flex-inline mb-4 flex pb-3">
               <div className="rounded-full bg-legislation-gray">
                 <i className="fas fa-check m-1 rounded-full text-red" />
               </div>
@@ -34,7 +37,7 @@ const ViewPDf = ({ radio }) => {
                   href={`/doc/${src}.pdf`}
                   className="icon-btn btn-link btn-arrow text-dark flex-inline flex"
                 >
-                  {src}
+                  {src.split("/")[2]}
                   <ArrowRightIcon className="mt ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
                 </a>
               </h5>

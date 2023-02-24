@@ -264,7 +264,7 @@ export function ManagmentInmocor() {
               </button>
               {openFind && (
                 <div className="mb-10 ">
-                  <ViewPDf radio={radio} valueSelect={valueSelect} />
+                  <ViewPDf radio={radio} />
                 </div>
               )}
             </CardBody>

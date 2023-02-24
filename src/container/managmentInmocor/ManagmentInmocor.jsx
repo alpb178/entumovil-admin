@@ -1,13 +1,16 @@
-import React from "react";
-import { Card, Typography, CardBody } from "@material-tailwind/react";
+import React, { useState } from "react";
+import { Card, CardBody } from "@material-tailwind/react";
 
 import FooterSite from "@/component/footer";
-import NavbarMenuPages from "@/component/navbars/NavbarMenuPages";
 
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import TopImage from "@/component/topImage";
+import ViewPDf from "@/component/pdf";
 
 export function ManagmentInmocor() {
+  const [openFind, setOpenFind] = useState(false);
+  const [radio, setRadio] = useState("");
+
   return (
     <>
       <TopImage
@@ -49,6 +52,7 @@ export function ManagmentInmocor() {
                   <div className="text-base">Su búsqueda</div>
                   <div className="mt-2">
                     <input
+                      id="searc-term"
                       className="form-control w-full bg-legislation-gray p-4"
                       placeholder="Introduzca los términos de búsqueda..."
                     ></input>
@@ -61,9 +65,10 @@ export function ManagmentInmocor() {
               </div>
               <div className="m-5 mb-4 mt-5 flex items-center">
                 <input
-                  id="default-radio-1"
+                  id="radio-macrocorpus-inmocor"
                   type="radio"
                   value=""
+                  onClick={() => setRadio("macrocorpus-inmocor")}
                   name="default-radio"
                   className="h-4 w-4 text-blue-600 focus:ring-blue-500"
                 ></input>
@@ -82,9 +87,9 @@ export function ManagmentInmocor() {
                 <div className="m-5 w-1/2 md:w-full">
                   <div className="mb-4 mt-5 flex items-center">
                     <input
-                      id="default-radio-1"
+                      id="radio-corpus-INMOLAW"
                       type="radio"
-                      value=""
+                      onClick={() => setRadio("legislation")}
                       name="default-radio"
                       className="h-4 w-4 text-blue-600 focus:ring-blue-500"
                     ></input>
@@ -140,9 +145,9 @@ export function ManagmentInmocor() {
                 <div className="m-5 w-1/2 md:w-full">
                   <div className="mb-4 mt-5 flex items-center">
                     <input
-                      id="default-radio-1"
+                      id="radio-corpus-contratacion"
                       type="radio"
-                      value=""
+                      onClick={() => setRadio("corpus")}
                       name="default-radio"
                       className="h-4 w-4 text-blue-600 focus:ring-blue-500"
                     ></input>
@@ -172,7 +177,7 @@ export function ManagmentInmocor() {
                       <option>
                         Subcorpus INMOCOR en inglés (variedad británica)
                       </option>
-                      <option>
+                      <option value={"EEUU"}>
                         Subcorpus INMOCOR en inglés (variedad estadounidense)
                       </option>
                       <option>
@@ -197,10 +202,18 @@ export function ManagmentInmocor() {
                 bloques. Por ejemplo, puede que se pueda marcar "Subcorpus
                 INMOCOR en italiano" y "Subcorpus INMOLAW en italiano"
               </p>
-              <button className="flex-inline m-5 mt-5 flex rounded bg-gradient-to-r from-gradient-for-footer to-gradient-to py-2 px-4 font-bold text-white">
+              <button
+                className="flex-inline m-5 mt-5 flex rounded bg-gradient-to-r from-gradient-for-footer to-gradient-to py-2 px-4 font-bold text-white"
+                onClick={(e) => setOpenFind(true)}
+              >
                 Buscar
                 <ArrowRightIcon className="mt flex-inline ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
               </button>
+              {openFind && (
+                <div className="mb-10 ">
+                  <ViewPDf radio={radio} />
+                </div>
+              )}
             </CardBody>
           </Card>
         </div>

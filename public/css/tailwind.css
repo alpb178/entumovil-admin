@@ -16,19 +16,29 @@
      width: 200px;
      height: 30px;
      display: flex;
+     margin: -3px;
+    
      font-size: medium;
      font-weight: bold;
     
      
   }
   
- 
+  .goog-te-gadget-simple span:nth-child(1) {
+   display:flex;
+   margin-top: -24px;
+   margin-left: 12px;
+   }
     
 
     .goog-te-gadget-simple span:nth-child(3) {
-        display:none;
+      display:flex;
+      margin-top: -24px;
+      margin-left: 145px;
         }
 
         .goog-te-gadget-simple span:nth-child(5) {
-            display:none;
+         display:flex;
+         margin-top: -25px;
+         margin-left: 150px;
             }

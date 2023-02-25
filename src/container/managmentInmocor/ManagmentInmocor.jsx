@@ -51,6 +51,7 @@ export function ManagmentInmocor() {
         selected.push(radio + "/" + option.value);
       }
       setValueSelect(selected);
+      console.log(id, selected);
     }
   };
 
@@ -155,7 +156,7 @@ export function ManagmentInmocor() {
                       id="InmolawFormControlSelect"
                       disabled={disabledSelectInmolaw}
                     >
-                      <option key="UE" value="UE" >
+                      <option key="UE" value="UE">
                         Subcorpus INMOLAW comunitario Unión Europea
                       </option>
                       <option key="ES" value="ES">
@@ -173,10 +174,18 @@ export function ManagmentInmocor() {
                       <option key="IR" value="IR">
                         Subcorpus INMOLAW en inglés (variedad irlandesa)
                       </option>
-                      <option key="FR" value="FR">Subcorpus INMOLAW en francés</option>
-                      <option key="IT" value="IT">Subcorpus INMOLAW en italiano</option>
-                      <option key="DE" value="DE">Subcorpus INMOLAW en alemán</option>
-                      <option key="CA" value="CA">Subcorpus INMOLAW en catalán</option>
+                      <option key="FR" value="FR">
+                        Subcorpus INMOLAW en francés
+                      </option>
+                      <option key="IT" value="IT">
+                        Subcorpus INMOLAW en italiano
+                      </option>
+                      <option key="DE" value="DE">
+                        Subcorpus INMOLAW en alemán
+                      </option>
+                      <option key="CA" value="CA">
+                        Subcorpus INMOLAW en catalán
+                      </option>
                     </select>
                     <p className="mt-5 text-justify">
                       Permite buscar, en todos los subcorpus de{" "}
@@ -264,7 +273,7 @@ export function ManagmentInmocor() {
               </button>
               {openFind && (
                 <div className="mb-10 ">
-                  <ViewPDf radio={radio} />
+                  <ViewPDf radio={radio} valueSelect={valueSelect} />
                 </div>
               )}
             </CardBody>

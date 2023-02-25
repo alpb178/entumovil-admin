@@ -2,43 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
-.goog-te-gadget-icon {
-   
-   padding: 8px;
-   margin-top: 2px; 
-   margin-left: 2px;
-   margin-right: 2px;
-   
-  }
-  
-  
+
+
   .goog-te-gadget-simple {
      width: 200px;
      height: 30px;
-     display: flex;
-     margin: -3px;
-    
+     display: flex !important;
+     position: relative;
      font-size: medium;
      font-weight: bold;
-    
-     
+       
   }
-  
-  .goog-te-gadget-simple span:nth-child(1) {
-   display:flex;
-   margin-top: -24px;
-   margin-left: 12px;
-   }
-    
+ 
 
-    .goog-te-gadget-simple span:nth-child(3) {
-      display:flex;
-      margin-top: -24px;
-      margin-left: 145px;
+   .goog-te-gadget-simple span:nth-child(1) {
+     
+      position: absolute!important;
+      margin-right: 20px;
+      }
+
+  .goog-te-gadget-simple span:nth-child(2) {
+   display:flex !important;
+   position: absolute!important;
+   left: 20px;
+  
+     }
+
+  .goog-te-gadget-simple span:nth-child(3) {
+   display:flex !important;
+   position: absolute !important;
+   left: 140px;
+  
+     }
+
+     .goog-te-gadget-simple span:nth-child(5) {
+      display:flex !important;
+      position: absolute;
+      left: 145px;
+     
         }
 
-        .goog-te-gadget-simple span:nth-child(5) {
-         display:flex;
-         margin-top: -25px;
-         margin-left: 150px;
-            }
+     
+  

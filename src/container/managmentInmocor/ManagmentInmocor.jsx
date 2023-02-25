@@ -272,8 +272,8 @@ export function ManagmentInmocor() {
                 <ArrowRightIcon className="mt flex-inline ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
               </button>
               {openFind && (
-                <div className="mb-10 ">
-                  <ViewPDf radio={radio} valueSelect={valueSelect} />
+                <div >
+                  <ViewPDf  radio={radio} valueSelect={valueSelect} />
                 </div>
               )}
             </CardBody>

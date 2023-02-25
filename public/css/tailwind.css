@@ -5,7 +5,7 @@
 
 
   .goog-te-gadget-simple {
-     width: 200px;
+     width: 250px;
      height: 30px;
      display: flex !important;
      position: relative;
@@ -18,27 +18,27 @@
    .goog-te-gadget-simple span:nth-child(1) {
      
       position: absolute!important;
-      margin-right: 20px;
+    
       }
 
   .goog-te-gadget-simple span:nth-child(2) {
    display:flex !important;
    position: absolute!important;
-   left: 20px;
+   left: 30px;
   
      }
 
   .goog-te-gadget-simple span:nth-child(3) {
    display:flex !important;
    position: absolute !important;
-   left: 140px;
+   left: 160px;
   
      }
 
      .goog-te-gadget-simple span:nth-child(5) {
       display:flex !important;
       position: absolute;
-      left: 145px;
+      left: 175px;
      
         }
 

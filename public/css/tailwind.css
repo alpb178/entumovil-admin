@@ -4,22 +4,20 @@
 
 .goog-te-gadget-icon {
    
-   padding: 2px; 
+   padding: 5px; 
    
   }
   
   
   .goog-te-gadget-simple {
-     width: auto;
+     width: 150px;
      height: 30px;
      display: flex;
-     padding: 2px; 
+     padding: 5px; 
      
   }
   
-  .goog-te-gadget-simple span:nth-child(1) {
-    align-items: center;
-    }
+ 
     
 
     .goog-te-gadget-simple span:nth-child(3) {

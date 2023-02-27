@@ -24,10 +24,8 @@ const ViewPDf = ({ radio, valueSelect }) => {
     <>
       {docToShow.length > 0 ? (
         <div className="mb-10 h-40 overflow-auto shadow-none">
-          {docToShow.map((doc ) => (
-          
+          {docToShow.map((doc) => (
             <li key={doc} className="border-bottom flex-inline mb-4 flex pb-3">
-              {console.log(doc,'ale',docToShow.lenght)}
               <div className="rounded-full bg-legislation-gray">
                 <i className="fas fa-check m-1 rounded-full text-red" />
               </div>
@@ -36,7 +34,6 @@ const ViewPDf = ({ radio, valueSelect }) => {
                   href={`/doc/${doc}.pdf`}
                   className="icon-btn btn-link btn-arrow text-dark flex-inline flex"
                 >
-                  
                   {doc.split("/")[2]}
                   <ArrowRightIcon className="mt ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
                 </a>

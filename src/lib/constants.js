@@ -384,6 +384,16 @@ export const Doc = [
   { id: 67, src: "legislation/IT/Guida_Acquisto_Casa_imposte_e_agevolazioni" },
   { id: 67, src: "legislation/IT/01ITTOTXTCCVVLEG" },
 
+  { id: 67, src: "legislation/UE/01ESEUTOFOLEGIS" },
+  { id: 67, src: "legislation/UE/02ESEUTOFOLEGIS" },
+  { id: 67, src: "legislation/UE/03ESEUTOFOLEGIS" },
+  { id: 67, src: "legislation/UE/04ESEUTOFOLEGIS" },
+  { id: 67, src: "legislation/UE/05ESEUTOFOLEGIS" },
+  { id: 67, src: "legislation/UE/06ESEUTOFOLEGIS" },
+  { id: 67, src: "legislation/UE/07ESEUTOFOLEGIS" },
+  { id: 67, src: "legislation/UE/08ESEUTOFOLEGIS" },
+  { id: 67, src: "legislation/UE/09ESEUTOFOLEGIS" },
+
 
  
 

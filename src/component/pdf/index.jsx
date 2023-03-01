@@ -1,16 +1,15 @@
 import { Doc } from "@/lib/constants";
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
-import { element } from "prop-types";
 import React, { useEffect, useState } from "react";
 import fs from "vite-plugin-fs/browser";
 
-const ViewPDf = ({ radio, valueSelect }) => {
+const ViewPDf = ({ radio, valueSelect, findText }) => {
   const [docToShow, setDocToShow] = useState([]);
 
   const readTxt = (id, src) => {
     fs.readFile(`/public/doc/${src.replace("FO", "TXT")}.txt`)
       .then((response) => {
-        if (response.includes("Listing Firm"));
+        if (response.includes(findText));
 
         setDocToShow((prev) => [...prev, src]);
       })

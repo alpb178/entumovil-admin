@@ -1,28 +1,38 @@
 import { Doc } from "@/lib/constants";
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
+import { element } from "prop-types";
 import React, { useEffect, useState } from "react";
+import fs from "vite-plugin-fs/browser";
 
 const ViewPDf = ({ radio, valueSelect }) => {
   const [docToShow, setDocToShow] = useState([]);
 
+  const readTxt = (id, src) => {
+    fs.readFile(`/public/doc/${src.replace("FO", "TXT")}.txt`)
+      .then((response) => {
+        if (response.includes("Listing Firm"));
+
+        setDocToShow((prev) => [...prev, src]);
+      })
+      .catch({ return: false });
+  };
+
   useEffect(() => {
-    let docTemp = [];
-    Doc.map(({ src }) => {
+    console.log("Componente renderizado!!");
+    setDocToShow([]);
+    Doc.map(({ id, src }) => {
       if (
         src.includes(radio) &&
         !!valueSelect.find((element) => src.includes(element))
-      ) {
-        docTemp.push(src);
-      } else if (radio === "Macrocorpus-INMOCOR") {
-        docTemp.push(src);
-      }
+      )
+        readTxt(id, src);
+      else if (radio === "Macrocorpus-INMOCOR") readTxt(id, src);
     });
-    setDocToShow(docTemp);
   }, [radio, valueSelect]);
 
   return (
     <>
-      {docToShow.length > 0 ? (
+      {docToShow?.length > 0 ? (
         <div className="mb-10 h-40 overflow-auto shadow-none">
           {docToShow.map((doc) => (
             <li key={doc} className="border-bottom flex-inline mb-4 flex pb-3">

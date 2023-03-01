@@ -6,12 +6,10 @@ import fs from "vite-plugin-fs/browser";
 const ViewPDf = ({ radio, valueSelect, findText }) => {
   const [docToShow, setDocToShow] = useState([]);
 
-  const readTxt = (id, src) => {
+  const readTxt = (src) => {
     fs.readFile(`/public/doc/${src.replace("FO", "TXT")}.txt`)
       .then((response) => {
-        if (response.includes(findText));
-
-        setDocToShow((prev) => [...prev, src]);
+        response.includes(findText) && setDocToShow((prev) => [...prev, src]);
       })
       .catch({ return: false });
   };
@@ -19,13 +17,13 @@ const ViewPDf = ({ radio, valueSelect, findText }) => {
   useEffect(() => {
     console.log("Componente renderizado!!");
     setDocToShow([]);
-    Doc.map(({ id, src }) => {
+    Doc.map(({ src }) => {
       if (
         src.includes(radio) &&
         !!valueSelect.find((element) => src.includes(element))
       )
-        readTxt(id, src);
-      else if (radio === "Macrocorpus-INMOCOR") readTxt(id, src);
+        readTxt(src);
+      else if (radio === "Macrocorpus-INMOCOR") readTxt(src);
     });
   }, [radio, valueSelect]);
 

@@ -11,6 +11,7 @@ export function ManagmentInmocor() {
   const [openFind, setOpenFind] = useState(false);
   const [radio, setRadio] = useState("Macrocorpus-INMOCOR");
   const [valueSelect, setValueSelect] = useState([]);
+  const [findText, setFindText] = useState("");
   const [disabledSelectInmolaw, setDisabledSelectInmolaw] = useState(true);
   const [disabledSelectCorpus, setDisabledSelectCorpus] = useState(true);
 
@@ -98,6 +99,7 @@ export function ManagmentInmocor() {
                       id="searc-term"
                       className="form-control w-full bg-legislation-gray p-4"
                       placeholder="Introduzca los términos de búsqueda..."
+                      onChange={(e) => setFindText(e.target.value)}
                     ></input>
                   </div>
                 </div>
@@ -272,7 +274,11 @@ export function ManagmentInmocor() {
               </button>
               {openFind && (
                 <div>
-                  <ViewPDf radio={radio} valueSelect={valueSelect} />
+                  <ViewPDf
+                    radio={radio}
+                    valueSelect={valueSelect}
+                    findText={findText}
+                  />
                 </div>
               )}
             </CardBody>

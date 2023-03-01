@@ -11,7 +11,7 @@ import { useEffect, useState } from "react";
 import ItemsMenuNavbar from "./ItemsMenuNavbar";
 
 export const navList = (
-  <ul className="mb-4 mr-8 flex flex-col justify-items-center gap-2 text-left  text-lg font-black text-black  lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+  <ul className="md:hiden sm:hidden mb-4 mr-8 flex flex-col justify-items-center gap-2 text-left  text-lg font-black text-black  lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
     <a href={INMOCOR_HOME_PAGE} className="hover:text-red">
       INICIO
     </a>

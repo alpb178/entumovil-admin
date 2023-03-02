@@ -32,7 +32,7 @@ const ViewPDf = ({ radio, valueSelect, findText }) => {
   return (
     <>
       {docToShow?.length > 0 ? (
-        <div className="mb-10 h-40 overflow-auto shadow-none">
+        <div className="mb-10">
           {docToShow.map((doc, index) => (
             <li
               key={index}

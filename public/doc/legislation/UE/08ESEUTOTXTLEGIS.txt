@@ -1,0 +1,309 @@
+DIRECTIVA 2014/55/UE DEL PARLAMENTO EUROPEO Y DEL CONSEJO
+de 16 de abril de 2014
+relativa a la facturación electrónica en la contratación pública
+(Texto pertinente a efectos del EEE)
+EL PARLAMENTO EUROPEO Y EL CONSEJO DE LA UNIÓN EUROPEA,
+Visto el Tratado de Funcionamiento de la Unión Europea y, en particular, su artículo 114,
+Vista la propuesta de la Comisión Europea,
+Previa transmisión del proyecto de acto legislativo a los Parlamentos nacionales,
+Visto el dictamen del Comité Económico y Social Europeo (1),
+Visto el dictamen del Comité de las Regiones (2),
+De conformidad con el procedimiento legislativo ordinario (3),
+Considerando lo siguiente:
+(1)
+Existen varias normas internacionales, nacionales, regionales y de uso particular relativas a las facturas electrónicas actualmente utilizadas en los Estados miembros. Ninguna de estas normas prevalece y la mayoría carece de interoperabilidad entre sí.
+
+(2)
+A falta de una norma común, los Estados miembros, a la hora de promover o imponer el uso de facturas electrónicas en la contratación pública, optan por elaborar sus propias soluciones técnicas, basadas en normas nacionales distintas. Por ello, el número de normas diferentes que coexisten en los Estados miembros va en aumento y es probable que siga aumentando en el futuro.
+
+(3)
+La multiplicidad de normas que carecen de interoperabilidad genera una excesiva complejidad, inseguridad jurídica y costes de funcionamiento adicionales para los agentes económicos que utilizan facturas electrónicas en todos los Estados miembros. Los agentes económicos que desean realizar actividades de contratación transfronteriza deben atenerse a menudo a nuevas normas de facturación electrónica cada vez que acceden a un nuevo mercado. Dado que disuaden a los operadores económicos de emprender actividades de contratación transfronteriza, los requisitos técnicos y jurídicos divergentes en materia de facturación electrónica constituyen obstáculos de acceso al mercado en la contratación pública transfronteriza y obstáculos al comercio. Son un obstáculo al ejercicio de las libertades fundamentales y, por tanto, afectan directamente al funcionamiento del mercado interior.
+
+(4)
+Es probable que esos obstáculos al comercio dentro de la Unión aumenten en el futuro, a medida que se elaboren más normas nacionales y de uso particular incompatibles y que se generalice o se convierta en obligatorio el uso de las facturas electrónicas en la contratación pública en los Estados miembros.
+
+(5)
+Es preciso eliminar o reducir los obstáculos transfronterizos al comercio derivados de la coexistencia de diferentes requisitos legales y normas técnicas en relación con la facturación electrónica y de su falta de interoperabilidad. Con el fin de alcanzar ese objetivo, debe desarrollarse una norma europea común para el modelo de datos semánticos de los elementos esenciales de una factura electrónica básica («la norma europea sobre facturación electrónica»). Esta norma debe establecer y describir los elementos esenciales que ha de contener siempre una factura electrónica, facilitando de ese modo el envío y la recepción de facturas electrónicas entre sistemas basados en normas técnicas distintas. Siempre que no entren en conflicto con dicha norma europea, las normas técnicas nacionales existentes no deben sustituirse ni su utilización debe verse limitada por la presente norma, y ha de seguir siendo posible que se continúen aplicando paralelamente a dicha norma.
+
+(6)
+Al garantizar la interoperabilidad semántica y mejorar la seguridad jurídica, la presente Directiva va a fomentar el uso de la facturación electrónica en la contratación pública, permitiendo así a los Estados miembros, los poderes adjudicadores, las entidades adjudicadoras y los operadores económicos generar importantes beneficios en términos de ahorro, impacto ambiental y reducción de las cargas administrativas.
+
+(7)
+Los beneficios de la facturación electrónica alcanzarán su nivel máximo cuando la generación, envío, transmisión, recepción y tratamiento de una factura puedan ser plenamente automatizados. Por este motivo, se debe considerar que únicamente cumplen la norma europea de facturación electrónica las facturas legibles por máquina que el receptor pueda tratar automática y digitalmente. A efectos de la presente Directiva, un simple archivo de imagen no debe considerarse factura electrónica.
+
+(8)
+El objetivo de la interoperabilidad es permitir que la información se presente y se trate de manera uniforme entre los sistemas de gestión, independientemente de su tecnología, aplicación o plataforma. La plena interoperabilidad incluye la capacidad de interoperar en tres niveles distintos: en el del contenido de la factura (datos semánticos), en el del formato o lenguaje utilizado (sintaxis) y en el del método de transmisión. La interoperabilidad semántica implica que la factura electrónica contenga cierta cantidad de información exigida y que el significado preciso de la información intercambiada se mantenga y se comprenda correctamente de forma inequívoca, con independencia de la forma en que se represente o transmita físicamente. La interoperabilidad sintáctica implica que los elementos de una factura electrónica relativos a datos se presenten en un formato que pueda intercambiarse directamente entre el emisor y el destinatario y tratarse automáticamente. La interoperabilidad sintáctica puede garantizarse de dos formas, a saber, mediante la utilización de una sintaxis común o mediante la asignación de correspondencias entre diferentes sintaxis.
+
+(9)
+Existe un gran número de sintaxis en uso. La interoperabilidad sintáctica se ve cada vez más garantizada mediante la asignación de correspondencias. Este método es eficaz si la factura contiene todos los datos requeridos a nivel semántico y su significado es inequívoco. Como es algo que no ocurre con frecuencia, son necesarias medidas para garantizar la interoperabilidad a nivel semántico. Para simplificar en mayor medida la utilización de la facturación electrónica y reducir costes, uno de los objetivos a largo plazo debe ser el de limitar el número de sintaxis utilizadas, centrándose preferentemente en aquellas utilizadas más comúnmente.
+
+(10)
+La normalización de la facturación electrónica también complementa los esfuerzos por fomentar la implantación de la facturación electrónica, tal como contemplan las disposiciones pertinentes de la Directiva 2014/24/UE del Parlamento Europeo y del Consejo (4) y de la Directiva 2014/25/UE del Parlamento Europeo y del Consejo (5).
+
+(11)
+El Consejo Europeo, en sus Conclusiones de 28 y 29 de junio de 2012 y de 24 de octubre de 2013, declaró la conveniencia de dar prioridad a las medidas destinadas a seguir desarrollando el comercio transfronterizo en línea y la modernización de las administraciones públicas, particularmente facilitando la transición a la facturación electrónica y mediante una implantación rápida de dicha facturación.
+
+(12)
+El Parlamento Europeo, en su Resolución de 20 de abril de 2012, señaló la fragmentación del mercado debida a las normas nacionales de facturación electrónica, subrayó los beneficios sustanciales que ofrece la facturación electrónica y destacó la importancia de la seguridad jurídica, de un entorno técnico claro y de soluciones de facturación electrónica abiertas e interoperables basadas en requisitos jurídicos, procesos empresariales y normastécnicas comunes. Por todo ello, el Parlamento Europeo pidió que la facturación electrónica fuera obligatoria para todos los procesos de contratación pública en 2016 a más tardar.
+
+(13)
+El Foro Europeo Multilateral sobre Facturación Electrónica, establecido por la Decisión de la Comisión de 2 de noviembre de 2010 (6), adoptó por unanimidad en octubre de 2013 una Recomendación sobre el uso de un modelo de datos semánticos para respaldar la interoperabilidad de la facturación electrónica.
+
+(14)
+La presente Directiva debe aplicarse a las facturas electrónicas recibidas por los poderes adjudicadores y las entidades adjudicadoras y emitidas como resultado de la ejecución de contratos a los que son de aplicación la Directiva 2009/81/CE del Parlamento Europeo y del Consejo (7), la Directiva 2014/23/UE del Parlamento Europeo y del Consejo (8), la Directiva 2014/24/UE o la Directiva 2014/25/UE. La presente Directiva debe aplicarse únicamente a las facturas electrónicas emitidas por el operador económico al que se ha adjudicado el contrato público o concesión (el contratista principal). No obstante, si los Estados miembros, con arreglo al artículo 71 de la Directiva 2014/24/UE y al artículo 88 de la Directiva 2014/25/UE, disponen el pago directo a los subcontratistas, el régimen que se consigne en los documentos de la contratación pública debe incluir disposiciones relativas al uso obligatorio o no de la facturación electrónica para el pago de los subcontratistas. Es preciso aclarar que, cuando se adjudique un contrato a un grupo de operadores económicos, la presente Directiva se aplica a las facturas electrónicas emitidas tanto por el grupo como por los operadores económicos por separado.
+
+(15)
+La presente Directiva debe aplicarse asimismo a los contratos de concesión que impliquen pagos y que requieran la emisión de facturas por parte del operador económico al que se haya adjudicado el contrato de concesión. El término «concesiones» se define en el artículo 5, punto 1, de la Directiva 2014/23/UE. El objeto de los contratos de concesión es la contratación de obras o servicios mediante una concesión cuya contrapartida consiste en el derecho a explotar las obras o servicios, o en este mismo derecho unido a un pago.
+
+(16)
+El artículo 346 del Tratado de Funcionamiento de la Unión Europea se aplica a la presente Directiva. Esta no se aplica a las facturas electrónicas emitidas como resultado de la ejecución de contratos (declarados como secretos o acompañados de medidas especiales de seguridad) que estén excluidos del ámbito de aplicación de la Directiva 2014/23/UE, la Directiva 2014/24/UE y la Directiva 2014/25/UE, en virtud, respectivamente, de su artículo 10, apartado 6, su artículo 15, apartado 3, y su artículo 24, apartado 3. En las mismas condiciones, la presente Directiva debe contemplar una exclusión específica para las facturas electrónicas emitidas como resultado de la ejecución de los citados contratos (declarados secretos o acompañados de medidas especiales de seguridad) que entren en el ámbito de aplicación de la Directiva 2009/81/CE.
+
+(17)
+Las definiciones de la presente Directiva deben ser conformes con el resto de la legislación de la Unión en materia de contratación pública.
+
+(18)
+La Comisión debe aplicar las disposiciones pertinentes del Reglamento (UE) no 1025/2012 del Parlamento Europeo y del Consejo (9), para solicitar al organismo europeo de normalización pertinente que elabore una norma europea relativa al modelo de datos semánticos de los elementos esenciales de una factura electrónica (en lo sucesivo, «la norma europea sobre facturación electrónica»). En virtud de las disposiciones pertinentes del Reglamento no 1025/2012, la decisión de la Comisión por la que se establece tal solicitud está sujeta al procedimiento de examen del Reglamento (UE) no 182/2011 del Parlamento Europeo y del Consejo (10).
+
+(19)
+La norma europea sobre facturación electrónica debe basarse en las especificaciones técnicas desarrolladas en el marco de los organismos de normalización europeos como el Comité Europeo de Normalización (CEN) (CWA 16356-MUG y CWA 16562-CEN BII) y debe tener en cuenta otras especificaciones técnicas pertinentes desarrolladas en el marco de los organismos internacionales de normalización, como el CEFACT/ONU (CII v. 2) y la ISO(Factura financiera basada en la metodología de la ISO 20022). Al dar curso a la solicitud de normalización, el organismo europeo de normalización pertinente debe también tener en cuenta los resultados de los proyectos a gran escala realizados en el marco del Programa de apoyo a la política del Programa marco para la innovación y la competitividad y aquellas especificaciones técnicas relativas a la facturación electrónica de otros organismos y organizaciones de normalización pertinentes utilizadas de forma generalizada por la comunidad empresarial. La norma europea sobre facturación electrónica debe ser compatible con las normas vigentes aplicables a los pagos, a fin de permitir el tratamiento automatizado de los mismos.
+
+(20)
+En su solicitud al organismo europeo de normalización pertinente, la Comisión debe exigir que la norma europea sobre facturación electrónica sea tecnológicamente neutra, a fin de evitar todo falseamiento de la competencia; que sea compatible con las normas internacionales sobre facturación electrónica pertinentes, a fin de impedir que los proveedores de terceros países deban hacer frente a obstáculos técnicos para su acceso al mercado y de facilitar que los proveedores europeos envíen facturas electrónicas a los compradores de terceros países, y que sea conforme con la Directiva 2006/112/CE del Consejo (11). Puesto que las facturas electrónicas pueden contener datos personales, la Comisión debe también exigir que la norma europea sobre facturación electrónica tenga en cuenta la protección de los datos personales, de conformidad con la Directiva 95/46/CE del Parlamento Europeo y del Consejo (12), así como los principios de la protección de datos mediante el diseño, la proporcionalidad y la reducción al mínimo de dichos datos. Además de estos requisitos mínimos, la Comisión debe determinar, en su solicitud al organismo europeo de normalización pertinente, otros requisitos en cuanto al contenido de la norma europea sobre facturación electrónica y un plazo para su adopción.
+
+(21)
+Para garantizar que las pequeñas y medianas empresas puedan gozar también de la facturación electrónica en la contratación pública, la norma europea sobre facturación electrónica debe posibilitar el establecimiento de sistemas de facturación electrónica sencillos, en concreto, sistemas que sean fáciles de entender y de utilizar. A este respecto debe asimismo tenerse en cuenta que las pequeñas y medianas empresas, en particular, así como los poderes adjudicadores y las entidades adjudicadoras de pequeñas dimensiones, disponen solo de personal y recursos financieros limitados.
+
+(22)
+La norma europea sobre facturación electrónica debe ser también apta para su utilización en las transacciones comerciales entre empresas. Así pues, para que los agentes económicos puedan utilizar la nueva norma en sus negocios, la Comisión debe garantizar que la norma no evolucione de forma que sea apta para su utilización únicamente en el ámbito de la contratación pública.
+
+(23)
+Las facturas emitidas en diferentes sectores comerciales pueden hacer necesaria la inclusión de información específica sobre tales sectores. No obstante, en todas las facturas debe incluirse un número limitado de elementos normalizados comunes. La presencia de tales elementos es indispensable para verificar si la factura refleja adecuadamente la transacción comercial subyacente y para garantizar su validez jurídica. En la Directiva 2006/112/CE se incluye una lista de dichos elementos necesarios a efectos del IVA. La norma europea sobre facturación electrónica debe ser congruente con esa serie de elementos.
+
+(24)
+La norma europea sobre facturación electrónica debe determinar los datos semánticos que se refieran, en particular, a datos complementarios del vendedor y del comprador, identificadores de proceso, particularidades de la factura, detalles de la factura, información de la entrega e información sobre el pago y sus condiciones. En cada factura electrónica deben constar sus elementos esenciales. Lo anterior ha de garantizar la aplicación clara y eficaz de la facturación electrónica.
+
+(25)
+Si bien el emisor de una factura electrónica debe seguir contando con la posibilidad de garantizar la autenticidad del origen e integridad del contenido de la factura por diversos métodos, también mediante la firma electrónica, con el fin de garantizar el cumplimiento de la Directiva 2006/112/CE, la norma europea sobre facturación electrónica no debe contener el requisito de la firma electrónica como uno de sus elementos.
+
+(26)
+Con el fin de evitar costes y cargas administrativas excesivos para los poderes adjudicadores y las entidades adjudicadoras, debe pedirse al organismo europeo de normalización europea pertinente que establezca una lista con un número limitado de sintaxis que cumplan la norma europea sobre facturación electrónica. Dicha lista no debe formar parte de la norma europea sobre facturación electrónica. Las sintaxis establecidas deben ser las que ya seutilicen de forma generalizada y satisfactoria por los operadores económicos y los poderes adjudicadores. Para facilitar y acelerar la aplicación por los Estados miembros, debe solicitarse al organismo de normalización europea pertinente que facilite correspondencias sintácticas adecuadas de la norma europea sobre facturación electrónica con todas las sintaxis incluidas en la lista. Las correspondencias sintácticas son directrices relativas a la forma en que la norma podría representarse en las distintas sintaxis. Este producto de normalización debe completar la norma europea sobre facturación electrónica y la lista de sintaxis.
+
+(27)
+Con el fin de facilitar el uso de la norma europea sobre facturación electrónica, se debe asimismo solicitar al organismo europeo de normalización que elabore orientaciones en materia de interoperabilidad de la transmisión. Dichas orientaciones no deben formar parte de la norma europea sobre facturación electrónica ni ser vinculantes para los poderes adjudicadores y las entidades adjudicadoras.
+
+(28)
+Antes de la introducción en los Estados miembros de la norma europea sobre facturación electrónica, la aplicación práctica de la norma debe ensayarse suficientemente. Esta evaluación debe hacerse durante la elaboración de la norma. En dicha evaluación deben participar los usuarios finales y han de abordarse, en particular, los aspectos de uso práctico y sencillo, y se debe demostrar que la norma puede aplicarse de manera rentable y proporcionada.
+
+(29)
+Si la norma europea sobre facturación electrónica y la lista de sintaxis ajustada a la norma elaborada por el organismo europeo de normalización pertinente cumplen los requisitos contenidos en la solicitud de la Comisión al organismo europeo de normalización, y si la norma se ha sometido a ensayo, las referencias de la norma europea sobre facturación electrónica y de la lista de sintaxis deben publicarse en el Diario Oficial de la Unión Europea.
+
+(30)
+Las disposiciones sobre desarrollo de la norma y demás productos de normalización que contempla la presente Directiva se ajustan a las disposiciones correspondientes del Reglamento (UE) no 1025/2012. Sin embargo, teniendo en cuenta las características específicas de la presente Directiva, conviene establecer que las decisiones de publicar, no publicar o publicar con restricciones las referencias a la norma y a la lista de sintaxis se adopten de conformidad con el procedimiento de examen. Lo anterior debe entenderse sin perjuicio de la aplicación de las disposiciones pertinentes del Reglamento (UE) no 1025/2012 en cuanto a objeciones formales a las normas armonizadas.
+
+(31)
+A fin de dar respuesta a la evolución tecnológica, los organismos europeos de normalización revisan y actualizan periódicamente las normas. Dada la rapidez de dicha evolución en el sector de las TIC, la Comisión también debe poder solicitar al organismo europeo de normalización pertinente que revise y actualice de forma periódica la norma europea sobre facturación electrónica con el fin de tener en cuenta dicha evolución y de garantizar una interoperabilidad permanente.
+
+(32)
+A fin de reaccionar a los avances tecnológicos o las exigencias del mercado, la Comisión debe poder adoptar un acto de ejecución por el que se revise y actualice la lista de sintaxis. Cuando se trate de ajustes más complicados, la Comisión también debe poder solicitar al organismo europeo de normalización pertinente que revise y actualice la lista de sintaxis.
+
+(33)
+Cuando considere necesario garantizar la plena y permanente interoperabilidad, para tener en cuenta la evolución tecnológica y limitar el número de sintaxis que se vayan a utilizar, la Comisión debe poder revisar una lista de sintaxis ya publicada. Al hacerlo, la Comisión debe tener en cuenta la lista de sintaxis establecida, revisada y actualizada por parte del organismo europeo de normalización pertinente.
+
+(34)
+Al vencimiento de los plazos de transposición previstos en la presente Directiva, los poderes y las entidades adjudicadoras deben estar obligados a recibir y procesar las facturas electrónicas que cumplan la norma europea sobre facturación electrónica y cualquiera de las sintaxis que figuren en la lista publicada por la Comisión en el Diario Oficial de la Unión Europea. Por lo tanto, los poderes adjudicadores y las entidades adjudicadoras no deben rechazar facturas electrónicas que reúnan los citados requisitos debido únicamente al incumplimiento de otros requisitos (por ejemplo requisitos nacionales o de sectores específicos o requisitos técnicos adicionales de cualquier tipo), distintos de los incluidos específicamente en la presente Directiva. No obstante, esta obligación no debe impedir que se apliquen otros motivos imperativos de denegación, como los relacionados con obligaciones contractuales. Antes de pagar la factura, los poderes adjudicadores y las entidades adjudicadoras deben seguir contando en todo momento con la posibilidad de verificar si su contenido refleja correctamente la transacción comercial subyacente (por ejemplo, si el importe de la factura es correcto) y si la factura se ha remitido al destinatario correcto. La mencionada obligación de no rechazar facturas electrónicas de conformidad con la presente Directiva se entiende sin perjuicio de la Directiva 2011/7/UE del Parlamento Europeo y del Consejo (13).
+
+(35)
+La presente Directiva debe obligar exclusivamente a los destinatarios de una factura, es decir, a los poderes adjudicadores, las centrales de compras y las entidades adjudicadoras, a aceptar y tramitar facturas electrónicas. La presente Directiva debe entenderse sin perjuicio del derecho del remitente de la factura a elegir entre presentar la factura según la norma europea de facturación electrónica, de conformidad con las normas nacionales o técnicas de otra índole, o en soporte de papel. Sin embargo, la presente Directiva no debe impedir que los Estados miembros dispongan que en el marco de la contratación pública únicamente se presenten facturas electrónicas. Cuando el remitente opte por presentar la factura utilizando la norma europea de facturación electrónica, la obligación del destinatario de recibirla y tramitarla solo debe aplicarse si la factura hace uso de una de las sintaxis enumeradas en la lista de sintaxis publicada por la Comisión en el Diario Oficial de la Unión Europea. Lo anterior debe entenderse sin perjuicio de que el remitente utilice los servicios de un tercero para traducir desde su propia sintaxis a una de las que figuran en la lista.
+
+(36)
+El Supervisor Europeo de Protección de Datos, consultado con arreglo al artículo 28, apartado 2, del Reglamento (CE) no 45/2001 del Parlamento Europeo y del Consejo (14) emitió un dictamen el 11 de noviembre de 2013 (15). En su dictamen hizo públicas recomendaciones para garantizar una protección de datos suficiente en la aplicación de la presente Directiva. Los poderes adjudicadores y las entidades adjudicadoras deben tener en cuenta estas recomendaciones a la hora de elaborar la norma europea sobre facturación electrónica y llevar a cabo el tratamiento de datos de carácter personal. En particular, se debe aclarar que las normas existentes en materia de protección de datos también se aplican en el ámbito de la facturación electrónica y que, en aras de la transparencia y rendición de cuentas, la publicación de datos personales debe guardar una relación de equilibrio respecto de la protección de la vida privada.
+
+(37)
+Dado que la Directiva 2006/112/CE contiene normas sobre facturación, incluida la facturación electrónica, debe aclararse su relación con la presente Directiva. La presente Directiva persigue un objetivo diferente y su ámbito de aplicación es también diferente al de la Directiva 2006/112/CE, por lo que no afecta a las disposiciones relativas al uso de las facturas electrónicas a efectos del IVA que contiene esta última. En particular, el artículo 232 de la Directiva 2006/112/CE rige las relaciones entre las partes de la transacción y tiene por objeto garantizar que el emisor no pueda imponer el uso de la factura electrónica al receptor. No obstante, esto debe entenderse sin perjuicio del derecho de los Estados miembros a imponer a los poderes adjudicadores y a las entidades adjudicadoras la obligación de recibir facturas electrónicas en determinadas condiciones.
+
+(38)
+A fin de que los poderes adjudicadores y las entidades adjudicadoras puedan preparar y adoptar adecuadamente las medidas técnicas que, tras la creación de la norma europea sobre la facturación electrónica y la aprobación de la lista de sintaxis, sean necesarias para cumplir lo dispuesto en la presente Directiva, y teniendo en cuenta la necesidad de una implantación rápida de la facturación electrónica, debe considerarse justificado un plazo de transposición de 18 meses a partir de la publicación de la referencia de la norma europea sobre facturación electrónica y la lista de sintaxis en el Diario Oficial de la Unión Europea. Como excepción a este plazo general de transposición y con objeto de facilitar la utilización de la facturación electrónica por algunos poderes adjudicadores, como los locales, los regionales y las empresas públicas, debe permitirse que los Estados miembros aplacen la aplicación de la presente Directiva para los poderes adjudicadores subcentrales, las empresas públicas y las entidades adjudicadoras hasta 30 meses después de la publicación de la referencia de la norma europea sobre la facturación electrónica y la lista de sintaxis en el Diario Oficial de la Unión Europea. Esta posibilidad de aplacen la aplicación de los requisitos de la Directiva no debe aplicarse a las centrales de compras.
+
+(39)
+Para facilitar la aplicación de los requisitos de la presente Directiva por parte de los poderes adjudicadores y entidades adjudicadoras, la Comisión debe garantizar que los Estados miembros estén plena y periódicamente informados del avance de los trabajos, en lo que se refiere al desarrollo de la norma y de los productos de normalización correspondientes que deben acometer las organismos europeos de normalización pertinentes. Lo anterior ha de permitir que los Estados miembros emprendan los trabajos preparatorios necesarios a fin de completar la aplicación dentro de los plazos convenidos.
+
+(40)
+Puesto que los poderes adjudicadores y las entidades adjudicadoras podrán aceptar facturas electrónicas que cumplan normas distintas de la norma europea sobre facturación electrónica, así como facturas en papel, salvo disposición en contrario de la legislación nacional, la presente Directiva no impone costes ni cargas adicionales a las empresas, incluidas las microempresas y las pequeñas y medianas empresas en el sentido de la Recomendación 2003/361/CE de la Comisión (16). La Comisión y los Estados miembros deben, además, redoblar sus esfuerzospara reducir al mínimo el coste para los usuarios de la norma europea sobre facturación electrónica, en particular para las microempresas y las pequeñas y medianas empresas, de modo que se facilite su empleo en toda la Unión Europea.
+
+(41)
+Al aplicar la presente Directiva, los Estados miembros deben tener en cuenta las necesidades de las pequeñas y medianas empresas y de los poderes adjudicadores y de las entidades adjudicadoras de pequeñas dimensiones y ofrecer tanto a los poderes adjudicadores y a las entidades adjudicadoras como a los proveedores el apoyo necesario para que se pueda hacer uso de la nueva norma europea sobre facturación electrónica. Además, deben preverse medidas de formación destinadas, en particular, a pequeñas y medianas empresas.
+
+(42)
+Para facilitar las adaptaciones técnicas y de procedimiento que deben emprender todas las partes interesadas en materia de contratación pública a fin de garantizar el éxito de la aplicación de la presente Directiva, los Estados miembros, siempre que sea posible, deben poner la ayuda de los Fondos Estructurales a disposición de todos los poderes adjudicadores, entidades adjudicadoras y pequeñas y medianas empresas que puedan optar a ella.
+
+(43)
+A fin de garantizar condiciones uniformes de ejecución de la presente Directiva y a efectos de la redacción, la restricción y la revisión de la lista de sintaxis, deben conferirse a la Comisión competencias de ejecución. La Comisión debe ejercer dichas competencias de conformidad con el Reglamento (UE) no 182/2011. Debe utilizarse el procedimiento de examen para la adopción de actos de ejecución relativos a la lista de sintaxis, ya que sirven para facilitar la aplicación de la norma europea sobre facturación electrónica y garantizar la interoperabilidad y la respuesta rápida a la evolución tecnológica. También debe utilizarse el procedimiento de examen para la adopción de los actos de ejecución relativos a las objeciones contra la norma europea sobre facturación electrónica, ya que dichos actos podrían tener consecuencias para la obligación de recibir y tramitar las facturas electrónicas.
+
+(44)
+Dado que los objetivos de la presente Directiva, a saber, eliminar las barreras del mercado y los obstáculos al comercio derivados de la existencia de requisitos y normas nacionales divergentes y garantizar la interoperabilidad, no pueden lograrse de manera suficiente por los Estados miembros, sino que, por consiguiente, pueden lograrse mejor a escala de la Unión, esta puede adoptar medidas, de acuerdo con el principio de subsidiariedad establecido en el artículo 5 del Tratado de la Unión Europea. De conformidad con el principio de proporcionalidad establecido en el mismo artículo, la presente Directiva no excede de lo necesario para alcanzar dichos objetivos.
+HAN ADOPTADO LA PRESENTE DIRECTIVA:
+Artículo 1
+Ámbito de aplicación
+La presente Directiva se aplicará a las facturas electrónicas emitidas como resultado de la ejecución de los contratos adjudicados a los que son de aplicación la Directiva 2009/81/CE, la Directiva 2014/23/UE, la Directiva 2014/24/UE o la Directiva 2014/25/UE.
+La presente Directiva no se aplicará a las facturas electrónicas emitidas como resultado de la ejecución de contratos que correspondan al ámbito de aplicación de la Directiva 2009/81/CE, cuando la contratación y la ejecución de contrato se declaren secretos o deban ir acompañados de medidas especiales de seguridad de conformidad con las disposiciones legales, reglamentarias o administrativas vigentes en un Estado miembro, y siempre que ese Estado miembro haya determinado que los intereses esenciales en cuestión no pueden garantizarse a través de medidas menos intrusivas.
+Artículo 2
+Definiciones
+A efectos de la presente Directiva, se entenderá por:
+1)   «factura electrónica»: factura emitida, transmitida y recibida en un formato electrónico estructurado que permita su tratamiento automatizado y electrónico;
+2)   «elementos esenciales de una factura electrónica»: el conjunto de información esencial que debe contener una factura electrónica para la interoperabilidad transfronteriza, incluida la información necesaria para garantizar el cumplimiento de la legislación;
+3)   «modelo de datos semánticos»: un conjunto de términos y sus significados estructurado e interrelacionado lógicamente que especifica los elementos esenciales de una factura electrónica;
+4)   «sintaxis»: lenguaje o dialecto legible por máquina utilizado para representar los datos contenidos en una factura electrónica;
+5)   «correspondencias sintácticas»: las directrices relativas a la forma en que el modelo de datos semánticos puede representarse en las distintas sintaxis;
+6)   «poderes adjudicadores»: los poderes adjudicadores tal como se definen en el artículo 1, punto 17, de la Directiva 2009/81/CE, en el artículo 6, apartado 1, de la Directiva 2014/23/UE y en el artículo 2, apartado 1, punto 1, de la Directiva 2014/24/UE;
+7)   «poderes adjudicadores subcentrales»: los poderes adjudicadores subcentrales tal como se definen en el artículo 2, apartado 3, punto 3, de la Directiva 2014/24/UE;
+8)   «centrales de compras»: las centrales de compras tal como se definen en el artículo 2, apartado 1, punto 16, de la Directiva 2014/24/UE;
+9)   «entidades adjudicadoras»: las entidades adjudicadoras tal como se definen en el artículo 1, punto 17, de la Directiva 2009/81/CE, en el artículo 7, apartados 1 y 2, de la Directiva 2014/23/UE y en el artículo 4, apartado 1, de la Directiva 2014/25/UE;
+10)   «norma internacional»: una norma internacional tal como se define en el artículo 2, apartado 1, letra a), del Reglamento (UE) no 1025/2012;
+11)   «norma europea»: una norma europea tal como se define en el artículo 2, apartado 1, letra b), del Reglamento (UE) no 1025/2012.
+Artículo 3
+Creación de una norma europea
+1.   La Comisión pedirá al organismo europeo de normalización pertinente que elabore una norma europea para el modelo de datos semánticos destinado a los elementos esenciales de una factura electrónica («la norma europea sobre facturación electrónica»).
+La Comisión exigirá que la norma europea sobre facturación electrónica cumpla al menos los siguientes criterios:
+-
+ser tecnológicamente neutra,
+
+-
+ser compatible con las normas internacionales pertinentes de facturación electrónica,
+
+-
+tener en cuenta la necesidad de protección de los datos personales de conformidad con la Directiva 95/46/CE, de acuerdo con un planteamiento de «protección de datos mediante el diseño» y con los principios de proporcionalidad, reducción de datos al mínimo y limitación de la finalidad,
+
+-
+ser coherente con las disposiciones pertinentes de la Directiva 2006/112/CE,
+
+-
+permitir el establecimiento de sistemas de facturación electrónica prácticos, fáciles de utilizar, flexibles y rentables,
+
+-
+tener en cuenta las necesidades especiales de las pequeñas y medianas empresas así como de los poderes adjudicadores subcentrales y de las entidades adjudicadoras,
+
+-
+poder utilizarse en las transacciones comerciales entre empresas.
+La Comisión solicitará que la organización de normalización europea pertinente facilite una lista con un número limitado de sintaxis que cumplan la norma europea sobre facturación electrónica, las correspondencias sintácticas adecuadas y orientaciones sobre la interoperabilidad de la transmisión a fin de facilitar la utilización de dicha norma.
+Las solicitudes se adoptarán de conformidad con el procedimiento establecido en el artículo 10, apartados 1 a 5, del Reglamento (UE) no 1025/2012.
+Como parte del trabajo que tendrá que realizar el organismo europeo de normalización correspondiente, deberá someterse a ensayo la aplicación práctica de la norma para el usuario final, dentro del plazo señalado en el apartado 2. La Comisión tendrá la responsabilidad general del ensayo y garantizará que, durante la realización de esta, se tenga especialmente en cuenta el respeto de los criterios de utilización práctica y facilidad de utilización, así como los posibles costes de su aplicación, de conformidad con lo dispuesto en el apartado 1, párrafo segundo. La Comisión presentará un informe sobre el resultado del ensayo al Parlamento Europeo y al Consejo.
+2.   Cuando la norma europea sobre facturación electrónica, elaborada de conformidad con la solicitud a que hace referencia el apartado 1, satisfaga los requisitos especificados, y una vez concluida la fase de ensayo con arreglo al apartado 1, párrafo quinto, la Comisión publicará la referencia a dicha norma en el Diario Oficial de la Unión Europea, junto con la lista de un número limitado de sintaxis preparada según la solicitud a que hace referencia el apartado 1. Esa publicación se completará a más tardar el 27 de mayo de 2017.
+Artículo 4
+Objeciones formales a la norma europea
+1.   Cuando un Estado miembro o el Parlamento Europeo consideren que la norma europea sobre facturación electrónica o la lista de sintaxis no satisfacen totalmente los requisitos previstos en el artículo 3, apartado 1, informarán de ello a la Comisión explicándolo detalladamente, y la Comisión decidirá:
+a)
+publicar, no publicar o publicar con restricciones las referencias a la norma europea sobre facturación electrónica y la lista de sintaxis en cuestión en el Diario Oficial de la Unión Europea;
+
+b)
+mantener o mantener con restricciones las referencias a la norma europea sobre facturación electrónica y la lista de sintaxis en cuestión en el Diario Oficial de la Unión Europea, o suprimirlas.
+2.   La Comisión publicará en su sitio web información sobre la norma europea sobre facturación electrónica y la lista de sintaxis que hayan sido objeto de una decisión con arreglo al apartado 1.
+3.   La Comisión informará al organismo europeo de normalización interesado de la decisión a la que se hace referencia en el apartado 1 y, si es necesario, solicitará la revisión de la norma europea o sobre facturación electrónica de la lista de sintaxis en cuestión.
+4.   Las decisiones a las que se hace referencia en el apartado 1, letras a) y b), del presente artículo se adoptarán siguiendo el procedimiento de examen contemplado en el artículo 10, apartado 2.
+Artículo 5
+Mantenimiento y evolución de la norma europea y de la lista de sintaxis
+1.   Para tener en cuenta la evolución tecnológica y garantizar la interoperabilidad total en curso de la facturación electrónica en la contratación pública, la Comisión podrá:
+a)
+actualizar o revisar la norma europea sobre facturación electrónica;
+
+b)
+actualizar o revisar la lista de sintaxis publicada por la Comisión en el Diario Oficial de la Unión Europea.
+2.   Cuando la Comisión decida actuar conforme al apartado 1, letra a), presentará la solicitud correspondiente al organismo europeo de normalización. Esta solicitud se presentará con arreglo al procedimiento establecido en el artículo 3, apartado 1, sin que sean de aplicación los pazos establecidos en él.
+3.   El artículo 4 se aplicará a cualquier actualización o revisión realizada con arreglo al apartado 1, letra a).
+4.   Cuando la Comisión decida actuar conforme al apartado 1, letra b), lo hará bien de conformidad con el procedimiento de examen a que se refiere el artículo 10, apartado 2, bien presentando una solicitud al organismo europeo de normalización pertinente. Esta solicitud se presentará con arreglo al procedimiento establecido en el artículo 3, apartado 1, sin que sean de aplicación los pazos establecidos en él.
+Artículo 6
+Elementos esenciales de la factura electrónica
+Entre otros, los elementos esenciales de la factura electrónica serán los siguientes
+a)
+identificadores del tratamiento y de la factura;
+
+b)
+período que abarca la factura;
+
+c)
+información sobre el vendedor;
+
+d)
+información sobre el comprador;
+
+e)
+información sobre el beneficiario;
+
+f)
+información sobre el representante fiscal del vendedor;
+
+g)
+referencia del contrato;
+
+h)
+detalles de la entrega;
+
+i)
+instrucciones para el pago;
+
+j)
+información sobre deducciones o cargos;
+
+k)
+información sobre la partida de la factura;
+
+l)
+totales de la factura;
+
+m)
+desglose del IVA.
+Artículo 7
+Recepción y tratamiento de facturas electrónicas
+Los Estados miembros velarán por que los poderes y entidades adjudicadores reciban y traten las facturas electrónicas que cumplan la norma europea sobre facturación electrónica cuya referencia haya sido publicada de conformidad con el artículo 3, apartado 2, y se ajusten a cualquiera de las sintaxis enumeradas en la lista publicada con arreglo al artículo 3, apartado 2.
+Artículo 8
+Protección de datos
+1.   La presente Directiva se entenderá sin perjuicio del Derecho de la Unión y nacional en materia de protección de datos.
+2.   Salvo que el Derecho de la Unión o nacional establezca lo contrario, y sin perjuicio de las excepciones y limitaciones establecidas en el artículo 13 de la Directiva 95/46/CE, los datos personales obtenidos a efectos de facturación electrónica podrán ser utilizados exclusivamente para dicho fin o para fines compatibles con este.
+3.   Sin perjuicio de las excepciones y limitaciones establecidas en el artículo 13 de la Directiva 95/46/CE, los Estados miembros garantizarán que las modalidades de publicación, a efectos de transparencia y contabilidad, de los datos personales recogidos en el contexto de la facturación electrónica sean coherentes con la finalidad de dicha publicación y con el principio de protección de la vida privada.
+Artículo 9
+Uso de facturas electrónicas a efectos del IVA
+La presente Directiva se entenderá sin perjuicio de las disposiciones de la Directiva 2006/112/CE.
+Artículo 10
+Procedimiento de comité
+1.   La Comisión estará asistida por un comité. Dicho comité será un comité en el sentido del Reglamento (UE) no 182/2011.
+2.   Cuando se haga referencia al presente apartado, será de aplicación el artículo 5 del Reglamento (UE) no 182/2011.
+Artículo 11
+Transposición
+1.   Los Estados miembros adoptarán, publicarán y aplicarán las disposiciones legales, reglamentarias y administrativas necesarias para dar cumplimiento a la presente Directiva a más tardar el 27 de noviembre de 2018. Comunicarán inmediatamente a la Comisión el texto de dichas disposiciones.
+2.   No obstante lo dispuesto en el apartado 1, los Estados miembros, a más tardar 18 meses después de la publicación de la referencia de la norma europea sobre facturación electrónica en el Diario Oficial de la Unión Europea, adoptarán, publicarán y aplicarán las disposiciones necesarias para dar cumplimiento a la obligación establecida en el artículo 7, en relación con la recepción y tratamiento de facturas electrónicas.
+Los Estados miembros podrán aplazar la aplicación mencionada en el párrafo primero respecto de sus poderes adjudicadores subcentrales y entidades adjudicadoras hasta 30 meses después de la publicación de la referencia de la norma europea sobre facturación electrónica en el Diario Oficial de la Unión Europea.
+Una vez publicada la referencia a la norma europea sobre facturación electrónica, la Comisión publicará en el Diario Oficial de la Unión Europea la fecha definitiva para la entrada en vigor de las medidas a que hace referencia el párrafo primero.
+3.   Los Estados miembros comunicarán a la Comisión el texto de las principales disposiciones de Derecho interno que adopten en el ámbito regulado por la presente Directiva.
+Artículo 12
+Examen
+La Comisión examinará los efectos de la presente Directiva sobre el mercado interior y sobre la utilización de la facturación electrónica en la contratación pública y presentará un informe al respecto al Parlamento Europeo y al Consejo en el plazo de tres años a partir de la fecha límite de máximo aplazamiento fijado para las autoridades subcentrales en el artículo 11, apartado 2, párrafo segundo. En su caso, se acompañará el informe de una evaluación de impacto relativa a la necesidad de otras acciones.
+Artículo 13
+Entrada en vigor
+La presente Directiva entrará en vigor a los veinte días de su publicación en el Diario Oficial de la Unión Europea.
+Artículo 14
+Destinatarios
+Los destinatarios de la presente Directiva son los Estados miembros.
+Hecho en Estrasburgo, el 16 de abril de 2014.
+Por el Parlamento Europeo
+El Presidente
+M. SCHULZ
+Por el Consejo
+El Presidente
+D. KOURKOULAS
+
+(1)  DO C 79 de 6.3.2014, p. 67.
+(2)  Dictamen de 28 de noviembre de 2013 (no publicado aún en el Diario Oficial).
+(3)  Posición del Parlamento Europeo de 11de marzo de 2014 (no publicada aún en el Diario Oficial) y Decisión del Consejo de 14 de abril de 2014.
+(4)  Directiva 2014/24/UE del Parlamento Europeo y del Consejo, de 26 de febrero de 2014, relativa a la contratación pública y por la que se deroga la Directiva 2004/18/CE (DO L 94 de 28.3.2014, p. 65).
+(5)  Directiva 2014/25/UE del Parlamento Europeo y del Consejo, de 26 de febrero de 2014, relativa a la adjudicación de contratos en los sectores del agua, de la energía, de los transportes y de los servicios postales y por la que se deroga la Directiva 2004/17/CE (DO L 94 de 28.3.2014, p. 243).
+(6)  Decisión de la Comisión, de 2 de noviembre de 2010, por la que se establece el Foro Europeo Multilateral sobre Facturación Electrónica (DO C 326 de 3.12.2010, p. 13).
+(7)  Directiva 2009/81/CE del Parlamento Europeo y del Consejo, de 13 de julio de 2009, sobre coordinación de los procedimientos de adjudicación de determinados contratos de obras, de suministro y de servicios por las entidades o poderes adjudicadores en los ámbitos de la defensa y la seguridad, y por la que se modifican las Directivas 2004/17/CE y 2004/18/CE (DO L 216 de 20.8.2009, p. 76).
+(8)  Directiva 2014/23/UE del Parlamento Europeo y del Consejo, de 26 de febrero de 2014, sobre la adquisición de contratos de concesión (DO L 94 de 28.3.2014, p. 1).
+(9)  Reglamento (UE) no 1025/2012 del Parlamento Europeo y del Consejo, de 25 de octubre de 2012, sobre la normalización europea, por el que se modifican las Directivas 89/686/CEE y 93/15/CEE del Consejo y las Directivas 94/9/CE, 94/25/CE, 95/16/CE, 97/23/CE, 98/34/CE, 2004/22/CE, 2007/23/CE, 2009/23/CE y 2009/105/CE del Parlamento Europeo y del Consejo y por el que se deroga la Decisión 87/95/CEE del Consejo y la Decisión no 1673/2006/CE del Parlamento Europeo y del Consejo (DO L 316 de 14.11.2012, p. 12).
+(10)  Reglamento (UE) no 182/2011 del Parlamento Europeo y del Consejo, de 16 de febrero de 2011, por el que se establecen las normas y los principios generales relativos a las modalidades de control por parte de los Estados miembros del ejercicio de las competencias de ejecución por la Comisión (DO L 55 de 28.2.2011, p. 13).
+(11)  Directiva 2006/112/CE del Consejo, de 28 de noviembre de 2006, relativa al sistema común del impuesto sobre el valor añadido (DO L 347 de 11.12.2006, p. 1).
+(12)  Directiva 95/46/CE del Parlamento Europeo y del Consejo, de 24 de octubre de 1995, relativa a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos (DO L 281 de 23.11.1995, p. 31).
+(13)  Directiva 2011/7/UE del Parlamento Europeo y del Consejo, de 16 de febrero de 2011, por la que se establecen medidas de lucha contra la morosidad en las operaciones comerciales (DO L 48 de 23.2.2011, p. 1).
+(14)  Reglamento (CE) no 45/2001 del Parlamento Europeo y del Consejo, de 18 de diciembre de 2000, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales por las instituciones y los organismos comunitarios y a la libre circulación de estos datos (DO L 8 de 12.1.2001, p. 1).
+(15)  DO C 38 de 8.2.2014, p. 2.
+(16)  Recomendación 2003/361/CE de la Comisión, de 6 de mayo de 2003, sobre la definición de microempresas, pequeñas y medianas empresas (DO L 124 de 20.5.2003, p. 36).
+

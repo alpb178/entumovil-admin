@@ -1,0 +1,554 @@
+Reglamento (CE) n° 44/2001 del Consejo
+de 22 de diciembre de 2000
+relativo a la competencia judicial, el reconocimiento y la ejecución de resoluciones judiciales en materia civil y mercantil
+EL CONSEJO DE LA UNIÓN EUROPEA,
+Visto el Tratado constitutivo de la Comunidad Europea y, en particular, la letra c) de su artículo 61 y el apartado 1 de su artículo 67,
+Vista la propuesta de la Comisión(1),
+Visto el dictamen del Parlamento Europeo(2),
+Visto el dictamen del Comité Económico y Social(3),
+Considerando lo siguiente:
+(1) La Comunidad se ha fijado el objetivo de mantener y desarrollar un espacio de libertad, de seguridad y de justicia en el que esté garantizada la libre circulación de personas. A fin de establecer progresivamente tal espacio, la Comunidad adopta, entre otras cosas, las medidas en el ámbito de la cooperación judicial en materia civil que son necesarias para el buen funcionamiento del mercado interior.
+(2) Ciertas diferencias en las normas nacionales sobre competencia judicial y reconocimiento de las resoluciones judiciales hacen más difícil el buen funcionamiento del mercado interior. Son indispensables, por consiguiente, disposiciones mediante las que se unifiquen las normas sobre conflictos de jurisdicción en materia civil y mercantil, simplificándose los trámites para un reconocimiento y una ejecución rápidos y simples de las resoluciones judiciales de los Estados miembros obligados por el presente Reglamento.
+(3) Esta materia se encuentra dentro del ámbito de la cooperación judicial en materia civil a efectos del artículo 65 del Tratado.
+(4) De conformidad con el principio de subsidiariedad y el principio de proporcionalidad, tal como se enuncian en el artículo 5 del Tratado, los objetivos del presente Reglamento no pueden ser alcanzados de manera suficiente por los Estados miembros y, por consiguiente, pueden lograrse mejor a nivel comunitario. El presente Reglamento se limita al mínimo requerido para alcanzar dichos objetivos y no excede de lo necesario a tal efecto.
+(5) Los Estados miembros celebraron el 27 de septiembre de 1968, en el marco del cuarto guión del artículo 293 del Tratado, el Convenio de Bruselas relativo a la competencia judicial, el reconocimiento y la ejecución de resoluciones judiciales en materia civil y mercantil, en la versión modificada por los Convenios de adhesión de los nuevos Estados miembros a dicho Convenio(4) (denominado en lo sucesivo "el Convenio de Bruselas"). El 16 de septiembre de 1988, los Estados miembros y los Estados de la AELC celebraron el Convenio de Lugano, relativo a la competencia judicial y al reconocimiento de resoluciones judiciales en materia civil y mercantil, paralelo al Convenio de Bruselas de 1968. Estos Convenios han sido objeto de revisión y el Consejo ha manifestado su acuerdo sobre el contenido del texto revisado. Procede garantizar la continuidad de los resultados obtenidos en el marco de esta revisión.
+(6) Para alcanzar el objetivo de la libre circulación de las resoluciones judiciales en materia civil y mercantil, es necesario y oportuno que las reglas relativas a la competencia judicial, al reconocimiento y a la ejecución de las resoluciones se determinen por un instrumento jurídico comunitario vinculante y directamente aplicable.
+(7) El ámbito de aplicación material del presente Reglamento debe abarcar lo esencial de las materias civil y mercantil, salvo determinadas materias claramente determinadas.
+(8) Los litigios a los que se aplica el presente Reglamento deben presentar un nexo con el territorio de los Estados miembros sujetos a dicho Reglamento. Por consiguiente, las reglas comunes sobre competencia judicial se aplicarán, en principio, cuando el demandado esté domiciliado en uno de dichos Estados miembros.
+(9) Los demandados no domiciliados en un Estado miembro estarán generalmente sujetos a las reglas nacionales de competencia aplicables en el territorio del Estado miembro del tribunal ante el que se presente la demanda y los demandados domiciliados en un Estado miembro no sujeto al presente Reglamento deberán seguir estando sujetos al Convenio de Bruselas.
+(10) A los efectos de la libre circulación de las resoluciones judiciales, las dictadas en un Estado miembro obligado por el presente Reglamento deberán reconocerse y ejecutarse en otro Estado miembro obligado por el presente Reglamento, aun cuando el deudor condenado esté domiciliado en un tercer Estado.
+(11) Las reglas de competencia judicial deben presentar un alto grado de previsibilidad y deben fundamentarse en el principio de que la competencia judicial se basa generalmente en el domicilio del demandado y esta competencia debe regir siempre, excepto en algunos casos muy concretos en los que la materia en litigio o la autonomía de las partes justifique otro criterio de vinculación. Respecto de las personas jurídicas, debe definirse el domicilio de manera autónoma para incrementar la transparencia de las reglas comunes y evitar los conflictos de jurisdicción.
+(12) El foro del domicilio del demandado debe completarse con otros foros alternativos a causa del estrecho nexo existente entre el órgano jurisdiccional y el litigio o para facilitar una buena administración de justicia.
+(13) En cuanto a los contratos de seguros, de los celebrados por los consumidores o de trabajo, es oportuno proteger a la parte más débil mediante reglas de competencia más favorables a sus intereses de lo que disponen las reglas generales.
+(14) Debe respetarse la autonomía de las partes de un contrato, que no sea de seguros, de los celebrados por los consumidores o de trabajo, en los que sólo se prevé una autonomía limitada en cuanto a la elección del órgano jurisdiccional competente, sin perjuicio de los criterios de competencia exclusiva establecidos en el presente Reglamento.
+(15) El funcionamiento armonioso de la justicia exige reducir al máximo la posibilidad de procedimientos paralelos y evitar que se dicten en dos Estados miembros resoluciones inconciliables. Es conveniente prever un mecanismo claro y eficaz con objeto de resolver los casos de litispendencia y conexidad y de obviar los problemas derivados de las divergencias nacionales sobre la fecha en la que un asunto se considera pendiente. A efectos del presente Reglamento, es oportuno definir esta fecha de manera autónoma.
+(16) La confianza recíproca en la justicia dentro de la Comunidad legitima que las resoluciones dictadas en un Estado miembro sean reconocidas de pleno Derecho, sin que sea necesario, excepto en caso de oposición, recurrir a ningún otro procedimiento.
+(17) Esta misma confianza recíproca justifica que sea eficaz y rápido el procedimiento para hacer ejecutoria, en un Estado miembro, una resolución dictada en otro Estado miembro. A tal efecto, el otorgamiento de la ejecución de una resolución debería producirse de manera casi automática, previo mero control formal de los documentos aportados, sin que el tribunal pueda invocar de oficio ninguno de los motivos de denegación de la ejecución previstos en el presente Reglamento.
+(18) El respeto del derecho de defensa impone, no obstante, que el demandado pueda, llegado el caso, interponer un recurso que se examine con arreglo al principio de contradicción contra el otorgamiento de ejecución, si considera que se da alguno de los motivos para su denegación. Asimismo, debe reconocerse al demandante el derecho a recurrir si se deniega el otorgamiento de la ejecución.
+(19) Procede garantizar la continuidad entre el Convenio de Bruselas y el presente Reglamento y, a tal efecto, es oportuno establecer disposiciones transitorias. La misma continuidad debe aplicarse por lo que respecta a la interpretación de las disposiciones del Convenio de Bruselas por el Tribunal de Justicia de las Comunidades Europeas, por lo que el Protocolo de 1971(5) deberá seguir aplicándose también a los procedimientos que ya estuvieran pendientes en la fecha de entrada en vigor del Reglamento.
+(20) De conformidad con el artículo 3 del Protocolo sobre la posición del Reino Unido e Irlanda que figura en anexo al Tratado de la Unión Europea y al Tratado constitutivo de la Comunidad Europea, estos Estados han comunicado su deseo de participar en la adopción y en la aplicación del presente Reglamento.
+(21) De conformidad con los artículos 1 y 2 del Protocolo sobre la posición de Dinamarca que figura en anexo al Tratado de la Unión Europea y al Tratado constitutivo de la Unión Europea, Dinamarca no participa en la aprobación del presente Reglamento, por lo que ni está sujeta al presente Reglamento ni le es aplicable.
+(22) Habida cuenta de que está en vigor el Convenio de Bruselas en las relaciones entre Dinamarca y los Estados miembros sujetos al presente Reglamento, tanto el Convenio de Bruselas como el Protocolo de 1971 siguen aplicándose entre Dinamarca y los Estados miembros sujetos al presente Reglamento.
+(23) El Convenio de Bruselas sigue también aplicándose en lo que respecta a los territorios de los Estados miembros que entran en su ámbito de aplicación territorial y que están excluidos del presente Reglamento en virtud del artículo 229 del Tratado.
+(24) Un mismo afán de coherencia explica que el presente Reglamento no afecte a las reglas sobre la competencia judicial y el reconocimiento de las resoluciones judiciales contenidas en instrumentos comunitarios específicos.
+(25) El respeto de los compromisos internacionales contraídos por los Estados miembros justifican que el presente Reglamento no afecte a los convenios en los que son parte los Estados miembros y se refieren a materias especiales.
+(26) Debe introducirse en las reglas de principio previstas por el presente Reglamento la flexibilidad necesaria para tener en cuenta las particularidades procesales de determinados Estados miembros. A tal efecto conviene incluir en el presente Reglamento algunas disposiciones previstas en el Protocolo anexo al Convenio de Bruselas.
+(27) Para permitir una transición armoniosa en determinados ámbitos sobre los que existían disposiciones particulares en el Protocolo anexo al Convenio de Bruselas, el presente Reglamento establece, durante un período transitorio, disposiciones que tienen en cuenta la situación específica en determinados Estados miembros.
+(28) A más tardar cinco años después de la entrada en vigor del presente Reglamento, la Comisión presentará un informe sobre su aplicación y, en su caso, propondrá las modificaciones necesarias.
+(29) La Comisión deberá modificar los anexos I a IV relativos a las reglas de competencia nacionales, a los tribunales y autoridades competentes y a los recursos basándose en las modificaciones transmitidas por el Estado miembro de que se trate. Las modificaciones de los anexos V y VI deberán adoptarse de acuerdo con la Decisión 1999/468/CE del Consejo, de 28 de junio de 1999, por la que se establecen los procedimientos para el ejercicio de las competencias de ejecución atribuidas a la Comisión(6).
+HA ADOPTADO EL PRESENTE REGLAMENTO:
+CAPÍTULO I
+ÁMBITO DE APLICACIÓN
+Artículo 1
+1. El presente Reglamento se aplicará en materia civil y mercantil con independencia de la naturaleza del órgano jurisdiccional. No incluirá, en particular, las materias fiscal, aduanera y administrativa.
+2. Se excluirá del ámbito de aplicación del presente Reglamento:
+a) el estado y la capacidad de las personas físicas, los regímenes matrimoniales, los testamentos y las sucesiones;
+b) la quiebra, los convenios entre quebrado y acreedores y demás procedimientos análogos;
+c) la seguridad social;
+d) el arbitraje.
+3. En el presente Reglamento por la expresión "Estado miembro" se entenderá cualquier Estado miembro excepto Dinamarca.
+CAPÍTULO II
+COMPETENCIA
+Sección 1
+Disposiciones generales
+Artículo 2
+1. Salvo lo dispuesto en el presente Reglamento, las personas domiciliadas en un Estado miembro estarán sometidas, sea cual fuere su nacionalidad, a los órganos jurisdiccionales de dicho Estado.
+2. A las personas que no tuvieren la nacionalidad del Estado miembro en que estén domiciliadas les serán de aplicación las reglas de competencia judicial que se aplicaren a los nacionales.
+Artículo 3
+1. Las personas domiciliadas en un Estado miembro sólo podrán ser demandadas ante los tribunales de otro Estado miembro en virtud de las reglas establecidas en las secciones 2 a 7 del presente capítulo.
+2. No podrán invocarse frente a ellas, en particular, las reglas de competencia nacionales que figuran en el anexo I.
+Artículo 4
+1. Si el demandado no estuviere domiciliado en un Estado miembro, la competencia judicial se regirá, en cada Estado miembro, por la ley de este Estado miembro, sin perjuicio de la aplicación de lo dispuesto en los artículos 22 y 23.
+2. Toda persona, sea cual fuere su nacionalidad, domiciliada en el territorio de un Estado miembro, podrá invocar contra dicho demandado, del mismo modo que los nacionales de este Estado, las reglas de competencia judicial vigentes en el mismo y, en particular, las previstas en el anexo I.
+Sección 2
+Competencias especiales
+Artículo 5
+Las personas domiciliadas en un Estado miembro podrán ser demandadas en otro Estado miembro:
+1) a) en materia contractual, ante el tribunal del lugar en el que hubiere sido o debiere ser cumplida la obligación que sirviere de base a la demanda;
+b) a efectos de la presente disposición, y salvo pacto en contrario, dicho lugar será:
+- cuando se tratare de una compraventa de mercaderías, el lugar del Estado miembro en el que, según el contrato, hubieren sido o debieren ser entregadas las mercaderías;
+- cuando se tratare de una prestación de servicios, el lugar del Estado miembro en el que, según el contrato, hubieren sido o debieren ser prestados los servicios;
+c) cuando la letra b) no fuere aplicable, se aplicará la letra a).
+2) En materia de alimentos, ante el tribunal del lugar del domicilio o de la residencia habitual del acreedor de alimentos o, si se tratare de una demanda incidental a una acción relativa al estado de las personas, ante el tribunal competente según la ley del foro para conocer de ésta, salvo que tal competencia se fundamentare exclusivamente en la nacionalidad de una de las partes.
+3) En materia delictual o cuasidelictual, ante el tribunal del lugar donde se hubiere producido o pudiere producirse el hecho dañoso.
+4) Si se tratare de acciones por daños y perjuicios o de acciones de restitución fundamentadas en un acto que diere lugar a un procedimiento penal, ante el tribunal que conociere de dicho proceso, en la medida en que, de conformidad con su ley, dicho tribunal pudiere conocer de la acción civil.
+5) Si se tratare de litigios relativos a la explotación de sucursales, agencias o cualquier otro establecimiento, ante el tribunal del lugar en que se hallaren sitos.
+6) En su condición de fundador, trustee o beneficiario de un trust constituido ya en aplicación de la ley, ya por escrito o por un acuerdo verbal confirmado por escrito, ante los tribunales del Estado miembro en cuyo territorio estuviere domiciliado el trust.
+7) Si se tratare de un litigio relativo al pago de la remuneración reclamada en razón del auxilio o el salvamento de los que se hubiere beneficiado un cargamento o un flete, ante el tribunal en cuya jurisdicción dicho cargamento o flete:
+a) hubiere sido embargado para garantizar dicho pago; o
+b) hubiere podido ser embargado a tal fin, pero se haya prestado una caución o cualquier otra garantía.
+Esta disposición sólo se aplicará cuando se pretendiere que el demandado tiene un derecho sobre el cargamento o el flete o que tenía tal derecho en el momento de dicho auxilio o salvamento.
+Artículo 6
+Las personas a las que se refiere el artículo anterior también podrán ser demandadas:
+1) si hubiere varios demandados, ante el tribunal del domicilio de cualquiera de ellos, siempre que las demandas estuvieren vinculadas entre sí por una relación tan estrecha que sería oportuno tramitarlas y juzgarlas al mismo tiempo a fin de evitar resoluciones que podrían ser inconciliables si los asuntos fueren juzgados separadamente,
+2) si se tratare de una demanda sobre obligaciones de garantía o para la intervención de terceros en el proceso, ante el tribunal que estuviere conociendo de la demanda principal, salvo que ésta se hubiere formulado con el único objeto de provocar la intervención de un tribunal distinto del correspondiente al demandado,
+3) si se tratare de una reconvención derivada del contrato o hecho en que se fundamentare la demanda inicial, ante el tribunal que estuviere conociendo de esta última,
+4) en materia contractual, si la acción pudiere acumularse con otra en materia de derechos reales inmobiliarios dirigida contra el mismo demandado, ante el tribunal del Estado miembro en el que estuviere sito el inmueble.
+Artículo 7
+Cuando, en virtud del presente Reglamento, un tribunal de un Estado miembro fuere competente para conocer de acciones de responsabilidad derivadas de la utilización o la explotación de un buque, dicho tribunal o cualquier otro que le sustituyere en virtud de la ley interna de dicho Estado miembro conocerá también de la demanda relativa a la limitación de esta responsabilidad.
+Sección 3
+Competencia en materia de seguros
+Artículo 8
+En materia de seguros, se determinará la competencia con arreglo a las disposiciones de la presente sección, sin perjuicio de lo dispuesto en el artículo 4 y en el punto 5 del artículo 5.
+Artículo 9
+1. El asegurador domiciliado en un Estado miembro podrá ser demandado:
+a) ante los tribunales del Estado miembro donde tuviere su domicilio; o
+b) en otro Estado miembro, cuando se trate de acciones entabladas por el tomador del seguro, el asegurado o un beneficiario, ante el tribunal del lugar donde tuviere su domicilio el demandante; o
+c) si se tratare de un coasegurador, ante los tribunales del Estado miembro que entendiere de la acción entablada contra el primer firmante del coaseguro.
+2. Cuando el asegurador no estuviere domiciliado en un Estado miembro pero tuviere sucursales, agencias o cualquier otro establecimiento en un Estado miembro se le considerará, para los litigios relativos a su explotación, domiciliado en dicho Estado miembro.
+Artículo 10
+El asegurador podrá, además, ser demandado ante el tribunal del lugar en que se hubiere producido el hecho dañoso cuando se tratare de seguros de responsabilidad o de seguros relativos a inmuebles. La misma regla será de aplicación cuando se tratare de seguros que se refieren a inmuebles y a bienes muebles cubiertos por una misma póliza y afectados por el mismo siniestro.
+Artículo 11
+1. En materia de seguros de responsabilidad civil, el asegurador podrá ser demandado ante el tribunal que conociere de la acción de la persona perjudicada contra el asegurado, cuando la ley de este tribunal lo permitiere.
+2. Las disposiciones de los artículos 8, 9 y 10 serán aplicables en los casos de acción directa entablada por la persona perjudicada contra el asegurador cuando la acción directa fuere posible.
+3. El mismo tribunal será competente cuando la ley reguladora de esta acción directa previere la posibilidad de demandar al tomador del seguro o al asegurado.
+Artículo 12
+1. Salvo lo dispuesto en el apartado 3 del artículo 11, la acción del asegurador sólo podrá ser ejercitada ante los tribunales del Estado miembro en cuyo territorio estuviere domiciliado el demandado, ya sea tomador del seguro, asegurado o beneficiario.
+2. Las disposiciones de la presente sección no afectarán al derecho de interponer una reconvención ante el tribunal que estuviere conociendo de una demanda inicial de conformidad con la presente sección.
+Artículo 13
+Únicamente prevalecerán sobre las disposiciones de la presente sección los acuerdos atributivos de competencia:
+1) posteriores al nacimiento del litigio, o
+2) que permitieren al tomador del seguro, al asegurado o al beneficiario formular demandas ante tribunales distintos de los indicados en la presente sección, o
+3) que, habiéndose celebrado entre un tomador de seguro y un asegurador, domiciliados o con residencia habitual en el mismo Estado miembro en el momento de la celebración del contrato, atribuyeren, aunque el hecho dañoso se hubiere producido en el extranjero, competencia a los tribunales de dicho Estado, a no ser que la ley de éste prohibiere tales acuerdos, o
+4) celebrados con un tomador de seguro que no estuviere domiciliado en un Estado miembro, a no ser que se tratare de un seguro obligatorio o se refiriere a un inmueble sito en un Estado miembro, o
+5) que se refirieren a un contrato de seguro que cubriere uno o varios de los riesgos enumerados en el artículo 14.
+Artículo 14
+Los riesgos contemplados en el punto 5 del artículo 13 son los siguientes:
+1) todo daño a:
+a) buques de navegación marítima, instalaciones costeras y en alta mar o aeronaves, causado por hechos sobrevenidos en relación con su utilización para fines comerciales;
+b) mercancías distintas de los equipajes de los pasajeros, durante un transporte realizado por dichos buques o aeronaves, bien en su totalidad o bien en combinación con otros modos de transporte,
+2) toda responsabilidad, con excepción de la derivada de los daños corporales a los pasajeros o de los daños a sus equipajes
+a) resultante de la utilización o la explotación de los buques, instalaciones o aeronaves, de conformidad con la letra a) del punto 1 del presente artículo, cuando la ley del Estado miembro en el que estuviere matriculada la aeronave no prohibiere los acuerdos atributivos de competencia en el aseguramiento de tales riesgos;
+b) por las mercancías durante uno de los transportes contemplados en la letra b) del punto 1,
+3) toda pérdida pecuniaria ligada a la utilización o a la explotación de buques, instalaciones o aeronaves de conformidad con la letra a) del punto 1, en particular la del flete o el beneficio del fletamento,
+4) todo riesgo accesorio a cualquiera de los contemplados en los puntos 1 a 3,
+5) no obstante lo dispuesto en los anteriores puntos 1 a 4, todos los "grandes riesgos" industriales y comerciales, tal como se enumeran en la Directiva 73/239/CEE del Consejo(7), modificada por las Directivas 88/357/CEE(8) y 90/618/CEE(9), en su última versión en vigor.
+Sección 4
+Competencia en materia de contratos celebrados por los consumidores
+Artículo 15
+1. En materia de contratos celebrados por una persona, el consumidor, para un uso que pudiere considerarse ajeno a su actividad profesional, la competencia quedará determinada por la presente sección, sin perjuicio de lo dispuesto en el artículo 4 y en el punto 5 del artículo 5:
+a) cuando se tratare de una venta a plazos de mercaderías;
+b) cuando se tratare de un préstamo a plazos o de otra operación de crédito vinculada a la financiación de la venta de tales bienes;
+c) en todos los demás casos, cuando la otra parte contratante ejerciere actividades comerciales o profesionales en el Estado miembro del domicilio del consumidor o, por cualquier medio, dirigiere tales actividades a dicho Estado miembro o a varios Estados miembros, incluido este último, y el contrato estuviere comprendido en el marco de dichas actividades.
+2. Cuando el cocontratante del consumidor no estuviere domiciliado en un Estado miembro, pero poseyere una sucursal, agencia o cualquier otro establecimiento en un Estado miembro, se considerará para todos los litigios relativos a su explotación que está domiciliado en dicho Estado.
+3. La presente sección no se aplicará al contrato de transporte, salvo el caso de los que, por un precio global, ofrecen una combinación de viaje y alojamiento.
+Artículo 16
+1. La acción entablada por un consumidor contra la otra parte contratante podrá interponerse ante los tribunales del Estado miembro en que estuviere domiciliada dicha parte o ante el tribunal del lugar en que estuviere domiciliado el consumidor.
+2. La acción entablada contra el consumidor por la otra parte contratante sólo podrá interponerse ante los tribunales del Estado miembro en que estuviere domiciliado el consumidor.
+3. El presente artículo no afectará al derecho de presentar una reconvención ante el tribunal que entendiere de una demanda principal de conformidad con la presente sección.
+Artículo 17
+Únicamente prevalecerán sobre las disposiciones de la presente sección los acuerdos atributivos de competencia:
+1. posteriores al nacimiento del litigio; o
+2. que permitieren al consumidor formular demandas ante tribunales distintos de los indicados en la presente sección; o
+3. que habiéndose celebrado entre un consumidor y su cocontratante, domiciliados o con residencia habitual en el mismo Estado miembro en el momento de la celebración del contrato, atribuyeren competencia a los tribunales de dicho Estado miembro, a no ser que la ley de éste prohibiere tales acuerdos.
+Sección 5
+Competencia en materia de contratos individuales de trabajo
+Artículo 18
+1. En materia de contratos individuales de trabajo, la competencia quedará determinada por la presente sección, sin perjuicio del artículo 4 y del punto 5 del artículo 5.
+2. Cuando un trabajador celebrare un contrato individual de trabajo con un empresario que no tuviere su domicilio en un Estado miembro, pero poseyere una sucursal, agencia o cualquier otro establecimiento en un Estado miembro, se considerará, para todos los litigios derivados de la explotación de la sucursal, agencia o establecimiento, que tiene su domicilio en dicho Estado miembro.
+Artículo 19
+Los empresarios domiciliados en un Estado miembro podrán ser demandados
+1) ante los tribunales del Estado en que estuvieren domiciliados, o
+2) en otro Estado miembro:
+a) ante el tribunal del lugar en el que el trabajador desempeñare habitualmente su trabajo o ante el tribunal del último lugar en que lo hubiere desempeñado; o
+b) si el trabajador no desempeñare o no hubiere desempeñado habitualmente su trabajo en un único Estado, ante el tribunal del lugar en que estuviere o hubiere estado situado el establecimiento que hubiere empleado al trabajador.
+Artículo 20
+1. Los empresarios sólo podrán demandar a los trabajadores ante el tribunal del Estado miembro en el que estos últimos tuvieren su domicilio.
+2. Lo dispuesto en la presente sección no afectará al derecho de presentar una reconvención ante el tribunal que entendiere de una demanda principal de conformidad con la presente sección.
+Artículo 21
+Únicamente prevalecerán sobre las disposiciones de la presente sección los acuerdos atributivos de competencia:
+1) posteriores al nacimiento del litigio, o
+2) que permitieran al trabajador formular demandas ante tribunales distintos de los indicados en la presente sección.
+Sección 6
+Competencias exclusivas
+Artículo 22
+Son exclusivamente competentes, sin consideración del domicilio:
+1) en materia de derechos reales inmobiliarios y de contratos de arrendamiento de bienes inmuebles, los tribunales del Estado miembro donde el inmueble se hallare sito.
+No obstante, en materia de contratos de arrendamiento de bienes inmuebles celebrados para un uso particular durante un plazo máximo de seis meses consecutivos, serán igualmente competentes los tribunales del Estado miembro donde estuviere domiciliado el demandado, siempre que el arrendatario fuere una persona física y que propietario y arrendatario estuvieren domiciliados en el mismo Estado miembro,
+2) en materia de validez, nulidad o disolución de sociedades y personas jurídicas, así como en materia de validez de las decisiones de sus órganos, los tribunales del Estado miembro en que la sociedad o persona jurídica estuviere domiciliada; para determinar dicho domicilio, el tribunal aplicará sus reglas de Derecho internacional privado,
+3) en materia de validez de las inscripciones en los registros públicos, los tribunales del Estado miembro en que se encontrare el registro,
+4) en materia de inscripciones o validez de patentes, marcas, diseños o dibujos y modelos, y demás derechos análogos sometidos a depósito o registro, los tribunales del Estado miembro en que se hubiere solicitado, efectuado o tenido por efectuado el depósito o registro en virtud de lo dispuesto en algún instrumento comunitario o en algún convenio internacional.
+Sin perjuicio de la competencia de la Oficina Europea de Patentes según el Convenio sobre la patente europea, firmado en Múnich el 5 de octubre de 1973, los tribunales de cada Estado miembro serán los únicos competentes, sin consideración del domicilio, en materia de registro o validez de una patente europea expedida para dicho Estado,
+5) en materia de ejecución de las resoluciones judiciales, los tribunales del Estado miembro del lugar de ejecución.
+Sección 7
+Prórroga de la competencia
+Artículo 23
+1. Si las partes, cuando al menos una de ellas tuviere su domicilio en un Estado miembro, hubieren acordado que un tribunal o los tribunales de un Estado miembro fueren competentes para conocer de cualquier litigio que hubiere surgido o que pudiere surgir con ocasión de una determinada relación jurídica, tal tribunal o tales tribunales serán competentes. Esta competencia será exclusiva, salvo pacto en contrario entre las partes. Tal acuerdo atributivo de competencia deberá celebrarse:
+a) por escrito o verbalmente con confirmación escrita; o
+b) en una forma que se ajustare a los hábitos que las partes tuvieren establecido entre ellas; o
+c) en el comercio internacional, en una forma conforme a los usos que las partes conocieren o debieren conocer y que, en dicho comercio, fueren ampliamente conocidos y regularmente observados por las partes en los contratos del mismo tipo en el sector comercial considerado.
+2. Se considerará hecha por escrito toda transmisión efectuada por medios electrónicos que proporcione un registro duradero del acuerdo.
+3. Cuando ninguna de las partes que hubieren celebrado un acuerdo de este tipo estuviere domiciliada en un Estado miembro, los tribunales de los demás Estados miembros sólo podrán conocer del litigio cuando el tribunal o los tribunales designados hubieren declinado su competencia.
+4. El tribunal o los tribunales de un Estado miembro a los que el documento constitutivo de un trust hubiere atribuido competencia serán exclusivamente competentes para conocer de una acción contra el fundador, el trustee o el beneficiario de un trust si se tratare de relaciones entre estas personas o de sus derechos u obligaciones en el marco del trust.
+5. No surtirán efecto los acuerdos atributivos de competencia ni las estipulaciones similares de documentos constitutivos de un trust si fueren contrarios a las disposiciones de los artículos 13, 17 y 21 o si excluyeren la competencia de tribunales exclusivamente competentes en virtud del artículo 22.
+Artículo 24
+Con independencia de los casos en los que su competencia resultare de otras disposiciones del presente Reglamento, será competente el tribunal de un Estado miembro ante el que compareciere el demandado. Esta regla no será de aplicación si la comparecencia tuviere por objeto impugnar la competencia o si existiere otra jurisdicción exclusivamente competente en virtud del artículo 22.
+Sección 8
+Comprobación de la competencia judicial y de la admisibilidad
+Artículo 25
+El tribunal de un Estado miembro, que conociere a título principal de un litigio para el que los tribunales de otro Estado miembro fueren exclusivamente competentes en virtud del artículo 22, se declarará de oficio incompetente.
+Artículo 26
+1. Cuando una persona domiciliada en un Estado miembro fuere demandada ante un tribunal de otro Estado miembro y no compareciere, dicho tribunal se declarará de oficio incompetente si su competencia no estuviere fundamentada en las disposiciones del presente Reglamento.
+2. Este tribunal estará obligado a suspender el procedimiento en tanto no se acreditare que el demandado ha podido recibir el escrito de demanda o documento equivalente con tiempo suficiente para defenderse o que se ha tomado toda diligencia a tal fin.
+3. El artículo 19 del Reglamento (CE) n° 1348/2000 del Consejo, de 29 de marzo de 2000, relativo a la notificación y al traslado en los Estados miembros de documentos judiciales y extrajudiciales en materia civil o mercantil(10) será de aplicación en lugar de lo dispuesto en el apartado 2 si el escrito de demanda o documento equivalente hubiere de ser remitido de un Estado miembro a otro en virtud de dicho Reglamento.
+4. Cuando no sea de aplicación lo dispuesto en el Reglamento (CE) no 1348/2000 será aplicable el artículo 15 del Convenio de la Haya, de 15 de noviembre de 1965, relativo a la notificación o traslado en el extranjero de documentos judiciales y extrajudiciales en materia civil o comercial si el escrito de demanda o documento equivalente hubiere de ser remitido en virtud de dicho Convenio.
+Sección 9
+Litispendencia y conexidad
+Artículo 27
+1. Cuando se formularen demandas con el mismo objeto y la misma causa entre las mismas partes ante tribunales de Estados miembros distintos, el tribunal ante el que se formulare la segunda demanda suspenderá de oficio el procedimiento en tanto no se declarare competente el tribunal ante el que se interpuso la primera.
+2. Cuando el tribunal ante el que se interpuso la primera demanda se declarare competente, el tribunal ante el que se interpuso la segunda se inhibirá en favor de aquél.
+Artículo 28
+1. Cuando demandas conexas estuvieren pendientes ante tribunales de Estados miembros diferentes, el tribunal ante el que se hubiere presentado la demanda posterior podrá suspender el procedimiento.
+2. Cuando tales demandas conexas estuvieren pendientes en primera instancia, cualquier tribunal ante el que se hubiere presentado la demanda posterior podrá de igual modo inhibirse, a instancia de una de las partes, a condición de que el tribunal ante el que se hubiere presentado la primera demanda fuere competente para conocer de las demandas de que se trate y de que su ley permita su acumulación.
+3. Se considerarán conexas, a los efectos del presente artículo, las demandas vinculadas entre sí por una relación tan estrecha que sería oportuno tramitarlas y juzgarlas al mismo tiempo a fin de evitar resoluciones que podrían ser inconciliables si los asuntos fueren juzgados separadamente.
+Artículo 29
+Cuando en demandas sobre un mismo asunto los tribunales de varios Estados miembros se declararen exclusivamente competentes, el desistimiento se llevará a cabo en favor del tribunal ante el que se hubiere presentado la primera demanda.
+Artículo 30
+A efectos de la presente Sección, se considerará que un tribunal conoce de un litigio:
+1) desde el momento en que se le hubiere presentado el escrito de demanda o documento equivalente, a condición de que posteriormente el demandante no hubiere dejado de tomar todas las medidas que se le exigieren para que se entregare al demandado la cédula de emplazamiento, o
+2) si dicho documento hubiere de notificarse al demandado antes de su presentación al tribunal, en el momento en que lo recibiere la autoridad encargada de la notificación, a condición de que posteriormente el demandante no hubiere dejado de tomar todas las medidas que se le exigieren para presentar el documento al tribunal.
+Sección 10
+Medidas provisionales y cautelares
+Artículo 31
+Podrán solicitarse medidas provisionales o cautelares previstas por la ley de un Estado miembro a las autoridades judiciales de dicho Estado, incluso si, en virtud del presente Reglamento, un tribunal de otro Estado miembro fuere competente para conocer sobre el fondo.
+CAPÍTULO III
+RECONOCIMIENTO Y EJECUCIÓN
+Artículo 32
+Se entenderá por "resolución", a los efectos del presente Reglamento, cualquier decisión adoptada por un tribunal de un Estado miembro con independencia de la denominación que recibiere, tal como auto, sentencia, providencia o mandamiento de ejecución, así como el acto por el cual el secretario judicial liquidare las costas del proceso.
+Sección 1
+Reconocimiento
+Artículo 33
+1. Las resoluciones dictadas en un Estado miembro serán reconocidas en los demás Estados miembros, sin que fuere necesario recurrir a procedimiento alguno.
+2. En caso de oposición, cualquier parte interesada que invocare el reconocimiento a título principal podrá solicitar, por el procedimiento previsto en las secciones 2 y 3 del presente capítulo, que se reconozca la resolución.
+3. Si el reconocimiento se invocare como cuestión incidental ante un tribunal de un Estado miembro, dicho tribunal será competente para entender del mismo.
+Artículo 34
+Las decisiones no se reconocerán:
+1) si el reconocimiento fuere manifiestamente contrario al orden público del Estado miembro requerido,
+2) cuando se dictaren en rebeldía del demandado, si no se hubiere entregado al mismo la cédula de emplazamiento o documento equivalente de forma regular y con tiempo suficiente para que pudiera defenderse, a menos que no hubiere recurrido contra dicha resolución cuando hubiera podido hacerlo,
+3) si la resolución fuere inconciliable con una resolución dictada entre las mismas partes en el Estado miembro requerido,
+4) si la resolución fuere inconciliable con una resolución dictada con anterioridad en otro Estado miembro o un Estado tercero entre las mismas partes en un litigio que tuviere el mismo objeto y la misma causa, cuando esta última resolución reuniere las condiciones necesarias para su reconocimiento en el Estado miembro requerido.
+Artículo 35
+1. Asimismo, no se reconocerán las resoluciones si se hubieren desconocido las disposiciones de las secciones 3, 4 y 6 del capítulo II, o en el caso previsto en el artículo 72.
+2. En la apreciación de las competencias mencionadas en el párrafo anterior, el tribunal requerido quedará vinculado por las apreciaciones de hecho sobre las cuales el tribunal del Estado miembro de origen hubiere fundamentado su competencia.
+3. Sin perjuicio de lo dispuesto en el apartado 1, no podrá procederse a la fiscalización de la competencia del tribunal del Estado miembro de origen. El orden público contemplado en el punto 1 del artículo 34 no afectará a las reglas relativas a la competencia judicial.
+Artículo 36
+La resolución extranjera en ningún caso podrá ser objeto de una revisión en cuanto al fondo.
+Artículo 37
+1. El tribunal de un Estado miembro ante el que se hubiere solicitado el reconocimiento de una resolución dictada en otro Estado miembro podrá suspender el procedimiento si dicha resolución fuere objeto de un recurso ordinario.
+2. El tribunal de un Estado miembro ante el que se hubiere invocado el reconocimiento de una resolución dictada en Irlanda o en el Reino Unido y cuya ejecución hubiere quedado en suspenso en el Estado miembro de origen por haberse interpuesto un recurso podrá suspender el procedimiento.
+Sección 2
+Ejecución
+Artículo 38
+1. Las resoluciones dictadas en un Estado miembro que allí fueren ejecutorias se ejecutarán en otro Estado miembro cuando, a instancia de cualquier parte interesada, se hubiere otorgado su ejecución en éste último.
+2. No obstante, en el Reino Unido, esas resoluciones se ejecutarán en Inglaterra y el País de Gales, en Escocia o en Irlanda del Norte, previo registro con fines de ejecución, a instancia de la parte interesada, en una u otra de esas partes del Reino Unido, según el caso.
+Artículo 39
+1. La solicitud se presentará ante los tribunales o las autoridades competentes indicados en la lista que figura en el anexo II del presente Reglamento.
+2. La competencia territorial se determinará por el domicilio de la parte contra la que se solicitare la ejecución o por el lugar de ejecución.
+Artículo 40
+1. Las modalidades de presentación de la solicitud se determinarán con arreglo a la ley del Estado miembro en el que se solicitare la ejecución.
+2. El solicitante deberá elegir domicilio para notificaciones en un lugar que correspondiere a la competencia del tribunal o de la autoridad que conociere de la solicitud. No obstante, si la ley del Estado miembro en el que se solicitare la ejecución no conociere la elección de domicilio, el solicitante designará un mandatario ad litem.
+3. Se adjuntarán a la solicitud los documentos mencionados en el artículo 53.
+Artículo 41
+Se otorgará inmediatamente la ejecución de la resolución una vez cumplidas las formalidades previstas en el artículo 53, sin proceder a ningún examen de acuerdo con los artículos 34 y 35. La parte contra la cual se solicitare la ejecución no podrá, en esta fase del procedimiento, formular observaciones.
+Artículo 42
+1. La resolución dictada sobre la solicitud de otorgamiento de la ejecución se pondrá de inmediato en conocimiento del solicitante de conformidad con las modalidades determinadas por la ley del Estado miembro requerido.
+2. El otorgamiento de la ejecución se notificará a la parte contra la que solicitare la ejecución, adjuntándose la resolución, si ésta no hubiere sido ya notificada a dicha parte.
+Artículo 43
+1. La resolución sobre la solicitud de ejecución podrá ser recurrida por cualquiera de las partes.
+2. El recurso se interpondrá ante los tribunales indicados en la lista que figura en el anexo III del presente Reglamento.
+3. El recurso se sustanciará según las normas que rigen el procedimiento contradictorio.
+4. El caso de incomparecencia de la parte contra la que se solicitare la ejecución ante el tribunal que conociere de un recurso, se aplicarán las disposiciones establecidas en los apartados 2 a 4 del artículo 26 aunque dicha parte no estuviere domiciliada en uno de los Estados miembros.
+5. El recurso contra el otorgamiento de la ejecución se interpondrá dentro del plazo de un mes a partir de la fecha de notificación. Si la parte contra la que se solicitare la ejecución estuviere domiciliada en un Estado miembro distinto de aquel en el que se hubiere otorgado la ejecución, el plazo será de dos meses y correrá a partir de la fecha de notificación, tanto si ésta se hizo en persona como en su domicilio. Dicho plazo no admitirá prórroga en razón de la distancia.
+Artículo 44
+La resolución que decidiere sobre el recurso sólo podrá ser objeto de los recursos previstos en el anexo IV.
+Artículo 45
+1. El tribunal que conociere del recurso previsto en los artículos 43 o 44 sólo podrá desestimar o revocar el otorgamiento de la ejecución por uno de los motivos previstos en los artículos 34 y 35. Se pronunciará en breve plazo.
+2. La resolución del Estado miembro de origen en ningún caso podrá ser objeto de una revisión en cuanto al fondo.
+Artículo 46
+1. El tribunal que conociere del recurso previsto en los artículos 43 o 44 podrá, a instancia de la parte contra la que se solicitare la ejecución, suspender el procedimiento si la resolución extranjera hubiese sido objeto de recurso ordinario en el Estado miembro de origen o si el plazo para interponerlo no hubiese expirado; en este último caso, el tribunal podrá especificar el plazo en el que deba interponerse dicho recurso.
+2. Cuando la resolución se hubiere dictado en Irlanda o en el Reino Unido, cualquier recurso previsto en el Estado miembro en el que se dictó será considerado recurso ordinario a los efectos de la aplicación del apartado 1.
+3. Dicho tribunal podrá igualmente subordinar la ejecución a la constitución de una garantía que él mismo determinará.
+Artículo 47
+1. Cuando debiere reconocerse una resolución con arreglo al presente Reglamento, nada impedirá al solicitante instar la adopción de medidas provisionales, incluidas las medidas cautelares, de conformidad con la legislación del Estado miembro requerido, sin que resulte necesario el otorgamiento de la ejecución conforme al artículo 41.
+2. El otorgamiento de la ejecución incluirá la autorización para adoptar cualesquiera medidas cautelares.
+3. Durante el plazo del recurso previsto en el apartado 5 del artículo 43 contra el otorgamiento de la ejecución y hasta que se hubiere resuelto sobre el mismo, solamente se podrán adoptar medidas cautelares sobre los bienes de la parte contra la que se hubiere solicitado la ejecución.
+Artículo 48
+1. Cuando la resolución del Estado miembro de origen se hubiere pronunciado sobre varias pretensiones de la demanda y el otorgamiento de la ejecución no pudiere concederse para la totalidad de ellas, el tribunal o la autoridad competente concederá la ejecución para una o varias de ellas.
+2. El solicitante podrá instar una ejecución parcial.
+Artículo 49
+Las resoluciones extranjeras que condenaren al pago de multas coercitivas solamente podrán ejecutarse en el Estado miembro requerido cuando la cuantía hubiere sido fijada definitivamente por el tribunal del Estado miembro de origen.
+Artículo 50
+El solicitante que en el Estado miembro de origen hubiere obtenido total o parcialmente el beneficio de justicia gratuita o una exención de costas y gastos gozará, en el procedimiento previsto en la presente sección, del beneficio de justicia gratuita más favorable o de la exención más amplia prevista por el Derecho del Estado miembro requerido.
+Artículo 51
+A la parte que instare en un Estado miembro la ejecución de una resolución dictada en otro Estado miembro no podrá exigírsele caución o depósito alguno, sea cual fuere su denominación, por su condición de extranjero o por no estar domiciliado o no ser residente en el Estado miembro requerido.
+Artículo 52
+El Estado miembro requerido no percibirá impuesto, derecho ni tasa alguna, proporcional al valor del litigio, en los procedimientos relativos al otorgamiento de la ejecución.
+Sección 3
+Disposiciones comunes
+Artículo 53
+1. La parte que invocare el reconocimiento o solicitare el otorgamiento de la ejecución de una resolución deberá presentar una copia auténtica de dicha resolución.
+2. La parte que solicitare el otorgamiento de la ejecución deberá presentar asimismo la certificación a la que se refiere el artículo 54, sin perjuicio de lo dispuesto en el artículo 55.
+Artículo 54
+El tribunal o la autoridad competente del Estado miembro en el que se hubiere dictado una resolución expedirá, a instancia de cualquier parte interesada, una certificación conforme al formulario normalizado que figura en el anexo V del presente Reglamento.
+Artículo 55
+1. De no presentarse la certificación a la que se refiere el artículo 54, el tribunal o la autoridad competente podrán fijar un plazo para su presentación, aceptar documentos equivalentes o dispensar de ellos si considerase que dispone de suficiente información.
+2. Si el tribunal o la autoridad competente lo exigiere, se presentará una traducción de los documentos. La traducción estará certificada por una persona autorizada a tal fin en uno de los Estados miembros.
+Artículo 56
+No se exigirá legalización ni formalidad análoga alguna en lo que se refiriere a los documentos mencionados en el artículo 53, o en el apartado 2 del artículo 55, ni, en su caso, al poder para pleitos.
+CAPÍTULO IV
+DOCUMENTOS PÚBLICOS CON FUERZA EJECUTIVA Y TRANSACCIONES JUDICIALES
+Artículo 57
+1. Los documentos públicos con fuerza ejecutiva, formalizados en un Estado miembro, serán declarados ejecutorios, a instancia de parte, en otro Estado miembro, con arreglo al procedimiento previsto en los artículos 38 y siguientes. El tribunal ante el que se presentare un recurso con arreglo a los artículos 43 o 44 sólo desestimará o revocará el otorgamiento de la ejecución cuando la ejecución del documento fuere manifiestamente contraria al orden público del Estado miembro requerido.
+2. También se considerarán documentos públicos con fuerza ejecutiva, en el sentido del apartado 1, los acuerdos en materia de obligaciones alimentarias celebrados ante las autoridades administrativas o formalizados por las mismas.
+3. El documento presentado deberá reunir las condiciones necesarias de autenticidad en el Estado miembro de origen.
+4. Serán aplicables, en la medida en que fuere necesario, las disposiciones de la sección 3 del capítulo III. La autoridad competente del Estado miembro en el que se hubiere formalizado el documento público con fuerza ejecutiva expedirá, a instancia de cualquier parte interesada, una certificación conforme al formulario normalizado que figura en el anexo VI del presente Reglamento.
+Artículo 58
+Las transacciones celebradas ante el tribunal durante un proceso y ejecutorias en el Estado miembro de origen serán ejecutorias en el Estado miembro requerido, en las mismas condiciones que los documentos públicos con fuerza ejecutiva. El tribunal o la autoridad competente del Estado miembro en el que se haya celebrado la transacción expedirá, a instancia de cualquier parte interesada, una certificación conforme al formulario normalizado que figura en el anexo V del presente Reglamento.
+CAPÍTULO V
+DISPOSICIONES GENERALES
+Artículo 59
+1. Para determinar si una parte está domiciliada en el Estado miembro cuyos tribunales conocieren del asunto, el tribunal aplicará su ley interna.
+2. Cuando una parte no estuviere domiciliada en el Estado miembro cuyos tribunales conocieren del asunto, el tribunal, para determinar si dicha parte lo está en otro Estado miembro, aplicará la ley de dicho Estado miembro.
+Artículo 60
+1. A efectos del presente Reglamento, se entenderá que una sociedad u otra persona jurídica está domiciliada en el lugar en que se encuentre:
+a) su sede estatutaria;
+b) su administración central;
+c) su centro de actividad principal.
+2. Para el Reino Unido y para Irlanda, la expresión "sede estatutaria" se equiparará al registered office y, en caso de que en ningún lugar exista una registered office al place of incorporation, (lugar de constitución) o, a falta de tal lugar, el lugar conforme a cuya legislación se hubiere efectuado la formation (creación) de la sociedad o persona jurídica.
+3. Para determinar si un trust está domiciliado en el Estado contratante cuyos tribunales conocen del asunto, el tribunal aplicará las reglas de su Derecho internacional privado.
+Artículo 61
+Sin perjuicio de las disposiciones nacionales más favorables, las personas domiciliadas en un Estado miembro y perseguidas por infracciones involuntarias ante los órganos jurisdiccionales sancionadores de otro Estado miembro del que no fueren nacionales podrán, aunque no comparecieren personalmente, defenderse por medio de las personas autorizadas a tal fin. No obstante, el tribunal que conociere del asunto podrá ordenar la comparecencia personal; si ésta no tuviere lugar, la resolución dictada sobre la acción civil sin que la persona encausada hubiere tenido la posibilidad de defenderse podrá no ser reconocida ni ejecutada en los demás Estados miembros.
+Artículo 62
+En Suecia, en los procedimientos sumarios de requerimiento de pago (betalningsföreläggande) y de solicitud de ayuda (handräckning), los términos "juez", "tribunal" y "jurisdicción" comprenderán el Servicio público sueco de cobro forzoso (kronofogdemyndighet).
+Artículo 63
+1. Una persona domiciliada en el territorio de Luxemburgo y demandada ante el tribunal de otro Estado miembro en aplicación del apartado 1 del artículo 5, con arreglo a compromisos internacionales que vinculen a Luxemburgo con dicho Estado miembro, podrá rechazar la competencia de este tribunal cuando el lugar final de entrega de la mercancía o del servicio estuviere situado en Luxemburgo.
+2. Cuando en aplicación del apartado 1, el lugar final de entrega de la mercancía o del servicio estuviere situado en Luxemburgo, cualquier acuerdo atributivo de competencia deberá, para ser válido, celebrarse por escrito o verbalmente con confirmación escrita, según el sentido de la letra a) del apartado 1 del artículo 23.
+3. Las disposiciones del presente artículo no serán aplicables a los contratos relativos a servicios financieros.
+4. Las disposiciones del presente artículo serán aplicables durante un período de seis años a partir de la entrada en vigor del presente Reglamento.
+Artículo 64
+1. En los litigios entre el capitán y un miembro de la tripulación de un buque matriculado en Grecia o Portugal, relativos a las remuneraciones o a las demás condiciones del servicio, los tribunales de un Estado contratante deberán comprobar si el agente diplomático o funcionario consular competente respecto al buque ha sido informado del litigio. Podrán pronunciarse desde el momento en que se haya informado a dicho agente.
+2. Las disposiciones del presente artículo serán aplicables durante un período de seis años a partir de la entrada en vigor del presente Reglamento.
+Artículo 65
+1. La competencia judicial prevista en el punto 2 del artículo 6 y en el artículo 11 para la demanda sobre obligaciones de garantía o para la intervención de terceros en el proceso no podrá ser invocada ni en Alemania ni en Austria. Toda persona domiciliada en otro Estado miembro podrá ser demandada ante los tribunales de:
+a) Alemania, en aplicación de los artículos 68, 72, 73 y 74 de la Ley de Enjuiciamiento Civil (Zivilprozessordnung) sobre la litis denuntiatio;
+b) Austria, de conformidad con el artículo 21 de la Ley de Enjuiciamiento Civil (Zivilprozessordnung) sobre la litis denuntiatio.
+2. Las resoluciones dictadas en los demás Estados miembros en virtud del punto 2 del artículo 6 y el artículo 11 se reconocerán en Alemania y en Austria con arreglo a lo dispuesto en el capítulo III. Los efectos producidos frente a terceros, conforme al apartado 1, por resoluciones dictadas en estos Estados también se reconocerán en los demás Estados miembros.
+CAPÍTULO VI
+DISPOSICIONES TRANSITORIAS
+Artículo 66
+1. Las disposiciones del presente Reglamento solamente serán aplicables a las acciones judiciales ejercitadas y a los documentos públicos con fuerza ejecutiva formalizados con posterioridad a la entrada en vigor del presente Reglamento.
+2. No obstante, las resoluciones dictadas después de la fecha de entrada en vigor del presente Reglamento como consecuencia de acciones ejercitadas en el Estado miembro de origen con anterioridad a esta fecha serán reconocidas y ejecutadas con arreglo a las disposiciones del capítulo III,
+a) si la acción se hubiere ejercitado en el Estado miembro de origen tras la entrada en vigor del Convenio de Bruselas o del Convenio de Lugano en el Estado miembro de origen y en el Estado miembro requerido;
+b) en todos los demás casos, si las reglas de competencia aplicadas se ajustaren a las previstas en el capítulo II o en un convenio en vigor entre el Estado miembro de origen y el Estado miembro requerido al ejercitarse la acción.
+CAPÍTULO VII
+RELACIONES CON OTROS INSTRUMENTOS
+Artículo 67
+El presente Reglamento no prejuzgará la aplicación de las disposiciones que, en materias particulares, regularen la competencia judicial, el reconocimiento o la ejecución de las resoluciones contenidas en los actos comunitarios o en las legislaciones nacionales armonizadas en ejecución de dichos actos.
+Artículo 68
+1. El presente Reglamento sustituirá, entre los Estados miembros, a las disposiciones del Convenio de Bruselas de 1968, salvo en lo que respecta a los territorios de los Estados miembros comprendidos en el ámbito de aplicación territorial de dicho Convenio y que están excluidos del presente Reglamento en virtud del artículo 299 del Tratado constitutivo de la Comunidad Europea.
+2. En la medida en que el presente Reglamento sustituye entre los Estados miembros a las disposiciones del Convenio de Bruselas de 1968, se entenderá que toda remisión a dicho Convenio se refiere al presente Reglamento.
+Artículo 69
+Sin perjuicio de lo dispuesto en el apartado 2 del artículo 66, y en el artículo 70, el presente Reglamento sustituirá, entre los Estados miembros, a los Convenios y al Tratado siguientes:
+- el Convenio entre Bélgica y Francia sobre competencia judicial y sobre valor y ejecución de las resoluciones judiciales, laudos arbitrales y documentos públicos con fuerza ejecutiva, firmado en París el 8 de julio de 1899,
+- el Convenio entre Bélgica y los Países Bajos sobre competencia judicial territorial, quiebra, y sobre valor y ejecución de resoluciones judiciales, laudos arbitrales y documentos públicos con fuerza ejecutiva, firmado en Bruselas el 28 de marzo de 1925,
+- el Convenio entre Francia e Italia sobre ejecución de resoluciones judiciales en materia civil y mercantil, firmado en Roma el 3 de junio de 1930,
+- el Convenio entre Alemania e Italia sobre reconocimiento y ejecución de resoluciones judiciales en materia civil y mercantil, firmado en Roma el 9 de marzo de 1936,
+- el Convenio entre Bélgica y Austria sobre reconocimiento y ejecución recíprocos de resoluciones judiciales y documentos públicos con fuerza ejecutiva en materia de obligaciones alimentarias, firmado en Viena el 25 de octubre de 1957,
+- el Convenio entre Alemania y Bélgica relativo al conocimiento y la ejecución recíprocos en materia civil y mercantil de las resoluciones judiciales, laudos arbitrales y documentos públicos con fuerza ejecutiva, firmado en Bonn el 30 de junio de 1958,
+- el Convenio entre los Países Bajos e Italia sobre reconocimiento y ejecución de resoluciones judiciales en materia civil y mercantil firmado en Roma el 17 de abril de 1959,
+- el Convenio entre Alemania y Austria sobre reconocimiento y ejecución recíprocos de las resoluciones y las transacciones judiciales, y de los documentos públicos con fuerza ejecutiva en materia civil y mercantil, firmado en Viena el 6 de junio de 1959,
+- el Convenio entre Bélgica y Austria sobre reconocimiento y ejecución recíprocos de resoluciones judiciales, laudos arbitrales y documentos públicos con fuerza ejecutiva en materia civil y mercantil, firmado en Viena el 16 de junio de 1959,
+- el Convenio entre Grecia y Alemania relativo al reconocimiento y la ejecución recíprocos de resoluciones judiciales, transacciones judiciales y documentos públicos con fuerza ejecutiva en materia civil y mercantil, firmado en Atenas el 4 de noviembre de 1961,
+- el Convenio entre Bélgica e Italia relativo al reconocimiento y la ejecución de resoluciones judiciales y otros títulos ejecutivos en materia civil y mercantil, firmado en Roma el 6 de abril de 1962,
+- el Convenio entre los Países Bajos y Alemania sobre reconocimiento y ejecución mutuos de resoluciones judiciales y otros títulos ejecutivos civil y mercantil, firmado en La Haya el 30 de agosto de 1962,
+- el Convenio entre los Países Bajos y Austria sobre reconocimiento y ejecución recíprocos de resoluciones judiciales y documentos públicos con fuerza ejecutiva en materia civil y mercantil, firmado en La Haya el 6 de febrero de 1963,
+- el Convenio entre Francia y Austria sobre reconocimiento y ejecución de resoluciones judiciales y documentos públicos con fuerza ejecutiva en materia civil y mercantil, firmado en Viena el 15 de julio de 1966,
+- el Convenio entre España y Francia sobre reconocimiento de decisiones judiciales y arbitrales y actas auténticas en materia civil y mercantil, firmado en París el 28 de mayo de 1969,
+- el Convenio entre Luxemburgo y Austria sobre reconocimiento y ejecución de resoluciones judiciales y documentos públicos con fuerza ejecutiva en materia civil y mercantil, firmado en Luxemburgo el 29 de julio de 1971,
+- el Convenio entre Italia y Austria sobre reconocimiento y ejecución recíprocos de resoluciones y transacciones judiciales y de documentos públicos con fuerza ejecutiva en materia civil y mercantil, firmado en Roma el 16 de noviembre de 1971,
+- el Convenio entre España e Italia sobre asistencia judicial y reconocimiento y ejecución de resoluciones judiciales en materia civil y mercantil, firmado en Madrid el 22 de mayo de 1973,
+- el Convenio entre Dinamarca, Finlandia, Islandia, Noruega y Suecia sobre reconocimiento y ejecución de resoluciones judiciales en materia civil, firmado en Copenhague el 11 de octubre de 1977,
+- el Convenio entre Suecia y Austria sobre reconocimiento y ejecución de resoluciones judiciales en materia civil, firmado en Estocolmo el 16 de septiembre de 1982,
+- el Convenio entre España y Alemania sobre reconocimiento y ejecución de resoluciones judiciales, transacciones judiciales y documentos públicos con fuerza ejecutiva en materia civil y mercantil, firmado en Bonn el 14 de noviembre de 1983,
+- el Convenio entre España y Austria sobre reconocimiento y ejecución recíprocos de resoluciones y transacciones judiciales y documentos públicos con fuerza ejecutiva en materia civil y mercantil firmado en Viena el 17 de febrero de 1984,
+- el Convenio entre Finlandia y Austria sobre reconocimiento y ejecución de resoluciones judiciales en materia civil, firmado en Viena el 17 de noviembre de 1986, y
+- el Tratado entre Bélgica, los Países Bajos y Luxemburgo sobre competencia judicial, quiebra y valor y ejecución de resoluciones judiciales, laudos arbitrales y documentos públicos con fuerza ejecutiva, firmado en Bruselas el 24 de noviembre de 1961, en tanto esté en vigor.
+Artículo 70
+1. Los Convenios y el Tratado mencionados en el artículo 69 continuarán surtiendo sus efectos en las materias a las que no se aplicare el presente Reglamento.
+2. Dichos Convenios y dicho Tratado continuarán surtiendo sus efectos en lo relativo a las resoluciones dictadas y los documentos públicos con fuerza ejecutiva formalizados antes de la entrada en vigor del presente Reglamento.
+Artículo 71
+1. El presente Reglamento no afectará a los convenios en que los Estados miembros fueren parte y que, en materias particulares, regularen la competencia judicial, el reconocimiento o la ejecución de las resoluciones.
+2. Con el fin de asegurar su interpretación uniforme, el apartado 1 se aplicará como sigue:
+a) el presente Reglamento no impedirá que un tribunal de un Estado miembro que fuere parte en un convenio relativo a una materia particular, pudiera fundamentar su competencia en dicho convenio, aunque el demandado estuviere domiciliado en un Estado miembro no parte en tal convenio. El tribunal que conociere del asunto aplicará, en todo caso, el artículo 26 del presente Reglamento;
+b) las resoluciones dictadas en un Estado miembro por un tribunal que hubiere fundado su competencia en un convenio relativo a una materia particular serán reconocidas y ejecutadas en los demás Estados miembros con arreglo al presente Reglamento.
+Cuando un convenio relativo a una materia particular en el que fueren parte el Estado miembro de origen y el Estado miembro requerido estableciere las condiciones para el reconocimiento y la ejecución de resoluciones, se aplicarán dichas condiciones. En todo caso, podrán aplicarse las disposiciones del presente Reglamento relativas al procedimiento de reconocimiento y ejecución de resoluciones.
+Artículo 72
+El presente Reglamento no afectará a los acuerdos por los que los Estados miembros se hubieren comprometido antes de su entrada en vigor, en virtud del artículo 59 del Convenio de Bruselas, a no reconocer una resolución dictada en otro Estado contratante del citado Convenio contra un demandado que tuviere su domicilio o su residencia habitual en un tercer Estado cuando, en el caso previsto en el artículo 4 del citado Convenio, la resolución sólo hubiere podido fundamentarse en un criterio de competencia contemplado en el apartado 2 del artículo 3 de dicho Convenio.
+CAPÍTULO VIII
+DISPOSICIONES FINALES
+Artículo 73
+A más tardar, cinco años después de la fecha de entrada en vigor del presente Reglamento, la Comisión presentará al Parlamento Europeo, al Consejo y al Comité Económico y Social un informe sobre la aplicación del presente Reglamento. Este informe se acompañará, si procede, de propuestas destinadas a adaptar el Reglamento.
+Artículo 74
+1. Los Estados miembros comunicarán a la Comisión los textos que modifican las listas que figuran en los anexos I a IV y de los procedimientos que figuran en el anexo IV. La Comisión adaptará dichos anexos en consecuencia.
+2. La actualización o adaptación técnica de los formularios, cuyos modelos figuran en los anexos V y VI, se llevarán a cabo de acuerdo con el procedimiento consultivo al que se refiere el apartado 2 del artículo 75.
+Artículo 75
+1. La Comisión estará asistida por un Comité.
+2. En los casos en que se haga referencia al presente apartado, serán de aplicación los artículos 3 y 7 de la Decisión 1999/468/CE.
+3. El Comité aprobará su reglamento interno.
+Artículo 76
+El presente Reglamento entrará en vigor el 1 de marzo de 2002.
+El presente Reglamento será obligatorio en todos sus elementos y directamente aplicable en todos los Estados miembros con arreglo al Tratado constitutivo de la Comunidad Europea.
+Hecho en Bruselas, el 22 de diciembre de 2000.
+Por el Consejo
+El Presidente
+C. Pierret
+(1) DO C 376 de 28.12.1999, p. 1.
+(2) Dictamen emitido el 21 de septiembre de 2000 (aún no publicado en el Diario Oficial).
+(3) DO C 117 de 26.4.2000, p. 6.
+(4) DO L 299 de 31.12.1972, p. 32.
+DO L 304 de 30.10.1978, p. 1.
+DO L 388 de 31.12.1982, p. 1.
+DO L 285 de 3.10.1989, p. 1.
+DO C 15 de 15.1.1997, p. 1.
+Para la versión consolidada, véase el DO C 27 de 26.1.1998, p. 1.
+(5) DO L 204 de 2.8.1975, p. 28.
+DO L 304 de 30.10.1978, p. 1.
+DO L 388 de 31.12.1982, p. 1.
+DO L 285 de 3.10.1989, p. 1.
+DO C 15 de 15.1.1997, p. 1.
+Para la versión consolidada, véase el DO C 27 de 26.1.1998, p. 28.
+(6) DO L 184 de 17.7.1999, p. 23.
+(7) DO L 228 de 16.8.1973, p. 3, Directiva cuya última modificación la constituye la Directiva 2000/26/CE del Parlamento Europeo y del Consejo (DO L 181 de 20.7.2000, p. 65).
+(8) DO L 172 de 4.7.1988, p. 1, Directiva cuya última modificación la constituye la Directiva 2000/26/CE.
+(9) DO L 330 de 29.11.1990, p. 44.
+(10) DO L 160 de 30.6.2000, p. 37.
+ANEXO I
+Reglas de competencia nacionales mencionadas en el apartado 2 del artículo 3 y en el apartado 2 del artículo 4
+Las reglas de competencia nacionales previstas en el apartado 2 del artículo 3 y en el apartado 2 del artículo 4 son las siguientes:
+- en Bélgica: el artículo 15 del Código Civil (Code civil-Burgerlijk Wetboek) y el artículo 638 de la Ley de enjuiciamiento (Code Judiciaire-Gerechtelijk Wetboek),
+- en Alemania: el artículo 23 de la Ley de enjuiciamiento civil (Zivilprozessordnung),
+- en Grecia: el artículo 40 de la Ley de enjuiciamiento civil (??????? ????????? ??????????),
+- en Francia: los artículos 14 y 15 del Código Civil (Code civil),
+- en Irlanda, las disposiciones relativas a la competencia basada en una cédula de emplazamiento notificada al demandado que se encuentre temporalmente en Irlanda,
+- en Italia: los artículos 3 y 4 de la Ley no 218, de 31 de mayo de 1995,
+- en Luxemburgo: los artículos 14 y 15 del Código Civil (Code civil),
+- en los Países Bajos: el apartado 3 del artículo 126, y el artículo 127 de la Ley de enjuiciamiento civil (Wetboek van Burgerlijke Rechtsvordering),
+- en Austria: el artículo 99 de la Ley de Jurisdicción (Jurisdiktionsnorm),
+- en Portugal: los artículos 65 y 65 A de la Ley de enjuiciamiento civil (Código de Processo Civil) y el artículo 11 de la Ley de procedimiento laboral (Código de Processo de Trabalho),
+- en Finlandia: los incisos segundo, tercero y cuarto del apartado 1 del artículo 1 del capítulo 10 del Código de procedimiento judicial (oikeudenkäymiskaari/rättegångsbalken),
+- en Suecia: la primera frase del párrafo primero del artículo 3 del capítulo 10 del Código de procedimiento judicial (rättegångsbalken),
+- en el Reino Unido, las disposiciones relativas a la competencia basadas en:
+a) una cédula de emplazamiento notificada al demandado que se encuentre temporalmente en el Reino Unido;
+b) la existencia en el Reino Unido de bienes de propiedad del demandado;
+c) el embargo por el demandante de bienes situados en el Reino Unido.
+ANEXO II
+Los tribunales o autoridades competentes ante los que se presentarán las solicitudes a las que se refiere en el artículo 39 del Reglamento son los siguientes:
+- en Bélgica, el tribunal de première instance o rechtbank van eerste aanleg erstinstanzliches Gericht,
+- en Alemania, el Presidente de una sala del Landgericht,
+- en Grecia, el ????????? ???????????,
+- en España, el Juzgado de Primera Instancia,
+- en Francia, el Presidente del Tribunal de grande instance,
+- en Irlanda, la High Court,
+- en Italia, la Corte d'appello,
+- en Luxemburgo, el Presidente del tribunal d'arrondissement,
+- en los Países Bajos, el Presidente del arrondissementsrechtbank,
+- en Austria, el Bezirksgericht,
+- en Portugal, el Tribunal de Comarca,
+- en Finlandia, el käräjäoikeus/tingsrätt,
+- en Suecia, el Svea hovrätt,
+- en el Reino Unido:
+a) en Inglaterra y Gales, la High Court of Justice, o si se tratare de una resolución en materia de alimentos, la Magistrates' Court, por mediación del Secretary of State;
+b) en Escocia, la Court of Session, o si se tratare de una resolución en materia de alimentos, la Sheriff Court, por mediación del Secretary of State;
+c) en Irlanda del Norte, la High Court of Justice, o si se tratare de una resolución en materia de alimentos, la Magistrates' Court por mediación del Secretary of State;
+d) en Gibraltar, la Supreme Court of Gibraltar, o si se tratare de una resolución en materia de alimentos, la Magistrates' Court por mediación del Attorney General of Gibraltar.
+ANEXO III
+Los tribunales de los Estados miembros ante los que se interpondrán los recursos a los que se refiere en el apartado 2 del artículo 43 del Reglamento son los siguientes:
+- en Bélgica:
+a) cuando se trate de un recurso interpuesto por la parte contra la que se solicitare la ejecución, el tribunal de première instance o rechtbank van eerste aanleg, o erstinstanzliches Gericht, y,
+b) cuando se trate de un recurso interpuesto por la parte que solicitare la ejecución, la cour d'appel o hof van beroep,
+- en Alemania, el Oberlandesgericht,
+- en Grecia, el ???????,
+- en España, la Audiencia Provincial,
+- en Francia, la cour d'appel,
+- en Irlanda, la High Court,
+- en Italia, la corte d'appello,
+- en Luxemburgo, la Cour supérieure de Justice reunida para entender en materia de apelación civil,
+- en los Países Bajos:
+a) cuando se trate de la parte contra la que se solicitare la ejecución, el arrondissementsrechtbank;
+b) cuando se trate de la parte que solicitare la ejecución, el gerechtshof,
+- en Austria el Bezirksgericht,
+- en Portugal, el Tribunal de Relação,
+- en Finlandia, el hovioikeus/hovrätt,
+- en Suecia, la Svea hovrätt,
+- en el Reino Unido:
+a) en Inglaterra y Gales, la High Court of Justice, o si se tratare de una resolución en materia de alimentos, la Magistrates' Court;
+b) en Escocia, la Court of Session, o si se tratare de una resolución en materia de alimentos, la Sheriff Court;
+c) en Irlanda del Norte, el High Court of Justice, o si se tratare de una resolución en materia de alimentos, la Magistrates' Court;
+d) en Gibraltar, la Supreme Court of Gibraltar, o si se tratare de una resolución en materia de alimentos, la Magistrates' Court.
+ANEXO IV
+Los recursos que podrán interponerse en virtud del artículo 44 son los siguientes:
+- en Bélgica, Grecia, España, Francia, Italia, Luxemburgo y los Países Bajos, un recurso de casación,
+- en Alemania, una Rechtsbeschwerde,
+- en Irlanda, un recurso sobre una cuestión de derecho ante la Supreme Court,
+- en Austria, un Revisionsrekurs,
+- en Portugal, un recurso sobre una cuestión de Derecho,
+- en Finlandia, un recurso ante el korkein oikeus/högsta domstolen,
+- en Suecia, un recurso ante el Högsta domstolen,
+- en el Reino Unido, un recurso único sobre una cuestión de Derecho.
+ANEXO V
+Certificación contemplada en los artículos 54 y 58 del Convenio sobre resoluciones y transacciones judiciales
+(Español, spanish, espagnol, spagnolo, ...)
+1. Estado miembro de origen
+2. Tribunal o autoridad competente que expide la certificación
+2.1. Denominación
+2.2. Dirección
+2.3. Tel./fax/correo electrónico
+3. Tribunal que dictó la resolución/ratificó la transacción judicial(1)
+3.1. Tipo de tribunal
+3.2. Sede del tribunal
+4. Resolución/transacción judicial(2)
+4.1. Fecha
+4.2. Número de referencia
+4.3. Parte(s) de la resolución/transacción judicial
+4.3.1. Nombre(s) y apellidos de la(s) parte(s) demandante(s)
+4.3.2. Nombre(s) y apellidos de la(s) parte(s) demandada(s)
+4.3.3. Nombre(s) y apellidos de otra(s) partes(s), en su caso
+4.4. Fecha de notificación o traslado de la cédula de emplazamiento cuando la resolución haya sido dictada en rebeldía
+4.5. Texto de la resolución/transacción judicial en anexo a la presente certificación
+5. Nombres de las partes a las que se ha concedido el beneficio de justicia gratuita
+La resolución/transacción judicial(3) es ejecutoria en el Estado miembro de origen (artículos 38 y 58 del Reglamento) frente a:
+Nombre:
+Hecho en ..., el ...
+Firma y/o sello ...
+(1) Táchese lo que no proceda.
+(2) Táchese lo que no proceda.
+(3) Táchese lo que no proceda.
+ANEXO VI
+Certificación contemplada en el apartado 4 del artículo 57 del Reglamento sobre documentos públicos con fuerza ejecutiva
+(Español, spanish, espagnol, spagnolo, ...)
+1. Estado miembro de origen
+2. Autoridad que expide la certificación
+2.1. Denominación
+2.2. Dirección
+2.3. Tel./fax/correo electrónico
+3. Autoridad que otorgó fuerza ejecutiva al documento
+3.1. Autoridad ante la que se formalizó el documento público con fuerza ejecutiva (en su caso)
+3.1.1. Nombre y designación de autoridad
+3.1.2. Sede de la autoridad
+3.2. Autoridad que registró el documento público con fuerza ejecutiva (en su caso)
+3.2.1. Tipo de autoridad
+3.2.2. Sede de la autoridad
+4. Documento público con fuerza ejecutiva
+4.1. Denominación del documento
+4.2. Fecha
+4.2.1. En la que se redactó el documento
+4.2.2. En otro caso: en la que se registró el documento
+4.3. Número de referencia
+4.4. Partes del documento público con fuerza ejecutiva
+4.4.1. Designación del acreedor
+4.4.2. Designación del deudor
+5. Texto de la obligación ejecutoria en anexo a la presente certificación
+El documento público con fuerza ejecutiva es ejecutorio en el Estado miembro de origen (apartado 1 del artículo 57 del Reglamento) frente al deudor:
+Hecho en ..., el ...
+Firma y/o sello ...
+

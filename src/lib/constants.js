@@ -19,36 +19,18 @@ export const INMOCOR_LEGISLATION_CA = "/legislation-Cataluña";
 export const INMOCOR_LEGISLATION_FR = "/legislation-Francia";
 export const INMOCOR_LEGISLATION = "/legislacion";
 
-export const INMOCOR_TEMPLATE_I_PAGE = "/plantilla-1";
-export const INMOCOR_TEMPLATE_II_PAGE = "/plantilla-2";
-export const INMOCOR_TEMPLATE_III_PAGE = "/plantilla-3";
-export const INMOCOR_TEMPLATE_IV_PAGE = "/plantilla-4";
-
 export const INMOCOR_GLOSARY_PAGE = "/glosario";
 export const INMOCOR_CONTACT_PAGE = "/contacto";
 export const INMOCOR_MANAGMENT_INMOCOR_PAGE = "/macrocorpus-INMOCOR";
 export const INMOCOR_MANAGMENT_INMOGEN_PAGE = "/inmogen";
 export const INMOCOR_MANAGMENT_PUBLICATIONS_PAGE = "/publicaciones";
 
-export const templates = [
-  {
-    name: "PlanTilla 1",
-    href: INMOCOR_TEMPLATE_I_PAGE,
-  },
-  {
-    name: "PlanTilla 2",
-    href: INMOCOR_TEMPLATE_II_PAGE,
-  },
-  {
-    name: "Plantilla 3",
-    href: INMOCOR_TEMPLATE_III_PAGE,
-  },
-  {
-    name: "Plantilla 4",
-
-    href: INMOCOR_TEMPLATE_IV_PAGE,
-  },
-];
+export const INMOCOR_CONTRACT_DRATER_ARG_PAGE = "/Plantilla-Argentina";
+export const INMOCOR_CONTRACT_DRATER_DE_PAGE = "/Plantilla-Alemania";
+export const INMOCOR_CONTRACT_DRATER_UK_PAGE = "/Plantilla-UK";
+export const INMOCOR_CONTRACT_DRATER_ESP_PAGE = "/Plantilla-España";
+export const INMOCOR_CONTRACT_DRATER_FR_PAGE = "/Plantilla-Francia";
+export const INMOCOR_CONTRACT_DRATER_IT_PAGE = "/Plantilla-Italiano";
 
 export const legislation = [
   {

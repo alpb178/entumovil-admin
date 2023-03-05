@@ -93,10 +93,10 @@ export default function FooterSite() {
       </section>
       <div className=" bg-gradient-to-r from-gradient-for-footer to-gradient-to p-5 text-white">
         <div className="text-md flex px-8">
-          <a className="m-2 w-1/2">
+          <p className="m-2 w-1/2">
             © {new Date().getFullYear()} <a className="text-red">INMOCOR</a>{" "}
             Compraventa de Inmuebles. Todos los derechos reservados.
-          </a>
+          </p>
           <div className=" flex-inline flex w-1/2 items-center ">
             <a className="m-2 hover:text-red" href="#">
               Avisos legales

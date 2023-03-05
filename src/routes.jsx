@@ -1,7 +1,13 @@
-import { Home} from "@/pages";
+import { Home } from "@/pages";
 
 import {
   INMOCOR_CONTACT_PAGE,
+  INMOCOR_CONTRACT_DRATER_ARG_PAGE,
+  INMOCOR_CONTRACT_DRATER_DE_PAGE,
+  INMOCOR_CONTRACT_DRATER_ESP_PAGE,
+  INMOCOR_CONTRACT_DRATER_FR_PAGE,
+  INMOCOR_CONTRACT_DRATER_IT_PAGE,
+  INMOCOR_CONTRACT_DRATER_UK_PAGE,
   INMOCOR_GLOSARY_PAGE,
   INMOCOR_LEGISLATION,
   INMOCOR_LEGISLATION_AL,
@@ -17,12 +23,14 @@ import {
   INMOCOR_MANAGMENT_INMOCOR_PAGE,
   INMOCOR_MANAGMENT_INMOGEN_PAGE,
   INMOCOR_MANAGMENT_PUBLICATIONS_PAGE,
-  INMOCOR_TEMPLATE_III_PAGE,
-  INMOCOR_TEMPLATE_II_PAGE,
-  INMOCOR_TEMPLATE_IV_PAGE,
-  INMOCOR_TEMPLATE_I_PAGE,
 } from "./lib/constants";
 import ContactsPage from "./pages/contacts";
+import ContractDrafterARGPage from "./pages/contractDrafter/contractDrafterARG";
+import ContractDrafterDEPage from "./pages/contractDrafter/contractDrafterDE";
+import ContractDrafterEnUkPage from "./pages/contractDrafter/contractDrafterEnUk";
+import ContractDrafterESPPage from "./pages/contractDrafter/contractDrafterESP";
+import ContractDrafterFRPage from "./pages/contractDrafter/contractDrafterFR";
+import ContractDrafterITPage from "./pages/contractDrafter/contractDrafterIT";
 import GlosaryPage from "./pages/glosary";
 import InmogenPage from "./pages/inmogen";
 import LegislationALPage from "./pages/legislation/legislationAL";
@@ -38,10 +46,6 @@ import LegislationRuPage from "./pages/legislation/legislationRu";
 import LegislationUEPage from "./pages/legislation/legislationUe";
 import ManagmentInmocorPage from "./pages/managmentInmocor";
 import ManagmentPublicationsPage from "./pages/publications";
-import TemplateIPage from "./pages/templateI";
-import TemplateIIPage from "./pages/templateII";
-import TemplateIIIPage from "./pages/templateIII";
-import TemplateIVPage from "./pages/templateIV";
 
 export const routes = [
   {
@@ -49,31 +53,7 @@ export const routes = [
     path: "/Inicio",
     element: <Home />,
   },
-  {
-    name: "Plantilla-1",
-    path: INMOCOR_TEMPLATE_I_PAGE,
-    element: <TemplateIPage />,
-  },
-  {
-    name: "Plantilla-2",
-    path: INMOCOR_TEMPLATE_II_PAGE,
-    element: <TemplateIIPage />,
-  },
-  {
-    name: "Plantilla-3",
-    path: INMOCOR_TEMPLATE_III_PAGE,
-    element: <TemplateIIIPage />,
-  },
-  {
-    name: "Plantilla-4",
-    path: INMOCOR_TEMPLATE_IV_PAGE,
-    element: <TemplateIVPage />,
-  },
-  {
-    name: "Plantilla-4",
-    path: INMOCOR_TEMPLATE_IV_PAGE,
-    element: <TemplateIVPage />,
-  },
+
   {
     name: "legislacion-Union-Europea",
     path: INMOCOR_LEGISLATION_UE,
@@ -155,6 +135,36 @@ export const routes = [
     name: "Legislacion",
     path: INMOCOR_LEGISLATION,
     element: <LegislationIntroductionPage />,
+  },
+  {
+    name: "Plantilla-Argentina",
+    path: INMOCOR_CONTRACT_DRATER_ARG_PAGE,
+    element: <ContractDrafterARGPage />,
+  },
+  {
+    name: "Plantilla-Alemania",
+    path: INMOCOR_LEGISLATION,
+    element: <INMOCOR_CONTRACT_DRATER_DE_PAGE />,
+  },
+  {
+    name: "Plantilla-Uk",
+    path: INMOCOR_CONTRACT_DRATER_UK_PAGE,
+    element: <ContractDrafterEnUkPage />,
+  },
+  {
+    name: "Plantilla-España",
+    path: INMOCOR_CONTRACT_DRATER_ESP_PAGE,
+    element: <ContractDrafterESPPage />,
+  },
+  {
+    name: "Plantilla-Francia",
+    path: INMOCOR_CONTRACT_DRATER_FR_PAGE,
+    element: <ContractDrafterFRPage />,
+  },
+  {
+    name: "Plantilla-Italiano",
+    path: INMOCOR_CONTRACT_DRATER_IT_PAGE,
+    element: <ContractDrafterITPage />,
   },
 ];
 

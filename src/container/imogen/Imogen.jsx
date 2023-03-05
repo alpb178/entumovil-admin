@@ -1,7 +1,13 @@
 import React from "react";
 import FooterSite from "@/component/footer";
 
-import { INMOCOR_MANAGMENT_INMOGEN_PAGE } from "@/lib/constants";
+import {
+  INMOCOR_CONTRACT_DRATER_ARG_PAGE,
+  INMOCOR_CONTRACT_DRATER_DE_PAGE,
+  INMOCOR_CONTRACT_DRATER_ESP_PAGE,
+  INMOCOR_CONTRACT_DRATER_FR_PAGE,
+  INMOCOR_CONTRACT_DRATER_IT_PAGE,
+} from "@/lib/constants";
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import TopImage from "@/component/topImage";
 
@@ -57,7 +63,7 @@ export function Inmogen() {
                     </div>
                     <h5 className="flex-inline ml-5 flex ">
                       <a
-                        href={INMOCOR_MANAGMENT_INMOGEN_PAGE}
+                        href={INMOCOR_CONTRACT_DRATER_ESP_PAGE}
                         className="icon-btn btn-link btn-arrow text-dark flex-inline flex"
                       >
                         Redactor en español (variedad peninsular)
@@ -71,7 +77,7 @@ export function Inmogen() {
                     </div>
                     <h5 className="ml-5">
                       <a
-                        href={INMOCOR_MANAGMENT_INMOGEN_PAGE}
+                        href={INMOCOR_CONTRACT_DRATER_ARG_PAGE}
                         className="icon-btn btn-link btn-arrow text-dark flex-inline flex"
                       >
                         Redactor en español (variedad argentina)
@@ -79,55 +85,14 @@ export function Inmogen() {
                       </a>
                     </h5>
                   </li>
+
                   <li className="border-bottom flex-inline mb-4 flex pb-3">
                     <div className="rounded-full bg-legislation-gray">
                       <i className="fas fa-check m-1 rounded-full text-red" />
                     </div>
                     <h5 className="ml-5">
                       <a
-                        href={INMOCOR_MANAGMENT_INMOGEN_PAGE}
-                        className="icon-btn btn-link btn-arrow text-dark flex-inline flex"
-                      >
-                        Redactor en inglés (variedad británica)
-                        <ArrowRightIcon className="mt ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
-                      </a>
-                    </h5>
-                  </li>
-                  <li className="border-bottom flex-inline mb-4 flex pb-3">
-                    <div className="rounded-full bg-legislation-gray">
-                      <i className="fas fa-check m-1 rounded-full text-red" />
-                    </div>
-                    <h5 className="ml-5">
-                      <a
-                        href={INMOCOR_MANAGMENT_INMOGEN_PAGE}
-                        className="icon-btn btn-link btn-arrow text-dark flex-inline flex"
-                      >
-                        Redactor en inglés (variedad estadounidense)
-                        <ArrowRightIcon className="mt ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
-                      </a>
-                    </h5>
-                  </li>
-                  <li className="border-bottom flex-inline mb-4 flex pb-3">
-                    <div className="rounded-full bg-legislation-gray">
-                      <i className="fas fa-check m-1 rounded-full text-red" />
-                    </div>
-                    <h5 className="ml-5">
-                      <a
-                        href={INMOCOR_MANAGMENT_INMOGEN_PAGE}
-                        className="icon-btn btn-link btn-arrow text-dark flex-inline flex"
-                      >
-                        Redactor en inglés (variedad irlandesa)
-                        <ArrowRightIcon className="mt ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
-                      </a>
-                    </h5>
-                  </li>
-                  <li className="border-bottom flex-inline mb-4 flex pb-3">
-                    <div className="rounded-full bg-legislation-gray">
-                      <i className="fas fa-check m-1 rounded-full text-red" />
-                    </div>
-                    <h5 className="ml-5">
-                      <a
-                        href={INMOCOR_MANAGMENT_INMOGEN_PAGE}
+                        href={INMOCOR_CONTRACT_DRATER_FR_PAGE}
                         className="icon-btn btn-link btn-arrow text-dark flex-inline flex"
                       >
                         Redactor en francés
@@ -141,7 +106,7 @@ export function Inmogen() {
                     </div>
                     <h5 className="ml-5">
                       <a
-                        href={INMOCOR_MANAGMENT_INMOGEN_PAGE}
+                        href={INMOCOR_CONTRACT_DRATER_IT_PAGE}
                         className="icon-btn btn-link btn-arrow text-dark flex-inline flex"
                       >
                         Redactor en italiano
@@ -155,24 +120,10 @@ export function Inmogen() {
                     </div>
                     <h5 className="ml-5">
                       <a
-                        href={INMOCOR_MANAGMENT_INMOGEN_PAGE}
+                        href={INMOCOR_CONTRACT_DRATER_DE_PAGE}
                         className="icon-btn btn-link btn-arrow text-dark flex-inline flex"
                       >
                         Redactor en alemán
-                        <ArrowRightIcon className="mt ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
-                      </a>
-                    </h5>
-                  </li>
-                  <li className="border-bottom flex-inline mb-4 flex pb-3">
-                    <div className="rounded-full bg-legislation-gray">
-                      <i className="fas fa-check m-1 rounded-full text-red" />
-                    </div>
-                    <h5 className="ml-5">
-                      <a
-                        href={INMOCOR_MANAGMENT_INMOGEN_PAGE}
-                        className="icon-btn btn-link btn-arrow text-dark flex-inline flex"
-                      >
-                        Redactor en catalán
                         <ArrowRightIcon className="mt ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
                       </a>
                     </h5>

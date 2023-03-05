@@ -100,6 +100,7 @@ export function ManagmentInmocor() {
                     <div className="mt-2">
                       <input
                         id="searc-term"
+                        value={findText}
                         className="form-control w-full bg-legislation-gray p-4"
                         placeholder="Introduzca los términos de búsqueda..."
                         onChange={(e) => setFindText(e.target.value)}

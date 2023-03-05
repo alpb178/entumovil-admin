@@ -8,6 +8,7 @@ import {
   legislation,
 } from "@/lib/constants";
 import { useEffect, useState } from "react";
+
 import ItemsMenuNavbar from "./ItemsMenuNavbar";
 
 export const navList = (

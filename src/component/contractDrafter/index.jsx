@@ -38,31 +38,66 @@ const ContractDrafterComponent = (props) => {
               </li>
             </ul>
           </div>
-          <div className="w-4/6">
-            {props?.title}
-           { props.sumary && < ViewDoc textDoc={props?.sumary} />}
-            <p className="mt-6">{props?.headersParts}</p>
-           { props.parts && <ViewDoc textDoc={props?.parts} />}
-            <p className="mt-6">{props?.headersClausesClient}</p>
-            { props.clausesClient && props?.clausesClient?.map((element)=><div className="mb-5">
-           <ViewDoc
-              textDoc={element}
-            />
-           </div>)  }
-           <p className="mt-6">{props?.headersClausesContract}</p>
-           {  props.clausesContract && props?.clausesContract.map((element)=><div className="mb-5">
-           <ViewDoc
-              textDoc={element}
-            />
-           </div>)  }
-            <div className="mb-10 mt-10">
-              {props.footer &&  <ViewDoc
-              textDoc={props?.footer}
-            />}
+          <div className="mt-5 w-4/6 border-2">
+            <div className="border-2 text-center text-3xl text-black">
+              {props?.title}
             </div>
-            <div className="item-center mb-24 mt-24 flex content-center">
-              <div className="w-1/2">Comprador</div>
-              <div className="w-1/2">Vendedor</div>
+            <div className="mx-5 mt-5 border-2 text-center">
+              <div className="mx-5 mb-5">
+                {props.sumary && <ViewDoc textDoc={props?.sumary} />}
+              </div>
+            </div>
+
+            <div className="mx-5 mt-5 border-2 text-justify">
+              <p className="mt-6 text-center">{props?.headersParts}</p>
+              <div className="mx-5 mb-5">
+                {props.parts && <ViewDoc textDoc={props?.parts} />}
+              </div>
+            </div>
+
+            <div className="mx-5 mt-5 border-2 text-justify">
+              <p className="mt-6 text-center">{props?.headersClausesClient}</p>
+              <div className="mx-5 mb-5">
+                {props.clausesClient &&
+                  props?.clausesClient?.map((element) => (
+                    <div className="mb-5">
+                      <ViewDoc textDoc={element} />
+                    </div>
+                  ))}
+              </div>
+            </div>
+
+            <div className="mx-5 mt-5 border-2 text-justify">
+              <p className="mt-6 text-center">
+                {props?.headersClausesContract}
+              </p>
+              <div className="mx-5 mb-5">
+                {props.clausesContract &&
+                  props?.clausesContract.map((element) => (
+                    <div className="mb-5">
+                      <ViewDoc textDoc={element} />
+                    </div>
+                  ))}
+              </div>
+            </div>
+
+            <div className="mx-5">
+              <h4 className="mt-7 text-center text-2xl">
+                CLÁUSULAS ADICIONALES
+              </h4>
+              <textarea className="w-full border-2"></textarea>
+            </div>
+
+            <div className="mx-5 mb-5 border-2">
+              <div className="mx-5 mb-10 mt-5 text-justify">
+                {props.footer && <ViewDoc textDoc={props?.footer} />}
+              </div>
+              <div className="text-justify">
+                <div className="flex">
+                  <div className="w-1/2 ml-5">Comprador</div>
+                  <div className="w-1/2 mr-5">Vendedor</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

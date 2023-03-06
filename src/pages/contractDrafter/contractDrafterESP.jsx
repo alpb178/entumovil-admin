@@ -1,5 +1,5 @@
-import ContractDrafterDEPage from "./contractDrafterDE";
+import ContractDrafterESP from "@/container/contractDrafter/contractDrafterESP";
 
 export default function ContractDrafterESPPage() {
-  return <ContractDrafterDEPage/>;
+  return <ContractDrafterESP />;
 }

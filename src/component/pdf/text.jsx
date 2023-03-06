@@ -6,7 +6,11 @@ const ViewTXT = ({ textDoc, findText }) => {
       <p className="mt-5 ml-20  text-gray">
         {textDoc.split(" ").map((text) => {
           if (findText.split(" ").find((element) => element === text)) {
-            return <span className="text-black">{text} </span>;
+            return (
+              <span className="text-black">
+                <strong>{text}</strong> {" "}
+              </span>
+            );
           }
           return `${text} `;
         })}

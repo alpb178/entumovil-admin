@@ -6,7 +6,7 @@ const ContractDrafterComponent = (props) => {
     <section className=" mb-20 flex px-2 text-xl leading-loose  text-gray">
       <div className="container mx-auto">
         <div className="item-center flex content-center  ">
-          <div className="w-2/6">
+          <div className="w-1/6">
             <ul className="list-check mt-7">
               <li className="border-bottom flex-inline mb-4 flex pb-3">
                 <div className="rounded-full bg-legislation-gray">
@@ -38,34 +38,44 @@ const ContractDrafterComponent = (props) => {
               </li>
             </ul>
           </div>
-          <div className="mt-5 w-4/6 border-2">
-            <div className="border-2 text-center text-3xl text-black">
+          <div className="mt-5 ml-7 mb-7 w-5/6 border-2">
+            <div className="mx-5 mt-7 border-2 text-center text-3xl text-black">
               {props?.title}
             </div>
-            <div className="mx-5 mt-5 border-2 text-center">
-              <div className="mx-5 mb-5">
-                {props.sumary && <ViewDoc textDoc={props?.sumary} />}
+            {props.sumary && (
+              <div className="mx-5 mt-5 border-2 text-center">
+                <div className="mx-5 mb-5">
+                  <ViewDoc textDoc={props?.sumary} />
+                </div>
               </div>
-            </div>
+            )}
 
-            <div className="mx-5 mt-5 border-2 text-justify">
+            {props?.headersParts && (
               <p className="mt-6 text-center">{props?.headersParts}</p>
-              <div className="mx-5 mb-5">
-                {props.parts && <ViewDoc textDoc={props?.parts} />}
+            )}
+            {props.parts && (
+              <div className="mx-5 mt-5 border-2 text-justify">
+                <div className="mx-5 mb-5">
+                  <ViewDoc textDoc={props?.parts} />
+                </div>
               </div>
-            </div>
+            )}
 
-            <div className="mx-5 mt-5 border-2 text-justify">
+            {props?.headersClausesClient && (
               <p className="mt-6 text-center">{props?.headersClausesClient}</p>
-              <div className="mx-5 mb-5">
-                {props.clausesClient &&
-                  props?.clausesClient?.map((element) => (
+            )}
+
+            {props.clausesClient && (
+              <div className="mx-5 mt-5 border-2 text-justify">
+                <div className="mx-5 mb-5">
+                  {props?.clausesClient?.map((element) => (
                     <div className="mb-5">
                       <ViewDoc textDoc={element} />
                     </div>
                   ))}
+                </div>
               </div>
-            </div>
+            )}
 
             <div className="mx-5 mt-5 border-2 text-justify">
               <p className="mt-6 text-center">
@@ -81,21 +91,14 @@ const ContractDrafterComponent = (props) => {
               </div>
             </div>
 
-            <div className="mx-5">
-              <h4 className="mt-7 text-center text-2xl">
-                CLÁUSULAS ADICIONALES
-              </h4>
-              <textarea className="w-full border-2"></textarea>
-            </div>
-
-            <div className="mx-5 mb-5 border-2">
+            <div className="mx-5 mt-7 mb-5 border-2">
               <div className="mx-5 mb-10 mt-5 text-justify">
                 {props.footer && <ViewDoc textDoc={props?.footer} />}
               </div>
               <div className="text-justify">
                 <div className="flex">
-                  <div className="w-1/2 ml-5">Comprador</div>
-                  <div className="w-1/2 mr-5">Vendedor</div>
+                  <div className="ml-5 w-1/2">Comprador</div>
+                  <div className="mr-5 w-1/2">Vendedor</div>
                 </div>
               </div>
             </div>

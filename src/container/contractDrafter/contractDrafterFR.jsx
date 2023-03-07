@@ -32,7 +32,9 @@ title="COMPROMIS DE VENTE D'UN BIEN IMMOBILIER PROMESSE SYNALLAGMATIQUE DE VENTE
     ARTICLE 10 : FRAIS, IMPOTS ET TAXESTous les frais, coûts et droits afférents au présent acte sont à la charge de L'Acquéreur, de même que les frais, coûts et droits afférents à l'acte de réitération et ceux qui en seront la suite ou la conséquence.Toutefois, les frais sus évoqués seront supportés par le Vendeur en cas de non réalisation de la vente provenant de son fait.`,`
     ARTICLE 11 : ELECTION DE DOMICILEPour l'exécution des présentes et de leur suite, les Parties font élection de domicile en leurs demeures respectives.`]}
     footer="Fait à XXX (lieu), le XXX (date). En XXX exemplaires originaux, dont un pour chacune des Parties, un pour l'enregistrement (ajouter le cas échéant : et un pour le séquestre).Ajouter éventuellement la mention manuscrite de l'article L. 312-17 du code de la consommation (lorsque l'achat se fera sans prêt) « Je soussigné XXX déclare ne recourir à aucun prêt pour l'acquisition du bien immobilier, objet des présentes. Si, par la suite, je déclare recourir à un prêt, je ne pourrai me prévaloir des dispositions des articles L 312-1 et suivants du code de la consommation »"
-
+    clausesAdd = "CLAUSES ADDITIONNELLES"
+    seller="Vendeur"
+    buyer="Acheteur"
   />
 </>;
 }

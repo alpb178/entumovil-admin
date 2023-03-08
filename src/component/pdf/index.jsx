@@ -10,7 +10,7 @@ const ViewPDf = ({ radio, valueSelect, findText, setDocumentTxt }) => {
     let text = findText.split(" ");
     let count = 0;
     text.map((element) => {
-      if (docTxt.includes(element)) count++;
+      if (docTxt.toUpperCase().includes(element.toUpperCase())) count++;
     });
     return count === text.length ? true : false;
   };
@@ -76,7 +76,8 @@ const ViewPDf = ({ radio, valueSelect, findText, setDocumentTxt }) => {
               </div>
 
               <ViewTXT
-                className='whitespace-pre-wrap'
+                key={index}
+                className="whitespace-pre-wrap"
                 textDoc={element?.docTxt.substring(0, 338) + "[..]"}
                 findText={findText}
               />

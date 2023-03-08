@@ -93,7 +93,7 @@ const ContractDrafterComponent = (props) => {
 
             <div className="mx-5">
               <h4 className="mt-7 text-center text-2xl">
-                CLÁUSULAS ADICIONALES
+                {props.clausesAdd && <ViewDoc textDoc={props?.clausesAdd} />}
               </h4>
               <textarea className="w-full border-2"></textarea>
             </div>
@@ -104,8 +104,12 @@ const ContractDrafterComponent = (props) => {
               </div>
               <div className="text-justify">
                 <div className="flex">
-                  <div className="w-1/2 ml-5">Comprador</div>
-                  <div className="w-1/2 mr-5">Vendedor</div>
+                  <div className="ml-5 w-1/2">
+                    {props.seller && <ViewDoc textDoc={props?.seller} />}
+                  </div>
+                  <div className="mr-5 w-1/2">
+                    {props.buyer && <ViewDoc textDoc={props?.buyer} />}
+                  </div>
                 </div>
               </div>
             </div>

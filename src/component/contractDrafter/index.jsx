@@ -3,21 +3,22 @@ import ViewDoc from "../doc";
 import jsPDF from "jspdf";
 
 const ContractDrafterComponent = (props) => {
-  
-const generatePDF = () => {
-    var doc = new jsPDF("p", "pt", "a4");
+  const generatePDF = () => {
+    var doc = new jsPDF("p", "pt", [1024,1024]);
+    var width = doc.internal.pageSize.getWidth();
+    var height = doc.internal.pageSize.getHeight();
     doc.html(document.querySelector("#content"), {
       callback: function (pdf) {
-        pdf.save(props?.title+".pdf");
+        pdf.save(props?.title + ".pdf");
       },
+      x: 12,
+      y: 12,
+      width: width,
     });
   };
 
   return (
-    <section
-     
-      className=" mb-20 flex px-2 text-xl leading-loose  text-gray"
-    >
+    <section className=" mb-20 flex px-2 text-xl leading-loose  text-gray">
       <div className="container mx-auto">
         <div className="item-center flex content-center  ">
           <div className="w-1/6">
@@ -52,13 +53,11 @@ const generatePDF = () => {
               </li>
             </ul>
           </div>
-          <div  id="content" className="mt-5 ml-7 mb-7 w-5/6 border-2">
-            <div className="mx-5 mt-7 border-2 text-center text-3xl text-black">
-              {props?.title}
-            </div>
+          <div id="content" className="mt-5 ml-7 mb-7 w-5/6 border-2">
+            <div className=" mt-5 mb-5 text-center text-xl">{props?.title}</div>
             {props.sumary && (
               <div className="mx-5 mt-5 border-2 text-center">
-                <div className="mx-5 mb-5">
+                <div className="mx-5 mt-5 mb-5">
                   <ViewDoc textDoc={props?.sumary} />
                 </div>
               </div>
@@ -69,7 +68,7 @@ const generatePDF = () => {
             )}
             {props.parts && (
               <div className="mx-5 mt-5 border-2 text-justify">
-                <div className="mx-5 mb-5">
+                <div className="mx-5 mt-5 mb-5">
                   <ViewDoc textDoc={props?.parts} />
                 </div>
               </div>
@@ -80,43 +79,42 @@ const generatePDF = () => {
             )}
 
             {props.clausesClient && (
-              <div className="mx-5 mt-5 border-2 text-justify">
-                <div className="mx-5 mb-5">
+              <div className="mx-5 mt-5 mb-5 border-2 text-justify">
+                <div className="mx-5 mt-5 mb-5">
                   {props?.clausesClient?.map((element) => (
-                    <div className="mb-5">
-                      <ViewDoc textDoc={element} />
-                    </div>
+                    <ViewDoc textDoc={element} />
                   ))}
                 </div>
               </div>
             )}
 
-            <div className="mx-5 mt-5 border-2 text-justify">
-              <p className="mt-6 text-center">
-                {props?.headersClausesContract}
-              </p>
-              <div className="mx-5 mb-5">
-                {props.clausesContract &&
-                  props?.clausesContract.map((element) => (
-                    <div className="mb-5">
-                      <ViewDoc textDoc={element} />
-                    </div>
-                  ))}
-              </div>
+            <div className="mt-6 text-center">
+              {props?.headersClausesContract}
             </div>
 
-            <div className="mx-5">
-              <h4 className="mt-7 text-center text-2xl">
-                {props.clausesAdd && <ViewDoc textDoc={props?.clausesAdd} />}
-              </h4>
-              <textarea className="w-full border-2"></textarea>
-            </div>
+            {props.clausesContract && (
+              <div className="mx-5 mt-5 border-2 text-justify">
+                <div className="mx-5 mt-5 mb-5">
+                  {props?.clausesContract.map((element) => (
+                    <ViewDoc textDoc={element} />
+                  ))}
+                </div>
+              </div>
+            )}
+            {props.clausesAdd && (
+              <div className="mx-5">
+                <h4 className="mt-7 text-center text-xl">
+                  {<ViewDoc textDoc={props?.clausesAdd} />}
+                </h4>
+                <textarea className="mt-5 mb-5 w-full border-2"></textarea>
+              </div>
+            )}
 
             <div className="mx-5 mb-5 border-2">
               <div className="mx-5 mb-10 mt-5 text-justify">
                 {props.footer && <ViewDoc textDoc={props?.footer} />}
               </div>
-              <div className="text-justify">
+              <div className="mb-7 text-justify">
                 <div className="flex">
                   <div className="ml-5 w-1/2">
                     {props.seller && <ViewDoc textDoc={props?.seller} />}
@@ -127,16 +125,15 @@ const generatePDF = () => {
                 </div>
               </div>
             </div>
-            
           </div>
-         
         </div>
         <button
-              className="flex-inline ml-auto mb-8 flex rounded bg-gradient-to-r from-gradient-for-footer to-gradient-to py-2 px-4 font-bold text-white"
-              onClick={()=> generatePDF()} type="primary"
-            >
-              Descargar PDF
-            </button>
+          className="flex-inline ml-auto mb-8 flex rounded bg-gradient-to-r from-gradient-for-footer to-gradient-to py-2 px-4 font-bold text-white"
+          onClick={() => generatePDF()}
+          type="primary"
+        >
+          Descargar PDF
+        </button>
       </div>
     </section>
   );

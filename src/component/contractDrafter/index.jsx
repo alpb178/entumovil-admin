@@ -1,9 +1,23 @@
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import ViewDoc from "../doc";
+import jsPDF from "jspdf";
 
 const ContractDrafterComponent = (props) => {
+  
+const generatePDF = () => {
+    var doc = new jsPDF("p", "pt", "a4");
+    doc.html(document.querySelector("#content"), {
+      callback: function (pdf) {
+        pdf.save(props?.title+".pdf");
+      },
+    });
+  };
+
   return (
-    <section className=" mb-20 flex px-2 text-xl leading-loose  text-gray">
+    <section
+     
+      className=" mb-20 flex px-2 text-xl leading-loose  text-gray"
+    >
       <div className="container mx-auto">
         <div className="item-center flex content-center  ">
           <div className="w-1/6">
@@ -38,7 +52,7 @@ const ContractDrafterComponent = (props) => {
               </li>
             </ul>
           </div>
-          <div className="mt-5 ml-7 mb-7 w-5/6 border-2">
+          <div  id="content" className="mt-5 ml-7 mb-7 w-5/6 border-2">
             <div className="mx-5 mt-7 border-2 text-center text-3xl text-black">
               {props?.title}
             </div>
@@ -113,8 +127,16 @@ const ContractDrafterComponent = (props) => {
                 </div>
               </div>
             </div>
+            
           </div>
+         
         </div>
+        <button
+              className="flex-inline ml-auto mb-8 flex rounded bg-gradient-to-r from-gradient-for-footer to-gradient-to py-2 px-4 font-bold text-white"
+              onClick={()=> generatePDF()} type="primary"
+            >
+              Descargar PDF
+            </button>
       </div>
     </section>
   );

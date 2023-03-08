@@ -11,11 +11,12 @@ export default function ContractDrafterDE() {
       />
         <ContractDrafterComponent
 
-    title="Musterkaufvertrag �ber ein Grundst�ck mit Auflassung"
-        
-    headersParts="ENTRE LES SOUSSIGNES:"
-    parts="Monsieur/Madame XXX ( nom et prénom), né le XXX (date de naissance), de nationalité XXX, de demeurant XXX (adresse) à XXX (ville),OU :La société XXX (dénomination sociale), XXX (type de société) au capital de XXX euros ( capital social), immatriculée au RCS de XXX (ville) sous le XXX (numéro RCS), dont le siège social est situé XXX (adresse) à XXX (ville), prise en la personne de son représentant légal XXX (nom et fonction).Ci-après désigné sous le nom le « Vendeur »,ET :M. XXX (nom et prénom), né le XXX (date de naissance), de nationalité XXX de demeurant, XXX (adresse) à XXX (ville),OU :La société XXX (dénomination sociale), XXX (type de société) au capital de XXX euros ( capital social), immatriculée au RCS de XXX (ville) sous le XXX (numéro RCS), dont le siège social est situé XXX (adresse) à XXX (ville), prise en la personne de son représentant légal XXX (nom et fonction).Ci-après désigné sous le nom l'« Acquéreur »,L'Acquéreur et le Vendeur étant ci après collectivement dénommées les « Parties »"
-		headersClausesClient="IL A ETE CONVENU CE QUI SUIT :"
+    title="Kaufvertrag über Wohnungseigentum mit Auflassung"
+    sumary="Notarielle UrkundeURNr . für XXX"    
+    headersParts="Zusammen"
+    parts="1 In diesem Vertrag werden- die XXX als Verkäufer - Frau XXX und Herr XXXals Käufer bezeichnet."
+		
+    headersClausesClient="IL A ETE CONVENU CE QUI SUIT :"
 		clausesClient={[`Le Vendeur, en s'obligeant et en obligeant ses héritiers, co-indivisaires, ayants droits solidairement entre eux, fussent-ils mineurs ou incapables, et en tant que de besoin, en se portant fort de leur acceptation, ou s'il y a lieu, de celle de leur représentant légal, promet de vendre à l'Acquéreur, dans les conditions et dans le délai indiqués ci-après, le bien et droits portant sur ce bien, dont la désignation suit.L'Acquéreur s'engage à acquérir, tant pour lui-même que pour toutes personnes cessionnaires ou substituées éventuelles dont il restera garant et solidaire, l'immeuble dont la désignation suit.`]}
     headersClausesContract='CLAUSES'
     clausesContract={[`ARTICLE 1 er :DESIGNATION DU BIENLe terme « l'Immeuble » désigne l'ensemble immobilier ci-après décrit ainsi que les Immeubles par destination qui en dépendent et qui constituent la propriété immobilière du Vendeur.Décrire précisément le bien objet du compromis en indiquant :-sa situation cadastrale et géographique (adresse et cadastre) XXX -sa situation locative au jour de la promesse et au jour de sa délivrance (libre de toute occupation locative ou par le Vendeur)-copropriété ou non : XXX-superficie : XXX-destination : XXX-particularités : XXX -Situation de l'Immeuble concernant la réglementation (diagnostic amiante, électricité, gaz, risques naturels et technologiques, termites, sinistres...) + joindre les justificatifs : XXX`,`

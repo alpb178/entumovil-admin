@@ -103,10 +103,13 @@ export default function ContractDrafterESP() {
             divergencias pudieran surgir por motivo de la interpretación y
             cumplimiento de este contrato .`]}     
            
-          
+          clausesAdd = "CLAUSULAS ADICIONALES"
           footer='Leído el presente documento por ambas partes, y estando conformes
           con su contenido, lo firman por duplicado en todas las páginas en
           el lugar y fecha reseñadas en el encabezamiento.'
+
+          seller="Comprador"
+          buyer="Vendedor"
       />
     </>
   );

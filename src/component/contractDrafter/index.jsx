@@ -91,14 +91,25 @@ const ContractDrafterComponent = (props) => {
               </div>
             </div>
 
-            <div className="mx-5 mt-7 mb-5 border-2">
+            <div className="mx-5">
+              <h4 className="mt-7 text-center text-2xl">
+                {props.clausesAdd && <ViewDoc textDoc={props?.clausesAdd} />}
+              </h4>
+              <textarea className="w-full border-2"></textarea>
+            </div>
+
+            <div className="mx-5 mb-5 border-2">
               <div className="mx-5 mb-10 mt-5 text-justify">
                 {props.footer && <ViewDoc textDoc={props?.footer} />}
               </div>
               <div className="text-justify">
                 <div className="flex">
-                  <div className="ml-5 w-1/2">Comprador</div>
-                  <div className="mr-5 w-1/2">Vendedor</div>
+                  <div className="ml-5 w-1/2">
+                    {props.seller && <ViewDoc textDoc={props?.seller} />}
+                  </div>
+                  <div className="mr-5 w-1/2">
+                    {props.buyer && <ViewDoc textDoc={props?.buyer} />}
+                  </div>
                 </div>
               </div>
             </div>

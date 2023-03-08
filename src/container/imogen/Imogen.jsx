@@ -7,6 +7,7 @@ import {
   INMOCOR_CONTRACT_DRATER_ESP_PAGE,
   INMOCOR_CONTRACT_DRATER_FR_PAGE,
   INMOCOR_CONTRACT_DRATER_IT_PAGE,
+  INMOCOR_CONTRACT_DRATER_UK_PAGE,
 } from "@/lib/constants";
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import TopImage from "@/component/topImage";
@@ -110,6 +111,20 @@ export function Inmogen() {
                         className="icon-btn btn-link btn-arrow text-dark flex-inline flex"
                       >
                         Redactor en italiano
+                        <ArrowRightIcon className="mt ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
+                      </a>
+                    </h5>
+                  </li>
+                  <li className="border-bottom flex-inline mb-4 flex pb-3">
+                    <div className="rounded-full bg-legislation-gray">
+                      <i className="fas fa-check m-1 rounded-full text-red" />
+                    </div>
+                    <h5 className="ml-5">
+                      <a
+                        href={INMOCOR_CONTRACT_DRATER_UK_PAGE}
+                        className="icon-btn btn-link btn-arrow text-dark flex-inline flex"
+                      >
+                        Redactor en UK
                         <ArrowRightIcon className="mt ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
                       </a>
                     </h5>

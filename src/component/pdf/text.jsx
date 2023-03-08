@@ -3,12 +3,16 @@ import React from "react";
 const ViewTXT = ({ textDoc, findText }) => {
   const CustomText = () => {
     return (
-      <p className="mt-5 ml-20  text-gray">
+      <p className="mt-5 ml-20  whitespace-pre-wrap text-gray">
         {textDoc.split(" ").map((text) => {
-          if (findText.split(" ").find((element) => element === text)) {
+          if (
+            findText
+              .split(" ")
+              .find((element) => element.toUpperCase() === text.toUpperCase())
+          ) {
             return (
-              <span className="text-black">
-                <strong>{text}</strong> {" "}
+              <span >
+                <strong className="bg-amber-300 text-black">{text}</strong>{" "}
               </span>
             );
           }

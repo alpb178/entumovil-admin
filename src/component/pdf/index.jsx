@@ -66,6 +66,7 @@ const ViewPDf = ({ radio, valueSelect, findText, setDocumentTxt }) => {
                 <h5 className="ml-5">
                   <a
                     href={element?.pdf}
+                    target="_blank"
                     className="icon-btn btn-link btn-arrow text-dark flex-inline flex"
                   >
                     {element?.title}
@@ -75,6 +76,7 @@ const ViewPDf = ({ radio, valueSelect, findText, setDocumentTxt }) => {
               </div>
 
               <ViewTXT
+                className='whitespace-pre-wrap'
                 textDoc={element?.docTxt.substring(0, 338) + "[..]"}
                 findText={findText}
               />

@@ -1,7 +1,7 @@
 import React from "react";
 import reactStringReplace from "react-string-replace";
 
-const ViewDoc = ({ textDoc }) => {
+export default function ViewDocContractDrafter({ textDoc }) {
   return (
     <>
       {reactStringReplace(textDoc, "XXX", (match, i) => (
@@ -9,6 +9,4 @@ const ViewDoc = ({ textDoc }) => {
       ))}
     </>
   );
-};
-
-export default ViewDoc;
+}

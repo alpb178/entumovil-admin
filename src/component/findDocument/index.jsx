@@ -1,9 +1,15 @@
 import { Document } from "@/lib/doc";
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import React, { useEffect, useState } from "react";
-import ViewTXT from "./text";
+import ViewTXT from "./viewDocTxt";
 
-const ViewPDf = ({ radio, valueSelect, findText, setDocumentTxt }) => {
+
+export default function ViewFindDocument({
+  radio,
+  valueSelect,
+  findText,
+  setDocumentTxt,
+}) {
   const [docToShow, setDocToShow] = useState([]);
 
   const findDocTxt = (docTxt) => {
@@ -14,6 +20,9 @@ const ViewPDf = ({ radio, valueSelect, findText, setDocumentTxt }) => {
     });
     return count === text.length ? true : false;
   };
+
+  let decoder = new TextDecoder("iso-8859-1");
+
   const readTxt = async (src) => {
     await fetch(`/doc/${src.replace("FO", "TXT")}.txt`).then((res) =>
       res.text().then(
@@ -25,7 +34,7 @@ const ViewPDf = ({ radio, valueSelect, findText, setDocumentTxt }) => {
               title: src.split("/")[2],
               pdf: `/doc/${src}.pdf`,
               txt: `/doc/${src.replace("FO", "TXT")}.txt`,
-              docTxt: response,
+              docTxt: response
             },
           ])
       )
@@ -98,6 +107,4 @@ const ViewPDf = ({ radio, valueSelect, findText, setDocumentTxt }) => {
       )}
     </>
   );
-};
-
-export default ViewPDf;
+}

@@ -1,10 +1,11 @@
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
-import ViewDoc from "../doc";
-import jsPDF from "jspdf";
 
-const ContractDrafterComponent = (props) => {
+import jsPDF from "jspdf";
+import ViewDocContractDrafter from "./viewDocContractDrafter";
+
+export default function ContractDrafterComponent(props) {
   const generatePDF = () => {
-    var doc = new jsPDF("p", "pt", [1024,1024]);
+    var doc = new jsPDF("p", "pt", [1024, 1024]);
     var width = doc.internal.pageSize.getWidth();
     var height = doc.internal.pageSize.getHeight();
     doc.html(document.querySelector("#content"), {
@@ -58,7 +59,7 @@ const ContractDrafterComponent = (props) => {
             {props.sumary && (
               <div className="mx-5 mt-5 border-2 text-center">
                 <div className="mx-5 mt-5 mb-5">
-                  <ViewDoc textDoc={props?.sumary} />
+                  <ViewDocContractDrafter textDoc={props?.sumary} />
                 </div>
               </div>
             )}
@@ -69,7 +70,7 @@ const ContractDrafterComponent = (props) => {
             {props.parts && (
               <div className="mx-5 mt-5 border-2 text-justify">
                 <div className="mx-5 mt-5 mb-5">
-                  <ViewDoc textDoc={props?.parts} />
+                  <ViewDocContractDrafter textDoc={props?.parts} />
                 </div>
               </div>
             )}
@@ -82,7 +83,7 @@ const ContractDrafterComponent = (props) => {
               <div className="mx-5 mt-5 mb-5 border-2 text-justify">
                 <div className="mx-5 mt-5 mb-5">
                   {props?.clausesClient?.map((element) => (
-                    <ViewDoc textDoc={element} />
+                    <ViewDocContractDrafter textDoc={element} />
                   ))}
                 </div>
               </div>
@@ -96,7 +97,7 @@ const ContractDrafterComponent = (props) => {
               <div className="mx-5 mt-5 border-2 text-justify">
                 <div className="mx-5 mt-5 mb-5">
                   {props?.clausesContract.map((element) => (
-                    <ViewDoc textDoc={element} />
+                    <ViewDocContractDrafter textDoc={element} />
                   ))}
                 </div>
               </div>
@@ -104,7 +105,7 @@ const ContractDrafterComponent = (props) => {
             {props.clausesAdd && (
               <div className="mx-5">
                 <h4 className="mt-7 text-center text-xl">
-                  {<ViewDoc textDoc={props?.clausesAdd} />}
+                  {<ViewDocContractDrafter textDoc={props?.clausesAdd} />}
                 </h4>
                 <textarea className="mt-5 mb-5 w-full border-2"></textarea>
               </div>
@@ -112,15 +113,21 @@ const ContractDrafterComponent = (props) => {
 
             <div className="mx-5 mb-5 border-2">
               <div className="mx-5 mb-10 mt-5 text-justify">
-                {props.footer && <ViewDoc textDoc={props?.footer} />}
+                {props.footer && (
+                  <ViewDocContractDrafter textDoc={props?.footer} />
+                )}
               </div>
               <div className="mb-7 text-justify">
                 <div className="flex">
                   <div className="ml-5 w-1/2">
-                    {props.seller && <ViewDoc textDoc={props?.seller} />}
+                    {props.seller && (
+                      <ViewDocContractDrafter textDoc={props?.seller} />
+                    )}
                   </div>
                   <div className="mr-5 w-1/2">
-                    {props.buyer && <ViewDoc textDoc={props?.buyer} />}
+                    {props.buyer && (
+                      <ViewDocContractDrafter textDoc={props?.buyer} />
+                    )}
                   </div>
                 </div>
               </div>
@@ -137,6 +144,4 @@ const ContractDrafterComponent = (props) => {
       </div>
     </section>
   );
-};
-
-export default ContractDrafterComponent;
+}

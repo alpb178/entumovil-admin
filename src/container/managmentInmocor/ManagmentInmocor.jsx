@@ -5,8 +5,8 @@ import FooterSite from "@/component/footer";
 
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import TopImage from "@/component/topImage";
-import ViewPDf from "@/component/pdf";
-import ViewTXT from "@/component/pdf/text";
+import ViewTXT from "@/component/findDocument/viewDocTxt";
+import ViewFindDocument from "@/component/findDocument";
 
 export function ManagmentInmocor() {
   const [openFind, setOpenFind] = useState(false);
@@ -278,7 +278,7 @@ export function ManagmentInmocor() {
                 </button>
                 {openFind && (
                   <div>
-                    <ViewPDf
+                    <ViewFindDocument
                       radio={radio}
                       valueSelect={valueSelect}
                       findText={findText}

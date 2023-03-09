@@ -1,7 +1,7 @@
 import React from "react";
 
-const ViewTXT = ({ textDoc, findText }) => {
-  const CustomText = () => {
+export default function ViewDocTxt({ textDoc, findText }) {
+  const ViewDocTxt = () => {
     return (
       <p className="mt-5 ml-20  whitespace-pre-wrap text-gray">
         {textDoc.split(" ").map((text) => {
@@ -11,7 +11,7 @@ const ViewTXT = ({ textDoc, findText }) => {
               .find((element) => element.toUpperCase() === text.toUpperCase())
           ) {
             return (
-              <span >
+              <span>
                 <strong className="bg-amber-300 text-black">{text}</strong>{" "}
               </span>
             );
@@ -22,7 +22,5 @@ const ViewTXT = ({ textDoc, findText }) => {
     );
   };
 
-  return <CustomText />;
-};
-
-export default ViewTXT;
+  return <ViewDocTxt />;
+}

@@ -15,7 +15,6 @@ const Node = ({
   };
   return (
     <div style={{ paddingLeft: `${level * 16}px` }}>
-         {console.log(contract, "node")}
       {hasChildren && (
         <>
           {item.name}
@@ -27,7 +26,7 @@ const Node = ({
       {!hasChildren && (
         <button
           className="hover:text-red"
-          onClick={() => handleChangeV2(item.value, "title")}
+          onClick={() => handleChangeV2(item.value, item.father)}
         >
           {item.name}
         </button>

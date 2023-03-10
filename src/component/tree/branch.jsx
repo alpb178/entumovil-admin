@@ -11,7 +11,15 @@ const Branch = ({ item, level, contract, setContract }) => {
       const newLevel = level + 1;
 
       return item.options.map((child) => {
-        return <Branch key={child.id} item={child} level={newLevel} />;
+        return (
+          <Branch
+            key={child.id}
+            item={child}
+            contract={contract}
+            setContract={setContract}
+            level={newLevel}
+          />
+        );
       });
     }
 
@@ -24,7 +32,6 @@ const Branch = ({ item, level, contract, setContract }) => {
 
   return (
     <>
-    {console.log(contract, "branch")}
       <Node
         item={item}
         selected={selected}

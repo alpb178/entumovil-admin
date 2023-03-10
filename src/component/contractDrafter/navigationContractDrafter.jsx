@@ -1,4 +1,5 @@
-import { contractDrafterESP } from "@/lib/constants";
+
+import { contractDrafterESP } from "@/lib/drafter";
 import Tree from "../tree";
 
 export default function NavigationContractDrafter(props) {
@@ -7,17 +8,7 @@ export default function NavigationContractDrafter(props) {
     props.setContract(newState);
   };
   return (
-    <ul className="list-check mt-7 w-1/12">
-      {contractDrafterESP.map((element) => (
-        <li className="flex hover:text-red">
-          <a className="ml-5" onClick={() => handleChangeV2("a", element.name)}>
-            {element.name}
-          </a>
-          <div>
-            <i className="fas fa-chevron-down fa-xs ml-2" />
-          </div>
-        </li>
-      ))}
+    <ul className="list-check mt-20 w-2/12">
       <Tree
         data={contractDrafterESP}
         contract={props.contract}

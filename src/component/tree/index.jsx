@@ -4,7 +4,6 @@ import Branch from "./branch";
 const Tree = ({ data, contract, setContract }) => {
   return (
     <div>
-      {console.log(contract, "Tree")}
       {data.map((item) => (
         <Branch
           key={item.id}

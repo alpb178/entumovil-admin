@@ -1,33 +1,28 @@
-import { ArrowRightIcon } from "@heroicons/react/24/solid";
+import { contractDrafterESP } from "@/lib/constants";
+import Tree from "../tree";
 
 export default function NavigationContractDrafter(props) {
+  const handleChangeV2 = (value, field) => {
+    const newState = { ...props.contract, [field]: value };
+    props.setContract(newState);
+  };
   return (
     <ul className="list-check mt-7 w-1/12">
-      <li className="border-bottom flex-inline mb-4 flex pb-3">
-        <div className="rounded-full bg-legislation-gray">
-          <i className="fas fa-check m-1 rounded-full text-red" />
-        </div>
-        <h5 className="flex-inline ml-5 flex ">
-          <a className="icon-btn btn-link btn-arrow text-dark flex-inline flex">
-            Titulo
-            <ArrowRightIcon className="mt ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
+      {contractDrafterESP.map((element) => (
+        <li className="flex hover:text-red">
+          <a className="ml-5" onClick={() => handleChangeV2("a", element.name)}>
+            {element.name}
           </a>
-        </h5>
-      </li>
-      <li className="border-bottom flex-inline mb-4 flex pb-3">
-        <div className="rounded-full bg-legislation-gray">
-          <i className="fas fa-check m-1 rounded-full text-red" />
-        </div>
-        <h5 className="ml-5">
-          <a
-            href=""
-            className="icon-btn btn-link btn-arrow text-dark flex-inline flex"
-          >
-            Participantes
-            <ArrowRightIcon className="mt ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
-          </a>
-        </h5>
-      </li>
+          <div>
+            <i className="fas fa-chevron-down fa-xs ml-2" />
+          </div>
+        </li>
+      ))}
+      <Tree
+        data={contractDrafterESP}
+        contract={props.contract}
+        setContract={props.setContract}
+      />
     </ul>
   );
 }

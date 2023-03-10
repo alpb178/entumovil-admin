@@ -1,8 +1,11 @@
 import jsPDF from "jspdf";
+import { useEffect, useState } from "react";
 import BodyContractDrafter from "./bodyContractDrafter";
+
 import NavigationContractDrafter from "./navigationContractDrafter";
 
 export default function ContractDrafterComponent(props) {
+  const [contract, setContract] = useState({});
   const generatePDF = () => {
     var doc = new jsPDF("p", "pt", [1024, 1024]);
     var width = doc.internal.pageSize.getWidth();
@@ -11,18 +14,25 @@ export default function ContractDrafterComponent(props) {
       callback: function (pdf) {
         pdf.save(props?.title + ".pdf");
       },
-      x: 15,
-      y: 15,
+      x: 0,
+      y: 0,
     });
   };
+
+  useEffect(() => {
+    setContract(props)
+  }, []);
 
   return (
     <section className=" mb-20 flex px-2 text-xl leading-loose  text-gray">
       <div className="container mx-auto">
-        <div className=" flex   ">
-          <NavigationContractDrafter />
+        <div className=" flex ">
+          <NavigationContractDrafter
+            contract={contract}
+            setContract={setContract}
+          />
           <div className="mt-14 ml-56 mb-14 w-full border-2">
-            <BodyContractDrafter props={props} />
+            <BodyContractDrafter props={contract} />
           </div>
         </div>
         <button

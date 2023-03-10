@@ -83,3 +83,32 @@ export const TECNOLOGÍA_Y_TRADUCCIÓN =
   "https://www.researchgate.net/publication/275645936_Corpus_Tecnologia_y_Traduccion";
 export const ALGORITMO_N_COR =
   "https://www.researchgate.net/publication/39438157_Determinacion_del_umbral_de_representatividad_de_un_corpus_mediante_el_algoritmo_N-Cor";
+
+export const contractDrafterArg = [
+  {
+    name: "Título",
+    options: [
+      "CONTRATO DE COMPRAVENTA DE VIVIENDA",
+      "CONTRATO DE ALQUILER DE VIVIENDA",
+    ],
+  },
+  {
+    name: "Reunidos",
+    options: [
+      "CONTRATO DE COMPRAVENTA DE VIVIENDA",
+      "CONTRATO DE ALQUILER DE VIVIENDA",
+    ],
+  },
+  { name: "Clausulas", options: ["CONTRATO", "COMPRAVENTA", "ALQUILER"] },
+  { name: "Cierre Contrato", options: [] },
+];
+
+export const contractDrafterESP = [
+  {
+    name: "title",
+    options: [
+      { name: "option 1", value: "CONTRATO DE ALQUILER DE VIVIENDA" },
+      { name: "option 1", value: "CONTRATO DE ALQUILER DE VIVIENDA" },
+    ],
+  },
+];

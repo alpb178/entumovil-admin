@@ -7,7 +7,7 @@ export default function BodyContractDrafter({ props }) {
       className="mx-auto  mt-5 w-full  break-after-page  leading-loose text-justify text-xl "
     >
       <div className=" mt-5 mb-14 text-center ">{props?.title}</div>
-      {props.sumary && (
+      {props?.sumary && (
         <div className="mx-5 mt-5 mb-5">
           <ViewDocContractDrafter textDoc={props?.sumary} />
         </div>

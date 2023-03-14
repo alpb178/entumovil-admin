@@ -12,7 +12,7 @@ export default function ContractDrafterComponent(props) {
 
     doc.html(document.querySelector("#content"), {
       callback: function (pdf) {
-        pdf.save(props?.title + ".pdf");
+        pdf.save(contract?.title + ".pdf");
       },
       x: 0,
       y: 0,

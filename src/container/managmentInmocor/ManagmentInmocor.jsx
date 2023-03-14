@@ -16,6 +16,7 @@ export function ManagmentInmocor() {
   const [findText, setFindText] = useState("");
   const [disabledSelectInmolaw, setDisabledSelectInmolaw] = useState(true);
   const [disabledSelectCorpus, setDisabledSelectCorpus] = useState(true);
+  
 
   const handleClickRadio = () => {
     setOpenFind(false);

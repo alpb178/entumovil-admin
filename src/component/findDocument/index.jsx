@@ -1,8 +1,8 @@
 import { Document } from "@/lib/doc";
+import { findWordsDocTxt } from "@/lib/utils";
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import React, { useEffect, useState } from "react";
 import ViewTXT from "./viewDocTxt";
-
 
 export default function ViewFindDocument({
   radio,
@@ -12,29 +12,18 @@ export default function ViewFindDocument({
 }) {
   const [docToShow, setDocToShow] = useState([]);
 
-  const findDocTxt = (docTxt) => {
-    let text = findText.split(" ");
-    let count = 0;
-    text.map((element) => {
-      if (docTxt.toUpperCase().includes(element.toUpperCase())) count++;
-    });
-    return count === text.length ? true : false;
-  };
-
-  let decoder = new TextDecoder("iso-8859-1");
-
   const readTxt = async (src) => {
     await fetch(`/doc/${src.replace("FO", "TXT")}.txt`).then((res) =>
       res.text().then(
         (response) =>
-          findDocTxt(response) &&
+          findWordsDocTxt(response, findText) &&
           setDocToShow((prev) => [
             ...prev,
             {
               title: src.split("/")[2],
               pdf: `/doc/${src}.pdf`,
               txt: `/doc/${src.replace("FO", "TXT")}.txt`,
-              docTxt: response
+              docTxt: response,
             },
           ])
       )

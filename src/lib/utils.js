@@ -1,16 +1,25 @@
-export const findPhraseWordTxt = (docTxt, findText) => {
-  if (
-    findText.includes(`"`) &&
-    docTxt.toUpperCase().includes(findText.split(`"`)[1].toUpperCase())
-  )
-    return true;
-  return false;
+export const obtainTexTWithQuotes = (text) => {
+  const regex =
+    /[^'"\\]*(?:\\.[^'"\\]*)*(["'])([^"'\\]*(?:(?:(?!\1)["']|\\.)[^"'\\]*)*)\1/gy;
+
+  let grupo = "";
+  let resultado = [];
+
+  while ((grupo = regex.exec(text)) !== null) {
+    resultado.push(grupo[2]);
+  }
+
+  return resultado;
 };
 
 export const findWordsDocTxt = (docTxt, findText) => {
-  if (findPhraseWordTxt(docTxt, findText)) {
+  const textWithDoubleQuotes = obtainTexTWithQuotes(findText);
+  if (
+    textWithDoubleQuotes.length &&
+    docTxt.toUpperCase().includes(textWithDoubleQuotes[0].toUpperCase())
+  ) {
     return true;
-  } else {
+  } else if (!textWithDoubleQuotes.length) {
     let text = findText.split(" ");
     let count = 0;
     text.map((element) => {
@@ -18,4 +27,5 @@ export const findWordsDocTxt = (docTxt, findText) => {
     });
     return count === text.length ? true : false;
   }
+  return false;
 };

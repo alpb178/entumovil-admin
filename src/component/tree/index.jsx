@@ -3,7 +3,7 @@ import Branch from "./branch";
 
 const Tree = ({ data, contract, setContract }) => {
   return (
-    <div>
+    <div  >
       {data.map((item,i) => (
         <Branch
           key={i}

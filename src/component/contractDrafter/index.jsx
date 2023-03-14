@@ -30,12 +30,13 @@ export default function ContractDrafterComponent(props) {
   }, []);
 
   return (
-    <section className=" mb-20 flex px-2 text-xl leading-loose  text-gray">
+    <section className=" mb-20 flex text-xl leading-loose  text-gray">
       <div className="container mx-auto">
-        <div className=" flex ">
+        <div className=" flex  ">
           <NavigationContractDrafter
             contract={contract}
             setContract={setContract}
+            data={props?.contract}
           />
           <div className="mt-14 ml-56 mb-14 w-full border-2">
             <BodyContractDrafterJson contract={contract} />

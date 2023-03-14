@@ -3,9 +3,9 @@ import Tree from "../tree";
 
 export default function NavigationContractDrafter(props) {
   return (
-    <ul className="list-check mt-20 w-2/12">
+    <ul className="list-check ml-8 mt-20 w-2/12 ">
       <Tree
-        data={contractDrafterESP}
+        data={props.data}
         contract={props.contract}
         setContract={props.setContract}
       />

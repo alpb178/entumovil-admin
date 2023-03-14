@@ -8,7 +8,7 @@ export default function BodyContractDrafterJson(props) {
     >
       {props?.contract &&
         Object.keys(props?.contract).map((key, i) => (
-          <div key={i} className="mx-5 mt-5 mb-5  text-center">
+          <div key={i} className="mx-5 mt-5 mb-5 whitespace-pre-wrap  text-justify">
             <ViewDocContractDrafter key={i} textDoc={props?.contract[key]} />
           </div>
         ))}

@@ -13,18 +13,18 @@ const Node = ({
     setContract(newState);
   };
   return (
-    <div style={{ paddingLeft: `${level * 16}px` }}>
+    <div className="mb-5 text-lg"  style={{ paddingLeft: `${level * 16}px` }}>
       {hasChildren && (
-        <>
+        <div className="hover:font-bold ">
           {item.name}
           <button onClick={onToggle}>
-            <i className="fas fa-chevron-down fa-xs ml-2" />
+            <i className="fas fa-chevron-down fa-xs ml-2 hover:font-bold hover:text-xl hover:mt-1.5 " />
           </button>
-        </>
+        </div>
       )}
       {!hasChildren && (
         <button
-          className="hover:text-red"
+          className="hover:text-red hover:font-bold hover:text-2xl"
           onClick={() => handleChangeV2(item.value, item.father)}
         >
           {item.name}

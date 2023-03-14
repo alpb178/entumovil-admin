@@ -1,11 +1,11 @@
 import jsPDF from "jspdf";
 import { useEffect, useState } from "react";
-import BodyContractDrafter from "./bodyContractDrafter";
+import BodyContractDrafterJson from "./bodyContractDrafterJson";
 
 import NavigationContractDrafter from "./navigationContractDrafter";
 
 export default function ContractDrafterComponent(props) {
-  const [contract, setContract] = useState({});
+  const [contract, setContract] = useState();
   const generatePDF = () => {
     var doc = new jsPDF("p", "pt", [1024, 1024]);
     var width = doc.internal.pageSize.getWidth();
@@ -20,7 +20,13 @@ export default function ContractDrafterComponent(props) {
   };
 
   useEffect(() => {
-    setContract(props)
+    let Json = {};
+    {
+      props?.contract.map((element) => {
+        Json[element?.options[0].father] = element?.options[0].value;
+      });
+    }
+    setContract(Json);
   }, []);
 
   return (
@@ -32,9 +38,10 @@ export default function ContractDrafterComponent(props) {
             setContract={setContract}
           />
           <div className="mt-14 ml-56 mb-14 w-full border-2">
-            <BodyContractDrafter props={contract} />
+            <BodyContractDrafterJson contract={contract} />
           </div>
         </div>
+
         <button
           className="flex-inline ml-auto mb-8 flex rounded bg-gradient-to-r from-gradient-for-footer to-gradient-to py-2 px-4 font-bold text-white"
           onClick={() => generatePDF()}

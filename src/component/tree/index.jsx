@@ -4,9 +4,9 @@ import Branch from "./branch";
 const Tree = ({ data, contract, setContract }) => {
   return (
     <div>
-      {data.map((item) => (
+      {data.map((item,i) => (
         <Branch
-          key={item.id}
+          key={i}
           item={item}
           level={0}
           contract={contract}

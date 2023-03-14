@@ -10,7 +10,6 @@ const Node = ({
 }) => {
   const handleChangeV2 = (value, field) => {
     const newState = { ...contract, [field]: value };
-    console.log(newState, contract);
     setContract(newState);
   };
   return (

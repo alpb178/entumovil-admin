@@ -1,10 +1,12 @@
 import FooterSite from "@/component/footer";
 
 import Table from "@/component/table";
-import { Typography } from "@material-tailwind/react";
+
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import TopImage from "@/component/topImage";
+import { useState } from "react";
 export default function Glosary() {
+  const [visible, setVisible] = useState(true);
   return (
     <div className="text-xl md:w-full">
       <TopImage name="Glosario" imageUrl="cabecera-glosario-inmocor.jpg" />
@@ -92,7 +94,10 @@ export default function Glosary() {
             Permite seleccionar varios glosarios pulsando Crtl (Windows) o Cmd
             (MacOS).
           </p>
-          <button className="flex-inline mt-10 flex rounded bg-gradient-to-r from-gradient-for-footer to-gradient-to py-2 px-4 font-bold text-white">
+          <button
+            onClick={() => setVisible(!visible)}
+            className="flex-inline mt-10 flex rounded bg-gradient-to-r from-gradient-for-footer to-gradient-to py-2 px-4 font-bold text-white"
+          >
             Mostrar
             <ArrowRightIcon className="mt flex-inline ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
           </button>
@@ -103,7 +108,7 @@ export default function Glosary() {
         <div className="container mx-auto">
           <div className="row px-md-4 m-0 pt-5 pb-1">
             <div className="col-12 mb-md-0 mb-4">
-              <Table />
+              <Table visible={visible} />
             </div>
           </div>
         </div>

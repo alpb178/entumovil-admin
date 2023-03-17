@@ -25,41 +25,40 @@ export default function LegislationIr() {
               prevalece sobre las restantes fuentes del derecho, incluidas las
               fuentes del common law para el caso de Irlanda. Asimismo, se basa
               históricamente en la legislación antigua anterior a la creación
-              del Estado irlandés en 1922 como las Conveyancing Acts, 18821 y
-              19112 y las Settled Land Acts, 1882-18903.
+              del Estado irlandés en 1922 como las Conveyancing Acts, 1882 y
+              1911 y las Settled Land Acts, 1882-1890.
             </p>
             <p className="mt-5">
-              La Constitución de Irlanda4 aborda de manera sucinta en su
-              apartado Private Property, concretamente, en su artículo 43 en sus
+              La Constitución de Irlanda aborda de manera sucinta en su apartado
+              Private Property, concretamente, en su artículo 43 en sus
               diferentes apartados, el derecho a la propiedad privada, así como
               sus garantías constitucionales. Sin embargo, no contiene
               legislación relativa al contrato de compraventa inmobiliaria, de
               forma particular.
             </p>
             <p className="mt-5">
-              La Land and Conveyancing Law Reform Act 20095 remplazó gran parte
+              La Land and Conveyancing Law Reform Act 2009 remplazó gran parte
               de la antigua ley y modernizó la transmisión de la propiedad y
-              otras cuestiones conexas (Registration of Title Act 19646). Dicha
+              otras cuestiones conexas (Registration of Title Act 1964). Dicha
               normativa ha sido asimismo modificada por la Land and Conveyancing
-              Law Reform Act, 20137 y 20198, por la cual que se establece el
+              Law Reform Act, 2013 y 2019, por la cual se establece el
               procedimiento a seguir en ciertos procedimientos legales.
             </p>
             <p className="mt-5">
               Asimismo, la mencionada ley, en materia el registro de títulos
               (Registration of Title Act, 1964), ha sido modificada por
-              Registration of Deeds and Title Act, 20069, a fin de facilitar la
+              Registration of Deeds and Title Act, 2006, a fin de facilitar la
               creciente informatización de los sistemas de registro de la
-              propiedad y el derecho de sucesiones (Succession Act, 196510).
+              propiedad y el derecho de sucesiones (Succession Act, 1965).
               Dichas normativas han sido, asimismo modificadas por las Land
-              Registration (Fees) Order, 196611, 197412, 197813, 198014, 198115,
-              198316, 198717, 199118 y 199919 y las Land Registration Rules,
-              197520, 197721, 198622, 200023, 200524, 200625, 200726, 200927,
-              201128, 201229 y 201330.
+              Registration (Fees) Order, 1966, 1974, 1978, 1980, 1981, 1983,
+              1987, 1991 y 1999 y las Land Registration Rules, 1975, 1977, 1986,
+              2000, 2005, 2006, 2007, 2009, 2011, 2012 y 2013.
             </p>
             <p className="mt-5">
               De forma particular, existe una amplia protección legal de los
               bienes familiares, lo que afecta a la práctica de la transmisión
-              de la propiedad (Family Home Protection Act 197631).
+              de la propiedad (Family Home Protection Act 1976).
             </p>
             <p className="mt-5">
               Las Land Acts fueron una serie de medidas para abordar la cuestión
@@ -70,33 +69,27 @@ export default function LegislationIr() {
               Las continuas agitaciones por la tierra durante las décadas de
               1880 y 1890 culminaron, en primer lugar, con la aprobación de
               Purchase of Land (Ireland) Act 1885, enmendada por Land Purchase
-              Act, 188732. Más tarde, modificada por Land (Purchase) Act 190333,
-              por la que se modifican materias relativas a la ocupación,
-              seguidas de Labourers (Ireland) Act 1906 y Irish Land (Provision
-              for Sailors and Soldiers) Act 1919. De publicación por el Estado
-              de Irlanda destaca la Land Act, 192334.
+              Act, 1887. Más tarde, modificada por Land (Purchase) Act 1903, por
+              la que se modifican materias relativas a la ocupación, seguidas de
+              Labourers (Ireland) Act 1906 y Irish Land (Provision for Sailors
+              and Soldiers) Act 1919. De publicación por el Estado de Irlanda
+              destaca la Land Act, 1923.
             </p>
             <p className="mt-5">
               Es de especial importancia, además, la Property Registration
-              Authorithy (PRA)35, el organismo estatal responsable del registro
-              de las transacciones inmobiliarias y del sistema de registro de la
+              Authority (PRAI), el organismo estatal responsable del registro de
+              las transacciones inmobiliarias y del sistema de registro de la
               propiedad de la tierra en Irlanda. Se trata de un órgano
-              estatuario creado el 4 de noviembre de 2006 en virtud de las
+              estatutario creado el 4 de noviembre de 2006 en virtud de las
               disposiciones de Act 2006. Las principales funciones del PRA son
-              gestionar y controlar el Land Registry y Registry of Deeds36. En
-              lo que a la redacción del contrato de compraventa de refiere, fue
-              en al año 1976 cuando la institución Law Society of Irland37
-              introdujo por primera vez un modelo estándar de contrato de
-              compraventa de viviendas , a fin de suprimir la reducción
-              individual de dichos contratos y garantizar un equilibro justo
-              entre el comprador y el vendedor. Así, aunque hasta la fecha Law
-              Society of Irland ha modificado dicho modelo.
-            </p>
-            <p className="mt-5">
-              Como resultado del análisis normativo precedente, se expone la
-              siguiente tabla que muestra, de manera esquematiza, la legislación
-              aplicable a los contratos de compraventa inmobiliaria en España e
-              Irlanda (cfr. Tabla 1):
+              gestionar y controlar el Land Registry y Registry of Deeds. En lo
+              que a la redacción del contrato de compraventa de refiere, fue en
+              al año 1976 cuando la institución Law Society of Ireland introdujo
+              por primera vez un modelo estándar de contrato de compraventa de
+              viviendas, a fin de suprimir la reducción individual de dichos
+              contratos y garantizar un equilibrio justo entre el comprador y el
+              vendedor. Así, aunque hasta la fecha Law Society of Ireland ha
+              modificado dicho modelo.
             </p>
           </div>
         </div>

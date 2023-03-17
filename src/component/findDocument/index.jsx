@@ -5,7 +5,6 @@ import React, { useEffect, useState } from "react";
 import ViewTXT from "./viewDocTxt";
 
 export default function ViewFindDocument({
-  radio,
   valueSelect,
   findText,
   setDocumentTxt,
@@ -33,16 +32,20 @@ export default function ViewFindDocument({
   useEffect(() => {
     setDocToShow([]);
     Document.map(({ src }) => {
-      if (src.includes(radio)) {
-        if (!!valueSelect.find((element) => src.includes(element)))
-          readTxt(src);
-        else if (!!!valueSelect?.length) readTxt(src);
-      } else if (radio === "Macrocorpus-INMOCOR") readTxt(src);
+      if (
+        valueSelect?.length > 0 &&
+        !!valueSelect.find((element) => src.includes(element))
+      ) {
+        readTxt(src);
+      } else if (valueSelect?.length === 0) {
+        readTxt(src);
+      }
     });
-  }, [radio, valueSelect]);
+  }, [valueSelect]);
 
   return (
     <>
+      {console.log(valueSelect?.length == 0, valueSelect?.length)}
       {docToShow?.length > 0 ? (
         <div className="mb-10">
           <div className="text-3xl">

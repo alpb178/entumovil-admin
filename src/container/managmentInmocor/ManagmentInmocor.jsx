@@ -3,7 +3,7 @@ import { Card, CardBody } from "@material-tailwind/react";
 
 import FooterSite from "@/component/footer";
 
-import { ArrowRightIcon } from "@heroicons/react/24/solid";
+import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/react/24/solid";
 import TopImage from "@/component/topImage";
 import ViewTXT from "@/component/findDocument/viewDocTxt";
 import ViewFindDocument from "@/component/findDocument";
@@ -11,51 +11,35 @@ import ViewFindDocument from "@/component/findDocument";
 export function ManagmentInmocor() {
   const [openFind, setOpenFind] = useState(false);
   const [documentTxt, setDocumentTxt] = useState("");
-  const [radio, setRadio] = useState("Macrocorpus-INMOCOR");
   const [valueSelect, setValueSelect] = useState([]);
   const [findText, setFindText] = useState("");
-  const [disabledSelectInmolaw, setDisabledSelectInmolaw] = useState(true);
-  const [disabledSelectCorpus, setDisabledSelectCorpus] = useState(true);
-  
+  const [disabledSelectInmolaw, setDisabledSelectInmolaw] = useState(false);
+  const [disabledSelectCorpus, setDisabledSelectCorpus] = useState(false);
 
-  const handleClickRadio = () => {
-    setOpenFind(false);
-    setRadio("Macrocorpus-INMOCOR");
+  const getValueSelect = () => {
+    var selectedCorpus = [];
+    var selectedInmolaw = [];
+    if (!disabledSelectCorpus) {
+      for (var option of document.getElementById("corpusSelect").options) {
+        if (option.selected) {
+          selectedCorpus.push("corpus/" + option.value);
+        }
+      }
+    }
+    if (!disabledSelectInmolaw) {
+      for (var option of document.getElementById("legislationSelect").options) {
+        if (option.selected) {
+          selectedInmolaw.push("legislation/" + option.value);
+        }
+      }
+    }
 
-    setDisabledSelectCorpus(true);
-    setDisabledSelectInmolaw(true);
-    setValueSelect([]);
-  };
-
-  const handleClickRadioCorpus = () => {
-    setOpenFind(false);
-    setRadio("corpus");
-    setDisabledSelectCorpus(false);
-    setDisabledSelectInmolaw(true);
-    setValueSelect([]);
-  };
-
-  const handleClickRadioInmolaw = () => {
-    setOpenFind(false);
-    setRadio("legislation");
-    setDisabledSelectInmolaw(false);
-    setDisabledSelectCorpus(true);
-    setValueSelect([]);
+    return selectedCorpus.concat(selectedInmolaw);
   };
 
   const handleClickFind = () => {
     setOpenFind(true);
-    var selected = [];
-    var id =
-      radio === "corpus"
-        ? "CorpusFormControlSelect"
-        : "InmolawFormControlSelect";
-    for (var option of document.getElementById(id).options) {
-      if (option.selected) {
-        selected.push(radio + "/" + option.value);
-      }
-      setValueSelect(selected);
-    }
+    setValueSelect(getValueSelect());
   };
 
   return (
@@ -65,6 +49,7 @@ export function ManagmentInmocor() {
         description="Legislación y Contratos"
         imageUrl="cabecera-legislacion-generalidades-inmocor.jpg"
       />
+
       <section className="bg-gray-50 -mt-14 px-4 pb-20 pt-4 text-xl">
         {documentTxt === "" ? (
           <div className="container mx-auto ">
@@ -113,22 +98,7 @@ export function ManagmentInmocor() {
                     interés:
                   </div>
                 </div>
-                <div className="m-5 mb-4 mt-5 flex items-center">
-                  <input
-                    id="radio-macrocorpus-inmocor"
-                    type="radio"
-                    defaultChecked
-                    onClick={() => handleClickRadio()}
-                    name="default-radio"
-                    className="h-4 w-4 text-blue-600 focus:ring-blue-500"
-                  ></input>
-                  <p
-                    variant="h4"
-                    className="m-2 mb-6 mt-6 text-2xl font-black text-ocre-red"
-                  >
-                    Macrocorpus INMOCOR
-                  </p>
-                </div>
+
                 <p className="m-7">
                   Realiza búsquedas en todos los textos, legislación y
                   contratos, en todas las lenguas.
@@ -137,10 +107,12 @@ export function ManagmentInmocor() {
                   <div className="m-5 w-1/2 md:w-full">
                     <div className="mb-4 mt-5 flex items-center">
                       <input
-                        id="radio-corpus-INMOLAW"
-                        type="radio"
-                        onClick={() => handleClickRadioInmolaw("legislation")}
-                        name="default-radio"
+                        id="cB_Legislation"
+                        type="checkBox"
+                        onClick={() =>
+                          setDisabledSelectInmolaw(!disabledSelectInmolaw)
+                        }
+                        defaultChecked={true}
                         className="h-4 w-4 text-blue-600 focus:ring-blue-500"
                       ></input>
                       <p
@@ -159,7 +131,7 @@ export function ManagmentInmocor() {
                       <select
                         multiple={true}
                         className="form-control mb-2 bg-legislation-gray px-5 py-4 shadow-none"
-                        id="InmolawFormControlSelect"
+                        id="legislationSelect"
                         disabled={disabledSelectInmolaw}
                       >
                         <option key="UE" value="UE">
@@ -204,10 +176,12 @@ export function ManagmentInmocor() {
                   <div className="m-5 w-1/2 md:w-full">
                     <div className="mb-4 mt-5 flex items-center">
                       <input
-                        id="radio-corpus-contratacion"
-                        type="radio"
-                        onClick={() => handleClickRadioCorpus()}
-                        name="default-radio"
+                        id="cB_corpus"
+                        type="checkbox"
+                        onClick={() =>
+                          setDisabledSelectCorpus(!disabledSelectCorpus)
+                        }
+                        defaultChecked={true}
                         className="h-4 w-4 text-blue-600 focus:ring-blue-500"
                       ></input>
                       <p
@@ -225,7 +199,7 @@ export function ManagmentInmocor() {
                       <select
                         multiple
                         className="form-control mb-2 bg-legislation-gray px-5 py-4 shadow-none"
-                        id="CorpusFormControlSelect"
+                        id="corpusSelect"
                         disabled={disabledSelectCorpus}
                       >
                         <option key="ES" value="ES">
@@ -280,7 +254,6 @@ export function ManagmentInmocor() {
                 {openFind && (
                   <div>
                     <ViewFindDocument
-                      radio={radio}
                       valueSelect={valueSelect}
                       findText={findText}
                       setDocumentTxt={setDocumentTxt}
@@ -294,16 +267,22 @@ export function ManagmentInmocor() {
           <div className="container mx-auto ">
             <Card className="shadow-gray-500/10 rounded-none shadow-lg">
               <CardBody className="px-8 text-left">
-                <div className="flex">
-                  <button
-                    onClick={() => setDocumentTxt("")}
-                    className="mr-auto hover:text-red"
-                  >
-                    Ir Atrás ...
-                  </button>
-                </div>
+                <button
+                  className="flex-inline m-5 mt-5 flex rounded bg-gradient-to-r from-gradient-for-footer to-gradient-to py-2 px-4 font-bold text-white"
+                  onClick={() => setDocumentTxt("")}
+                >
+                  <ArrowLeftIcon className="mt flex-inline ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
+                  Ir Atrás ...
+                </button>
 
-                <ViewTXT textDoc={documentTxt}  findText={findText}/>
+                <ViewTXT textDoc={documentTxt} findText={findText} />
+                <button
+                  className="flex-inline m-5 mt-5 flex rounded bg-gradient-to-r from-gradient-for-footer to-gradient-to py-2 px-4 font-bold text-white"
+                  onClick={() => setDocumentTxt("")}
+                >
+                  <ArrowLeftIcon className="mt flex-inline ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
+                  Ir Atrás ...
+                </button>
               </CardBody>
             </Card>
           </div>

@@ -3,10 +3,10 @@ LOUISIANA REAL ESTATE LICENSE LAW
 This information is provided as a courtesy to real estate licensees and the general viewing public. To
 view the codified, or official, publication of the Louisiana Real Estate License Law, or any other state law,
 visit the web portal of the Louisiana State Legislature at www.legis.state.la.us.
-ง1430. Short title
+ยง1430. Short title
 This Chapter shall be known and may be cited as the "Louisiana Real Estate License Law."
-Added by Acts 1983, No. 268, ง1.
-ง1431. Definitions
+Added by Acts 1983, No. 268, ยง1.
+ยง1431. Definitions
 As used in this Chapter the following words have the meaning ascribed to them in this Section
 unless the context clearly indicates otherwise:
 (1) "Active licensee" means any currently licensed person whose license has not been
@@ -84,7 +84,7 @@ fuarim, trichoderma, memnoniella, mucor, and strachybotrys chartarum.
 commission the difference between the higher sale price at which the real estate property is
 sold and the stipulated net price agreed upon to be received by the seller.
 
-(19) Repealed by Acts 1995, No. 1207, ง2.
+(19) Repealed by Acts 1995, No. 1207, ยง2.
 
 (20) "Property management" means the marketing, leasing, or overall management of real
 property for others for a fee, commission, compensation, or other valuable consideration.
@@ -178,12 +178,12 @@ timeshare interest.
 (34) "Timeshare registrant" means timeshare interest salespersons or timeshare developers
 registered by the commission.
 
-Acts 1978, No. 514, ง1; Acts 1979, No. 404, ง1; Acts 1981, No. 309, ง1; Acts 1983, No. 381, ง1;
-Acts 1983, No. 380, ง1; Acts 1983, No. 270, ง1; Acts 1983, No. 552, ง2; Acts 1986, No. 841, ง1;
-Acts 1989, No. 655, ง1, eff. Jan. 1, 1990; Acts 1990, No. 893, ง1; Acts 1991, No. 354, ง1, eff. Jan.
-1, 1992; Acts 1995, No. 1207, งง1, 2; Acts 1997, No. 845, ง1; Acts 2003, No. 1123, ง1, eff. July 2,
-2003; Acts 2006, No. 351, ง1; Acts 2015, No. 81, ง1.
-ง1432. Louisiana Real Estate Commission; qualifications; terms of office
+Acts 1978, No. 514, ยง1; Acts 1979, No. 404, ยง1; Acts 1981, No. 309, ยง1; Acts 1983, No. 381, ยง1;
+Acts 1983, No. 380, ยง1; Acts 1983, No. 270, ยง1; Acts 1983, No. 552, ยง2; Acts 1986, No. 841, ยง1;
+Acts 1989, No. 655, ยง1, eff. Jan. 1, 1990; Acts 1990, No. 893, ยง1; Acts 1991, No. 354, ยง1, eff. Jan.
+1, 1992; Acts 1995, No. 1207, ยงยง1, 2; Acts 1997, No. 845, ยง1; Acts 2003, No. 1123, ยง1, eff. July 2,
+2003; Acts 2006, No. 351, ยง1; Acts 2015, No. 81, ยง1.
+ยง1432. Louisiana Real Estate Commission; qualifications; terms of office
 A. The Louisiana Real Estate Commission is hereby created within the office of the governor.
 The commission shall consist of eleven members appointed by the governor. One member
 shall be appointed from each of the seven supreme court districts. Two members shall be
@@ -199,10 +199,10 @@ next preceding the date of appointment.
 D. A vacancy caused by any reason except the expiration of the term shall be filled by
 appointment by the governor for the remainder of the unexpired term.
 E. The governor may remove any member of the commission for cause.
-Acts 1978, No. 514, ง1. Amended by Acts 1980, No. 730, ง1, eff. July 29, 1980; Acts 1989,
-No. 655, ง1, eff. Jan. 1, 1990; Acts 1991, No. 436, ง1; Acts 2001, No. 8, ง12, eff. July 1, 2001;
-Acts 2005, No. 78, ง1; Acts 2009, No. 104, ง1; Acts 2012, No. 803, ง9.
-ง1433. Officers; quorum; meetings; compensation
+Acts 1978, No. 514, ยง1. Amended by Acts 1980, No. 730, ยง1, eff. July 29, 1980; Acts 1989,
+No. 655, ยง1, eff. Jan. 1, 1990; Acts 1991, No. 436, ยง1; Acts 2001, No. 8, ยง12, eff. July 1, 2001;
+Acts 2005, No. 78, ยง1; Acts 2009, No. 104, ยง1; Acts 2012, No. 803, ยง9.
+ยง1433. Officers; quorum; meetings; compensation
 A. The commission shall elect from its members a chairman and a secretary and shall select a
 vice chairman to serve in the absence of the chairman.
 
@@ -219,11 +219,11 @@ day. Members shall also be reimbursed for their actual expenses covering travel,
 and other incidental expenses incurred while attending commission meetings or attending to
 commission business.
 
-Acts 1978, No. 514, ง1; Acts 1989, No. 655, ง1, eff. Jan. 1, 1990; Acts 2016, No. 533, ง1.
-ง1434. Domicile
+Acts 1978, No. 514, ยง1; Acts 1989, No. 655, ยง1, eff. Jan. 1, 1990; Acts 2016, No. 533, ยง1.
+ยง1434. Domicile
 The domicile of the commission shall be in the city of Baton Rouge.
-Acts 1978, No. 514, ง1.
-ง1435. Powers of the commission
+Acts 1978, No. 514, ยง1.
+ยง1435. Powers of the commission
 A. The commission shall have the full power and authority to:
 
 (1) Regulate the issuance of real estate licenses, registrations, and certificates.
@@ -265,7 +265,7 @@ to any of the following:
 
 (e) Real estate instructor approval or certification.
 
-(3) Repealed by Acts 2016, No. 533, ง2.
+(3) Repealed by Acts 2016, No. 533, ยง2.
 
 D. In addition to its general powers, as provided by way of extension and not of limitation, the
 commission may require all licensees, registrants, and certificate holders to keep records, as
@@ -292,11 +292,11 @@ H. The commission may adopt rules, regulations, and procedures in accordance wit
 Administrative Procedure Act, by which a determination may be made as to whom a disputed
 escrow deposit shall be released.
 
-Acts 1978, No. 514, ง1. Amended by Acts 1980, No. 387, ง1; Acts 1983, No. 552, ง2; Acts 1984,
-No. 943, ง2, eff. July 20, 1984; Acts 1986, No. 837, ง1; Acts 1989, No. 655, ง1, eff. Jan. 1, 1990;
-Acts 1991, No. 642, ง1; Acts 1995, No. 1207, ง1; Acts 1999, No. 628, ง1; Acts 2005, No. 78, ง1;
-Acts 2016, No. 533, งง1, 2.
-ง1436. Licensing and registration required
+Acts 1978, No. 514, ยง1. Amended by Acts 1980, No. 387, ยง1; Acts 1983, No. 552, ยง2; Acts 1984,
+No. 943, ยง2, eff. July 20, 1984; Acts 1986, No. 837, ยง1; Acts 1989, No. 655, ยง1, eff. Jan. 1, 1990;
+Acts 1991, No. 642, ยง1; Acts 1995, No. 1207, ยง1; Acts 1999, No. 628, ยง1; Acts 2005, No. 78, ยง1;
+Acts 2016, No. 533, ยงยง1, 2.
+ยง1436. Licensing and registration required
 A. Licenses issued by the commission shall be classed as active and inactive.
 
 B. It shall be unlawful for any person, partnership, limited liability company, association, or
@@ -319,9 +319,9 @@ deemed a licensee or registrant within the meaning of this Chapter. The commissi
 act by such a person or entity required to be licensed or registered under this Chapter and not
 so licensed or registered shall constitute a violation of the provisions of this Chapter.
 
-Acts 1978, No. 514, ง1; Acts 1989, No. 655, ง1, eff. Jan. 1, 1990; Acts 1997, No. 845, ง1; Acts
-2016, No. 533, ง1.
-ง1437. Application for license
+Acts 1978, No. 514, ยง1; Acts 1989, No. 655, ยง1, eff. Jan. 1, 1990; Acts 1997, No. 845, ยง1; Acts
+2016, No. 533, ยง1.
+ยง1437. Application for license
 A. Any person, partnership, limited liability company, association, or corporation, or other legal
 entity desiring to conduct real estate activity in this state, shall file an application for a license
 with the commission. The application shall be in such form and detail as the commission shall
@@ -423,12 +423,12 @@ national origin.
 E. A nonresident may obtain a broker or salesperson license and engage in the real estate
 business in this state under conditions prescribed by the commission.
 
-Acts 1978, No. 514, ง1. Amended by Acts 1978, No. 658, ง1; Acts 1979, No. 404, ง1; Acts 1980,
-No. 492, ง1; Acts 1981, No. 309, ง1; Acts 1989, No. 655, ง1, eff. Jan. 1, 1990; Acts 1991, No.
-642, ง1; Acts 1993, No. 886, ง1; Acts 1995, No. 1207, งง1, 2; Acts 1997, No. 220, ง1; Acts 1997,
-No. 845, ง1; Acts 1997, No. 1141, ง2; Acts 1999, No. 452, ง3; Acts 1999, No. 629, ง1, eff. Jan. 1,
-2000; Acts 2001, No. 924, ง1; Acts 2008, No. 254, ง1, eff. Jan. 1, 2009; Acts 2016, No. 533, ง1.
-ง1437.1. Timeshare registration
+Acts 1978, No. 514, ยง1. Amended by Acts 1978, No. 658, ยง1; Acts 1979, No. 404, ยง1; Acts 1980,
+No. 492, ยง1; Acts 1981, No. 309, ยง1; Acts 1989, No. 655, ยง1, eff. Jan. 1, 1990; Acts 1991, No.
+642, ยง1; Acts 1993, No. 886, ยง1; Acts 1995, No. 1207, ยงยง1, 2; Acts 1997, No. 220, ยง1; Acts 1997,
+No. 845, ยง1; Acts 1997, No. 1141, ยง2; Acts 1999, No. 452, ยง3; Acts 1999, No. 629, ยง1, eff. Jan. 1,
+2000; Acts 2001, No. 924, ยง1; Acts 2008, No. 254, ยง1, eff. Jan. 1, 2009; Acts 2016, No. 533, ยง1.
+ยง1437.1. Timeshare registration
 A. Any person or entity desiring to engage directly in the business of selling timeshare interests
 must register with the commission.
 B. The application for registration shall be in such form as may be required by the commission
@@ -504,10 +504,10 @@ developer or the developer's employees or agents.
 (c) Does not show, discuss terms or conditions, or otherwise participate in negotiation with
 regard to timeshare interests.
 
-Added by Acts 1983, No. 552, ง2; Acts 1984, No. 943, ง2, eff. July 20, 1984; Acts 1985, No. 999,
-งง2,4; Acts 1989, No. 655, ง1, eff. Jan. 1, 1990; Acts 2003, No. 978, ง1; Acts 2016, No. 533, ง1.
-{{NOTE: SEE ACTS 1985, NO. 999, ง5.}}
-ง1437.2. Corporations; limited liability companies; partnerships; broker licenses
+Added by Acts 1983, No. 552, ยง2; Acts 1984, No. 943, ยง2, eff. July 20, 1984; Acts 1985, No. 999,
+ยงยง2,4; Acts 1989, No. 655, ยง1, eff. Jan. 1, 1990; Acts 2003, No. 978, ยง1; Acts 2016, No. 533, ยง1.
+{{NOTE: SEE ACTS 1985, NO. 999, ยง5.}}
+ยง1437.2. Corporations; limited liability companies; partnerships; broker licenses
 
 A. Any corporation, limited liability company, or partnership formed under the laws of this state
 or any foreign corporation, limited liability company, or partnership that has been granted a
@@ -536,11 +536,11 @@ D. A corporation, limited liability company, or partnership shall notify the com
 five calendar days following the effective date of a merger or consolidation with another
 corporation, limited liability company, or partnership.
 
-F.-I. Repealed by Acts 1999, No. 452, ง3.
+F.-I. Repealed by Acts 1999, No. 452, ยง3.
 
-Added by Acts 1983, No. 380, ง1. Acts 1989, No. 655, ง1, eff. Jan. 1, 1990; Acts 1995, No. 1207,
-ง1; Acts 1997, No. 845, ง1; Acts 1999, No. 452, ง3; Acts 2016, No. 533, ง1.
-ง1437.3. Inactive license
+Added by Acts 1983, No. 380, ยง1. Acts 1989, No. 655, ยง1, eff. Jan. 1, 1990; Acts 1995, No. 1207,
+ยง1; Acts 1997, No. 845, ยง1; Acts 1999, No. 452, ยง3; Acts 2016, No. 533, ยง1.
+ยง1437.3. Inactive license
 A. An inactive license status shall be established.
 B. Any licensee in good standing with the commission may elect to place his license in an
 inactive license status by submitting the appropriate transfer application and remitting the
@@ -596,9 +596,9 @@ eligible to transfer to the active status at any time.
 payment of the prescribed fees and proof of completion of the applicable continuing education
 hours.
 
-Acts 1989, No. 655, ง1, eff. Jan. 1, 1990; Acts 1995, No. 1207, ง1; Acts 1997, No. 845, ง1; Acts
-1999, No. 629, ง1, eff. Jan. 1, 200; Acts 2016, No. 533, ง1.
-ง1438. Applicability
+Acts 1989, No. 655, ยง1, eff. Jan. 1, 1990; Acts 1995, No. 1207, ยง1; Acts 1997, No. 845, ยง1; Acts
+1999, No. 629, ยง1, eff. Jan. 1, 200; Acts 2016, No. 533, ยง1.
+ยง1438. Applicability
 A. The provisions of this Chapter shall not apply to:
 
 (1) Any unlicensed person, partnership, limited liability company, association, or corporation,
@@ -652,10 +652,10 @@ management of such property.
 
 (8) Any person managing agricultural property.
 
-B, C. Repealed by Acts 1995, No. 1207, ง2.
+B, C. Repealed by Acts 1995, No. 1207, ยง2.
 
-Acts 1990, No. 893, ง1; Acts 1995, No. 1207, งง1, 2; Acts 2016, No. 533, ง1.
-ง1439. Issuance of license, certificate, or registration
+Acts 1990, No. 893, ยง1; Acts 1995, No. 1207, ยงยง1, 2; Acts 2016, No. 533, ยง1.
+ยง1439. Issuance of license, certificate, or registration
 
 A. Upon compliance with the provisions of this Chapter and with the rules and regulations of
 the commission, the commission shall issue the appropriate license, certificate, or registration
@@ -700,11 +700,11 @@ and is in the custody of the sponsoring broker or employing timeshare developer.
 received written authorization from the commission authorizing such activity pending the
 issuance of the license or timeshare registration by the commission.
 
-Acts 1978, No. 514, ง1. Acts 1986, No. 670, ง1; Acts 1995, No. 1207, ง1; Acts 1997, No. 845, ง1;
-Acts 1999, No. 452, ง2; Acts 2016, No. 533, ง1.
-ง1439.1. Repealed by Acts 1995, No. 1207, ง2.
-ง1439.2. Repealed by Acts 1995, No. 1207, ง2.
-ง1440. Examination
+Acts 1978, No. 514, ยง1. Acts 1986, No. 670, ยง1; Acts 1995, No. 1207, ยง1; Acts 1997, No. 845, ยง1;
+Acts 1999, No. 452, ยง2; Acts 2016, No. 533, ยง1.
+ยง1439.1. Repealed by Acts 1995, No. 1207, ยง2.
+ยง1439.2. Repealed by Acts 1995, No. 1207, ยง2.
+ยง1440. Examination
 A. Professional competency as referred to in this Chapter shall be established by an
 examination prepared by or under the supervision of the commission. The examination shall be
 of a scope sufficient in the judgment of the commission to determine that a person is
@@ -716,9 +716,9 @@ estate business as the commission shall prescribe or believe applicable in order
 the professional competency of the applicant and to protect the interests of the public.
 C. Examinations shall be conducted, administered, and scored by either the Department of
 State Civil Service or by a national testing service.
-Acts 1978, No. 514, ง1. Amended by Acts 1980, No. 492, ง1; Acts 1989, No. 655, ง1, eff. Jan. 1,
+Acts 1978, No. 514, ยง1. Amended by Acts 1980, No. 492, ยง1; Acts 1989, No. 655, ยง1, eff. Jan. 1,
 1990. 
-ง1441. Return of license or registration upon transfer or termination
+ยง1441. Return of license or registration upon transfer or termination
 A. When the sponsorship of an associate broker or salesperson is terminated for any reason,
 the terminating party shall submit a form attesting to the termination to the commission,
 within five calendar days of such termination.
@@ -774,10 +774,10 @@ corporation, or other legal entity, foreign or domestic, shall be informed of th
 designation of a qualifying broker, including the effective date, by certified or registered mail,
 not later than five calendar days following the effective date of the designation.
 
-Acts 1978, No. 514, ง1. Acts 1986, No. 839, ง1; Acts 1995, No. 1207, ง1; Acts 1997, No. 845, ง1;
-Acts 2016, No. 533, ง1.
-ง1441.1. Repealed by Acts 1995, No. 1207, ง2.
-ง1442. License, certificate, and registration issuance and renewal
+Acts 1978, No. 514, ยง1. Acts 1986, No. 839, ยง1; Acts 1995, No. 1207, ยง1; Acts 1997, No. 845, ยง1;
+Acts 2016, No. 533, ยง1.
+ยง1441.1. Repealed by Acts 1995, No. 1207, ยง2.
+ยง1442. License, certificate, and registration issuance and renewal
 A. Each license, certificate, or registration issued under this Chapter shall be issued for a period
 of one year and shall expire on December thirty-first following the date upon which it is issued.
 Each license, certificate, or registration shall be renewed annually. Conducting any activity
@@ -802,9 +802,9 @@ the expiration of their registration upon payment of a delinquency renewal fee; 
 registered developers of timeshare projects who qualify under Section 5 of Act No. 999 of the
 1985 Regular Session of the Legislature but who fail to renew timely shall no longer qualify
 under that Section.
-Acts 1983, No. 269, ง1; Acts 1983, No. 552, ง2; Acts 1986, No. 840, ง1; Acts 1989, No. 655, ง1,
-eff. Jan. 1, 1990; Acts 1995, No. 1207, ง1; Acts 1999, No. 452, ง2; Acts 2007, No. 35, ง1.
-ง1443. Fees
+Acts 1983, No. 269, ยง1; Acts 1983, No. 552, ยง2; Acts 1986, No. 840, ยง1; Acts 1989, No. 655, ยง1,
+eff. Jan. 1, 1990; Acts 1995, No. 1207, ยง1; Acts 1999, No. 452, ยง2; Acts 2007, No. 35, ยง1.
+ยง1443. Fees
 The commission may charge:
 
 (1) Initial fees for licensing or certification:
@@ -856,7 +856,7 @@ The commission may charge:
 
 (f) Timeshare interest salesperson renewal fee $ 35.00
 
-(g) Repealed by Acts 2016, No. 533, ง2.
+(g) Repealed by Acts 2016, No. 533, ยง2.
 (4) Delinquent fees, in addition to the renewal fee, if not renewed by December thirty-first of
 the applicable license, registration, or certification period:
 
@@ -881,25 +881,25 @@ the applicable license, registration, or certification period:
 
 (8) Continuing education course registration $ 15.00
 
-Acts 1978, No. 514, ง1; Amended by Acts 1981, No. 309, ง1; Acts 1983, No. 552, ง2; Acts 1985,
-No. 999, ง2; Acts 1989, No. 655, ง1, eff. Jan. 1, 1990; Acts 1995, No. 1207, ง1; Acts 1997, No.
-845, ง1; Acts 2007, No. 35, ง1; Acts 2016, No. 533, งง1, 2.
-ง1444. Broker, place of business; branch office license
+Acts 1978, No. 514, ยง1; Amended by Acts 1981, No. 309, ยง1; Acts 1983, No. 552, ยง2; Acts 1985,
+No. 999, ยง2; Acts 1989, No. 655, ยง1, eff. Jan. 1, 1990; Acts 1995, No. 1207, ยง1; Acts 1997, No.
+845, ยง1; Acts 2007, No. 35, ยง1; Acts 2016, No. 533, ยงยง1, 2.
+ยง1444. Broker, place of business; branch office license
 The business address registered by a broker with the commission shall be considered as the
 place of business from which the broker will conduct real estate activities requiring licensing in
 Louisiana. If a broker conducts business from more than one place of business, a branch office
 license shall be required for each place of business maintained by the broker.
-Acts 1978, No. 514, ง1; Acts 1995, No. 1207, ง1.
-ง1445. Unlicensed persons cannot recover brokerage charges
+Acts 1978, No. 514, ยง1; Acts 1995, No. 1207, ยง1.
+ยง1445. Unlicensed persons cannot recover brokerage charges
 No action or suit shall be instituted, nor recovery be had, in any court of this state by any
 person for compensation for any act done or service rendered, the doing or rendering of which
 is prohibited under the provision of this Chapter to other licensed brokers or licensed
 salespersons unless such person was duly licensed under this Chapter as a broker or
 salesperson prior to the time of offering to perform any such act or service or procuring any
 promise to contract for the payment of compensation for any such contemplated act of service.
-Acts 1978, No. 514, ง1; Acts 1984, No. 943, ง2, eff. July 20, 1984; Acts 1984, No. 814, ง1; Acts
-1989, No. 655, ง1, eff. Jan. 1, 1990.
-ง1446. Compensation; independent contractor status of salespersons and associate brokers
+Acts 1978, No. 514, ยง1; Acts 1984, No. 943, ยง2, eff. July 20, 1984; Acts 1984, No. 814, ยง1; Acts
+1989, No. 655, ยง1, eff. Jan. 1, 1990.
+ยง1446. Compensation; independent contractor status of salespersons and associate brokers
 
 A. No payment of a commission or compensation shall be made by any licensee or registrant to
 any person who has not first secured a license or registration under the provisions of this
@@ -942,10 +942,10 @@ directly related to sales or other output rather than the number of hours worked
 (3) There is a written agreement between the sponsored licensee and the sponsoring or
 qualifying broker that specifies that the sponsored licensee will not be treated as an employee.
 
-Acts 1978, No. 514, ง1; Acts 1989, No. 655, ง1, eff. Jan. 1, 1990; Acts 1995, No. 1207, ง1; Acts
-1997, No. 845, ง1; Acts 1999, No. 452, ง2; Acts 2003, No. 321, ง1; Acts 2006, No. 332, ง1, eff.
-July 1, 2006; Acts 2016, No. 533, ง1.
-ง1447. Referral fees; interference with brokerage relationships
+Acts 1978, No. 514, ยง1; Acts 1989, No. 655, ยง1, eff. Jan. 1, 1990; Acts 1995, No. 1207, ยง1; Acts
+1997, No. 845, ยง1; Acts 1999, No. 452, ยง2; Acts 2003, No. 321, ยง1; Acts 2006, No. 332, ยง1, eff.
+July 1, 2006; Acts 2016, No. 533, ยง1.
+ยง1447. Referral fees; interference with brokerage relationships
 A.(1) It is unlawful for any person, including but not limited to a relocation company, to directly
 or indirectly solicit or request a referral fee or similar payment for the referral of a buyer or
 seller unless the person seeking the referral fee has reasonable cause. Reasonable cause shall
@@ -979,8 +979,8 @@ damages, plus reasonable attorney fees. In addition to bringing an action in cou
 this Section may be addressed through mediation services. Such mediation services shall
 include but shall not be limited to mediation through real estate entities who specifically offer
 programs for resolving complaints involving real estate referral fees.
-Acts 2001, No. 261, ง1.
-ง1448. Revocation or suspension of licenses
+Acts 2001, No. 261, ยง1.
+ยง1448. Revocation or suspension of licenses
 A. Any licensee whose license is suspended or revoked in accordance with this Chapter shall be
 deemed an unlicensed person during the period of suspension or revocation and shall be
 subject to the penalties prescribed for unlicensed persons, if he engages in activity requiring
@@ -995,9 +995,9 @@ commission all licenses of the licensees sponsored by him.
 C. A sponsoring broker shall, within seventy-two hours of notification by the commission, return
 his license or the license of any associate broker or salesperson sponsored by him when such
 license has been suspended or revoked by the commission.
-Acts 1978, No. 514, ง1. Amended by Acts 1981, No. 309, ง1; Acts 1995, No. 1207, ง1; Acts
-2003, No. 713, ง1.
-ง1448.1. Non-compete agreements
+Acts 1978, No. 514, ยง1. Amended by Acts 1981, No. 309, ยง1; Acts 1995, No. 1207, ยง1; Acts
+2003, No. 713, ยง1.
+ยง1448.1. Non-compete agreements
 A. A non-compete agreement between a real estate broker and licensee which requires the
 licensee to refrain from carrying on or engaging in a business similar to that of the real estate
 broker or from soliciting customers of the real estate broker within a specified parish or
@@ -1013,18 +1013,18 @@ B. Any action to enforce the provisions of this Section shall be brought in a co
 jurisdiction in this state.
 C. The provisions of this Section shall be effective as to agreements entered into after January
 1, 2006.
-Acts 2005, No. 229, ง1.
-ง1448.2. Revocation or suspension of registration
+Acts 2005, No. 229, ยง1.
+ยง1448.2. Revocation or suspension of registration
 A timeshare registrant will within seventy-two hours of notification by the commission of the
 final action on the revocation or suspension of a registration issued to a timeshare interest
 salesperson or a timeshare developer return such registration to the commission.
-Acts 1989, No. 655, ง1, eff. Jan. 1, 1990.
-ง1448.3. Net listing agreements
+Acts 1989, No. 655, ยง1, eff. Jan. 1, 1990.
+ยง1448.3. Net listing agreements
 It is unlawful for any real estate broker to advise or encourage a seller in relation to, or to enter
 into, a net listing agreement as described in R.S. 37:1431(34), for the sale of residential real
 estate property or any land as defined in R.S. 47:2302.
-Acts 2015, No. 81, ง1.
-ง1449. Broker to insure provision of contract; retention of records
+Acts 2015, No. 81, ยง1.
+ยง1449. Broker to insure provision of contract; retention of records
 A. Licensees acting in the capacity of an agent or subagent, and registrants shall insure that
 their respective principal party signing any document in a real estate transaction is provided a
 copy of the document immediately after the signing of the document.
@@ -1065,10 +1065,10 @@ licensing capacity.
 company, association, corporation, or other legal entity, foreign or domestic, transferring the
 broker license to the inactive status or failure to renew such license.
 
-Acts 1978, No. 514, ง1; Acts 1984, No. 943, ง4, eff. July 20, 1984; Acts 1989, No. 655, ง1, eff.
-Jan. 1, 1990; Acts 1991, No. 642, ง1; Acts 1995, No. 1207, ง1; Acts 1997, No. 845, ง1; Acts 2003,
-No. 1123, ง1, eff. July 2, 2003; Acts 2016, No. 533, ง1.
-ง1449.1. Duty of real estate licensees to use purchase agreement forms
+Acts 1978, No. 514, ยง1; Acts 1984, No. 943, ยง4, eff. July 20, 1984; Acts 1989, No. 655, ยง1, eff.
+Jan. 1, 1990; Acts 1991, No. 642, ยง1; Acts 1995, No. 1207, ยง1; Acts 1997, No. 845, ยง1; Acts 2003,
+No. 1123, ยง1, eff. July 2, 2003; Acts 2016, No. 533, ยง1.
+ยง1449.1. Duty of real estate licensees to use purchase agreement forms
 A. A licensee representing either the buyer or seller of residential real property shall complete
 the purchase agreement form prescribed by the Louisiana Real Estate Commission in making an
 offer to purchase or sell residential real property. No person shall alter the purchase
@@ -1084,8 +1084,8 @@ of one or not more than four residential dwelling units, which are buildings or 
 of which are occupied or intended for occupancy as single family residences.
 D. The provisions of this Section shall apply to the sale of residential real property on or after
 January 1, 2008.
-Acts 2006, No. 333, ง1.
-ง1450. Duty of licensees, registrants, and certificate holders to report legal action pertaining
+Acts 2006, No. 333, ยง1.
+ยง1450. Duty of licensees, registrants, and certificate holders to report legal action pertaining
 to real estate activities
 A. It shall be the duty of every licensee, registrant, and certificate holder to notify the
 commission within ten days by registered or certified mail or by hand delivery of the following
@@ -1110,9 +1110,9 @@ holder's real estate business activities.
 (2) The report to the commission shall include a listing which identifies the owner or owners of
 the funds, the amount of funds held, the name of the financial institution, and the number of
 the account in which the funds are deposited.
-Acts 1978, No. 514, ง1. Amended by Acts 1981, No. 594, ง1; Acts 1983, No. 552, ง2; Acts 1989,
-No. 655, ง1, eff. Jan. 1, 1990; Acts 1995, No. 1207, ง1.
-ง1451. Death or incapacity of a real estate broker
+Acts 1978, No. 514, ยง1. Amended by Acts 1981, No. 594, ยง1; Acts 1983, No. 552, ยง2; Acts 1989,
+No. 655, ยง1, eff. Jan. 1, 1990; Acts 1995, No. 1207, ยง1.
+ยง1451. Death or incapacity of a real estate broker
 
 A.(1) The commission shall be notified in writing when a sponsoring broker dies and shall have
 the authority to appoint an active licensed associate broker or salesperson to complete, carry
@@ -1141,10 +1141,10 @@ broker.
 D. In the event of the death or physical or mental incapacity of a qualifying broker, the
 commission shall be immediately notified and the licensed corporation, limited liability
 company, or partnership shall appoint a new qualifying broker within five days.
-Acts 1978, No. 514, ง1; Acts 1989, No. 655, ง1, eff. Jan. 1, 1990; Acts 1995, No. 1207, ง1; Acts
-2016, No. 533, ง1.
-ง1452. REPEALED BY ACTS 1989, NO. 655, ง2, EFF. JAN. 1, 1990.
-ง1453. Investigations
+Acts 1978, No. 514, ยง1; Acts 1989, No. 655, ยง1, eff. Jan. 1, 1990; Acts 1995, No. 1207, ยง1; Acts
+2016, No. 533, ยง1.
+ยง1452. REPEALED BY ACTS 1989, NO. 655, ยง2, EFF. JAN. 1, 1990.
+ยง1453. Investigations
 A. The commission may, upon its own motion, and shall, upon the verified complaint in writing
 of any person, investigate the actions of any licensee, registrant, certificate holder, or any
 person who assumes to act in any such capacity. Such an investigation may include inquiries
@@ -1158,14 +1158,14 @@ inspection conducted by commission personnel.
 D. The commission shall not become involved in disputes between licensees or registrants in
 any matter regarding the entitlement to or payment of commissions, fees, or compensation
 involving the sale or lease of real estate.
-Acts 1978, No. 514, ง1; Acts 1983, No. 552, ง2; Acts 1986, No. 842, ง1; Acts 1989, No. 655, ง1,
-eff. Jan. 1, 1990; Acts 1995, No. 1207, ง1.
-ง1454. False information
+Acts 1978, No. 514, ยง1; Acts 1983, No. 552, ยง2; Acts 1986, No. 842, ยง1; Acts 1989, No. 655, ยง1,
+eff. Jan. 1, 1990; Acts 1995, No. 1207, ยง1.
+ยง1454. False information
 It is unlawful for any person or his agent to file with the commission any notice, statement, or
 other document, required under the provisions of this Chapter which is false or contains any
 material misstatement of fact.
-Acts 1978, No. 514, ง1; Acts 1989, No. 655, ง1, eff. Jan. 1, 1990.
-ง1455. Causes for censure, suspension, or revocation of license, registration, or certification
+Acts 1978, No. 514, ยง1; Acts 1989, No. 655, ยง1, eff. Jan. 1, 1990.
+ยง1455. Causes for censure, suspension, or revocation of license, registration, or certification
 A. The commission may censure a licensee, registrant, or certificate holder or conditionally or
 unconditionally suspend or revoke any license, registration, or certificate issued under this
 Chapter, levy fines or impose civil penalties not to exceed five thousand dollars, or impose
@@ -1258,13 +1258,13 @@ B. The commission may suspend or revoke the registration of any timeshare develo
 knowingly allows any person or entity who does not have a current timeshare interest sales
 registration or current Louisiana real estate license to sell timeshare interests owned by the
 timeshare developer.
-Acts 1978, No. 514, ง1. Amended by Acts 1979, No. 404, ง1; Acts 1980, No. 388, ง1; Acts 1983,
-No. 552, ง2; Acts 1984, No. 943, ง2, eff. July 20, 1984; Acts 1986, No. 838, ง1; Acts 1986, No.
-841, ง1; Acts 1989, No. 655, ง1, eff. Jan. 1, 1990; Acts 1991, No. 354, ง1, eff. Jan. 1, 1992; Acts
-1995, No. 1207, ง1; Acts 1997, No. 32, ง1; Acts 1997, No. 1141, ง2; Acts 1999, No. 452, ง2; Acts
-2003, No. 308, ง2, eff. June 13, 2003; Acts 2003, No. 713, ง1; Acts 2005, No. 78, ง1; Acts 2014,
-No. 572, ง1.
-ง1456. Notice of charges; hearing; censure, suspension, or revocation of license, registration,
+Acts 1978, No. 514, ยง1. Amended by Acts 1979, No. 404, ยง1; Acts 1980, No. 388, ยง1; Acts 1983,
+No. 552, ยง2; Acts 1984, No. 943, ยง2, eff. July 20, 1984; Acts 1986, No. 838, ยง1; Acts 1986, No.
+841, ยง1; Acts 1989, No. 655, ยง1, eff. Jan. 1, 1990; Acts 1991, No. 354, ยง1, eff. Jan. 1, 1992; Acts
+1995, No. 1207, ยง1; Acts 1997, No. 32, ยง1; Acts 1997, No. 1141, ยง2; Acts 1999, No. 452, ยง2; Acts
+2003, No. 308, ยง2, eff. June 13, 2003; Acts 2003, No. 713, ยง1; Acts 2005, No. 78, ยง1; Acts 2014,
+No. 572, ยง1.
+ยง1456. Notice of charges; hearing; censure, suspension, or revocation of license, registration,
 or certificate; criminal action
 A.(1) Before censuring, suspending, or revoking any license or registration, or certification, or
 imposing continuing education requirements, the Louisiana Real Estate Commission shall,
@@ -1316,9 +1316,9 @@ separately or simultaneously bring and carry on an action by injunction to restr
 unlicensed individual from further violation of any of the provisions of this Chapter, during the
 pendency of the criminal proceeding or proceedings before the commission and against any
 unlawful practice thereafter.
-Acts 1978, No. 514, ง1; Acts 1983, No. 552, ง2; Acts 1989, No. 655, ง1, eff. Jan. 1, 1990; Acts
-1997, No. 845, ง1; Acts 1999, No. 452, ง2; Acts 2003, No. 713, ง1.
-ง1457. Judicial proceedings
+Acts 1978, No. 514, ยง1; Acts 1983, No. 552, ยง2; Acts 1989, No. 655, ยง1, eff. Jan. 1, 1990; Acts
+1997, No. 845, ยง1; Acts 1999, No. 452, ยง2; Acts 2003, No. 713, ยง1.
+ยง1457. Judicial proceedings
 A. If an appeal is taken under R.S. 37:1456, the court shall receive the entire record of the
 hearing.
 B. All judicial proceedings relative to actions taken by the commission shall be filed in and
@@ -1336,12 +1336,12 @@ effective, longer than one hundred twenty days from the date on which the commis
 decision or order was rendered, or the date on which the court enters judgment in a
 proceeding for judicial review of the commission's decision or order pursuant to R.S. 49:964,
 whichever comes first.
-Acts 1978, No. 514, ง1; Acts 1995, No. 1207, ง1; Acts 1997, No. 845, ง1; Acts 2003, No. 713, ง1.
-ง1458. Penalty
+Acts 1978, No. 514, ยง1; Acts 1995, No. 1207, ยง1; Acts 1997, No. 845, ยง1; Acts 2003, No. 713, ยง1.
+ยง1458. Penalty
 Whoever violates any of the provisions of this Chapter shall be fined not more than two
 thousand dollars or imprisoned not more than five years, or both.
-Acts 1978, No. 514, ง1; Acts 2003, No. 713, ง1.
-ง1459. Real estate activity; unlicensed persons
+Acts 1978, No. 514, ยง1; Acts 2003, No. 713, ยง1.
+ยง1459. Real estate activity; unlicensed persons
 
 A.(1) In addition to any other civil remedy or civil penalty provided for in this Chapter, the
 commission may issue a subpoena to any person or persons who the commission has probable
@@ -1369,8 +1369,8 @@ to receive any compensation for services so rendered. In addition to any other p
 imposed under R.S. 37:1455 and 1458, the commission may require that any person engaged in
 real estate activity without a license return any fees collected for engaging in real estate
 activity.
-Acts 2003, No. 713, ง1; Acts 2006, No. 343, ง1.
-ง1460. Certification and regulation of real estate schools, instructors and continuing
+Acts 2003, No. 713, ยง1; Acts 2006, No. 343, ยง1.
+ยง1460. Certification and regulation of real estate schools, instructors and continuing
 education vendors
 A. The Louisiana Real Estate Commission shall have the authority to establish rules and
 regulations to certify, regulate, and discipline real estate schools and instructors in the state.
@@ -1383,8 +1383,8 @@ C. The commission shall not certify, or accept educational hours for credit from
 school or any real estate continuing education vendor in which a substantial economic interest
 is held by a legislator or a member of the commission, member of his immediate family, or any
 entity in which he directly or indirectly holds a substantial economic interest.
-Acts 1978, No. 514, ง1; Acts 1989, No. 655, ง1, eff. Jan. 1, 1990.
-ง1461. Real estate recovery fund
+Acts 1978, No. 514, ยง1; Acts 1989, No. 655, ยง1, eff. Jan. 1, 1990.
+ยง1461. Real estate recovery fund
 A. There is created the Louisiana Real Estate Recovery Fund, hereinafter referred to as the
 "recovery fund". Money from the recovery fund shall be disbursed as provided in this Chapter
 on order of the commission as reimbursement to any person who is adjudged to have suffered
@@ -1419,9 +1419,9 @@ C. The commission shall maintain a minimum level of four hundred thousand dollar
 recovery and guaranty purposes. These funds may be invested by the commission under the
 same limitations as other state funds and the interest thereon shall be deposited to the credit
 of the recovery fund.
-Acts 1978, No. 514, ง1. Amended by Acts 1983, No. 379, ง1; Acts 1983, No. 552, ง2; Acts 1989,
-No. 655, ง1, eff. Jan. 1, 1990.
-ง1462. Conditions for recovery; eligibility
+Acts 1978, No. 514, ยง1. Amended by Acts 1983, No. 379, ยง1; Acts 1983, No. 552, ยง2; Acts 1989,
+No. 655, ยง1, eff. Jan. 1, 1990.
+ยง1462. Conditions for recovery; eligibility
 A.(1) Any person shall be eligible to seek recovery from the recovery fund if all of the following
 conditions have been met:
 (a) The claimant has received final judgment in a court of competent jurisdiction in this state in
@@ -1472,10 +1472,10 @@ by the commission pursuant to an adjudicatory proceeding pertaining to a claim s
 notarized affidavit, including appeals.
 (3) Claims submitted by notarized affidavit may be paid by the commission after receiving
 written approval of the attorney general's office.
-Acts 1978, No. 514, ง1; Acts 1983, No. 379, ง1; Acts 1986, No. 836, ง1; Acts 1989, No. 655, ง1,
-eff. Jan. 1, 1990; Acts 1995, No. 1207, งง1, 2; Acts 1997, No. 845, ง1; Acts 1999, No. 452, ง2;
-Acts 2007, No. 35, ง1.
-ง1463. Payment from the fund
+Acts 1978, No. 514, ยง1; Acts 1983, No. 379, ยง1; Acts 1986, No. 836, ยง1; Acts 1989, No. 655, ยง1,
+eff. Jan. 1, 1990; Acts 1995, No. 1207, ยงยง1, 2; Acts 1997, No. 845, ยง1; Acts 1999, No. 452, ยง2;
+Acts 2007, No. 35, ยง1.
+ยง1463. Payment from the fund
 A.(1) Any claimant who meets all of the conditions prescribed in this Chapter may apply to the
 Louisiana Real Estate Commission to cause payment to be made to such claimant from the
 recovery fund, in an amount equal to the unsatisfied portion of the claimant's judgment or 
@@ -1506,9 +1506,9 @@ G. Upon payment of any amount from the recovery fund in settlement of a claim in
 of a judgment against a licensed broker or salesperson, the license of such broker or
 salesperson shall be automatically revoked. A discharge of bankruptcy shall not relieve a
 person from the penalties and disabilities provided in this Section.
-Acts 1978, No. 514, ง1; Acts 1986, No. 836, ง1; Acts 1989, No. 655, ง1, eff. Jan. 1, 1990; Acts
-1995, No. 1207, ง1; Acts 1997, No. 845, ง1.
-ง1464. Real Estate Research and Education Fund
+Acts 1978, No. 514, ยง1; Acts 1986, No. 836, ยง1; Acts 1989, No. 655, ยง1, eff. Jan. 1, 1990; Acts
+1995, No. 1207, ยง1; Acts 1997, No. 845, ยง1.
+ยง1464. Real Estate Research and Education Fund
 A. There is created the Louisiana Real Estate Research and Education Fund. The Louisiana Real
 Estate Research and Education Fund, hereinafter referred to as the "education fund", is hereby
 established to promote the advancement and more efficient administration of the real estate 
@@ -1529,18 +1529,18 @@ Louisiana.
 real estate programs having to do with the advancement of the real estate field in Louisiana.
 (4) To reduce the Louisiana Real Estate Commission office building debt for the Fiscal Years
 2010-2011 and 2011-2012. This Paragraph shall cease to be effective on June 30, 2012.
-Acts 1978, No. 514, ง1; Acts 1989, No. 655, ง1, eff. Jan. 1, 1990; Acts 2010, No. 371, ง1, eff. July
+Acts 1978, No. 514, ยง1; Acts 1989, No. 655, ยง1, eff. Jan. 1, 1990; Acts 2010, No. 371, ยง1, eff. July
 1, 2010.
-ง1465. Real estate franchises
+ยง1465. Real estate franchises
 
 A person, partnership, limited liability company, association, or corporation, foreign or
 domestic, acting in the capacity of a franchisor shall not enter into a franchise agreement with a
 real estate broker in this state unless the franchisor has appointed a Louisiana licensed real
 estate broker to act as its representative in this state.
 
-Added by Acts 1983, No. 381, ง1. Acts 1989, No. 655, ง1, eff. Jan. 1, 1990; Acts 1995, No. 1207,
-ง1; Acts 2016, No. 533, ง1.
-ง1466. Errors and omissions insurance; mandatory for all licensees
+Added by Acts 1983, No. 381, ยง1. Acts 1989, No. 655, ยง1, eff. Jan. 1, 1990; Acts 1995, No. 1207,
+ยง1; Acts 2016, No. 533, ยง1.
+ยง1466. Errors and omissions insurance; mandatory for all licensees
 
 A. All active licensees licensed in accordance with the provisions of this Chapter are mandated
 to carry errors and omissions insurance to cover all activities contemplated under this Chapter.
@@ -1573,16 +1573,16 @@ H. Should the commission be unable to obtain errors and omissions insurance cove
 insure all licensees who chose to participate in the group insurance program at a reasonable
 cost, not to exceed five hundred dollars for coverage, the insurance requirement mandated by
 this Section shall be void during the applicable contract year.
-Acts 1988, No. 849, ง1, eff. Jan. 1, 1990; Acts 1989, No. 655, ง1, eff. Jan. 1, 1990; Acts 1995, No.
-1207, ง1; Acts 1997, No. 845, ง1; Acts 2001, No. 924, ง1; Acts 2016, No. 533, ง1.
-ง1467. Agency
+Acts 1988, No. 849, ยง1, eff. Jan. 1, 1990; Acts 1989, No. 655, ยง1, eff. Jan. 1, 1990; Acts 1995, No.
+1207, ยง1; Acts 1997, No. 845, ยง1; Acts 2001, No. 924, ยง1; Acts 2016, No. 533, ยง1.
+ยง1467. Agency
 A. Licensees shall provide the parties to a real estate transaction with an agency disclosure
 informational pamphlet, and where applicable, a dual agency disclosure form as mandated
 under R.S. 9:3897.
 B. The commission may prescribe such agency disclosure forms or pamphlets as it deems
 necessary for the enforcement of this Section.
-Acts 1991, No. 354, ง1, eff. Jan. 1, 1992; Acts 1997, No. 32, ง1.
-ง1468. Psychologically impacted property
+Acts 1991, No. 354, ยง1, eff. Jan. 1, 1992; Acts 1997, No. 32, ยง1.
+ยง1468. Psychologically impacted property
 A. The fact or suspicion that a property might be or is psychologically impacted, such impact
 being the result of facts or suspicions, including but not limited to:
 (1) That an occupant of real property is, or was at any time suspected to be, infected, or has
@@ -1595,8 +1595,8 @@ real estate that must be disclosed in a real estate transaction.
 B. No cause of action shall arise against an owner of real estate or his or her agent for the
 failure to disclose to the transferee that the transferred property was psychologically impacted
 as defined in Subsection A.
-Acts 1991, No. 336, ง1.
-ง1469. Offender notification
+Acts 1991, No. 336, ยง1.
+ยง1469. Offender notification
 A. Every written lease or rental agreement executed by any licensee for residential immovable
 property and every written contract for sale of residential immovable property shall contain a
 notice of the availability to the public of access to a statewide database disclosing the locations
@@ -1612,8 +1612,8 @@ not give rise to any cause of action against the disclosing party by a registere
 other parties to the transaction.
 C. This Section shall apply only to written agreements and contracts that are entered into by
 the parties on or after January 1, 2002.
-Acts 2001, No. 178, ง1.
-ง1470. Mold informational pamphlet; liability of licensees
+Acts 2001, No. 178, ยง1.
+ยง1470. Mold informational pamphlet; liability of licensees
 A.(1) By April 1, 2004, the commission shall, by rule, in accordance with the Administrative
 Procedure Act, approve a mold informational pamphlet, which may be distributed to buyers by
 licensees in connection with any real estate transaction entered into on or after July 1, 2004.
@@ -1635,4 +1635,4 @@ transmitting such information.
 D. Nothing in this Section shall alter or affect the existing disclosure duties of any party to a real
 estate transaction, or their agents, including but not limited to the duty of a licensee to disclose
 any known material defect regarding the condition of the property.
-Acts 2003, No. 1123, ง1, eff. July 2, 2003.
+Acts 2003, No. 1123, ยง1, eff. July 2, 2003.

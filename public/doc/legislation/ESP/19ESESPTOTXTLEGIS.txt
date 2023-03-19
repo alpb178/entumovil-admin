@@ -1,722 +1,722 @@
-BOLETÍN OFICIAL DEL ESTADO
-Núm. 102 Lunes 29 de abril de 2019 Sec. I. Pág. 43114
+BOLETÃN OFICIAL DEL ESTADO
+NÃºm. 102 Lunes 29 de abril de 2019 Sec. I. PÃ¡g. 43114
 I. DISPOSICIONES GENERALES
 MINISTERIO DE LA PRESIDENCIA,
 RELACIONES CON LAS CORTES E IGUALDAD
 6299 Real Decreto 309/2019, de 26 de abril, por el que se desarrolla parcialmente
-la Ley 5/2019, de 15 de marzo, reguladora de los contratos de crédito
+la Ley 5/2019, de 15 de marzo, reguladora de los contratos de crÃ©dito
 inmobiliario y se adoptan otras medidas en materia financiera.
 I
-El correcto funcionamiento del mercado de contratos de préstamo inmobiliario es un
-elemento fundamental para la estabilidad y el crecimiento de la economía de una sociedad,
-además de un instrumento decisivo para la cohesión social y el desarrollo del bienestar de
-los ciudadanos. Tradicionalmente, las características de este mercado en España han
-hecho posible que un gran número de familias pudieran acceder en condiciones razonables
-a préstamos o líneas de crédito para la financiación de sus viviendas en propiedad.
-No obstante, en la última década el mercado inmobiliario en España se ha visto
-afectado por la crisis financiera internacional, que generó problemas de confianza en el
-sector financiero y de restricción de crédito, lo que ha tenido efectos negativos en las
-condiciones de acceso a la vivienda, así como en la seguridad jurídica.
+El correcto funcionamiento del mercado de contratos de prÃ©stamo inmobiliario es un
+elemento fundamental para la estabilidad y el crecimiento de la economÃ­a de una sociedad,
+ademÃ¡s de un instrumento decisivo para la cohesiÃ³n social y el desarrollo del bienestar de
+los ciudadanos. Tradicionalmente, las caracterÃ­sticas de este mercado en EspaÃ±a han
+hecho posible que un gran nÃºmero de familias pudieran acceder en condiciones razonables
+a prÃ©stamos o lÃ­neas de crÃ©dito para la financiaciÃ³n de sus viviendas en propiedad.
+No obstante, en la Ãºltima dÃ©cada el mercado inmobiliario en EspaÃ±a se ha visto
+afectado por la crisis financiera internacional, que generÃ³ problemas de confianza en el
+sector financiero y de restricciÃ³n de crÃ©dito, lo que ha tenido efectos negativos en las
+condiciones de acceso a la vivienda, asÃ­ como en la seguridad jurÃ­dica.
 Por otro lado, no hay que olvidar los problemas de transparencia del sistema crediticio
-que se han puesto de manifiesto en los últimos años. La posición asimétrica que ocupan
-en la relación contractual el prestamista y el prestatario justifica la intervención pública en
-el régimen regulador de la información precontractual y contractual que debe
-proporcionarse al prestatario. En este sentido, se exige a la parte que domina la relación
-que, como profesional, no solo facilite información al prestatario, sino también que actúe
+que se han puesto de manifiesto en los Ãºltimos aÃ±os. La posiciÃ³n asimÃ©trica que ocupan
+en la relaciÃ³n contractual el prestamista y el prestatario justifica la intervenciÃ³n pÃºblica en
+el rÃ©gimen regulador de la informaciÃ³n precontractual y contractual que debe
+proporcionarse al prestatario. En este sentido, se exige a la parte que domina la relaciÃ³n
+que, como profesional, no solo facilite informaciÃ³n al prestatario, sino tambiÃ©n que actÃºe
 con un plus de responsabilidad en su comportamiento hacia este.
-Además, los poderes públicos deben garantizar la existencia de un régimen jurídico
+AdemÃ¡s, los poderes pÃºblicos deben garantizar la existencia de un rÃ©gimen jurÃ­dico
 seguro, estable, y que ofrezca respuesta a nuevas incertidumbres y conflictos que puedan
-surgir en este ámbito, armonizando la regulación de las necesarias garantías de
-transparencia y de protección al prestatario, con una adecuada seguridad jurídica para los
-intermediarios de crédito inmobiliario, sus representantes y los prestamistas de c
-BOLETÍN OFICIAL DEL ESTADO
-Núm. 102 Lunes 29 de abril de 2019 Sec. I. Pág. 43115
+surgir en este Ã¡mbito, armonizando la regulaciÃ³n de las necesarias garantÃ­as de
+transparencia y de protecciÃ³n al prestatario, con una adecuada seguridad jurÃ­dica para los
+intermediarios de crÃ©dito inmobiliario, sus representantes y los prestamistas de c
+BOLETÃN OFICIAL DEL ESTADO
+NÃºm. 102 Lunes 29 de abril de 2019 Sec. I. PÃ¡g. 43115
 solvencia. En segundo lugar dicha ley regula las normas de conducta que deben cumplir
-los intermediarios de crédito inmobiliario, sus representantes y los prestamistas de crédito
+los intermediarios de crÃ©dito inmobiliario, sus representantes y los prestamistas de crÃ©dito
 inmobiliario, tales como requisitos de conocimiento y competencia aplicables al personal
-de los mismos y la política de remuneración de los mismos. En tercer lugar, recoge los
-aspectos relacionados con el propio contrato de préstamo o crédito inmobiliario tales como
-su forma y contenido, o la regulación de los supuestos de vencimiento o reembolso
-anticipado. Junto a esto, su capítulo III establece el régimen jurídico de los intermediarios
-de crédito inmobiliario, sus representantes y los prestamistas de crédito inmobiliario,
-regulando el necesario registro de los mismos y su supervisión. Por último, dicha ley se
-completa con el necesario régimen sancionador.
-En consecuencia, la necesidad de aprobación de este real decreto es doble. Por un
-lado, es preciso completar la transposición de la Directiva 2014/17/UE, de 4 de febrero
+de los mismos y la polÃ­tica de remuneraciÃ³n de los mismos. En tercer lugar, recoge los
+aspectos relacionados con el propio contrato de prÃ©stamo o crÃ©dito inmobiliario tales como
+su forma y contenido, o la regulaciÃ³n de los supuestos de vencimiento o reembolso
+anticipado. Junto a esto, su capÃ­tulo III establece el rÃ©gimen jurÃ­dico de los intermediarios
+de crÃ©dito inmobiliario, sus representantes y los prestamistas de crÃ©dito inmobiliario,
+regulando el necesario registro de los mismos y su supervisiÃ³n. Por Ãºltimo, dicha ley se
+completa con el necesario rÃ©gimen sancionador.
+En consecuencia, la necesidad de aprobaciÃ³n de este real decreto es doble. Por un
+lado, es preciso completar la transposiciÃ³n de la Directiva 2014/17/UE, de 4 de febrero
 de 2014, ya iniciada con la Ley 5/2019, de 15 de marzo. Por otro, procede desarrollar
 diversos aspectos que se consideran necesarios para garantizar los derechos reconocidos
 a los prestatarios en dicha ley.
 III
 Este real decreto se centra, en primer lugar, en regular aquellos aspectos necesarios
-para la plena transposición de la Directiva 2014/17/UE, de 4 de febrero de 2014, ante la
-urgencia derivada del procedimiento de infracción abierto por la Comisión Europea por la
-falta de transposición en el plazo previsto por la citada Directiva. Este hecho explica el uso
+para la plena transposiciÃ³n de la Directiva 2014/17/UE, de 4 de febrero de 2014, ante la
+urgencia derivada del procedimiento de infracciÃ³n abierto por la ComisiÃ³n Europea por la
+falta de transposiciÃ³n en el plazo previsto por la citada Directiva. Este hecho explica el uso
 parcial de las habilitaciones contenidas en la ley, a aquellos aspectos imprescindibles para
-la plena transposición de la Directiva 2014/17/UE, de 4 de febrero de 2014. La urgencia en
-la tramitación es la que justifica, por tanto, que el presente real decreto se haya limitado a
-regular los aspectos imprescindibles para completar la transposición de la citada Directiva
+la plena transposiciÃ³n de la Directiva 2014/17/UE, de 4 de febrero de 2014. La urgencia en
+la tramitaciÃ³n es la que justifica, por tanto, que el presente real decreto se haya limitado a
+regular los aspectos imprescindibles para completar la transposiciÃ³n de la citada Directiva
 europea, desarrollando para ello en lo preciso la Ley 5/2019, de 15 de marzo, pero que no
 se haya ocupado en cambio de realizar el ajuste de las correspondientes normas
-reglamentarias, a través de sus modificaciones pertinentes, ya que éstas, con ser
+reglamentarias, a travÃ©s de sus modificaciones pertinentes, ya que Ã©stas, con ser
 necesarias, no se ven afectadas por la urgencia a que se ha hecho referencia.
-De esta forma, el presente real decreto establece, por un lado, qué requisitos mínimos
-deberán cumplirse para poder ofrecer servicios de asesoramiento y que permitirán, a su
-vez, a las personas que ofrezcan los mismos el uso de los términos «asesoramiento
-independiente» y «asesor independiente».
-Por otro lado, establece una serie de requisitos formales y materiales de la información
+De esta forma, el presente real decreto establece, por un lado, quÃ© requisitos mÃ­nimos
+deberÃ¡n cumplirse para poder ofrecer servicios de asesoramiento y que permitirÃ¡n, a su
+vez, a las personas que ofrezcan los mismos el uso de los tÃ©rminos Â«asesoramiento
+independienteÂ» y Â«asesor independienteÂ».
+Por otro lado, establece una serie de requisitos formales y materiales de la informaciÃ³n
 que deben ofrecerse al prestatario durante la vigencia del contrato.
 En segundo lugar, el presente real decreto se centra en desarrollar diversos aspectos
 que se consideran necesarios para garantizar los derechos reconocidos a los prestatarios
-en la Ley 5/2019, de 15 de marzo, como son las disposiciones contenidas en el capítulo IV
+en la Ley 5/2019, de 15 de marzo, como son las disposiciones contenidas en el capÃ­tulo IV
 de este real decreto.
-Además de lo anterior, este real decreto transpone la Directiva 2017/2399 del
+AdemÃ¡s de lo anterior, este real decreto transpone la Directiva 2017/2399 del
 Parlamento Europeo y del Consejo, de 12 de diciembre de 2017, por la que se modifica la
-Directiva 2014/59/UE, en lo que respecta a la modificación introducida en el artículo 108
-de esta última, sobre el orden de prioridad de los instrumentos de deuda no garantizada
-en caso de insolvencia, cuyo objeto es aclarar qué se entiende por derivado implícito,
-condición que resultaría excluyente para calificar un instrumento de deuda como senior no
+Directiva 2014/59/UE, en lo que respecta a la modificaciÃ³n introducida en el artÃ­culo 108
+de esta Ãºltima, sobre el orden de prioridad de los instrumentos de deuda no garantizada
+en caso de insolvencia, cuyo objeto es aclarar quÃ© se entiende por derivado implÃ­cito,
+condiciÃ³n que resultarÃ­a excluyente para calificar un instrumento de deuda como senior no
 preferente.
-Asimismo, este real decreto deroga la disposición adicional primera del Real Decreto
+Asimismo, este real decreto deroga la disposiciÃ³n adicional primera del Real Decreto
 84/2015, de 13 de febrero, por el que se desarrolla la Ley 10/2014, de 26 de junio, de
-ordenación, supervisión y solvencia de entidades de crédito, a fin de eximir a las entidades
-de crédito españolas de una autorización previa para que sus emisiones de instrumentos
+ordenaciÃ³n, supervisiÃ³n y solvencia de entidades de crÃ©dito, a fin de eximir a las entidades
+de crÃ©dito espaÃ±olas de una autorizaciÃ³n previa para que sus emisiones de instrumentos
 de capital del nivel 1 adicional y capital de nivel 2 computen para cumplir con los requisitos
-de solvencia. A diferencia de lo que ocurre en España, en la práctica totalidad del resto de
-países de la Unión Europea estos instrumentos computan como capital regulatorio sin
-obligación de que exista una previa autorización administrativa. Así, en esos países, la
-obligación de aprobación previa solamente se aplica a los instrumentos de capital ordinario
+de solvencia. A diferencia de lo que ocurre en EspaÃ±a, en la prÃ¡ctica totalidad del resto de
+paÃ­ses de la UniÃ³n Europea estos instrumentos computan como capital regulatorio sin
+obligaciÃ³n de que exista una previa autorizaciÃ³n administrativa. AsÃ­, en esos paÃ­ses, la
+obligaciÃ³n de aprobaciÃ³n previa solamente se aplica a los instrumentos de capital ordinario
 cve: BOE-A-2019-6299
 Verificable en http://www.boe.es
-BOLETÍN OFICIAL DEL ESTADO
-Núm. 102 Lunes 29 de abril de 2019 Sec. I. Pág. 43116
-de nivel 1, conforme a la normativa de la Unión Europea. La eliminación de este
-requerimiento de autorización será de aplicación no solo a las nuevas emisiones sino
-también a los procedimientos de autorización actualmente en curso y no finalizados.
+BOLETÃN OFICIAL DEL ESTADO
+NÃºm. 102 Lunes 29 de abril de 2019 Sec. I. PÃ¡g. 43116
+de nivel 1, conforme a la normativa de la UniÃ³n Europea. La eliminaciÃ³n de este
+requerimiento de autorizaciÃ³n serÃ¡ de aplicaciÃ³n no solo a las nuevas emisiones sino
+tambiÃ©n a los procedimientos de autorizaciÃ³n actualmente en curso y no finalizados.
 IV
-El presente real decreto se estructura en cuatro capítulos, que contienen 12 artículos,
-y en diez disposiciones adicionales, dos disposiciones transitorias, una disposición
+El presente real decreto se estructura en cuatro capÃ­tulos, que contienen 12 artÃ­culos,
+y en diez disposiciones adicionales, dos disposiciones transitorias, una disposiciÃ³n
 derogatoria, y cinco disposiciones finales.
-El capítulo I recoge las disposiciones generales que incluyen el objeto y ámbito de
-aplicación de la norma. En los mismos términos que la Ley 5/2019, de 15 de marzo, que
-desarrolla, este real decreto se aplicará a todos los contratos de préstamo inmobiliario que
-recoge el artículo 2 de aquella.
-El capítulo II establece los requisitos para la prestación de servicios de asesoramiento,
-en desarrollo del artículo 19 de la Ley 5/2019, de 15 de marzo. Para instaurar la confianza,
+El capÃ­tulo I recoge las disposiciones generales que incluyen el objeto y Ã¡mbito de
+aplicaciÃ³n de la norma. En los mismos tÃ©rminos que la Ley 5/2019, de 15 de marzo, que
+desarrolla, este real decreto se aplicarÃ¡ a todos los contratos de prÃ©stamo inmobiliario que
+recoge el artÃ­culo 2 de aquella.
+El capÃ­tulo II establece los requisitos para la prestaciÃ³n de servicios de asesoramiento,
+en desarrollo del artÃ­culo 19 de la Ley 5/2019, de 15 de marzo. Para instaurar la confianza,
 es fundamental garantizar en el sector un elevado grado de equidad, honestidad y
-profesionalidad, una gestión adecuada de los conflictos de intereses, en especial los
-derivados de la remuneración, y exigir que el asesoramiento se preste al servicio de los
+profesionalidad, una gestiÃ³n adecuada de los conflictos de intereses, en especial los
+derivados de la remuneraciÃ³n, y exigir que el asesoramiento se preste al servicio de los
 intereses de los prestatarios, fiadores o garantes.
-El capítulo III regula, en primer lugar, los requisitos para la inscripción en el
-correspondiente registro de los prestamistas de crédito inmobiliario, en desarrollo del
-artículo 42 de la Ley de la Ley 5/2019, de 15 de marzo, y, en segundo lugar, la información
+El capÃ­tulo III regula, en primer lugar, los requisitos para la inscripciÃ³n en el
+correspondiente registro de los prestamistas de crÃ©dito inmobiliario, en desarrollo del
+artÃ­culo 42 de la Ley de la Ley 5/2019, de 15 de marzo, y, en segundo lugar, la informaciÃ³n
 que debe facilitarse al prestatario durante la vigencia del contrato, en virtud de las
-potestades reglamentarias que concede al Gobierno la disposición final decimoquinta de
-la citada ley. Respecto de esta última, hace una referencia a las características generales
-que debe cumplir toda aquella información que, bien por establecerse en la Ley, en este
-real decreto, o en otra norma aplicable, bien por recogerse en el contrato de préstamo
+potestades reglamentarias que concede al Gobierno la disposiciÃ³n final decimoquinta de
+la citada ley. Respecto de esta Ãºltima, hace una referencia a las caracterÃ­sticas generales
+que debe cumplir toda aquella informaciÃ³n que, bien por establecerse en la Ley, en este
+real decreto, o en otra norma aplicable, bien por recogerse en el contrato de prÃ©stamo
 inmobiliario, debe remitirse al prestatario. Regula tanto aspectos formales, destacando la
 necesaria claridad y exactitud a que debe someterse la misma, como otros aspectos
-materiales tales como la información sobre comisiones y gastos devengados y tipos de
-interés efectivamente aplicados durante el año anterior, modificaciones del tipo deudor, o
-información que permita a los herederos de un prestatario, fiador o garante, una vez
-acreditada tal condición, conocer el estado del préstamo inmobiliario frente al prestamista
-al tiempo del fallecimiento del causante. Con el fin de garantizar la adecuada protección de
-los ciudadanos, las obligaciones de información aquí recogidas, que se refieren
-exclusivamente al crédito inmobiliario, se ven complementadas por la correspondiente
-regulación sectorial que recoge las obligaciones de transparencia de otros productos que,
+materiales tales como la informaciÃ³n sobre comisiones y gastos devengados y tipos de
+interÃ©s efectivamente aplicados durante el aÃ±o anterior, modificaciones del tipo deudor, o
+informaciÃ³n que permita a los herederos de un prestatario, fiador o garante, una vez
+acreditada tal condiciÃ³n, conocer el estado del prÃ©stamo inmobiliario frente al prestamista
+al tiempo del fallecimiento del causante. Con el fin de garantizar la adecuada protecciÃ³n de
+los ciudadanos, las obligaciones de informaciÃ³n aquÃ­ recogidas, que se refieren
+exclusivamente al crÃ©dito inmobiliario, se ven complementadas por la correspondiente
+regulaciÃ³n sectorial que recoge las obligaciones de transparencia de otros productos que,
 eventualmente, puedan contratarse de manera conjunta.
-El capítulo IV establece las especificidades y requisitos técnicos de los medios
-telemáticos que deberán emplearse para la remisión al notario de la documentación
-establecida en el artículo 14.1.g) de la Ley 5/2019, de 15 de marzo, así como el
-procedimiento de remisión al notario por el prestamista, el intermediario de crédito o
-representante designado, en su caso, de la documentación necesaria para dar
-cumplimiento al principio de transparencia material contenido en el artículo 15 de dicha ley.
+El capÃ­tulo IV establece las especificidades y requisitos tÃ©cnicos de los medios
+telemÃ¡ticos que deberÃ¡n emplearse para la remisiÃ³n al notario de la documentaciÃ³n
+establecida en el artÃ­culo 14.1.g) de la Ley 5/2019, de 15 de marzo, asÃ­ como el
+procedimiento de remisiÃ³n al notario por el prestamista, el intermediario de crÃ©dito o
+representante designado, en su caso, de la documentaciÃ³n necesaria para dar
+cumplimiento al principio de transparencia material contenido en el artÃ­culo 15 de dicha ley.
 El real decreto se completa con diez disposiciones adicionales, dos transitorias, una
 derogatoria, y cinco disposiciones finales.
-La disposición adicional primera determina las condiciones que debe cumplir el seguro
-de responsabilidad civil profesional o aval bancario de los intermediarios de crédito y su
-importe mínimo, mediante una remisión al correspondiente Reglamento Delegado (UE)
-n.º 1125/2014, de la Comisión, de 19 de septiembre de 2014, por el que se complementa
+La disposiciÃ³n adicional primera determina las condiciones que debe cumplir el seguro
+de responsabilidad civil profesional o aval bancario de los intermediarios de crÃ©dito y su
+importe mÃ­nimo, mediante una remisiÃ³n al correspondiente Reglamento Delegado (UE)
+n.Âº 1125/2014, de la ComisiÃ³n, de 19 de septiembre de 2014, por el que se complementa
 la Directiva 2014/17/UE del Parlamento Europeo y del Consejo en lo relativo a las normas
-técnicas de regulación del importe mínimo del seguro de responsabilidad civil profesional
-u otra garantía comparable de que deben disponer los intermediarios de crédito.
-La disposición adicional segunda prevé la cooperación entre el Banco de España y las
-autoridades competentes de las comunidades autónomas en lo que a las disposiciones de 
-BOLETÍN OFICIAL DEL ESTADO
-Núm. 102 Lunes 29 de abril de 2019 Sec. I. Pág. 43117
-La disposición adicional tercera habilita al Banco de España para establecer normas
-técnicas reguladoras de la forma de acceso a la Central de Información de Riesgos; la
-cuarta otorga a este real decreto el carácter de norma de ordenación y disciplina; y la
+tÃ©cnicas de regulaciÃ³n del importe mÃ­nimo del seguro de responsabilidad civil profesional
+u otra garantÃ­a comparable de que deben disponer los intermediarios de crÃ©dito.
+La disposiciÃ³n adicional segunda prevÃ© la cooperaciÃ³n entre el Banco de EspaÃ±a y las
+autoridades competentes de las comunidades autÃ³nomas en lo que a las disposiciones de 
+BOLETÃN OFICIAL DEL ESTADO
+NÃºm. 102 Lunes 29 de abril de 2019 Sec. I. PÃ¡g. 43117
+La disposiciÃ³n adicional tercera habilita al Banco de EspaÃ±a para establecer normas
+tÃ©cnicas reguladoras de la forma de acceso a la Central de InformaciÃ³n de Riesgos; la
+cuarta otorga a este real decreto el carÃ¡cter de norma de ordenaciÃ³n y disciplina; y la
 quinta establece una serie de requisitos de gobernanza de obligado cumplimiento para los
-prestamistas de crédito inmobiliario, lo que supone el desarrollo del artículo 5 de la
+prestamistas de crÃ©dito inmobiliario, lo que supone el desarrollo del artÃ­culo 5 de la
 Ley 5/2019, de 15 de marzo.
-Por su parte, la disposición adicional sexta recoge la obligación que tienen los
-prestamistas, intermediarios de crédito, sus representantes designados y los grupos
-consolidables de todos ellos, cuya supervisión corresponda al Banco de España, de remitir
-con la forma y periodicidad que este requiera la información que considere necesaria para
-cumplir con su función de supervisión.
-La disposición adicional séptima encarga la presentación en el plazo de un año de un
-informe de los Ministerios de Economía y Empresa y Justicia a la Comisión Delegada de
-Asuntos Económicos analizando el impacto de las previsiones de los artículos 11 y 12 de
+Por su parte, la disposiciÃ³n adicional sexta recoge la obligaciÃ³n que tienen los
+prestamistas, intermediarios de crÃ©dito, sus representantes designados y los grupos
+consolidables de todos ellos, cuya supervisiÃ³n corresponda al Banco de EspaÃ±a, de remitir
+con la forma y periodicidad que este requiera la informaciÃ³n que considere necesaria para
+cumplir con su funciÃ³n de supervisiÃ³n.
+La disposiciÃ³n adicional sÃ©ptima encarga la presentaciÃ³n en el plazo de un aÃ±o de un
+informe de los Ministerios de EconomÃ­a y Empresa y Justicia a la ComisiÃ³n Delegada de
+Asuntos EconÃ³micos analizando el impacto de las previsiones de los artÃ­culos 11 y 12 de
 este real decreto.
-La disposición final octava recoge el obligado cumplimiento del Reglamento (UE)
+La disposiciÃ³n final octava recoge el obligado cumplimiento del Reglamento (UE)
 2016/679 del Parlamento Europeo y el Consejo, de 27 de abril de 2016, relativo a la
-protección de las personas físicas en lo que respecta al tratamiento de sus datos
-personales y a la libre circulación de estos datos.
-La disposición adicional novena recoge los requisitos específicos de información que
-deben suministrarse en lo relativo a los contratos de crédito inmobiliario en el marco de las
-comunicaciones a través de telefonía vocal previstas en el artículo 7.3 de la Ley 22/2007,
-de 11 de julio, sobre comercialización a distancia de servicios financieros destinados a los
-consumidores, en los términos que determina la Directiva 2014/17/UE del Parlamento
+protecciÃ³n de las personas fÃ­sicas en lo que respecta al tratamiento de sus datos
+personales y a la libre circulaciÃ³n de estos datos.
+La disposiciÃ³n adicional novena recoge los requisitos especÃ­ficos de informaciÃ³n que
+deben suministrarse en lo relativo a los contratos de crÃ©dito inmobiliario en el marco de las
+comunicaciones a travÃ©s de telefonÃ­a vocal previstas en el artÃ­culo 7.3 de la Ley 22/2007,
+de 11 de julio, sobre comercializaciÃ³n a distancia de servicios financieros destinados a los
+consumidores, en los tÃ©rminos que determina la Directiva 2014/17/UE del Parlamento
 Europeo y del Consejo, de 4 de febrero de 2014.
-La disposición adicional décima regula el ejercicio de la libertad de establecimiento de
-los intermediarios de crédito inmobiliario en los términos definidos por la Directiva 2014/17/
+La disposiciÃ³n adicional dÃ©cima regula el ejercicio de la libertad de establecimiento de
+los intermediarios de crÃ©dito inmobiliario en los tÃ©rminos definidos por la Directiva 2014/17/
 UE del Parlamento Europeo y del Consejo, de 4 de febrero de 2014.
-La disposición transitoria primera pretende clarificar la vigencia de determinadas
-disposiciones que se ven afectadas por los desarrollos aún no realizados de la disposición
+La disposiciÃ³n transitoria primera pretende clarificar la vigencia de determinadas
+disposiciones que se ven afectadas por los desarrollos aÃºn no realizados de la disposiciÃ³n
 adicional decimoquinta de la Ley 5/2019, de 15 de marzo.
-La disposición transitoria segunda prevé el régimen aplicable a las autorizaciones
-previstas en la disposición adicional primera del Real Decreto 84/2015, de 13 de febrero,
-por el que se desarrolla la Ley 10/2014, de 26 de junio, de ordenación, supervisión y
-solvencia de entidades de crédito.
-La disposición derogatoria única establece la derogación de las normas de igual o
-inferior rango que se opongan a este real decreto, incluida la disposición adicional primera
+La disposiciÃ³n transitoria segunda prevÃ© el rÃ©gimen aplicable a las autorizaciones
+previstas en la disposiciÃ³n adicional primera del Real Decreto 84/2015, de 13 de febrero,
+por el que se desarrolla la Ley 10/2014, de 26 de junio, de ordenaciÃ³n, supervisiÃ³n y
+solvencia de entidades de crÃ©dito.
+La disposiciÃ³n derogatoria Ãºnica establece la derogaciÃ³n de las normas de igual o
+inferior rango que se opongan a este real decreto, incluida la disposiciÃ³n adicional primera
 el Real Decreto 84/2015, de 13 de febrero, por el que se desarrolla la Ley 10/2014, de 26
-de junio, de ordenación, supervisión y solvencia de entidades de crédito.
-La disposición final primera establece el título competencial, recogiendo la competencia
-estatal exclusiva sobre legislación mercantil, legislación procesal, bases de la ordenación
-de crédito, banca y seguro, y bases y coordinación de la planificación general de la
-actividad económica.
-Por su parte, la disposición final segunda prevé la transposición del artículo 108.6 de la
+de junio, de ordenaciÃ³n, supervisiÃ³n y solvencia de entidades de crÃ©dito.
+La disposiciÃ³n final primera establece el tÃ­tulo competencial, recogiendo la competencia
+estatal exclusiva sobre legislaciÃ³n mercantil, legislaciÃ³n procesal, bases de la ordenaciÃ³n
+de crÃ©dito, banca y seguro, y bases y coordinaciÃ³n de la planificaciÃ³n general de la
+actividad econÃ³mica.
+Por su parte, la disposiciÃ³n final segunda prevÃ© la transposiciÃ³n del artÃ­culo 108.6 de la
 Directiva 2014/59/UE del Parlamento Europeo y del Consejo, de 15 de mayo de 2014, por la
-que se establece un marco para la reestructuración y la resolución de entidades de crédito y
-empresas de servicios de inversión, y por la que se modifican la Directiva 82/891/CEE del
+que se establece un marco para la reestructuraciÃ³n y la resoluciÃ³n de entidades de crÃ©dito y
+empresas de servicios de inversiÃ³n, y por la que se modifican la Directiva 82/891/CEE del
 Consejo, y las Directivas 2001/24/CE, 2002/47/CE, 2004/25/CE, 2005/56/CE, 2007/36/CE,
 2011/35/UE, 2012/30/UE y 2013/36/UE, y los Reglamentos (UE) no 1093/2010 y (UE) no
-648/2012 del Parlamento Europeo y del Consejo. Dicho artículo 108.6 fue introducido por
-la Directiva (UE) 2017/2399, de 12 de diciembre de 2017, en cuanto a la jerarquía de
+648/2012 del Parlamento Europeo y del Consejo. Dicho artÃ­culo 108.6 fue introducido por
+la Directiva (UE) 2017/2399, de 12 de diciembre de 2017, en cuanto a la jerarquÃ­a de
 pasivos en caso de concurso.
-La disposición final tercera hace referencia a la transposición al ordenamiento jurídico
-español de la normativa de la Unión Europea.
+La disposiciÃ³n final tercera hace referencia a la transposiciÃ³n al ordenamiento jurÃ­dico
+espaÃ±ol de la normativa de la UniÃ³n Europea.
 cve: BOE-A-2019-6299
 Verificable en http://www.boe.es
-BOLETÍN OFICIAL DEL ESTADO
-Núm. 102 Lunes 29 de abril de 2019 Sec. I. Pág. 43118
-Por último, la disposición final cuarta faculta a la persona titular del Ministerio de
-Economía y Empresa para dictar cuantas disposiciones de carácter general y actos sean
-precisos para el desarrollo y aplicación de este real decreto, y la quinta establece la
+BOLETÃN OFICIAL DEL ESTADO
+NÃºm. 102 Lunes 29 de abril de 2019 Sec. I. PÃ¡g. 43118
+Por Ãºltimo, la disposiciÃ³n final cuarta faculta a la persona titular del Ministerio de
+EconomÃ­a y Empresa para dictar cuantas disposiciones de carÃ¡cter general y actos sean
+precisos para el desarrollo y aplicaciÃ³n de este real decreto, y la quinta establece la
 entrada en vigor del real decreto.
 V
-Este real decreto se dicta al amparo de lo establecido en el artículo 149.1.6.ª, 11.ª
-y 13.ª de la Constitución Española que atribuye al Estado la competencia exclusiva sobre
-legislación mercantil, legislación procesal, bases de la ordenación de crédito, banca y
-seguro, y bases y coordinación de la planificación general de la actividad económica,
+Este real decreto se dicta al amparo de lo establecido en el artÃ­culo 149.1.6.Âª, 11.Âª
+y 13.Âª de la ConstituciÃ³n EspaÃ±ola que atribuye al Estado la competencia exclusiva sobre
+legislaciÃ³n mercantil, legislaciÃ³n procesal, bases de la ordenaciÃ³n de crÃ©dito, banca y
+seguro, y bases y coordinaciÃ³n de la planificaciÃ³n general de la actividad econÃ³mica,
 respectivamente.
 La norma se adecua a los principios de necesidad, eficacia, proporcionalidad,
-seguridad jurídica, transparencia y eficiencia, a los que debe sujetarse el ejercicio de la
-potestad reglamentaria, de conformidad con lo dispuesto en el artículo 129 de la Ley
-39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones
-Públicas.
-En aplicación de los principios de necesidad y eficacia, la norma persigue un interés
-general al desarrollar reglamentariamente la Ley 5/2019, de 15 de marzo, así como
-completar la transposición de la normativa de la Unión Europea. Asegurar unas normas
-mínimas, claras y precisas, para la prestación de los servicios de asesoramiento, es
+seguridad jurÃ­dica, transparencia y eficiencia, a los que debe sujetarse el ejercicio de la
+potestad reglamentaria, de conformidad con lo dispuesto en el artÃ­culo 129 de la Ley
+39/2015, de 1 de octubre, del Procedimiento Administrativo ComÃºn de las Administraciones
+PÃºblicas.
+En aplicaciÃ³n de los principios de necesidad y eficacia, la norma persigue un interÃ©s
+general al desarrollar reglamentariamente la Ley 5/2019, de 15 de marzo, asÃ­ como
+completar la transposiciÃ³n de la normativa de la UniÃ³n Europea. Asegurar unas normas
+mÃ­nimas, claras y precisas, para la prestaciÃ³n de los servicios de asesoramiento, es
 fundamental para la confianza del prestatario al que se le presta este servicio velando
-adecuadamente por su mejor interés. Por otro lado, es imprescindible el desarrollo del
-régimen jurídico de los prestamistas, en la forma que se establece en este real decreto,
-tanto para la seguridad jurídica de todas las partes intervinientes, como para el necesario
-conocimiento del prestatario tras la firma del contrato. Finalmente, la regulación de los
-medios telemáticos permitirá que operen eficazmente los mecanismos previstos en la Ley
+adecuadamente por su mejor interÃ©s. Por otro lado, es imprescindible el desarrollo del
+rÃ©gimen jurÃ­dico de los prestamistas, en la forma que se establece en este real decreto,
+tanto para la seguridad jurÃ­dica de todas las partes intervinientes, como para el necesario
+conocimiento del prestatario tras la firma del contrato. Finalmente, la regulaciÃ³n de los
+medios telemÃ¡ticos permitirÃ¡ que operen eficazmente los mecanismos previstos en la Ley
 5/2019, de 15 de marzo, para garantizar la transparencia material.
-Asimismo, esta norma proporciona coherencia a nuestro ordenamiento jurídico y es el
-instrumento más adecuado para ello, dado que su aprobación es de obligado cumplimiento
-por mandato de la citada Ley y como consecuencia de la necesaria transposición de la
+Asimismo, esta norma proporciona coherencia a nuestro ordenamiento jurÃ­dico y es el
+instrumento mÃ¡s adecuado para ello, dado que su aprobaciÃ³n es de obligado cumplimiento
+por mandato de la citada Ley y como consecuencia de la necesaria transposiciÃ³n de la
 Directiva 2014/17/UE, de 4 de febrero de 2014. Cumple, por tanto, con los principios de
-proporcionalidad y seguridad jurídica.
-En aplicación del principio de transparencia, en el procedimiento de elaboración del
+proporcionalidad y seguridad jurÃ­dica.
+En aplicaciÃ³n del principio de transparencia, en el procedimiento de elaboraciÃ³n del
 presente real decreto se ha tenido en cuenta lo dispuesto en la Ley 50/1997, de 27 de
 noviembre, del Gobierno, y en la Ley 39/2015, de 1 de octubre, del Procedimiento
-Administrativo Común de las Administraciones Públicas. Se ha sometido a los
-procedimientos de consulta y audiencia públicas previstos, respectivamente, en el artículo
-133.1 de la Ley 39/2015, de 1 de octubre, y el artículo 26.6 de la Ley 50/1997, de 27 de
-noviembre, del Gobierno, posibilitando así la participación activa de los potenciales
+Administrativo ComÃºn de las Administraciones PÃºblicas. Se ha sometido a los
+procedimientos de consulta y audiencia pÃºblicas previstos, respectivamente, en el artÃ­culo
+133.1 de la Ley 39/2015, de 1 de octubre, y el artÃ­culo 26.6 de la Ley 50/1997, de 27 de
+noviembre, del Gobierno, posibilitando asÃ­ la participaciÃ³n activa de los potenciales
 destinatarios. No obstante, dada la naturaleza de este real decreto, ha sido posteriormente
-declarada la urgencia en la tramitación del mismo por el Consejo de Ministros.
+declarada la urgencia en la tramitaciÃ³n del mismo por el Consejo de Ministros.
 Finalmente, se encuentra acreditado el principio de eficiencia, porque la iniciativa
 normativa no impone cargas administrativas innecesarias o accesorias. Asimismo, el
-mandato de desarrollo de la Ley 5/2019, de 15 de marzo, y de transposición de la Directiva
+mandato de desarrollo de la Ley 5/2019, de 15 de marzo, y de transposiciÃ³n de la Directiva
 2014/17/UE, de 4 de febrero de 2014, se realiza con la mayor urgencia posible, en
 observancia de los principios de necesidad, proporcionalidad y eficacia.
-El presente real decreto se dicta en virtud de la habilitación para el desarrollo normativo
-que se establece en la Ley 5/2019, de 15 de marzo, reguladora de los contratos de crédito
-inmobiliario, en sus artículos 14.1, 19.6, 36.2, 42.1 y en el apartado 1 de la disposición final
+El presente real decreto se dicta en virtud de la habilitaciÃ³n para el desarrollo normativo
+que se establece en la Ley 5/2019, de 15 de marzo, reguladora de los contratos de crÃ©dito
+inmobiliario, en sus artÃ­culos 14.1, 19.6, 36.2, 42.1 y en el apartado 1 de la disposiciÃ³n final
 decimoquinta.
-En su virtud, a propuesta de las Ministras de Economía y Empresa y de Justicia, de
-acuerdo con el Consejo de Estado, y previa deliberación del Consejo de Ministros en su
-reunión del día 26 de abril de 2019,
+En su virtud, a propuesta de las Ministras de EconomÃ­a y Empresa y de Justicia, de
+acuerdo con el Consejo de Estado, y previa deliberaciÃ³n del Consejo de Ministros en su
+reuniÃ³n del dÃ­a 26 de abril de 2019,
 cve: BOE-A-2019-6299
 Verificable en http://www.boe.es
-BOLETÍN OFICIAL DEL ESTADO
-Núm. 102 Lunes 29 de abril de 2019 Sec. I. Pág. 43119
+BOLETÃN OFICIAL DEL ESTADO
+NÃºm. 102 Lunes 29 de abril de 2019 Sec. I. PÃ¡g. 43119
 DISPONGO:
-CAPÍTULO I
+CAPÃTULO I
 Disposiciones generales
-Artículo 1. Objeto.
+ArtÃ­culo 1. Objeto.
 Este real decreto tiene por objeto el desarrollo de aquellas previsiones de la Ley
-5/2019, de 15 de marzo, reguladora de los contratos de crédito inmobiliario, preceptivas
-para la plena transposición de la Directiva 2014/17/UE del Parlamento Europeo y del
-Consejo, de 4 de febrero de 2014, sobre los contratos de crédito celebrados con los
+5/2019, de 15 de marzo, reguladora de los contratos de crÃ©dito inmobiliario, preceptivas
+para la plena transposiciÃ³n de la Directiva 2014/17/UE del Parlamento Europeo y del
+Consejo, de 4 de febrero de 2014, sobre los contratos de crÃ©dito celebrados con los
 consumidores para bienes inmuebles de uso residencial y por la que se modifican las
-Directivas 2008/48/CE y 2013/36/UE y el Reglamento (UE) n.º 1093/2010 y de otras
+Directivas 2008/48/CE y 2013/36/UE y el Reglamento (UE) n.Âº 1093/2010 y de otras
 necesarias para garantizar los derechos reconocidos a los prestatarios, fiadores y garantes
 en la Ley 5/2019, de 15 de marzo.
-En concreto, establece los requisitos exigibles para la prestación de servicios de
+En concreto, establece los requisitos exigibles para la prestaciÃ³n de servicios de
 asesoramiento y para el registro de los prestamistas inmobiliarios; las obligaciones de
-información del prestamista inmobiliario al prestatario y la utilización de medios telemáticos
-en la remisión de documentación por el prestamista, el intermediario de crédito inmobiliario
-o representante designado al notario. Asimismo, determina las características exigibles al
-seguro de responsabilidad civil profesional o aval bancario de los intermediarios de crédito,
+informaciÃ³n del prestamista inmobiliario al prestatario y la utilizaciÃ³n de medios telemÃ¡ticos
+en la remisiÃ³n de documentaciÃ³n por el prestamista, el intermediario de crÃ©dito inmobiliario
+o representante designado al notario. Asimismo, determina las caracterÃ­sticas exigibles al
+seguro de responsabilidad civil profesional o aval bancario de los intermediarios de crÃ©dito,
 y sus condiciones.
-Artículo 2. Ámbito de aplicación.
-Las disposiciones de este real decreto serán de aplicación a las actividades
-desarrolladas en relación con los contratos de préstamo inmobiliario incluidos en el ámbito
-de aplicación de la Ley 5/2019, de 15 de marzo.
-CAPÍTULO II
+ArtÃ­culo 2. Ãmbito de aplicaciÃ³n.
+Las disposiciones de este real decreto serÃ¡n de aplicaciÃ³n a las actividades
+desarrolladas en relaciÃ³n con los contratos de prÃ©stamo inmobiliario incluidos en el Ã¡mbito
+de aplicaciÃ³n de la Ley 5/2019, de 15 de marzo.
+CAPÃTULO II
 Servicios de asesoramiento
-Artículo 3. Servicios de asesoramiento.
-1. El servicio de asesoramiento definido en el artículo 4.20 de la Ley 5/2019, de 15
-de marzo, prestado por el prestamista, intermediario de crédito inmobiliario o representante
-designado constituirá una actividad distinta de las de concesión e intermediación de
-préstamos inmobiliarios y será objeto de un contrato específico en el marco previsto en el
-artículo 19 de dicha ley.
-2. Únicamente cuando se preste el servicio de asesoramiento podrá emplearse en la
-publicidad y en la información precontractual las expresiones «asesor», «asesoría»,
-«asesoramiento» o términos que resulten en la práctica análogos.
-3. El prestamista, intermediario de crédito inmobiliario o representante designado que
-ofrezca préstamos inmobiliarios y no ofrezca servicio de asesoramiento deberá:
-a) Señalar de forma expresa y clara en forma de información precontractual adicional
-que no está prestando el servicio de asesoramiento.
-b) No incluir los vocablos «asesorar», «asesor», «asesoría», «asesoramiento» o
-términos que en la práctica resulten análogos en la publicidad, en la información
-precontractual y en el contrato de préstamo inmobiliario, salvo para indicar de forma clara
+ArtÃ­culo 3. Servicios de asesoramiento.
+1. El servicio de asesoramiento definido en el artÃ­culo 4.20 de la Ley 5/2019, de 15
+de marzo, prestado por el prestamista, intermediario de crÃ©dito inmobiliario o representante
+designado constituirÃ¡ una actividad distinta de las de concesiÃ³n e intermediaciÃ³n de
+prÃ©stamos inmobiliarios y serÃ¡ objeto de un contrato especÃ­fico en el marco previsto en el
+artÃ­culo 19 de dicha ley.
+2. Ãšnicamente cuando se preste el servicio de asesoramiento podrÃ¡ emplearse en la
+publicidad y en la informaciÃ³n precontractual las expresiones Â«asesorÂ», Â«asesorÃ­aÂ»,
+Â«asesoramientoÂ» o tÃ©rminos que resulten en la prÃ¡ctica anÃ¡logos.
+3. El prestamista, intermediario de crÃ©dito inmobiliario o representante designado que
+ofrezca prÃ©stamos inmobiliarios y no ofrezca servicio de asesoramiento deberÃ¡:
+a) SeÃ±alar de forma expresa y clara en forma de informaciÃ³n precontractual adicional
+que no estÃ¡ prestando el servicio de asesoramiento.
+b) No incluir los vocablos Â«asesorarÂ», Â«asesorÂ», Â«asesorÃ­aÂ», Â«asesoramientoÂ» o
+tÃ©rminos que en la prÃ¡ctica resulten anÃ¡logos en la publicidad, en la informaciÃ³n
+precontractual y en el contrato de prÃ©stamo inmobiliario, salvo para indicar de forma clara
 y directa que ese servicio no se incluye entre los servicios que se prestan o van a prestarse.
-4. El asesor que reciba retribución o cualquier forma de ventaja, directa o indirecta, o
-vinculada o no con los servicios de asesoramiento, de algún prestamista o de un tercero
-distinto de la persona asesorada, deberá señalar expresamente en el contrato de
+4. El asesor que reciba retribuciÃ³n o cualquier forma de ventaja, directa o indirecta, o
+vinculada o no con los servicios de asesoramiento, de algÃºn prestamista o de un tercero
+distinto de la persona asesorada, deberÃ¡ seÃ±alar expresamente en el contrato de
 cve: BOE-A-2019-6299
 Verificable en http://www.boe.es
-BOLETÍN OFICIAL DEL ESTADO
-Núm. 102 Lunes 29 de abril de 2019 Sec. I. Pág. 43120
+BOLETÃN OFICIAL DEL ESTADO
+NÃºm. 102 Lunes 29 de abril de 2019 Sec. I. PÃ¡g. 43120
 asesoramiento este hecho, la periodicidad con la que el asesor vaya a recibir la ventaja del
-prestamista o del tercero y su cuantía o, cuando no se hubiese pactado cuantía expresa,
-la fórmula o criterio empleado para determinarla.
-5. En ningún caso se entenderá que un prestamista de crédito inmobiliario está
-ofreciendo un servicio de asesoramiento, en los términos previstos en este artículo, en
-aquellos supuestos en los que los productos que se ofrecen al prestatario son únicamente
+prestamista o del tercero y su cuantÃ­a o, cuando no se hubiese pactado cuantÃ­a expresa,
+la fÃ³rmula o criterio empleado para determinarla.
+5. En ningÃºn caso se entenderÃ¡ que un prestamista de crÃ©dito inmobiliario estÃ¡
+ofreciendo un servicio de asesoramiento, en los tÃ©rminos previstos en este artÃ­culo, en
+aquellos supuestos en los que los productos que se ofrecen al prestatario son Ãºnicamente
 los del propio prestamista.
-Artículo 4. Servicios de asesoramiento independiente.
-1. El prestamista, intermediario de crédito inmobiliario o representante designado que
-preste servicios de asesoramiento independiente deberá cumplir, además de los requisitos
-generales contemplados en el artículo 19 de la Ley 5/2019, de 15 de marzo, y en el artículo 3
+ArtÃ­culo 4. Servicios de asesoramiento independiente.
+1. El prestamista, intermediario de crÃ©dito inmobiliario o representante designado que
+preste servicios de asesoramiento independiente deberÃ¡ cumplir, ademÃ¡s de los requisitos
+generales contemplados en el artÃ­culo 19 de la Ley 5/2019, de 15 de marzo, y en el artÃ­culo 3
 de este real decreto, los siguientes requisitos:
-a) Tener en cuenta un número suficientemente grande de contratos de préstamo
+a) Tener en cuenta un nÃºmero suficientemente grande de contratos de prÃ©stamo
 disponibles en el mercado, y presentarle al potencial prestatario al menos 3 ofertas
-vinculantes de entidades prestamistas, sobre cuyas condiciones jurídicas y económicas le
-asesorará.
-b) No percibir remuneración alguna por esos servicios de asesoramiento de uno o
-varios prestamistas o de cualquier tercero interesado en la operación.
-2. Únicamente cuando se cumplan los requisitos establecidos en este artículo podrá
-emplearse en la publicidad, en la información precontractual o en el contrato de
-asesoramiento el adjetivo «independiente» tras las expresiones «asesor», «asesoría»,
-«asesoramiento» o términos que resulten en la práctica análogos.
-CAPÍTULO III
+vinculantes de entidades prestamistas, sobre cuyas condiciones jurÃ­dicas y econÃ³micas le
+asesorarÃ¡.
+b) No percibir remuneraciÃ³n alguna por esos servicios de asesoramiento de uno o
+varios prestamistas o de cualquier tercero interesado en la operaciÃ³n.
+2. Ãšnicamente cuando se cumplan los requisitos establecidos en este artÃ­culo podrÃ¡
+emplearse en la publicidad, en la informaciÃ³n precontractual o en el contrato de
+asesoramiento el adjetivo Â«independienteÂ» tras las expresiones Â«asesorÂ», Â«asesorÃ­aÂ»,
+Â«asesoramientoÂ» o tÃ©rminos que resulten en la prÃ¡ctica anÃ¡logos.
+CAPÃTULO III
 Obligaciones del prestamista
-Sección 1.ª Registro de los prestamistas
-Artículo 5. Requisitos para la inscripción en el registro de los prestamistas de crédito
+SecciÃ³n 1.Âª Registro de los prestamistas
+ArtÃ­culo 5. Requisitos para la inscripciÃ³n en el registro de los prestamistas de crÃ©dito
 inmobiliario.
-1. La inscripción de los prestamistas de crédito inmobiliario en el registro requerirá la
-previa verificación, por parte de la autoridad competente, del cumplimiento de los
+1. La inscripciÃ³n de los prestamistas de crÃ©dito inmobiliario en el registro requerirÃ¡ la
+previa verificaciÃ³n, por parte de la autoridad competente, del cumplimiento de los
 siguientes requisitos:
-a) Que cuenten con los procedimientos escritos, así como con la capacidad técnica
-y operativa, para el adecuado cumplimiento de los requisitos de evaluación de la solvencia
-del prestatario y potencial prestatario a que se refiere el artículo 11, y de información al
-prestatario referidos en las letras a), b) d) y f) del artículo 35.1 de la Ley 5/2019, de 15 de
+a) Que cuenten con los procedimientos escritos, asÃ­ como con la capacidad tÃ©cnica
+y operativa, para el adecuado cumplimiento de los requisitos de evaluaciÃ³n de la solvencia
+del prestatario y potencial prestatario a que se refiere el artÃ­culo 11, y de informaciÃ³n al
+prestatario referidos en las letras a), b) d) y f) del artÃ­culo 35.1 de la Ley 5/2019, de 15 de
 marzo.
-b) Que dispongan de medios internos adecuados para la resolución de las quejas y
-reclamaciones que presenten los potenciales prestatarios o garantes que estén
+b) Que dispongan de medios internos adecuados para la resoluciÃ³n de las quejas y
+reclamaciones que presenten los potenciales prestatarios o garantes que estÃ©n
 relacionadas con sus intereses y derechos legalmente reconocidos, y que deriven de
 presuntos incumplimientos de la Ley 5/2019, de 15 de marzo, de sus normas de desarrollo,
-de los estándares o de las buenas prácticas y usos financieros que resulten aplicables.
-c) Que hayan designado un representante ante el Servicio Ejecutivo de la Comisión
-de Prevención del Blanqueo de Capitales e Infracciones Monetarias conforme a lo previsto
-en el artículo 35.1 del Reglamento de prevención del blanqueo de capitales y de la
-financiación del terrorismo, aprobado por el Real Decreto 304/2014, de 5 de mayo.
-d) Que dispongan de un plan de formación en los conocimientos y competencias a
-que se refiere el artículo 16 de la Ley 5/2019, de 15 de marzo.
+de los estÃ¡ndares o de las buenas prÃ¡cticas y usos financieros que resulten aplicables.
+c) Que hayan designado un representante ante el Servicio Ejecutivo de la ComisiÃ³n
+de PrevenciÃ³n del Blanqueo de Capitales e Infracciones Monetarias conforme a lo previsto
+en el artÃ­culo 35.1 del Reglamento de prevenciÃ³n del blanqueo de capitales y de la
+financiaciÃ³n del terrorismo, aprobado por el Real Decreto 304/2014, de 5 de mayo.
+d) Que dispongan de un plan de formaciÃ³n en los conocimientos y competencias a
+que se refiere el artÃ­culo 16 de la Ley 5/2019, de 15 de marzo.
 cve: BOE-A-2019-6299
 Verificable en http://www.boe.es
-BOLETÍN OFICIAL DEL ESTADO
-Núm. 102 Lunes 29 de abril de 2019 Sec. I. Pág. 43121
-2. Además, la autoridad competente verificará, respecto de las personas físicas
-establecidas como prestamistas de crédito inmobiliario o de los administradores de un
-prestamista de crédito inmobiliario con forma de persona jurídica, que:
-a) Dispongan del nivel de conocimientos y competencia a que se refiere el artículo 16
+BOLETÃN OFICIAL DEL ESTADO
+NÃºm. 102 Lunes 29 de abril de 2019 Sec. I. PÃ¡g. 43121
+2. AdemÃ¡s, la autoridad competente verificarÃ¡, respecto de las personas fÃ­sicas
+establecidas como prestamistas de crÃ©dito inmobiliario o de los administradores de un
+prestamista de crÃ©dito inmobiliario con forma de persona jurÃ­dica, que:
+a) Dispongan del nivel de conocimientos y competencia a que se refiere el artÃ­culo 16
 de la Ley 5/2019, de 15 de marzo.
 b) Posean reconocida honorabilidad comercial y profesional, de conformidad con lo
-previsto en el artículo 30 del Real Decreto 84/2015, de 13 de febrero, por el que se
-desarrolla la Ley 10/2014, de 26 de junio, de ordenación, supervisión y solvencia de
-entidades de crédito.
+previsto en el artÃ­culo 30 del Real Decreto 84/2015, de 13 de febrero, por el que se
+desarrolla la Ley 10/2014, de 26 de junio, de ordenaciÃ³n, supervisiÃ³n y solvencia de
+entidades de crÃ©dito.
 c) Carezcan de antecedentes penales por haber cometido delitos graves, ya sea
-contra la propiedad, el patrimonio y el orden socioeconómico, de falsedad o cualquier otro
-cometido con ocasión del ejercicio de actividades financieras.
+contra la propiedad, el patrimonio y el orden socioeconÃ³mico, de falsedad o cualquier otro
+cometido con ocasiÃ³n del ejercicio de actividades financieras.
 d) No hayan sido declarados con anterioridad en concurso de acreedores calificado
 como culpable, salvo que hayan sido rehabilitados.
-Sección 2.ª Información que debe facilitarse al prestatario durante
-la vigencia del préstamo
-Artículo 6. Características generales de la información.
-La información que, por estar prevista en el contrato de préstamo o en disposición
+SecciÃ³n 2.Âª InformaciÃ³n que debe facilitarse al prestatario durante
+la vigencia del prÃ©stamo
+ArtÃ­culo 6. CaracterÃ­sticas generales de la informaciÃ³n.
+La informaciÃ³n que, por estar prevista en el contrato de prÃ©stamo o en disposiciÃ³n
 normativa, deba ser facilitada al prestatario tras la firma del contrato para permitir su
-seguimiento, deberá cumplir las siguientes características:
-a) Reflejar de manera clara y fiel los términos en que se desarrolla el contrato de
-préstamo.
-b) No destacar ningún beneficio potencial del contrato de préstamo ni ocultar
+seguimiento, deberÃ¡ cumplir las siguientes caracterÃ­sticas:
+a) Reflejar de manera clara y fiel los tÃ©rminos en que se desarrolla el contrato de
+prÃ©stamo.
+b) No destacar ningÃºn beneficio potencial del contrato de prÃ©stamo ni ocultar
 expresamente los riesgos inherentes al mismo.
-c) Resultar oportuna y coherente con el contenido y los términos esenciales del
-contrato de préstamo sobre el que se traslada la información.
-d) No omitir ni desnaturalizar ninguna información relevante.
-Artículo 7. Información periódica.
-1. Los prestamistas de crédito inmobiliario facilitarán a los prestatarios en cada
-liquidación de intereses o comisiones que practiquen por sus servicios, un documento de
-liquidación en el que se expresarán con claridad y exactitud:
-a) El tipo de interés nominal aplicado en el periodo ya devengado y, en su caso, el
+c) Resultar oportuna y coherente con el contenido y los tÃ©rminos esenciales del
+contrato de prÃ©stamo sobre el que se traslada la informaciÃ³n.
+d) No omitir ni desnaturalizar ninguna informaciÃ³n relevante.
+ArtÃ­culo 7. InformaciÃ³n periÃ³dica.
+1. Los prestamistas de crÃ©dito inmobiliario facilitarÃ¡n a los prestatarios en cada
+liquidaciÃ³n de intereses o comisiones que practiquen por sus servicios, un documento de
+liquidaciÃ³n en el que se expresarÃ¡n con claridad y exactitud:
+a) El tipo de interÃ©s nominal aplicado en el periodo ya devengado y, en su caso, el
 que se vaya a aplicar en el periodo que se inicia.
-b) Las comisiones aplicadas en el período al que se refiere el documento de
-liquidación, con indicación concreta de su concepto, base y período de devengo.
-c) Cualquier otro gasto incluido en la liquidación.
+b) Las comisiones aplicadas en el perÃ­odo al que se refiere el documento de
+liquidaciÃ³n, con indicaciÃ³n concreta de su concepto, base y perÃ­odo de devengo.
+c) Cualquier otro gasto incluido en la liquidaciÃ³n.
 d) Cuantos antecedentes sean precisos para que el prestatario pueda comprobar la
-liquidación efectuada y calcular los costes asociados.
-2. Los prestamistas de crédito inmobiliario remitirán a los prestatarios, durante el mes
-de enero de cada año, una comunicación en la que, de manera completa y detallada, se
-recoja la información sobre comisiones y gastos devengados, y tipos de interés
-efectivamente aplicados y cobrados a los préstamos inmobiliarios durante el año anterior.
+liquidaciÃ³n efectuada y calcular los costes asociados.
+2. Los prestamistas de crÃ©dito inmobiliario remitirÃ¡n a los prestatarios, durante el mes
+de enero de cada aÃ±o, una comunicaciÃ³n en la que, de manera completa y detallada, se
+recoja la informaciÃ³n sobre comisiones y gastos devengados, y tipos de interÃ©s
+efectivamente aplicados y cobrados a los prÃ©stamos inmobiliarios durante el aÃ±o anterior.
 cve: BOE-A-2019-6299
 Verificable en http://www.boe.es
-BOLETÍN OFICIAL DEL ESTADO
-Núm. 102 Lunes 29 de abril de 2019 Sec. I. Pág. 43122
-Artículo 8. Información sobre modificaciones del tipo de interés aplicable.
-1. En los casos en que pueda modificarse el tipo de interés aplicable al préstamo de
-conformidad con el artículo 21.1 de la Ley 5/2019, de 15 de marzo, el prestamista informará
-al prestatario de dicha modificación con una antelación mínima de quince días naturales
-antes de que esta se aplique. Dicha información incluirá:
-a) La variación del coste total del préstamo que implica dicha modificación.
-b) El importe de cada uno de los pagos que deban efectuarse tras la aplicación del
-nuevo tipo de interés.
-c) Los detalles correspondientes al número o la frecuencia de los pagos, si éste se
+BOLETÃN OFICIAL DEL ESTADO
+NÃºm. 102 Lunes 29 de abril de 2019 Sec. I. PÃ¡g. 43122
+ArtÃ­culo 8. InformaciÃ³n sobre modificaciones del tipo de interÃ©s aplicable.
+1. En los casos en que pueda modificarse el tipo de interÃ©s aplicable al prÃ©stamo de
+conformidad con el artÃ­culo 21.1 de la Ley 5/2019, de 15 de marzo, el prestamista informarÃ¡
+al prestatario de dicha modificaciÃ³n con una antelaciÃ³n mÃ­nima de quince dÃ­as naturales
+antes de que esta se aplique. Dicha informaciÃ³n incluirÃ¡:
+a) La variaciÃ³n del coste total del prÃ©stamo que implica dicha modificaciÃ³n.
+b) El importe de cada uno de los pagos que deban efectuarse tras la aplicaciÃ³n del
+nuevo tipo de interÃ©s.
+c) Los detalles correspondientes al nÃºmero o la frecuencia de los pagos, si Ã©ste se
 modifica por haberse acordado contractualmente.
-2. En el caso de que el tipo de interés aplicable al préstamo pueda modificarse de
-conformidad con el artículo 21.1 de la Ley 5/2019, de 15 de marzo, y se determine
+2. En el caso de que el tipo de interÃ©s aplicable al prÃ©stamo pueda modificarse de
+conformidad con el artÃ­culo 21.1 de la Ley 5/2019, de 15 de marzo, y se determine
 mediante subasta en los mercados de capital, de forma que el prestamista no pueda
-informar de la variación al prestatario antes de que le sea aplicable, el prestamista
-informará al prestatario sobre el procedimiento de determinación del tipo de interés y la
-forma en que ello podría afectarle con una antelación a la subasta de al menos quince días
+informar de la variaciÃ³n al prestatario antes de que le sea aplicable, el prestamista
+informarÃ¡ al prestatario sobre el procedimiento de determinaciÃ³n del tipo de interÃ©s y la
+forma en que ello podrÃ­a afectarle con una antelaciÃ³n a la subasta de al menos quince dÃ­as
 naturales.
-Artículo 9. Información a sucesores mortis causa.
-1. Los prestamistas inmobiliarios deberán facilitar la información que permita a los
-sucesores de un prestatario, fiador o garante, una vez acreditada tal condición por
-cualquier medio admisible en Derecho, conocer el estado del préstamo inmobiliario frente
-a aquél al tiempo del fallecimiento del causante.
-2. En ningún caso podrá exigirse la acreditación de la aceptación de la herencia a los
-efectos del suministro de la información a la que se refiere el párrafo anterior.
-Artículo 10. Requisitos de forma e información resaltada de las comunicaciones durante
-la vigencia del préstamo.
-1. Toda comunicación enviada por el prestamista durante la vigencia del contrato de
-préstamo se realizará en papel, formato electrónico o en otro soporte duradero, y estará
-redactada en términos fácilmente accesibles y comprensibles, especialmente para las
+ArtÃ­culo 9. InformaciÃ³n a sucesores mortis causa.
+1. Los prestamistas inmobiliarios deberÃ¡n facilitar la informaciÃ³n que permita a los
+sucesores de un prestatario, fiador o garante, una vez acreditada tal condiciÃ³n por
+cualquier medio admisible en Derecho, conocer el estado del prÃ©stamo inmobiliario frente
+a aquÃ©l al tiempo del fallecimiento del causante.
+2. En ningÃºn caso podrÃ¡ exigirse la acreditaciÃ³n de la aceptaciÃ³n de la herencia a los
+efectos del suministro de la informaciÃ³n a la que se refiere el pÃ¡rrafo anterior.
+ArtÃ­culo 10. Requisitos de forma e informaciÃ³n resaltada de las comunicaciones durante
+la vigencia del prÃ©stamo.
+1. Toda comunicaciÃ³n enviada por el prestamista durante la vigencia del contrato de
+prÃ©stamo se realizarÃ¡ en papel, formato electrÃ³nico o en otro soporte duradero, y estarÃ¡
+redactada en tÃ©rminos fÃ¡cilmente accesibles y comprensibles, especialmente para las
 personas con discapacidad, de manera claramente legible, siguiendo las reglas marcadas
-por el principio de diseño universal, en castellano o en cualquiera de las demás lenguas
-cooficiales de las respectivas comunidades autónomas en las que se preste el servicio, o
+por el principio de diseÃ±o universal, en castellano o en cualquiera de las demÃ¡s lenguas
+cooficiales de las respectivas comunidades autÃ³nomas en las que se preste el servicio, o
 en cualquier otra lengua acordada entre las partes.
-2. Con la finalidad de mejorar la comprensión por los prestatarios, fiadores o garantes
-de los elementos esenciales de la información recibida, la persona titular del Ministerio de
-Economía y Empresa mediante orden o, con su habilitación expresa, el Banco de España
-podrá:
-a) Establecer modelos normalizados, con un formato específico, electrónico o no, y
+2. Con la finalidad de mejorar la comprensiÃ³n por los prestatarios, fiadores o garantes
+de los elementos esenciales de la informaciÃ³n recibida, la persona titular del Ministerio de
+EconomÃ­a y Empresa mediante orden o, con su habilitaciÃ³n expresa, el Banco de EspaÃ±a
+podrÃ¡:
+a) Establecer modelos normalizados, con un formato especÃ­fico, electrÃ³nico o no, y
 con el tipo de letra o contenido especialmente resaltados.
-b) Determinar cuáles pueden presentarse o enviarse de forma agrupada.
-CAPÍTULO IV
-Medios telemáticos para la remisión de documentación por el prestamista
+b) Determinar cuÃ¡les pueden presentarse o enviarse de forma agrupada.
+CAPÃTULO IV
+Medios telemÃ¡ticos para la remisiÃ³n de documentaciÃ³n por el prestamista
 al notario
-Artículo 11. Principios y requisitos técnicos.
-1. Los medios telemáticos seguros empleados para la remisión al notario de la
-documentación relativa a la información general, precontractual y personalizada que se
+ArtÃ­culo 11. Principios y requisitos tÃ©cnicos.
+1. Los medios telemÃ¡ticos seguros empleados para la remisiÃ³n al notario de la
+documentaciÃ³n relativa a la informaciÃ³n general, precontractual y personalizada que se
 cve: BOE-A-2019-6299
 Verificable en http://www.boe.es
-BOLETÍN OFICIAL DEL ESTADO
-Núm. 102 Lunes 29 de abril de 2019 Sec. I. Pág. 43123
-relaciona en las letras a) a g) del artículo 14.1 de la Ley 5/2019, de 15 de marzo quedarán
+BOLETÃN OFICIAL DEL ESTADO
+NÃºm. 102 Lunes 29 de abril de 2019 Sec. I. PÃ¡g. 43123
+relaciona en las letras a) a g) del artÃ­culo 14.1 de la Ley 5/2019, de 15 de marzo quedarÃ¡n
 sujetos a los siguientes principios:
-a) Deberán en todo momento asegurar la conexión con la totalidad de los notarios,
-en garantía del derecho a la libre elección.
-b) Deberán permitir al prestatario mediante la exhibición del documento de identidad
+a) DeberÃ¡n en todo momento asegurar la conexiÃ³n con la totalidad de los notarios,
+en garantÃ­a del derecho a la libre elecciÃ³n.
+b) DeberÃ¡n permitir al prestatario mediante la exhibiciÃ³n del documento de identidad
 expedido a tal fin por autoridad competente, elegir en cualquier momento al notario que
-proceda a autorizar el acta a que se refieren los artículos 14 y 15 de la Ley 5/2019, de 15
-de marzo, que será el mismo que, en su caso, proceda a autorizar la escritura de préstamo
-con garantía real inmobiliaria.
-c) Deberán posibilitar el acceso permanente y la descarga o extracción de la
-documentación necesaria por dicho notario.
-d) Deberán permitir al notario comprobar fehacientemente la fecha en que se
-incorporaron a la aplicación los documentos firmados por el prestatario.
-2. Las plataformas que deberán emplear el prestamista, intermediario de crédito o
-representante designado y los notarios deberán disponer de mecanismos de autenticación
+proceda a autorizar el acta a que se refieren los artÃ­culos 14 y 15 de la Ley 5/2019, de 15
+de marzo, que serÃ¡ el mismo que, en su caso, proceda a autorizar la escritura de prÃ©stamo
+con garantÃ­a real inmobiliaria.
+c) DeberÃ¡n posibilitar el acceso permanente y la descarga o extracciÃ³n de la
+documentaciÃ³n necesaria por dicho notario.
+d) DeberÃ¡n permitir al notario comprobar fehacientemente la fecha en que se
+incorporaron a la aplicaciÃ³n los documentos firmados por el prestatario.
+2. Las plataformas que deberÃ¡n emplear el prestamista, intermediario de crÃ©dito o
+representante designado y los notarios deberÃ¡n disponer de mecanismos de autenticaciÃ³n
 que garanticen:
 a) La exclusividad de su uso;
 b) La identidad del usuario;
 c) La integridad, autenticidad y no repudio de los mensajes mediante su firma con
-certificados electrónicos cualificados que incorporen además una marca de tiempo que
-pueda acreditar indubitadamente la fecha de cada comunicación, en particular de la
-remisión de cada uno de los documentos firmados por el prestatario;
+certificados electrÃ³nicos cualificados que incorporen ademÃ¡s una marca de tiempo que
+pueda acreditar indubitadamente la fecha de cada comunicaciÃ³n, en particular de la
+remisiÃ³n de cada uno de los documentos firmados por el prestatario;
 d) La trazabilidad de las comunicaciones y documentos intercambiados entre
 prestamista y notario;
 e) El uso de medidas de seguridad proporcionales y suficientes que aseguren la
-privacidad de los datos personales de los prestatarios mediante un canal de comunicación
-cifrado con prevención y detección de intrusos, monitorización de eventos y cifrado de
+privacidad de los datos personales de los prestatarios mediante un canal de comunicaciÃ³n
+cifrado con prevenciÃ³n y detecciÃ³n de intrusos, monitorizaciÃ³n de eventos y cifrado de
 copias de seguridad, y
-f) La disposición de sistemas de auditoría avanzados sobre las acciones de acceso,
-modificación y eliminación de toda información relacionada con el servicio.
-3. Corresponderá a la Dirección General de los Registros y del Notariado la
-inspección de las plataformas empleadas por el prestamista, intermediario de crédito o
+f) La disposiciÃ³n de sistemas de auditorÃ­a avanzados sobre las acciones de acceso,
+modificaciÃ³n y eliminaciÃ³n de toda informaciÃ³n relacionada con el servicio.
+3. CorresponderÃ¡ a la DirecciÃ³n General de los Registros y del Notariado la
+inspecciÃ³n de las plataformas empleadas por el prestamista, intermediario de crÃ©dito o
 representante designado y los notarios, en particular a los efectos del cumplimiento por las
-mismas de los requisitos establecidos en este real decreto y demás disposiciones
+mismas de los requisitos establecidos en este real decreto y demÃ¡s disposiciones
 aplicables.
-Artículo 12. Procedimiento de remisión de documentación entre prestamista y notario.
-1. La documentación relativa a la información general, precontractual y personalizada
-que se relaciona en las letras a) a g) del artículo 14.1 de la Ley 5/2019, de 15 de marzo,
-deberá ser remitida por el prestamista, intermediario de crédito o representante designado
-al notario elegido por el prestatario, a través de los medios telemáticos previstos en el
-artículo anterior en los términos siguientes:
-a) El prestamista, intermediario de crédito o representante designado remitirá dicha
-información incorporando mediante campos estructurados la relativa a la identidad de la
-entidad prestamista, de todos los prestatarios y garantes, y de la identificación y
-denominación de cada uno de los documentos precontractuales cuya remisión es
+ArtÃ­culo 12. Procedimiento de remisiÃ³n de documentaciÃ³n entre prestamista y notario.
+1. La documentaciÃ³n relativa a la informaciÃ³n general, precontractual y personalizada
+que se relaciona en las letras a) a g) del artÃ­culo 14.1 de la Ley 5/2019, de 15 de marzo,
+deberÃ¡ ser remitida por el prestamista, intermediario de crÃ©dito o representante designado
+al notario elegido por el prestatario, a travÃ©s de los medios telemÃ¡ticos previstos en el
+artÃ­culo anterior en los tÃ©rminos siguientes:
+a) El prestamista, intermediario de crÃ©dito o representante designado remitirÃ¡ dicha
+informaciÃ³n incorporando mediante campos estructurados la relativa a la identidad de la
+entidad prestamista, de todos los prestatarios y garantes, y de la identificaciÃ³n y
+denominaciÃ³n de cada uno de los documentos precontractuales cuya remisiÃ³n es
 obligatoria.
-b) El prestatario comparecerá, personalmente o debidamente representado, de
-conformidad con el artículo 15.3 de la Ley 5/2019, de 15 de marzo, exhibiendo ante el
-notario de su elección un documento de identidad expedido a tal fin por autoridad
+b) El prestatario comparecerÃ¡, personalmente o debidamente representado, de
+conformidad con el artÃ­culo 15.3 de la Ley 5/2019, de 15 de marzo, exhibiendo ante el
+notario de su elecciÃ³n un documento de identidad expedido a tal fin por autoridad
 competente.
 cve: BOE-A-2019-6299
 Verificable en http://www.boe.es
-BOLETÍN OFICIAL DEL ESTADO
-Núm. 102 Lunes 29 de abril de 2019 Sec. I. Pág. 43124
-c) El notario comprobará el número de documento de identidad del prestatario, así
-como la validez y corrección de la información comunicada por el prestamista, intermediario
-de crédito o su representante designado.
-d) Si, como consecuencia de esta actuación de control y validación, el notario
-constatara la concurrencia de errores o carencias en materia de identificación o de
-información, comunicará esta incidencia al prestamista, intermediario de crédito o
-representante designado para su subsanación a través del medio telemático usado, no
-iniciándose el plazo de diez naturales a que se refiere el artículo 14 de la Ley 5/2019,
+BOLETÃN OFICIAL DEL ESTADO
+NÃºm. 102 Lunes 29 de abril de 2019 Sec. I. PÃ¡g. 43124
+c) El notario comprobarÃ¡ el nÃºmero de documento de identidad del prestatario, asÃ­
+como la validez y correcciÃ³n de la informaciÃ³n comunicada por el prestamista, intermediario
+de crÃ©dito o su representante designado.
+d) Si, como consecuencia de esta actuaciÃ³n de control y validaciÃ³n, el notario
+constatara la concurrencia de errores o carencias en materia de identificaciÃ³n o de
+informaciÃ³n, comunicarÃ¡ esta incidencia al prestamista, intermediario de crÃ©dito o
+representante designado para su subsanaciÃ³n a travÃ©s del medio telemÃ¡tico usado, no
+iniciÃ¡ndose el plazo de diez naturales a que se refiere el artÃ­culo 14 de la Ley 5/2019,
 de 15 de marzo, hasta que la incidencia quede subsanada.
-e) El notario comprobará si se ha producido la subsanación de la documentación
-remitida, validándola en tal caso.
-f) Validada la información, el notario, en el día y hora en que haya concertado la cita
-con el prestatario, sea en el mismo momento en que se haya extraído la información o sea
-para una fecha posterior, y, previo el preceptivo asesoramiento imparcial, redactará y
-autorizará el acta de transparencia, notificando a través de medios telemáticos seguros al
-prestamista, intermediario de crédito o representante designado el resultado positivo o
+e) El notario comprobarÃ¡ si se ha producido la subsanaciÃ³n de la documentaciÃ³n
+remitida, validÃ¡ndola en tal caso.
+f) Validada la informaciÃ³n, el notario, en el dÃ­a y hora en que haya concertado la cita
+con el prestatario, sea en el mismo momento en que se haya extraÃ­do la informaciÃ³n o sea
+para una fecha posterior, y, previo el preceptivo asesoramiento imparcial, redactarÃ¡ y
+autorizarÃ¡ el acta de transparencia, notificando a travÃ©s de medios telemÃ¡ticos seguros al
+prestamista, intermediario de crÃ©dito o representante designado el resultado positivo o
 negativo del acta.
-Si el resultado fuera positivo, se concertará entre el prestamista, el prestatario y el
-notario la fecha y hora para el otorgamiento de la escritura de préstamo hipotecario.
-Tratándose de un acta de contenido negativo, el notario comunicará de forma extractada
-sus circunstancias y reiterará al prestamista, intermediario de crédito o representante
-designado su derecho a obtener copia simple electrónica de la misma.
-2. Los costes vinculados al desarrollo, implantación, servicio, mantenimiento y
-actualización tecnológica de los medios a que se refiere este real decreto en ningún caso
-serán, ni directa ni indirectamente, a cargo de los prestatarios o garantes.
-3. Si el prestamista o el prestatario solicitara la remisión de copia electrónica simple
-o autorizada del acta a que se refieren los artículos 14 y 15 de la Ley 5/2019, de 15 de
-marzo, o de la escritura, el notario deberá realizar obligatoriamente dicha remisión
-cumpliendo los requisitos y procedimientos previstos en la normativa específica.
-Disposición adicional primera. Seguro de responsabilidad civil o aval bancario de los
-intermediarios de crédito.
-1. El importe mínimo del seguro de responsabilidad civil profesional o aval bancario
-de que deben disponer los intermediarios de crédito inmobiliario conforme a lo previsto en
-el artículo 36.1 de la Ley 5/2019, de 15 de marzo, será el establecido en el Reglamento
-Delegado (UE) No 1125/2014, de la Comisión, de 19 de septiembre de 2014, por el que se
+Si el resultado fuera positivo, se concertarÃ¡ entre el prestamista, el prestatario y el
+notario la fecha y hora para el otorgamiento de la escritura de prÃ©stamo hipotecario.
+TratÃ¡ndose de un acta de contenido negativo, el notario comunicarÃ¡ de forma extractada
+sus circunstancias y reiterarÃ¡ al prestamista, intermediario de crÃ©dito o representante
+designado su derecho a obtener copia simple electrÃ³nica de la misma.
+2. Los costes vinculados al desarrollo, implantaciÃ³n, servicio, mantenimiento y
+actualizaciÃ³n tecnolÃ³gica de los medios a que se refiere este real decreto en ningÃºn caso
+serÃ¡n, ni directa ni indirectamente, a cargo de los prestatarios o garantes.
+3. Si el prestamista o el prestatario solicitara la remisiÃ³n de copia electrÃ³nica simple
+o autorizada del acta a que se refieren los artÃ­culos 14 y 15 de la Ley 5/2019, de 15 de
+marzo, o de la escritura, el notario deberÃ¡ realizar obligatoriamente dicha remisiÃ³n
+cumpliendo los requisitos y procedimientos previstos en la normativa especÃ­fica.
+DisposiciÃ³n adicional primera. Seguro de responsabilidad civil o aval bancario de los
+intermediarios de crÃ©dito.
+1. El importe mÃ­nimo del seguro de responsabilidad civil profesional o aval bancario
+de que deben disponer los intermediarios de crÃ©dito inmobiliario conforme a lo previsto en
+el artÃ­culo 36.1 de la Ley 5/2019, de 15 de marzo, serÃ¡ el establecido en el Reglamento
+Delegado (UE) No 1125/2014, de la ComisiÃ³n, de 19 de septiembre de 2014, por el que se
 complementa la Directiva 2014/17/UE, de 4 de febrero de 2014, en lo relativo a las normas
-técnicas de regulación del importe mínimo del seguro de responsabilidad civil profesional
-u otra garantía comparable de que deben disponer los intermediarios de crédito.
-2. Ese seguro o aval bancario deberá cubrir las responsabilidades derivadas del
-incumplimiento de los deberes de información a los prestatarios. Las excepciones que
-puedan corresponder al asegurador contra el intermediario de crédito asegurado, en
-ningún caso serán aplicables al prestatario. No obstante, en el caso de los intermediarios
-de crédito inmobiliario vinculados, el seguro o aval bancario puede ser aportado por un
-prestamista en cuyo nombre el intermediario de crédito esté facultado para actuar.
-Disposición adicional segunda. Cooperación del Banco de España con otras autoridades
-supervisoras competentes de las comunidades autónomas.
-1. El Banco de España cooperará con las autoridades supervisoras competentes de
-las comunidades autónomas siempre que sea necesario para llevar a cabo las funciones
-establecidas en virtud del artículo 5 de este real decreto, haciendo uso a tal fin de las
+tÃ©cnicas de regulaciÃ³n del importe mÃ­nimo del seguro de responsabilidad civil profesional
+u otra garantÃ­a comparable de que deben disponer los intermediarios de crÃ©dito.
+2. Ese seguro o aval bancario deberÃ¡ cubrir las responsabilidades derivadas del
+incumplimiento de los deberes de informaciÃ³n a los prestatarios. Las excepciones que
+puedan corresponder al asegurador contra el intermediario de crÃ©dito asegurado, en
+ningÃºn caso serÃ¡n aplicables al prestatario. No obstante, en el caso de los intermediarios
+de crÃ©dito inmobiliario vinculados, el seguro o aval bancario puede ser aportado por un
+prestamista en cuyo nombre el intermediario de crÃ©dito estÃ© facultado para actuar.
+DisposiciÃ³n adicional segunda. CooperaciÃ³n del Banco de EspaÃ±a con otras autoridades
+supervisoras competentes de las comunidades autÃ³nomas.
+1. El Banco de EspaÃ±a cooperarÃ¡ con las autoridades supervisoras competentes de
+las comunidades autÃ³nomas siempre que sea necesario para llevar a cabo las funciones
+establecidas en virtud del artÃ­culo 5 de este real decreto, haciendo uso a tal fin de las
 facultades que les atribuya la Ley 5/2019, de 15 de marzo, este real decreto y su normativa
 de desarrollo.
 cve: BOE-A-2019-6299
 Verificable en http://www.boe.es
-BOLETÍN OFICIAL DEL ESTADO
-Núm. 102 Lunes 29 de abril de 2019 Sec. I. Pág. 43125
-El Banco de España prestará ayuda a las autoridades supervisoras competentes de
-las comunidades autónomas y en particular, intercambiará información y colaborará en
-toda investigación o en las actividades de supervisión.
-Cuando el Banco de España intercambie información con otras autoridades
+BOLETÃN OFICIAL DEL ESTADO
+NÃºm. 102 Lunes 29 de abril de 2019 Sec. I. PÃ¡g. 43125
+El Banco de EspaÃ±a prestarÃ¡ ayuda a las autoridades supervisoras competentes de
+las comunidades autÃ³nomas y en particular, intercambiarÃ¡ informaciÃ³n y colaborarÃ¡ en
+toda investigaciÃ³n o en las actividades de supervisiÃ³n.
+Cuando el Banco de EspaÃ±a intercambie informaciÃ³n con otras autoridades
 supervisoras competentes con arreglo a la Ley 5/2019, de 15 de marzo, este real decreto
-y su normativa de desarrollo, podrá indicar en el momento de realizar la comunicación que
-dicha información solo puede divulgarse si cuenta con su consentimiento expreso, en cuyo
-caso la información únicamente podrá intercambiarse para los fines que haya autorizado.
-El Banco de España podrá transmitir la información recibida a las demás autoridades
-supervisoras competentes. Sin embargo, solo podrá transmitir esa información a otros
-organismos o personas físicas o jurídicas cuando las autoridades supervisoras
-competentes que hayan transmitido la información den su consentimiento expreso y
-únicamente para los fines aprobados por dichas autoridades, excepto en circunstancias
-debidamente justificadas, en cuyo caso informará inmediatamente de ello a la autoridad
-competente que facilitó la información.
-2. El Banco de España solo podrá negarse a dar curso a una solicitud de cooperación
-en una actividad de investigación o supervisión, o a intercambiar información conforme a
-lo previsto en esta disposición adicional, en caso de que:
-a) La investigación, la verificación in situ, la actividad de supervisión o el intercambio
-de información puedan atentar contra la seguridad o el orden público.
+y su normativa de desarrollo, podrÃ¡ indicar en el momento de realizar la comunicaciÃ³n que
+dicha informaciÃ³n solo puede divulgarse si cuenta con su consentimiento expreso, en cuyo
+caso la informaciÃ³n Ãºnicamente podrÃ¡ intercambiarse para los fines que haya autorizado.
+El Banco de EspaÃ±a podrÃ¡ transmitir la informaciÃ³n recibida a las demÃ¡s autoridades
+supervisoras competentes. Sin embargo, solo podrÃ¡ transmitir esa informaciÃ³n a otros
+organismos o personas fÃ­sicas o jurÃ­dicas cuando las autoridades supervisoras
+competentes que hayan transmitido la informaciÃ³n den su consentimiento expreso y
+Ãºnicamente para los fines aprobados por dichas autoridades, excepto en circunstancias
+debidamente justificadas, en cuyo caso informarÃ¡ inmediatamente de ello a la autoridad
+competente que facilitÃ³ la informaciÃ³n.
+2. El Banco de EspaÃ±a solo podrÃ¡ negarse a dar curso a una solicitud de cooperaciÃ³n
+en una actividad de investigaciÃ³n o supervisiÃ³n, o a intercambiar informaciÃ³n conforme a
+lo previsto en esta disposiciÃ³n adicional, en caso de que:
+a) La investigaciÃ³n, la verificaciÃ³n in situ, la actividad de supervisiÃ³n o el intercambio
+de informaciÃ³n puedan atentar contra la seguridad o el orden pÃºblico.
 b) Se haya incoado ya un procedimiento judicial o arbitral por los mismos hechos y
 contra las mismas personas.
-c) O haya recaído sentencia firme con respecto a las mismas personas y los mismos
+c) O haya recaÃ­do sentencia firme con respecto a las mismas personas y los mismos
 hechos.
-En caso de denegación, el Banco de España lo notificará debidamente a la autoridad
-competente solicitante, facilitando la mayor información posible al respecto.
-Disposición adicional tercera. Normas de acceso a la Central de Información de Riesgos.
-El Banco de España podrá establecer normas técnicas reguladoras de la forma de
-acceso a la Central de Información de Riesgos regulada en el capítulo VI de la Ley
+En caso de denegaciÃ³n, el Banco de EspaÃ±a lo notificarÃ¡ debidamente a la autoridad
+competente solicitante, facilitando la mayor informaciÃ³n posible al respecto.
+DisposiciÃ³n adicional tercera. Normas de acceso a la Central de InformaciÃ³n de Riesgos.
+El Banco de EspaÃ±a podrÃ¡ establecer normas tÃ©cnicas reguladoras de la forma de
+acceso a la Central de InformaciÃ³n de Riesgos regulada en el capÃ­tulo VI de la Ley
 44/2002, de 22 de noviembre, de medidas de reforma del sistema financiero.
-Estas normas deberán ser públicas, objetivas, no discriminatorias y proporcionadas y
-no podrán dificultar el acceso más de lo que sea necesario para prevenir riesgos
-específicos y para garantizar la estabilidad operativa de la Central de Información de
+Estas normas deberÃ¡n ser pÃºblicas, objetivas, no discriminatorias y proporcionadas y
+no podrÃ¡n dificultar el acceso mÃ¡s de lo que sea necesario para prevenir riesgos
+especÃ­ficos y para garantizar la estabilidad operativa de la Central de InformaciÃ³n de
 Riesgos.
-Disposición adicional cuarta. Normas de ordenación y disciplina.
-Las disposiciones contenidas en este real decreto tendrán la consideración de normas
-de ordenación y disciplina a los efectos de lo previsto en el artículo 2.1.c) de la Ley
-10/2014, de 26 de junio, de ordenación, supervisión y solvencia de entidades de crédito.
-Disposición adicional quinta. Requisitos de gobernanza relativos a los contratos de
-crédito inmobiliario.
-Los prestamistas de crédito inmobiliario deberán implementar políticas y procedimientos
+DisposiciÃ³n adicional cuarta. Normas de ordenaciÃ³n y disciplina.
+Las disposiciones contenidas en este real decreto tendrÃ¡n la consideraciÃ³n de normas
+de ordenaciÃ³n y disciplina a los efectos de lo previsto en el artÃ­culo 2.1.c) de la Ley
+10/2014, de 26 de junio, de ordenaciÃ³n, supervisiÃ³n y solvencia de entidades de crÃ©dito.
+DisposiciÃ³n adicional quinta. Requisitos de gobernanza relativos a los contratos de
+crÃ©dito inmobiliario.
+Los prestamistas de crÃ©dito inmobiliario deberÃ¡n implementar polÃ­ticas y procedimientos
 internos que aseguren que los productos crediticios sujetos a la Ley 5/2019, de 15 de
-marzo, se diseñen y comercialicen minimizando los conflictos de interés, a partir de las
-necesidades, intereses y objetivos del público al que van destinados, cualquiera que sea
-el canal empleado. Igualmente, deberá ofrecerse toda la información necesaria sobre el
-producto al prestatario y, en su caso, al fiador o garante, durante el proceso de distribución.
+marzo, se diseÃ±en y comercialicen minimizando los conflictos de interÃ©s, a partir de las
+necesidades, intereses y objetivos del pÃºblico al que van destinados, cualquiera que sea
+el canal empleado. Igualmente, deberÃ¡ ofrecerse toda la informaciÃ³n necesaria sobre el
+producto al prestatario y, en su caso, al fiador o garante, durante el proceso de distribuciÃ³n.
 cve: BOE-A-2019-6299
 Verificable en http://www.boe.es
-BOLETÍN OFICIAL DEL ESTADO
-Núm. 102 Lunes 29 de abril de 2019 Sec. I. Pág. 43126
-Disposición adicional sexta. Obligaciones de información al Banco de España.
-Los prestamistas, intermediarios de crédito, representantes designados y los grupos
-consolidables de todos ellos, cuya supervisión corresponda al Banco de España de
-conformidad con lo previsto en los artículos 33 y 43 de la Ley 5/2019, de 15 de marzo,
-deberán remitir con la forma y periodicidad que éste requiera, que será al menos anual, los
-estados e información que considere necesarios para cumplir con su función de
-supervisión. Estos estados e información tendrán carácter público o reservado, según
-establezca el Banco de España.
-Disposición adicional séptima. Informe de impacto sobre los medios telemáticos para la
-remisión de documentación por el prestamista al notario.
-En el plazo de un año desde su entrada en vigor, los Ministerios de Economía y
-Empresa y Justicia presentarán a la Comisión Delegada del Gobierno para Asuntos
-Económicos un informe relativo al impacto de la aplicación de los medios telemáticos para
-la remisión de documentación por el prestamista al notario regulados en los artículos 11
+BOLETÃN OFICIAL DEL ESTADO
+NÃºm. 102 Lunes 29 de abril de 2019 Sec. I. PÃ¡g. 43126
+DisposiciÃ³n adicional sexta. Obligaciones de informaciÃ³n al Banco de EspaÃ±a.
+Los prestamistas, intermediarios de crÃ©dito, representantes designados y los grupos
+consolidables de todos ellos, cuya supervisiÃ³n corresponda al Banco de EspaÃ±a de
+conformidad con lo previsto en los artÃ­culos 33 y 43 de la Ley 5/2019, de 15 de marzo,
+deberÃ¡n remitir con la forma y periodicidad que Ã©ste requiera, que serÃ¡ al menos anual, los
+estados e informaciÃ³n que considere necesarios para cumplir con su funciÃ³n de
+supervisiÃ³n. Estos estados e informaciÃ³n tendrÃ¡n carÃ¡cter pÃºblico o reservado, segÃºn
+establezca el Banco de EspaÃ±a.
+DisposiciÃ³n adicional sÃ©ptima. Informe de impacto sobre los medios telemÃ¡ticos para la
+remisiÃ³n de documentaciÃ³n por el prestamista al notario.
+En el plazo de un aÃ±o desde su entrada en vigor, los Ministerios de EconomÃ­a y
+Empresa y Justicia presentarÃ¡n a la ComisiÃ³n Delegada del Gobierno para Asuntos
+EconÃ³micos un informe relativo al impacto de la aplicaciÃ³n de los medios telemÃ¡ticos para
+la remisiÃ³n de documentaciÃ³n por el prestamista al notario regulados en los artÃ­culos 11
 y 12 de este real decreto.
-Disposición adicional octava. Protección de datos personales.
-Los tratamientos de datos de carácter personal de las personas físicas se realizarán
-con estricta sujeción a lo dispuesto en el Reglamento (UE) 2016/679 del Parlamento
-Europeo y el Consejo, de 27 de abril de 2016, relativo a la protección de las personas
-físicas en lo que respecta al tratamiento de sus datos personales y a la libre circulación de
-estos datos y en el resto de la normativa sobre protección de datos personales.
-Disposición adicional novena. Información relativa a las comunicaciones a través de
-telefonía vocal.
-La descripción de las características principales del servicio financiero contemplada en
-el artículo 7.3.b).2.ª de la Ley 22/2007, de 11 de julio, sobre comercialización a distancia
-de servicios financieros destinados a los consumidores, contendrá, en lo que se refiere a
-los contratos de créditos inmobiliario contemplados en la Ley 5/2019, de 22 de marzo, la
-información prevista en los apartados 3 a 6 de la Parte A del anexo II de esa ley.
-Disposición adicional décima. Actividad transfronteriza de las sucursales de los
-intermediarios de crédito inmobiliario.
-Antes de que una sucursal de un intermediario de crédito de un Estado miembro de la
-Unión Europea comience a ejercer sus actividades en España, o en un plazo de dos
-meses a partir de la recepción de la notificación mencionada en el párrafo segundo del
-artículo 37.2 de la Ley 5/2019, de 15 de marzo, el Banco de España organizará la
-supervisión del intermediario de crédito de conformidad con los artículos 33, 34 y 41 de la
-citada ley y, en su caso, le indicará las especificidades del derecho nacional que deben
-tenerse en cuenta en el ejercicio de dichas actividades en España.
-Disposición transitoria primera. Aplicación transitoria del desarrollo reglamentario de la
+DisposiciÃ³n adicional octava. ProtecciÃ³n de datos personales.
+Los tratamientos de datos de carÃ¡cter personal de las personas fÃ­sicas se realizarÃ¡n
+con estricta sujeciÃ³n a lo dispuesto en el Reglamento (UE) 2016/679 del Parlamento
+Europeo y el Consejo, de 27 de abril de 2016, relativo a la protecciÃ³n de las personas
+fÃ­sicas en lo que respecta al tratamiento de sus datos personales y a la libre circulaciÃ³n de
+estos datos y en el resto de la normativa sobre protecciÃ³n de datos personales.
+DisposiciÃ³n adicional novena. InformaciÃ³n relativa a las comunicaciones a travÃ©s de
+telefonÃ­a vocal.
+La descripciÃ³n de las caracterÃ­sticas principales del servicio financiero contemplada en
+el artÃ­culo 7.3.b).2.Âª de la Ley 22/2007, de 11 de julio, sobre comercializaciÃ³n a distancia
+de servicios financieros destinados a los consumidores, contendrÃ¡, en lo que se refiere a
+los contratos de crÃ©ditos inmobiliario contemplados en la Ley 5/2019, de 22 de marzo, la
+informaciÃ³n prevista en los apartados 3 a 6 de la Parte A del anexo II de esa ley.
+DisposiciÃ³n adicional dÃ©cima. Actividad transfronteriza de las sucursales de los
+intermediarios de crÃ©dito inmobiliario.
+Antes de que una sucursal de un intermediario de crÃ©dito de un Estado miembro de la
+UniÃ³n Europea comience a ejercer sus actividades en EspaÃ±a, o en un plazo de dos
+meses a partir de la recepciÃ³n de la notificaciÃ³n mencionada en el pÃ¡rrafo segundo del
+artÃ­culo 37.2 de la Ley 5/2019, de 15 de marzo, el Banco de EspaÃ±a organizarÃ¡ la
+supervisiÃ³n del intermediario de crÃ©dito de conformidad con los artÃ­culos 33, 34 y 41 de la
+citada ley y, en su caso, le indicarÃ¡ las especificidades del derecho nacional que deben
+tenerse en cuenta en el ejercicio de dichas actividades en EspaÃ±a.
+DisposiciÃ³n transitoria primera. AplicaciÃ³n transitoria del desarrollo reglamentario de la
 Ley 5/2019, de 15 de marzo.
-El desarrollo reglamentario de la Ley 5/2019, de 15 de marzo, se entenderá realizado
-por la Orden EHA/2899/2011, de 28 de octubre, de transparencia y protección del cliente
+El desarrollo reglamentario de la Ley 5/2019, de 15 de marzo, se entenderÃ¡ realizado
+por la Orden EHA/2899/2011, de 28 de octubre, de transparencia y protecciÃ³n del cliente
 de servicios bancarios en cuanto esta no sea contraria a dicha ley y este real decreto.
 cve: BOE-A-2019-6299
 Verificable en http://www.boe.es
-BOLETÍN OFICIAL DEL ESTADO
-Núm. 102 Lunes 29 de abril de 2019 Sec. I. Pág. 43127
-Disposición transitoria segunda. Régimen aplicable a las solicitudes en curso de
-aprobación previa a que se refiere la disposición adicional primera del Real Decreto
+BOLETÃN OFICIAL DEL ESTADO
+NÃºm. 102 Lunes 29 de abril de 2019 Sec. I. PÃ¡g. 43127
+DisposiciÃ³n transitoria segunda. RÃ©gimen aplicable a las solicitudes en curso de
+aprobaciÃ³n previa a que se refiere la disposiciÃ³n adicional primera del Real Decreto
 84/2015, de 13 de febrero, por el que se desarrolla la Ley 10/2014, de 26 de junio.
-En los procedimientos de aprobación previa a que se refiere la disposición adicional
+En los procedimientos de aprobaciÃ³n previa a que se refiere la disposiciÃ³n adicional
 primera del Real Decreto 84/2015, de 13 de febrero, ya iniciados en el momento de la
-entrada en vigor de este real decreto se producirá la desaparición sobrevenida del objeto,
-dada la supresión del requisito de autorización previa por este real decreto, y la resolución
-que recaiga en los mismos consistirá en la declaración de la circunstancia que concurre,
-con indicación de los hechos producidos y las normas aplicables de acuerdo con lo previsto
-en el artículo 21 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo
-Común de las Administraciones Públicas y sin perjuicio de lo previsto en el artículo 24 de
+entrada en vigor de este real decreto se producirÃ¡ la desapariciÃ³n sobrevenida del objeto,
+dada la supresiÃ³n del requisito de autorizaciÃ³n previa por este real decreto, y la resoluciÃ³n
+que recaiga en los mismos consistirÃ¡ en la declaraciÃ³n de la circunstancia que concurre,
+con indicaciÃ³n de los hechos producidos y las normas aplicables de acuerdo con lo previsto
+en el artÃ­culo 21 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo
+ComÃºn de las Administraciones PÃºblicas y sin perjuicio de lo previsto en el artÃ­culo 24 de
 la misma.
-Disposición derogatoria única. Derogación normativa.
+DisposiciÃ³n derogatoria Ãºnica. DerogaciÃ³n normativa.
 1. Quedan derogadas cuantas disposiciones de igual o inferior rango se opongan a
 lo dispuesto en el presente real decreto.
-2. Queda derogada, en particular, la disposición adicional primera del Real
+2. Queda derogada, en particular, la disposiciÃ³n adicional primera del Real
 Decreto 84/2015, de 13 de febrero, por el que se desarrolla la Ley 10/2014, de 26 de junio,
-de ordenación, supervisión y solvencia de entidades de crédito.
-Disposición final primera. Título competencial.
-Este real decreto se dicta al amparo de lo establecido en el artículo 149.1.6.ª, 11.ª
-y 13.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva sobre
-legislación mercantil, legislación procesal, bases de la ordenación de crédito, banca y
-seguro, y bases y coordinación de la planificación general de la actividad económica,
+de ordenaciÃ³n, supervisiÃ³n y solvencia de entidades de crÃ©dito.
+DisposiciÃ³n final primera. TÃ­tulo competencial.
+Este real decreto se dicta al amparo de lo establecido en el artÃ­culo 149.1.6.Âª, 11.Âª
+y 13.Âª de la ConstituciÃ³n EspaÃ±ola, que atribuye al Estado la competencia exclusiva sobre
+legislaciÃ³n mercantil, legislaciÃ³n procesal, bases de la ordenaciÃ³n de crÃ©dito, banca y
+seguro, y bases y coordinaciÃ³n de la planificaciÃ³n general de la actividad econÃ³mica,
 respectivamente.
-Disposición final segunda. Modificación del Real Decreto 1012/2015, de 6 de noviembre,
-por el que se desarrolla la Ley 11/2015, de 18 de junio, de recuperación y resolución
-de entidades de crédito y empresas de servicios de inversión, y por el que se modifica
-el Real Decreto 2606/1996, de 20 de diciembre, sobre fondos de garantía de depósitos
-de entidades de crédito.
-Se añade una disposición adicional cuarta al Real Decreto 1012/2015, de 6 de
-noviembre, por el que se desarrolla la Ley 11/2015, de 18 de junio, de recuperación y
-resolución de entidades de crédito y empresas de servicios de inversión, y por el que se
-modifica el Real Decreto 2606/1996, de 20 de diciembre, sobre fondos de garantía de
-depósitos de entidades de crédito, con el siguiente tenor:
-«Disposición adicional cuarta. Régimen aplicable en caso de concurso de una
+DisposiciÃ³n final segunda. ModificaciÃ³n del Real Decreto 1012/2015, de 6 de noviembre,
+por el que se desarrolla la Ley 11/2015, de 18 de junio, de recuperaciÃ³n y resoluciÃ³n
+de entidades de crÃ©dito y empresas de servicios de inversiÃ³n, y por el que se modifica
+el Real Decreto 2606/1996, de 20 de diciembre, sobre fondos de garantÃ­a de depÃ³sitos
+de entidades de crÃ©dito.
+Se aÃ±ade una disposiciÃ³n adicional cuarta al Real Decreto 1012/2015, de 6 de
+noviembre, por el que se desarrolla la Ley 11/2015, de 18 de junio, de recuperaciÃ³n y
+resoluciÃ³n de entidades de crÃ©dito y empresas de servicios de inversiÃ³n, y por el que se
+modifica el Real Decreto 2606/1996, de 20 de diciembre, sobre fondos de garantÃ­a de
+depÃ³sitos de entidades de crÃ©dito, con el siguiente tenor:
+Â«DisposiciÃ³n adicional cuarta. RÃ©gimen aplicable en caso de concurso de una
 entidad.
-A los efectos de la disposición adicional decimocuarta apartado 2.b) de la
-Ley 11/2015, de 18 de junio, de recuperación y resolución de entidades de crédito y
-empresas de servicios de inversión, no se considerará que los instrumentos de
-deuda contienen derivados implícitos solamente por el hecho de estar referenciados
-a tipos de interés variable derivados de tipos de referencia de uso generalizado, o
+A los efectos de la disposiciÃ³n adicional decimocuarta apartado 2.b) de la
+Ley 11/2015, de 18 de junio, de recuperaciÃ³n y resoluciÃ³n de entidades de crÃ©dito y
+empresas de servicios de inversiÃ³n, no se considerarÃ¡ que los instrumentos de
+deuda contienen derivados implÃ­citos solamente por el hecho de estar referenciados
+a tipos de interÃ©s variable derivados de tipos de referencia de uso generalizado, o
 por no estar denominados en la moneda nacional del emisor, siempre que el capital,
-el reembolso y el interés estén denominados en la misma moneda.»
-Disposición final tercera. Incorporación de Derecho de la Unión Europea.
+el reembolso y el interÃ©s estÃ©n denominados en la misma moneda.Â»
+DisposiciÃ³n final tercera. IncorporaciÃ³n de Derecho de la UniÃ³n Europea.
 Mediante este real decreto se transponen parcialmente la Directiva 2014/17/UE, de 4
 de febrero de 2014, y la Directiva 2017/2399, de 12 de diciembre de 2017.
 cve: BOE-A-2019-6299
 Verificable en http://www.boe.es
-BOLETÍN OFICIAL DEL ESTADO
-Núm. 102 Lunes 29 de abril de 2019 Sec. I. Pág. 43128
-Disposición final cuarta. Facultades de aplicación y desarrollo.
-Se faculta a la persona titular del Ministerio de Economía y Empresa para dictar
-cuantas disposiciones de carácter general y actos sean precisas para el desarrollo y
-aplicación de este real decreto.
-Disposición final quinta. Entrada en vigor.
-El presente real decreto entrará en vigor el 16 de junio de 2019, a excepción de lo
-previsto en la disposición transitoria segunda, el apartado segundo de la disposición
-derogatoria única y la disposición final segunda, que entrarán en vigor el día siguiente al
-de su publicación en el «Boletín Oficial del Estado».
+BOLETÃN OFICIAL DEL ESTADO
+NÃºm. 102 Lunes 29 de abril de 2019 Sec. I. PÃ¡g. 43128
+DisposiciÃ³n final cuarta. Facultades de aplicaciÃ³n y desarrollo.
+Se faculta a la persona titular del Ministerio de EconomÃ­a y Empresa para dictar
+cuantas disposiciones de carÃ¡cter general y actos sean precisas para el desarrollo y
+aplicaciÃ³n de este real decreto.
+DisposiciÃ³n final quinta. Entrada en vigor.
+El presente real decreto entrarÃ¡ en vigor el 16 de junio de 2019, a excepciÃ³n de lo
+previsto en la disposiciÃ³n transitoria segunda, el apartado segundo de la disposiciÃ³n
+derogatoria Ãºnica y la disposiciÃ³n final segunda, que entrarÃ¡n en vigor el dÃ­a siguiente al
+de su publicaciÃ³n en el Â«BoletÃ­n Oficial del EstadoÂ».
 Dado en Madrid, el 26 de abril de 2019.
 FELIPE R.
 La Vicepresidenta del Gobierno y Ministra de la Presidencia,

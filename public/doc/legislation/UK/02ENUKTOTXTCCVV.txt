@@ -385,7 +385,7 @@ an individual (" the debtor ") and any other person (" the
 creditor ") by which the creditor provides the debtor with credit
 of any amount.
 (2) A consumer credit agreement is a personal credit agreement by which the creditor provides the debtor with credit not
-exceeding £5,000.
+exceeding Â£5,000.
 (3) A consumer credit agreement is a regulated agreement
 within the meaning of this Act if it is not an agreement (an " exempt agreement ") specified in or under section 16.
 Meaning 9.-(1) In this Act ",credit" includes a cash loan, and any .of credit. other form of financial accommodation.
@@ -522,7 +522,7 @@ ment which-
 (a) is not a hire-purchase agreement, and
 (b) is capable of subsisting for more than three months, and
 (c) does not require the hirer to make payments exceeding
-£5,000.
+Â£5,000.
 (2) A consumer hire agreement is a regulated agreement if it is
 not an exempt agreement.
 16-0) This Act does not regulate a consumer credit agree- Exempt
@@ -598,10 +598,10 @@ Ireland, and any reference to the Charity Commissioners were
 a reference to the Department of Finance for Northern Ireland.
 17.-(1) A small agreement is- Small
 (a) a regulated consumer credit agreement for credit not agreements.
-exceeding £30, other than a hire-purchase or
+exceeding Â£30, other than a hire-purchase or
 conditional sale agreement ; or
 (b) a regulated consumer hire agreement which does not
-require the hirer to make payments exceeding £30,
+require the hirer to make payments exceeding Â£30,
 being an agreement which is either unsecured or secured by a
 guarantee or indemnity only (whether or not the guarantee or
 indemnity is itself secured).
@@ -1214,7 +1214,7 @@ a country outside the United Kingdom, and
 law of a part of the United Kingdom it would be
 a regulated agreement.
 (3) An advertisement does not fall within subsection (1)(a) if it indicates-
-(a) that the credit must exceed £5,000, and that no security
+(a) that the credit must exceed Â£5,000, and that no security
 is required, or the security is to consist of property
 other than land, or
 (b) that the credit is available only to a body corporate.
@@ -1736,7 +1736,7 @@ the creditor or surrendered to a supplier.
 (6) If the total charge for credit includes an item in respect
 of a fee or commission charged by a credit-broker, the amount
 repayable under subsection (1) in respect of that item shall be
-the excess over £1 of the fee or commission.
+the excess over Â£1 of the fee or commission.
 (7) If the total charge for credit includes any sum payable
 or paid by the debtor to a credit broker otherwise than in respect
 of a fee or commission charged by him, that sum shall for the
@@ -1918,7 +1918,7 @@ proceedings instituted by the debtor.
 (a) under a non-commercial agreement, or
 (b) so far as the claim relates to any single item to which
 the supplier has attached a cash price not exceeding
-£30 or more than £10,000.
+Â£30 or more than Â£10,000.
 (4) This section applies notwithstanding that the debtor, in
 entering into the transaction, exceeded the credit limit or otherwise contravened any term of the agreement.
 (5) In an action brought against the creditor under subsection
@@ -2148,7 +2148,7 @@ instrument to which section 4 of the Cheques Act 1957 applies.
 Consumer Credit Act 1974 c. 39 47
 84.-(1) Section 83 does not prevent the debtor under a PART VI
 credit-token agreement from being made liable to the extent of CURRENCY
-£30 (or the credit limit if lower) for loss to the creditor arising of AGREEfrom use of the credittoken by other persons during a period MENTS
+Â£30 (or the credit limit if lower) for loss to the creditor arising of AGREEfrom use of the credittoken by other persons during a period MENTS
 beginning when the credittoken ceases to be in the possession Misuse of
 of any authorised person and ending when the credit-token is credit-tokens.
 once more in the possession of an authorised person.
@@ -2513,7 +2513,7 @@ months.
 (7) This section does not apply to--
 (a) any agreement which provides for the making by the
 hirer of payments which in total (and without breach of
-the agreement) exceed £300 in any year, or
+the agreement) exceed Â£300 in any year, or
 (b) any agreement where-
 (i) goods are bailed or (in Scotland) hired to the
 hirer for the purposes of a business carried on by
@@ -2913,7 +2913,7 @@ in place of the pawn-receipt-
 prescribed form, and with the prescribed contents, or
 (b) where the pawn is security for fixed-sum credit not
 exceeding E15 or running-account credit on which the
-credit limit does not exceed £15, and the pawnee
+credit limit does not exceed Â£15, and the pawnee
 agrees, a statement in writing in the prescribed form,
 and with the prescribed contents, signed by the
 claimant.
@@ -2948,7 +2948,7 @@ been convicted of stealing the pawn.
 has not been redeemed-
 (a) notwithstanding anything in section 113, the property
 in the pawn passes to the pawnee where the redemption period is six months and the pawn is security
-for fixed-sum credit not exceeding £15 or runningaccount credit on which the credit limit does not exceed
+for fixed-sum credit not exceeding Â£15 or runningaccount credit on which the credit limit does not exceed
 E15; or
 (b) in any other case the pawn becomes realisable by the
 pawnee.
@@ -3404,8 +3404,8 @@ of any judgment.
 (a) a regulated agreement, or
 (b) an agreement (not being a regulated agreement) under
 which the creditor provides the debtor with fixed-sum
-credit not exceeding £750 or running-account credit on
-which the credit limit does not exceed £750.
+credit not exceeding Â£750 or running-account credit on
+which the credit limit does not exceed Â£750.
 (6) In Scotland an application under subsection (1)(a) may be
 brought in the sheriff court for the district in which the debtor
 or surety resides or carries on business.
@@ -3414,8 +3414,8 @@ may be brought in the county court in the case of-
 (a) a regulated agreement, or
 (b) an agreement (not being a regulated agreement) under
 which the creditor provides the debtor with fixed-sum
-credit not exceeding £300 or running-account credit
-on which the credit limit does not exceed £300. 
+credit not exceeding Â£300 or running-account credit
+on which the credit limit does not exceed Â£300. 
 Consumer Credit Act 1974 c. 39 77
 140. Where the credit agreement is not a regulated agreement, PART IX
 expressions used in sections 137 to 139 which, apart from this JUDICIAL
@@ -3778,7 +3778,7 @@ ancillary
 credit services
 off trade
 premises.
-155.-(1) The excess over £1 of a fee or commission for his Right to
+155.-(1) The excess over Â£1 of a fee or commission for his Right to
 services charged by a credit-broker to an individual to whom this recover subsection applies shall cease to be payable or, as the case may brokerage
 fees be, shall be recoverable by the individual if the introduction . does not result in his entering into a relevant agreement within
 the six months following the introduction (disregarding any
@@ -5008,60 +5008,60 @@ Section 167. SCHEDULE 1
 PROSECUTION AND PUNISHMENT OF OFFENCES
 1 2 3 4
 Section Offence Mode of prosecution Imprisonment or fine
-7 ... Knowingly or recklessly giving false information to Director. (a) Summarily. (b) On indictment. £400. 2 years or a fine or both.
-39(1) ... Engaging in activities requiring a licence when not a licensee. (a) Summarily (b) On indictment. £400. 2 years or a fine or both.
-39(2) ... Carrying on a business under a name not specified in licence. (a) Summarily. (b) On indictment. £400. 2 years or a fine or both.
-39(3) ... Failure to notify changes in registered particulars. (a) Summarily. (b) On indictment. £400. 2 years or a fine or both.
+7 ... Knowingly or recklessly giving false information to Director. (a) Summarily. (b) On indictment. Â£400. 2 years or a fine or both.
+39(1) ... Engaging in activities requiring a licence when not a licensee. (a) Summarily (b) On indictment. Â£400. 2 years or a fine or both.
+39(2) ... Carrying on a business under a name not specified in licence. (a) Summarily. (b) On indictment. Â£400. 2 years or a fine or both.
+39(3) ... Failure to notify changes in registered particulars. (a) Summarily. (b) On indictment. Â£400. 2 years or a fine or both.
 45 ... Advertising credit where goods etc. not available for cash. (a) Summarily.
 (b) On indictment.
-£400.
+Â£400.
 2 years or a fine or both.
-46(1) ... False or misleading advertisements. (a) Summarily. (b) On indictment. £400. 2 years or a fine or both.
-47(1) ... Advertising infringements. (a) Summarily. (b) On indictment. £400. 2 years or a fine or both.
-49(1) ... Canvassing debtor-creditor agreements off trade premises. (a) Summarily. (b) on indictment. £200. 1 year or a fine or both.
-49(2) ... Soliciting debtor-creditor agreements during visits made in response to previous oral requests. (a) Summarily. (b) On indictment. £200. 1 year or a fine or both.
-50(l) ... Sending circulars to minors. (a) Summarily. (b) On indictment. £400. 1 year or a fine or both.
-51(1) ... Supplying unsolicited credit-tokens. (a) Summarily. (b) On indictment. £400. 2 years or a fine or both.
+46(1) ... False or misleading advertisements. (a) Summarily. (b) On indictment. Â£400. 2 years or a fine or both.
+47(1) ... Advertising infringements. (a) Summarily. (b) On indictment. Â£400. 2 years or a fine or both.
+49(1) ... Canvassing debtor-creditor agreements off trade premises. (a) Summarily. (b) on indictment. Â£200. 1 year or a fine or both.
+49(2) ... Soliciting debtor-creditor agreements during visits made in response to previous oral requests. (a) Summarily. (b) On indictment. Â£200. 1 year or a fine or both.
+50(l) ... Sending circulars to minors. (a) Summarily. (b) On indictment. Â£400. 1 year or a fine or both.
+51(1) ... Supplying unsolicited credit-tokens. (a) Summarily. (b) On indictment. Â£400. 2 years or a fine or both.
 77(4) ... Failure of creditor under fixed-sum credit agreement to supply
 copies of documents etc.
-Summarily. £200.
+Summarily. Â£200.
 78(6) ... Failure of creditor under running-account credit agreement to
 supply copies of documents etc.
-Summarily. £200. 
+Summarily. Â£200. 
 A
 1 2 3 4
 Section Offence Mode of Prosecution Imprisonment or fine
-79(3) ... Failure of owner under consumer hire agreement to supply copies of documents etc. Summarily. £200.
-80(2) ... Failure to tell creditor or owner whereabouts of goods. Summarily. £50.
-85(2) ... Failure of creditor to supply copy of credit-token agreement. Summarily. £200.
+79(3) ... Failure of owner under consumer hire agreement to supply copies of documents etc. Summarily. Â£200.
+80(2) ... Failure to tell creditor or owner whereabouts of goods. Summarily. Â£50.
+85(2) ... Failure of creditor to supply copy of credit-token agreement. Summarily. Â£200.
 97(3) ... Failure to supply debtor with statement of amount required to
 discharge agreement.
-Summarily. £50.
-103(5) ... Failure to deliver notice relating to discharge of agreements. Summarily. £50.
+Summarily. Â£50.
+103(5) ... Failure to deliver notice relating to discharge of agreements. Summarily. Â£50.
 107(4) ... Failure of creditor to give information to surety under fixed-sum
 credit agreement.
-Summarily. £200.
-108(4) ... Failure of creditor to give information to surety under runningaccount credit agreement. Summarily. £200.
-109(3) ... Failure of owner to give information to surety under consumer hire agreement. Summarily. £200.
-110(3) ... Failure of creditor or owner to supply a copy of any security instrument to debtor or hirer. Summarily. £200.
-114(2) ... Taking pledges from minors. (a) Summarily. (b) On indictment. £400. 1 year or a fine or both.
-115 ... Failure to supply copies of a pledge agreement or pawn-receipt. Summarily. £200.
-119(1) ... Unreasonable refusal to allow pawn to be redeemed. Summarily. £200.
-154 ... Canvassing ancillary credit services off trade premises. (a) Summarily. (b) On indictment. £200. 1 year or a fine or both.
-157(3) ... Refusal to give name etc. of credit reference agency. Summarily. £200.
-158(4) ... Failure of credit reference agency to disclose filed information. Summarily. £200.
-159(6) ... Failure of credit reference agency to correct information. Summarily. £200.
+Summarily. Â£200.
+108(4) ... Failure of creditor to give information to surety under runningaccount credit agreement. Summarily. Â£200.
+109(3) ... Failure of owner to give information to surety under consumer hire agreement. Summarily. Â£200.
+110(3) ... Failure of creditor or owner to supply a copy of any security instrument to debtor or hirer. Summarily. Â£200.
+114(2) ... Taking pledges from minors. (a) Summarily. (b) On indictment. Â£400. 1 year or a fine or both.
+115 ... Failure to supply copies of a pledge agreement or pawn-receipt. Summarily. Â£200.
+119(1) ... Unreasonable refusal to allow pawn to be redeemed. Summarily. Â£200.
+154 ... Canvassing ancillary credit services off trade premises. (a) Summarily. (b) On indictment. Â£200. 1 year or a fine or both.
+157(3) ... Refusal to give name etc. of credit reference agency. Summarily. Â£200.
+158(4) ... Failure of credit reference agency to disclose filed information. Summarily. Â£200.
+159(6) ... Failure of credit reference agency to correct information. Summarily. Â£200.
 160(6) ... Failure of credit reference agency to comply with section 160 (3)
 or (4).
-Summarily. £200.
-162(6) ... Impersonation of enforcement authority officers. (a) Summarily. (b) On indictment. £400. 2 years or a fine or both.
+Summarily. Â£200.
+162(6) ... Impersonation of enforcement authority officers. (a) Summarily. (b) On indictment. Â£400. 2 years or a fine or both.
 0 
 1 2 3 4
 Section Offence Mode of prosecution Imprisonment or fine
-165(1) ... Obstruction of enforcement authority officers. Summarily. £200.
-165(2) ... Giving false information to enforcement authority officers. (a) Summarily. (b) On indictment. £400. 2 years or a fine or both.
-167(2) ... Contravention of regulations under section 44, 52, 53, 54, or 112. (a) Summarily. (b) On indictment. £400. 2 years or a fine or both.
-174(5) ... Wrongful disclosure of information. (a) Summarily. (b) On indictment. £100. 2 years or a fine or both. 
+165(1) ... Obstruction of enforcement authority officers. Summarily. Â£200.
+165(2) ... Giving false information to enforcement authority officers. (a) Summarily. (b) On indictment. Â£400. 2 years or a fine or both.
+167(2) ... Contravention of regulations under section 44, 52, 53, 54, or 112. (a) Summarily. (b) On indictment. Â£400. 2 years or a fine or both.
+174(5) ... Wrongful disclosure of information. (a) Summarily. (b) On indictment. Â£100. 2 years or a fine or both. 
 118 c. 39 Consumer Credit Act 1974
 Section 188(1) SCHEDULE 2
 EXAMPLES OF USE OF NEW TERMINOLOGY
@@ -5150,37 +5150,37 @@ all took place by telephone however, or the unexecuted agreement
 was signed by the debtor on trade premises (as so defined) the agreements are not cancellable.
 EXAMPLE 5
 Facts E agrees to sell to F (an individual) an item of furniture in
-reurn for 24 monthly instalments of £10 payable in arrear. The
+reurn for 24 monthly instalments of Â£10 payable in arrear. The
 property in the goods passes to F immediately.
 ScH. 2
 119 
 120 c. 39 Consumer Credit Act 1974
 ScH. 2 Analysis. This is a credit-sale agreement (see definition of " creditsale agreement " in section 189(1)). The credit provided amounts to
-£240 less the amount which, according to regulations made under
+Â£240 less the amount which, according to regulations made under
 section 20(1), constitutes the total charge for credit. (This amount
 is required to be deducted by section 9(4)). Accordingly the agreement falls within section 8(2) and is a consumer credit agreement.
 EXAMPLE 6
 Facts. The G Bank grants H (an individual) an unlimited overdraft, with an increased rate of interest on so much of any debit
-balance as exceeds £2,000.
+balance as exceeds Â£2,000.
 Analysis. Although the overdraft purports to be unlimited, the
-stipulation for increased interest above £2,000 brings the agreement
+stipulation for increased interest above Â£2,000 brings the agreement
 within section 10(3)(b)(ii) and it is a consumer credit agreement.
 EXAMPLE 7
 Facts. J is an individual who owns a small shop which usually
-carries a stock worth about £1,000. K makes a stocking agreement
+carries a stock worth about Â£1,000. K makes a stocking agreement
 under which he undertakes to provide on short-term credit the stock
 needed from time to time by J without any specified limit.
 Analysis. Although the agreement appears to provide unlimited
 credit, it is probable, having regard to the stock usually carried by J,
-that his indebtedness to K will not at any time rise above £5,000.
+that his indebtedness to K will not at any time rise above Â£5,000.
 Accordingly the agreement falls within section 10(3)(b)(iii) and is a
 consumer credit agreement.
 EXAMPLE 8
-Facts. U, a moneylender, lends £500 to V (an individual) knowing
+Facts. U, a moneylender, lends Â£500 to V (an individual) knowing
 he intends to use it to buy office equipment from W. W introduced
 V to U, it being his practice to introduce customers needing finance
 to him. Sometimes U gives W a commission for this and sometimes
-not. U pays the £500 direct to V.
+not. U pays the Â£500 direct to V.
 Analysis. Although this appears to fall under section 11(1)(b), it is excluded by section 11(3) and is therefore (by section 11(2)) an
 unrestricted-use credit agreement. Whether it is a debtor-creditor
 agreement (by section 13(c)) or a debtor-creditor-supplier agreement
@@ -5190,29 +5190,29 @@ the agreement can be taken to have been entered into " in accordance
 with, or in furtherance of " arrangements previously made between
 U and W, as laid down in section 187(1).
 EXAMPLE 9
-Facts. A agrees to lend B (an individual) £4,500 in nine monthly
-instalments of £500.
+Facts. A agrees to lend B (an individual) Â£4,500 in nine monthly
+instalments of Â£500.
 Analysis. This is a cash loan and is a form of credit (see section 9
 and definition of " cash " in section 189(1)). Accordingly it falls
-within section 10(1)(b) and is fixed-sum credit amounting to £4,500. 
+within section 10(1)(b) and is fixed-sum credit amounting to Â£4,500. 
 Consumer Credit Act 1974 c. 39
 EXAMPLE 10 SCH.2
 Facts. C (in England) agrees to bail goods to D (an individual)
 in return for periodical payments. The agreement provides for
 the property in the goods to pass to D on payment of a total of
-£7,500 and the exercise by D of an option to purchase. The sum
-of £7,500 includes a down-payment of £1,000. It also includes an amount which, according to regulations made under section 20(1),
-constitutes a total charge for credit of £1,500.
+Â£7,500 and the exercise by D of an option to purchase. The sum
+of Â£7,500 includes a down-payment of Â£1,000. It also includes an amount which, according to regulations made under section 20(1),
+constitutes a total charge for credit of Â£1,500.
 Analysis. This is a hire-purchase agreement with a deposit of
-£1,000 and a total price of £7,500 (see definitions of " hire-purchase
+Â£1,000 and a total price of Â£7,500 (see definitions of " hire-purchase
 agreement ", " deposit " and " total price " in section 189(1)). By
-section 9(3), it is taken to provide credit amounting to £7,500-
-(£l,500 + £1,000), which equals £5,000. Under section 8(2), the
+section 9(3), it is taken to provide credit amounting to Â£7,500-
+(Â£l,500 + Â£1,000), which equals Â£5,000. Under section 8(2), the
 agreement is therefore a consumer credit agreement, and under
 sections 9(3) and 11(1) it is a restricted-use credit agreement for fixedsum credit. A similar result would follow if the agreement by C
 had been a hiring agreement in Scotland.
 EXAMPLE 11
-Facts. X (an individual) borrows £500 from Y (Finance). As a
+Facts. X (an individual) borrows Â£500 from Y (Finance). As a
 condition of the granting of the loan X is required-
 (a) to execute a second mortgage on his house in favour of
 Y (Finance), and
@@ -5234,7 +5234,7 @@ induce them to enter into the loan agreement, it would have been a
 linked transaction under section 19(1)(c)(i) by virtue of section
 19(2)(a).
 EXAMPLE 12
-Facts. The N Bank agrees to lend 0 (an individual) £2,000 to
+Facts. The N Bank agrees to lend 0 (an individual) Â£2,000 to
 buy a car from P. To make sure the loan is used as intended, the
 N Bank stipulates that the money must be paid by it direct to P.
 Analysis. The agreement is a consumer credit agreement by virtue
@@ -5253,11 +5253,11 @@ agreeing to repay the loan by instalments with interest. The loan
 money is not paid over to R but retained by Q and used to, pay off
 the moneylenders.
 Analysis. This is an agreement to refinance existing indebtedness
-of the debtor's, and if the loan by 0 does not exceed £5,000 is a
+of the debtor's, and if the loan by 0 does not exceed Â£5,000 is a
 restricted-use credit agreement falling within section 11(l)(c).
 EXAMPLE 14
-Facts. On payment of £l, S issues to T (an individual) a trading
-check under which T can spend up to £20 at any shop which has
+Facts. On payment of Â£l, S issues to T (an individual) a trading
+check under which T can spend up to Â£20 at any shop which has
 agreed, or in future agrees, to accept S's trading checks.
 Analysis. The trading check is a credit-token falling within section
 14(1)(b). The credit-token agreement is a restricted-use credit agreement within section 11(1)(b), any shop in which the credit-token is
@@ -5275,7 +5275,7 @@ defined in the agreement as a given multiple of the specified
 minimum sum.
 Analysis. This agreement provides credit falling within the
 definition of running-account credit in section 10(1)(a). Provided
-the credit limit is not over £5,000, the agreement falls within section
+the credit limit is not over Â£5,000, the agreement falls within section
 8(2) and is a consumer credit agreement for running-account credit.
 EXAMPLE 16
 Facts. Under an unsecured agreement, A (Credit), an associate
@@ -5283,11 +5283,11 @@ of the A Bank, issues to B (an individual) a credit-card for use in
 obtaining cash on credit from A (Credit), to be paid by branches
 of the A Bank (acting as agent of A (Credit)), or goods or cash
 from suppliers or banks who have agreed to honour credit-cards
-issued by A (Credit). The credit limit is £30.
+issued by A (Credit). The credit limit is Â£30.
 Analysis. This is a credit-token agreement falling within section
 14(1)(a) and (b). It is a regulated consumer credit agreement for 
 Consumer Credit Act 1974 c. 39 123
-running-account credit. Since the credit limit does not exceed £30, ScH. 2
+running-account credit. Since the credit limit does not exceed Â£30, ScH. 2
 the agreement is a small agreement. So far as the agreement relates to goods it is a debtor-creditor-supplier agreement within
 section 12(b), since it provides restricted-use credit under section
 11(1)(b). So far as it relates to cash it is a debtor-creditor agreement within section 13(c) and the credit it provides is unrestricted-use
@@ -5300,10 +5300,10 @@ Facts. The manager of the C Bank agrees orally with D (an
 individual) to open a current account in D's name. Nothing is said
 about overdraft facilities. After maintaining the account in credit
 for some weeks, D draws a cheque in favour of E for an amount
-exceeding D's credit balance by £20. E presents the cheque and the
+exceeding D's credit balance by Â£20. E presents the cheque and the
 Bank pay it.
 Analysis. In drawing the cheque D, by implication, requests the
-Bank to grant him an overdraft of £20 on its usual terms as to
+Bank to grant him an overdraft of Â£20 on its usual terms as to
 interest and other charges. In deciding to honour the cheque, the
 Bank by implication accept the offer. This constitutes a regulated
 small consumer credit agreement for unrestricted-use, fixed-sum
@@ -5314,19 +5314,19 @@ EXAMPLE 18
 Facts. F (an individual) has had a current account with the
 G Bank for many years. Although usually in credit, the account
 has been allowed by the Bank to become overdrawn from time to
-time. The maximum such overdraft has been is about £1,000. No
+time. The maximum such overdraft has been is about Â£1,000. No
 explicit agreement has ever been made about overdraft facilities.
-Now, with a credit balance of £500, F draws a cheque for £1,300.
+Now, with a credit balance of Â£500, F draws a cheque for Â£1,300.
 Analysis. It might well be held that the agreement with F (express
 or implied) under which the Bank operate his account includes an
 implied term giving him the right to overdraft facilities up to say
-£1,000. If so, the agreement is a regulated consumer credit agreement for unrestricted-use, running-account credit. It is a debtorcreditor agreement, and falls within section 74(1)(b) if covered by a direction under section 74(3). It is also a multiple agreement,
+Â£1,000. If so, the agreement is a regulated consumer credit agreement for unrestricted-use, running-account credit. It is a debtorcreditor agreement, and falls within section 74(1)(b) if covered by a direction under section 74(3). It is also a multiple agreement,
 part of which (i.e. the part not dealing with the overdraft), as referred to in section 18(l)(a), falls within a category of agreement
 not mentioned in this Act. (Compare Example 17.)
 EXAMPLE 19
 Facts. H (a finance house) agrees with J (a partnership of
 individuals) to open an unsecured loan account in J's name on which
-the debit balance is not to exceed £7,000 (having regard to payments 
+the debit balance is not to exceed Â£7,000 (having regard to payments 
 124
 ScH. 2
 c. 39 Consumer Credit Act 1974
@@ -5334,54 +5334,54 @@ into the account made from time to time by J). Interest is to be
 payable in advance on this sum, with provision for yearly adjustments.
 H is entitled to debit the account with interest, a " setting-up " charge,
 and other charges. Before J has an opportunity to draw on the
-account it is initially debited with £2,250 for advance interest and
+account it is initially debited with Â£2,250 for advance interest and
 other charges.
 Analysis. This is a personal running-account credit agreement
 (see sections 8(1) and 10(l)(a), and definition of " individual " in
-section 189(1)). By section 10(2) the credit limit is £7,000. By
-section 9(4) however the initial debit of £2,250, and any other charges
+section 189(1)). By section 10(2) the credit limit is Â£7,000. By
+section 9(4) however the initial debit of Â£2,250, and any other charges
 later debited to the account by H, are not to be treated as credit
 even though time is allowed for their payment. Effect is given to
-this by section 10(3). Although the credit limit of £7,000 exceeds
-the amount (£5,000) specified in section 8(2) as the maximum for a
+this by section 10(3). Although the credit limit of Â£7,000 exceeds
+the amount (Â£5,000) specified in section 8(2) as the maximum for a
 consumer credit agreement, so that the agreement is not within
 section 10(3)(a), it is caught by section 10(3)(b)(i). At the beginning
-J can effectively draw (as credit) no more than £4,750, so the
+J can effectively draw (as credit) no more than Â£4,750, so the
 agreement is a consumer credit agreement.
 EXAMPLE 20
 Facts. K (in England) agrees with L (an individual) to bail goods
-to L for a period of three years certain at £2,000 a year, payable
+to L for a period of three years certain at Â£2,000 a year, payable
 quarterly. The agreement contains no provision for the passing of
 the property in the goods to L.
 Analysis. This is not a hire-purchase agreement (see paragraph
 (b) of the definition of that term in section 189(1)), and is capable
 of subsisting for more than three months. Paragraphs (a) and (b)
 of section 15(1) are therefore satisfied, but paragraph (c) is not.
-The payments by L must exceed £5,000 if he conforms to the
+The payments by L must exceed Â£5,000 if he conforms to the
 agreement. It is true that under section 101 L has a right to
 terminate the agreement on giving K three months' notice expiring
 not earlier than eighteen months after the making of the agreement,
 but that section applies only where the agreement is a regulated
 consumer hire agreement apart from the section (see subsection (1)).
 So the agreement is not a consumer hire agreement, though it
-would be if the hire charge were say £1,500 a year, or there were
+would be if the hire charge were say Â£1,500 a year, or there were
 a "break" clause in it operable by either party before the hire
-charges exceeded £5,000. A similar result would follow if the
+charges exceeded Â£5,000. A similar result would follow if the
 agreement by K had been a hiring agreement in Scotland.
 EXAMPLE 21
 Facts. The P Bank decides to issue cheque cards to its customers
 under a scheme whereby the bank undertakes to honour cheques of
-up to £30 in every case where the payee has taken the cheque in
+up to Â£30 in every case where the payee has taken the cheque in
 reliance on the cheque card, whether the customer has funds in
 his account or not. The P Bank writes to the major retailers advising
 them of this scheme and also publicises it by advertising. The
 Bank issues a cheque card to 0 (an individual), who uses it to pay
-by cheque for goods costing £20 bought by 0 from R, a major
-retailer, At the time, Q has £500 in his account at the P Bank. 
+by cheque for goods costing Â£20 bought by 0 from R, a major
+retailer, At the time, Q has Â£500 in his account at the P Bank. 
 Consumer Credit Act 1974 c. 39 125
 Analysis. The agreement under which the cheque card is issued SCH. 2
 to Q is a consumer credit agreement even though at all relevant
-times 0 has more than £30 in his account. This is because Q is
+times 0 has more than Â£30 in his account. This is because Q is
 free to draw out his whole balance and then use the cheque card,
 in which case the Bank has bound itself to honour the cheque. In
 other words the cheque card agreement provides Q with credit,
@@ -5399,7 +5399,7 @@ the P Bank to R, would be a payment of the cheque and not a
 payment for the goods.
 EXAMPLE 22
 Facts. The facts are as in Example 16. On one occasion B uses the credit-card in a way which increases his debit balance with
-A (Credit) to £40. A (Credit) writes to B agreeing to allow the excess on that occasion only, but stating that it must be paid off
+A (Credit) to Â£40. A (Credit) writes to B agreeing to allow the excess on that occasion only, but stating that it must be paid off
 within one month.
 Analysis. In exceeding his credit limit B, by implication, requests A (Credit) to allow him a temporary excess (compare Example 17). A (Credit) is thus faced by B's action with the choice of treating it as a breach of contract or granting his implied request. He does the
 latter. If he had done the former, B would be treated as taking
@@ -5413,8 +5413,8 @@ reproducing the combined effect of the two agreements. By section
 EXAMPLE 23
 Facts. Under an oral agreement made on 10th January, X (an
 individual) has an overdraft on his current account at the Y bank
-with a credit limit of £100. On 15th February, when his overdraft
-stands at £90, X draws a cheque for £25. It is the first time that X has exceeded his credit limit, and on 16th February the bank
+with a credit limit of Â£100. On 15th February, when his overdraft
+stands at Â£90, X draws a cheque for Â£25. It is the first time that X has exceeded his credit limit, and on 16th February the bank
 honours the cheque.
 Analysis. The agreement of 10th January is a consumer credit
 agreement for running-account credit. The agreement of 15th-16th
@@ -5425,7 +5425,7 @@ Scx. 2 the later agreement is deemed to revoke the earlier agreement and
 reproduce the combined effect of the two agreements. By section
 82(4), Part V of this Act (except section 56) does not apply to the
 later agreement. By section 18(5), a term allowing a merely temporary excess over the credit limit is not to be treated as a separate
-agreement, or as providing fixed-sum credit. The whole of the £115
+agreement, or as providing fixed-sum credit. The whole of the Â£115
 owed to the bank by X on 16th February is therefore running-account
 credit.
 EXAMPLE 24
@@ -5434,20 +5434,20 @@ with A (an unincorporated body of persons) to bail to A equipment
 consisting of two components (component P and component 0).
 The agreement is not a hire-purchase agreement and is for a fixed
 term of 3 years, so paragraphs (a) and (b) of section 15(1) are both
-satisfied. The rental is payable monthly at a rate of £2,400 a year,
-but the agreement provides that this is to be reduced to £1,200 a year for the remainder of the agreement if at any time during its
+satisfied. The rental is payable monthly at a rate of Â£2,400 a year,
+but the agreement provides that this is to be reduced to Â£1,200 a year for the remainder of the agreement if at any time during its
 currency A returns component Q to the owner Z. On 5th May 1976 A
 is incorporated as A Ltd., taking over A's assets and liabilities. On
 1st March 1977, A Ltd. returns component Q. On 1st January 1978,
 Z and A Ltd. agree to extend the earlier agreement by one year,
-increasing the rental for the final year by £250 to £1,450.
+increasing the rental for the final year by Â£250 to Â£1,450.
 Analysis. When entered into on 1st March 1975, the agreement
 is a consumer hire agreement. A falls within the definition of
 " individual " in section 189(1) and if A returns component 0 before
-1st May 1976 the total rental will not exceed £5,000 (see section
+1st May 1976 the total rental will not exceed Â£5,000 (see section
 15(1)(c)). When this date is passed without component Q having
 been returned it is obvious that the total rental must now exceed
-£5,000. Does this mean that the agreement then ceases to be a consumer hire agreement? The answer is no, because there has been
+Â£5,000. Does this mean that the agreement then ceases to be a consumer hire agreement? The answer is no, because there has been
 no change in the terms of the agreement, and without such a change
 the agreement cannot move from one category to the other. Similarly,
 the fact that A's rights and duties under the agreement pass to
@@ -5460,10 +5460,10 @@ provisions reproducing the combined effect of the two actual agreements, that is
 (a) obligations outstanding on 1st January 1978 are to be treated as outstanding under the modifying agreement ; (b) the modifying agreement applies at the old rate of hire for the
 months of January and February 1978, and
 (c) for the year beginning 1st March 1978 A Ltd. will be the
-bailee of component P at a rental of £1,450.
-The total rental under the modifying agreement is £1,850.
+bailee of component P at a rental of Â£1,450.
+The total rental under the modifying agreement is Â£1,850.
 Accordingly the modifying agreement is a regulated agreement. Even
-if the total rental under the modifying agreement exceeded £5,000 it
+if the total rental under the modifying agreement exceeded Â£5,000 it
 would still be regulated because of the provisions of section 82(3). 
 Consumer Credit Act 1974 c. 39
 SCHEDULE 3

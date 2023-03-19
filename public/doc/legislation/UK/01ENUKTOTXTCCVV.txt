@@ -38,7 +38,7 @@ Contract of sale
 3 Capacity to buy and sell.
 (1)Capacity to buy and sell is regulated by the general law concerning capacity to contract and to transfer and acquire property.
 (2)Where necessaries are sold and delivered [F2to a minor or] to a person who by reason of [F3mental incapacity or] drunkenness is incompetent to contract, he must pay a reasonable price for them.
-(3)In subsection (2) above ìnecessariesî means goods suitable to the condition in life of the [F2 minor or other] person concerned and to his actual requirements at the time of the sale and delivery.
+(3)In subsection (2) above ‚Äúnecessaries‚Äù means goods suitable to the condition in life of the [F2 minor or other] person concerned and to his actual requirements at the time of the sale and delivery.
 Annotations: Help about Annotation
 Amendments (Textual)
 
@@ -79,7 +79,7 @@ Heading preceding ss. 10-14 substituted (3.1.1995) by 1994 c. 35, ss. 7(1), 8(2)
 10 Stipulations about time.
 (1)Unless a different intention appears from the terms of the contract, stipulations as to time of payment are not of the essence of a contract of sale.
 (2)Whether any other stipulation as to time is or is not of the essence of the contract depends on the terms of the contract.
-(3)In a contract of sale ìmonthî prima facie means calendar month.
+(3)In a contract of sale ‚Äúmonth‚Äù prima facie means calendar month.
 11 When condition to be treated as warranty.
 [F5(1)This section does not apply to Scotland.]
 (2)Where a contract of sale is subject to a condition to be fulfilled by the seller, the buyer may waive the condition, or may elect to treat the breach of the condition as a breach of warranty and not as a ground for treating the contract as repudiated.
@@ -106,12 +106,12 @@ S. 11(5) repealed (3.1.1995) by 1994 c. 35, ss. 7, 8(2), Sch. 2 para. 5(2)(b), S
 
 12 Implied terms about title, etc.
 (1)In a contract of sale, other than one to which subsection (3) below applies, there is an implied [F9term] on the part of the seller that in the case of a sale he has a right to sell the goods, and in the case of an agreement to sell he will have such a right at the time when the property is to pass.
-(2)In a contract of sale, other than one to which subsection (3) below applies, there is also an implied [F9term] tható
+(2)In a contract of sale, other than one to which subsection (3) below applies, there is also an implied [F9term] that‚Äî
 (a)the goods are free, and will remain free until the time when the property is to pass, from any charge or encumbrance not disclosed or known to the buyer before the contract is made, and
 (b)the buyer will enjoy quiet possession of the goods except so far as it may be disturbed by the owner or other person entitled to the benefit of any charge or encumbrance so disclosed or known.
 (3)This subsection applies to a contract of sale in the case of which there appears from the contract or is to be inferred from its circumstances an intention that the seller should transfer only such title as he or a third person may have.
 (4)In a contract to which subsection (3) above applies there is an implied [F9term] that all charges or encumbrances known to the seller and not known to the buyer have been disclosed to the buyer before the contract is made.
-(5)In a contract to which subsection (3) above applies there is also an implied [F9term] that none of the following will disturb the buyerís quiet possession of the goods, namelyó
+(5)In a contract to which subsection (3) above applies there is also an implied [F9term] that none of the following will disturb the buyer‚Äôs quiet possession of the goods, namely‚Äî
 (a)the seller;
 (b)in a case where the parties to the contract intend that the seller should transfer only such title as a third person may have, that person;
 (c)anyone claiming through or under the seller or that third person otherwise than under a charge or encumbrance disclosed or known to the buyer before the contract is made.
@@ -153,20 +153,20 @@ S. 13(5) inserted (1.10.2015) by Consumer Rights Act 2015 (c. 15), s. 100(5), Sc
 (1)Except as provided by this section and section 15 below and subject to any other enactment, there is no implied [F15term] about the quality or fitness for any particular purpose of goods supplied under a contract of sale.
 [F16(2)Where the seller sells goods in the course of a business, there is an implied term that the goods supplied under the contract are of satisfactory quality.
 (2A)For the purposes of this Act, goods are of satisfactory quality if they meet the standard that a reasonable person would regard as satisfactory, taking account of any description of the goods, the price (if relevant) and all the other relevant circumstances.
-(2B)For the purposes of this Act, the quality of goods includes their state and condition and the following (among others) are in appropriate cases aspects of the quality of goodsó
+(2B)For the purposes of this Act, the quality of goods includes their state and condition and the following (among others) are in appropriate cases aspects of the quality of goods‚Äî
 (a)fitness for all the purposes for which goods of the kind in question are commonly supplied,
 (b)appearance and finish,
 (c)freedom from minor defects,
 (d)safety, and
 (e)durability.
-(2C)The term implied by subsection (2) above does not extend to any matter making the quality of goods unsatisfactoryó
-(a)which is specifically drawn to the buyerís attention before the contract is made,
+(2C)The term implied by subsection (2) above does not extend to any matter making the quality of goods unsatisfactory‚Äî
+(a)which is specifically drawn to the buyer‚Äôs attention before the contract is made,
 (b)where the buyer examines the goods before the contract is made, which that examination ought to reveal, or
 (c)in the case of a contract for sale by sample, which would have been apparent on a reasonable examination of the sample.]
 F17( 2D ). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 F17( 2E ). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 F17( 2F ). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-(3)Where the seller sells goods in the course of a business and the buyer, expressly or by implication, makes knownó
+(3)Where the seller sells goods in the course of a business and the buyer, expressly or by implication, makes known‚Äî
 (a)to the seller, or
 (b)where the purchase price or part of it is payable by instalments and the goods were previously sold by a credit-broker to the seller, to that credit-broker,any particular purpose for which the goods are being bought, there is an implied [F15term] that the goods supplied under the contract are reasonably fit for that purpose, whether or not that is a purpose for which such goods are commonly supplied, except where the circumstances show that the buyer does not rely, or that it is unreasonable for him to rely, on the skill or judgment of the seller or credit-broker.
 (4)An implied [F15term] about quality or fitness for a particular purpose may be annexed to a contract of sale by usage.
@@ -201,7 +201,7 @@ Power of appointment conferred by s. 14(8) fully exercised: 19.5.1985 appointed 
 Sale by sample
 15 Sale by sample.
 (1)A contract of sale is a contract for sale by sample where there is an express or implied term to that effect in the contract.
-(2)In the case of a contract for sale by sample there is an implied [F20term]ó
+(2)In the case of a contract for sale by sample there is an implied [F20term]‚Äî
 (a)that the bulk will correspond with the sample in quality;
 F21(b). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 (c)that the goods will be free from any defect, [F22making their quality unsatisfactory], which would not be apparent on reasonable examination of the sample.
@@ -234,7 +234,7 @@ F25
 Cross-heading preceding s. 15A inserted (3.1.1995) by 1994 c. 35, ss. 4(1), 8(2) (with s. 8(3)).
 
 F26[15A Modification of remedies for breach of condition in non-consumer cases.
-(1)Where in the case of a contract of saleó
+(1)Where in the case of a contract of sale‚Äî
 (a)the buyer would, apart from this subsection, have the right to reject goods by reason of a breach on the part of the seller of a term implied by section 13, 14 or 15 above, but
 (b)the breach is so slight that it would be unreasonable for him to reject them,F27... the breach is not to be treated as a breach of condition but may be treated as a breach of warranty.
 (2)This section applies unless a contrary intention appears in, or is to be implied from, the contract.
@@ -250,7 +250,7 @@ F27
 Words in s. 15A(1) omitted (1.10.2015) by virtue of Consumer Rights Act 2015 (c. 15), s. 100(5), Sch. 1 para. 15; S.I. 2015/1630, art. 3(g) (with art. 6(1))
 
 [F2815B Remedies for breach of contract as respects Scotland.
-(1)Where in a contract of sale the seller is in breach of any term of the contract (express or implied), the buyer shall be entitledó
+(1)Where in a contract of sale the seller is in breach of any term of the contract (express or implied), the buyer shall be entitled‚Äî
 (a)to claim damages, and
 (b)if the breach is material, to reject any goods delivered under the contract and treat it as repudiated.
 [F29(1A)Subsection (1) does not apply to a contract to which Chapter 2 of Part 1 of the Consumer Rights Act 2015 applies (but see the provision made about such contracts in sections 19 to 22 of that Act).]
@@ -284,15 +284,15 @@ Words in s. 16 inserted (19.9.1995) by 1995 c. 28, ss. 1(1), 3(2).
 (2)For the purpose of ascertaining the intention of the parties regard shall be had to the terms of the contract, the conduct of the parties and the circumstances of the case.
 18 Rules for ascertaining intention.
 Unless a different intention appears, the following are rules for ascertaining the intention of the parties as to the time at which the property in the goods is to pass to the buyer.
-Rule 1.óWhere there is an unconditional contract for the sale of specific goods in a deliverable state the property in the goods passes to the buyer when the contract is made, and it is immaterial whether the time of payment or the time of delivery, or both, be postponed.
-Rule 2.óWhere there is a contract for the sale of specific goods and the seller is bound to do something to the goods for the purpose of putting them into a deliverable state, the property does not pass until the thing is done and the buyer has notice that it has been done.
-Rule 3.óWhere there is a contract for the sale of specific goods in a deliverable state but the seller is bound to weigh, measure, test, or do some other act or thing with reference to the goods for the purpose of ascertaining the price, the property does not pass until the act or thing is done and the buyer has notice that it has been done.
-Rule 4.óWhen goods are delivered to the buyer on approval or on sale or return or other similar terms the property in the goods passes to the buyer:ó
+Rule 1.‚ÄîWhere there is an unconditional contract for the sale of specific goods in a deliverable state the property in the goods passes to the buyer when the contract is made, and it is immaterial whether the time of payment or the time of delivery, or both, be postponed.
+Rule 2.‚ÄîWhere there is a contract for the sale of specific goods and the seller is bound to do something to the goods for the purpose of putting them into a deliverable state, the property does not pass until the thing is done and the buyer has notice that it has been done.
+Rule 3.‚ÄîWhere there is a contract for the sale of specific goods in a deliverable state but the seller is bound to weigh, measure, test, or do some other act or thing with reference to the goods for the purpose of ascertaining the price, the property does not pass until the act or thing is done and the buyer has notice that it has been done.
+Rule 4.‚ÄîWhen goods are delivered to the buyer on approval or on sale or return or other similar terms the property in the goods passes to the buyer:‚Äî
 (a)when he signifies his approval or acceptance to the seller or does any other act adopting the transaction;
 (b)if he does not signify his approval or acceptance to the seller but retains the goods without giving notice of rejection, then, if a time has been fixed for the return of the goods, on the expiration of that time, and, if no time has been fixed, on the expiration of a reasonable time.
 Rule 5.(1)Where there is a contract for the sale of unascertained or future goods by description, and goods of that description and in a deliverable state are unconditionally appropriated to the contract, either by the seller with the assent of the buyer or by the buyer with the assent of the seller, the property in the goods then passes to the buyer; and the assent may be express or implied, and may be given either before or after the appropriation is made.
 (2)Where, in pursuance of the contract, the seller delivers the goods to the buyer or to a carrier or other bailee or custodier (whether named by the buyer or not) for the purpose of transmission to the buyer, and does not reserve the right of disposal, he is to be taken to have unconditionally appropriated the goods to the contract.
-[F32(3)Where there is a contract for the sale of a specified quantity of unascertained goods in a deliverable state forming part of a bulk which is identified either in the contract or by subsequent agreement between the parties and the bulk is reduced to (or to less than) that quantity, then, if the buyer under that contract is the only buyer to whom goods are then due out of the bulkó
+[F32(3)Where there is a contract for the sale of a specified quantity of unascertained goods in a deliverable state forming part of a bulk which is identified either in the contract or by subsequent agreement between the parties and the bulk is reduced to (or to less than) that quantity, then, if the buyer under that contract is the only buyer to whom goods are then due out of the bulk‚Äî
 (a)the remaining goods are to be taken as appropriated to that contract at the time when the bulk is so reduced; and
 (b)the property in those goods then passes to that buyer.
 (4)Paragraph (3) above applies also (with the necessary modifications) where a bulk is reduced to (or to less than) the aggregate of the quantities due to a single buyer under separate contracts relating to that bulk and he is the only buyer to whom goods are then due out of that bulk.]
@@ -307,7 +307,7 @@ S. 18 rule 5(3)(4) inserted (19.9.1995) by 1995 c. 28, ss. 1(2), 3(2).
 (2)Where goods are shipped, and by the bill of lading the goods are deliverable to the order of the seller or his agent, the seller is prima facie to be taken to reserve the right of disposal.
 (3)Where the seller of goods draws on the buyer for the price, and transmits the bill of exchange and bill of lading to the buyer together to secure acceptance or payment of the bill of exchange, the buyer is bound to return the bill of lading if he does not honour the bill of exchange, and if he wrongfully retains the bill of lading the property in the goods does not pass to him.
 20[F33 Passing of risk.]
-(1)Unless otherwise agreed, the goods remain at the sellerís risk until the property in them is transferred to the buyer, but when the property in them is transferred to the buyer the goods are at the buyerís risk whether delivery has been made or not.
+(1)Unless otherwise agreed, the goods remain at the seller‚Äôs risk until the property in them is transferred to the buyer, but when the property in them is transferred to the buyer the goods are at the buyer‚Äôs risk whether delivery has been made or not.
 (2)But where delivery has been delayed through the fault of either buyer or seller the goods are at the risk of the party at fault as regards any loss which might not have occurred but for such fault.
 (3)Nothing in this section affects the duties or liabilities of either seller or buyer as a bailee or custodier of the goods of the other party.
 [F34(4)This section does not apply to a contract to which Chapter 2 of Part 1 of the Consumer Rights Act 2015 applies (but see the provision made about such contracts in section 29 of that Act).]
@@ -321,10 +321,10 @@ F34
 S. 20(4) substituted (1.10.2015) by Consumer Rights Act 2015 (c. 15) , s. 100(5) , Sch. 1 para. 17(1) ; S.I. 2015/1630 , art. 3(g) (with art. 6(1) )
 
 [F3520A Undivided shares in goods forming part of a bulk.
-(1)This section applies to a contract for the sale of a specified quantity of unascertained goods if the following conditions are metó
+(1)This section applies to a contract for the sale of a specified quantity of unascertained goods if the following conditions are met‚Äî
 (a)the goods or some of them form part of a bulk which is identified either in the contract or by subsequent agreement between the parties; and
 (b)the buyer has paid the price for some or all of the goods which are the subject of the contract and which form part of the bulk.
-(2)Where this section applies, then (unless the parties agree otherwise), as soon as the conditions specified in paragraphs (a) and (b) of subsection (1) above are met or at such later time as the parties may agreeó
+(2)Where this section applies, then (unless the parties agree otherwise), as soon as the conditions specified in paragraphs (a) and (b) of subsection (1) above are met or at such later time as the parties may agree‚Äî
 (a)property in an undivided share in the bulk is transferred to the buyer, and
 (b)the buyer becomes an owner in common of the bulk.
 (3)Subject to subsection (4) below, for the purposes of this section, the undivided share of a buyer in a bulk at any time shall be such share as the quantity of goods paid for and due to the buyer out of the bulk bears to the quantity of goods in the bulk at that time.
@@ -338,11 +338,11 @@ F35
 Ss. 20A, 20B inserted (19.9.1995) by 1995 c. 28, ss. 1(3), 3(2).
 
 [F3620B Deemed consent by co-owner to dealings in bulk goods.
-(1)A person who has become an owner in common of a bulk by virtue of section 20A above shall be deemed to have consented toó
+(1)A person who has become an owner in common of a bulk by virtue of section 20A above shall be deemed to have consented to‚Äî
 (a)any delivery of goods out of the bulk to any other owner in common of the bulk, being goods which are due to him under his contract;
-(b)any dealing with or removal, delivery or disposal of goods in the bulk by any other person who is an owner in common of the bulk in so far as the goods fall within that co-ownerís undivided share in the bulk at the time of the dealing, removal, delivery or disposal.
+(b)any dealing with or removal, delivery or disposal of goods in the bulk by any other person who is an owner in common of the bulk in so far as the goods fall within that co-owner‚Äôs undivided share in the bulk at the time of the dealing, removal, delivery or disposal.
 (2)No cause of action shall accrue to anyone against a person by reason of that person having acted in accordance with paragraph (a) or (b) of subsection (1) above in reliance on any consent deemed to have been given under that subsection.
-(3)Nothing in this section or section 20A above shalló
+(3)Nothing in this section or section 20A above shall‚Äî
 (a)impose an obligation on a buyer of goods out of a bulk to compensate any other buyer of goods out of that bulk for any shortfall in the goods received by that other buyer;
 (b)affect any contractual arrangement between buyers of goods out of a bulk for adjustments between themselves; or
 (c)affect the rights of any buyer under his contract.]
@@ -354,8 +354,8 @@ Ss. 20A, 20B inserted (19.9.1995) by 1995 c. 28, ss. 1(3), 3(2).
 
 Transfer of title
 21 Sale by person not the owner.
-(1)Subject to this Act, where goods are sold by a person who is not their owner, and who does not sell them under the authority or with the consent of the owner, the buyer acquires no better title to the goods than the seller had, unless the owner of the goods is by his conduct precluded from denying the sellerís authority to sell.
-(2)Nothing in this Act affectsó
+(1)Subject to this Act, where goods are sold by a person who is not their owner, and who does not sell them under the authority or with the consent of the owner, the buyer acquires no better title to the goods than the seller had, unless the owner of the goods is by his conduct precluded from denying the seller‚Äôs authority to sell.
+(2)Nothing in this Act affects‚Äî
 (a)the provisions of the Factors Acts or any enactment enabling the apparent owner of goods to dispose of them as if he were their true owner;
 (b)the validity of any contract of sale under any special common law or statutory power of sale or under the order of a court of competent jurisdiction.
 22 Market overt.
@@ -369,14 +369,14 @@ F37
 s. 22(1) repealed (3.1.1995) by 1994 c. 32, ss.1, 3(3) (with s. 3(2)).
 
 23 Sale under voidable title.
-When the seller of goods has a voidable title to them, but his title has not been avoided at the time of the sale, the buyer acquires a good title to the goods, provided he buys them in good faith and without notice of the sellerís defect of title.
+When the seller of goods has a voidable title to them, but his title has not been avoided at the time of the sale, the buyer acquires a good title to the goods, provided he buys them in good faith and without notice of the seller‚Äôs defect of title.
 24 Seller in possession after sale.
 Where a person having sold goods continues or is in possession of the goods, or of the documents of title to the goods, the delivery or transfer by that person, or by a mercantile agent acting for him, of the goods or documents of title under any sale, pledge, or other disposition thereof, to any person receiving the same in good faith and without notice of the previous sale, has the same effect as if the person making the delivery or transfer were expressly authorised by the owner of the goods to make the same.
 25 Buyer in possession after sale.
 (1)Where a person having bought or agreed to buy goods obtains, with the consent of the seller, possession of the goods or the documents of title to the goods, the delivery or transfer by that person, or by a mercantile agent acting for him, of the goods or documents of title, under any sale, pledge, or other disposition thereof, to any person receiving the same in good faith and without notice of any lien or other right of the original seller in respect of the goods, has the same effect as if the person making the delivery or transfer were a mercantile agent in possession of the goods or documents of title with the consent of the owner.
-(2)For the purposes of subsection (1) aboveó
+(2)For the purposes of subsection (1) above‚Äî
 (a)the buyer under a conditional sale agreement is to be taken not to be a person who has bought or agreed to buy goods, and
-(b)ìconditional sale agreementî means an agreement for the sale of goods which is a consumer credit agreement within the meaning of the M1Consumer Credit Act 1974 under which the purchase price or part of it is payable by instalments, and the property in the goods is to remain in the seller (notwithstanding that the buyer is to be in possession of the goods) until such conditions as to the payment of instalments or otherwise as may be specified in the agreement are fulfilled.
+(b)‚Äúconditional sale agreement‚Äù means an agreement for the sale of goods which is a consumer credit agreement within the meaning of the M1Consumer Credit Act 1974 under which the purchase price or part of it is payable by instalments, and the property in the goods is to remain in the seller (notwithstanding that the buyer is to be in possession of the goods) until such conditions as to the payment of instalments or otherwise as may be specified in the agreement are fulfilled.
 (3)Paragraph 9 of Schedule 1 below applies in relation to a contract under which a person buys or agrees to buy goods and which is made before the appointed day.
 (4)In subsection (3) above and paragraph 9 of Schedule 1 below references to the appointed day are to the day appointed for the purposes of those provisions by an order of the Secretary of State made by statutory instrument.
 Annotations: Help about Annotation
@@ -391,7 +391,7 @@ M1
 1974 c. 39.
 
 26 Supplementary to sections 24 and 25.
-In sections 24 and 25 above ìmercantile agentî means a mercantile agent having in the customary course of his business as such agent authority eitheró
+In sections 24 and 25 above ‚Äúmercantile agent‚Äù means a mercantile agent having in the customary course of his business as such agent authority either‚Äî
 (a)to sell goods, or
 (b)to consign goods for the purpose of sale, or
 (c)to buy goods, or
@@ -404,7 +404,7 @@ It is the duty of the seller to deliver the goods, and of the buyer to accept an
 Unless otherwise agreed, delivery of the goods and payment of the price are concurrent conditions, that is to say, the seller must be ready and willing to give possession of the goods to the buyer in exchange for the price and the buyer must be ready and willing to pay the price in exchange for possession of the goods.
 29 Rules about delivery.
 (1)Whether it is for the buyer to take possession of the goods or for the seller to send them to the buyer is a question depending in each case on the contract, express or implied, between the parties.
-(2)Apart from any such contract, express or implied, the place of delivery is the sellerís place of business if he has one, and if not, his residence; except that, if the contract is for the sale of specific goods, which to the knowledge of the parties when the contract is made are in some other place, then that place is the place of delivery.
+(2)Apart from any such contract, express or implied, the place of delivery is the seller‚Äôs place of business if he has one, and if not, his residence; except that, if the contract is for the sale of specific goods, which to the knowledge of the parties when the contract is made are in some other place, then that place is the place of delivery.
 (3)Where under the contract of sale the seller is bound to send the goods to the buyer, but no time for sending them is fixed, the seller is bound to send them within a reasonable time.
 [F38(3A)Subsection (3) does not apply to a contract to which Chapter 2 of Part 1 of the Consumer Rights Act 2015 applies (but see the provision made about such contracts in section 28 of that Act).]
 (4)Where the goods at the time of sale are in the possession of a third person, there is no delivery by seller to buyer unless and until the third person acknowledges to the buyer that he holds the goods on his behalf; but nothing in this section affects the operation of the issue or transfer of any document of title to goods.
@@ -419,12 +419,12 @@ S. 29(3A) inserted (1.10.2015) by Consumer Rights Act 2015 (c. 15), s. 100(5), S
 30 Delivery of wrong quantity.
 (1)Where the seller delivers to the buyer a quantity of goods less than he contracted to sell, the buyer may reject them, but if the buyer accepts the goods so delivered he must pay for them at the contract rate.
 (2)Where the seller delivers to the buyer a quantity of goods larger than he contracted to sell, the buyer may accept the goods included in the contract and reject the rest, or he may reject the whole.
-[F39(2A)A buyer F40... may notó
+[F39(2A)A buyer F40... may not‚Äî
 (a)where the seller delivers a quantity of goods less than he contracted to sell, reject the goods under subsection (1) above, or
 (b)where the seller delivers a quantity of goods larger than he contracted to sell, reject the whole under subsection (2) above,if the shortfall or, as the case may be, excess is so slight that it would be unreasonable for him to do so.
 (2B)It is for the seller to show that a shortfall or excess fell within subsection (2A) above.
 (2C)Subsections (2A) and (2B) above do not apply to Scotland.]
-[F41(2D)Where the seller delivers a quantity of goodsó
+[F41(2D)Where the seller delivers a quantity of goods‚Äî
 (a)less than he contracted to sell, the buyer shall not be entitled to reject the goods under subsection (1) above,
 (b)larger than he contracted to sell, the buyer shall not be entitled to reject the whole under subsection (2) above,unless the shortfall or excess is material.
 (2E)Subsection (2D) above applies to Scotland only.]
@@ -483,7 +483,7 @@ Word in s. 33(1) inserted (1.10.2015) by Consumer Rights Act 2015 (c. 15), s. 10
 F47
 S. 33(2) inserted (1.10.2015) by Consumer Rights Act 2015 (c. 15), s. 100(5), Sch. 1 para. 22(3); S.I. 2015/1630, art. 3(g) (with art. 6(1))
 
-34 Buyerís right of examining the goods.
+34 Buyer‚Äôs right of examining the goods.
 [F48(1)]F49. . .Unless otherwise agreed, when the seller tenders delivery of goods to the buyer, he is bound on request to afford the buyer a reasonable opportunity of examining the goods for the purpose of ascertaining whether they are in conformity with the contract [F50and, in the case of a contract for sale by sample, of comparing the bulk with the sample.]
 [F51(2)Nothing in this section affects the operation of section 22 (time limit for short-term right to reject) of the Consumer Rights Act 2015.]
 Annotations: Help about Annotation
@@ -502,19 +502,19 @@ F51
 S. 34(2) inserted (1.10.2015) by Consumer Rights Act 2015 (c. 15), s. 100(5), Sch. 1 para. 23(3); S.I. 2015/1630, art. 3(g) (with art. 6(1))
 
 35 Acceptance.
-(1)The buyer is deemed to have accepted the goods [F52subject to subsection (2) belowó
+(1)The buyer is deemed to have accepted the goods [F52subject to subsection (2) below‚Äî
 (a)when he intimates to the seller that he has accepted them, or
 (b)when the goods have been delivered to him and he does any act in relation to them which is inconsistent with the ownership of the seller.
-(2)Where goods are delivered to the buyer, and he has not previously examined them, he is not deemed to have accepted them under subsection (1) above until he has had a reasonable opportunity of examining them for the purposeó
+(2)Where goods are delivered to the buyer, and he has not previously examined them, he is not deemed to have accepted them under subsection (1) above until he has had a reasonable opportunity of examining them for the purpose‚Äî
 (a)of ascertaining whether they are in conformity with the contract, and
 (b)in the case of a contract for sale by sample, of comparing the bulk with the sample.
 F53(3). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 (4)The buyer is also deemed to have accepted the goods when after the lapse of a reasonable time he retains the goods without intimating to the seller that he has rejected them.
 (5)The questions that are material in determining for the purposes of subsection (4) above whether a reasonable time has elapsed include whether the buyer has had a reasonable opportunity of examining the goods for the purpose mentioned in subsection (2) above.
-(6)The buyer is not by virtue of this section deemed to have accepted the goods merely becauseó
+(6)The buyer is not by virtue of this section deemed to have accepted the goods merely because‚Äî
 (a)he asks for, or agrees to, their repair by or under an arrangement with the seller, or
 (b)the goods are delivered to another under a sub-sale or other disposition.
-(7) Where the contract is for the sale of goods making one or more commercial units, a buyer accepting any goods included in a unit is deemed to have accepted all the goods making the unit; and in this subsection ì commercial unit î means a unit division of which would materially impair the value of the goods or the character of the unit.
+(7) Where the contract is for the sale of goods making one or more commercial units, a buyer accepting any goods included in a unit is deemed to have accepted all the goods making the unit; and in this subsection ‚Äú commercial unit ‚Äù means a unit division of which would materially impair the value of the goods or the character of the unit.
 (8)]Paragraph 10 of Schedule 1 below applies in relation to a contract made before 22 April 1967 or (in the application of this Act to Northern Ireland) 28 July 1967.
 [F54(9)This section does not apply to a contract to which Chapter 2 of Part 1 of the Consumer Rights Act 2015 applies (but see the provision made about such contracts in section 21 of that Act).]
 Annotations: Help about Annotation
@@ -530,7 +530,7 @@ F54
 S. 35(9) inserted (1.10.2015) by Consumer Rights Act 2015 (c. 15), s. 100(5), Sch. 1 para. 24(3); S.I. 2015/1630, art. 3(g) (with art. 6(1))
 
 [F5535A Right of partial rejection.
-(1)If the buyeró
+(1)If the buyer‚Äî
 (a)has the right to reject the goods by reason of a breach on the part of the seller that affects some or all of them, but
 (b)accepts some of the goods, including, where there are any goods unaffected by the breach, all such goods,he does not by accepting them lose his right to reject the rest.
 (2)In the case of a buyer having the right to reject an instalment of goods, subsection (1) above applies as if references to the goods were references to the goods comprised in the instalment.
@@ -558,19 +558,19 @@ Word in s. 36(1) inserted (1.10.2015) by Consumer Rights Act 2015 (c. 15), s. 10
 F58
 S. 36(2) inserted (1.10.2015) by Consumer Rights Act 2015 (c. 15), s. 100(5), Sch. 1 para. 26(3); S.I. 2015/1630, art. 3(g) (with art. 6(1))
 
-37 Buyerís liability for not taking delivery of goods.
+37 Buyer‚Äôs liability for not taking delivery of goods.
 (1)When the seller is ready and willing to deliver the goods, and requests the buyer to take delivery, and the buyer does not within a reasonable time after such request take delivery of the goods, he is liable to the seller for any loss occasioned by his neglect or refusal to take delivery, and also for a reasonable charge for the care and custody of the goods.
 (2)Nothing in this section affects the rights of the seller where the neglect or refusal of the buyer to take delivery amounts to a repudiation of the contract.
 Part V
 Rights of Unpaid Seller Against the Goods
 Preliminary
 38 Unpaid seller defined.
-(1)The seller of goods is an unpaid seller within the meaning of this Actó
+(1)The seller of goods is an unpaid seller within the meaning of this Act‚Äî
 (a)when the whole of the price has not been paid or tendered;
 (b)when a bill of exchange or other negotiable instrument has been received as conditional payment, and the condition on which it was received has not been fulfilled by reason of the dishonour of the instrument or otherwise.
-(2)In this Part of this Act ìsellerî includes any person who is in the position of a seller, as, for instance, an agent of the seller to whom the bill of lading has been indorsed, or a consignor or agent who has himself paid (or is directly responsible for) the price.
-39 Unpaid sellerís rights.
-(1)Subject to this and any other Act, notwithstanding that the property in the goods may have passed to the buyer, the unpaid seller of goods, as such, has by implication of lawó
+(2)In this Part of this Act ‚Äúseller‚Äù includes any person who is in the position of a seller, as, for instance, an agent of the seller to whom the bill of lading has been indorsed, or a consignor or agent who has himself paid (or is directly responsible for) the price.
+39 Unpaid seller‚Äôs rights.
+(1)Subject to this and any other Act, notwithstanding that the property in the goods may have passed to the buyer, the unpaid seller of goods, as such, has by implication of law‚Äî
 (a)a lien on the goods or right to retain them for the price while he is in possession of them;
 (b)in case of the insolvency of the buyer, a right of stopping the goods in transit after he has parted with the possession of them;
 (c)a right of re-sale as limited by this Act.
@@ -583,9 +583,9 @@ Amendments (Textual)
 F59
 S. 40 repealed (S.) by Debtors (Scotland) Act 1987 (c. 18, SIF 45:2), s. 108(3), Sch. 8
 
-Unpaid sellerís lien
-41 Sellerís lien.
-(1)Subject to this Act, the unpaid seller of goods who is in possession of them is entitled to retain possession of them until payment or tender of the price in the following cases:ó
+Unpaid seller‚Äôs lien
+41 Seller‚Äôs lien.
+(1)Subject to this Act, the unpaid seller of goods who is in possession of them is entitled to retain possession of them until payment or tender of the price in the following cases:‚Äî
 (a)where the goods have been sold without any stipulation as to credit;
 (b)where the goods have been sold on credit but the term of credit has expired;
 (c)where the buyer becomes insolvent.
@@ -593,7 +593,7 @@ Unpaid sellerís lien
 42 Part delivery.
 Where an unpaid seller has made part delivery of the goods, he may exercise his lien or right of retention on the remainder, unless such part delivery has been made under such circumstances as to show an agreement to waive the lien or right of retention.
 43 Termination of lien.
-(1)The unpaid seller of goods loses his lien or right of retention in respect of themó
+(1)The unpaid seller of goods loses his lien or right of retention in respect of them‚Äî
 (a)when he delivers the goods to a carrier or other bailee or custodier for the purpose of transmission to the buyer without reserving the right of disposal of the goods;
 (b)when the buyer or his agent lawfully obtains possession of the goods;
 (c)by waiver of the lien or right of retention.
@@ -616,10 +616,10 @@ Subject to this Act, when the buyer of goods becomes insolvent the unpaid seller
 (4)When notice of stoppage in transit is given by the seller to the carrier or other bailee or custodier in possession of the goods, he must re-deliver the goods to, or according to the directions of, the seller; and the expenses of the re-delivery must be borne by the seller.
 Re-sale etc. by buyer
 47 Effect of sub-sale etc. by buyer.
-(1)Subject to this Act, the unpaid sellerís right of lien or retention or stoppage in transit is not affected by any sale or other disposition of the goods which the buyer may have made, unless the seller has assented to it.
-(2)Where a document of title to goods has been lawfully transferred to any person as buyer or owner of the goods, and that person transfers the document to a person who take it in good faith and for valuable consideration, thenó
-(a)if the last-mentioned transfer was by way of sale the unpaid sellerís right of lien or retention or stoppage in transit is defeated; and
-(b)if the last-mentioned transfer was made by way of pledge or other disposition for value, the unpaid sellerís right of lien or retention or stoppage in transit can only be exercised subject to the rights of the transferee.
+(1)Subject to this Act, the unpaid seller‚Äôs right of lien or retention or stoppage in transit is not affected by any sale or other disposition of the goods which the buyer may have made, unless the seller has assented to it.
+(2)Where a document of title to goods has been lawfully transferred to any person as buyer or owner of the goods, and that person transfers the document to a person who take it in good faith and for valuable consideration, then‚Äî
+(a)if the last-mentioned transfer was by way of sale the unpaid seller‚Äôs right of lien or retention or stoppage in transit is defeated; and
+(b)if the last-mentioned transfer was made by way of pledge or other disposition for value, the unpaid seller‚Äôs right of lien or retention or stoppage in transit can only be exercised subject to the rights of the transferee.
 Rescission: and re-sale by seller
 48 Rescission: and re-sale by seller.
 (1)Subject to this section, a contract of sale is not rescinded by the mere exercise by an unpaid seller of his right of lien or retention or stoppage in transit.
@@ -648,19 +648,19 @@ Pt. 5A omitted (1.10.2015) by virtue of Consumer Rights Act 2015 (c. 15), s. 100
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 Part VI
 Actions for Breach of the Contract
-Sellerís remedies
+Seller‚Äôs remedies
 49 Action for price.
 (1)Where, under a contract of sale, the property in the goods has passed to the buyer and he wrongfully neglects or refuses to pay for the goods according to the terms of the contract, the seller may maintain an action against him for the price of the goods.
 (2)Where, under a contract of sale, the price is payable on a day certain irrespective of delivery and the buyer wrongfully neglects or refuses to pay such price, the seller may maintain an action for the price, although the property in the goods has not passed and the goods have not been appropriated to the contract.
 (3)Nothing in this section prejudices the right of the seller in Scotland to recover interest on the price from the date of tender of the goods, or from the date on which the price was payable, as the case may be.
 50 Damages for non-acceptance.
 (1)Where the buyer wrongfully neglects or refuses to accept and pay for the goods, the seller may maintain an action against him for damages for non-acceptance.
-(2)The measure of damages is the estimated loss directly and naturally resulting, in the ordinary course of events, from the buyerís breach of contract.
+(2)The measure of damages is the estimated loss directly and naturally resulting, in the ordinary course of events, from the buyer‚Äôs breach of contract.
 (3)Where there is an available market for the goods in question the measure of damages is prima facie to be ascertained by the difference between the contract price and the market or current price at the time or times when the goods ought to have been accepted or (if no time was fixed for acceptance) at the time of the refusal to accept.
-Buyerís remedies
+Buyer‚Äôs remedies
 51 Damages for non-delivery.
 (1)Where the seller wrongfully neglects or refuses to deliver the goods to the buyer, the buyer may maintain an action against the seller for damages for non-delivery.
-(2)The measure of damages is the estimated loss directly and naturally resulting, in the ordinary course of events, from the sellerís breach of contract.
+(2)The measure of damages is the estimated loss directly and naturally resulting, in the ordinary course of events, from the seller‚Äôs breach of contract.
 (3)Where there is an available market for the goods in question the measure of damages is prima facie to be ascertained by the difference between the contract price and the market or current price of the goods at the time or times when they ought to have been delivered or (if no time was fixed) at the time of the refusal to deliver.
 [F61(4)This section does not apply to a contract to which Chapter 2 of Part 1 of the Consumer Rights Act 2015 applies (but see the provision made about such contracts in section 19 of that Act).]
 Annotations: Help about Annotation
@@ -670,8 +670,8 @@ F61
 S. 51(4) inserted (1.10.2015) by Consumer Rights Act 2015 (c. 15), s. 100(5), Sch. 1 para. 28; S.I. 2015/1630, art. 3(g) (with art. 6(1))
 
 52 Specific performance.
-(1)In any action for breach of contract to deliver specific or ascertained goods the court may, if it thinks fit, on the plaintiffís application, by its judgment or decree direct that the contract shall be performed specifically, without giving the defendant the option of retaining the goods on payment of damages.
-(2)The plaintiffís application may be made at any time before judgment or decree.
+(1)In any action for breach of contract to deliver specific or ascertained goods the court may, if it thinks fit, on the plaintiff‚Äôs application, by its judgment or decree direct that the contract shall be performed specifically, without giving the defendant the option of retaining the goods on payment of damages.
+(2)The plaintiff‚Äôs application may be made at any time before judgment or decree.
 (3)The judgment or decree may be unconditional, or on such terms and conditions as to damages, payment of the price and otherwise as seem just to the court.
 (4)The provisions of this section shall be deemed to be supplementary to, and not in derogation of, the right of specific implement in Scotland.
 [F62(5)This section does not apply to a contract to which Chapter 2 of Part 1 of the Consumer Rights Act 2015 applies (but see the provision made about such contracts in section 19 of that Act).]
@@ -682,7 +682,7 @@ F62
 S. 52(5) inserted (1.10.2015) by Consumer Rights Act 2015 (c. 15), s. 100(5), Sch. 1 para. 29; S.I. 2015/1630, art. 3(g) (with art. 6(1))
 
 53 Remedy for breach of warranty.
-(1)Where there is a breach of warranty by the seller, or where the buyer elects (or is compelled) to treat any breach of a condition on the part of the seller as a breach of warranty, the buyer is not by reason only of such breach of warranty entitled to reject the goods; but he mayó
+(1)Where there is a breach of warranty by the seller, or where the buyer elects (or is compelled) to treat any breach of a condition on the part of the seller as a breach of warranty, the buyer is not by reason only of such breach of warranty entitled to reject the goods; but he may‚Äî
 (a)set up against the seller the breach of warranty in diminution or extinction of the price, or
 (b)maintain an action against the seller for damages for the breach of warranty.
 (2)The measure of damages for breach of warranty is the estimated loss directly and naturally resulting, in the ordinary course of events, from the breach of warranty.
@@ -700,8 +700,8 @@ F64
 S. 53(5) substituted (3.1.1995) by 1994 c. 35, ss. 7(1), 8(2), Sch. 2 para. 5(7) (with s. 8(3)).
 
 F65[53A Measure of damages as respects Scotland.
-(1)The measure of damages for the sellerís breach of contract is the estimated loss directly and naturally resulting, in the ordinary course of events, from the breach.
-(2)Where the sellerís breach consists of the delivery of goods which are not of the quality required by the contract and the buyer retains the goods, such loss as aforesaid is prima facie the difference between the value of the goods at the time of delivery to the buyer and the value they would have had if they had fulfilled the contract.
+(1)The measure of damages for the seller‚Äôs breach of contract is the estimated loss directly and naturally resulting, in the ordinary course of events, from the breach.
+(2)Where the seller‚Äôs breach consists of the delivery of goods which are not of the quality required by the contract and the buyer retains the goods, such loss as aforesaid is prima facie the difference between the value of the goods at the time of delivery to the buyer and the value they would have had if they had fulfilled the contract.
 [F66(2A)This section does not apply to a contract to which Chapter 2 of Part 1 of the Consumer Rights Act 2015 applies (but see the provision made about such contracts in section 19 of that Act).]
 (3)This section applies to Scotland only.]
 Annotations: Help about Annotation
@@ -773,40 +773,40 @@ Where a reference is made in this Act to a reasonable time the question what is 
 60 Rights etc. enforceable by action.
 Where a right, duty or liability is declared by this Act, it may (unless otherwise provided by this Act) be enforced by action.
 61 Interpretation.
-(1)In this Act, unless the context or subject matter otherwise requires,ó
-ìactionî includes counterclaim and set-off, and in Scotland condescendence and claim and compensation;
-[F73 ì bulk î means a mass or collection of goods of the same kind whichó 
+(1)In this Act, unless the context or subject matter otherwise requires,‚Äî
+‚Äúaction‚Äù includes counterclaim and set-off, and in Scotland condescendence and claim and compensation;
+[F73 ‚Äú bulk ‚Äù means a mass or collection of goods of the same kind which‚Äî 
 (a)is contained in a defined space or area; and
 (b)is such that any goods in the bulk are interchangeable with any other goods therein of the same number or quantity;]
-ìbusinessî includes a profession and the activities of any government department (including a Northern Ireland department) or local or public authority;
-ìbuyerî means a person who buys or agrees to buy goods;
+‚Äúbusiness‚Äù includes a profession and the activities of any government department (including a Northern Ireland department) or local or public authority;
+‚Äúbuyer‚Äù means a person who buys or agrees to buy goods;
 F74... 
-ìcontract of saleî includes an agreement to sell as well as a sale;
-ìcredit-brokerî means a person acting in the course of a business of credit brokerage carried on by him, that is a business of effecting introductions of individuals desiring to obtain creditó
+‚Äúcontract of sale‚Äù includes an agreement to sell as well as a sale;
+‚Äúcredit-broker‚Äù means a person acting in the course of a business of credit brokerage carried on by him, that is a business of effecting introductions of individuals desiring to obtain credit‚Äî
 (a)to persons carrying on any business so far as it relates to the provision of credit, or
 (b)to other persons engaged in credit brokerage;
-ìdefendantî includes in Scotland defender, respondent, and claimant in a multiplepoinding;
-ìdeliveryî means voluntary transfer of possession from one person to another ; [F75except that in relation to sections 20A and 20B above it includes such appropriation of goods to the contract as results in property in the goods being transferred to the buyer;]
-ìdocument of title to goodsî has the same meaning as it has in the Factors Acts;
-ìFactors Actsî means the M3Factors Act 1889, the M4Factors (Scotland) 1890, and any enactment amending or substituted for the same;
-ìfaultî means wrongful act or default;
-ìfuture goodsî means goods to be manufactured or acquired by the seller after the making of the contract of sale;
-ìgoodsî includes all personal chattels other than things in action and money, and in Scotland all corporeal moveables except money; and in particular ìgoodsî includes emblements, industrial growing crops, and things attached to or forming part of the land which are agreed to be severed before sale or under the contract of sale; [F76and includes an undivided share in goods;]
-ìplaintiffî includes pursuer, complainer, claimant in a multiplepoinding and defendant or defender counter-claiming;
+‚Äúdefendant‚Äù includes in Scotland defender, respondent, and claimant in a multiplepoinding;
+‚Äúdelivery‚Äù means voluntary transfer of possession from one person to another ; [F75except that in relation to sections 20A and 20B above it includes such appropriation of goods to the contract as results in property in the goods being transferred to the buyer;]
+‚Äúdocument of title to goods‚Äù has the same meaning as it has in the Factors Acts;
+‚ÄúFactors Acts‚Äù means the M3Factors Act 1889, the M4Factors (Scotland) 1890, and any enactment amending or substituted for the same;
+‚Äúfault‚Äù means wrongful act or default;
+‚Äúfuture goods‚Äù means goods to be manufactured or acquired by the seller after the making of the contract of sale;
+‚Äúgoods‚Äù includes all personal chattels other than things in action and money, and in Scotland all corporeal moveables except money; and in particular ‚Äúgoods‚Äù includes emblements, industrial growing crops, and things attached to or forming part of the land which are agreed to be severed before sale or under the contract of sale; [F76and includes an undivided share in goods;]
+‚Äúplaintiff‚Äù includes pursuer, complainer, claimant in a multiplepoinding and defendant or defender counter-claiming;
 F77...
-ìpropertyî means the general property in goods, and not merely a special property;
+‚Äúproperty‚Äù means the general property in goods, and not merely a special property;
 F78...
 F79. . .
-ìsaleî includes a bargain and sale as well as a sale and delivery;
-ìsellerî means a person who sells or agrees to sell goods;
-ìspecific goodsî means goods identified and agreed on at the time a contract of sale is made [F80and includes an undivided share, specified as a fraction or percentage, of goods identified and agreed on as aforesaid];
-ìwarrantyî (as regards England and Wales and Northern Ireland) means an agreement with reference to goods which are the subject of a contract of sale, but collateral to the main purpose of such contract, the breach of which gives rise to a claim for damages, but not to a right to reject the goods and treat the contract as repudiated.
+‚Äúsale‚Äù includes a bargain and sale as well as a sale and delivery;
+‚Äúseller‚Äù means a person who sells or agrees to sell goods;
+‚Äúspecific goods‚Äù means goods identified and agreed on at the time a contract of sale is made [F80and includes an undivided share, specified as a fraction or percentage, of goods identified and agreed on as aforesaid];
+‚Äúwarranty‚Äù (as regards England and Wales and Northern Ireland) means an agreement with reference to goods which are the subject of a contract of sale, but collateral to the main purpose of such contract, the breach of which gives rise to a claim for damages, but not to a right to reject the goods and treat the contract as repudiated.
 F81(2). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 (3)A thing is deemed to be done in good faith within the meaning of this Act when it is in fact done honestly, whether it is done negligently or not.
 (4)A person is deemed to be insolvent within the meaning of this Act if he has either ceased to pay his debts in the ordinary course of business or he cannot pay his debts as they become due, [F82whether he has committed an act of bankruptcy or not,][F83and whether he has become a notour bankrupt or not].
 (5)Goods are in a deliverable state within the meaning of this Act when they are in such a state that the buyer would under the contract be bound to take delivery of them.
 F84( 5A ). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-(6)As regards the definition of ìbusinessî in subsection (1) above, paragraph 14 of Schedule 1 below applies in relation to a contract made on or after 18 May 1973 and before 1 February 1978, and paragraph 15 in relation to one made before 18 May 1973.
+(6)As regards the definition of ‚Äúbusiness‚Äù in subsection (1) above, paragraph 14 of Schedule 1 below applies in relation to a contract made on or after 18 May 1973 and before 1 February 1978, and paragraph 15 in relation to one made before 18 May 1973.
 Annotations: Help about Annotation
 Amendments (Textual)
 
@@ -859,7 +859,7 @@ M4
 (2)The rules of the common law, including the law merchant, except in so far as they are inconsistent with the provisions of [F85legislation including this Act and the Consumer Rights Act 2015], and in particular the rules relating to the law of principal and agent and the effect of fraud, misrepresentation, duress or coercion, mistake, or other invalidating cause, apply to contracts for the sale of goods.
 (3)Nothing in this Act or the M5Sale of Goods 1893 affects the enactments relating to bills of sale, or any enactment relating to the sale of goods which is not expressly repealed or amended by this Act or that.
 (4)The provisions of this Act about contracts of sale do not apply to a transaction in the form of a contract of sale which is intended to operate by way of mortgage, pledge, charge, or other security.
-(5)Nothing in this Act prejudices or affects the landlordís right of hypothec F86. . . in Scotland.
+(5)Nothing in this Act prejudices or affects the landlord‚Äôs right of hypothec F86. . . in Scotland.
 Annotations: Help about Annotation
 Amendments (Textual)
 
@@ -898,32 +898,32 @@ Preliminary
 (3)Nothing in this Schedule affects a contract made before 1 January 1894.
 
 Section 11: condition treated as warranty
-2In relation to a contract made before 22 April 1967 or (in the application of this Act to Northern Ireland) 28 July 1967, in section 11(4) after ìor part of them,î insert ì or where the contract is for specific goods, the property in which has passed to the buyer, î.
+2In relation to a contract made before 22 April 1967 or (in the application of this Act to Northern Ireland) 28 July 1967, in section 11(4) after ‚Äúor part of them,‚Äù insert ‚Äú or where the contract is for specific goods, the property in which has passed to the buyer, ‚Äù.
 
 Section 12: implied terms about title etc.
-3In relation to a contract made before 18 May 1973 substitute the following for section 12:ó
+3In relation to a contract made before 18 May 1973 substitute the following for section 12:‚Äî
 
-ì12 Implied terms about title, etc.
-In a contract of sale, unless the circumstances of the contract are such as to show a different intention, there isó
+‚Äú12 Implied terms about title, etc.
+In a contract of sale, unless the circumstances of the contract are such as to show a different intention, there is‚Äî
 (a)an implied condition on the part of the seller that in the case of a sale he has a right to sell the goods, and in the case of an agreement to sell he will have such a right at the time when the property is to pass;
 (b)an implied warranty that the buyer will have and enjoy quiet possession of the goods;
-(c)an implied warranty that the goods will be free from any charge or encumbrance in favour of any third party, not declared or known to the buyer before or at the time when the contract is made.î
+(c)an implied warranty that the goods will be free from any charge or encumbrance in favour of any third party, not declared or known to the buyer before or at the time when the contract is made.‚Äù
 Section 13: sale by description
 4In relation to a contract made before 18 May 1973, omit section 13(3).
 
 Section 14: quality or fitness (i)
-5In relation to a contract made on or after 18 May 1973 and before the appointed day, substitute the following for section 14:ó
+5In relation to a contract made on or after 18 May 1973 and before the appointed day, substitute the following for section 14:‚Äî
 
-ì14 Implied terms about quality or fitness.
+‚Äú14 Implied terms about quality or fitness.
 (1)Except as provided by this section and section 15 below and subject to any other enactment, there is no implied condition or warranty about the quality or fitness for any particular purpose of goods supplied under a contract of sale.
-(2)Where the seller sells goods in the course of a business, there is an implied condition that the goods supplied under the contract are of merchantable quality, except that there is no such conditionó
-(a)as regards defects specifically drawn to the buyerís attention before the contract is made; or
+(2)Where the seller sells goods in the course of a business, there is an implied condition that the goods supplied under the contract are of merchantable quality, except that there is no such condition‚Äî
+(a)as regards defects specifically drawn to the buyer‚Äôs attention before the contract is made; or
 (b)if the buyer examines the goods before the contract is made, as regards defects which that examination ought to reveal.
-(3)Where the seller sells goods in the course of a business and the buyer, expressly or by implication, makes known to the seller any particular purpose for which the goods are being bought, there is an implied condition that the goods supplied under the contract are reasonably fit for that purpose, whether or not that is a purpose for which such goods are commonly supplied, except where the circumstances show that the buyer does not rely, or that it is unreasonable for him to rely, on the sellerís skill or judgment.
+(3)Where the seller sells goods in the course of a business and the buyer, expressly or by implication, makes known to the seller any particular purpose for which the goods are being bought, there is an implied condition that the goods supplied under the contract are reasonably fit for that purpose, whether or not that is a purpose for which such goods are commonly supplied, except where the circumstances show that the buyer does not rely, or that it is unreasonable for him to rely, on the seller‚Äôs skill or judgment.
 (4)An implied condition or warranty about quality or fitness for a particular purpose may be annexed to a contract of sale by usage.
 (5)The preceding provisions of this section apply to a sale by a person who in the course of a business is acting as agent for another as they apply to a sale by a principal in the course of a business, except where that other is not selling in the course of a business and either the buyer knows that fact or reasonable steps are taken to bring it to the notice of the buyer before the contract is made.
 (6)Goods of any kind are of merchantable quality within the meaning of subsection (2) above if they are as fit for the purpose or purposes for which goods of that kind are commonly bought as it is reasonable to expect having regard to any description applied to them, the price (if relevant) and all the other relevant circumstances.
-(7)In the application of subsection (3) above to an agreement for the sale of goods under which the purchase price or part of it is payable by instalments any reference to the seller includes a reference to the person by whom any antecedent negotiations are conducted; and section 58(3) and (5) of the M7Hire-Purchase Act 1965, section 54(3) and (5) of the M8Hire-Purchase (Scotland) Act 1965 and section 65(3) and (5) of the M9Hire-Purchase Act (Northern Ireland) 1966 (meaning of antecedent negotiations and related expressions) apply in relation to this subsection as in relation to each of those Acts, but as if a reference to any such agreement were included in the references in subsection (3) of each of those sections to the agreements there mentioned.î
+(7)In the application of subsection (3) above to an agreement for the sale of goods under which the purchase price or part of it is payable by instalments any reference to the seller includes a reference to the person by whom any antecedent negotiations are conducted; and section 58(3) and (5) of the M7Hire-Purchase Act 1965, section 54(3) and (5) of the M8Hire-Purchase (Scotland) Act 1965 and section 65(3) and (5) of the M9Hire-Purchase Act (Northern Ireland) 1966 (meaning of antecedent negotiations and related expressions) apply in relation to this subsection as in relation to each of those Acts, but as if a reference to any such agreement were included in the references in subsection (3) of each of those sections to the agreements there mentioned.‚Äù
 Annotations: Help about Annotation
 Marginal Citations
 
@@ -937,77 +937,77 @@ M9
 1966 c. 42 (N.I.).
 
 Section 14: quality or fitness (ii)
-6In relation to a contract made before 18 May 1973 substitute the following for section 14:ó
+6In relation to a contract made before 18 May 1973 substitute the following for section 14:‚Äî
 
-ì14 Implied terms about quality or fitness.
+‚Äú14 Implied terms about quality or fitness.
 (1)Subject to this and any other Act, there is no implied condition or warranty about the quality or fitness for any particular purpose of goods supplied under a contract of sale.
-(2)Where the buyer, expressly or by implication, makes known to the seller the particular purpose for which the goods are required, so as to show that the buyer relies on the sellerís skill or judgment, and the goods are of a description which it is in the course of the sellerís business to supply (whether he is the manufacturer or not), there is an implied condition that the goods will be reasonably fit for such purpose, except that in the case of a contract for the sale of a specified article under its patent or other trade name there is no implied condition as to its fitness for any particular purpose.
+(2)Where the buyer, expressly or by implication, makes known to the seller the particular purpose for which the goods are required, so as to show that the buyer relies on the seller‚Äôs skill or judgment, and the goods are of a description which it is in the course of the seller‚Äôs business to supply (whether he is the manufacturer or not), there is an implied condition that the goods will be reasonably fit for such purpose, except that in the case of a contract for the sale of a specified article under its patent or other trade name there is no implied condition as to its fitness for any particular purpose.
 (3)Where goods are bought by description from a seller who deals in goods of that description (whether he is the manufacturer or not), there is an implied condition that the goods will be of merchantable quality; but if the buyer has examined the goods, there is no implied condition as regards defects which such examination ought to have revealed.
 (4)An implied condition or warranty about quality or fitness for a particular purpose may be annexed by the usage of trade.
-(5)An express condition or warranty does not negative a condition or warranty implied by this Act unless inconsistent with it.î
+(5)An express condition or warranty does not negative a condition or warranty implied by this Act unless inconsistent with it.‚Äù
 Section 15: sale by sample
 7In relation to a contract made before 18 May 1973, omit section 15(3).
 
 Section 22: market overt
-8In relation to a contract under which goods were sold before 1 January 1968 or (in the application of this Act to Northern Ireland) 29 August 1967, add the following paragraph at the end of section 22(1):ó
+8In relation to a contract under which goods were sold before 1 January 1968 or (in the application of this Act to Northern Ireland) 29 August 1967, add the following paragraph at the end of section 22(1):‚Äî
 
-ìNothing in this subsection affects the law relating to the sale of horses.î
+‚ÄúNothing in this subsection affects the law relating to the sale of horses.‚Äù
 
 Section 25: buyer in possession
 9In relation to a contract under which a person buys or agrees to buy goods and which is made before the appointed day, omit section 25(2).
 
 Section 35: acceptance
-10In relation to a contract made before 22 April 1967 or (in the application of this Act to Northern Ireland) 28 July 1967, in section 35(1) omit ì(except where section 34 above otherwise provides)î.
+10In relation to a contract made before 22 April 1967 or (in the application of this Act to Northern Ireland) 28 July 1967, in section 35(1) omit ‚Äú(except where section 34 above otherwise provides)‚Äù.
 
 Section 55: exclusion of implied terms (i)
-11In relation to a contract made on or after 18 May 1973 and before 1 February 1978 substitute the following for section 55:ó
+11In relation to a contract made on or after 18 May 1973 and before 1 February 1978 substitute the following for section 55:‚Äî
 
-ì55 Exclusion of implied terms.
+‚Äú55 Exclusion of implied terms.
 (1)Where a right, duty or liability would arise under a contract of sale of goods by implication of law, it may be negatived or varied by express agreement, or by the course of dealing between the parties, or by such usage as binds both parties to the contract, but the preceding provision has effect subject to the following provisions of this section.
 (2)An express condition or warranty does not negative a condition or warranty implied by this Act unless inconsistent with it.
 (3)In the case of a contract of sale of goods, any term of that or any other contract exempting from all or any of the provisions of section 12 above is void.
 (4)In the case of a contract of sale of goods, any term of that or any other contract exempting from all or any of the provisions of section 13, 14 or 15 above is void in the case of a consumer sale and is, in any other case, not enforceable to the extent that it is shown that it would not be fair or reasonable to allow reliance on the term.
-(5)In determining for the purposes of subsection (4) above whether or not reliance on any such term would be fair or reasonable regard shall be had to all the circumstances of the case and in particular to the following mattersó
+(5)In determining for the purposes of subsection (4) above whether or not reliance on any such term would be fair or reasonable regard shall be had to all the circumstances of the case and in particular to the following matters‚Äî
 (a)the strength of the bargaining positions of the seller and buyer relative to each other, taking into account, among other things, the availability of suitable alternative products and sources of supply;
 (b)whether the buyer received an inducement to agree to the term or in accepting it had an opportunity of buying the goods or suitable alternatives without it from any source of supply;
 (c)whether the buyer knew or ought reasonably to have known of the existence and extent of the term (having regard, among other things, to any custom of the trade and any previous course of dealing between the parties);
 (d)where the term exempts from all or any of the provisions of section 13, 14 or 15 above if some condition is not complied with, whether it was reasonable at the time of the contract to expect that compliance with that condition would be practicable;
 (e)whether the goods were manufactured, processed, or adapted to the special order of the buyer.
 (6)Subsection (5) above does not prevent the court from holding, in accordance with any rule of law, that a term which purports to exclude or restrict any of the provisions of section 13, 14 or 15 above is not a term of the contract.
-(7)In this section ìconsumer saleî means a sale of goods (other than a sale by auction or by competitive tender) by a seller in the course of a business where the goodsó
+(7)In this section ‚Äúconsumer sale‚Äù means a sale of goods (other than a sale by auction or by competitive tender) by a seller in the course of a business where the goods‚Äî
 (a)are of a type ordinarily bought for private use or consumption; and
 (b)are sold to a person who does not buy or hold himself out as buying them in the course of a business.
 (8)The onus of proving that a sale falls to be treated for the purposes of this section as not being a consumer sale lies on the party so contending.
 (9)Any reference in this section to a term exempting from all or any of the provisions of any section of this Act is a reference to a term which purports to exclude or restrict, or has the effect of excluding or restricting, the operation of all or any of the provisions of that section, or the exercise of a right conferred by any provision of that section, or any liability of the seller for breach of a condition or warranty implied by any provision of that section.
 (10)It is hereby declared that any reference in this section to a term of a contract includes a reference to a term which although not contained in a contract is incorporated in the contract by another term of the contract.
 (11)Nothing in this section prevents the parties to a contract for the international sale of goods from negativing or varying any right, duty or liability which would otherwise arise by implication of law under sections 12 to 15 above.
-(12)In subsection (11) above ìcontract for the international sale of goodsî means a contract of sale of goods made by parties whose places of business (or, if they have none, habitual residences) are in the territories of different States (the Channel Islands and the Isle of Man being treated for this purpose as different States from the United Kingdom) and in the case of which one of the following conditions is satisfied:ó
+(12)In subsection (11) above ‚Äúcontract for the international sale of goods‚Äù means a contract of sale of goods made by parties whose places of business (or, if they have none, habitual residences) are in the territories of different States (the Channel Islands and the Isle of Man being treated for this purpose as different States from the United Kingdom) and in the case of which one of the following conditions is satisfied:‚Äî
 (a)the contract involves the sale of goods which are at the time of the conclusion of the contract in the course of carriage or will be carried from the territory of one State to the territory of another; or
 (b)the acts constituting the offer and acceptance have been effected in the territories of different States; or
-(c)delivery of the goods is to be made in the territory of a State other than that within whose territory the acts constituting the offer and the acceptance have been effected.î
+(c)delivery of the goods is to be made in the territory of a State other than that within whose territory the acts constituting the offer and the acceptance have been effected.‚Äù
 Section 55: exclusion of implied terms (ii)
-12In relation to a contract made before 18 May 1973 substitute the following for section 55:ó
+12In relation to a contract made before 18 May 1973 substitute the following for section 55:‚Äî
 
-ì55 Exclusion of implied terms.
-Where a right, duty or liability would arise under a contract of sale by implication of law, it may be negatived or varied by express agreement, or by the course of dealing between the parties, or by such usage as binds both parties to the contract.î
+‚Äú55 Exclusion of implied terms.
+Where a right, duty or liability would arise under a contract of sale by implication of law, it may be negatived or varied by express agreement, or by the course of dealing between the parties, or by such usage as binds both parties to the contract.‚Äù
 Section 56: conflict of laws
 13(1)In relation to a contract made on or after 18 May 1973 and before 1 February 1978 substitute for section 56 the section set out in sub-paragraph (3) below.
 (2)In relation to a contract made otherwise than as mentioned in sub-paragraph (1) above, ignore section 56 and this paragraph.
 
-(3)The section mentioned in sub-paragraph (1) above is as follows:ó
+(3)The section mentioned in sub-paragraph (1) above is as follows:‚Äî
 
-ì56 Conflict of laws.
+‚Äú56 Conflict of laws.
 (1)Where the proper law of a contract for the sale of goods would, apart from a term that it should be the law of some other country or a term to the like effect, be the law of any part of the United Kingdom, or where any such contract contains a term which purports to substitute, or has the effect of substituting, provisions of the law of some other country for all or any of the provisions of sections 12 to 15 and 55 above, those sections shall, notwithstanding that term but subject to subsection (2) below, apply to the contract.
 (2)Nothing in subsection (1) above prevents the parties to a contract for the international sale of goods from negativing or varying any right, duty or liability which would otherwise arise by implication of law under sections 12 to 15 above.
-(3)In subsection (2) above ìcontract for the international sale of goodsî means a contract of sale of goods made by parties whose places of business (or, if they have none, habitual residences) are in the territories of different States (the Channel Islands and the Isle of Man being treated for this purpose as different States from the United Kingdom) and in the case of which one of the following conditions is satisfied:ó
+(3)In subsection (2) above ‚Äúcontract for the international sale of goods‚Äù means a contract of sale of goods made by parties whose places of business (or, if they have none, habitual residences) are in the territories of different States (the Channel Islands and the Isle of Man being treated for this purpose as different States from the United Kingdom) and in the case of which one of the following conditions is satisfied:‚Äî
 (a)the contract involves the sale of goods which are at the time of the conclusion of the contract in the course of carriage or will be carried from the territory of one State to the territory of another; or
 (b)the acts constituting the offer and acceptance have been effected in the territories of different States; or
-(c)delivery of the goods is to be made in the territory of a State other than that within whose territory the acts constituting the offer and the acceptance have been effected.î
-Section 61(1): definition of ìbusinessî (i)
-14In relation to a contract made on or after 18 May 1973 and before 1 February 1978, in the definition of ìbusinessî in section 61(1) for ìor local or public authorityî substitute ì , local authority or statutory undertaker î.
+(c)delivery of the goods is to be made in the territory of a State other than that within whose territory the acts constituting the offer and the acceptance have been effected.‚Äù
+Section 61(1): definition of ‚Äúbusiness‚Äù (i)
+14In relation to a contract made on or after 18 May 1973 and before 1 February 1978, in the definition of ‚Äúbusiness‚Äù in section 61(1) for ‚Äúor local or public authority‚Äù substitute ‚Äú , local authority or statutory undertaker ‚Äù.
 
-Section 61(1): definition of ìbusinessî (ii)
-15In relation to a contract made before 18 May 1973 omit the definition of ìbusinessî in section 61(1).
+Section 61(1): definition of ‚Äúbusiness‚Äù (ii)
+15In relation to a contract made before 18 May 1973 omit the definition of ‚Äúbusiness‚Äù in section 61(1).
 
 Section 63.
 X1SCHEDULE 2
@@ -1027,17 +1027,17 @@ F87
 Sch. 2 para. 1 the entry relating to the War Risks Insurance Act 1939 repealed by Statute Law (Repeals) Act 1981 (c. 19), s. 1(1), Sch. 1 Pt. XI
 
 Law Reform (Frustrated Contracts) Act 1943 (6 & 7 Geo. 6 c. 40)
-2In section 2(5)(c) of the Law Reform (Frustrated Contracts) Act 1943 for ìsection seven of the Sale of Goods Act 1893î substitute ì section 7 of the Sale of Goods Act 1979 î.
+2In section 2(5)(c) of the Law Reform (Frustrated Contracts) Act 1943 for ‚Äúsection seven of the Sale of Goods Act 1893‚Äù substitute ‚Äú section 7 of the Sale of Goods Act 1979 ‚Äù.
 
 Frustrated Contracts Act (Northern Ireland) 1947 (c. 2)
-3In section 2(5)(c) of the Frustrated Contracts Act (Northern Ireland) 1947 for ìsection seven of the Sale of Goods Act 1893î substitute ì section 7 of the Sale of Goods Act 1979 î.
+3In section 2(5)(c) of the Frustrated Contracts Act (Northern Ireland) 1947 for ‚Äúsection seven of the Sale of Goods Act 1893‚Äù substitute ‚Äú section 7 of the Sale of Goods Act 1979 ‚Äù.
 
 Hire-Purchase Act 1964 (c. 53)
-4In section 27(5) of the Hire-Purchase Act 1964 (as originally enacted and as substituted by Schedule 4 to the M10Consumer Credit Act 1974)ó
+4In section 27(5) of the Hire-Purchase Act 1964 (as originally enacted and as substituted by Schedule 4 to the M10Consumer Credit Act 1974)‚Äî
 
-(a)in paragraph (a) for ìsection 21 of the Sale of Goods Act 1893î substitute ì section 21 of the Sale of Goods Act 1979 î;
+(a)in paragraph (a) for ‚Äúsection 21 of the Sale of Goods Act 1893‚Äù substitute ‚Äú section 21 of the Sale of Goods Act 1979 ‚Äù;
 
-(b)in paragraph (b) for ìsection 62(1) of the said Act 0f 1893î substitute ì section 61(1) of the said Act of 1979 î.
+(b)in paragraph (b) for ‚Äúsection 62(1) of the said Act 0f 1893‚Äù substitute ‚Äú section 61(1) of the said Act of 1979 ‚Äù.
 
 Annotations: Help about Annotation
 Marginal Citations
@@ -1046,49 +1046,49 @@ M10
 1974 c. 39.
 
 Hire-Purchase Act 1965 (c. 66)
-5In section 20 of the Hire-Purchase Act 1965ó
+5In section 20 of the Hire-Purchase Act 1965‚Äî
 
-(a)in subsection (1) for ìSection 11(1)(c) of the Sale of Goods Act 1893î substitute ì Section 11(4) of the Sale of Goods Act 1979 î;
+(a)in subsection (1) for ‚ÄúSection 11(1)(c) of the Sale of Goods Act 1893‚Äù substitute ‚Äú Section 11(4) of the Sale of Goods Act 1979 ‚Äù;
 
-(b)in subsection (3) for ìsections 12 to 15 of the Sale of Goods Act 1893î substitute ì sections 12 to 15 of the Sale of Goods Act 1979 î
+(b)in subsection (3) for ‚Äúsections 12 to 15 of the Sale of Goods Act 1893‚Äù substitute ‚Äú sections 12 to 15 of the Sale of Goods Act 1979 ‚Äù
 
-6In section 54 of the Hire-Purchase At 1965 for ìsection 25(2) of the Sale of Goods Act 1893î substitute ì section 25(1) of the Sale of Goods Act 1979 î.
+6In section 54 of the Hire-Purchase At 1965 for ‚Äúsection 25(2) of the Sale of Goods Act 1893‚Äù substitute ‚Äú section 25(1) of the Sale of Goods Act 1979 ‚Äù.
 
-7In section 58(1) of the Hire-Purchase Act 1965 for ìthe Sale of Goods Act 1893î substitute ì the Sale of Goods Act 1979 î.
+7In section 58(1) of the Hire-Purchase Act 1965 for ‚Äúthe Sale of Goods Act 1893‚Äù substitute ‚Äú the Sale of Goods Act 1979 ‚Äù.
 
 Hire-Purchase (Scotland) Act 1965 (c. 67)
-8In section 20 of the Hire-Purchase (Scotland) Act 1965 for ì1893î substitute ì 1979 î.
+8In section 20 of the Hire-Purchase (Scotland) Act 1965 for ‚Äú1893‚Äù substitute ‚Äú 1979 ‚Äù.
 
-9In section 50 of the Hire-Purchase (Scotland) Act 1965 for ìsection 25(2) of the Sale of Goods Act 1893î substitute ì section 25(1) of the Sale of Goods Act 1979 î.
+9In section 50 of the Hire-Purchase (Scotland) Act 1965 for ‚Äúsection 25(2) of the Sale of Goods Act 1893‚Äù substitute ‚Äú section 25(1) of the Sale of Goods Act 1979 ‚Äù.
 
-10In section 54(1) of the Hire-Purchase (Scotland) Act 1965 for ìthe Sale of Goods Act 1893î substitute ì the Sale of Goods Act 1979 î.
+10In section 54(1) of the Hire-Purchase (Scotland) Act 1965 for ‚Äúthe Sale of Goods Act 1893‚Äù substitute ‚Äú the Sale of Goods Act 1979 ‚Äù.
 
 Hire-Purchase Act (Northern Ireland) 1966 (c. 42)
-11In section 20 of the Hire-Purchase Act (Northern Ireland) 1966ó
+11In section 20 of the Hire-Purchase Act (Northern Ireland) 1966‚Äî
 
-(a)in subsection (1) for ìSection 11(1)(c) of the Sale of Goods Act 1893î substitute ì Section 11(4) of the Sale of Goods Act 1979 î;
+(a)in subsection (1) for ‚ÄúSection 11(1)(c) of the Sale of Goods Act 1893‚Äù substitute ‚Äú Section 11(4) of the Sale of Goods Act 1979 ‚Äù;
 
-(b)in subsection (3) for ì1893î substitute ì 1979 î.
+(b)in subsection (3) for ‚Äú1893‚Äù substitute ‚Äú 1979 ‚Äù.
 
-12In section 54 of the Hire-Purchase Act (Northern Ireland) 1966 for ìsection 25(2) of the Sale of Goods Act 1893î substitute ì section 25(1) of the Sale of Goods Act 1979 î.
+12In section 54 of the Hire-Purchase Act (Northern Ireland) 1966 for ‚Äúsection 25(2) of the Sale of Goods Act 1893‚Äù substitute ‚Äú section 25(1) of the Sale of Goods Act 1979 ‚Äù.
 
-13In section 62(5) of the Hire-Purchase Act (Northern Ireland) 1966 (as originally enacted and as substituted by Schedule 4 to the Consumer Credit Act 1974)ó
+13In section 62(5) of the Hire-Purchase Act (Northern Ireland) 1966 (as originally enacted and as substituted by Schedule 4 to the Consumer Credit Act 1974)‚Äî
 
-(a)in paragraph (a) for ì1893î substitute ì 1979 î;
+(a)in paragraph (a) for ‚Äú1893‚Äù substitute ‚Äú 1979 ‚Äù;
 
-(b)in paragraph (b) for ìsection 62(1) of the said Act of 1893î substitute ì section 61(1) of the said Act of 1979 î.
+(b)in paragraph (b) for ‚Äúsection 62(1) of the said Act of 1893‚Äù substitute ‚Äú section 61(1) of the said Act of 1979 ‚Äù.
 
-14In section 65(1) of the Hire-Purchase Act (Northern Ireland) 1966 for ìthe Sale of Goods Act 1893î substitute ì the Sale of Goods Act 1979 î.
+14In section 65(1) of the Hire-Purchase Act (Northern Ireland) 1966 for ‚Äúthe Sale of Goods Act 1893‚Äù substitute ‚Äú the Sale of Goods Act 1979 ‚Äù.
 
 Uniform Laws on International Sales Act 1967 (c. 45)
-15For section 1(4) of the Uniform Laws on International Sales Act 1967 substitute the following:ó
+15For section 1(4) of the Uniform Laws on International Sales Act 1967 substitute the following:‚Äî
 
-ì(4)In determining the extent of the application of the Uniform Law on Sales by virtue of Artticle 4 thereof (choice of parties)ó
+‚Äú(4)In determining the extent of the application of the Uniform Law on Sales by virtue of Artticle 4 thereof (choice of parties)‚Äî
 (a)in relation to a contract made before 18 May 1973, no provision of the law of any part of the United Kingdom shall be regarded as a mandatory provision within the meaning of that Article;
 (b)in relation to a contract made on or after 18 May 1973 and before 1 February 1978, no provision of that law shall be so regarded except sections 12 to 15, 55 and 56 of the Sale of Goods Act 1979;
-(c)in relation to a contract made on or after 1 February 1978, no provision of that law shall be so regarded except sections 12 to 15 of the Sale of Goods Act 1979î.
+(c)in relation to a contract made on or after 1 February 1978, no provision of that law shall be so regarded except sections 12 to 15 of the Sale of Goods Act 1979‚Äù.
 Supply of Goods (Implied Terms) Act 1973 (c. 13)
-16In section 14(1) of the Supply of Goods (Implied Terms) Act 1973 (as originally enacted and as substituted by Schedule 4 to the M11Consumer Credit Act 1974) for ìSection 11(1)(c) of the principal Actî substitute ì Section 11(4) of the Sale of Goods Act 1979 î.
+16In section 14(1) of the Supply of Goods (Implied Terms) Act 1973 (as originally enacted and as substituted by Schedule 4 to the M11Consumer Credit Act 1974) for ‚ÄúSection 11(1)(c) of the principal Act‚Äù substitute ‚Äú Section 11(4) of the Sale of Goods Act 1979 ‚Äù.
 
 Annotations: Help about Annotation
 Marginal Citations
@@ -1096,16 +1096,16 @@ Marginal Citations
 M11
 1974 c. 39
 
-17For the definition of ìconsumer saleî in section 15(1) of the Supply of Goods (Implied Terms) Act 1973 substituteó
+17For the definition of ‚Äúconsumer sale‚Äù in section 15(1) of the Supply of Goods (Implied Terms) Act 1973 substitute‚Äî
 
-ìconsumer saleî has the same meaning as in section 55 of the Sale of Goods Act 1979 (as set out in paragraph 11 of Schedule 1 to that Act).
+‚Äúconsumer sale‚Äù has the same meaning as in section 55 of the Sale of Goods Act 1979 (as set out in paragraph 11 of Schedule 1 to that Act).
 Consumer Credit Act 1974 (c. 39)
-18In section 189(1) of the Consumer Credit Act 1974, in the definition of ìgoodsî, for ìsection 62(1) of the Sale of Goods Act 1893î subsitute ì section 61(1) of the Sale of Goods Act 1979 î.
+18In section 189(1) of the Consumer Credit Act 1974, in the definition of ‚Äúgoods‚Äù, for ‚Äúsection 62(1) of the Sale of Goods Act 1893‚Äù subsitute ‚Äú section 61(1) of the Sale of Goods Act 1979 ‚Äù.
 
 Unfair Contract Terms Act 1977 (c. 50)
-19In section 6 of the Unfair Contract Terms Act 1977ó
+19In section 6 of the Unfair Contract Terms Act 1977‚Äî
 
-(a)in subsection (1)(a) for ìsection 12 of the Sale of Goods Act 1893î substitute ì section 12 of the Sale of Goods Act 1979 î;
+(a)in subsection (1)(a) for ‚Äúsection 12 of the Sale of Goods Act 1893‚Äù substitute ‚Äú section 12 of the Sale of Goods Act 1979 ‚Äù;
 
 F88(b). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
@@ -1115,9 +1115,9 @@ Amendments (Textual)
 F88
 Sch. 2 para. 19(b) omitted (1.10.2015) by virtue of Consumer Rights Act 2015 (c. 15), s. 100(5), Sch. 4 para. 39(a); S.I. 2015/1630, art. 3(g) (with art. 6(1))
 
-20In section 14 of the Unfair Contract Terms Act 1977, in the definition of ìgoodsî, for ìthe Sale of Goods Act 1893î subsitute ì the Sale of Goods Act 1979 î.
+20In section 14 of the Unfair Contract Terms Act 1977, in the definition of ‚Äúgoods‚Äù, for ‚Äúthe Sale of Goods Act 1893‚Äù subsitute ‚Äú the Sale of Goods Act 1979 ‚Äù.
 
-21In section 20(1)(a) F89... of the Unfair Contract Terms Act 1977 for ì1893î substitute F89... ì 1979 î.
+21In section 20(1)(a) F89... of the Unfair Contract Terms Act 1977 for ‚Äú1893‚Äù substitute F89... ‚Äú 1979 ‚Äù.
 
 Annotations: Help about Annotation
 Amendments (Textual)
@@ -1125,7 +1125,7 @@ Amendments (Textual)
 F89
 Words in Sch. 2 para. 21 omitted (1.10.2015) by virtue of Consumer Rights Act 2015 (c. 15), s. 100(5), Sch. 4 para. 39(b); S.I. 2015/1630, art. 3(g) (with art. 6(1))
 
-22In section 25(1) of the Unfair Contract Terms Act 1977, in the definition of ìgoodsî, for ìthe Sale of Goods Act 1893î substitute ì the Sale of Goods Act 1979 î.
+22In section 25(1) of the Unfair Contract Terms Act 1977, in the definition of ‚Äúgoods‚Äù, for ‚Äúthe Sale of Goods Act 1893‚Äù substitute ‚Äú the Sale of Goods Act 1979 ‚Äù.
 
 Section 63
 X2SCHEDULE 3
@@ -1139,7 +1139,7 @@ The text of Sch. 2 & Sch. 3 is in the form in which it was originally enacted: i
 Chapter	Short title	Extent of repeal
 56 & 57 Vict. c. 71.	Sale of Goods Act 1893.	The whole Act except section 26.
 1967 c. 7.	Misrepresentation Act 1967.	Section 4.
-In section 6(3) the words ìexcept section 4(2),î.
+In section 6(3) the words ‚Äúexcept section 4(2),‚Äù.
 1967 c. 14 (N.I.)	Misrepresentation Act (Northern Ireland) 1967.	Section 4.
 1973 c. 13.	Supply of Goods (Implied Terms) Act 1973.	Sections 1 to 7.
 Section 18(2).
@@ -1170,7 +1170,7 @@ Offences
 3Where an offence was committed in relation to goods before 1 January 1969 or (in the application of this Act to Northern Ireland) 1 August 1969, the effect of a conviction in respect of the offence is not affected by the repeal by this Act of section 24 of the 1893 Act.
 
 1893 Act, section 26
-4The repeal by this Act of provisions of the 1893 Act does not extend to the following provisions of that Act in so far as they are needed to give effect to or interpret section 26 of that Act, namely, the definitions of ìgoodsî and ìpropertyî in section 62(1), section 62(2) and section 63 (which was repealed subject to savings by the M14Statute Law Revision Act 1908).
+4The repeal by this Act of provisions of the 1893 Act does not extend to the following provisions of that Act in so far as they are needed to give effect to or interpret section 26 of that Act, namely, the definitions of ‚Äúgoods‚Äù and ‚Äúproperty‚Äù in section 62(1), section 62(2) and section 63 (which was repealed subject to savings by the M14Statute Law Revision Act 1908).
 
 Annotations: Help about Annotation
 Marginal Citations

@@ -2,7 +2,7 @@ Consumer Credit Act 2006
 CHAPTER 14
 CONTENTS
 Agreements regulated under the 1974 Act etc.
-1 Definition of ìindividualî
+1 Definition of ‚Äúindividual‚Äù
 2 Removal of financial limits etc.
 3 Exemption relating to high net worth debtors and hirers
 4 Exemption relating to businesses
@@ -21,7 +21,7 @@ Default under regulated agreements
 15 Enforceability of regulated agreements
 16 Time orders
 17 Interest payable on judgment debts etc.
-18 Definition of ìdefault sumî
+18 Definition of ‚Äúdefault sum‚Äù
 Unfair relationships
 19 Unfair relationships between creditors and debtors
 20 Powers of court in relation to unfair relationships
@@ -29,7 +29,7 @@ Unfair relationships
 22 Further provision relating to unfair relationships
 ii Consumer Credit Act 2006 (c. 14)
 Businesses requiring a licence and consequences of not being licensed
-23 Definitions of ìconsumer credit businessî and ìconsumer hire businessî
+23 Definitions of ‚Äúconsumer credit business‚Äù and ‚Äúconsumer hire business‚Äù
 24 Debt administration etc.
 25 Credit information services
 26 Enforcement of agreements by unlicensed trader etc.
@@ -39,7 +39,7 @@ Applications for licences and fitness to hold a licence etc.
 29 Issue of standard licences
 30 Guidance on fitness test
 31 Variation of standard licences etc.
-32 Winding-up of standard licenseeís business
+32 Winding-up of standard licensee‚Äôs business
 33 Consequential amendments relating to ss. 27 to 32
 Duration of licences and charges
 34 Definite and indefinite licences
@@ -88,10 +88,10 @@ Final provisions
 69 Transitional provision and savings
 70 Repeals
 71 Short title, commencement and extent
-Schedule 1 ó Schedule A1 to the 1974 Act
-Schedule 2 ó Part 3A of Schedule 17 to the 2000 Act
-Schedule 3 ó Transitional Provision and Savings
-Schedule 4 ó Repeals
+Schedule 1 ‚Äî Schedule A1 to the 1974 Act
+Schedule 2 ‚Äî Part 3A of Schedule 17 to the 2000 Act
+Schedule 3 ‚Äî Transitional Provision and Savings
+Schedule 4 ‚Äî Repeals
 ELIZABETH II c. 14
 Consumer Credit Act 2006
 2006 CHAPTER 14
@@ -99,36 +99,36 @@ An Act to amend the Consumer Credit Act 1974; to extend the ombudsman
 scheme under the Financial Services and Markets Act 2000 to cover licensees
 under the Consumer Credit Act 1974; and for connected purposes.
 [30th March 2006]
-E IT ENACTED by the Queenís most Excellent Majesty, by and with the advice and
+E IT ENACTED by the Queen‚Äôs most Excellent Majesty, by and with the advice and
 consent of the Lords Spiritual and Temporal, and Commons, in this present
-Parliament assembled, and by the authority of the same, as follows:ó
+Parliament assembled, and by the authority of the same, as follows:‚Äî
 Agreements regulated under the 1974 Act etc.
-1 Definition of ìindividualî
-In section 189(1) of the 1974 Act (definitions) for the definition of ìindividualî
-substituteó
-ìëindividualí includesó
+1 Definition of ‚Äúindividual‚Äù
+In section 189(1) of the 1974 Act (definitions) for the definition of ‚Äúindividual‚Äù
+substitute‚Äî
+‚Äú‚Äòindividual‚Äô includes‚Äî
 (a) a partnership consisting of two or three persons not all
 of whom are bodies corporate; and
 (b) an unincorporated body of persons which does not
 consist entirely of bodies corporate and is not a
-partnership;î.
+partnership;‚Äù.
 2 Removal of financial limits etc.
-(1) In section 8 of the 1974 Act (which defines consumer credit agreements)ó
-(a) in subsection (1) for ìpersonalî substitute ìconsumerî;
+(1) In section 8 of the 1974 Act (which defines consumer credit agreements)‚Äî
+(a) in subsection (1) for ‚Äúpersonal‚Äù substitute ‚Äúconsumer‚Äù;
 (b) subsection (2) shall cease to have effect.
 (2) In section 15(1) of that Act (which defines consumer hire agreements)
-paragraph (c) and the ìandî immediately preceding it shall cease to have effect.
+paragraph (c) and the ‚Äúand‚Äù immediately preceding it shall cease to have effect.
 B
 2 Consumer Credit Act 2006 (c. 14)
 (3) In section 43(3) of that Act (financial and other limits relating to regulation of
-advertisements) paragraph (a) and the ìorî immediately after it shall cease to
+advertisements) paragraph (a) and the ‚Äúor‚Äù immediately after it shall cease to
 have effect.
 3 Exemption relating to high net worth debtors and hirers
-After section 16 of the 1974 Act insertó
-ì16A Exemption relating to high net worth debtors and hirers
+After section 16 of the 1974 Act insert‚Äî
+‚Äú16A Exemption relating to high net worth debtors and hirers
 (1) The Secretary of State may by order provide that this Act shall not
 regulate a consumer credit agreement or a consumer hire agreement
-whereó
+where‚Äî
 (a) the debtor or hirer is a natural person;
 (b) the agreement includes a declaration made by him to the effect
 that he agrees to forgo the protection and remedies that would
@@ -141,45 +141,45 @@ of it was provided to the creditor or owner before the agreement
 was made.
 (2) For the purposes of this section a statement of high net worth is a
 statement to the effect that, in the opinion of the person making it, the
-natural person in relation to whom it is madeó
+natural person in relation to whom it is made‚Äî
 (a) received during the previous financial year income of a
 specified description totalling an amount of not less than the
 specified amount; or
 (b) had throughout that year net assets of a specified description
 with a total value of not less than the specified value.
-(3) Such a statementó
+(3) Such a statement‚Äî
 (a) may not be made by the person in relation to whom it is made;
 (b) must be made by a person of a specified description; and
 (c) is current in relation to an agreement if it was made during the
 period of one year ending with the day on which the agreement
 is made.
-(4) An order under this section may make provision aboutó
+(4) An order under this section may make provision about‚Äî
 (a) how amounts of income and values of net assets are to be
 determined for the purposes of subsection (2)(a) and (b);
-(b) the form, content and signing ofó
+(b) the form, content and signing of‚Äî
 (i) statements of high net worth;
 (ii) declarations for the purposes of subsection (1)(b).
 (5) Where an agreement has two or more debtors or hirers, for the
 purposes of paragraph (c) of subsection (1) a separate statement of high
 net worth must have been made in relation to each of them; and
 paragraph (d) of that subsection shall have effect accordingly.
-(6) In this sectionó
+(6) In this section‚Äî
 Consumer Credit Act 2006 (c. 14) 3
-ëprevious financial yearí means, in relation to a statement of high
+‚Äòprevious financial year‚Äô means, in relation to a statement of high
 net worth, the financial year immediately preceding the
 financial year during which the statement is made;
-ëspecifiedí means specified in an order under this section.
-(7) In subsection (6) ëfinancial yearí means a period of one year ending
+‚Äòspecified‚Äô means specified in an order under this section.
+(7) In subsection (6) ‚Äòfinancial year‚Äô means a period of one year ending
 with 31st March.
-(8) Nothing in this section affects the application of sections 140A to 140C.î
+(8) Nothing in this section affects the application of sections 140A to 140C.‚Äù
 4 Exemption relating to businesses
-Before section 17 of the 1974 Act insertó
-ì16B Exemption relating to businesses
-(1) This Act does not regulateó
+Before section 17 of the 1974 Act insert‚Äî
+‚Äú16B Exemption relating to businesses
+(1) This Act does not regulate‚Äî
 (a) a consumer credit agreement by which the creditor provides the
-debtor with credit exceeding £25,000, or
+debtor with credit exceeding ¬£25,000, or
 (b) a consumer hire agreement that requires the hirer to make
-payments exceeding £25,000,
+payments exceeding ¬£25,000,
 if the agreement is entered into by the debtor or hirer wholly or
 predominantly for the purposes of a business carried on, or intended to
 be carried on, by him.
@@ -189,7 +189,7 @@ predominantly for the purposes of a business carried on, or intended to
 be carried on, by him, the agreement shall be presumed to have been
 entered into by him wholly or predominantly for such purposes.
 (3) But that presumption does not apply if, when the agreement is entered
-intoó
+into‚Äî
 (a) the creditor or owner, or
 (b) any person who has acted on his behalf in connection with the
 entering into of the agreement,
@@ -201,48 +201,48 @@ content and signing of declarations for the purposes of subsection (2).
 (5) Where an agreement has two or more creditors or owners, in subsection
 (3) references to the creditor or owner are references to any one or more
 of them.
-(6) Nothing in this section affects the application of sections 140A to 140C.î
+(6) Nothing in this section affects the application of sections 140A to 140C.‚Äù
 5 Consequential amendments relating to ss. 1 to 4
 (1) In section 8(3) of the 1974 Act (which defines regulated consumer credit
-agreements) after ì16î insert ì, 16A or 16Bî.
-(2) In section 10 of that Act (running-account credit and fixed-sum credit)ó
-(a) in subsection (1) for ìpersonalî wherever occurring substitute
-ìconsumerî;
+agreements) after ‚Äú16‚Äù insert ‚Äú, 16A or 16B‚Äù.
+(2) In section 10 of that Act (running-account credit and fixed-sum credit)‚Äî
+(a) in subsection (1) for ‚Äúpersonal‚Äù wherever occurring substitute
+‚Äúconsumer‚Äù;
 4 Consumer Credit Act 2006 (c. 14)
-(b) in subsection (3)ó
-(i) for ìsection 8(2)î substitute ìparagraph (a) of section 16B(1)î;
-(ii) for ìsubsectionî substitute ìparagraphî.
-(3) In section 17(2) of that Act (small agreements) for ì8(2)î substitute ì16B(1)(a)î.
+(b) in subsection (3)‚Äî
+(i) for ‚Äúsection 8(2)‚Äù substitute ‚Äúparagraph (a) of section 16B(1)‚Äù;
+(ii) for ‚Äúsubsection‚Äù substitute ‚Äúparagraph‚Äù.
+(3) In section 17(2) of that Act (small agreements) for ‚Äú8(2)‚Äù substitute ‚Äú16B(1)(a)‚Äù.
 (4) In section 145(4) of that Act (types of hire businesses relevant to credit
-brokerage) after paragraph (a) insertó
-ì(aa) a business which comprises or relates to consumer hire
+brokerage) after paragraph (a) insert‚Äî
+‚Äú(aa) a business which comprises or relates to consumer hire
 agreements being, otherwise than by virtue of section 16(6),
-exempt agreements;î.
+exempt agreements;‚Äù.
 (5) In subsection (1) of section 158 of that Act (duty of credit reference agency to
-disclose filed information) for paragraph (a) substituteó
-ì(a) a request in writing to that effect from a consumer,î.
-(6) After subsection (4) of that section insertó
-ì(4A) In this section ëconsumerí meansó
+disclose filed information) for paragraph (a) substitute‚Äî
+‚Äú(a) a request in writing to that effect from a consumer,‚Äù.
+(6) After subsection (4) of that section insert‚Äî
+‚Äú(4A) In this section ‚Äòconsumer‚Äô means‚Äî
 (a) a partnership consisting of two or three persons not all of whom
 are bodies corporate; or
 (b) an unincorporated body of persons which does not consist
-entirely of bodies corporate and is not a partnership.î
+entirely of bodies corporate and is not a partnership.‚Äù
 (7) In section 181(1) and (2) of that Act (power to alter monetary limits etc.) for
-ì8(2), 15(1)(c)î substitute ì16B(1)î.
+‚Äú8(2), 15(1)(c)‚Äù substitute ‚Äú16B(1)‚Äù.
 (8) In subsection (5) of section 185 of that Act (agreement with more than one
-debtor or hirer)ó
-(a) in paragraph (b) for ìa body corporateî substitute ìnot an individualî;
-(b) for ìthe body corporate or bodies corporateî substitute ìeach person
-within paragraph (b)î.
-(9) In subsection (6) of that section after ìa body corporateî insert ìwithin
-paragraph (b) of that subsectionî.
-(10) In section 189(1) of that Act (definitions) in the definition of ìexempt
-agreementî after ì16î insert ì, 16A or 16Bî.
+debtor or hirer)‚Äî
+(a) in paragraph (b) for ‚Äúa body corporate‚Äù substitute ‚Äúnot an individual‚Äù;
+(b) for ‚Äúthe body corporate or bodies corporate‚Äù substitute ‚Äúeach person
+within paragraph (b)‚Äù.
+(9) In subsection (6) of that section after ‚Äúa body corporate‚Äù insert ‚Äúwithin
+paragraph (b) of that subsection‚Äù.
+(10) In section 189(1) of that Act (definitions) in the definition of ‚Äúexempt
+agreement‚Äù after ‚Äú16‚Äù insert ‚Äú, 16A or 16B‚Äù.
 Statements to be provided in relation to regulated credit agreements
 6 Statements to be provided in relation to fixed-sum credit agreements
-After section 77 of the 1974 Act insertó
-ì77A Statements to be provided in relation to fixed-sum credit agreements
-(1) The creditor under a regulated agreement for fixed-sum creditó
+After section 77 of the 1974 Act insert‚Äî
+‚Äú77A Statements to be provided in relation to fixed-sum credit agreements
+(1) The creditor under a regulated agreement for fixed-sum credit‚Äî
 (a) shall, within the period of one year beginning with the day after
 the day on which the agreement is made, give the debtor a
 statement under this section; and
@@ -255,33 +255,33 @@ Consumer Credit Act 2006 (c. 14) 5
 (3) The debtor shall have no liability to pay any sum in connection with the
 preparation or the giving to him of a statement under this section.
 (4) The creditor is not required to give the debtor any statement under this
-section once the following conditions are satisfiedó
+section once the following conditions are satisfied‚Äî
 (a) that there is no sum payable under the agreement by the debtor;
 and
 (b) that there is no sum which will or may become so payable.
 (5) Subsection (6) applies if at a time before the conditions mentioned in
-subsection (4) are satisfied the creditor fails to give the debtoró
+subsection (4) are satisfied the creditor fails to give the debtor‚Äî
 (a) a statement under this section within the period mentioned in
 subsection (1)(a); or
 (b) such a statement within the period of one year beginning with
 the day after the day on which such a statement was last given
 to him.
 (6) Where this subsection applies in relation to a failure to give a statement
-under this section to the debtoró
+under this section to the debtor‚Äî
 (a) the creditor shall not be entitled to enforce the agreement
 during the period of non-compliance;
 (b) the debtor shall have no liability to pay any sum of interest to
 the extent calculated by reference to the period of noncompliance or to any part of it; and
 (c) the debtor shall have no liability to pay any default sum which
-(apart from this paragraph)ó
+(apart from this paragraph)‚Äî
 (i) would have become payable during the period of noncompliance; or
 (ii) would have become payable after the end of that period
 in connection with a breach of the agreement which
 occurs during that period (whether or not the breach
 continues after the end of that period).
-(7) In this section ëthe period of non-complianceí means, in relation to a
+(7) In this section ‚Äòthe period of non-compliance‚Äô means, in relation to a
 failure to give a statement under this section to the debtor, the period
-whichó
+which‚Äî
 (a) begins immediately after the end of the period mentioned in
 paragraph (a) or (as the case may be) paragraph (b) of
 subsection (5); and
@@ -289,26 +289,26 @@ subsection (5); and
 debtor or on which the conditions mentioned in subsection (4)
 are satisfied, whichever is earlier.
 (8) This section does not apply in relation to a non-commercial agreement
-or to a small agreement.î
+or to a small agreement.‚Äù
 7 Further provision relating to statements
-(1) In section 78 of the 1974 Act (duty to give information to debtor under runningaccount credit agreement) after subsection (4) insertó
-ì(4A) Regulations may require a statement under subsection (4) to contain
+(1) In section 78 of the 1974 Act (duty to give information to debtor under runningaccount credit agreement) after subsection (4) insert‚Äî
+‚Äú(4A) Regulations may require a statement under subsection (4) to contain
 also information in the prescribed terms about the consequences of the
-debtoró
+debtor‚Äî
 (a) failing to make payments as required by the agreement; or
 6 Consumer Credit Act 2006 (c. 14)
 (b) only making payments of a prescribed description in prescribed
-circumstances.î
-(2) In subsection (7) of that section for ì(4) and (5)î substitute ì(4) to (5)î.
+circumstances.‚Äù
+(2) In subsection (7) of that section for ‚Äú(4) and (5)‚Äù substitute ‚Äú(4) to (5)‚Äù.
 (3) In section 185 of that Act (agreement with more than one debtor or hirer) for
-subsection (2) substituteó
-ì(2) Notwithstanding subsection (1)(a), where credit is provided under an
-agreement to two or more debtors jointly, in performing his dutiesó
+subsection (2) substitute‚Äî
+‚Äú(2) Notwithstanding subsection (1)(a), where credit is provided under an
+agreement to two or more debtors jointly, in performing his duties‚Äî
 (a) in the case of fixed-sum credit, under section 77A, or
 (b) in the case of running-account credit, under section 78(4),
 the creditor need not give statements to any debtor who has signed and
-given to him a notice (a ëdispensing noticeí) authorising him not to
-comply in the debtorís case with section 77A or (as the case may be)
+given to him a notice (a ‚Äòdispensing notice‚Äô) authorising him not to
+comply in the debtor‚Äôs case with section 77A or (as the case may be)
 78(4).
 (2A) A dispensing notice given by a debtor is operative from when it is given
 to the creditor until it is revoked by a further notice given to the creditor
@@ -320,11 +320,11 @@ to whom the credit is provided.
 cease to have effect if any of the debtors dies.
 (2D) A dispensing notice which is operative in relation to an agreement shall
 be operative also in relation to any subsequent agreement which, in
-relation to the earlier agreement, is a modifying agreement.î
+relation to the earlier agreement, is a modifying agreement.‚Äù
 Default under regulated agreements
 8 OFT to prepare information sheets on arrears and default
-At the beginning of Part 7 of the 1974 Act insertó
-ìInformation sheets
+At the beginning of Part 7 of the 1974 Act insert‚Äî
+‚ÄúInformation sheets
 86A OFT to prepare information sheets on arrears and default
 (1) The OFT shall prepare, and give general notice of, an arrears
 information sheet and a default information sheet.
@@ -343,13 +343,13 @@ been given, it shall give general notice of the information sheet as
 revised.
 (7) A revised information sheet takes effect for the purposes of this Part at
 the end of the period of three months beginning with the day on which
-general notice of it is given.î
+general notice of it is given.‚Äù
 9 Notice of sums in arrears under fixed-sum credit agreements etc.
-After section 86A of the 1974 Act (inserted by section 8 of this Act) insertó
-ìSums in arrears and default sums
+After section 86A of the 1974 Act (inserted by section 8 of this Act) insert‚Äî
+‚ÄúSums in arrears and default sums
 86B Notice of sums in arrears under fixed-sum credit agreements etc.
 (1) This section applies where at any time the following conditions are
-satisfiedó
+satisfied‚Äî
 (a) that the debtor or hirer under an applicable agreement is
 required to have made at least two payments under the
 agreement before that time;
@@ -363,7 +363,7 @@ him notices under this section in relation to the agreement; and
 (e) if a judgment has been given in relation to the agreement before
 that time, that there is no sum still to be paid under the
 judgment by the debtor or hirer.
-(2) The creditor or owneró
+(2) The creditor or owner‚Äî
 (a) shall, within the period of 14 days beginning with the day on
 which the conditions mentioned in subsection (1) are satisfied,
 give the debtor or hirer a notice under this section; and
@@ -374,12 +374,12 @@ under this section shall cease when either of the conditions mentioned
 in subsection (4) is satisfied; but if either of those conditions is satisfied
 before the notice required by subsection (2)(a) is given, the duty shall
 not cease until that notice is given.
-(4) The conditions referred to in subsection (3) areó
+(4) The conditions referred to in subsection (3) are‚Äî
 (a) that the debtor or hirer ceases to be in arrears;
 (b) that a judgment is given in relation to the agreement under
 which a sum is required to be paid by the debtor or hirer.
 (5) For the purposes of subsection (4)(a) the debtor or hirer ceases to be in
-arrears whenó
+arrears when‚Äî
 (a) no sum, which he has ever failed to pay under the agreement
 when required, is still owing;
 8 Consumer Credit Act 2006 (c. 14)
@@ -401,24 +401,24 @@ under this section.
 (9) In the case of an applicable agreement under which the debtor or hirer
 must make all payments he is required to make at intervals of one week
 or less, this section shall have effect as if in subsection (1)(a) and (c) for
-ëtwoí there were substituted ëfourí.
+‚Äòtwo‚Äô there were substituted ‚Äòfour‚Äô.
 (10) If an agreement mentioned in subsection (9) was made before the
 beginning of the relevant period, only amounts resulting from failures
 by the debtor or hirer to make payments he is required to have made
 during that period shall be taken into account in determining any
 shortfall for the purposes of subsection (1)(c).
-(11) In subsection (10) ërelevant periodí means the period of 20 weeks
+(11) In subsection (10) ‚Äòrelevant period‚Äô means the period of 20 weeks
 ending with the day on which the debtor or hirer is required to have
 made the most recent payment under the agreement.
-(12) In this section ëapplicable agreementí means an agreement whichó
+(12) In this section ‚Äòapplicable agreement‚Äô means an agreement which‚Äî
 (a) is a regulated agreement for fixed-sum credit or a regulated
 consumer hire agreement; and
-(b) is neither a non-commercial agreement nor a small agreement.î
+(b) is neither a non-commercial agreement nor a small agreement.‚Äù
 10 Notice of sums in arrears under running-account credit agreements
-After section 86B of the 1974 Act (inserted by section 9 of this Act) insertó
-ì86C Notice of sums in arrears under running-account credit agreements
+After section 86B of the 1974 Act (inserted by section 9 of this Act) insert‚Äî
+‚Äú86C Notice of sums in arrears under running-account credit agreements
 (1) This section applies where at any time the following conditions are
-satisfiedó
+satisfied‚Äî
 (a) that the debtor under an applicable agreement is required to
 have made at least two payments under the agreement before
 that time;
@@ -442,15 +442,15 @@ another provision of this Act.
 preparation or the giving to him of the notice.
 (6) Regulations may make provision about the form and content of notices
 under this section.
-(7) In this section ëapplicable agreementí means an agreement whichó
+(7) In this section ‚Äòapplicable agreement‚Äô means an agreement which‚Äî
 (a) is a regulated agreement for running-account credit; and
-(b) is neither a non-commercial agreement nor a small agreement.î
+(b) is neither a non-commercial agreement nor a small agreement.‚Äù
 11 Failure to give notice of sums in arrears
-After section 86C of the 1974 Act (inserted by section 10 of this Act) insertó
-ì86D Failure to give notice of sums in arrears
+After section 86C of the 1974 Act (inserted by section 10 of this Act) insert‚Äî
+‚Äú86D Failure to give notice of sums in arrears
 (1) This section applies where the creditor or owner under an agreement is
 under a duty to give the debtor or hirer notices under section 86B but
-fails to give him such a noticeó
+fails to give him such a notice‚Äî
 (a) within the period mentioned in subsection (2)(a) of that section;
 or
 (b) within the period of six months beginning with the day after the
@@ -461,38 +461,38 @@ do so before the end of the period mentioned in subsection (2) of that
 section.
 (3) The creditor or owner shall not be entitled to enforce the agreement
 during the period of non-compliance.
-(4) The debtor or hirer shall have no liability to payó
+(4) The debtor or hirer shall have no liability to pay‚Äî
 (a) any sum of interest to the extent calculated by reference to the
 period of non-compliance or to any part of it; or
-(b) any default sum which (apart from this paragraph)ó
+(b) any default sum which (apart from this paragraph)‚Äî
 (i) would have become payable during the period of noncompliance; or
 (ii) would have become payable after the end of that period
 in connection with a breach of the agreement which
 occurs during that period (whether or not the breach
 continues after the end of that period).
-(5) In this section ëthe period of non-complianceí means, in relation to a
+(5) In this section ‚Äòthe period of non-compliance‚Äô means, in relation to a
 failure to give a notice under section 86B or 86C to the debtor or hirer,
-the period whichó
+the period which‚Äî
 10 Consumer Credit Act 2006 (c. 14)
 (a) begins immediately after the end of the period mentioned in (as
 the case may be) subsection (1)(a) or (b) or (2); and
 (b) ends at the end of the day mentioned in subsection (6).
-(6) That day isó
+(6) That day is‚Äî
 (a) in the case of a failure to give a notice under section 86B as
 mentioned in subsection (1)(a) of this section, the day on which
 the notice is given to the debtor or hirer;
 (b) in the case of a failure to give a notice under that section as
 mentioned in subsection (1)(b) of this section, the earlier of the
-followingó
+following‚Äî
 (i) the day on which the notice is given to the debtor or
 hirer;
 (ii) the day on which the condition mentioned in subsection
 (4)(a) of that section is satisfied;
 (c) in the case of a failure to give a notice under section 86C, the day
-on which the notice is given to the debtor.î
+on which the notice is given to the debtor.‚Äù
 12 Notice of default sums
-After section 86D of the 1974 Act (inserted by section 11 of this Act) insertó
-ì86E Notice of default sums
+After section 86D of the 1974 Act (inserted by section 11 of this Act) insert‚Äî
+‚Äú86E Notice of default sums
 (1) This section applies where a default sum becomes payable under a
 regulated agreement by the debtor or hirer.
 (2) The creditor or owner shall, within the prescribed period after the
@@ -512,87 +512,87 @@ debtor or hirer.
 (6) The debtor or hirer shall have no liability to pay any sum in connection
 with the preparation or the giving to him of the notice under this
 section.
-(7) Regulations mayó
+(7) Regulations may‚Äî
 (a) provide that this section does not apply in relation to a default
 sum which is less than a prescribed amount;
 (b) make provision about the form and content of notices under this
 section.
 (8) This section does not apply in relation to a non-commercial agreement
-or to a small agreement.î
+or to a small agreement.‚Äù
 Consumer Credit Act 2006 (c. 14) 11
 13 Interest on default sums
-After section 86E of the 1974 Act (inserted by section 12 of this Act) insertó
-ì86F Interest on default sums
+After section 86E of the 1974 Act (inserted by section 12 of this Act) insert‚Äî
+‚Äú86F Interest on default sums
 (1) This section applies where a default sum becomes payable under a
 regulated agreement by the debtor or hirer.
 (2) The debtor or hirer shall only be liable to pay interest in connection
-with the default sum if the interest is simple interest.î
+with the default sum if the interest is simple interest.‚Äù
 14 Default notices
 (1) In subsections (2) and (3) of section 88 of the 1974 Act (contents and effect of
-default notice) for ìsevenî wherever occurring substitute ì14î.
-(2) In subsection (4) of that section after ìitî insert ìand any other prescribed
-matters relating to the agreementî.
-(3) After that subsection insertó
-ì(4A) The default notice must also include a copy of the current default
-information sheet under section 86A.î
+default notice) for ‚Äúseven‚Äù wherever occurring substitute ‚Äú14‚Äù.
+(2) In subsection (4) of that section after ‚Äúit‚Äù insert ‚Äúand any other prescribed
+matters relating to the agreement‚Äù.
+(3) After that subsection insert‚Äî
+‚Äú(4A) The default notice must also include a copy of the current default
+information sheet under section 86A.‚Äù
 15 Enforceability of regulated agreements
 In section 127 of the 1974 Act (enforcement orders in cases of infringement)
 subsections (3) to (5) shall cease to have effect.
 16 Time orders
 (1) In subsection (1) of section 129 of the 1974 Act (time orders) before paragraph
-(c) insertó
-ì(ba) on an application made by a debtor or hirer under this
+(c) insert‚Äî
+‚Äú(ba) on an application made by a debtor or hirer under this
 paragraph after he has been given a notice under section 86B or
-86C; orî.
-(2) After that section insertó
-ì129A Debtor or hirer to give notice of intent etc. to creditor or owner
+86C; or‚Äù.
+(2) After that section insert‚Äî
+‚Äú129A Debtor or hirer to give notice of intent etc. to creditor or owner
 (1) A debtor or hirer may make an application under section 129(1)(ba) in
-relation to a regulated agreement only ifó
+relation to a regulated agreement only if‚Äî
 (a) following his being given the notice under section 86B or 86C,
 he gave a notice within subsection (2) to the creditor or owner;
 and
 (b) a period of at least 14 days has elapsed after the day on which
 he gave that notice to the creditor or owner.
-(2) A notice is within this subsection if itó
+(2) A notice is within this subsection if it‚Äî
 (a) indicates that the debtor or hirer intends to make the
 application;
 (b) indicates that he wants to make a proposal to the creditor or
 owner in relation to his making of payments under the
 agreement; and
-(c) gives details of that proposal.î
+(c) gives details of that proposal.‚Äù
 12 Consumer Credit Act 2006 (c. 14)
 (3) In section 143(b) of that Act (provision which may be made by rules of court in
-Northern Ireland) after ì129(1)(b)î insert ìor (ba)î.
+Northern Ireland) after ‚Äú129(1)(b)‚Äù insert ‚Äúor (ba)‚Äù.
 (4) In section 32(1) of the Sheriff Courts (Scotland) Act 1971 (c. 58) (regulation of
-civil procedure in sheriff court) after paragraph (l) insertó
-ì(m) permitting the debtor or hirer in proceedings foró
+civil procedure in sheriff court) after paragraph (l) insert‚Äî
+‚Äú(m) permitting the debtor or hirer in proceedings for‚Äî
 (i) a time order under section 129 of the Consumer Credit
 Act 1974 (time orders), or
 (ii) variation or revocation, under section 130(6) of that Act
 (variation and revocation of time orders), of a time order
 made under section 129,
 to be represented by a person who is neither an advocate nor a
-solicitor.î
+solicitor.‚Äù
 (5) In section 32(2B) of the Solicitors (Scotland) Act 1980 (c. 46) (offence for
-unqualified persons to prepare certain documents)ó
-(a) after ìrepresentî insert ìó(a)î;
-(b) after ìcauseî insertó
-ì(b) a debtor or hirer in proceedings foró
+unqualified persons to prepare certain documents)‚Äî
+(a) after ‚Äúrepresent‚Äù insert ‚Äú‚Äî(a)‚Äù;
+(b) after ‚Äúcause‚Äù insert‚Äî
+‚Äú(b) a debtor or hirer in proceedings for‚Äî
 (i) a time order under section 129 of the Consumer Credit
 Act 1974 (time orders); or
 (ii) variation or revocation, under section 130(6) of that Act
 (variation and revocation of time orders), of a time order
-made under section 129î.
+made under section 129‚Äù.
 17 Interest payable on judgment debts etc.
-After section 130 of the 1974 Act insertó
-ìInterest
+After section 130 of the 1974 Act insert‚Äî
+‚ÄúInterest
 130A Interest payable on judgment debts etc.
 (1) If the creditor or owner under a regulated agreement wants to be able
 to recover from the debtor or hirer post-judgment interest in connection
 with a sum that is required to be paid under a judgment given in
-relation to the agreement (the ëjudgment sumí), heó
+relation to the agreement (the ‚Äòjudgment sum‚Äô), he‚Äî
 (a) after the giving of that judgment, shall give the debtor or hirer
-a notice under this section (the ëfirst required noticeí); and
+a notice under this section (the ‚Äòfirst required notice‚Äô); and
 (b) after the giving of the first required notice, shall give the debtor
 or hirer further notices under this section at intervals of not
 more than six months.
@@ -606,7 +606,7 @@ after the day on which such a notice was last given to the debtor or
 hirer, the debtor or hirer shall have no liability to pay post-judgment
 interest in connection with the judgment sum to the extent that the
 interest is calculated by reference to the whole or to a part of the period
-whichó
+which‚Äî
 Consumer Credit Act 2006 (c. 14) 13
 (a) begins immediately after the end of that period of six months;
 and
@@ -620,40 +620,40 @@ to the agreement by virtue of another provision of this Act.
 (6) Regulations may make provision about the form and content of notices
 under this section.
 (7) This section does not apply in relation to post-judgment interest which
-is required to be paid by virtue of any of the followingó
+is required to be paid by virtue of any of the following‚Äî
 (a) section 4 of the Administration of Justice (Scotland) Act 1972;
 (b) Article 127 of the Judgments Enforcement (Northern Ireland)
 Order 1981;
 (c) section 74 of the County Courts Act 1984.
 (8) This section does not apply in relation to a non-commercial agreement
 or to a small agreement.
-(9) In this section ëpost-judgment interestí means interest to the extent
+(9) In this section ‚Äòpost-judgment interest‚Äô means interest to the extent
 calculated by reference to a period occurring after the giving of the
-judgment under which the judgment sum is required to be paid.î
-18 Definition of ìdefault sumî
-(1) After section 187 of the 1974 Act insertó
-ì187A Definition of ëdefault sumí
-(1) In this Act ëdefault sumí means, in relation to the debtor or hirer under
+judgment under which the judgment sum is required to be paid.‚Äù
+18 Definition of ‚Äúdefault sum‚Äù
+(1) After section 187 of the 1974 Act insert‚Äî
+‚Äú187A Definition of ‚Äòdefault sum‚Äô
+(1) In this Act ‚Äòdefault sum‚Äô means, in relation to the debtor or hirer under
 a regulated agreement, a sum (other than a sum of interest) which is
 payable by him under the agreement in connection with a breach of the
 agreement by him.
 (2) But a sum is not a default sum in relation to the debtor or hirer simply
 because, as a consequence of his breach of the agreement, he is required
-to pay it earlier than he would otherwise have had to.î
-(2) In section 189(1) of that Act (definitions) after the definition of ìdefault noticeî
-insertó
-ìëdefault sumí has the meaning given by section 187A;î.
+to pay it earlier than he would otherwise have had to.‚Äù
+(2) In section 189(1) of that Act (definitions) after the definition of ‚Äúdefault notice‚Äù
+insert‚Äî
+‚Äú‚Äòdefault sum‚Äô has the meaning given by section 187A;‚Äù.
 14 Consumer Credit Act 2006 (c. 14)
 Unfair relationships
 19 Unfair relationships between creditors and debtors
-After section 140 of the 1974 Act insertó
-ìUnfair relationships
+After section 140 of the 1974 Act insert‚Äî
+‚ÄúUnfair relationships
 140A Unfair relationships between creditors and debtors
 (1) The court may make an order under section 140B in connection with a
 credit agreement if it determines that the relationship between the
 creditor and the debtor arising out of the agreement (or the agreement
 taken with any related agreement) is unfair to the debtor because of one
-or more of the followingó
+or more of the following‚Äî
 (a) any of the terms of the agreement or of any related agreement;
 (b) the way in which the creditor has exercised or enforced any of
 his rights under the agreement or any related agreement;
@@ -672,12 +672,12 @@ creditor.
 relationship notwithstanding that the relationship may have ended.
 (5) An order under section 140B shall not be made in connection with a
 credit agreement which is an exempt agreement by virtue of section
-16(6C).î
+16(6C).‚Äù
 20 Powers of court in relation to unfair relationships
-After section 140A of the 1974 Act (inserted by section 19 of this Act) insertó
-ì140B Powers of court in relation to unfair relationships
+After section 140A of the 1974 Act (inserted by section 19 of this Act) insert‚Äî
+‚Äú140B Powers of court in relation to unfair relationships
 (1) An order under this section in connection with a credit agreement may
-do one or more of the followingó
+do one or more of the following‚Äî
 (a) require the creditor, or any associate or former associate of his,
 to repay (in whole or in part) any sum paid by the debtor or by
 a surety by virtue of the agreement or any related agreement
@@ -699,7 +699,7 @@ related agreement;
 (g) direct accounts to be taken, or (in Scotland) an accounting to be
 made, between any persons.
 (2) An order under this section may be made in connection with a credit
-agreement onlyó
+agreement only‚Äî
 (a) on an application made by the debtor or by a surety;
 (b) at the instance of the debtor or a surety in any proceedings in
 any court to which the debtor and the creditor are parties, being
@@ -711,7 +711,7 @@ agreement or any related agreement is relevant.
 (3) An order under this section may be made notwithstanding that its
 effect is to place on the creditor, or any associate or former associate of
 his, a burden in respect of an advantage enjoyed by another person.
-(4) An application under subsection (2)(a) may only be madeó
+(4) An application under subsection (2)(a) may only be made‚Äî
 (a) in England and Wales, to the county court;
 (b) in Scotland, to the sheriff court;
 (c) in Northern Ireland, to the High Court (subject to subsection
@@ -720,10 +720,10 @@ his, a burden in respect of an advantage enjoyed by another person.
 district in which the debtor or surety resides or carries on business.
 (6) In Northern Ireland such an application may be made to the county
 court if the credit agreement is an agreement under which the creditor
-provides the debtor withó
-(a) fixed-sum credit not exceeding £15,000; or
+provides the debtor with‚Äî
+(a) fixed-sum credit not exceeding ¬£15,000; or
 (b) running-account credit on which the credit limit does not
-exceed £15,000.
+exceed ¬£15,000.
 (7) Without prejudice to any provision which may be made by rules of
 court made in relation to county courts in Northern Ireland, such rules
 may provide that an application made by virtue of subsection (6) may
@@ -735,25 +735,25 @@ might be the subject of an order under this section made a party to the
 proceedings.
 (9) If, in any such proceedings, the debtor or a surety alleges that the
 relationship between the creditor and the debtor is unfair to the debtor,
-it is for the creditor to prove to the contrary.î
+it is for the creditor to prove to the contrary.‚Äù
 16 Consumer Credit Act 2006 (c. 14)
 21 Interpretation of ss. 140A and 140B of the 1974 Act
-After section 140B of the 1974 Act (inserted by section 20 of this Act) insertó
-ì140C Interpretation of ss. 140A and 140B
-(1) In this section and in sections 140A and 140B ëcredit agreementí means
-any agreement between an individual (the ëdebtorí) and any other
-person (the ëcreditorí) by which the creditor provides the debtor with
+After section 140B of the 1974 Act (inserted by section 20 of this Act) insert‚Äî
+‚Äú140C Interpretation of ss. 140A and 140B
+(1) In this section and in sections 140A and 140B ‚Äòcredit agreement‚Äô means
+any agreement between an individual (the ‚Äòdebtor‚Äô) and any other
+person (the ‚Äòcreditor‚Äô) by which the creditor provides the debtor with
 credit of any amount.
 (2) References in this section and in sections 140A and 140B to the creditor
-or to the debtor under a credit agreement includeó
+or to the debtor under a credit agreement include‚Äî
 (a) references to the person to whom his rights and duties under
 the agreement have passed by assignment or operation of law;
 (b) where two or more persons are the creditor or the debtor,
 references to any one or more of those persons.
-(3) The definition of ëcourtí in section 189(1) does not apply for the
+(3) The definition of ‚Äòcourt‚Äô in section 189(1) does not apply for the
 purposes of sections 140A and 140B.
 (4) References in sections 140A and 140B to an agreement related to a credit
-agreement (the ëmain agreementí) are references toó
+agreement (the ‚Äòmain agreement‚Äô) are references to‚Äî
 (a) a credit agreement consolidated by the main agreement;
 (b) a linked transaction in relation to the main agreement or to a
 credit agreement within paragraph (a);
@@ -766,103 +766,103 @@ be treated as being a linked transaction in relation to that agreement if
 it would have been such a transaction had that agreement been a
 regulated consumer credit agreement.
 (6) For the purposes of this section and section 140B the definitions of
-ësecurityí and ësuretyí in section 189(1) apply (with any appropriate
-changes) in relation toó
+‚Äòsecurity‚Äô and ‚Äòsurety‚Äô in section 189(1) apply (with any appropriate
+changes) in relation to‚Äî
 (a) a credit agreement which is not a consumer credit agreement as
 if it were a consumer credit agreement; and
 (b) a transaction which is a linked transaction by virtue of
 subsection (5).
-(7) For the purposes of this section a credit agreement (the ëearlier
-agreementí) is consolidated by another credit agreement (the ëlater
-agreementí) ifó
+(7) For the purposes of this section a credit agreement (the ‚Äòearlier
+agreement‚Äô) is consolidated by another credit agreement (the ‚Äòlater
+agreement‚Äô) if‚Äî
 (a) the later agreement is entered into by the debtor (in whole or in
 part) for purposes connected with debts owed by virtue of the
 earlier agreement; and
 (b) at any time prior to the later agreement being entered into the
-parties to the earlier agreement includedó
+parties to the earlier agreement included‚Äî
 (i) the debtor under the later agreement; and
 (ii) the creditor under the later agreement or an associate or
 a former associate of his.
 Consumer Credit Act 2006 (c. 14) 17
 (8) Further, if the later agreement is itself consolidated by another credit
 agreement (whether by virtue of this subsection or subsection (7)), then
-the earlier agreement is consolidated by that other agreement as well.î
+the earlier agreement is consolidated by that other agreement as well.‚Äù
 22 Further provision relating to unfair relationships
-(1) After section 140C of the 1974 Act (inserted by section 21 of this Act) insertó
-ì140D Advice and information
+(1) After section 140C of the 1974 Act (inserted by section 21 of this Act) insert‚Äî
+‚Äú140D Advice and information
  The advice and information published by the OFT under section 229 of
 the Enterprise Act 2002 shall indicate how the OFT expects sections
-140A to 140C of this Act to interact with Part 8 of that Act.î
-(2) In section 16 of that Act (exempt agreements) before subsection (8) insertó
-ì(7A) Nothing in this section affects the application of sections 140A to 140C.î
+140A to 140C of this Act to interact with Part 8 of that Act.‚Äù
+(2) In section 16 of that Act (exempt agreements) before subsection (8) insert‚Äî
+‚Äú(7A) Nothing in this section affects the application of sections 140A to 140C.‚Äù
 (3) Sections 137 to 140 of that Act (extortionate credit bargains) shall cease to have
 effect.
-(4) In section 181 of that Act (power to alter monetary limits etc.)ó
-(a) in subsection (1) before ì155(1)î insert ì140B(6),î;
-(b) in subsection (2) before ìshallî insert ìor 140B(6)î.
+(4) In section 181 of that Act (power to alter monetary limits etc.)‚Äî
+(a) in subsection (1) before ‚Äú155(1)‚Äù insert ‚Äú140B(6),‚Äù;
+(b) in subsection (2) before ‚Äúshall‚Äù insert ‚Äúor 140B(6)‚Äù.
 Businesses requiring a licence and consequences of not being licensed
-23 Definitions of ìconsumer credit businessî and ìconsumer hire businessî
-In section 189(1) of the 1974 Act (definitions)ó
-(a) for the definition of ìconsumer credit businessî substituteó
-ìëconsumer credit businessí means any business being
+23 Definitions of ‚Äúconsumer credit business‚Äù and ‚Äúconsumer hire business‚Äù
+In section 189(1) of the 1974 Act (definitions)‚Äî
+(a) for the definition of ‚Äúconsumer credit business‚Äù substitute‚Äî
+‚Äú‚Äòconsumer credit business‚Äô means any business being
 carried on by a person so far as it comprises or relates
-toó
+to‚Äî
 (a) the provision of credit by him, or
 (b) otherwise his being a creditor,
-under regulated consumer credit agreements;î
-(b) for the definition of ìconsumer hire businessî substituteó
-ìëconsumer hire businessí means any business being
+under regulated consumer credit agreements;‚Äù
+(b) for the definition of ‚Äúconsumer hire business‚Äù substitute‚Äî
+‚Äú‚Äòconsumer hire business‚Äô means any business being
 carried on by a person so far as it comprises or relates
-toó
+to‚Äî
 (a) the bailment or (in Scotland) the hiring of goods
 by him, or
 (b) otherwise his being an owner,
-under regulated consumer hire agreements;î.
+under regulated consumer hire agreements;‚Äù.
 24 Debt administration etc.
 (1) In subsection (1) of section 145 of the 1974 Act (types of ancillary credit
-business) for the ìorî after paragraph (d) substituteó
-ì(da) debt administration,î.
-(2) After subsection (7) of that section insertó
-ì(7A) Subject to section 146(7), debt administration is the taking of stepsó
+business) for the ‚Äúor‚Äù after paragraph (d) substitute‚Äî
+‚Äú(da) debt administration,‚Äù.
+(2) After subsection (7) of that section insert‚Äî
+‚Äú(7A) Subject to section 146(7), debt administration is the taking of steps‚Äî
 18 Consumer Credit Act 2006 (c. 14)
 (a) to perform duties under a consumer credit agreement or a
 consumer hire agreement on behalf of the creditor or owner, or
 (b) to exercise or to enforce rights under such an agreement on
 behalf of the creditor or owner,
-so far as the taking of such steps is not debt-collecting.î
+so far as the taking of such steps is not debt-collecting.‚Äù
 (3) In subsection (6) of section 146 of that Act (persons who are to be treated as not
-carrying on types of ancillary credit businesses)ó
-(a) after ìan agreement ifî insert ìany of the following conditions is
-satisfiedî;
-(b) for paragraphs (a) and (b) substituteó
-ì(aa) that he is the creditor or owner under the agreement,
-orî;
-(c) at the beginning of each of paragraphs (c) to (e) insert ìthatî.
-(4) After that subsection insertó
-ì(7) It is not debt administration for a person to take steps to perform duties,
+carrying on types of ancillary credit businesses)‚Äî
+(a) after ‚Äúan agreement if‚Äù insert ‚Äúany of the following conditions is
+satisfied‚Äù;
+(b) for paragraphs (a) and (b) substitute‚Äî
+‚Äú(aa) that he is the creditor or owner under the agreement,
+or‚Äù;
+(c) at the beginning of each of paragraphs (c) to (e) insert ‚Äúthat‚Äù.
+(4) After that subsection insert‚Äî
+‚Äú(7) It is not debt administration for a person to take steps to perform duties,
 or to exercise or enforce rights, under an agreement on behalf of the
 creditor or owner if any of the conditions mentioned in subsection
-(6)(aa) to (e) is satisfied in relation to that person.î
+(6)(aa) to (e) is satisfied in relation to that person.‚Äù
 (5) In subsection (3) of section 177 of that Act (saving for registered charges) and
-in the subsection (3) applied by virtue of subsection (5) of that section for ìa
-business of debt-collectingî substitute ìa consumer credit business, a
+in the subsection (3) applied by virtue of subsection (5) of that section for ‚Äúa
+business of debt-collecting‚Äù substitute ‚Äúa consumer credit business, a
 consumer hire business or a business of debt-collecting or debt
-administrationî.
-(6) In section 189(1) of that Act (definitions) after the definition of ìdebt-adjustingî
-insertó
-ìëdebt administrationí has the meaning given by section
-145(7A);î.
+administration‚Äù.
+(6) In section 189(1) of that Act (definitions) after the definition of ‚Äúdebt-adjusting‚Äù
+insert‚Äî
+‚Äú‚Äòdebt administration‚Äô has the meaning given by section
+145(7A);‚Äù.
 25 Credit information services
 (1) In subsection (1) of section 145 of the 1974 Act (types of ancillary credit
-business) before paragraph (e) insertó
-ì(db) the provision of credit information services, orî.
-(2) Before subsection (8) of that section insertó
-ì(7B) A person provides credit information services ifó
+business) before paragraph (e) insert‚Äî
+‚Äú(db) the provision of credit information services, or‚Äù.
+(2) Before subsection (8) of that section insert‚Äî
+‚Äú(7B) A person provides credit information services if‚Äî
 (a) he takes any steps mentioned in subsection (7C) on behalf of an
 individual; or
 (b) he gives advice to an individual in relation to the taking of any
 such steps.
-(7C) Those steps are steps taken with a viewó
+(7C) Those steps are steps taken with a view‚Äî
 (a) to ascertaining whether a credit information agency (other than
 that person himself if he is one) holds information relevant to
 the financial standing of an individual;
@@ -872,10 +872,10 @@ Consumer Credit Act 2006 (c. 14) 19
 (c) to securing the correction of, the omission of anything from, or
 the making of any other kind of modification of, such
 information so held; or
-(d) to securing that such an agency which holds such informationó
+(d) to securing that such an agency which holds such information‚Äî
 (i) stops holding it; or
 (ii) does not provide it to another person.
-(7D) In subsection (7C) ëcredit information agencyí meansó
+(7D) In subsection (7C) ‚Äòcredit information agency‚Äô means‚Äî
 (a) a person carrying on a consumer credit business or a consumer
 hire business;
 (b) a person carrying on a business so far as it comprises or relates
@@ -888,30 +888,30 @@ credit agreements being, otherwise than by virtue of section
 (d) a person carrying on a business which would be a consumer
 hire business except that it comprises or relates to consumer
 hire agreements being, otherwise than by virtue of section 16(6),
-exempt agreements.î
+exempt agreements.‚Äù
 (3) In section 151 of that Act (advertisements relating to ancillary credit
-businesses)ó
-(a) in subsection (2) for ìorî substitute ìtoî and after ìliquidation of debtsî
-insert ìor to provide credit information servicesî;
-(b) in subsection (3) for ìor debt-counsellingî substitute ì, debtcounselling or the provision of credit information servicesî;
-(c) in subsection (4) after ìadvertisementî insert ì(other than one for credit
-information services)î.
-(4) In each of the following provisions of that Act for ìor debt-counsellingî
-substitute ì, debt-counselling or the provision of credit information servicesîó
+businesses)‚Äî
+(a) in subsection (2) for ‚Äúor‚Äù substitute ‚Äúto‚Äù and after ‚Äúliquidation of debts‚Äù
+insert ‚Äúor to provide credit information services‚Äù;
+(b) in subsection (3) for ‚Äúor debt-counselling‚Äù substitute ‚Äú, debtcounselling or the provision of credit information services‚Äù;
+(c) in subsection (4) after ‚Äúadvertisement‚Äù insert ‚Äú(other than one for credit
+information services)‚Äù.
+(4) In each of the following provisions of that Act for ‚Äúor debt-counselling‚Äù
+substitute ‚Äú, debt-counselling or the provision of credit information services‚Äù‚Äî
 (a) section 152(1) (application of sections 52 to 54 to ancillary credit
 businesses);
 (b) section 154 (prohibition of canvassing ancillary credit business off trade
 premises);
 (c) section 156 (regulations about agreements entered into for ancillary
 credit businesses).
-(5) In section 189(1) of that Act (definitions) after the definition of ìcredit
-brokerageî insertó
-ìëcredit information servicesí has the meaning given by section
-145(7B).î
+(5) In section 189(1) of that Act (definitions) after the definition of ‚Äúcredit
+brokerage‚Äù insert‚Äî
+‚Äú‚Äòcredit information services‚Äô has the meaning given by section
+145(7B).‚Äù
 26 Enforcement of agreements by unlicensed trader etc.
 (1) In section 40 of the 1974 Act (enforcement of regulated agreements made by
-unlicensed trader) for subsections (1) and (2) substituteó
-ì(1) A regulated agreement is not enforceable against the debtor or hirer by
+unlicensed trader) for subsections (1) and (2) substitute‚Äî
+‚Äú(1) A regulated agreement is not enforceable against the debtor or hirer by
 a person acting in the course of a consumer credit business or a
 consumer hire business (as the case may be) if that person is not
 20 Consumer Credit Act 2006 (c. 14)
@@ -920,7 +920,7 @@ business (as the case may be) of a description which covers the
 enforcement of the agreement.
 (1A) Unless the OFT has made an order under subsection (2) which applies
 to the agreement, a regulated agreement is not enforceable against the
-debtor or hirer ifó
+debtor or hirer if‚Äî
 (a) it was made by the creditor or owner in the course of a
 consumer credit business or a consumer hire business (as the
 case may be); and
@@ -928,8 +928,8 @@ case may be); and
 on a consumer credit business or a consumer hire business (as
 the case may be) of a description which covered the making of
 the agreement.
-(2) Whereó
-(a) during any period a person (the ëtraderí) has made regulated
+(2) Where‚Äî
+(a) during any period a person (the ‚Äòtrader‚Äô) has made regulated
 agreements in the course of a consumer credit business or a
 consumer hire business (as the case may be), and
 (b) during that period he was not licensed to carry on a consumer
@@ -937,18 +937,18 @@ credit business or a consumer hire business (as the case may be)
 of a description which covered the making of those agreements,
 he or his successor in title may apply to the OFT for an order that the
 agreements are to be treated for the purposes of subsection (1A) as if he
-had been licensed as required.î
-(2) In subsection (4) of that sectionó
-(a) in paragraph (a) for ìregulated agreements made by the trader during
-that periodî substitute ìthe regulated agreements in questionî;
-(b) in paragraph (b) after ìcoveringî insert ìthe making of those
-agreements duringî;
-(c) in paragraph (c) for ìobtain a licenceî substitute ìbe licensed as
-requiredî.
-(3) In subsection (6) of that section after ìThis sectionî insert ì(apart from
-subsection (1))î.
-(4) After that subsection insertó
-ì(7) Subsection (1) does not apply to the enforcement of a regulated
+had been licensed as required.‚Äù
+(2) In subsection (4) of that section‚Äî
+(a) in paragraph (a) for ‚Äúregulated agreements made by the trader during
+that period‚Äù substitute ‚Äúthe regulated agreements in question‚Äù;
+(b) in paragraph (b) after ‚Äúcovering‚Äù insert ‚Äúthe making of those
+agreements during‚Äù;
+(c) in paragraph (c) for ‚Äúobtain a licence‚Äù substitute ‚Äúbe licensed as
+required‚Äù.
+(3) In subsection (6) of that section after ‚ÄúThis section‚Äù insert ‚Äú(apart from
+subsection (1))‚Äù.
+(4) After that subsection insert‚Äî
+‚Äú(7) Subsection (1) does not apply to the enforcement of a regulated
 agreement by a consumer credit EEA firm unless that firm is precluded
 from enforcing it as a result of a prohibition or restriction mentioned in
 subsection (6)(a) or (b).
@@ -957,43 +957,43 @@ agreement made by a person if by virtue of section 21(2) or (3) he was
 not required to be licensed to make the agreement.
 (9) Subsection (1) does not apply to the enforcement of a regulated
 agreement by a person if by virtue of section 21(2) or (3) he is not
-required to be licensed to enforce the agreement.î
+required to be licensed to enforce the agreement.‚Äù
 Consumer Credit Act 2006 (c. 14) 21
 Applications for licences and fitness to hold a licence etc.
 27 Charge on applicants for licences etc.
-(1) After section 6 of the 1974 Act insertó
-ì6A Charge on applicants for licences etc.
+(1) After section 6 of the 1974 Act insert‚Äî
+‚Äú6A Charge on applicants for licences etc.
 (1) An applicant for a licence, or for the renewal of a licence, shall pay the
 OFT a charge towards the costs of carrying out its functions under this
 Act.
 (2) The amount of the charge payable by an applicant shall be determined
 in accordance with provision made by the OFT by general notice.
 (3) The provision that may be made by the OFT under subsection (2)
-includesó
+includes‚Äî
 (a) different provision in relation to persons of different
 descriptions;
 (b) provision for no charge at all to be payable by persons of
 specified descriptions.
 (4) The approval of the Secretary of State and the Treasury is required for
-a general notice under subsection (2).î
+a general notice under subsection (2).‚Äù
 (2) In section 6 of that Act (which contains provision relating to applications) after
-subsection (2) insertó
-ì(2A) The application must also be accompaniedó
+subsection (2) insert‚Äî
+‚Äú(2A) The application must also be accompanied‚Äî
 (a) in the case of an application for a licence or for the renewal of a
 licence, by the charge payable by virtue of section 6A;
-(b) in any other case, by the specified fee.î
-(3) In section 189 of that Act (definitions) after subsection (1) insertó
-ì(1A) In sections 36E(3), 70(4), 73(4) and 75(2) and paragraphs 14 and 15 of
-Schedule A1 ëcostsí, in relation to proceedings in Scotland, means
-expenses.î
+(b) in any other case, by the specified fee.‚Äù
+(3) In section 189 of that Act (definitions) after subsection (1) insert‚Äî
+‚Äú(1A) In sections 36E(3), 70(4), 73(4) and 75(2) and paragraphs 14 and 15 of
+Schedule A1 ‚Äòcosts‚Äô, in relation to proceedings in Scotland, means
+expenses.‚Äù
 (4) In section 191(1)(a) of that Act (special provisions as to Northern Ireland) after
-ìnoticesî insert ì, chargesî.
+‚Äúnotices‚Äù insert ‚Äú, charges‚Äù.
 28 Applications for standard licences
-After section 24 of the 1974 Act insertó
-ì24A Applications for standard licences
+After section 24 of the 1974 Act insert‚Äî
+‚Äú24A Applications for standard licences
 (1) An application for a standard licence shall, in relation to each type of
 business which is covered by the application, state whether the
-applicant is applyingó
+applicant is applying‚Äî
 (a) for the licence to cover the carrying on of that type of business
 with no limitation; or
 (b) for the licence to cover the carrying on of that type of business
@@ -1004,7 +1004,7 @@ business.
 shall set out the description or descriptions of business in question.
 (3) References in this Part to a type of business are references to a type of
 business within subsection (4).
-(4) The types of business within this subsection areó
+(4) The types of business within this subsection are‚Äî
 (a) a consumer credit business;
 (b) a consumer hire business;
 (c) a business so far as it comprises or relates to credit brokerage;
@@ -1017,7 +1017,7 @@ administration;
 credit information services;
 (i) a business so far as it comprises or relates to the operation of a
 credit reference agency.
-(5) The OFTó
+(5) The OFT‚Äî
 (a) shall by general notice specify the descriptions of business
 which can be set out in an application for the purposes of
 subsection (2) in relation to a type of business;
@@ -1025,18 +1025,18 @@ subsection (2) in relation to a type of business;
 subsection (1)(b) cannot be made in relation to one or more of
 the types of business within subsection (4)(c) to (i).
 (6) The power of the OFT under subsection (5) includes power to make
-different provision for different cases or classes of case.î
+different provision for different cases or classes of case.‚Äù
 29 Issue of standard licences
 (1) In section 25 of the 1974 Act (licensee to be a fit person) for subsection (1)
-substituteó
-ì(1) If an applicant for a standard licenceó
+substitute‚Äî
+‚Äú(1) If an applicant for a standard licence‚Äî
 (a) makes an application within section 24A(1)(a) in relation to a
 type of business, and
 (b) satisfies the OFT that he is a fit person to carry on that type of
 business with no limitation,
 he shall be entitled to be issued with a standard licence covering the
 carrying on of that type of business with no limitation.
-(1AA) If such an applicantó
+(1AA) If such an applicant‚Äî
 (a) makes an application within subsection (1)(b) of section 24A in
 relation to a type of business, and
 (b) satisfies the OFT that he is a fit person to carry on that type of
@@ -1052,7 +1052,7 @@ Consumer Credit Act 2006 (c. 14) 23
 mentioned in subsection (1) or (1AA) (as the case may be), he shall
 nevertheless be entitled to be issued with a standard licence covering
 the carrying on of that type of business so far as it falls within one or
-more descriptions of business ifó
+more descriptions of business if‚Äî
 (a) he satisfies the OFT that he is a fit person to carry on that type
 of business so far as it falls within the description or
 descriptions in question;
@@ -1060,17 +1060,17 @@ descriptions in question;
 and
 (c) the licence would not cover any activity which was not covered
 by his application.
-(1AC) In this section ëdescription of businessí means, in relation to a type of
+(1AC) In this section ‚Äòdescription of business‚Äô means, in relation to a type of
 business, a description of business specified in a general notice under
 section 24A(5)(a).
 (1AD) An applicant shall not, by virtue of this section, be issued with a licence
 unless he satisfies the OFT that the name or names under which he
-would be licensed is or are not misleading or otherwise undesirable.î
-(2) For subsection (2) of that section substituteó
-ì(2) In determining whether an applicant for a licence is a fit person for the
+would be licensed is or are not misleading or otherwise undesirable.‚Äù
+(2) For subsection (2) of that section substitute‚Äî
+‚Äú(2) In determining whether an applicant for a licence is a fit person for the
 purposes of this section the OFT shall have regard to any matters
-appearing to it to be relevant including (amongst other things)ó
-(a) the applicantís skills, knowledge and experience in relation to
+appearing to it to be relevant including (amongst other things)‚Äî
+(a) the applicant‚Äôs skills, knowledge and experience in relation to
 consumer credit businesses, consumer hire businesses or
 ancillary credit businesses;
 (b) such skills, knowledge and experience of other persons who the
@@ -1080,13 +1080,13 @@ be carried on by him under the licence;
 implement in connection with any such business;
 (d) evidence of the kind mentioned in subsection (2A).
 (2A) That evidence is evidence tending to show that the applicant, or any of
-the applicantís employees, agents or associates (whether past or
+the applicant‚Äôs employees, agents or associates (whether past or
 present) or, where the applicant is a body corporate, any person
 appearing to the OFT to be a controller of the body corporate or an
-associate of any such person, hasó
+associate of any such person, has‚Äî
 (a) committed any offence involving fraud or other dishonesty or
 violence;
-(b) contravened any provision made by or underó
+(b) contravened any provision made by or under‚Äî
 (i) this Act;
 (ii) Part 16 of the Financial Services and Markets Act 2000 so
 far as it relates to the consumer credit jurisdiction under
@@ -1106,11 +1106,11 @@ deceitful or oppressive or otherwise unfair or improper
 (2B) For the purposes of subsection (2A)(e), the business practices which the
 OFT may consider to be deceitful or oppressive or otherwise unfair or
 improper include practices in the carrying on of a consumer credit
-business that appear to the OFT to involve irresponsible lending.î
-(3) In subsection (3) of that section for ì(2)î substitute ì(2A)î.
+business that appear to the OFT to involve irresponsible lending.‚Äù
+(3) In subsection (3) of that section for ‚Äú(2)‚Äù substitute ‚Äú(2A)‚Äù.
 30 Guidance on fitness test
-After section 25 of the 1974 Act insertó
-ì25A Guidance on fitness test
+After section 25 of the 1974 Act insert‚Äî
+‚Äú25A Guidance on fitness test
 (1) The OFT shall prepare and publish guidance in relation to how it
 determines, or how it proposes to determine, whether persons are fit
 persons as mentioned in section 25.
@@ -1122,15 +1122,15 @@ affected by it.
 (4) In preparing or revising the guidance the OFT shall consult such
 persons as it thinks fit.
 (5) In carrying out its functions under this Part the OFT shall have regard
-to the guidance as most recently published.î
+to the guidance as most recently published.‚Äù
 31 Variation of standard licences etc.
 (1) In section 30 of the 1974 Act (variation of licences by request) for subsection (1)
-substituteó
-ì(1) If it thinks fit, the OFT may by notice to the licensee under a standard
-licenceó
+substitute‚Äî
+‚Äú(1) If it thinks fit, the OFT may by notice to the licensee under a standard
+licence‚Äî
 (a) in the case of a licence which covers the carrying on of a type of
 business only so far as it falls within one or more descriptions of
-business, vary the licence byó
+business, vary the licence by‚Äî
 (i) removing that limitation;
 (ii) adding a description of business to that limitation; or
 (iii) removing a description of business from that limitation;
@@ -1142,7 +1142,7 @@ one or more descriptions of business;
 type of business at all;
 Consumer Credit Act 2006 (c. 14) 25
 (d) vary the licence so that a type of business the carrying on of
-which is not covered at all by the licence is covered eitheró
+which is not covered at all by the licence is covered either‚Äî
 (i) with no limitation; or
 (ii) only so far as it falls within one or more descriptions of
 business; or
@@ -1151,23 +1151,23 @@ varying the descriptions of activities covered by the licence.
 (1A) The OFT may vary a licence under subsection (1) only in accordance
 with an application made by the licensee.
 (1B) References in this section to a description of business in relation to a
-type of businessó
+type of business‚Äî
 (a) are references to a description of business specified in a general
 notice under section 24A(5)(a); and
 (b) in subsection (1)(a) (apart from sub-paragraph (ii)) include
 references to a description of business that was, but is no longer,
-so specified.î
+so specified.‚Äù
 (2) In subsection (1) of section 31 of that Act (compulsory variation of licences) for
-ìthe licence should be variedî substitute ìit should take steps mentioned in
-subsection (1A)î.
-(3) After that subsection insertó
-ì(1A) Those steps areó
+‚Äúthe licence should be varied‚Äù substitute ‚Äúit should take steps mentioned in
+subsection (1A)‚Äù.
+(3) After that subsection insert‚Äî
+‚Äú(1A) Those steps are‚Äî
 (a) in the case of a standard licence, steps mentioned in section
 30(1)(a)(ii) and (iii), (b), (c) and (e);
 (b) in the case of a group licence, the varying of terms of the
-licence.î
-(4) After subsection (7) of that section insertó
-ì(8) Subsection (1) shall have effect in relation to a standard licence as if an
+licence.‚Äù
+(4) After subsection (7) of that section insert‚Äî
+‚Äú(8) Subsection (1) shall have effect in relation to a standard licence as if an
 application could be made for the renewal or further renewal of the
 licence on the same terms (except as to expiry) even if such an
 application could not be made because of provision made in a general
@@ -1177,31 +1177,31 @@ the licence for the purposes of this section, the OFT shall treat
 references in that subsection to the description or descriptions of
 business in relation to a type of business as references to the description
 or descriptions of business included in the licence in relation to that
-type of business, notwithstanding that provision under section 24A(5).î
+type of business, notwithstanding that provision under section 24A(5).‚Äù
 (5) In section 32 of that Act (suspension and revocation of licences) after
-subsection (8) insertó
-ì(9) The OFT has no power to revoke or to suspend a standard licence
+subsection (8) insert‚Äî
+‚Äú(9) The OFT has no power to revoke or to suspend a standard licence
 simply because, by virtue of provision made in a general notice under
 section 24A(5), a person cannot apply for the renewal of such a licence
-on terms which are the same as the terms of the licence in question.î
+on terms which are the same as the terms of the licence in question.‚Äù
 26 Consumer Credit Act 2006 (c. 14)
-32 Winding-up of standard licenseeís business
-(1) After section 34 of the 1974 Act insertó
-ì34A Winding-up of standard licenseeís business
-(1) If it thinks fit, the OFT may, for the purpose of enabling the licenseeís
+32 Winding-up of standard licensee‚Äôs business
+(1) After section 34 of the 1974 Act insert‚Äî
+‚Äú34A Winding-up of standard licensee‚Äôs business
+(1) If it thinks fit, the OFT may, for the purpose of enabling the licensee‚Äôs
 business, or any part of his business, to be transferred or wound up,
 include as part of a determination to which subsection (2) applies
-provision authorising the licensee to carry on for a specified periodó
+provision authorising the licensee to carry on for a specified period‚Äî
 (a) specified activities, or
 (b) activities of specified descriptions,
 which, because of that determination, the licensee will no longer be
 licensed to carry on.
-(2) This subsection applies to the following determinationsó
+(2) This subsection applies to the following determinations‚Äî
 (a) a determination to refuse to renew a standard licence in
 accordance with the terms of the application for its renewal;
 (b) a determination to vary such a licence under section 31;
 (c) a determination to suspend or revoke such a licence.
-(3) Such provisionó
+(3) Such provision‚Äî
 (a) may specify different periods for different activities or activities
 of different descriptions;
 (b) may provide for persons other than the licensee to carry on
@@ -1214,7 +1214,7 @@ with, the OFT may by notice to a person carrying on activities under the
 authorisation terminate the authorisation (in whole or in part) from a
 specified date.
 (4) Without prejudice to the generality of paragraph (c) of subsection (3), a
-requirement specified under that paragraph may have the effect ofó
+requirement specified under that paragraph may have the effect of‚Äî
 (a) preventing a named person from being an employee of a person
 carrying on activities under the authorisation, or restricting the
 activities he may engage in as an employee of such a person;
@@ -1226,62 +1226,62 @@ for the purpose of enabling them to inspect documents or to
 observe the carrying on of activities.
 (5) Activities carried on under an authorisation shall be treated for the
 purposes of sections 39(1), 40, 148 and 149 as if carried on under a
-standard licence.î
-(2) In section 29 of that Act (renewal of licences) after subsection (3) insertó
-ì(3A) In its application to the renewal of standard licences by virtue of
+standard licence.‚Äù
+(2) In section 29 of that Act (renewal of licences) after subsection (3) insert‚Äî
+‚Äú(3A) In its application to the renewal of standard licences by virtue of
 subsection (3) of this section, section 27(1) shall have effect as if for
 Consumer Credit Act 2006 (c. 14) 27
-paragraph (b) there were substitutedó
-ë(b) invite the applicant to submit to the OFT in accordance with
-section 34 representationsó
+paragraph (b) there were substituted‚Äî
+‚Äò(b) invite the applicant to submit to the OFT in accordance with
+section 34 representations‚Äî
 (i) in support of his application; and
 (ii) about the provision (if any) that should be included
 under section 34A as part of the determination were the
 OFT to refuse the application or grant it in terms
-different from those applied for.íî
+different from those applied for.‚Äô‚Äù
 (3) Subsection (5) of that section (which gives the OFT power to give directions
 allowing licensees to carry agreements into effect) shall cease to have effect.
 (4) In section 31(2) of that Act (procedure to be followed in case of proposed
-compulsory variation of a standard licence) for paragraph (b) substituteó
-ì(b) invite him to submit to the OFT in accordance with section 34
-representationsó
+compulsory variation of a standard licence) for paragraph (b) substitute‚Äî
+‚Äú(b) invite him to submit to the OFT in accordance with section 34
+representations‚Äî
 (i) as to the proposed variations; and
 (ii) about the provision (if any) that should be included
 under section 34A as part of the determination were the
-OFT to vary the licence.î
+OFT to vary the licence.‚Äù
 (5) In subsection (2) of section 32 of that Act (procedure to be followed in case of
 proposed revocation or suspension of a standard licence) for paragraph (b)
-substituteó
-ì(b) invite him to submit to the OFT in accordance with section 34
-representationsó
+substitute‚Äî
+‚Äú(b) invite him to submit to the OFT in accordance with section 34
+representations‚Äî
 (i) as to the proposed revocation or suspension; and
 (ii) about the provision (if any) that should be included
 under section 34A as part of the determination were the
-OFT to revoke or suspend the licence.î
+OFT to revoke or suspend the licence.‚Äù
 (6) Subsection (5) of that section (which gives the OFT power to give directions
 allowing licensees to carry agreements into effect) shall cease to have effect.
 33 Consequential amendments relating to ss. 27 to 32
-(1) In section 21(1) of the 1974 Act (businesses needing a licence) for ìconsumer
-hire businessî substitute ìa consumer hire business or an ancillary credit
-businessî.
+(1) In section 21(1) of the 1974 Act (businesses needing a licence) for ‚Äúconsumer
+hire business‚Äù substitute ‚Äúa consumer hire business or an ancillary credit
+business‚Äù.
 (2) In section 22 of that Act (standard and group licences) after subsection (5)
-insertó
-ì(5A) A group licence to carry on a business may limit the activities it covers
-in any way the OFT thinks fit.î
+insert‚Äî
+‚Äú(5A) A group licence to carry on a business may limit the activities it covers
+in any way the OFT thinks fit.‚Äù
 (3) In subsection (1) of section 23 of that Act (authorisation of specific activities) for
-ìthis sectionî substitute ìthe terms of the licenceî.
-(4) In subsection (4) of that section for ìRegulations may be made specifyingî
-substitute ìThe OFT may by general notice specifyî.
-(5) After section 27 of that Act insertó
-ì27A Consumer credit EEA firms
-(1) Whereó
+‚Äúthis section‚Äù substitute ‚Äúthe terms of the licence‚Äù.
+(4) In subsection (4) of that section for ‚ÄúRegulations may be made specifying‚Äù
+substitute ‚ÄúThe OFT may by general notice specify‚Äù.
+(5) After section 27 of that Act insert‚Äî
+‚Äú27A Consumer credit EEA firms
+(1) Where‚Äî
 28 Consumer Credit Act 2006 (c. 14)
 (a) a consumer credit EEA firm makes an application for a standard
 licence, and
 (b) the activities covered by the application are all permitted
 activities,
 the OFT shall refuse the application.
-(2) Subsection (3) applies whereó
+(2) Subsection (3) applies where‚Äî
 (a) a consumer credit EEA firm makes an application for a standard
 licence; and
 (b) some (but not all) of the activities covered by the application are
@@ -1294,53 +1294,53 @@ covered by the application.
 (4) A standard licence held by a consumer credit EEA firm does not at any
 time authorise the carrying on of an activity which is a permitted
 activity at that time.
-(5) In this section ëpermitted activityí means, in relation to a consumer
+(5) In this section ‚Äòpermitted activity‚Äô means, in relation to a consumer
 credit EEA firm, an activity for which the firm has, or could obtain,
 permission under paragraph 15 of Schedule 3 to the Financial Services
-and Markets Act 2000.î
-(6) In the Table in section 41 of that Act (appeals) in the entry relating to ìrefusal
-to make order under section 40(2) in accordance with terms of applicationî
-after ì40(2)î insert ì, 148(2) or 149(2)î.
+and Markets Act 2000.‚Äù
+(6) In the Table in section 41 of that Act (appeals) in the entry relating to ‚Äúrefusal
+to make order under section 40(2) in accordance with terms of application‚Äù
+after ‚Äú40(2)‚Äù insert ‚Äú, 148(2) or 149(2)‚Äù.
 (7) In sections 194(3) and 203(4) of the 2000 Act (powers of intervention and
-prohibition) for ì(a) to (d) of section 25(2)î substitute ì(a) to (e) of section
-25(2A)î.
+prohibition) for ‚Äú(a) to (d) of section 25(2)‚Äù substitute ‚Äú(a) to (e) of section
+25(2A)‚Äù.
 (8) In section 203(10) of that Act (definitions relating to Consumer Credit Act
-businesses) in the definition of ìassociateî for ì25(2)î substitute ì25(2A)î.
-(9) In paragraph 15(3) of Schedule 3 to that Act (EEA passport rights) for ì21, 39(1)
-and 147(1)î substitute ì21 and 39(1)î.
-(10) In paragraph 23 of that Schedule in sub-paragraph (1) for ìSub-paragraph (2)
-appliesî substitute ìSub-paragraphs (2) and (2A) applyî.
-(11) In sub-paragraph (2) of that paragraph for ì(a) to (d) of section 25(2)î substitute
-ì(a) to (e) of section 25(2A)î.
-(12) After that sub-paragraph insertó
- ì(2A) The Authority may also exercise its power under section 45 in respect
+businesses) in the definition of ‚Äúassociate‚Äù for ‚Äú25(2)‚Äù substitute ‚Äú25(2A)‚Äù.
+(9) In paragraph 15(3) of Schedule 3 to that Act (EEA passport rights) for ‚Äú21, 39(1)
+and 147(1)‚Äù substitute ‚Äú21 and 39(1)‚Äù.
+(10) In paragraph 23 of that Schedule in sub-paragraph (1) for ‚ÄúSub-paragraph (2)
+applies‚Äù substitute ‚ÄúSub-paragraphs (2) and (2A) apply‚Äù.
+(11) In sub-paragraph (2) of that paragraph for ‚Äú(a) to (d) of section 25(2)‚Äù substitute
+‚Äú(a) to (e) of section 25(2A)‚Äù.
+(12) After that sub-paragraph insert‚Äî
+ ‚Äú(2A) The Authority may also exercise its power under section 45 in respect
 of the firm if the Office of Fair Trading has informed the Authority
-that it has concerns about any of the followingó
-(a) the firmís skills, knowledge and experience in relation to
+that it has concerns about any of the following‚Äî
+(a) the firm‚Äôs skills, knowledge and experience in relation to
 Consumer Credit Act businesses;
 (b) such skills, knowledge and experience of other persons who
 are participating in any Consumer Credit Act business being
 carried on by the firm;
 Consumer Credit Act 2006 (c. 14) 29
 (c) practices and procedures that the firm is implementing in
-connection with any such business.î
+connection with any such business.‚Äù
 Duration of licences and charges
 34 Definite and indefinite licences
 (1) In subsection (1) of section 22 of the 1974 Act (definitions of standard and
-group licences)ó
-(a) in paragraph (a) for ìduring the prescribed periodî substitute ìwhilst
-the licence is in effectî;
-(b) in paragraph (b) for the words from ìduringî to ìindefinitelyî
-substitute ìwhilst the licence is in effectî.
-(2) After that subsection insertó
-ì(1A) The terms of a licence shall specifyó
+group licences)‚Äî
+(a) in paragraph (a) for ‚Äúduring the prescribed period‚Äù substitute ‚Äúwhilst
+the licence is in effect‚Äù;
+(b) in paragraph (b) for the words from ‚Äúduring‚Äù to ‚Äúindefinitely‚Äù
+substitute ‚Äúwhilst the licence is in effect‚Äù.
+(2) After that subsection insert‚Äî
+‚Äú(1A) The terms of a licence shall specify‚Äî
 (a) whether it has effect indefinitely or only for a limited period;
 and
 (b) if it has effect for a limited period, that period.
 (1B) For the purposes of subsection (1A)(b) the period specified shall be
 such period not exceeding the prescribed period as the OFT thinks fit
 (subject to subsection (1E)).
-(1C) A standard licence shall have effect indefinitely unlessó
+(1C) A standard licence shall have effect indefinitely unless‚Äî
 (a) the application for its issue requests that it have effect for a
 limited period only; or
 (b) the OFT otherwise thinks there is good reason why it should
@@ -1348,48 +1348,48 @@ have effect for such a period only.
 (1D) A group licence shall have effect for a limited period only unless the
 OFT thinks there is good reason why it should have effect indefinitely.
 (1E) Where a licence which has effect indefinitely is to be varied under
-section 30 or 31 for the purpose of limiting the licenceís duration, the
-variation shall provide for the licence to expireó
+section 30 or 31 for the purpose of limiting the licence‚Äôs duration, the
+variation shall provide for the licence to expire‚Äî
 (a) in the case of a variation under section 30, at the end of such
 period from the time of the variation as is set out in the
 application for the variation; or
 (b) in the case of a variation under section 31, at the end of such
 period from the time of the variation as the OFT thinks fit;
 but a period mentioned in paragraph (a) or (b) shall not exceed the
-prescribed period.î
-(3) In section 29 of that Act (renewal of licences)ó
-(a) in subsection (1) after ìstandard licenceî insert ìof limited durationî;
-(b) in subsection (4) for ìin forceî substitute ìto have effectî.
+prescribed period.‚Äù
+(3) In section 29 of that Act (renewal of licences)‚Äî
+(a) in subsection (1) after ‚Äústandard licence‚Äù insert ‚Äúof limited duration‚Äù;
+(b) in subsection (4) for ‚Äúin force‚Äù substitute ‚Äúto have effect‚Äù.
 (4) In subsection (1) of section 31 of that Act (compulsory variation of licences)
-after ìthat timeî insert ì(assuming, in the case of a licence which has effect
-indefinitely, that it were a licence of limited duration)î.
+after ‚Äúthat time‚Äù insert ‚Äú(assuming, in the case of a licence which has effect
+indefinitely, that it were a licence of limited duration)‚Äù.
 30 Consumer Credit Act 2006 (c. 14)
-(5) Before subsection (2) of that section insertó
-ì(1B) The OFT shall also proceed as follows if, having regard to section 22(1B)
-to (1E), it is of the opinionó
+(5) Before subsection (2) of that section insert‚Äî
+‚Äú(1B) The OFT shall also proceed as follows if, having regard to section 22(1B)
+to (1E), it is of the opinion‚Äî
 (a) that a licence which has effect indefinitely should have its
 duration limited; or
 (b) in the case of a licence of limited duration, that the period
-during which it has effect should be shortened.î
-(6) In section 32(1) of that Act (suspension and revocation of licences) after ìthat
-timeî insert ì(assuming, in the case of a licence which has effect indefinitely,
-that it were a licence of limited duration)î.
+during which it has effect should be shortened.‚Äù
+(6) In section 32(1) of that Act (suspension and revocation of licences) after ‚Äúthat
+time‚Äù insert ‚Äú(assuming, in the case of a licence which has effect indefinitely,
+that it were a licence of limited duration)‚Äù.
 (7) In section 35(1)(b) of that Act (particulars to be kept in register maintained by
-OFT) for ìforceî substitute ìeffectî.
+OFT) for ‚Äúforce‚Äù substitute ‚Äúeffect‚Äù.
 (8) In section 37 of that Act (circumstances giving rise to termination of a licence)
-after subsection (1) insertó
-ì(1A) A licence terminates if the licensee gives the OFT a notice under
+after subsection (1) insert‚Äî
+‚Äú(1A) A licence terminates if the licensee gives the OFT a notice under
 subsection (1B).
-(1B) A notice under this subsection shalló
+(1B) A notice under this subsection shall‚Äî
 (a) be in such form as the OFT may by general notice specify;
 (b) contain such information as may be so specified;
 (c) be accompanied by the licence or give reasons as to why it is not
 accompanied by the licence; and
-(d) be signed by or on behalf of the licensee.î
-(9) In subsection (3)(a) of that section after ì(1)î insert ìor (1A)î.
+(d) be signed by or on behalf of the licensee.‚Äù
+(9) In subsection (3)(a) of that section after ‚Äú(1)‚Äù insert ‚Äúor (1A)‚Äù.
 35 Charges for indefinite licences
-After section 28 of the 1974 Act insertó
-ìCharges for indefinite licences
+After section 28 of the 1974 Act insert‚Äî
+‚ÄúCharges for indefinite licences
 28A Charges to be paid by licensees etc. before end of payment periods
 (1) The licensee under a standard licence which has effect indefinitely
 shall, before the end of each payment period of his, pay the OFT a
@@ -1399,12 +1399,12 @@ shall, before the end of each payment period of his, pay the OFT such a
 charge.
 (3) The amount of the charge payable by a person under subsection (1) or
 (2) before the end of a payment period shall be determined in
-accordance with provision whichó
+accordance with provision which‚Äî
 (a) is made by the OFT by general notice; and
 (b) is current on such day as may be determined in accordance with
 provision made by regulations.
 (4) The provision that may be made by the OFT under subsection (3)(a)
-includesó
+includes‚Äî
 Consumer Credit Act 2006 (c. 14) 31
 (a) different provision in relation to persons of different
 descriptions (including persons whose payment periods end at
@@ -1413,38 +1413,38 @@ different times);
 specified descriptions.
 (5) The approval of the Secretary of State and the Treasury is required for
 a general notice under subsection (3)(a).
-(6) For the purposes of this section a personís payment periods are to be
-determined in accordance with provision made by regulations.î
+(6) For the purposes of this section a person‚Äôs payment periods are to be
+determined in accordance with provision made by regulations.‚Äù
 36 Extension of period to pay charge for indefinite licence
-After section 28A of the 1974 Act (inserted by section 35 of this Act) insertó
-ì28B Extension of period to pay charge under s. 28A
+After section 28A of the 1974 Act (inserted by section 35 of this Act) insert‚Äî
+‚Äú28B Extension of period to pay charge under s. 28A
 (1) A person who is required under section 28A to pay a charge before the
 end of a period may apply once to the OFT for that period to be
 extended.
 (2) The application shall be made before such day as may be determined in
 accordance with provision made by the OFT by general notice.
-(3) If the OFT is satisfied that there is a good reasonó
+(3) If the OFT is satisfied that there is a good reason‚Äî
 (a) why the applicant has not paid that charge prior to his making
 of the application, and
 (b) why he cannot pay that charge before the end of that period,
 it may, if it thinks fit, by notice to him extend that period by such time
 as it thinks fit having regard to that reason.
 (4) The power of the OFT under this section to extend a period in relation
-to a chargeó
+to a charge‚Äî
 (a) includes the power to extend the period in relation to a part of
 the charge only;
-(b) may be exercised even though the period has ended.î
+(b) may be exercised even though the period has ended.‚Äù
 37 Failure to pay charge for indefinite licence
-(1) After section 28B of the 1974 Act (inserted by section 36 of this Act) insertó
-ì28C Failure to pay charge under s. 28A
-(1) This section applies if a person (the ëdefaulterí) fails to pay a chargeó
-(a) before the end of a period (the ëpayment periodí) as required
+(1) After section 28B of the 1974 Act (inserted by section 36 of this Act) insert‚Äî
+‚Äú28C Failure to pay charge under s. 28A
+(1) This section applies if a person (the ‚Äòdefaulter‚Äô) fails to pay a charge‚Äî
+(a) before the end of a period (the ‚Äòpayment period‚Äô) as required
 under section 28A; or
 (b) where the payment period is extended under section 28B,
 before the end of the payment period as extended (subject to
 subsection (2)).
 (2) Where the payment period is extended under section 28B in relation to
-a part of the charge only, this section applies if the defaulter failsó
+a part of the charge only, this section applies if the defaulter fails‚Äî
 (a) to pay so much of the charge as is not covered by the extension
 before the end of the payment period disregarding the
 extension; or
@@ -1452,26 +1452,26 @@ extension; or
 (b) to pay so much of the charge as is covered by the extension
 before the end of the payment period as extended.
 (3) Subject to subsection (4), if the charge is a charge under section 28A(1),
-the defaulterís licence terminates.
+the defaulter‚Äôs licence terminates.
 (4) If the defaulter has applied to the OFT under section 28B for the
 payment period to be extended and that application has not been
-determinedó
+determined‚Äî
 (a) his licence shall not terminate before the application has been
 determined and the OFT has notified him of the determination;
 and
 (b) if the OFT extends the payment period on that application, this
 section shall have effect accordingly.
 (5) If the charge is a charge under section 28A(2), the charge shall be
-recoverable by the OFT.î
+recoverable by the OFT.‚Äù
 (2) In section 35(1)(b) of that Act (particulars to be kept in register maintained by
-OFT) after ìrevokedî insert ìor terminated by section 28Cî.
+OFT) after ‚Äúrevoked‚Äù insert ‚Äúor terminated by section 28C‚Äù.
 Further powers of OFT to regulate conduct of licensees etc.
 38 Power of OFT to impose requirements on licensees
-After section 33 of the 1974 Act insertó
-ìFurther powers of OFT to regulate conduct of licensees etc.
+After section 33 of the 1974 Act insert‚Äî
+‚ÄúFurther powers of OFT to regulate conduct of licensees etc.
 33A Power of OFT to impose requirements on licensees
 (1) This section applies where the OFT is dissatisfied with any matter in
-connection withó
+connection with‚Äî
 (a) a business being carried on, or which has been carried on, by a
 licensee or by an associate or a former associate of a licensee;
 (b) a proposal to carry on a business which has been made by a
@@ -1480,7 +1480,7 @@ licensee or by an associate or a former associate of a licensee; or
 of an associate or a former associate of a licensee.
 (2) The OFT may by notice to the licensee require him to do or not to do (or
 to cease doing) anything specified in the notice for purposes connected
-withó
+with‚Äî
 (a) addressing the matter with which the OFT is dissatisfied; or
 (b) securing that matters of the same or a similar kind do not arise.
 (3) A requirement imposed under this section on a licensee shall only
@@ -1492,7 +1492,7 @@ other than the licensee.
 with which the OFT is dissatisfied arose before or after the licensee
 became a licensee.
 Consumer Credit Act 2006 (c. 14) 33
-(6) Ifó
+(6) If‚Äî
 (a) a person makes an application for a standard licence, and
 (b) while dealing with that application the OFT forms the opinion
 that, if such a licence were to be issued to that person, it would
@@ -1500,21 +1500,21 @@ be minded to impose on him a requirement under this section,
 the OFT may, before issuing such a licence to that person, do (in whole
 or in part) anything that it must do under section 33D or 34(1) or (2) in
 relation to the imposing of the requirement.
-(7) In this section ëassociateí, in addition to the persons specified in section
-184, includes a business associate.î
+(7) In this section ‚Äòassociate‚Äô, in addition to the persons specified in section
+184, includes a business associate.‚Äù
 39 Power of OFT to impose requirements on supervisory bodies
-After section 33A of the 1974 Act (inserted by section 38 of this Act) insertó
-ì33B Power of OFT to impose requirements on supervisory bodies
+After section 33A of the 1974 Act (inserted by section 38 of this Act) insert‚Äî
+‚Äú33B Power of OFT to impose requirements on supervisory bodies
 (1) This section applies where the OFT is dissatisfied with the way in
-which a responsible person in relation to a group licenceó
+which a responsible person in relation to a group licence‚Äî
 (a) is regulating or otherwise supervising, or has regulated or
 otherwise supervised, persons who are licensees under that
 licence; or
 (b) is proposing to regulate or otherwise to supervise such persons.
 (2) The OFT may by notice to the responsible person require him to do or
 not to do (or to cease doing) anything specified in the notice for
-purposes connected withó
-(a) addressing the matters giving rise to the OFTís dissatisfaction;
+purposes connected with‚Äî
+(a) addressing the matters giving rise to the OFT‚Äôs dissatisfaction;
 or
 (b) securing that matters of the same or a similar kind do not arise.
 (3) A requirement imposed under this section on a responsible person in
@@ -1522,9 +1522,9 @@ relation to a group licence shall only relate to practices and procedures
 for regulating or otherwise supervising licensees under the licence in
 connection with their carrying on of businesses under the licence.
 (4) For the purposes of subsection (1) it is immaterial whether the matters
-giving rise to the OFTís dissatisfaction arose before or after the issue of
+giving rise to the OFT‚Äôs dissatisfaction arose before or after the issue of
 the group licence in question.
-(5) Ifó
+(5) If‚Äî
 (a) a person makes an application for a group licence, and
 (b) while dealing with that application the OFT forms the opinion
 that, if such a licence were to be issued to that person, it would
@@ -1533,15 +1533,15 @@ the OFT may, before issuing such a licence to that person, do (in whole
 or in part) anything that it must do under section 33D or 34(1) or (2) in
 relation to the imposing of the requirement.
 (6) For the purposes of this Part a person is a responsible person in relation
-to a group licence ifó
+to a group licence if‚Äî
 (a) he is the original applicant for it; and
 (b) he has a responsibility (whether by virtue of an enactment, an
 agreement or otherwise) for regulating or otherwise
-supervising persons who are licensees under the licence.î
+supervising persons who are licensees under the licence.‚Äù
 34 Consumer Credit Act 2006 (c. 14)
 40 Supplementary provision relating to requirements
-After section 33B of the 1974 Act (inserted by section 39 of this Act) insertó
-ì33C Supplementary provision relating to requirements
+After section 33B of the 1974 Act (inserted by section 39 of this Act) insert‚Äî
+‚Äú33C Supplementary provision relating to requirements
 (1) A notice imposing a requirement under section 33A or 33B may include
 provision about the time at or by which, or the period during which, the
 requirement is to be complied with.
@@ -1560,22 +1560,22 @@ requirement either on its own motion or on the application of a person
 falling within subsection (6) or (7) in relation to the requirement.
 (6) A person falls within this subsection in relation to a requirement if he
 is the person on whom the requirement is imposed.
-(7) A person falls within this subsection in relation to a requirement ifó
+(7) A person falls within this subsection in relation to a requirement if‚Äî
 (a) the requirement is imposed under section 33A;
 (b) he is not the person on whom the requirement is imposed;
 (c) the requirement is framed by reference to him by name; and
-(d) the effect of the requirement isó
+(d) the effect of the requirement is‚Äî
 (i) to prevent him being an employee of the person on
 whom the requirement is imposed;
 (ii) to restrict the activities that he may engage in as an
 employee of that person; or
 (iii) otherwise to prevent him from doing something, or to
 restrict his doing something, in connection with a
-business being carried on by that person.î
+business being carried on by that person.‚Äù
 41 Procedure in relation to requirements
-After section 33C of the 1974 Act (inserted by section 40 of this Act) insertó
-ì33D Procedure in relation to requirements
-(1) Before making a determinationó
+After section 33C of the 1974 Act (inserted by section 40 of this Act) insert‚Äî
+‚Äú33D Procedure in relation to requirements
+(1) Before making a determination‚Äî
 (a) to impose a requirement on a person under section 33A or 33B,
 (b) to refuse an application under section 33C(5) in relation to a
 requirement imposed under either of those sections, or
@@ -1583,7 +1583,7 @@ requirement imposed under either of those sections, or
 the OFT shall proceed as follows.
 Consumer Credit Act 2006 (c. 14) 35
 (2) The OFT shall give a notice to every person to whom subsection (3)
-applies in relation to the determinationó
+applies in relation to the determination‚Äî
 (a) informing him, with reasons, that it is minded to make the
 determination; and
 (b) inviting him to submit to it representations as to the
@@ -1594,10 +1594,10 @@ section 33C(6) or (7) in relation to the requirement in question.
 (4) This section does not require the OFT to give a notice to a person if the
 determination in question is in the same terms as a proposal made to
 the OFT by that person (whether as part of an application under this
-Part or otherwise).î
+Part or otherwise).‚Äù
 42 Guidance on requirements
-After section 33D of the 1974 Act (inserted by section 41 of this Act) insertó
-ì33E Guidance on requirements
+After section 33D of the 1974 Act (inserted by section 41 of this Act) insert‚Äî
+‚Äú33E Guidance on requirements
 (1) The OFT shall prepare and publish guidance in relation to how it
 exercises, or how it proposes to exercise, its powers under sections 33A
 to 33C.
@@ -1609,35 +1609,35 @@ affected by it.
 (4) In preparing or revising the guidance the OFT shall consult such
 persons as it thinks fit.
 (5) In exercising its powers under sections 33A to 33C the OFT shall have
-regard to the guidance as most recently published.î
+regard to the guidance as most recently published.‚Äù
 43 Consequential amendments relating to requirements
 (1) In section 35(1) of the 1974 Act (particulars to be kept in register maintained by
-OFT) after paragraph (b) insertó
-ì(ba) requirements imposed under section 33A or 33B which are in
+OFT) after paragraph (b) insert‚Äî
+‚Äú(ba) requirements imposed under section 33A or 33B which are in
 effect or which have been in effect, with details of any variation
-of such a requirement;î.
-(2) In the Table in section 41 of that Act (appeals) after the entry relating to ìrefusal
-to end suspension of licence in accordance with terms of applicationî insert the
-following entryó
+of such a requirement;‚Äù.
+(2) In the Table in section 41 of that Act (appeals) after the entry relating to ‚Äúrefusal
+to end suspension of licence in accordance with terms of application‚Äù insert the
+following entry‚Äî
 36 Consumer Credit Act 2006 (c. 14)
 Powers and duties in relation to information
 44 Provision of information etc. by applicants
 (1) In subsection (2) of section 6 of the 1974 Act (which contains provision relating
-to applications)ó
-(a) for ìparticularsî substitute ìinformation and documentsî;
-(b) for ìbyî in the second place where it occurs substitute ìor describe in aî.
-(2) For subsection (3) of that section substituteó
-ì(3) Where the OFT receives an application, it may by notice to the applicant
+to applications)‚Äî
+(a) for ‚Äúparticulars‚Äù substitute ‚Äúinformation and documents‚Äù;
+(b) for ‚Äúby‚Äù in the second place where it occurs substitute ‚Äúor describe in a‚Äù.
+(2) For subsection (3) of that section substitute‚Äî
+‚Äú(3) Where the OFT receives an application, it may by notice to the applicant
 at any time before the determination of the application require him to
 provide such information or documents relevant to the application as
-may be specified or described in the notice.î
-(3) After subsection (4) of that section insertó
-ì(5) Subsection (6) applies where a general notice under subsection (2)
-comes into effectó
+may be specified or described in the notice.‚Äù
+(3) After subsection (4) of that section insert‚Äî
+‚Äú(5) Subsection (6) applies where a general notice under subsection (2)
+comes into effect‚Äî
 (a) after an application has been made; but
 (b) before its determination.
 (6) The applicant shall, within such period as may be specified in the
-general notice, provide the OFT with any information or documentó
+general notice, provide the OFT with any information or document‚Äî
 (a) which he has not previously provided in relation to the
 application by virtue of this section;
 (b) which he would have been required to provide with his
@@ -1646,8 +1646,8 @@ effect; and
 (c) which the general notice requires to be provided for the
 purposes of this subsection.
 (7) An applicant shall notify the OFT, giving details, if before his
-application is determinedó
-ìDeterminationó
+application is determined‚Äî
+‚ÄúDetermination‚Äî
 (a) to impose a
 requirement under
 section 33A or 33B;
@@ -1669,7 +1669,7 @@ unless the OFT was not
 required to give a notice to
 him in relation to the
 determination by virtue of
-section 33D(4).î
+section 33D(4).‚Äù
 Consumer Credit Act 2006 (c. 14) 37
 (a) any information or document provided by him in relation to the
 application by virtue of this section is, to any extent, superseded
@@ -1678,25 +1678,25 @@ or otherwise affected by a change in circumstances; or
 information or document.
 (8) A notification for the purposes of subsection (7) shall be given within
 the period of 28 days beginning with the day on which (as the case may
-be)ó
+be)‚Äî
 (a) the information or document is superseded;
 (b) the change in circumstances occurs; or
 (c) the applicant becomes aware of the error or omission.
-(9) Subsection (7) does not require an applicant to notify the OFT aboutó
+(9) Subsection (7) does not require an applicant to notify the OFT about‚Äî
 (a) anything of which he is required to notify it under section 36; or
 (b) an error in or omission from any information or document
 which is a clerical error or omission not affecting the substance
-of the information or document.î
+of the information or document.‚Äù
 45 Duties to notify changes in information etc.
-After section 36 of the 1974 Act insertó
-ì36A Further duties to notify changes etc.
+After section 36 of the 1974 Act insert‚Äî
+‚Äú36A Further duties to notify changes etc.
 (1) Subsections (2) to (4) apply where a general notice under section 6(2)
 comes into effect.
 (2) A person who is the licensee under a standard licence or who is the
 original applicant for a group licence shall, in relation to each relevant
 application which he has made and which was determined before the
 general notice came into effect, provide the OFT with any information
-or documentó
+or document‚Äî
 (a) which he would have been required to provide with the
 application had the application been made after the general
 notice came into effect; and
@@ -1705,7 +1705,7 @@ purposes of this subsection.
 (3) Any such information or document shall be provided within such
 period as may be specified in the general notice.
 (4) Subsection (2) does not require a person to provide any information or
-documentó
+document‚Äî
 (a) which he provided in relation to the application by virtue of
 section 6;
 (b) which he has previously provided in relation to the application
@@ -1716,7 +1716,7 @@ application by virtue of subsection (5) but for subsection (6).
 original applicant for a group licence shall, in relation to each relevant
 application which he has made, notify the OFT giving details if, after
 the application is determined, any information or document which
-heó
+he‚Äî
 38 Consumer Credit Act 2006 (c. 14)
 (a) provided in relation to the application by virtue of section 6, or
 (b) has so provided by virtue of this section,
@@ -1727,7 +1727,7 @@ matter unless it falls within a description of matters specified by the
 OFT in a general notice.
 (7) A description may be specified for the purposes of subsection (6) only
 if the OFT is satisfied that the matters which would fall within that
-description are matters which would be relevant to the question ofó
+description are matters which would be relevant to the question of‚Äî
 (a) whether, having regard to section 25(2), a person is a fit person
 to carry on a business under a standard licence; or
 (b) whether the public interest is better served by a group licence
@@ -1736,7 +1736,7 @@ apply separately for standard licences.
 (8) A person who is the licensee under a standard licence or who is the
 original applicant for a group licence shall, in relation to each relevant
 application which he has made, notify the OFT about every error or
-omissionó
+omission‚Äî
 (a) in or from any information or document which he provided by
 virtue of section 6, or which he has provided by virtue of this
 section, in relation to the application; and
@@ -1744,54 +1744,54 @@ section, in relation to the application; and
 application.
 (9) A notification for the purposes of subsection (5) or (8) shall be given
 within the period of 28 days beginning with the day on which (as the
-case may be)ó
+case may be)‚Äî
 (a) the information or document is superseded;
 (b) the change in circumstances occurs; or
 (c) the licensee or the original applicant becomes aware of the error
 or omission.
-(10) This section does not require a person to notify the OFT aboutó
+(10) This section does not require a person to notify the OFT about‚Äî
 (a) anything of which he is required to notify it under section 36; or
 (b) an error in or omission from any information or document
 which is a clerical error or omission not affecting the substance
 of the information or document.
-(11) In this section ërelevant applicationí means, in relation to a person who
+(11) In this section ‚Äòrelevant application‚Äô means, in relation to a person who
 is the licensee under a standard licence or who is the original applicant
-for a group licenceó
+for a group licence‚Äî
 (a) the original application for the licence; or
-(b) an application for its renewal or for its variation.î
+(b) an application for its renewal or for its variation.‚Äù
 46 Power of OFT to require information generally
-After section 36A of the 1974 Act (inserted by section 45 of this Act) insertó
-ì36B Power of OFT to require information generally
-(1) The OFT may by notice to a person require himó
+After section 36A of the 1974 Act (inserted by section 45 of this Act) insert‚Äî
+‚Äú36B Power of OFT to require information generally
+(1) The OFT may by notice to a person require him‚Äî
 Consumer Credit Act 2006 (c. 14) 39
 (a) to provide such information as may be specified or described in
 the notice; or
 (b) to produce such documents as may be so specified or described.
 (2) The notice shall set out the reasons why the OFT requires the
 information or documents to be provided or produced.
-(3) The information or documents shall be provided or producedó
+(3) The information or documents shall be provided or produced‚Äî
 (a) before the end of such reasonable period as may be specified in
 the notice; and
 (b) at such place as may be so specified.
 (4) A requirement may be imposed under subsection (1) on a person who
-isó
+is‚Äî
 (a) the licensee under a standard licence, or
 (b) the original applicant for a group licence,
 only if the provision or production of the information or documents in
-question is reasonably required for purposes connected with the OFTís
+question is reasonably required for purposes connected with the OFT‚Äôs
 functions under this Act.
 (5) A requirement may be imposed under subsection (1) on any other
-person only ifó
+person only if‚Äî
 (a) an act or omission mentioned in subsection (6) has occurred or
 the OFT has reason to suspect that such an act or omission has
 occurred; and
 (b) the provision or production of the information or documents in
-question is reasonably required for purposes connected withó
+question is reasonably required for purposes connected with‚Äî
 (i) the taking by the OFT of steps under this Part as a
 consequence; or
 (ii) its consideration of whether to take such steps as a
 consequence.
-(6) Those acts or omissions are acts or omissions whichó
+(6) Those acts or omissions are acts or omissions which‚Äî
 (a) cast doubt on whether, having regard to section 25(2), a person
 is a fit person to carry on a business under a standard licence;
 (b) cast doubt on whether the public interest is better served by a
@@ -1801,22 +1801,22 @@ be licensees under it, to apply separately for standard licences;
 (c) give rise, or are likely to give rise, to dissatisfaction for the
 purposes of section 33A(1) or 33B(1); or
 (d) constitute or give rise to a failure of the kind mentioned in
-section 39A(1).î
+section 39A(1).‚Äù
 47 Power of OFT to require access to premises
-After section 36B of the 1974 Act (inserted by section 46 of this Act) insertó
-ì36C Power of OFT to require access to premises
+After section 36B of the 1974 Act (inserted by section 46 of this Act) insert‚Äî
+‚Äú36C Power of OFT to require access to premises
 (1) The OFT may by notice to a licensee under a licence require him to
 secure that access to the premises specified or described in the notice is
-given to an officer of an enforcement authority in order for the officeró
+given to an officer of an enforcement authority in order for the officer‚Äî
 (a) to observe the carrying on of a business under the licence by the
 licensee; or
 40 Consumer Credit Act 2006 (c. 14)
 (b) to inspect such documents of the licensee relating to such a
-business as areó
+business as are‚Äî
 (i) specified or described in the notice; and
 (ii) situated on the premises.
 (2) The notice shall set out the reasons why the access is required.
-(3) The premises which may be specified or described in the noticeó
+(3) The premises which may be specified or described in the notice‚Äî
 (a) include premises which are not premises of the licensee if they
 are premises from which he carries on activities in connection
 with the business in question; but
@@ -1833,23 +1833,23 @@ case may be).
 (amongst other things) the giving to the officer of an explanation of a
 document which he is inspecting.
 (8) A requirement may be imposed under subsection (1) on a person who
-isó
+is‚Äî
 (a) the licensee under a standard licence, or
 (b) the original applicant for a group licence,
 only if the observation or inspection in question is reasonably required
-for purposes connected with the OFTís functions under this Act.
+for purposes connected with the OFT‚Äôs functions under this Act.
 (9) A requirement may be imposed under subsection (1) on any other
-person only ifó
+person only if‚Äî
 (a) an act or omission mentioned in section 36B(6) has occurred or
 the OFT has reason to suspect that such an act or omission has
 occurred; and
 (b) the observation or inspection in question is reasonably required
-for purposes connected withó
+for purposes connected with‚Äî
 (i) the taking by the OFT of steps under this Part as a
 consequence; or
 (ii) its consideration of whether to take such steps as a
 consequence.
-(10) In this sectionó
+(10) In this section‚Äî
 (a) references to a licensee under a licence include, in relation to a
 group licence issued on application, references to the original
 applicant; and
@@ -1860,24 +1860,24 @@ regulating or otherwise supervising (whether by virtue of an
 enactment, an agreement or otherwise) licensees under that
 Consumer Credit Act 2006 (c. 14) 41
 licence in connection with their carrying on of businesses under
-that licence.î
+that licence.‚Äù
 48 Entry to premises under warrant
-After section 36C of the 1974 Act (inserted by section 47 of this Act) insertó
-ì36D Entry to premises under warrant
+After section 36C of the 1974 Act (inserted by section 47 of this Act) insert‚Äî
+‚Äú36D Entry to premises under warrant
 (1) A justice of the peace may issue a warrant under this section if satisfied
 on information on oath given on behalf of the OFT that there are
 reasonable grounds for believing that the following conditions are
 satisfied.
-(2) Those conditions areó
+(2) Those conditions are‚Äî
 (a) that there is on the premises specified in the warrant
 information or documents in relation to which a requirement
 could be imposed under section 36B; and
 (b) that if such a requirement were to be imposed in relation to the
-information or documentsó
+information or documents‚Äî
 (i) it would not be complied with; or
 (ii) the information or documents would be tampered with.
 (3) A warrant under this section shall authorise an officer of an
-enforcement authorityó
+enforcement authority‚Äî
 (a) to enter the premises specified in the warrant;
 (b) to search the premises and to seize and detain any information
 or documents appearing to be information or documents
@@ -1889,22 +1889,22 @@ preventing interference with them; and
 (d) to use such force as may be reasonably necessary.
 (4) An officer entering premises by virtue of this section may take such
 persons and equipment with him as he thinks necessary.
-(5) In the application of this section to Scotlandó
+(5) In the application of this section to Scotland‚Äî
 (a) the reference to a justice of the peace includes a reference to a
 sheriff;
-(b) for ëinformation on oathí there is substituted ëevidence on
-oathí.
+(b) for ‚Äòinformation on oath‚Äô there is substituted ‚Äòevidence on
+oath‚Äô.
 (6) In the application of this section to Northern Ireland the reference to a
-justice of the peace shall be construed as a reference to a lay magistrate.î
+justice of the peace shall be construed as a reference to a lay magistrate.‚Äù
 49 Failure to comply with information requirement
-After section 36D of the 1974 Act (inserted by section 48 of this Act) insertó
-ì36E Failure to comply with information requirement
+After section 36D of the 1974 Act (inserted by section 48 of this Act) insert‚Äî
+‚Äú36E Failure to comply with information requirement
 (1) If on an application made by the OFT it appears to the court that a
-person (the ëinformation defaulterí) has failed to do something that he
+person (the ‚Äòinformation defaulter‚Äô) has failed to do something that he
 42 Consumer Credit Act 2006 (c. 14)
 was required to do by virtue of section 36B or 36C, the court may make
 an order under this section.
-(2) An order under this section may require the information defaulteró
+(2) An order under this section may require the information defaulter‚Äî
 (a) to do the thing that it appears he failed to do within such period
 as may be specified in the order;
 (b) otherwise to take such steps to remedy the consequences of the
@@ -1913,22 +1913,22 @@ failure as may be so specified.
 unincorporated body of persons which is not a partnership, the order
 may require any officer who is (wholly or partly) responsible for the
 failure to meet such costs of the application as are specified in the order.
-(4) In this sectionó
-ëcourtí meansó
+(4) In this section‚Äî
+‚Äòcourt‚Äô means‚Äî
 (a) in England and Wales and Northern Ireland, the High
 Court or the county court;
 (b) in Scotland, the Court of Session or the sheriff;
-ëofficerí meansó
+‚Äòofficer‚Äô means‚Äî
 (a) in relation to a body corporate, a person holding a
 position of director, manager or secretary of the body or
 any similar position;
 (b) in relation to a partnership or to an unincorporated
 body of persons, a member of the partnership or body.
-(5) In subsection (4) ëdirectorí means, in relation to a body corporate whose
-affairs are managed by its members, a member of the body.î
+(5) In subsection (4) ‚Äòdirector‚Äô means, in relation to a body corporate whose
+affairs are managed by its members, a member of the body.‚Äù
 50 Officers of enforcement authorities other than OFT
-After section 36E of the 1974 Act (inserted by section 49 of this Act) insertó
-ì36F Officers of enforcement authorities other than OFT
+After section 36E of the 1974 Act (inserted by section 49 of this Act) insert‚Äî
+‚Äú36F Officers of enforcement authorities other than OFT
 (1) A relevant officer may only exercise powers by virtue of section 36C or
 36D in pursuance of arrangements made with the OFT by or on behalf
 of the enforcement authority of which he is an officer.
@@ -1942,45 +1942,45 @@ which he is an officer or the OFT in respect of anything done or omitted
 to be done by the officer.
 (4) A relevant officer shall not disclose to a person other than the OFT
 information obtained by his exercise of a power by virtue of section 36C
-or 36D unlessó
+or 36D unless‚Äî
 (a) he has the approval of the OFT to do so; or
 (b) he is under a duty to make the disclosure.
-(5) In this section ërelevant officerí means an officer of an enforcement
-authority other than the OFT.î
+(5) In this section ‚Äòrelevant officer‚Äô means an officer of an enforcement
+authority other than the OFT.‚Äù
 Consumer Credit Act 2006 (c. 14) 43
 51 Consequential amendments relating to information
-(1) For section 7 of the 1974 Act (penalty for false information) substituteó
-ì7 Penalty for false information
+(1) For section 7 of the 1974 Act (penalty for false information) substitute‚Äî
+‚Äú7 Penalty for false information
  A person commits an offence if, for the purposes of, or in connection
 with, any requirement imposed or other provision made by or under
 this Act, he knowingly or recklessly gives information to the OFT, or to
 an officer of the OFT, which, in a material particular, is false or
-misleading.î
+misleading.‚Äù
 (2) In subsection (1)(b)(ii) of section 162 of that Act (powers of entry and
-inspection) for the words from ìrecordedî onwards substitute ìto provide him
-with that information;î.
-(3) At the end of that section insertó
-ì(8) References in this section to a breach of any provision of or under this
-Act do not include references toó
+inspection) for the words from ‚Äúrecorded‚Äù onwards substitute ‚Äúto provide him
+with that information;‚Äù.
+(3) At the end of that section insert‚Äî
+‚Äú(8) References in this section to a breach of any provision of or under this
+Act do not include references to‚Äî
 (a) a failure to comply with a requirement imposed under section
 33A or 33B;
 (b) a failure to comply with section 36A; or
 (c) a failure in relation to which the OFT can apply for an order
-under section 36E.î
+under section 36E.‚Äù
 (4) In section 165 of that Act (obstruction of authorised officers) after subsection (1)
-insertó
-ì(1A) A failure to give assistance or information shall not constitute an
-offence under subsection (1)(c) if it is alsoó
+insert‚Äî
+‚Äú(1A) A failure to give assistance or information shall not constitute an
+offence under subsection (1)(c) if it is also‚Äî
 (a) a failure to comply with a requirement imposed under section
 33A or 33B;
 (b) a failure to comply with section 36A; or
 (c) a failure in relation to which the OFT can apply for an order
-under section 36E.î
-(5) In Part 12 of that Act before section 175 insertó
-ì174A Powers to require provision of information or documents etc.
+under section 36E.‚Äù
+(5) In Part 12 of that Act before section 175 insert‚Äî
+‚Äú174A Powers to require provision of information or documents etc.
 (1) Every power conferred on a relevant authority by or under this Act
 (however expressed) to require the provision or production of
-information or documents includes the poweró
+information or documents includes the power‚Äî
 (a) to require information to be provided or produced in such form
 as the authority may specify, including, in relation to
 information recorded otherwise than in a legible form, in a
@@ -1989,7 +1989,7 @@ legible form;
 produced by virtue of the exercise of the power;
 (c) to require the person who is required to provide or produce any
 information or document by virtue of the exercise of the
-poweró
+power‚Äî
 (i) to state, to the best of his knowledge and belief, where
 the information or document is;
 (ii) to give an explanation of the information or document;
@@ -2005,7 +2005,7 @@ virtue of paragraph (c) must be complied with.
 (however expressed) to inspect or to seize documents at any premises
 includes the power to take copies of, or extracts from, any documents
 inspected or seized by virtue of the exercise of the power.
-(3) But a relevant authority has no power under this Actó
+(3) But a relevant authority has no power under this Act‚Äî
 (a) to require another person to provide or to produce,
 (b) to seize from another person, or
 (c) to require another person to give access to premises for the
@@ -2015,56 +2015,56 @@ to refuse to provide or produce in proceedings in the High Court on the
 grounds of legal professional privilege or (in Scotland) in proceedings
 in the Court of Session on the grounds of confidentiality of
 communications.
-(4) In subsection (3) ëcommunicationsí meansó
+(4) In subsection (3) ‚Äòcommunications‚Äô means‚Äî
 (a) communications between a professional legal adviser and his
 client;
 (b) communications made in connection with or in contemplation
 of legal proceedings and for the purposes of those proceedings.
-(5) In this section ërelevant authorityí meansó
+(5) In this section ‚Äòrelevant authority‚Äô means‚Äî
 (a) the OFT or an enforcement authority (other than the OFT);
 (b) an officer of the OFT or of an enforcement authority (other than
-the OFT).î
-(6) In section 189(1) of that Act (definitions) after the definition of ìdepositî
-insertó
-ìëdocumentsí includes information recorded in any form;î.
+the OFT).‚Äù
+(6) In section 189(1) of that Act (definitions) after the definition of ‚Äúdeposit‚Äù
+insert‚Äî
+‚Äú‚Äòdocuments‚Äô includes information recorded in any form;‚Äù.
 (7) In Part 1 of Schedule 1 to the Criminal Justice and Police Act 2001 (c. 16)
-(powers of seizure to which section 50 applies) before paragraph 19 insertó
-ì18A The power of seizure conferred by section 36D(3) of the Consumer
-Credit Act 1974.î
+(powers of seizure to which section 50 applies) before paragraph 19 insert‚Äî
+‚Äú18A The power of seizure conferred by section 36D(3) of the Consumer
+Credit Act 1974.‚Äù
 Civil penalties
 52 Power of OFT to impose civil penalties
-After section 39 of the 1974 Act insertó
-ì39A Power of OFT to impose civil penalties
-(1) Where the OFT is satisfied that a person (the ëdefaulterí) has failed or is
+After section 39 of the 1974 Act insert‚Äî
+‚Äú39A Power of OFT to impose civil penalties
+(1) Where the OFT is satisfied that a person (the ‚Äòdefaulter‚Äô) has failed or is
 failing to comply with a requirement imposed on him by virtue of
 Consumer Credit Act 2006 (c. 14) 45
-section 33A, 33B or 36A, it may by notice to him (a ëpenalty noticeí)
+section 33A, 33B or 36A, it may by notice to him (a ‚Äòpenalty notice‚Äô)
 impose on him a penalty of such amount as it thinks fit.
-(2) The penalty notice shalló
+(2) The penalty notice shall‚Äî
 (a) specify the amount of the penalty that is being imposed;
-(b) set out the OFTís reasons for imposing a penalty and for
+(b) set out the OFT‚Äôs reasons for imposing a penalty and for
 specifying that amount;
 (c) specify how the payment of the penalty may be made to the
 OFT; and
 (d) specify the period within which the penalty is required to be
 paid.
-(3) The amount of the penalty shall not exceed £50,000.
+(3) The amount of the penalty shall not exceed ¬£50,000.
 (4) The period specified in the penalty notice for the purposes of
 subsection (2)(d) shall not end earlier than the end of the period during
 which an appeal may be brought against the imposition of the penalty
 under section 41.
 (5) If the defaulter does not pay the penalty to the OFT within the period
-so specifiedó
+so specified‚Äî
 (a) the unpaid balance from time to time shall carry interest at the
 rate for the time being specified in section 17 of the Judgments
 Act 1838; and
 (b) the penalty and any interest payable on it shall be recoverable
-by the OFT.î
+by the OFT.‚Äù
 53 Further provision relating to civil penalties
-(1) After section 39A of the 1974 Act (inserted by section 52 of this Act) insertó
-ì39B Further provision relating to civil penalties
+(1) After section 39A of the 1974 Act (inserted by section 52 of this Act) insert‚Äî
+‚Äú39B Further provision relating to civil penalties
 (1) Before determining to impose a penalty on a person under section 39A
-the OFT shall give a notice to that personó
+the OFT shall give a notice to that person‚Äî
 (a) informing him that it is minded to impose a penalty on him;
 (b) stating the proposed amount of the penalty;
 (c) setting out its reasons for being minded to impose a penalty on
@@ -2075,8 +2075,8 @@ and
 mentioned in the preceding paragraphs in accordance with
 section 34.
 (2) In determining whether and how to exercise its powers under section
-39A in relation to a personís failure, the OFT shall have regard to
-(amongst other things)ó
+39A in relation to a person‚Äôs failure, the OFT shall have regard to
+(amongst other things)‚Äî
 (a) any penalty or fine that has been imposed on that person by
 another body in relation to the conduct giving rise to the failure;
 (b) other steps that the OFT has taken or might take under this Part
@@ -2086,16 +2086,16 @@ in relation to that conduct.
 section 39A on a person who is a responsible person in relation to a
 group licence.
 (4) That notice shall include the matters set out in the notice imposing the
-penalty in accordance with section 39A(2)(a) and (b).î
+penalty in accordance with section 39A(2)(a) and (b).‚Äù
 (2) In the Table in section 41 of that Act (appeals) before the entry relating to
-ìrefusal to make order under section 40(2) in accordance with terms of
-applicationî insert the following entryó
-(3) In section 181 of that Act (power to alter monetary limits etc.)ó
-(a) in subsection (1) before ì70(6)î insert ì39A(3),î;
-(b) in subsection (2) before ì75(3)(b)î insert ì39A(3),î.
+‚Äúrefusal to make order under section 40(2) in accordance with terms of
+application‚Äù insert the following entry‚Äî
+(3) In section 181 of that Act (power to alter monetary limits etc.)‚Äî
+(a) in subsection (1) before ‚Äú70(6)‚Äù insert ‚Äú39A(3),‚Äù;
+(b) in subsection (2) before ‚Äú75(3)(b)‚Äù insert ‚Äú39A(3),‚Äù.
 54 Statement of policy in relation to civil penalties
-After section 39B of the 1974 Act (inserted by section 53 of this Act) insertó
-ì39C Statement of policy in relation to civil penalties
+After section 39B of the 1974 Act (inserted by section 53 of this Act) insert‚Äî
+‚Äú39C Statement of policy in relation to civil penalties
 (1) The OFT shall prepare and publish a statement of policy in relation to
 how it exercises, or how it proposes to exercise, its powers under
 section 39A.
@@ -2109,67 +2109,67 @@ be affected by it.
 (5) In preparing or revising the statement of policy the OFT shall consult
 such persons as it thinks fit.
 (6) In determining whether and how to exercise its powers under section
-39A in relation to a personís failure, the OFT shall have regard to the
+39A in relation to a person‚Äôs failure, the OFT shall have regard to the
 statement of policy as most recently published at the time the failure
 occurred.
 (7) The OFT shall not impose a penalty on a person under section 39A in
 relation to a failure occurring before it has published a statement of
-policy.î
-ìImposition of penalty
+policy.‚Äù
+‚ÄúImposition of penalty
 under section 39A.
 The person on whom the
-penalty is imposed.î
+penalty is imposed.‚Äù
 Consumer Credit Act 2006 (c. 14) 47
 Appeals
 55 The Consumer Credit Appeals Tribunal
-(1) After section 40 of the 1974 Act insertó
-ìAppeals
+(1) After section 40 of the 1974 Act insert‚Äî
+‚ÄúAppeals
 40A The Consumer Credit Appeals Tribunal
 (1) There shall be a tribunal known as the Consumer Credit Appeals
-Tribunal (ëthe Tribunalí).
+Tribunal (‚Äòthe Tribunal‚Äô).
 (2) The Tribunal shall have the functions conferred on it by or under this
 Part.
 (3) The Lord Chancellor may by rules make such provision as he thinks fit
 for regulating the conduct and disposal of appeals before the Tribunal.
 (4) Schedule A1 (which makes provision about the Tribunal and
 proceedings before it) shall have effect.
-(5) But that Schedule does not limit the Lord Chancellorís powers under
-subsection (3).î
+(5) But that Schedule does not limit the Lord Chancellor‚Äôs powers under
+subsection (3).‚Äù
 (2) Before Schedule 1 to that Act insert the Schedule A1 set out in Schedule 1 to this
 Act.
 56 Appeals to the Consumer Credit Appeals Tribunal
 (1) In subsection (1) of section 41 of the 1974 Act (appeals) for the words from
-ìprescribed periodî onwards substitute ìspecified period, appeal to the
-Tribunalî.
-(2) After that subsection insertó
-ì(1A) The means for making an appeal is by sending the Tribunal a notice of
+‚Äúprescribed period‚Äù onwards substitute ‚Äúspecified period, appeal to the
+Tribunal‚Äù.
+(2) After that subsection insert‚Äî
+‚Äú(1A) The means for making an appeal is by sending the Tribunal a notice of
 appeal.
-(1B) The notice of appeal shalló
+(1B) The notice of appeal shall‚Äî
 (a) be in the specified form;
 (b) set out the grounds of appeal in the specified manner; and
 (c) include the specified information and documents.
 (1C) An appeal to the Tribunal is to be by way of a rehearing of the
 determination appealed against.
-(1D) In this section ëspecifiedí means specified by rules under section
-40A(3).î
+(1D) In this section ‚Äòspecified‚Äô means specified by rules under section
+40A(3).‚Äù
 (3) Subsections (2) to (5) of that section shall cease to have effect.
 57 Appeals from the Consumer Credit Appeals Tribunal
-In Part 3 of the 1974 Act after section 41 insertó
-ì41A Appeals from the Consumer Credit Appeals Tribunal
-(1) A party to an appeal to the Tribunal may with leave appealó
+In Part 3 of the 1974 Act after section 41 insert‚Äî
+‚Äú41A Appeals from the Consumer Credit Appeals Tribunal
+(1) A party to an appeal to the Tribunal may with leave appeal‚Äî
 48 Consumer Credit Act 2006 (c. 14)
 (a) in England and Wales and Northern Ireland, to the Court of
 Appeal, or
 (b) in Scotland, to the Court of Session,
 on a point of law arising from a decision of the Tribunal.
-(2) For the purposes of subsection (1) leave to appeal may be given byó
+(2) For the purposes of subsection (1) leave to appeal may be given by‚Äî
 (a) the Tribunal; or
 (b) the Court of Appeal or the Court of Session.
 (3) An application for leave to appeal may be made to the Court of Appeal
 or the Court of Session only if the Tribunal has refused such leave.
 (4) If on an appeal under this section the court considers that the decision
 of the Tribunal was wrong in law, it may do one or more of the
-followingó
+following‚Äî
 (a) quash or vary that decision;
 (b) substitute for that decision a decision of its own;
 (c) remit the matter to the Tribunal for rehearing and
@@ -2181,37 +2181,37 @@ or the House of Lords.
 (6) Rules under section 40A(3) may make provision for regulating or
 prescribing any matters incidental to or consequential on an appeal
 under this section.
-(7) In this section ëpartyí means, in relation to an appeal to the Tribunal,
-the appellant or the OFT.î
+(7) In this section ‚Äòparty‚Äô means, in relation to an appeal to the Tribunal,
+the appellant or the OFT.‚Äù
 58 Consequential amendments relating to appeals
 (1) In section 2(7) of the 1974 Act (restriction on power to give directions to OFT)
-for ìSecretary of Stateî substitute ìthe Tribunalî.
-(2) In section 182 of that Act (regulations and orders) after subsection (1) insertó
-ì(1A) The power of the Lord Chancellor to make rules under section 40A(3)
+for ‚ÄúSecretary of State‚Äù substitute ‚Äúthe Tribunal‚Äù.
+(2) In section 182 of that Act (regulations and orders) after subsection (1) insert‚Äî
+‚Äú(1A) The power of the Lord Chancellor to make rules under section 40A(3)
 shall be exercisable by statutory instrument subject to annulment in
-pursuance of a resolution of either House of Parliament.î
-(3) In subsection (2) of that sectionó
-(a) after ìordersî wherever occurring insert ìor rulesî;
-(b) after ìby the Secretary of Stateî insert ìor by the Lord Chancellorî;
-(c) in paragraph (c) for ìSecretary of Stateî substitute ìperson making
-themî.
-(4) In section 189(1) of that Act (definitions)ó
-(a) in the definition of ìappeal periodî for ìSecretary of Stateî substitute
-ìTribunalî;
-(b) after the definition of ìtotal priceî insertó
-ìëthe Tribunalí means the Consumer Credit Appeals
-Tribunal;î.
+pursuance of a resolution of either House of Parliament.‚Äù
+(3) In subsection (2) of that section‚Äî
+(a) after ‚Äúorders‚Äù wherever occurring insert ‚Äúor rules‚Äù;
+(b) after ‚Äúby the Secretary of State‚Äù insert ‚Äúor by the Lord Chancellor‚Äù;
+(c) in paragraph (c) for ‚ÄúSecretary of State‚Äù substitute ‚Äúperson making
+them‚Äù.
+(4) In section 189(1) of that Act (definitions)‚Äî
+(a) in the definition of ‚Äúappeal period‚Äù for ‚ÄúSecretary of State‚Äù substitute
+‚ÄúTribunal‚Äù;
+(b) after the definition of ‚Äútotal price‚Äù insert‚Äî
+‚Äú‚Äòthe Tribunal‚Äô means the Consumer Credit Appeals
+Tribunal;‚Äù.
 Consumer Credit Act 2006 (c. 14) 49
 (5) In Schedule 1 to the Tribunals and Inquiries Act 1992 (c. 53) (tribunals under
-supervision of Council on Tribunals) after paragraph 9A insertó
+supervision of Council on Tribunals) after paragraph 9A insert‚Äî
 Ombudsman scheme
 59 Financial services ombudsman scheme to apply to consumer credit licensees
-(1) After section 226 of the 2000 Act insertó
-ì226A Consumer credit jurisdiction
-(1) A complaint which relates to an act or omission of a person (ìthe
-respondentî) is to be dealt with under the ombudsman scheme if the
+(1) After section 226 of the 2000 Act insert‚Äî
+‚Äú226A Consumer credit jurisdiction
+(1) A complaint which relates to an act or omission of a person (‚Äúthe
+respondent‚Äù) is to be dealt with under the ombudsman scheme if the
 conditions mentioned in subsection (2) are satisfied.
-(2) The conditions are tható
+(2) The conditions are that‚Äî
 (a) the complainant is eligible and wishes to have the complaint
 dealt with under the scheme;
 (b) the complaint falls within a description specified in consumer
@@ -2227,7 +2227,7 @@ subsection (3);
 specified in an order made by the Secretary of State; and
 (f) the complaint cannot be dealt with under the compulsory
 jurisdiction.
-(3) The types of business referred to in subsection (2)(d) areó
+(3) The types of business referred to in subsection (2)(d) are‚Äî
 (a) a consumer credit business;
 (b) a consumer hire business;
 (c) a business so far as it comprises or relates to credit brokerage;
@@ -2240,13 +2240,13 @@ administration;
 credit information services;
 (i) a business so far as it comprises or relates to the operation of a
 credit reference agency.
-(4) A complainant is eligible ifó
-ìConsumer credit 9B. The Consumer Credit
+(4) A complainant is eligible if‚Äî
+‚ÄúConsumer credit 9B. The Consumer Credit
 Appeals Tribunal established
 by section 40A of the
-Consumer Credit Act 1974.î
+Consumer Credit Act 1974.‚Äù
 50 Consumer Credit Act 2006 (c. 14)
-(a) he isó
+(a) he is‚Äî
 (i) an individual; or
 (ii) a surety in relation to a security provided to the
 respondent in connection with the business mentioned
@@ -2256,20 +2256,20 @@ rules.
 (5) The approval of the Treasury is required for an order under subsection
 (2)(e).
 (6) The jurisdiction of the scheme which results from this section is
-referred to in this Act as the ìconsumer credit jurisdictionî.
-(7) In this Act ìconsumer credit rulesî means rules made by the scheme
+referred to in this Act as the ‚Äúconsumer credit jurisdiction‚Äù.
+(7) In this Act ‚Äúconsumer credit rules‚Äù means rules made by the scheme
 operator with the approval of the Authority for the purposes of the
 consumer credit jurisdiction.
 (8) Consumer credit rules under this section may make different provision
 for different cases.
 (9) Expressions used in the Consumer Credit Act 1974 have the same
-meaning in this section as they have in that Act.î
+meaning in this section as they have in that Act.‚Äù
 (2) In Schedule 17 to that Act (the ombudsman scheme) after Part 3 insert the Part
 3A set out in Schedule 2 to this Act.
 60 Funding of ombudsman scheme
-In Part 16 of the 2000 Act after section 234 insertó
-ì234A Funding by consumer credit licensees etc.
-(1) For the purpose of fundingó
+In Part 16 of the 2000 Act after section 234 insert‚Äî
+‚Äú234A Funding by consumer credit licensees etc.
+(1) For the purpose of funding‚Äî
 (a) the establishment of the ombudsman scheme so far as it relates
 to the consumer credit jurisdiction (whenever any relevant
 expense is incurred), and
@@ -2278,24 +2278,24 @@ the scheme operator may from time to time with the approval of the
 Authority determine a sum which is to be raised by way of
 contributions under this section.
 (2) A sum determined under subsection (1) may include a component to
-cover the costs of the collection of contributions to that sum (ìcollection
-costsî) under this section.
+cover the costs of the collection of contributions to that sum (‚Äúcollection
+costs‚Äù) under this section.
 (3) The scheme operator must notify the OFT of every determination
 under subsection (1).
 (4) The OFT must give general notice of every determination so notified.
-(5) The OFT may by general notice impose requirements onó
+(5) The OFT may by general notice impose requirements on‚Äî
 (a) licensees to whom this section applies, or
 (b) persons who make applications to which this section applies,
 to pay contributions to the OFT for the purpose of raising sums
 determined under subsection (1).
 Consumer Credit Act 2006 (c. 14) 51
 (6) The amount of the contribution payable by a person under such a
-requirementó
+requirement‚Äî
 (a) shall be the amount specified in or determined under the
 general notice; and
 (b) shall be paid before the end of the period or at the time so
 specified or determined.
-(7) A general notice under subsection (5) mayó
+(7) A general notice under subsection (5) may‚Äî
 (a) impose requirements only on descriptions of licensees or
 applicants specified in the notice;
 (b) provide for exceptions from any requirement imposed on a
@@ -2305,7 +2305,7 @@ licensees or applicants;
 (d) make provision for refunds in specified circumstances.
 (8) Contributions received by the OFT must be paid to the scheme
 operator.
-(9) As soon as practicable after the end ofó
+(9) As soon as practicable after the end of‚Äî
 (a) each financial year of the scheme operator, or
 (b) if the OFT and the scheme operator agree that this paragraph is
 to apply instead of paragraph (a) for the time being, each period
@@ -2325,84 +2325,84 @@ be set out in the order.
 (13) The licensees to whom this section applies are licensees under standard
 licences which cover to any extent the carrying on of a type of business
 specified in an order under section 226A(2)(e).
-(14) The applications to which this section applies are applications foró
+(14) The applications to which this section applies are applications for‚Äî
 (a) standard licences covering to any extent the carrying on of a
 business of such a type;
 (b) the renewal of standard licences on terms covering to any extent
 the carrying on of a business of such a type.
 (15) Expressions used in the Consumer Credit Act 1974 have the same
-meaning in this section as they have in that Act.î
+meaning in this section as they have in that Act.‚Äù
 52 Consumer Credit Act 2006 (c. 14)
 61 Consequential amendments relating to ombudsman scheme
 (1) In section 4 of the 1974 Act (OFT to disseminate information and advice) after
-ìthe operation of this Act,î insert ìthe consumer credit jurisdiction under Part
-16 of the Financial Services and Markets Act 2000,î.
+‚Äúthe operation of this Act,‚Äù insert ‚Äúthe consumer credit jurisdiction under Part
+16 of the Financial Services and Markets Act 2000,‚Äù.
 (2) In section 227(2)(e) of the 2000 Act (conditions for exercise of voluntary
-jurisdiction) after ìjurisdictionî insert ìor the consumer credit jurisdictionî.
+jurisdiction) after ‚Äújurisdiction‚Äù insert ‚Äúor the consumer credit jurisdiction‚Äù.
 (3) In sections 228(1) and 229(1) of that Act (determinations and awards by
-ombudsman) after ìjurisdictionî insert ìand to the consumer credit
-jurisdictionî.
+ombudsman) after ‚Äújurisdiction‚Äù insert ‚Äúand to the consumer credit
+jurisdiction‚Äù.
 (4) In subsection (4) of section 229 of that Act (awards by ombudsman) after
-ìspecifyî insert ìfor the purposes of the compulsory jurisdictionî.
-(5) After that subsection insertó
-ì(4A) The scheme operator may specify for the purposes of the consumer
+‚Äúspecify‚Äù insert ‚Äúfor the purposes of the compulsory jurisdiction‚Äù.
+(5) After that subsection insert‚Äî
+‚Äú(4A) The scheme operator may specify for the purposes of the consumer
 credit jurisdiction the maximum amount which may be regarded as fair
 compensation for a particular kind of loss or damage specified under
-subsection (3)(b).î
-(6) In subsection (8)(b) of that section after ì17î insert ìor (as the case may be) Part
-3A of that Scheduleî.
-(7) For subsection (11) of that section substituteó
-ì(11) ìSpecifiedî meansó
+subsection (3)(b).‚Äù
+(6) In subsection (8)(b) of that section after ‚Äú17‚Äù insert ‚Äúor (as the case may be) Part
+3A of that Schedule‚Äù.
+(7) For subsection (11) of that section substitute‚Äî
+‚Äú(11) ‚ÄúSpecified‚Äù means‚Äî
 (a) for the purposes of the compulsory jurisdiction, specified in
 compulsory jurisdiction rules;
 (b) for the purposes of the consumer credit jurisdiction, specified in
 consumer credit rules.
 (12) Consumer credit rules under this section may make different provision
-for different cases.î
-(8) In section 230 of that Act (costs)ó
-(a) in subsection (1) after ìjurisdictionî insert ìor the consumer credit
-jurisdictionî;
-(b) in subsection (7) after ì17î insert ìor (as the case may be) paragraph
-16D of that Scheduleî.
+for different cases.‚Äù
+(8) In section 230 of that Act (costs)‚Äî
+(a) in subsection (1) after ‚Äújurisdiction‚Äù insert ‚Äúor the consumer credit
+jurisdiction‚Äù;
+(b) in subsection (7) after ‚Äú17‚Äù insert ‚Äúor (as the case may be) paragraph
+16D of that Schedule‚Äù.
 (9) In section 353(1) of that Act (power to permit disclosure of information) after
-paragraph (b) insertó
-ì(c) by the scheme operator to the Office of Fair Trading for the
+paragraph (b) insert‚Äî
+‚Äú(c) by the scheme operator to the Office of Fair Trading for the
 purpose of assisting or enabling that Office to discharge
-prescribed functions under the Consumer Credit Act 1974.î
-(10) In Schedule 17 to that Act (the ombudsman scheme)ó
-(a) in paragraph 3(4) after ì227î insert ì, the function of making consumer
+prescribed functions under the Consumer Credit Act 1974.‚Äù
+(10) In Schedule 17 to that Act (the ombudsman scheme)‚Äî
+(a) in paragraph 3(4) after ‚Äú227‚Äù insert ‚Äú, the function of making consumer
 credit rules, the function of making determinations under section
-234A(1)î;
-(b) in paragraph 7(2) after ìcompulsory jurisdictionî insert ì, functions in
-relation to its consumer credit jurisdictionî;
-(c) in paragraph 9(3) after ìcompulsoryî insert ì, consumer creditî;
-(d) in paragraphs 10(1) and 11 after ìjurisdictionî insert ìor to the
-consumer credit jurisdictionî.
+234A(1)‚Äù;
+(b) in paragraph 7(2) after ‚Äúcompulsory jurisdiction‚Äù insert ‚Äú, functions in
+relation to its consumer credit jurisdiction‚Äù;
+(c) in paragraph 9(3) after ‚Äúcompulsory‚Äù insert ‚Äú, consumer credit‚Äù;
+(d) in paragraphs 10(1) and 11 after ‚Äújurisdiction‚Äù insert ‚Äúor to the
+consumer credit jurisdiction‚Äù.
 Consumer Credit Act 2006 (c. 14) 53
 Miscellaneous
 62 Monitoring of businesses by OFT
 In section 1(1) of the 1974 Act (general functions of OFT) after paragraph (b)
-insertó
-ì(ba) to monitor, as it sees fit, businesses being carried on under
-licences;î.
+insert‚Äî
+‚Äú(ba) to monitor, as it sees fit, businesses being carried on under
+licences;‚Äù.
 63 Disapplication of s.101 of the 1974 Act
 (1) In section 101 of the 1974 Act (right of hirer to terminate regulated consumer
-hire agreement) after subsection (8) insertó
-ì(8A) If it appears to the OFT that it would be in the interests of hirers to do
+hire agreement) after subsection (8) insert‚Äî
+‚Äú(8A) If it appears to the OFT that it would be in the interests of hirers to do
 so, it may by general notice direct that, subject to such conditions (if
 any) as it may specify, this section shall not apply to a consumer hire
 agreement if the agreement falls within a specified description; and this
-Act shall have effect accordingly.î
-(2) In subsection (8) of that section for the words from ìthis sectionî onwards
-substitute ì, subject to such conditions (if any) as it may specify, this section
+Act shall have effect accordingly.‚Äù
+(2) In subsection (8) of that section for the words from ‚Äúthis section‚Äù onwards
+substitute ‚Äú, subject to such conditions (if any) as it may specify, this section
 shall not apply to consumer hire agreements made by the applicant; and this
-Act shall have effect accordinglyî.
+Act shall have effect accordingly‚Äù.
 64 Determinations etc. by OFT
-For section 183 of the 1974 Act (determinations etc. by OFT) substituteó
-ì183 Determinations etc. by OFT
+For section 183 of the 1974 Act (determinations etc. by OFT) substitute‚Äî
+‚Äú183 Determinations etc. by OFT
 (1) The OFT may vary or revoke any determination made, or direction
 given, by it under this Act.
-(2) Subsection (1) does not apply toó
+(2) Subsection (1) does not apply to‚Äî
 (a) a determination to issue, renew or vary a licence;
 (b) a determination to extend a period under section 28B or to
 refuse to extend a period under that section;
@@ -2410,25 +2410,25 @@ refuse to extend a period under that section;
 (d) a determination to make an order under section 40(2), 148(2) or
 149(2);
 (e) a determination mentioned in column 1 of the Table in section
-41.î
+41.‚Äù
 65 Sums received by OFT
 In section 190(2) of the 1974 Act (fees received by OFT to be paid into the
-Consolidated Fund) after ìfeesî insert ì, charges, penalties or other sumsî.
+Consolidated Fund) after ‚Äúfees‚Äù insert ‚Äú, charges, penalties or other sums‚Äù.
 Final provisions
 66 Financial provision
-There shall be payable out of money provided by Parliamentó
+There shall be payable out of money provided by Parliament‚Äî
 54 Consumer Credit Act 2006 (c. 14)
 (a) any expenditure incurred by a Minister of the Crown or the Office of
 Fair Trading by virtue of this Act; and
 (b) any increase attributable to this Act in the sums payable out of money
 so provided by virtue of any other Act.
 67 Interpretation
-In this Actó
-ìthe 1974 Actî means the Consumer Credit Act 1974 (c. 39);
-ìthe 2000 Actî means the Financial Services and Markets Act 2000 (c. 8).
+In this Act‚Äî
+‚Äúthe 1974 Act‚Äù means the Consumer Credit Act 1974 (c. 39);
+‚Äúthe 2000 Act‚Äù means the Financial Services and Markets Act 2000 (c. 8).
 68 Consequential amendments
 (1) The Secretary of State may by order made by statutory instrument make such
-modifications ofó
+modifications of‚Äî
 (a) any Act or subordinate legislation (within the meaning of the
 Interpretation Act 1978 (c. 30)), or
 (b) any Northern Ireland legislation or instrument made under such
@@ -2444,17 +2444,17 @@ by a resolution of each House of Parliament.
 (2) The Secretary of State may by order made by statutory instrument make such
 transitional or transitory provisions and savings as he thinks fit in connection
 with the coming into force of any provision of this Act.
-(3) An order under this section may (amongst other things)ó
+(3) An order under this section may (amongst other things)‚Äî
 (a) where a provision of this Act is brought into force for limited purposes
 only, make provision about how references in Schedule 3 to the
 commencement of that provision of this Act are to apply;
 (b) make provision for or in connection with the application of any
-provision of this Act in relation toó
+provision of this Act in relation to‚Äî
 (i) things existing or done, or
 (ii) persons who have done something or in relation to whom
 something has been done,
 before the coming into force of that provision of this Act.
-(4) An order under this section mayó
+(4) An order under this section may‚Äî
 (a) modify any Act or any subordinate legislation (within the meaning of
 the Interpretation Act 1978);
 (b) modify any Northern Ireland legislation or any instrument made under
@@ -2473,7 +2473,7 @@ Secretary of State may by order made by statutory instrument appoint; and
 different days may be appointed for different purposes.
 (3) This Act extends to Northern Ireland.
 Consumer Credit Act 2006 (c. 14)
-Schedule 1 ó Schedule A1 to the 1974 Act
+Schedule 1 ‚Äî Schedule A1 to the 1974 Act
 56
 SCHEDULES
 SCHEDULE 1 Section 55
@@ -2482,21 +2482,21 @@ SCHEDULE A1
 THE CONSUMER CREDIT APPEALS TRIBUNAL
 PART 1
 INTERPRETATION
-1 In this Scheduleó
-ìthe Deputy Presidentî means the Deputy President of the Consumer
+1 In this Schedule‚Äî
+‚Äúthe Deputy President‚Äù means the Deputy President of the Consumer
 Credit Appeals Tribunal;
-ìlay panelî means the panel established under paragraph 3(3);
-ìpanel of chairmenî means the panel established under paragraph 3(1);
-ìpartyî means, in relation to an appeal, the appellant or the OFT;
-ìthe Presidentî means the President of the Consumer Credit Appeals
+‚Äúlay panel‚Äù means the panel established under paragraph 3(3);
+‚Äúpanel of chairmen‚Äù means the panel established under paragraph 3(1);
+‚Äúparty‚Äù means, in relation to an appeal, the appellant or the OFT;
+‚Äúthe President‚Äù means the President of the Consumer Credit Appeals
 Tribunal;
-ìrulesî means rules under section 40A(3) of this Act;
-ìspecifiedî means specified by rules.
+‚Äúrules‚Äù means rules under section 40A(3) of this Act;
+‚Äúspecified‚Äù means specified by rules.
 PART 2
 THE TRIBUNAL
 The President and the Deputy President
 2 (1) The Lord Chancellor shall appoint one of the members of the panel of
-chairmen to preside over the discharge of the Tribunalís functions.
+chairmen to preside over the discharge of the Tribunal‚Äôs functions.
 (2) The person so appointed shall be known as the President of the Consumer
 Credit Appeals Tribunal.
 (3) The Lord Chancellor may appoint one of the members of the panel of
@@ -2508,10 +2508,10 @@ the President may assign to him.
 of chairmen, he shall also cease to be the President or (as the case may be) the
 Deputy President.
 Consumer Credit Act 2006 (c. 14)
-Schedule 1 ó Schedule A1 to the 1974 Act
+Schedule 1 ‚Äî Schedule A1 to the 1974 Act
 57
 (6) The functions of the President may, if he is absent or is otherwise unable to
-act, be dischargedó
+act, be discharged‚Äî
 (a) by the Deputy President; or
 (b) if there is no Deputy President or he too is absent or otherwise unable
 to act, by a person appointed for that purpose from the panel of
@@ -2519,13 +2519,13 @@ chairmen by the Lord Chancellor.
 Panels
 3 (1) The Lord Chancellor shall appoint a panel of persons for the purpose of
 serving as chairmen of the Tribunal.
-(2) A person shall not be appointed to the panel of chairmen unless heó
+(2) A person shall not be appointed to the panel of chairmen unless he‚Äî
 (a) has a seven year general qualification within the meaning of section
 71 of the Courts and Legal Services Act 1990;
-(b) is an advocate or solicitor in Scotland of at least seven yearsí
+(b) is an advocate or solicitor in Scotland of at least seven years‚Äô
 standing; or
 (c) is a member of the Bar of Northern Ireland, or a solicitor of the
-Supreme Court of Northern Ireland, of at least seven yearsí standing.
+Supreme Court of Northern Ireland, of at least seven years‚Äô standing.
 (3) The Lord Chancellor shall also appoint a panel of persons who appear to
 him to be qualified by experience or otherwise to deal with appeals of the
 kind that may be made to the Tribunal.
@@ -2534,12 +2534,12 @@ Terms of office etc.
 office in accordance with the terms of his appointment.
 (2) The Lord Chancellor may remove a member of either panel from office on
 the ground of incapacity or misbehaviour.
-(3) A member of either paneló
+(3) A member of either panel‚Äî
 (a) may at any time resign office by notice in writing to the Lord
 Chancellor;
 (b) is eligible for re-appointment if he ceases to hold office.
 Remuneration and allowances
-5 The Lord Chancellor may pay to a person in respect of his serviceó
+5 The Lord Chancellor may pay to a person in respect of his service‚Äî
 (a) as the President or the Deputy President,
 (b) as a member of the Tribunal, or
 (c) as a person appointed under paragraph 7(4),
@@ -2547,11 +2547,11 @@ such remuneration and allowances as the Lord Chancellor may determine.
 Staff and costs
 6 (1) The Lord Chancellor may appoint such staff for the Tribunal as he may
 determine.
-(2) The Lord Chancellor shall defrayó
-(a) the remuneration of the Tribunalís staff; and
+(2) The Lord Chancellor shall defray‚Äî
+(a) the remuneration of the Tribunal‚Äôs staff; and
 (b) such other costs of the Tribunal as he may determine.
 Consumer Credit Act 2006 (c. 14)
-Schedule 1 ó Schedule A1 to the 1974 Act
+Schedule 1 ‚Äî Schedule A1 to the 1974 Act
 58
 PART 3
 CONSTITUTION OF THE TRIBUNAL
@@ -2577,7 +2577,7 @@ at the time it made the determination appealed against.
 (2) Rules may make provision restricting the evidence that the Tribunal may
 consider on an appeal in specified circumstances.
 Rules on procedure
-10 Rules may include, amongst other things, provisionó
+10 Rules may include, amongst other things, provision‚Äî
 (a) about the withdrawal of appeals;
 (b) about persons who may appear on behalf of a party to an appeal;
 (c) about how an appeal is to be dealt with if a person acting as member
@@ -2595,7 +2595,7 @@ the appeal;
 (g) about the holding of hearings by the Tribunal or a member of the
 panel of chairmen (including for such hearings to be held in private);
 Consumer Credit Act 2006 (c. 14)
-Schedule 1 ó Schedule A1 to the 1974 Act
+Schedule 1 ‚Äî Schedule A1 to the 1974 Act
 59
 (h) placing restrictions on the disclosure of information and documents
 or for such restrictions to be imposed by the Tribunal or a member of
@@ -2613,7 +2613,7 @@ where it has reason to believe that the decision was wrongly made
 because of an administrative error made by a member of its staff.
 Council on Tribunals
 11 A member of the Council on Tribunals or of its Scottish Committee shall be
-entitledó
+entitled‚Äî
 (a) to attend any hearing held by the Tribunal or a member of the panel
 of chairmen whether or not it is held in public; and
 (b) to attend any deliberations of the Tribunal in relation to an appeal.
@@ -2621,7 +2621,7 @@ Disposal of appeals
 12 (1) The Tribunal shall decide an appeal by reference to the grounds of appeal set
 out in the notice of appeal.
 (2) In disposing of an appeal the Tribunal may do one or more of the
-followingó
+following‚Äî
 (a) confirm the determination appealed against;
 (b) quash that determination;
 (c) vary that determination;
@@ -2630,19 +2630,19 @@ accordance with the directions (if any) given to it by the Tribunal;
 (e) give the OFT directions for the purpose of giving effect to its
 decision.
 (3) In the case of an appeal against a determination to impose a penalty, the
-Tribunaló
+Tribunal‚Äî
 (a) has no power by virtue of sub-paragraph (2)(c) to increase the
 penalty;
 (b) may extend the period within which the penalty is to be paid
 (including in cases where that period has already ended).
-(4) Sub-paragraph (3) does not affectó
-(a) the Tribunalís power to give directions to the OFT under subparagraph (2)(d); or
+(4) Sub-paragraph (3) does not affect‚Äî
+(a) the Tribunal‚Äôs power to give directions to the OFT under subparagraph (2)(d); or
 (b) what the OFT can do where a matter is remitted to it under subparagraph (2)(d).
 (5) Where the Tribunal remits a matter to the OFT, it may direct that the
 requirements of section 34 of this Act are not to apply, or are only to apply
-to a specified extent, in relation to the OFTís reconsideration of the matter.
+to a specified extent, in relation to the OFT‚Äôs reconsideration of the matter.
 Consumer Credit Act 2006 (c. 14)
-Schedule 1 ó Schedule A1 to the 1974 Act
+Schedule 1 ‚Äî Schedule A1 to the 1974 Act
 60
 (6) Subject to sub-paragraphs (7) and (8), where the Tribunal remits an
 application to the OFT, section 6(1) and (3) to (9) of this Act shall apply as if
@@ -2650,11 +2650,11 @@ the application had not been previously determined by the OFT.
 (7) In the case of a general notice which came into effect after the determination
 appealed against was made but before the application was remitted, the
 applicant shall provide any information or document which he is required
-to provide under section 6(6) withinó
+to provide under section 6(6) within‚Äî
 (a) the period of 28 days beginning with the day on which the
 application was remitted; or
 (b) such longer period as the OFT may allow.
-(8) In the case ofó
+(8) In the case of‚Äî
 (a) any information or document which was superseded,
 (b) any change in circumstances which occurred, or
 (c) any error or omission of which the applicant became aware,
@@ -2664,20 +2664,20 @@ applicant under section 6(7) shall be given within the period of 28 days
 beginning with the day on which the application was remitted.
 Decisions of the Tribunal
 13 (1) A decision of the Tribunal may be taken by majority.
-(2) A decision of the Tribunal disposing of an appeal shalló
+(2) A decision of the Tribunal disposing of an appeal shall‚Äî
 (a) state whether it was unanimous or taken by majority; and
-(b) be recorded in a document whichó
+(b) be recorded in a document which‚Äî
 (i) contains a statement of the reasons for the decision and any
 other specified information; and
 (ii) is signed and dated by a member of the panel of chairmen.
-(3) Where the Tribunal disposes of an appeal it shalló
+(3) Where the Tribunal disposes of an appeal it shall‚Äî
 (a) send to each party to the appeal a copy of the document mentioned
 in sub-paragraph (2)(b); and
 (b) publish that document in such manner as it thinks fit.
 (4) The Tribunal may exclude from what it publishes under sub-paragraph
 (3)(b) information of a specified description.
 Costs
-14 (1) Where the Tribunal disposes of an appeal andó
+14 (1) Where the Tribunal disposes of an appeal and‚Äî
 (a) it decides that the OFT was wrong to make the determination
 appealed against, or
 (b) during the course of the appeal the OFT accepted that it was wrong
@@ -2687,9 +2687,9 @@ incurred by the appellant in relation to the appeal.
 (2) In determining whether to make such an order, and the terms of such an
 order, the Tribunal shall have regard to whether it was unreasonable for the
 OFT to make the determination appealed against.
-15 Whereó
+15 Where‚Äî
 Consumer Credit Act 2006 (c. 14)
-Schedule 1 ó Schedule A1 to the 1974 Act
+Schedule 1 ‚Äî Schedule A1 to the 1974 Act
 61
 (a) the Tribunal disposes of an appeal or an appeal is withdrawn before
 the Tribunal disposes of it, and
@@ -2698,7 +2698,7 @@ frivolously or unreasonably in bringing the appeal or otherwise in
 relation to the appeal,
 it may order that party to pay to the other party the whole or a part of the
 costs incurred by the other party in relation to the appeal.
-16 An order of the Tribunal under paragraph 14 or 15 may be enforcedó
+16 An order of the Tribunal under paragraph 14 or 15 may be enforced‚Äî
 (a) as if it were an order of the county court; or
 (b) in Scotland, as if it were an interlocutor of the Court of Session.
 SCHEDULE 2 Section 59
@@ -2709,7 +2709,7 @@ Introduction
 16A This Part of this Schedule applies only in relation to the consumer credit
 jurisdiction.
 Procedure for complaints etc.
-16B (1) Consumer credit rulesó
+16B (1) Consumer credit rules‚Äî
 (a) must provide that a complaint is not to be entertained unless the
 complainant has referred it under the ombudsman scheme before the
 applicable time limit (determined in accordance with the rules) has
@@ -2733,11 +2733,11 @@ for the resolution of complaints which may be referred to the scheme.
 provision in relation to persons of different descriptions or to complaints of
 different descriptions.
 Consumer Credit Act 2006 (c. 14)
-Schedule 2 ó Part 3A of Schedule 17 to the 2000 Act
+Schedule 2 ‚Äî Part 3A of Schedule 17 to the 2000 Act
 62
 (5) Consumer credit rules under sub-paragraph (3) may authorise the scheme
 operator to dispense with or modify the application of such rules in
-particular cases where the scheme operatoró
+particular cases where the scheme operator‚Äî
 (a) considers it appropriate to do so; and
 (b) is satisfied that the specified conditions (if any) are met.
 (6) A person falls within this sub-paragraph if he is licensed by a standard
@@ -2752,7 +2752,7 @@ rules under this paragraph as it applies in relation to scheme rules under
 that paragraph.
 Enforcement of money awards
 16D A money award, including interest, which has been registered in accordance
-with consumer credit rules mayó
+with consumer credit rules may‚Äî
 (a) if a county court so orders in England and Wales, be recovered by
 execution issued from the county court (or otherwise) as if it were
 payable under an order of that court;
@@ -2772,17 +2772,17 @@ arrange for them to be printed and made available to the public.
 with a copy of any such rules.
 Verification of consumer credit rules
 16F (1) The production of a printed copy of consumer credit rules purporting to be
-made by the scheme operatoró
+made by the scheme operator‚Äî
 (a) on which there is endorsed a certificate signed by a member of the
-scheme operatorís staff authorised by the scheme operator for that
+scheme operator‚Äôs staff authorised by the scheme operator for that
 purpose, and
 (b) which contains the required statements,
 Consumer Credit Act 2006 (c. 14)
-Schedule 2 ó Part 3A of Schedule 17 to the 2000 Act
+Schedule 2 ‚Äî Part 3A of Schedule 17 to the 2000 Act
 63
 is evidence (or in Scotland sufficient evidence) of the facts stated in the
 certificate.
-(2) The required statements areó
+(2) The required statements are‚Äî
 (a) that the rules were made by the scheme operator;
 (b) that the copy is a true copy of the rules; and
 (c) that on a specified date the rules were made available to the public
@@ -2793,7 +2793,7 @@ Consultation
 16G (1) If the scheme operator proposes to make consumer credit rules, it must
 publish a draft of the proposed rules in the way appearing to it to be best
 calculated to bring the draft to the attention of the public.
-(2) The draft must be accompanied byó
+(2) The draft must be accompanied by‚Äî
 (a) an explanation of the proposed rules; and
 (b) a statement that representations about the proposals may be made to
 the scheme operator within a specified time.
@@ -2810,7 +2810,7 @@ Interpretation
 1 (1) Expressions used in the 1974 Act have the same meaning in this Schedule
 (apart from paragraphs 14 to 16 and 26) as they have in that Act.
 (2) For the purposes of this Schedule an agreement becomes a completed
-agreement onceó
+agreement once‚Äî
 (a) there is no sum payable under the agreement; and
 (b) there is no sum which will or may become so payable.
 Statements to be provided in relation to regulated agreements
@@ -2819,7 +2819,7 @@ made.
 (2) Section 77A shall have effect in relation to agreements made before the
 commencement of section 6 of this Act as if the period mentioned in
 Consumer Credit Act 2006 (c. 14)
-Schedule 3 ó Transitional Provision and Savings
+Schedule 3 ‚Äî Transitional Provision and Savings
 64
 subsection (1)(a) were the period of one year beginning with the day of the
 commencement of section 6.
@@ -2828,7 +2828,7 @@ to agreements regardless of when they were made.
 4 (1) Section 7(3) of this Act shall have effect in relation to agreements whenever
 made.
 (2) A dispensing notice given under section 185(2) of the 1974 Act which is
-operative immediately before the commencement of section 7(3)ó
+operative immediately before the commencement of section 7(3)‚Äî
 (a) shall, on the commencement of section 7(3), be treated as having
 been given under section 185(2) as substituted by section 7(3); and
 (b) shall continue to be operative accordingly.
@@ -2843,7 +2843,7 @@ made.
 commencement of section 9 of this Act, the conditions under subsection (1)
 can be satisfied only if the two payments mentioned in paragraph (c) were
 not required to have been made before the commencement of section 9.
-(3) In the case of an agreement within subsection (9) of section 86B, subparagraph (2) has effect as if for ìtwoî there were substituted ìfourî.
+(3) In the case of an agreement within subsection (9) of section 86B, subparagraph (2) has effect as if for ‚Äútwo‚Äù there were substituted ‚Äúfour‚Äù.
 7 (1) Section 86C of the 1974 Act applies in relation to agreements whenever
 made.
 (2) In the application of section 86C in relation to an agreement made before the
@@ -2863,17 +2863,17 @@ of the creditor or owner to recover compound interest in connection with the
 default sum in question at a particular rate were a right to recover simple
 interest in that connection at that rate.
 10 Section 14 of this Act shall have effect in relation to any default notice served
-after the commencement of that section, regardless ofó
+after the commencement of that section, regardless of‚Äî
 (a) when the breach of the agreement in question occurred; or
 Consumer Credit Act 2006 (c. 14)
-Schedule 3 ó Transitional Provision and Savings
+Schedule 3 ‚Äî Transitional Provision and Savings
 65
 (b) when that agreement was made.
-11 The repeal by this Act ofó
-(a) the words ì(subject to subsections (3) and (4))î in subsection (1) of
+11 The repeal by this Act of‚Äî
+(a) the words ‚Äú(subject to subsections (3) and (4))‚Äù in subsection (1) of
 section 127 of the 1974 Act,
 (b) subsections (3) to (5) of that section, and
-(c) the words ìor 127(3)î in subsection (3) of section 185 of that Act,
+(c) the words ‚Äúor 127(3)‚Äù in subsection (3) of section 185 of that Act,
 has no effect in relation to improperly-executed agreements made before the
 commencement of section 15 of this Act.
 12 A debtor or hirer under an agreement may make an application under
@@ -2885,7 +2885,7 @@ given after the commencement of section 17 of this Act.
 Unfair relationships
 14 (1) The court may make an order under section 140B of the 1974 Act in
 connection with a credit agreement made before the commencement of
-section 20 of this Act but onlyó
+section 20 of this Act but only‚Äî
 (a) on an application of the kind mentioned in paragraph (a) of
 subsection (2) of section 140B made at a time after the end of the
 transitional period; or
@@ -2893,27 +2893,27 @@ transitional period; or
 kind mentioned in paragraph (b) or (c) of that subsection which were
 commenced at such a time.
 (2) But the court shall not make such an order in connection with such an
-agreement so made if the agreementó
+agreement so made if the agreement‚Äî
 (a) became a completed agreement before the commencement of section
 20; or
 (b) becomes a completed agreement during the transitional period.
 (3) Expressions used in sections 140A to 140C of the 1974 Act have the same
 meaning in this paragraph as they have in those sections.
-(4) In this paragraph ìthe transitional periodî means the period of one year
+(4) In this paragraph ‚Äúthe transitional period‚Äù means the period of one year
 beginning with the day of the commencement of section 20.
 (5) An order under section 69 of this Act may extend, or further extend, the
 transitional period.
 15 (1) The repeal by this Act of sections 137 to 140 of the 1974 Act shall not affect
-the courtís power to reopen an existing agreement under those sections as
+the court‚Äôs power to reopen an existing agreement under those sections as
 set out in this paragraph.
-(2) The courtís power to reopen an existing agreement whichó
+(2) The court‚Äôs power to reopen an existing agreement which‚Äî
 (a) became a completed agreement before the commencement of section
 22(3) of this Act, or
 (b) becomes a completed agreement during the transitional period,
 is not affected at all.
-(3) The court may also reopen an existing agreementó
+(3) The court may also reopen an existing agreement‚Äî
 Consumer Credit Act 2006 (c. 14)
-Schedule 3 ó Transitional Provision and Savings
+Schedule 3 ‚Äî Transitional Provision and Savings
 66
 (a) on an application of the kind mentioned in paragraph (a) of
 subsection (1) of section 139 made at a time before the end of the
@@ -2925,25 +2925,25 @@ commenced at such a time.
 sections 137 to 140 (whether by virtue of this paragraph or otherwise).
 (5) The repeal or revocation by this Act of the following provisions has no effect
 in relation to existing agreements so far as they may be reopened as set out
-in this paragraphó
+in this paragraph‚Äî
 (a) section 16(7) of the 1974 Act;
-(b) in section 143(b) of that Act, the words ì, 139(1)(a)î;
+(b) in section 143(b) of that Act, the words ‚Äú, 139(1)(a)‚Äù;
 (c) section 171(7) of that Act;
-(d) in subsection (1) of section 181 of that Act, the words ì139(5) and
-(7),î;
-(e) in subsection (2) of that section, the words ìor 139(5) or (7)î;
+(d) in subsection (1) of section 181 of that Act, the words ‚Äú139(5) and
+(7),‚Äù;
+(e) in subsection (2) of that section, the words ‚Äúor 139(5) or (7)‚Äù;
 (f) in section 61(6) of the Bankruptcy (Scotland) Act 1985 (c. 66), the
-words from the beginning to ìbutî;
+words from the beginning to ‚Äúbut‚Äù;
 (g) in section 343(6) of the Insolvency Act 1986 (c. 45), the words from
-the beginning to ìButî;
+the beginning to ‚ÄúBut‚Äù;
 (h) Article 316(6) of the Insolvency (Northern Ireland) Order 1989 (S.I.
 1989/2405 (N.I. 19)).
 (6) Expressions used in sections 137 to 140 of the 1974 Act have the same
 meaning in this paragraph as they have in those sections.
-(7) In this paragraphó
-ìexisting agreementî means a credit agreement made before the
+(7) In this paragraph‚Äî
+‚Äúexisting agreement‚Äù means a credit agreement made before the
 commencement of section 22(3) of this Act;
-ìthe transitional periodî means the period of one year beginning with
+‚Äúthe transitional period‚Äù means the period of one year beginning with
 the day of the commencement of section 22(3).
 (8) An order under section 69 of this Act may extend, or further extend, the
 transitional period.
@@ -2951,7 +2951,7 @@ transitional period.
 when (as the case may be) a credit agreement or a linked transaction was
 made or a security was provided.
 (2) In relation to an order made under section 140B of the 1974 Act during the
-transitional period in connection with a credit agreementó
+transitional period in connection with a credit agreement‚Äî
 (a) references in subsection (1) of that section to any related agreement
 shall not include references to a related agreement to which this subparagraph applies;
 (b) the reference to a security in paragraph (d) of that subsection shall
@@ -2962,15 +2962,15 @@ accounts to be taken, or (in Scotland) an accounting to be made, between any
 persons in relation to a related agreement to which this sub-paragraph
 applies.
 Consumer Credit Act 2006 (c. 14)
-Schedule 3 ó Transitional Provision and Savings
+Schedule 3 ‚Äî Transitional Provision and Savings
 67
-(3) Sub-paragraph (2) applies to a related agreement or a security ifó
+(3) Sub-paragraph (2) applies to a related agreement or a security if‚Äî
 (a) it was made or provided before the commencement of section 21 of
 this Act; and
 (b) it ceased to have any operation before the order under section 140B
 is made.
 (4) In relation to an order made under section 140B after the end of the
-transitional period in connection with a credit agreementó
+transitional period in connection with a credit agreement‚Äî
 (a) references in subsection (1) of that section to any related agreement
 shall not include references to a related agreement to which this subparagraph applies;
 (b) the reference to a security in paragraph (d) of that subsection shall
@@ -2980,14 +2980,14 @@ and the order shall not under paragraph (g) of that subsection direct
 accounts to be taken, or (in Scotland) an accounting to be made, between any
 persons in relation to a related agreement to which this sub-paragraph
 applies.
-(5) Sub-paragraph (4) applies to a related agreement or a security ifó
+(5) Sub-paragraph (4) applies to a related agreement or a security if‚Äî
 (a) it was made or provided before the commencement of section 21;
 and
 (b) it ceased to have any operation before the end of the transitional
 period.
 (6) Expressions used in sections 140A to 140C of the 1974 Act have the same
 meanings in this paragraph as they have in those sections.
-(7) In this paragraph ìthe transitional periodî means the period of one year
+(7) In this paragraph ‚Äúthe transitional period‚Äù means the period of one year
 beginning with the day of the commencement of section 21.
 (8) An order under section 69 of this Act may extend, or further extend, the
 transitional period.
@@ -2999,8 +2999,8 @@ Applications for licences and fitness to hold a licence etc.
 before the commencement of section 27 of this Act.
 (2) Section 6(2A) of the 1974 Act shall not apply in relation to applications so
 made.
-(3) The repeal by this Act of the words ìand must be accompanied by the
-specified feeî in section 6(2) of the 1974 Act has no effect in relation to
+(3) The repeal by this Act of the words ‚Äúand must be accompanied by the
+specified fee‚Äù in section 6(2) of the 1974 Act has no effect in relation to
 applications so made.
 19 (1) The OFT shall prepare and publish the guidance required by section 25A of
 the 1974 Act as soon as practicable after the commencement of section 30 of
@@ -3009,14 +3009,14 @@ this Act.
 to the preparation of that guidance by steps taken wholly or partly before the
 commencement of section 30.
 Consumer Credit Act 2006 (c. 14)
-Schedule 3 ó Transitional Provision and Savings
+Schedule 3 ‚Äî Transitional Provision and Savings
 68
 Further powers of OFT to regulate conduct of licensees etc.
 20 The cases in which the OFT may impose requirements under section 33A of
 the 1974 Act include cases where the matter with which the OFT is
 dissatisfied arose before the commencement of section 38 of this Act.
 21 The cases in which the OFT may impose requirements under section 33B of
-the 1974 Act include cases where the matters giving rise to the OFTís
+the 1974 Act include cases where the matters giving rise to the OFT‚Äôs
 dissatisfaction arose before the commencement of section 39 of this Act.
 22 (1) The OFT shall prepare and publish the guidance required by section 33E of
 the 1974 Act as soon as practicable after the commencement of section 42 of
@@ -3040,7 +3040,7 @@ of section 54 of this Act.
 to the preparation of that statement of policy by steps taken wholly or partly
 before the commencement of section 54.
 Appeals
-26 (1) A person whoó
+26 (1) A person who‚Äî
 (a) immediately before the commencement of section 55 of this Act is a
 member of a panel established under regulation 24 of the appeals
 regulations, and
@@ -3048,31 +3048,31 @@ regulations, and
 (2)(a) of that regulation,
 shall be treated as having been appointed to the panel of chairmen on the
 day of the commencement of section 55.
-(2) A person whoó
+(2) A person who‚Äî
 (a) immediately before the commencement of section 55 is a member of
 a panel established under regulation 24 of the appeals regulations,
 and
 (b) is not to be treated as having been appointed to the panel of chairmen
 in accordance with sub-paragraph (1),
 Consumer Credit Act 2006 (c. 14)
-Schedule 3 ó Transitional Provision and Savings
+Schedule 3 ‚Äî Transitional Provision and Savings
 69
 shall be treated as having been appointed to the lay panel on the day of the
 commencement of section 55.
 (3) A person who is to be treated as having been appointed to the panel of
 chairmen or to the lay panel in accordance with this paragraph shall, subject
 to paragraph 4(2) and (3) of Schedule A1 to the 1974 Act, hold office as a
-member of the panel in questionó
+member of the panel in question‚Äî
 (a) for the remainder of the period for which he was appointed under
 regulation 24 of the appeals regulations; and
 (b) on the terms on which he was so appointed (except as to the renewal
 of his appointment).
-(4) In this paragraphó
-ìappeals regulationsî means the Consumer Credit Licensing (Appeals)
+(4) In this paragraph‚Äî
+‚Äúappeals regulations‚Äù means the Consumer Credit Licensing (Appeals)
 Regulations 1998 (S.I. 1998/1203);
-ìlay panelî and ìpanel of chairmenî have the same meanings as in
+‚Äúlay panel‚Äù and ‚Äúpanel of chairmen‚Äù have the same meanings as in
 Schedule A1 to the 1974 Act.
-27 (1) Neitheró
+27 (1) Neither‚Äî
 (a) subsections (1) and (2) of section 56 of this Act, nor
 (b) the repeal by this Act of subsections (2) to (5) of section 41 of the 1974
 Act,
@@ -3094,93 +3094,93 @@ REPEALS
 Act or instrument Extent of repeal
 Consumer Credit Act 1974
 (c. 39)
-In section 2(7), the words ìor 150î.
-In section 6(2), the words ìand must be
-accompanied by the specified feeî.
+In section 2(7), the words ‚Äúor 150‚Äù.
+In section 6(2), the words ‚Äúand must be
+accompanied by the specified fee‚Äù.
 Section 8(2).
-In section 15, subsection (1)(c) and the ìandî
+In section 15, subsection (1)(c) and the ‚Äúand‚Äù
 immediately preceding it.
 Section 16(7).
 Section 22(9) and (10).
 Consumer Credit Act 2006 (c. 14)
-Schedule 4 ó Repeals
+Schedule 4 ‚Äî Repeals
 70
-ócont. Section 23(2).
+‚Äîcont. Section 23(2).
 Section 25(1A).
 Section 29(5).
 Section 32(5).
 Section 36(6).
-In section 40(6), the words ì, other than a noncommercial agreement,î.
-In section 41ó
+In section 40(6), the words ‚Äú, other than a noncommercial agreement,‚Äù.
+In section 41‚Äî
 (a) subsections (2) to (5); and
-(b) in the Table the entry relating to ìrefusal
+(b) in the Table the entry relating to ‚Äúrefusal
 to give directions in respect of a licensee
-under section 29(5) or 32(5)î.
-In section 43, subsection (3)(a) and the ìorî
+under section 29(5) or 32(5)‚Äù.
+In section 43, subsection (3)(a) and the ‚Äúor‚Äù
 immediately after it.
-In section 127ó
-(a) in subsection (1) the words ì(subject to
-subsections (3) and (4))î; and
+In section 127‚Äî
+(a) in subsection (1) the words ‚Äú(subject to
+subsections (3) and (4))‚Äù; and
 (b) subsections (3) to (5).
 Sections 137 to 140.
-In section 143(b), the words ì, 139(1)(a)î.
-In section 147ó
+In section 143(b), the words ‚Äú, 139(1)(a)‚Äù.
+In section 147‚Äî
 (a) subsection (1); and
-(b) in subsection (2) the words ì(as applied
-by subsection (1))î.
+(b) in subsection (2) the words ‚Äú(as applied
+by subsection (1))‚Äù.
 Section 150.
-In section 162ó
-(a) in subsection (1)(b)(i), the words ìbooks
-orî;
-(b) in subsection (1)(b), the words ìand take
+In section 162‚Äî
+(a) in subsection (1)(b)(i), the words ‚Äúbooks
+or‚Äù;
+(b) in subsection (1)(b), the words ‚Äúand take
 copies of, or of any entry in, the books or
-documentsî;
+documents‚Äù;
 (c) in subsections (1)(d) and (e), (2) and (3)
-the word ìbooksî; and
+the word ‚Äúbooks‚Äù; and
 (d) subsection (7).
 Section 171(7).
-In section 181ó
-(a) in subsection (1) the words ì43(3)(a),î
-and the words ì139(5) and (7),î; and
-(b) in subsection (2) the words ì43(3)(a),î
-and the words ìor 139(5) or (7)î.
-In section 185(3), the words ìor 127(3)î.
-In section 189(1)ó
-(a) the definition of ìcostsî;
-(b) in the definition of ìlicenceî the words
-from ì(includingî onwards; and
-(c) the definition of ìpersonal credit
-agreementî.
+In section 181‚Äî
+(a) in subsection (1) the words ‚Äú43(3)(a),‚Äù
+and the words ‚Äú139(5) and (7),‚Äù; and
+(b) in subsection (2) the words ‚Äú43(3)(a),‚Äù
+and the words ‚Äúor 139(5) or (7)‚Äù.
+In section 185(3), the words ‚Äúor 127(3)‚Äù.
+In section 189(1)‚Äî
+(a) the definition of ‚Äúcosts‚Äù;
+(b) in the definition of ‚Äúlicence‚Äù the words
+from ‚Äú(including‚Äù onwards; and
+(c) the definition of ‚Äúpersonal credit
+agreement‚Äù.
 In Schedule 2, in Part 1, the entry relating to
-ìpersonal credit agreementî.
+‚Äúpersonal credit agreement‚Äù.
 Bankruptcy (Scotland) Act 1985
 (c. 66)
 In section 61(6), the words from the beginning
-to ìbutî.
+to ‚Äúbut‚Äù.
 Act or instrument Extent of repeal
 Consumer Credit Act 2006 (c. 14)
-Schedule 4 ó Repeals
+Schedule 4 ‚Äî Repeals
 71
 Insolvency Act 1986 (c. 45) In section 343(6), the words from the beginning
-to ìButî.
+to ‚ÄúBut‚Äù.
 Insolvency (Northern Ireland)
 Order 1989 (S.I. 1989/2405
 (N.I. 19))
 Article 316(6).
 Tribunals and Inquiries Act
 1992 (c. 53)
-In section 11ó
+In section 11‚Äî
 (a) subsection (6);
-(b) in subsection (7)(a), the words from ìor
-on an appealî to ìScotlandî in the third
+(b) in subsection (7)(a), the words from ‚Äúor
+on an appeal‚Äù to ‚ÄúScotland‚Äù in the third
 place where it occurs; and
-(c) in subsection (8), the words from ìand in
-relation toî to ìNorthern Irelandî in the
+(c) in subsection (8), the words from ‚Äúand in
+relation to‚Äù to ‚ÄúNorthern Ireland‚Äù in the
 third place where it occurs.
 Enterprise Act 2002 (c. 40) In Schedule 25, paragraphs 6(18)(b) and 27(2).
 Act or instrument Extent of repeal
 ? Crown copyright 2006
 Printed in the UK by The Stationery OYce Limited
 under the authority and superintendence of Carol Tullo, Controller of
-Her Majestyís Stationery OYce and Queenís Printer of Acts of Parliament
+Her Majesty‚Äôs Stationery OYce and Queen‚Äôs Printer of Acts of Parliament
 4/2006 334066 19585

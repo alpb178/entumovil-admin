@@ -1,4 +1,3 @@
-import jsPDF from "jspdf";
 import { useEffect, useState } from "react";
 import BodyContractDrafterJson from "./bodyContractDrafterJson";
 

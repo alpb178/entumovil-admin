@@ -85,7 +85,8 @@ export const contractDrafterESP = [
         father: "clausesClient",
         name: "opcion 1",
         value: [
-          `PRIMERO: Que XXX. son dueños en pleno dominio del inmueble sito en XXX. Según consta en escritura, de fecha XXX de XXX de XXX otorgada ante el Notario de XXX, con el nº XXX. de orden de su protocolo. Escritura cuya copia queda unida a este contrato . Dicho inmueble figura inscrito en el REGISTRO DE LA PROPIEDAD Nº XXX DE XXX, en el Tomo XXX, Libro XXX, Folio XXX, Finca nº XXX, 
+          `EXPONEN
+          PRIMERO: Que XXX. son dueños en pleno dominio del inmueble sito en XXX. Según consta en escritura, de fecha XXX de XXX de XXX otorgada ante el Notario de XXX, con el nº XXX. de orden de su protocolo. Escritura cuya copia queda unida a este contrato . Dicho inmueble figura inscrito en el REGISTRO DE LA PROPIEDAD Nº XXX DE XXX, en el Tomo XXX, Libro XXX, Folio XXX, Finca nº XXX, 
           Inscripción XXX. Figura con la referencia catastral número: XXX.
           Cuenta con XXX metros cuadrados construidos y XXX metros cuadrados útiles, correspondiéndole una cuota del XXX en los elementos comunes. Como ANEXOS cuenta con: Plaza de garaje de XXX metros cuadrados, situada en el garaje común, con el nº XXX, Trastero de XXX metros cuadrados, situado en la zona común de trasteros con el nº XXX
           SEGUNDO: El expresado inmueble se encuentra en edificio en régimen de COMUNIDAD, regulada por la Ley de Propiedad Horizontal.
@@ -98,7 +99,8 @@ export const contractDrafterESP = [
         father: "clausesClient",
         name: "opcion 2",
         value: [
-          `PRIMERO: Que los VENDEDORES son propietarios, en régimen de gananciales, de la siguiente finca:XXX, letra XXX, del inmueble núm. XXX de la calle XXX. Dicho piso consta de: (XXX habitaciones, salón-comedor, 
+          `EXPONEN
+          PRIMERO: Que los VENDEDORES son propietarios, en régimen de gananciales, de la siguiente finca:XXX, letra XXX, del inmueble núm. XXX de la calle XXX. Dicho piso consta de: (XXX habitaciones, salón-comedor, 
           cocina y XXX baños, con una extensión total de XXX m 2 construidos y XXX m2 útiles). Tiene como accesorios: (XXX garaje en sótano XXX, plaza núm. XXX, de XXX m 2, y XXX trastero en el mismo sótano XXX , Nº XXX, de XXX m2).
           DATOS REGISTRALES: Los VENDEDORES adjuntan a este contrato una Nota Simple del Registro de la Propiedad que recoge los datos registrales del inmueble.
           CARGAS: Dicha finca está libre de cargas y de arrendatarios, según manifiesta la parte vendedora y se recoge en la correspondiente Nota Simple del Registro de la Propiedad que se adjunta.
@@ -110,7 +112,8 @@ export const contractDrafterESP = [
         father: "clausesClient",
         name: "opcion 3",
         value: [
-          `Que D/ña XXX. es propietario en pleno dominio por título de XXX de la vivienda ubicada en la C/ XXX, piso XXX de la ciudad de XXX, de XXX metros cuadrados de superficie según consta en escritura de fecha XXX otorgada ante el Notario D. XXX con número de protocolo XXX, (se adjunta como anexo XXX), a la que corresponde una cuota de participación en elementos comunes, por formar parte de comunidad de propietarios, del XXX%, cuya superficie y composición así como demás características son perfectamente conocidas por los intervinientes.El inmueble está inscrito en el Registro de la Propiedad Nº de la ciudad de XXX al tomo XXX, libro XXX, folio XXX con el número XXX (Se adjunta como anexo XXX). 
+          `EXPONEN
+          Que D/ña XXX. es propietario en pleno dominio por título de XXX de la vivienda ubicada en la C/ XXX, piso XXX de la ciudad de XXX, de XXX metros cuadrados de superficie según consta en escritura de fecha XXX otorgada ante el Notario D. XXX con número de protocolo XXX, (se adjunta como anexo XXX), a la que corresponde una cuota de participación en elementos comunes, por formar parte de comunidad de propietarios, del XXX%, cuya superficie y composición así como demás características son perfectamente conocidas por los intervinientes.El inmueble está inscrito en el Registro de la Propiedad Nº de la ciudad de XXX al tomo XXX, libro XXX, folio XXX con el número XXX (Se adjunta como anexo XXX). 
           Y tiene número de referencia catastral XXX
           Se adjunta como anexo XXX al presente contrato, fotocopia del Certificado de eficiencia energética de la vivienda.
           La parte vendedora manifiesta que el inmueble se encuentra libre de cargas, gravámenes, arrendatarios y ocupantes, y se encuentra al corriente de pago de cuotas de comunidad, arbitrios y tributos.
@@ -127,7 +130,8 @@ export const contractDrafterESP = [
         father: "clausesContract",
         name: "opcion 1",
         value: [
-          `PRIMERA: Objeto D. XXX Y Dª. XXX, VENDEN la vivienda y anexos reseñados a D. XXX, quien a su vez acepta y COMPRA. La venta se efectúa con cuantos derechos, usos, servicios y servidumbres le sean inherentes a la vivienda y anexos vendidos, incluida la parte 
+          `ESTIPULACIONES
+          PRIMERA: Objeto D. XXX Y Dª. XXX, VENDEN la vivienda y anexos reseñados a D. XXX, quien a su vez acepta y COMPRA. La venta se efectúa con cuantos derechos, usos, servicios y servidumbres le sean inherentes a la vivienda y anexos vendidos, incluida la parte 
           proporcional que le corresponde en los elementos comunes del edificio y en las zonas comunes de la urbanización, libre de arrendatarios, ocupantes y cargas.
           SEGUNDA: Precio Las partes acuerdan fijar el precio total de la compraventa en la cantidad de XXX EUROS. XXX (XXX) pesetas; según el siguientes detalle: Precio de la vivienda XXX ¤ (XXX ptas.) Precio del garaje XXX ¤ (XXX ptas.) Precio del trastero XXX ¤ (XXX ptas.)
           TERCERA: Forma de pago En este acto D. XXX. entrega a D. XXX Y Dª. XXX. de la cantidad de XXX EUROS. XXX (XXX) pesetas, a cuenta del precio total. D. XXX.. Y Dª. XXX. dan por recibida la cantidad entregada en concepto de anticipo otorgando carta de pago mediante este documento formal. El resto de la cantidad convenida: XXX EUROS. XXX (XXX) pesetas, se abonará en el acto de entrega de llaves y otorgamiento de escritura pública, 
@@ -145,7 +149,8 @@ export const contractDrafterESP = [
         father: "clausesContract",
         name: "opcion 2",
         value: [
-          `PRIMERA: Los VENDEDORES venden al COMPRADOR, quien compra, la finca descrita en el Expositivo primero
+          `ESTIPULACIONES
+          PRIMERA: Los VENDEDORES venden al COMPRADOR, quien compra, la finca descrita en el Expositivo primero
           SEGUNDA: El precio de esta compraventa se fija en (XXX EUROS (XXX euros), importe que se abona de la siguiente forma:
           XXX EUROS (XXX euros) como ARRAS PENITENCIALES, cuyo pago se realizará por transferencia bancaria a la cuenta de los VENDEDORES, con IBAN: XXX. El COMPRADOR enviará copia del justificante de la orden de transferencia a la cuenta de correo electrónico de los VENDEDORES, que es:XXX Si la transferencia no se hubiese abonado en la citada cuenta en el plazo de cinco días naturales a contar desde la fecha del presente contrato, la compraventa quedará sin efecto y los VENDEDORES 
           quedarán totalmente liberados de sus obligaciones frente al COMPRADOR. Estas arras se regulan por lo previsto en el artículo 1.454 del Código Civil. Por lo tanto, una vez pagadas, si la compraventa no llegara a formalizarse en escritura pública en el plazo fijado más abajo, por causa imputable a una de las partes, perderá esa cantidad si la responsabilidad fuera del COMPRADOR, o devolverán la suma duplicada si la responsabilidad fuera de los VENDEDORES. – El resto del precio, 
@@ -164,7 +169,8 @@ export const contractDrafterESP = [
         father: "clausesContract",
         name: "opcion 3",
         value: [
-          `PRIMERA:D/ña. XXX. vende a D/ña. XXX. la vivienda descrita en el expositivo primero de este documento a D/ña XXX, quien acepta.
+          `ESTIPULACIONES
+          PRIMERA:D/ña. XXX. vende a D/ña. XXX. la vivienda descrita en el expositivo primero de este documento a D/ña XXX, quien acepta.
             `,
           `SEGUNDA: PRECIO. Las partes acuerdan realizar la compraventa por un precio de XXX euros, a pagar de la siguiente forma:
             En este acto la parte compradora entrega a la vendedora la cantidad de XXX euros a cuenta del precio pactado, en concepto de arras o señal, sirviendo este documento como la más eficaz carta de pago.Los restante XXX euros serán entregados a la parte vendedora el día de la entrega de llaves y otorgamiento de escritura pública mediante cheque nominativo conformado por entidad bancaria.

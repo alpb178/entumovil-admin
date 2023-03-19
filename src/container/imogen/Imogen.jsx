@@ -4,8 +4,10 @@ import FooterSite from "@/component/footer";
 import {
   INMOCOR_CONTRACT_DRATER_ARG_PAGE,
   INMOCOR_CONTRACT_DRATER_DE_PAGE,
+  INMOCOR_CONTRACT_DRATER_EEUU_PAGE,
   INMOCOR_CONTRACT_DRATER_ESP_PAGE,
   INMOCOR_CONTRACT_DRATER_FR_PAGE,
+  INMOCOR_CONTRACT_DRATER_IR_PAGE,
   INMOCOR_CONTRACT_DRATER_IT_PAGE,
   INMOCOR_CONTRACT_DRATER_UK_PAGE,
 } from "@/lib/constants";
@@ -96,6 +98,34 @@ export function Inmogen() {
                         className="icon-btn btn-link btn-arrow text-dark flex-inline flex"
                       >
                         Redactor en inglés (variedad británica)
+                        <ArrowRightIcon className="mt ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
+                      </a>
+                    </h5>
+                  </li>
+                  <li className="border-bottom flex-inline mb-4 flex pb-3">
+                    <div className="rounded-full bg-legislation-gray">
+                      <i className="fas fa-check m-1 rounded-full text-red" />
+                    </div>
+                    <h5 className="ml-5">
+                      <a
+                        href={INMOCOR_CONTRACT_DRATER_EEUU_PAGE}
+                        className="icon-btn btn-link btn-arrow text-dark flex-inline flex"
+                      >
+                        Redactor en inglés (variedad EEUU)
+                        <ArrowRightIcon className="mt ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
+                      </a>
+                    </h5>
+                  </li>
+                  <li className="border-bottom flex-inline mb-4 flex pb-3">
+                    <div className="rounded-full bg-legislation-gray">
+                      <i className="fas fa-check m-1 rounded-full text-red" />
+                    </div>
+                    <h5 className="ml-5">
+                      <a
+                        href={INMOCOR_CONTRACT_DRATER_IR_PAGE}
+                        className="icon-btn btn-link btn-arrow text-dark flex-inline flex"
+                      >
+                        Redactor en inglés (variedad Irlanda)
                         <ArrowRightIcon className="mt ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
                       </a>
                     </h5>

@@ -1,5 +1,11 @@
-import ContractDrafterDE from "@/container/contractDrafter/contractDrafterDE";
+import ContractDrafter from "@/container/contractDrafter";
+import { contractDrafterDE } from "@/lib/drafter";
 
 export default function ContractDrafterDEPage() {
-  return <ContractDrafterDE/>;
+  return (
+    <ContractDrafter
+      description="Plantilla Alemania"
+      contract={contractDrafterDE}
+    />
+  );
 }

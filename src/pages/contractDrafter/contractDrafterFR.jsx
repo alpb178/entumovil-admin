@@ -1,5 +1,11 @@
-import ContractDrafterFR from "@/container/contractDrafter/contractDrafterFR";
+import ContractDrafter from "@/container/contractDrafter";
+import { contractDrafterFR } from "@/lib/drafter";
 
 export default function ContractDrafterFRPage() {
-  return <ContractDrafterFR/>;
+  return (
+    <ContractDrafter
+      description="Plantilla Francia"
+      contract={contractDrafterFR}
+    />
+  );
 }

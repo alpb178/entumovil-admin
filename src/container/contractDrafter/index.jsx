@@ -1,17 +1,16 @@
 import ContractDrafterComponent from "@/component/contractDrafter";
 import TopImage from "@/component/topImage";
-import { contractDrafterESP } from "@/lib/drafter";
 
-export default function ContractDrafterESP() {
+export default function ContractDrafter(props) {
   return (
     <>
       <TopImage
         name="Redactor de Documentos"
-        description="Plantilla España"
+        description={props?.description}
         imageUrl="cabecera-contratos-inmocor.jpg"
       />
 
-      <ContractDrafterComponent contract={contractDrafterESP} />
+      <ContractDrafterComponent contract={props?.contract} />
     </>
   );
 }

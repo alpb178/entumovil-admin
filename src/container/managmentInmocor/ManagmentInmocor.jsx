@@ -143,7 +143,7 @@ export function ManagmentInmocor() {
                         <option key="ARG" value="ARG">
                           Subcorpus INMOLAW en español (variedad argentina)
                         </option>
-                        <option key="BR" value="BR">
+                        <option key="UK" value="UK">
                           Subcorpus INMOLAW en inglés (variedad británica)
                         </option>
                         <option key="EEUU" value="EEUU">
@@ -208,7 +208,7 @@ export function ManagmentInmocor() {
                         <option key="ARG" value="ARG">
                           Subcorpus INMOCOR en español (variedad argentina)
                         </option>
-                        <option key="BR" value="BR">
+                        <option key="UK" value="UK">
                           Subcorpus INMOCOR en inglés (variedad británica)
                         </option>
                         <option key="EEUU" value="EEUU">

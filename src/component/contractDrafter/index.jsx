@@ -66,7 +66,7 @@ export default function ContractDrafterComponent(props) {
  
         }
       }*/
-      console.log(
+     console.log(
         document.querySelector('div#info')
                 .textContent
                 

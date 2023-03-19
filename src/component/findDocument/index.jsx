@@ -45,7 +45,6 @@ export default function ViewFindDocument({
 
   return (
     <>
-      {console.log(valueSelect?.length == 0, valueSelect?.length)}
       {docToShow?.length > 0 ? (
         <div className="mb-10">
           <div className="text-3xl">

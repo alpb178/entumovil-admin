@@ -9,23 +9,23 @@ Immobilienkaufvertrag
 
  Immobilienkaufvertrag
 
-§ 1 Kaufgegenstand
+Â§ 1 Kaufgegenstand
 
 1. Dem Notar lag ein Abdruck des Grundbuchs vom XXX (Datum) vor. Die Beteiligten verzicht-
 
- en nach Belehrung über die damit verbundenen Gefahren auf eine erneute Grundbucheinsicht.
+ en nach Belehrung Ã¼ber die damit verbundenen Gefahren auf eine erneute Grundbucheinsicht.
 
-2. Im Grundbuch sind die Verkäufer als Eigentümer des folgenden Grundstücks eingetragen:
+2. Im Grundbuch sind die VerkÃ¤ufer als EigentÃ¼mer des folgenden GrundstÃ¼cks eingetragen:
 
  Gemarkung: XXX 
 
  Grundbuch von XXX Blatt XXX 
 
- Flurstück Nr.: XXX 
+ FlurstÃ¼ck Nr.: XXX 
 
- Gebäude- und Freifläche XXX
+ GebÃ¤ude- und FreiflÃ¤che XXX
 
- Größe: XXX qm
+ GrÃ¶ÃŸe: XXX qm
 
 3. Das Grundbuch weist folgende Belastungen aus:
 
@@ -37,27 +37,27 @@ Abteilung III:
 
 XXX
 
-4. Die Parteien sind sich darüber einig, dass die Belastungen in Abt. XXX von dem Käufer nicht über-
+4. Die Parteien sind sich darÃ¼ber einig, dass die Belastungen in Abt. XXX von dem KÃ¤ufer nicht Ã¼ber-
 
  nommen werden. Der Kaufgegenstand ist frei von Lasten in Abt. XXX des Grundbuches zu liefern. Der
 
- Verkäufer beantragt die Löschung aller in Abt. XXX des Grundbuches eingetragenen Rechte. Der
+ VerkÃ¤ufer beantragt die LÃ¶schung aller in Abt. XXX des Grundbuches eingetragenen Rechte. Der
 
- Notar wird beauftragt, die Löschungsunterlagen einzuholen.
+ Notar wird beauftragt, die LÃ¶schungsunterlagen einzuholen.
 
 
-§ 2 Verkauf
+Â§ 2 Verkauf
 
-Der/Die Verkäufer verkauft/en hiermit
+Der/Die VerkÃ¤ufer verkauft/en hiermit
 
  an
 
-den/die Käufer das in § 1 dieser Urkunde bezeichnete Grundstück mit allen damit zusammenhängenden Rechten 
-und dem gesetzlichen Zubehör. Der Käufer verpflichtet sich, den Vertragsgegenstand anzunehmen.
+den/die KÃ¤ufer das in Â§ 1 dieser Urkunde bezeichnete GrundstÃ¼ck mit allen damit zusammenhÃ¤ngenden Rechten 
+und dem gesetzlichen ZubehÃ¶r. Der KÃ¤ufer verpflichtet sich, den Vertragsgegenstand anzunehmen.
 
-§ 3 Kaufpreis
+Â§ 3 Kaufpreis
 
-1. Der Kaufpreis beträgt
+1. Der Kaufpreis betrÃ¤gt
 
  XXX Euro
 
@@ -65,7 +65,7 @@ und dem gesetzlichen Zubehör. Der Käufer verpflichtet sich, den Vertragsgegensta
 
  Soweit der Kaufpreis nicht anderweitig zur Freistellung des verkauften Grundbesitzes von eingetragen-
 
- en Belastungen zu verwenden ist, sind Zahlungen zu leisten auf das Konto des Verkäufers:
+ en Belastungen zu verwenden ist, sind Zahlungen zu leisten auf das Konto des VerkÃ¤ufers:
 
  Bank: XXX
 
@@ -74,71 +74,71 @@ und dem gesetzlichen Zubehör. Der Käufer verpflichtet sich, den Vertragsgegensta
  IBAN: XXX 
 
  BIC: XXX
-2. Der Käufer unterwirft sich wegen seiner Pflicht, den Kaufpreis zu bezahlen, der sofortigen Zwangsvolls-
+2. Der KÃ¤ufer unterwirft sich wegen seiner Pflicht, den Kaufpreis zu bezahlen, der sofortigen Zwangsvolls-
 
  treckung aus dieser Urkunde.
 
-3. Der Kaufpreis ist fällig und zahlbar innerhalb einer Frist von XXX Tagen (Buchungsdatum der Gutschrift 
+3. Der Kaufpreis ist fÃ¤llig und zahlbar innerhalb einer Frist von XXX Tagen (Buchungsdatum der Gutschrift 
 
- auf dem Konto des Verkäufers bzw. dem Konto des abzulösenden Grundpfandrechtsgläubigers), nachdem 
+ auf dem Konto des VerkÃ¤ufers bzw. dem Konto des abzulÃ¶senden GrundpfandrechtsglÃ¤ubigers), nachdem 
 
- zuvor der Vollzug dieses Vertrags gesichert ist und der Notar dem Käufer das Vorliegen dieser Voraussetz-
+ zuvor der Vollzug dieses Vertrags gesichert ist und der Notar dem KÃ¤ufer das Vorliegen dieser Voraussetz-
 
- ungen schriftlich bestätigt hat, und zwar wie folgt:
+ ungen schriftlich bestÃ¤tigt hat, und zwar wie folgt:
 
-• Die Eigentumsvormerkung zugunsten des Käufers ist im Grundbuch eingetragen oder die Eintragung ist 
+â€¢ Die Eigentumsvormerkung zugunsten des KÃ¤ufers ist im Grundbuch eingetragen oder die Eintragung ist 
 sichergestellt.
-• Dem Notar liegen alle Unterlagen vor, um den verkauften Grundbesitz von Rechten freizustellen, die im 
-Grundbuch bereits vor oder gleichzeitig mit der Eigentumsvormerkung des Käufers eingetragen wurden und 
-vom Käufer nicht übernommen werden. 
-• Das zur Eigentumsumschreibung erforderliche Vorkaufsrechtszeugnis der Gemeinde liegt dem Notar ohne 
+â€¢ Dem Notar liegen alle Unterlagen vor, um den verkauften Grundbesitz von Rechten freizustellen, die im 
+Grundbuch bereits vor oder gleichzeitig mit der Eigentumsvormerkung des KÃ¤ufers eingetragen wurden und 
+vom KÃ¤ufer nicht Ã¼bernommen werden. 
+â€¢ Das zur Eigentumsumschreibung erforderliche Vorkaufsrechtszeugnis der Gemeinde liegt dem Notar ohne 
 Bedingungen und Auflagen vor.
-• Die Genehmigungen, die zur Wirksamkeit oder zur Durchführung des Vertrages erforderlich sind, liegen dem 
+â€¢ Die Genehmigungen, die zur Wirksamkeit oder zur DurchfÃ¼hrung des Vertrages erforderlich sind, liegen dem 
 Notar ohne Bedingungen und Auflagen vor.
-• Der Kaufgegenstand ist vollständig geräumt. Dem Notar liegt eine übereinstimmende schriftliche Erklärung 
-beider Vertragsparteien vor, die dieses bestätigt.
+â€¢ Der Kaufgegenstand ist vollstÃ¤ndig gerÃ¤umt. Dem Notar liegt eine Ã¼bereinstimmende schriftliche ErklÃ¤rung 
+beider Vertragsparteien vor, die dieses bestÃ¤tigt.
 
 
 4. Die Unbedenklichkeitsbescheinigung, wegen der zu zahlenden Grunderwerbsteuer, ist nicht Voraussetz-
 
- ung für die Kaufpreisfälligkeit.
+ ung fÃ¼r die KaufpreisfÃ¤lligkeit.
 
 5. Der Notar wird bereits heute beauftragt, die Auflassung zu beurkunden sowie die Eigentumsumschrei-
 
- bung zu veranlassen, wenn der Verkäufer schriftlich bestätigt oder der Käufer nachgewiesen hat, dass 
-der Kaufpreis - ohne etwaige Zinsen oder Verzugsschäden - vollständig gezahlt ist.
+ bung zu veranlassen, wenn der VerkÃ¤ufer schriftlich bestÃ¤tigt oder der KÃ¤ufer nachgewiesen hat, dass 
+der Kaufpreis - ohne etwaige Zinsen oder VerzugsschÃ¤den - vollstÃ¤ndig gezahlt ist.
 
-6. Ein Notaranderkonto, über dessen Bedeutung die Beteiligten belehrt sind, soll nicht eingerichtet wer-
+6. Ein Notaranderkonto, Ã¼ber dessen Bedeutung die Beteiligten belehrt sind, soll nicht eingerichtet wer-
 
- den. Sollte sich bei der Durchführung die Notwendigkeit der Einrichtung eines Notaranderkontos erge-
+ den. Sollte sich bei der DurchfÃ¼hrung die Notwendigkeit der Einrichtung eines Notaranderkontos erge-
 
- ben, so wird der Notar beauftragt, ein solches einzurichten und Kaufgeldzahlungen etc. hierüber abzu-
+ ben, so wird der Notar beauftragt, ein solches einzurichten und Kaufgeldzahlungen etc. hierÃ¼ber abzu-
 
  wickeln.
 
-7. Kommt der Käufer mit der Zahlung des Kaufpreises in Rückstand, so hat er den Rückstand anteilig für 
+7. Kommt der KÃ¤ufer mit der Zahlung des Kaufpreises in RÃ¼ckstand, so hat er den RÃ¼ckstand anteilig fÃ¼r 
 
- das Jahr mit Zinsen in Höhe von XXX% Punkten über dem jeweiligen Basiszinssatz zu verzinsen. Die 
+ das Jahr mit Zinsen in HÃ¶he von XXX% Punkten Ã¼ber dem jeweiligen Basiszinssatz zu verzinsen. Die 
 
- Zinsen sind zusammen mit der Hauptsumme zur Zahlung fällig. Weitere Verzugsfolgen, insbesondere 
+ Zinsen sind zusammen mit der Hauptsumme zur Zahlung fÃ¤llig. Weitere Verzugsfolgen, insbesondere 
 
- das gesetzliche Rücktrittsrecht, bleiben unberührt.
+ das gesetzliche RÃ¼cktrittsrecht, bleiben unberÃ¼hrt.
 
-§ 4 Kaufpreisfinanzierung
+Â§ 4 Kaufpreisfinanzierung
 
-1. Sofern zur Belegung des Kaufpreises Fremdmittel verwendet werden, ist der Verkäufer mit einer Vor-
+1. Sofern zur Belegung des Kaufpreises Fremdmittel verwendet werden, ist der VerkÃ¤ufer mit einer Vor-
 
- wegbeleihung des Vertragsgegenstandes in beliebiger Höhe, d.h. mit der Eintragung von Grundpfand-
+ wegbeleihung des Vertragsgegenstandes in beliebiger HÃ¶he, d.h. mit der Eintragung von Grundpfand-
 
- rechten des Käufers vor Eigentumsumschreibung, jedoch ohne persönliche Haftung des Verkäufers ein-
+ rechten des KÃ¤ufers vor Eigentumsumschreibung, jedoch ohne persÃ¶nliche Haftung des VerkÃ¤ufers ein-
 
- verstanden, wenn die vollständige Bezahlung des gesamten Kaufpreises sichergestellt ist. Beleihungen 
+ verstanden, wenn die vollstÃ¤ndige Bezahlung des gesamten Kaufpreises sichergestellt ist. Beleihungen 
 
- müssen den Bestimmungen dieses Vertrages entsprechen.
+ mÃ¼ssen den Bestimmungen dieses Vertrages entsprechen.
 
-2. Der Verkäufer bevollmächtigt hiermit den Käufer – jeweils einzeln und unter Freistellung von § 181 BGB, 
+2. Der VerkÃ¤ufer bevollmÃ¤chtigt hiermit den KÃ¤ufer â€“ jeweils einzeln und unter Freistellung von Â§ 181 BGB, 
 
- mit dem Recht zur Unterbevollmächtigung und unabhängig von etwaigen Wirksamkeitsvoraussetzun-
+ mit dem Recht zur UnterbevollmÃ¤chtigung und unabhÃ¤ngig von etwaigen Wirksamkeitsvoraussetzun-
 
  gen dieses Vertrages -, vor dem Notar und seinen Vertretern im Amt solche Grundpfandrechte nebst 
 
@@ -146,197 +146,197 @@ der Kaufpreis - ohne etwaige Zinsen oder Verzugsschäden - vollständig gezahlt is
 
  Rechtshandlungen und Rangbestimmungen vorzunehmen.
 
-§ 5 Übergabe von Besitz, Nutzungen und Lasten
+Â§ 5 Ãœbergabe von Besitz, Nutzungen und Lasten
 
-1. Der Verkäufer hat bis zum Übergabetag den gegenwärtigen Zustand des Kaufgegenstandes auf seine
+1. Der VerkÃ¤ufer hat bis zum Ãœbergabetag den gegenwÃ¤rtigen Zustand des Kaufgegenstandes auf seine
 
- Kosten zu erhalten. Zu der gewöhnlichen Instandhaltung bis zur Übergabe soll nur die Beseitigung neu
+ Kosten zu erhalten. Zu der gewÃ¶hnlichen Instandhaltung bis zur Ãœbergabe soll nur die Beseitigung neu
 
- auftretender Mängel gehören.
+ auftretender MÃ¤ngel gehÃ¶ren.
 
-2. Der Verkäufer verpflichtet sich, dem Käufer unverzüglich, spätestens zur Übergabe, die vorhandenen
+2. Der VerkÃ¤ufer verpflichtet sich, dem KÃ¤ufer unverzÃ¼glich, spÃ¤testens zur Ãœbergabe, die vorhandenen
 
-Originale oder Ablichtungen der sich auf den Vertragsgegenstand beziehenden Papiere zu übergeben. 
+Originale oder Ablichtungen der sich auf den Vertragsgegenstand beziehenden Papiere zu Ã¼bergeben. 
 
-3. Der Verkäufer verpflichtet sich, den Vertragsgegenstand dem Käufer am XXX geräumt und frei von 
+3. Der VerkÃ¤ufer verpflichtet sich, den Vertragsgegenstand dem KÃ¤ufer am XXX gerÃ¤umt und frei von 
 
- Mietverhältnissen oder sonstigen Nutzungsrechten Dritter zu übergeben. Er kann die Übergabe jedoch
+ MietverhÃ¤ltnissen oder sonstigen Nutzungsrechten Dritter zu Ã¼bergeben. Er kann die Ãœbergabe jedoch
 
- zurückhalten bis zur vollständigen vertragsgemäßen Zahlung des Kaufpreises.
+ zurÃ¼ckhalten bis zur vollstÃ¤ndigen vertragsgemÃ¤ÃŸen Zahlung des Kaufpreises.
 
-4. Mit dem Tag der vollständigen Gutschrift des Kaufpreises geht der Besitz (damit auch Nutzungen laufende
+4. Mit dem Tag der vollstÃ¤ndigen Gutschrift des Kaufpreises geht der Besitz (damit auch Nutzungen laufende
 
- Lasten, Rechte und Haftpflichtrisiko) auf den Käufer über und wird auf diesen Tag nach dem Verhältnis
+ Lasten, Rechte und Haftpflichtrisiko) auf den KÃ¤ufer Ã¼ber und wird auf diesen Tag nach dem VerhÃ¤ltnis
 
  der Zeit abgerechnet.
 
-5. Der Verkäufer erklärt, dass alle den Vertragsgegenstand betreffenden fälligen Gebühren und Steuern
+5. Der VerkÃ¤ufer erklÃ¤rt, dass alle den Vertragsgegenstand betreffenden fÃ¤lligen GebÃ¼hren und Steuern
 
- bezahlt sind und auch keine Rückstände bestehen.
+ bezahlt sind und auch keine RÃ¼ckstÃ¤nde bestehen.
 
-6. Kosten für Straßen- und Sielbauarbeiten, die nach dem Übergabetag ausgeführt werden, treffen den
+6. Kosten fÃ¼r StraÃŸen- und Sielbauarbeiten, die nach dem Ãœbergabetag ausgefÃ¼hrt werden, treffen den
 
- Käufer. Der Verkäufer erklärt, dass ihm zurzeit drohende Straßen- und Sielbaumaßnahmen nicht bekannt
+ KÃ¤ufer. Der VerkÃ¤ufer erklÃ¤rt, dass ihm zurzeit drohende StraÃŸen- und SielbaumaÃŸnahmen nicht bekannt
 
- seien. Die Gefahr- und Verkehrssicherungspflichten gehen mit der Übergabe vom Verkäufer auf den
+ seien. Die Gefahr- und Verkehrssicherungspflichten gehen mit der Ãœbergabe vom VerkÃ¤ufer auf den
 
- Käufer über. Es ist Sache des Käufers, das Haftpflichtrisiko nach der Übergabe zu decken.
+ KÃ¤ufer Ã¼ber. Es ist Sache des KÃ¤ufers, das Haftpflichtrisiko nach der Ãœbergabe zu decken.
 
-7. Die Gefahr- und Verkehrssicherungspflichten gehen mit der Übergabe vom Verkäufer auf den Käufer 
+7. Die Gefahr- und Verkehrssicherungspflichten gehen mit der Ãœbergabe vom VerkÃ¤ufer auf den KÃ¤ufer 
 
- über. Es ist Sache des Käufers, das Haftpflichtrisiko nach der Übergabe zu decken.
+ Ã¼ber. Es ist Sache des KÃ¤ufers, das Haftpflichtrisiko nach der Ãœbergabe zu decken.
 
-8. Dem Verkäufer ist nichts bekannt von Baulasten, von alt rechtlichen im Grundbuch nicht eingetragenen
+8. Dem VerkÃ¤ufer ist nichts bekannt von Baulasten, von alt rechtlichen im Grundbuch nicht eingetragenen
 
- Dienstbarkeiten sowie von schädlichen Bodenverunreinigungen und anderen wesentlichen Mängeln, 
+ Dienstbarkeiten sowie von schÃ¤dlichen Bodenverunreinigungen und anderen wesentlichen MÃ¤ngeln, 
 
- die bei einer Besichtigung nicht ohne weiteres erkennbar sind. Der Käufer hat den Vertragsgegenstand
+ die bei einer Besichtigung nicht ohne weiteres erkennbar sind. Der KÃ¤ufer hat den Vertragsgegenstand
 
- besichtigt. Eine Haftung für Sachmängel oder auf Schadensersatz wird ausgeschlossen, es sei denn, die
+ besichtigt. Eine Haftung fÃ¼r SachmÃ¤ngel oder auf Schadensersatz wird ausgeschlossen, es sei denn, die
 
- Haftung beruht auf vorsätzlich schädigendem Verhalten des Verkäufers. Der Verkäufer versichert, dass
+ Haftung beruht auf vorsÃ¤tzlich schÃ¤digendem Verhalten des VerkÃ¤ufers. Der VerkÃ¤ufer versichert, dass
 
- ihm keine versteckten Mängel bekannt sind.
+ ihm keine versteckten MÃ¤ngel bekannt sind.
 
-9. Der Verkäufer erklärt, dass weder eine Bindung nach dem Wohnbindungs- noch nach dem Wohnraum-
+9. Der VerkÃ¤ufer erklÃ¤rt, dass weder eine Bindung nach dem Wohnbindungs- noch nach dem Wohnraum-
 
- förderungsgesetz besteht.
+ fÃ¶rderungsgesetz besteht.
 
-10. Der Verkäufer stellt klar, dass er den Energieausweis gemäß Paragraph 16 EnEV von einem entsprech-
+10. Der VerkÃ¤ufer stellt klar, dass er den Energieausweis gemÃ¤ÃŸ Paragraph 16 EnEV von einem entsprech-
 
- enden Sachverständigen hat erstellen lassen und den Ausweis an den Käufer übergeben hat. Für die 
+ enden SachverstÃ¤ndigen hat erstellen lassen und den Ausweis an den KÃ¤ufer Ã¼bergeben hat. FÃ¼r die 
 
- Richtigkeit des Energieausweises hat der Verkäufer nicht einzustehen.
+ Richtigkeit des Energieausweises hat der VerkÃ¤ufer nicht einzustehen.
 
 Beim Kauf von Wohnungen kommen hier weitere Rechte und Pflichte hinzu:
 
-11. Der Verkäufer bevollmächtigt den Käufer, ab dem Übergabetag seine Rechte in der Wohneigentümerge-
+11. Der VerkÃ¤ufer bevollmÃ¤chtigt den KÃ¤ufer, ab dem Ãœbergabetag seine Rechte in der WohneigentÃ¼merge-
 
  meinschaft wahrzunehmen, insbesondere Einladungen zu Versammlungen entgegenzunehmen, das 
 
- Stimmrecht in den Versammlungen auszuüben oder sonst bei Beschlussfassungen mitzuwirken, Über-
+ Stimmrecht in den Versammlungen auszuÃ¼ben oder sonst bei Beschlussfassungen mitzuwirken, Ãœber-
 
  nahme der Verpflichtungen aus der Gemeinschaftsverordnung und Eintritt in den Verwaltervertrag.
 
 
-§ 6 Kosten und Steuern
+Â§ 6 Kosten und Steuern
 
-1. Sämtliche mit diesem Vertrag und seiner Ausführung verbundenen Kosten und Abgaben trägt der 
+1. SÃ¤mtliche mit diesem Vertrag und seiner AusfÃ¼hrung verbundenen Kosten und Abgaben trÃ¤gt der 
 
- Käufer:
+ KÃ¤ufer:
 
-• Grunderwerbsteuer
-• Notar- und Gerichtskosten (einschließlich etwaiger Verwahrungsgebühren)
+â€¢ Grunderwerbsteuer
+â€¢ Notar- und Gerichtskosten (einschlieÃŸlich etwaiger VerwahrungsgebÃ¼hren)
 
 
-2. Dies gilt jedoch nicht für Kosten der Löschung der von dem Käufer nicht übernommenen Belastungen. 
+2. Dies gilt jedoch nicht fÃ¼r Kosten der LÃ¶schung der von dem KÃ¤ufer nicht Ã¼bernommenen Belastungen. 
 
- Diese gehen alleine zu Lasten des Verkäufers.
+ Diese gehen alleine zu Lasten des VerkÃ¤ufers.
 
-3. Die Kosten für etwaige Genehmigungserklärungen/Vollmachtbestätigungen trägt die jeweils vertreten-
+3. Die Kosten fÃ¼r etwaige GenehmigungserklÃ¤rungen/VollmachtbestÃ¤tigungen trÃ¤gt die jeweils vertreten-
 
  de Partei.
 
-§ 7 Maklervermittlung und Provision
+Â§ 7 Maklervermittlung und Provision
 
-Die Vertragsschließenden teilen mit, dass bereits außerhalb dieser Urkunde ein Maklervertrag geschlossen wurde. 
+Die VertragsschlieÃŸenden teilen mit, dass bereits auÃŸerhalb dieser Urkunde ein Maklervertrag geschlossen wurde. 
 Die Vertragsparteien erkennen, durch Abschluss dieses Vertrages der Firma XXX provisions-
 
-pflichtig geworden zu sein. Die Provision ist sofort zur Zahlung fällig.
+pflichtig geworden zu sein. Die Provision ist sofort zur Zahlung fÃ¤llig.
 
-§ 8 Vorkaufsrechte
+Â§ 8 Vorkaufsrechte
 
-Wird ein gesetzliches Vorkaufsrecht ausgeübt, ist jede Vertragspartei zum Rücktritt berechtigt. Sofern der Kaufpreis 
-an den Verkäufer gezahlt sein sollte, tritt dieser sicherheitshalber seine Kaufpreisforderung gegen den Vorkaufsberechtigten 
-hiermit an den Käufer ab. Weitere Rechte sind wechselseitig ausgeschlossen.
+Wird ein gesetzliches Vorkaufsrecht ausgeÃ¼bt, ist jede Vertragspartei zum RÃ¼cktritt berechtigt. Sofern der Kaufpreis 
+an den VerkÃ¤ufer gezahlt sein sollte, tritt dieser sicherheitshalber seine Kaufpreisforderung gegen den Vorkaufsberechtigten 
+hiermit an den KÃ¤ufer ab. Weitere Rechte sind wechselseitig ausgeschlossen.
 
-§ 9 Durchführungserklärung und Vollmacht
+Â§ 9 DurchfÃ¼hrungserklÃ¤rung und Vollmacht
 
-Zur Durchführung des vorstehenden Vertrages erklären die Beteiligten übereinstimmend:
+Zur DurchfÃ¼hrung des vorstehenden Vertrages erklÃ¤ren die Beteiligten Ã¼bereinstimmend:
 
 1. Die Beteiligten erteilen dem Notar Vollmacht, Negativzeugnisse wegen gesetzlicher Vorkaufsrechte zu 
 
- besorgen, sie im Grundbuchverfahren uneingeschränkt zu vertreten und die zur Wirksamkeit oder zum
+ besorgen, sie im Grundbuchverfahren uneingeschrÃ¤nkt zu vertreten und die zur Wirksamkeit oder zum
 
- Vollzug dieser Urkunde erforderlichen Erklärungen und Genehmigungen einzuholen und entgegenzu-
+ Vollzug dieser Urkunde erforderlichen ErklÃ¤rungen und Genehmigungen einzuholen und entgegenzu-
 
- nehmen. Die Beteiligten bevollmächtigen den Notar, soweit erforderlich, Bewilligungen und Anträge
+ nehmen. Die Beteiligten bevollmÃ¤chtigen den Notar, soweit erforderlich, Bewilligungen und AntrÃ¤ge
 
- gegenüber dem Grundbuchamt zu ändern und zu ergänzen.
+ gegenÃ¼ber dem Grundbuchamt zu Ã¤ndern und zu ergÃ¤nzen.
 
-2. Der Notar ist berechtigt, Anträge aus dieser Urkunde getrennt und eingeschränkt zu stellen und sie in 
+2. Der Notar ist berechtigt, AntrÃ¤ge aus dieser Urkunde getrennt und eingeschrÃ¤nkt zu stellen und sie in 
 
- gleicher Weise zurückzunehmen. Die Vollmacht erlischt mit der vollständigen Abwicklung. Ein Widerruf 
+ gleicher Weise zurÃ¼ckzunehmen. Die Vollmacht erlischt mit der vollstÃ¤ndigen Abwicklung. Ein Widerruf 
 
- der Vollmacht ist ausgeschlossen. Unterbevollmächtigung wird gestattet.
+ der Vollmacht ist ausgeschlossen. UnterbevollmÃ¤chtigung wird gestattet.
 
-3. Die Vertragsschließenden bevollmächtigen und beauftragen die Notariatsangestellten
+3. Die VertragsschlieÃŸenden bevollmÃ¤chtigen und beauftragen die Notariatsangestellten
 
- XXX im Hause des beurkundenden Notars, und zwar jede für sich, für sie alle zur Durchführung dieser Ver-
+ XXX im Hause des beurkundenden Notars, und zwar jede fÃ¼r sich, fÃ¼r sie alle zur DurchfÃ¼hrung dieser Ver-
 
- handlungen erforderlichen Erklärungen abzugeben und entgegenzunehmen. Die Bevollmächtigten kön-
+ handlungen erforderlichen ErklÃ¤rungen abzugeben und entgegenzunehmen. Die BevollmÃ¤chtigten kÃ¶n-
 
- nen für alle Beteiligten zugleich handeln. Sie erlischt nicht mit dem Tode der Vollmachtgeber. Die Be-
+ nen fÃ¼r alle Beteiligten zugleich handeln. Sie erlischt nicht mit dem Tode der Vollmachtgeber. Die Be-
 
- mächtigten sind von den Beschränkungen des § 181 BGB befreit.
+ mÃ¤chtigten sind von den BeschrÃ¤nkungen des Â§ 181 BGB befreit.
 
-4. Die Erschienenen erklärten sodann die Auflassung wie folgt:
+4. Die Erschienenen erklÃ¤rten sodann die Auflassung wie folgt:
 
- Wir sind darüber einig, dass das Eigentum gemäß § 1 dieses Vertrages auf den Käufer übergeht. Der Notar
+ Wir sind darÃ¼ber einig, dass das Eigentum gemÃ¤ÃŸ Â§ 1 dieses Vertrages auf den KÃ¤ufer Ã¼bergeht. Der Notar
 
- ist unwiderruflich bevollmächtigt die Eigentumsumschreibung zu bewilligen und zu beantragen. Dies 
+ ist unwiderruflich bevollmÃ¤chtigt die Eigentumsumschreibung zu bewilligen und zu beantragen. Dies 
 
  darf aber erst geschehen, sobald die erforderlichen Unterlagen vorliegen und der Kaufpreis nachweis-
 
  lich gezahlt oder die Zahlung sichergestellt ist.
 
-5. Die Vertragsschließenden bewilligen und beantragen, zur Sicherung des Übereignungsanspruches des
+5. Die VertragsschlieÃŸenden bewilligen und beantragen, zur Sicherung des Ãœbereignungsanspruches des
 
- Käufers eine Vormerkung in das Grundbuch einzutragen. Die Vertragschließenden bewilligen und bean-
+ KÃ¤ufers eine Vormerkung in das Grundbuch einzutragen. Die VertragschlieÃŸenden bewilligen und bean-
 
- tragen schon jetzt, diese Vormerkung nach Eigentumsumschreibung wieder zu löschen, sofern nicht
+ tragen schon jetzt, diese Vormerkung nach Eigentumsumschreibung wieder zu lÃ¶schen, sofern nicht
 
- ohne Zustimmung des Käufers Zwischeneintragungen erfolgt sind oder Zwischenanträge gestellt
+ ohne Zustimmung des KÃ¤ufers Zwischeneintragungen erfolgt sind oder ZwischenantrÃ¤ge gestellt
 
  wurden.
 
-§ 10 Belehrungen und Hinweise
+Â§ 10 Belehrungen und Hinweise
 
 Der Notar hat die Beteiligten insbesondere auf Folgendes hingewiesen:
 
-1. Alle Vereinbarungen, auch Nebenabreden, müssen vollständig beurkundet sein. Nicht beurkundete Ver-
+1. Alle Vereinbarungen, auch Nebenabreden, mÃ¼ssen vollstÃ¤ndig beurkundet sein. Nicht beurkundete Ver-
 
- einbarungen sind nichtig und können zur Unwirksamkeit des ganzen Vertrags führen.
+ einbarungen sind nichtig und kÃ¶nnen zur Unwirksamkeit des ganzen Vertrags fÃ¼hren.
 
-2. Am Vertragsgegenstand können Lasten und Beschränkungen bestehen, die aus dem Grundbuch nicht
+2. Am Vertragsgegenstand kÃ¶nnen Lasten und BeschrÃ¤nkungen bestehen, die aus dem Grundbuch nicht
 
- ersichtlich sind, insbesondere Baulasten. Der jeweilige Eigentümer haftet für Altlasten (z.B. Bodenverun-
+ ersichtlich sind, insbesondere Baulasten. Der jeweilige EigentÃ¼mer haftet fÃ¼r Altlasten (z.B. Bodenverun-
 
  reinigungen).
 
-3. Der Käufer wird Eigentümer, wenn der Eigentumsübergang im Grundbuch eingetragen ist. Dazu muss die
+3. Der KÃ¤ufer wird EigentÃ¼mer, wenn der EigentumsÃ¼bergang im Grundbuch eingetragen ist. Dazu muss die
 
  Unbedenklichkeitsbescheinigung des Finanzamts vorliegen und alle erforderlichen Genehmigungen.
 
-4. Der Notar hat die Beteiligten darauf hingewiesen, dass er die Steuerfolgen des Vertrages nicht prüft und
+4. Der Notar hat die Beteiligten darauf hingewiesen, dass er die Steuerfolgen des Vertrages nicht prÃ¼ft und
 
  eine steuerliche Beratung vor Abschluss des Kaufvertrags zu empfehlen ist. 
 
-5. Mit diesem Vertrag können Gefahren verbunden sein bei Vorleistungen eines Vertragsteils.
+5. Mit diesem Vertrag kÃ¶nnen Gefahren verbunden sein bei Vorleistungen eines Vertragsteils.
 
-6. Die Parteien haften gesamtschuldnerisch für Kosten und Steuern, unbeschadet der Vereinbarungen in
+6. Die Parteien haften gesamtschuldnerisch fÃ¼r Kosten und Steuern, unbeschadet der Vereinbarungen in
 
- diesem Vertrag, sowie über die Haftung des Grundbesitzes für öffentliche Abgaben und Lasten.
+ diesem Vertrag, sowie Ã¼ber die Haftung des Grundbesitzes fÃ¼r Ã¶ffentliche Abgaben und Lasten.
 
 
-§ 11 Zustimmungserklärung und Schlussformel
+Â§ 11 ZustimmungserklÃ¤rung und Schlussformel
 
-Kein Vertragsteil schließt diesen Vertrag im Rahmen einer gewerblichen oder selbständigen beruflichen Tätigkeit. 
+Kein Vertragsteil schlieÃŸt diesen Vertrag im Rahmen einer gewerblichen oder selbstÃ¤ndigen beruflichen TÃ¤tigkeit. 
 Die Niederschrift wurde den Erschienenen vorgelesen, von ihnen genehmigt und wie folgt unterschrieben:
 
 XXX XXX 
-Ort, Datum Verkäufer
+Ort, Datum VerkÃ¤ufer
 
 XXX XXX 
-Ort, Datum Käufer
+Ort, Datum KÃ¤ufer
 

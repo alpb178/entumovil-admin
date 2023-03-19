@@ -4,8 +4,10 @@ import {
   INMOCOR_CONTACT_PAGE,
   INMOCOR_CONTRACT_DRATER_ARG_PAGE,
   INMOCOR_CONTRACT_DRATER_DE_PAGE,
+  INMOCOR_CONTRACT_DRATER_EEUU_PAGE,
   INMOCOR_CONTRACT_DRATER_ESP_PAGE,
   INMOCOR_CONTRACT_DRATER_FR_PAGE,
+  INMOCOR_CONTRACT_DRATER_IR_PAGE,
   INMOCOR_CONTRACT_DRATER_IT_PAGE,
   INMOCOR_CONTRACT_DRATER_UK_PAGE,
   INMOCOR_GLOSARY_PAGE,
@@ -27,9 +29,11 @@ import {
 import ContactsPage from "./pages/contacts";
 import ContractDrafterARGPage from "./pages/contractDrafter/contractDrafterARG";
 import ContractDrafterDEPage from "./pages/contractDrafter/contractDrafterDE";
+import ContractDrafterEEUUPage from "./pages/contractDrafter/contractDrafterEEUU";
 import ContractDrafterEnUkPage from "./pages/contractDrafter/contractDrafterEnUk";
 import ContractDrafterESPPage from "./pages/contractDrafter/contractDrafterESP";
 import ContractDrafterFRPage from "./pages/contractDrafter/contractDrafterFR";
+import ContractDrafterIRPage from "./pages/contractDrafter/contractDrafterIR";
 import ContractDrafterITPage from "./pages/contractDrafter/contractDrafterIT";
 import GlosaryPage from "./pages/glosary";
 import InmogenPage from "./pages/inmogen";
@@ -143,8 +147,8 @@ export const routes = [
   },
   {
     name: "Plantilla-Alemania",
-    path: INMOCOR_LEGISLATION,
-    element: <INMOCOR_CONTRACT_DRATER_DE_PAGE />,
+    path: INMOCOR_CONTRACT_DRATER_DE_PAGE,
+    element: <ContractDrafterDEPage />,
   },
   {
     name: "Plantilla-Uk",
@@ -165,6 +169,16 @@ export const routes = [
     name: "Plantilla-Italiano",
     path: INMOCOR_CONTRACT_DRATER_IT_PAGE,
     element: <ContractDrafterITPage />,
+  },
+  {
+    name: "Plantilla-EEUU",
+    path: INMOCOR_CONTRACT_DRATER_EEUU_PAGE,
+    element: <ContractDrafterEEUUPage />,
+  },
+  {
+    name: "Plantilla-Irlanda",
+    path: INMOCOR_CONTRACT_DRATER_IR_PAGE,
+    element: <ContractDrafterIRPage />,
   },
 ];
 

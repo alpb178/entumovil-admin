@@ -45,13 +45,11 @@ export const contractDrafterESP = [
       {
         father: "parts",
         name: "opcion 1",
-        value: `De un lado la parte vendedora, D XXX, mayor de edad, con
-          domicilio en XXX, con DNI nº XXX casado en régimen de comunidad de
-          gananciales con Dª.XXX, mayor de edad, con domicilio en XXX, y con
-          DNI nº XXX. Y de otro la parte compradora, DXXX, mayor de edad,
-          con domicilio en XXX, de estado civil soltero y con DNI nº XXX.
-          Ambas partes tienen y se reconocen la capacidad legal necesaria
-          para el otorgamiento del presente contrato , y a tal fin.`,
+        value: `De un lado la parte vendedora, D XXX, mayor de edad, con domicilio en XXX, con DNI nº XXX casado en régimen de comunidad de 
+          gananciales con Dª.XXX, mayor de edad, con domicilio en XXX, y con DNI nº XXX. Y de otro la parte compradora, DXXX, mayor de edad,
+          con domicilio en XXX, de estado civil soltero y con DNI nº XXX .
+
+          Ambas partes tienen y se reconocen la capacidad legal necesaria para el otorgamiento del presente contrato , y a tal fin.`,
       },
       {
         father: "parts",

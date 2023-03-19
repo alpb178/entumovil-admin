@@ -17,7 +17,7 @@ export default function ContractDrafterComponent(props) {
   }, []);
 
   return (
-    <div className=" ml-20 mb-20 mr-20 text-xl leading-loose  text-gray">
+    <div className=" ml-20 mb-20 mr-20 text-xl  text-gray">
       <div className="flex">
         <NavigationContractDrafter
           contract={contract}

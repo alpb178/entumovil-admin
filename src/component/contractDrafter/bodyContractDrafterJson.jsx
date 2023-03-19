@@ -1,88 +1,105 @@
 import ViewDocContractDrafter from "./viewDocContractDrafter";
 
 export default function BodyContractDrafterJson(props) {
-  const saveWordsDocTxt = (id, filename = "") => {
+  const saveWord = (filename = "") => {
+    var preHtml =
+      "<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'><head><meta charset='utf-8'><title>Export HTML To Doc</title></head><body>";
+    var postHtml = "</body></html>";
     var html =
-      "<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'><head><meta><title>Export HTML To Doc</title></head><body>";
-    var footer = "</body></html>";
-    var html = html + document.getElementById(id).innerHTML + footer;
-    var strippedHtml = html.replace(/<[^>]+>/g, "");
+      preHtml + document.getElementById("content").textContent + postHtml;
 
-    //link url
+    var blob = new Blob(["\ufeff", html], {
+      type: "application/msword",
+    });
+
+    // Specify link url
     var url =
-      "data:application/vnd.ms-;charset=utf-8," +
-      encodeURIComponent(
-        html + document.getElementById(id).textContent + footer
-      );
+      "data:application/vnd.ms-word;charset=utf-8," + encodeURIComponent(html);
 
-    //file name
+    // Specify file name
     filename = filename ? filename + ".doc" : "document.doc";
 
-    // Creates the  download link element dynamically
+    // Create download link element
     var downloadLink = document.createElement("a");
 
     document.body.appendChild(downloadLink);
 
-    //Link to the file
-    downloadLink.href = url;
+    if (navigator.msSaveOrOpenBlob) {
+      navigator.msSaveOrOpenBlob(blob, filename);
+    } else {
+      // Create a link to the file
+      downloadLink.href = url;
 
-    //Setting up file name
-    downloadLink.download = filename;
+      // Setting the file name
+      downloadLink.download = filename;
 
-    //triggering the function
-    downloadLink.click();
-    //Remove the a tag after donwload starts.
+      //triggering the function
+      downloadLink.click();
+    }
+
     document.body.removeChild(downloadLink);
-
-    saveTxt("content", "a");
   };
 
-  const saveTxt = (id, title) => {
-    var myHTML = document.querySelector("#content").innerText;
+  const saveTXT = () => {
+    // This variable stores all the data.
+    let data = document.getElementById("content").textContent;
 
-    var strippedHtml = myHTML.replace(/<[^>]+>/g, "");
+    // Convert the text to BLOB.
+    const textToBLOB = new Blob([data], { type: "text/plain" });
+    const sFileName = "formData.txt"; // The file to save the data.
 
-    asignar();
+    let newLink = document.createElement("a");
+    newLink.download = sFileName;
+
+    if (window.webkitURL != null) {
+      newLink.href = window.webkitURL.createObjectURL(textToBLOB);
+    } else {
+      newLink.href = window.URL.createObjectURL(textToBLOB);
+      newLink.style.display = "none";
+      document.body.appendChild(newLink);
+    }
+
+    newLink.click();
   };
-
-  function asignar() {
-    var myHTML = document.getElementById("content");
-    /*  if(myHTML.hasChildNodes()){
-      const div = myHTML.childNodes;
-      for (let i = 0; i < div.length; i++) {
-         if(div[i].hasChildNodes())
-         {const input = div[i].childNodes;
-          for (let j = 0; j < input.length; j++) {
-           if(input[j].value){
-           input[j].textContent =input[j].value}
-          }
-        }
- 
-        }
-      }*/
-    console.log(document.querySelector("div#info").textContent);
-    console.log(myHTML.textContent);
-  }
 
   return (
     <form
       id="content"
-      className="mx-auto  mt-5 w-full line- break-after-page whitespace-pre-wrap  text-justify text-xl leading-5 "
+      className="mx-auto mt-5 w-full "
+      onSubmit={(e) => {
+        event.preventDefault();
+        const buttonName = e.nativeEvent.submitter.name;
+        if (buttonName === "Word") saveWord();
+        if (buttonName === "TXT") saveTXT();
+      }}
     >
-      {props?.contract &&
-        Object.keys(props?.contract).map((key, i) => (
-          <div key={i} className="mx-5 mt-5 mb-5">
-            <ViewDocContractDrafter key={i} textDoc={props?.contract[key]} />
-          </div>
-        ))}
-
-      <button
-        className="ml-auto mb-5 mr-5 flex flex rounded bg-gradient-to-r from-gradient-for-footer to-gradient-to py-2 px-4 font-bold text-white"
-        onClick={() => saveWordsDocTxt("content", "pepe")}
-        type="primary"
-      >
-        Descargar PDF
-      </button>
+      <div id="content">
+        {props?.contract &&
+          Object.keys(props?.contract).map((key, i) => (
+            <div
+              key={i}
+              className="mx-5 mt-5 mb-5  whitespace-pre-wrap text-justify text-xl  leading-loose"
+            >
+              <ViewDocContractDrafter key={i} textDoc={props?.contract[key]} />
+            </div>
+          ))}
+      </div>
+      <div className="flex">
+        <button
+          className="mr-auto  mb-5 ml-5 flex flex rounded bg-gradient-to-r from-gradient-for-footer to-gradient-to py-2 px-4 font-bold text-white"
+          type="submit"
+          name="TXT"
+        >
+          Descargar TXT
+        </button>
+        <button
+          className="ml-auto  mb-5 mr-5 flex flex rounded bg-gradient-to-r from-gradient-for-footer to-gradient-to py-2 px-4 font-bold text-white"
+          type="submit"
+          name="Word"
+        >
+          Descargar PDF
+        </button>
+      </div>
     </form>
   );
 }

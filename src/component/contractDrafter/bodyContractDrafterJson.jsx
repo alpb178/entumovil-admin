@@ -60,11 +60,13 @@ export default function BodyContractDrafterJson(props) {
     }
 
     newLink.click();
+   /* var myHTML = document.getElementById("content");
+
+    console.log(myHTML.textContent);*/
   };
 
   return (
     <form
-      id="content"
       className="mx-auto mt-5 w-full "
       onSubmit={(e) => {
         event.preventDefault();
@@ -97,7 +99,7 @@ export default function BodyContractDrafterJson(props) {
           type="submit"
           name="Word"
         >
-          Descargar PDF
+          Descargar Documento Word
         </button>
       </div>
     </form>

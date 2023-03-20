@@ -6,7 +6,7 @@ export default function BodyContractDrafterJson(props) {
       "<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'><head><meta charset='utf-8'><title>Export HTML To Doc</title></head><body>";
     var postHtml = "</body></html>";
     var html =
-      preHtml + document.getElementById("content").textContent + postHtml;
+      preHtml + document.getElementById("content").innerText + postHtml;
 
     var blob = new Blob(["\ufeff", html], {
       type: "application/msword",
@@ -41,12 +41,10 @@ export default function BodyContractDrafterJson(props) {
   };
 
   const saveTXT = () => {
-    // This variable stores all the data.
     let data = document.getElementById("content").textContent;
 
-    // Convert the text to BLOB.
     const textToBLOB = new Blob([data], { type: "text/plain" });
-    const sFileName = "formData.txt"; // The file to save the data.
+    const sFileName = "formData.txt";
 
     let newLink = document.createElement("a");
     newLink.download = sFileName;
@@ -60,9 +58,6 @@ export default function BodyContractDrafterJson(props) {
     }
 
     newLink.click();
-   /* var myHTML = document.getElementById("content");
-
-    console.log(myHTML.textContent);*/
   };
 
   return (

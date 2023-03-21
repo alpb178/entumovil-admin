@@ -492,22 +492,22 @@ export const contractDrafterIT = [
       {
         father: "title",
         name: "opcion 1",
-        value: "CONTRATO DE COMPRAVENTA DE VIVIENDAzzzz",
+        value: "Modello di compravendita",
       },
       {
         father: "title",
         name: "opcion 2",
-        value: "CONTRATO DE ALQUILER DE VIVIENDA",
+        value: "Modello contratto di vendita immobile",
       },
       {
         father: "title",
         name: "opcion 3",
-        value: "Contrato de compraventa de bien inmueble",
+        value: "Contratto-tipo preliminare di compravendita immobiliare",
       },
       {
         father: "title",
         name: "opcion 4",
-        value: "CONTRATO DE COMPRAVENTA ENTRE PARTICULARES",
+        value: "FACSIMILE DI CONTRATTO PRELIMINARE DI COMPRAVENDITA",
       },
     ],
   },
@@ -648,6 +648,87 @@ export const contractDrafterUK = [
   },
 ];
 export const contractDrafterDE = [
+  {
+    name: "Título",
+    options: [
+      {
+        father: "title",
+        name: "opcion 1",
+        value: "CONTRATO DE COMPRAVENTA DE VIVIENDAzzzz",
+      },
+      {
+        father: "title",
+        name: "opcion 2",
+        value: "CONTRATO DE ALQUILER DE VIVIENDA",
+      },
+      {
+        father: "title",
+        name: "opcion 3",
+        value: "Contrato de compraventa de bien inmueble",
+      },
+      {
+        father: "title",
+        name: "opcion 4",
+        value: "CONTRATO DE COMPRAVENTA ENTRE PARTICULARES",
+      },
+    ],
+  },
+  {
+    name: "Lugar",
+    options: [
+      {
+        father: "sumary",
+        name: "opcion 1",
+        value: "En XXX, a XXX de XXX del XXX",
+      },
+      {
+        father: "sumary",
+        name: "opcion 2",
+        value: "En la ciudad de XXX, a XXX. de XXX. de XXX",
+      },
+    ],
+  },
+  {
+    name: "Partes",
+    options: [
+      {
+        father: "parts",
+        name: "opcion 1",
+        value: `De un lado la parte vendedora, D XXX, mayor de edad, con
+          domicilio en XXX, con DNI nº XXX casado en régimen de comunidad de
+          gananciales con Dª.XXX, mayor de edad, con domicilio en XXX, y con
+          DNI nº XXX. Y de otro la parte compradora, DXXX, mayor de edad,
+          con domicilio en XXX, de estado civil soltero y con DNI nº XXX.
+          Ambas partes tienen y se reconocen la capacidad legal necesaria
+          para el otorgamiento del presente contrato , y a tal fin.`,
+      },
+      {
+        father: "parts",
+        name: "opcion 2",
+        value: `DE UNA PARTE: D. XXX. y Dª XXX, mayores de edad, cónyuges,
+          con domicilio en XXX, calle XXX, nº XXX, y cuyos números de Documento
+          Nacional de Identidad son los XXX. y XXX, respectivamente, en adelante
+          los VENDEDORES;
+          Y DE OTRA PARTE: D. XXX, XXX, mayor de edad, y con domicilio en XXX,
+          calle XXX. nº XXX, provisto del DNI nº XXX, en adelante el COMPRADOR.
+          INTERVIENEN: Todos en su propio nombre y derecho. Ambas partes
+          se reconocen
+          mutuamente la capacidad legal necesaria para el otorgamiento y firma del presente contrato
+          de compraventa, para lo cual,`,
+      },
+      {
+        father: "parts",
+        name: "opcion 3",
+        value: `de una parte como compradora D/ña. XXX, mayor de edad, de estado civil XXX, con DNI. Nº XXX, y con 
+          domicilio en la ciudad de XXX, C/ XXXY de otra como parte vendedora D/ña. XXX, mayor de edad, de estado civil XXX, 
+          con DNI Nº XXX. y con domicilio en la ciudad de XXX, C/ XXX
+          INTERVIENEN Las dos partes en su propio nombre y derecho como comprador y vendedor respectivamente. Ambas partes tienen 
+          plena capacidad legal para concurrir a este acto según manifiestan y, recíprocamente, se reconocen y`,
+      },
+    ],
+  },
+];
+export const contractDrafterEU = [
   {
     name: "Título",
     options: [

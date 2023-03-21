@@ -1,11 +1,6 @@
-import ContractDrafter from "@/container/contractDrafter";
-import { contractDrafterARG } from "@/lib/drafter";
-
-export default function ContractDrafterEEUUPage() {
+import ContractDrafterEnEU from "@/container/contractDrafter/contractDrafterEnEU";
+export default function ContractDrafterARGPage () {
   return (
-    <ContractDrafter
-      description="Plantilla EEUU"
-      contract={contractDrafterARG}
-    />
+   <ContractDrafterEnEU/>
   );
 }

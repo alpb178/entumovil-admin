@@ -1,12 +1,11 @@
-import ContractDrafter from "@/container/contractDrafter";
-import { contractDrafterARG } from "@/lib/drafter";
+import ContractDrafterIR from "@/container/contractDrafter/contractDrafterIR";
+
 
 
 export default function ContractDrafterIRPage() {
   return (
-    <ContractDrafter
-      description="Plantilla Irlanda"
-      contract={contractDrafterARG}
+    <ContractDrafterIR
+  
     />
   );
 }

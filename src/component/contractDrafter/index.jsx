@@ -24,7 +24,7 @@ export default function ContractDrafterComponent(props) {
           setContract={setContract}
           data={props?.contract}
         />
-        <div className="mt-14 ml-20 mb-7 w-full border-2">
+        <div className="mt-14 ml-20 mb-7 w-full h-screen overflow-x-hidden border-2">
           <BodyContractDrafterJson contract={contract} />
         </div>
       </div>

@@ -7,7 +7,7 @@ export default function ContractDrafterEnEU() {
         description="Plantilla EE.UU"
         imageUrl="cabecera-contratos-inmocor.jpg"
       />
-      <section className="bg-gray-50 border-gray-600 bg-bg-white mx-5 mt-10 border px-4 pb-20 pt-4 text-xl text-gray">
+      {/*<section className="bg-gray-50 border-gray-600 bg-bg-white mx-5 mt-10 border px-4 pb-20 pt-4 text-xl text-gray">
         <div className=" ml-5 mb-20 mr-5 text-xl  text-gray">
           <div className="flex space-x-20">
             <div className="mr-0 w-80 flex-grow ">
@@ -161,7 +161,7 @@ export default function ContractDrafterEnEU() {
           ></input>
           <p className=" ml-5 mt-2">Comments</p>
         </div>
-      </section>
+  </section>*/}
     </div>
   );
 }

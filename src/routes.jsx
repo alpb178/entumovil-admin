@@ -3,6 +3,7 @@ import { Home } from "@/pages";
 import {
   INMOCOR_CONTACT_PAGE,
   INMOCOR_CONTRACT_DRATER_ARG_PAGE,
+  INMOCOR_CONTRACT_DRATER_CA_PAGE,
   INMOCOR_CONTRACT_DRATER_DE_PAGE,
   INMOCOR_CONTRACT_DRATER_EEUU_PAGE,
   INMOCOR_CONTRACT_DRATER_ESP_PAGE,
@@ -28,6 +29,7 @@ import {
 } from "./lib/constants";
 import ContactsPage from "./pages/contacts";
 import ContractDrafterARGPage from "./pages/contractDrafter/contractDrafterARG";
+import ContractDrafterCAPage from "./pages/contractDrafter/contractDrafterCA";
 import ContractDrafterDEPage from "./pages/contractDrafter/contractDrafterDE";
 import ContractDrafterEEUUPage from "./pages/contractDrafter/contractDrafterEEUU";
 import ContractDrafterEnUkPage from "./pages/contractDrafter/contractDrafterEnUk";
@@ -179,6 +181,11 @@ export const routes = [
     name: "Plantilla-Irlanda",
     path: INMOCOR_CONTRACT_DRATER_IR_PAGE,
     element: <ContractDrafterIRPage />,
+  },
+  {
+    name: "Plantilla-Catalan",
+    path: INMOCOR_CONTRACT_DRATER_CA_PAGE,
+    element: <ContractDrafterCAPage />,
   },
 ];
 

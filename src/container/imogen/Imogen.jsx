@@ -3,6 +3,7 @@ import FooterSite from "@/component/footer";
 
 import {
   INMOCOR_CONTRACT_DRATER_ARG_PAGE,
+  INMOCOR_CONTRACT_DRATER_CA_PAGE,
   INMOCOR_CONTRACT_DRATER_DE_PAGE,
   INMOCOR_CONTRACT_DRATER_EEUU_PAGE,
   INMOCOR_CONTRACT_DRATER_ESP_PAGE,
@@ -172,6 +173,22 @@ export function Inmogen() {
                       </a>
                     </h5>
                   </li>
+                  <li className="border-bottom flex-inline mb-4 flex pb-3">
+                    <div className="rounded-full bg-legislation-gray">
+                      <i className="fas fa-check m-1 rounded-full text-red" />
+                    </div>
+                    <h5 className="ml-5">
+                      <a
+                        href={INMOCOR_CONTRACT_DRATER_CA_PAGE}
+                        className="icon-btn btn-link btn-arrow text-dark flex-inline flex"
+                      >
+                        Redactor en catalán
+                        <ArrowRightIcon className="mt ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
+                      </a>
+                    </h5>
+                  </li>
+
+                  
                 </ul>
               </div>
             </div>

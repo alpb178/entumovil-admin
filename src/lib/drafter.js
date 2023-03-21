@@ -800,10 +800,10 @@ export const contractDrafterCA = [
         [
           `REUNITS:
           d’una part: XXX major d’edat, XXX, amb domicili a XXX, proveït de NIF nº XXX. I d’una altra part: XXX, major d’edat, XXX, amb domicili a XXX, proveït de NIF nº XXX
-          Ambdues parts intervenen en el seu propi nom i dret, i es reconeixen capacitat suficient per atorgar el present CONTRACTE DE COMPRAVENDA, i en virtut d’això`
-          `EXPOSENI.- Que XXX, d’ara endavant “el venedor” és propietari de la finca situada a`,
-          `Descripció: Dades de la inscripció registral: Càrregues: Està gravada amb XXX
-          `,` Títol: Li pertany per XXX. Situació arrendatària i/o ocupants:Referència cadastral:II.- Que interessant a ….., d’ara endavant “el comprador”, l’adquisició de la propietat d’aquest habitatge,
+          Ambdues parts intervenen en el seu propi nom i dret, i es reconeixen capacitat suficient per atorgar el present CONTRACTE DE COMPRAVENDA, i en virtut d’això
+          EXPOSENI.- Que XXX, d’ara endavant “el venedor” és propietari de la finca situada a,
+          Descripció: Dades de la inscripció registral: Càrregues: Està gravada amb XXX
+          ,Títol: Li pertany per XXX. Situació arrendatària i/o ocupants:Referència cadastral:II.- Que interessant a ….., d’ara endavant “el comprador”, l’adquisició de la propietat d’aquest habitatge,
           ambdues parts han convingut la present compravenda d’acord amb les següents`, 
         ],
         

@@ -33,6 +33,7 @@ export const INMOCOR_CONTRACT_DRATER_FR_PAGE = "/Plantilla-Francia";
 export const INMOCOR_CONTRACT_DRATER_IT_PAGE = "/Plantilla-Italiano";
 export const INMOCOR_CONTRACT_DRATER_IR_PAGE = "/Plantilla-Irlanda";
 export const INMOCOR_CONTRACT_DRATER_EEUU_PAGE = "/Plantilla-EEUU";
+export const INMOCOR_CONTRACT_DRATER_CA_PAGE = "/Plantilla-Catalán";
 
 export const legislation = [
   {

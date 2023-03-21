@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Card, CardBody } from "@material-tailwind/react";
 
 import FooterSite from "@/component/footer";
@@ -11,6 +11,7 @@ import ViewFindDocument from "@/component/findDocument";
 export function ManagmentInmocor() {
   const [openFind, setOpenFind] = useState(false);
   const [documentTxt, setDocumentTxt] = useState("");
+  const [contentId, setContentId] = useState("container-section");
   const [valueSelect, setValueSelect] = useState([]);
   const [findText, setFindText] = useState("");
   const [disabledSelectInmolaw, setDisabledSelectInmolaw] = useState(false);
@@ -46,14 +47,30 @@ export function ManagmentInmocor() {
     var input = document.getElementById("search-term");
     input.addEventListener("keypress", function (event) {
       if (event.key === "Enter") {
+        setContentId("content-find");
         setValueSelect(getValueSelect());
         setOpenFind(true);
       }
     });
   };
 
+  useEffect(() => {
+    const element = document.querySelectorAll(`[id=${contentId}`)[0];
+    if (element) {
+      setTimeout(
+        () =>
+          element?.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+            inline: "nearest",
+          }),
+        1000
+      );
+    }
+  }, [contentId]);
+
   return (
-    <>
+    <div id="container-section">
       <TopImage
         name="Macrocorpus INMOCOR"
         description="Legislación y Contratos"
@@ -266,7 +283,7 @@ export function ManagmentInmocor() {
                   <ArrowRightIcon className="mt flex-inline ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
                 </button>
                 {openFind && (
-                  <div>
+                  <div id="content-find">
                     <ViewFindDocument
                       valueSelect={valueSelect}
                       findText={findText}
@@ -304,7 +321,7 @@ export function ManagmentInmocor() {
       </section>
 
       <FooterSite />
-    </>
+    </div>
   );
 }
 

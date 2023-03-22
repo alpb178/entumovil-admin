@@ -1,3 +1,4 @@
+import reactStringReplace from "react-string-replace";
 import ViewDocContractDrafter from "./viewDocContractDrafter";
 
 export default function BodyContractDrafterJson(props) {
@@ -5,8 +6,13 @@ export default function BodyContractDrafterJson(props) {
     var preHtml =
       "<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'><head><meta charset='utf-8'><title>Export HTML To Doc</title></head><body>";
     var postHtml = "</body></html>";
-    var html =
-      preHtml + document.getElementById("content").innerText + postHtml;
+
+    var dataR = reactStringReplace(
+      document.getElementById("content").innerHTML,
+      /<input (.*?)>/,
+      (match, i) => "..............."
+    );
+    var html = preHtml + dataR.join(' ') + postHtml;
 
     var blob = new Blob(["\ufeff", html], {
       type: "application/msword",
@@ -41,9 +47,19 @@ export default function BodyContractDrafterJson(props) {
   };
 
   const saveTXT = () => {
-    let data = document.getElementById("content").textContent;
+    let data = document.getElementById("content").innerHTML;
 
-    const textToBLOB = new Blob([data], { type: "text/plain" });
+    let dataR = "";
+
+    dataR = reactStringReplace(
+      data,
+      /<input (.*?)>/,
+      (match, i) => "..............."
+    );
+
+    var strippedHtml = dataR.join(" ").replace(/<[^>]+>/g, " ");
+
+    const textToBLOB = new Blob([strippedHtml], { type: "text/plain" });
     const sFileName = "formData.txt";
 
     let newLink = document.createElement("a");

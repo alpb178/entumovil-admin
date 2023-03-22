@@ -100,7 +100,13 @@ export const saveTXT = (id, json) => {
 
   var strippedHtml = replaceInput(data, json);
 
-  const textToBLOB = new Blob([strippedHtml], { type: "text/plain" });
+  var t = document.createElement("div");
+  t.innerHTML = strippedHtml;
+
+  const pre = t.querySelectorAll("div");
+  const txt = [...pre].map((el) => el.textContent.trim()).join("\r\n\r\n");
+
+  const textToBLOB = new Blob([txt], { type: "text/plain" });
   const sFileName = "formData.txt";
 
   let newLink = document.createElement("a");

@@ -6,12 +6,17 @@ export default function BodyContractDrafterJson(props) {
   const [json, setJson] = useState({});
   return (
     <form
+      id="myform"
       className="mx-auto mt-5 w-full "
       onSubmit={(e) => {
         event.preventDefault();
         const buttonName = e.nativeEvent.submitter.name;
-        if (buttonName === "Word") saveWord("contrato",'content',json);
-        if (buttonName === "TXT") saveTXT('content',json);
+        if (buttonName === "Word") {
+          saveWord("contrato", "content", json), document.getElementById("myform").reset();;
+        }
+        if (buttonName === "TXT") {
+          saveTXT("content", json), document.getElementById("myform").reset();;
+        }
       }}
     >
       <div id="content">
@@ -28,6 +33,7 @@ export default function BodyContractDrafterJson(props) {
                 json={json}
                 setJson={setJson}
               />
+              <br/>
             </div>
           ))}
       </div>

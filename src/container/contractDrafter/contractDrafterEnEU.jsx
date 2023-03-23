@@ -1,5 +1,12 @@
 import TopImage from "@/component/topImage";
+import { saveTXT, saveWord } from "@/lib/utils";
+import { useState } from "react";
 export default function ContractDrafterEnEU() {
+  const [json, setJson] = useState({input1:'',input2:'',input3:'',input4:'',input5:'',input6:'',input7:'',input8:'',input9:'',input10:''});
+  const handleChangeV2 = (value, field) => {
+    const newState = { ...json, [field]: value };
+    setJson(newState);
+  };
   return (
     <div className="text-xl md:w-full">
       <TopImage
@@ -7,14 +14,31 @@ export default function ContractDrafterEnEU() {
         description="Plantilla EE.UU"
         imageUrl="cabecera-contratos-inmocor.jpg"
       />
-      {
-        <section className="bg-gray-50 border-gray-600 bg-bg-white mx-5 mt-10 border px-4 pb-20 pt-4 text-xl text-gray">
-          <div className=" ml-5 mb-20 mr-5 text-xl  text-gray">
-            <div className="flex space-x-20">
+       <form
+      id="myform"
+      className="mx-auto mt-5 w-full m-16  text-xl  text-gray"
+      onSubmit={(e) => {
+        event.preventDefault();
+        const buttonName = e.nativeEvent.submitter.name;
+        if (buttonName === "Word") {
+          saveWord( "LOUISIANA RESIDENTIAL AGREEMENT TO BUY OR SELL", "content", json),
+            document.getElementById("myform").reset();
+        }
+        if (buttonName === "TXT") {
+          saveTXT( "LOUISIANA RESIDENTIAL AGREEMENT TO BUY OR SELL", "content", json),
+            document.getElementById("myform").reset();
+        }
+      }}
+    >
+    <div id='content' className="m-10">
+      
+          <div className="border">
+            <div className="flex m-11 space-x-20">
               <div className="mr-0 w-80 flex-grow ">
                 <input
                   id="1"
                   name="input1"
+                  onChange={(e)=>handleChangeV2(e.target.value,e.target.name)}
                   type="text"
                   className="border-gray-400 required ml-1 mr-1  w-80 border-b-2 outline-none focus:border-blue-400"
                 ></input>
@@ -22,7 +46,7 @@ export default function ContractDrafterEnEU() {
 
                 <input
                   id="1"
-                  name="input1"
+                  name="input2"
                   type="text"
                   className="border-gray-400 required mt-10 ml-1 mr-1  w-80 border-b-2 outline-none focus:border-blue-400"
                 ></input>
@@ -104,33 +128,33 @@ export default function ContractDrafterEnEU() {
                 ></input>
                 <p className=" ml-5 mt-2">Buyer’s Designated Agent</p>
 
-                <div className="mt-10 flex overflow-x-auto">
-                  <div>
+                <div className="mt-10 flex">
+                  <div className="mr-1">
                     <input
                       id="1"
                       name="input1"
                       type="text"
-                      className="border-gray-400 required ml-1 mr-1 w-80 w-auto border-b-2 text-center outline-none focus:border-blue-400"
+                      className="border-gray-400 required ml-1 mr-1 w-full border-b-2 text-center outline-none focus:border-blue-400"
                     ></input>
                     <p className=" ml-5 mt-2 text-center">Phone Number</p>
                   </div>
 
-                  <div>
+                  <div className="mr-1">
                     <input
                       id="1"
                       name="input1"
                       type="text"
-                      className="border-gray-400 required ml-1 mr-1 w-80 w-auto border-b-2 text-center outline-none focus:border-blue-400"
+                      className="border-gray-400 required ml-1 mr-1 w-full border-b-2 text-center outline-none focus:border-blue-400"
                     ></input>
                     <p className=" ml-5 mt-2 text-center">Office</p>
                   </div>
 
-                  <div>
+                  <div className="mr-1">
                     <input
                       id="1"
                       name="input1"
                       type="text"
-                      className="border-gray-400 required ml-1 mr-1 w-80 w-auto border-b-2 text-center outline-none focus:border-blue-400"
+                      className="border-gray-400 required ml-1 mr-1 w-full border-b-2 text-center outline-none focus:border-blue-400"
                     ></input>
                     <p className=" ml-5 mt-2 text-center">Fax</p>
                   </div>
@@ -144,42 +168,42 @@ export default function ContractDrafterEnEU() {
                 ></input>
                 <p className=" ml-5 mt-2">Email Address</p>
 
-                <div className="mt-10 flex overflow-x-auto">
-                  <div>
+                <div className="mt-10 flex">
+                  <div className="mr-1">
                     <input
                       id="1"
                       name="input1"
                       type="text"
-                      className="border-gray-400 required ml-1 mr-1 w-40 w-auto border-b-2 text-center outline-none focus:border-blue-400"
+                      className="border-gray-400 required ml-1 mr-1 w-full border-b-2 text-center outline-none focus:border-blue-400"
                     ></input>
                     <p className=" ml-5 mt-2 text-center">Day</p>
                   </div>
 
-                  <div>
+                  <div className="mr-1">
                     <input
                       id="1"
                       name="input1"
                       type="text"
-                      className="border-gray-400 required ml-1 mr-1 w-40 w-auto border-b-2 text-center outline-none focus:border-blue-400"
+                      className="border-gray-400 required ml-1 mr-1 w-full border-b-2 text-center outline-none focus:border-blue-400"
                     ></input>
                     <p className=" ml-5 mt-2 text-center">Date</p>
                   </div>
 
-                  <div>
+                  <div className="mr-1">
                     <input
                       id="1"
                       name="input1"
                       type="text"
-                      className="border-gray-400 required ml-1 mr-1 w-40 w-auto border-b-2 text-center outline-none focus:border-blue-400"
+                      className="border-gray-400 required ml-1 mr-1 w-full border-b-2 text-center outline-none focus:border-blue-400"
                     ></input>
                     <p className=" ml-5 mt-2 text-center">Time</p>
                   </div>
-                  <div>
+                  <div className="mr-1">
                     <input
                       id="1"
                       name="input1"
                       type="text"
-                      className="border-gray-400 required ml-1 mr-1 w-40 w-auto border-b-2 text-center outline-none focus:border-blue-400"
+                      className="border-gray-400 required ml-1 mr-1 w-full border-b-2 text-center outline-none focus:border-blue-400"
                     ></input>
                     <p className=" ml-5 mt-2 text-center">AM/PM</p>
                   </div>
@@ -187,15 +211,16 @@ export default function ContractDrafterEnEU() {
               </div>
             </div>
 
-            <input
+<div className=" m-11 space-x-20">
+<input
               id="1"
               name="input1"
               type="text"
-              className="border-gray-400 required mt-10 ml-1 mr-1  w-full border-b-2 outline-none focus:border-blue-400"
+              className="border-gray-400 w-full mt-10  mr-16  border-b-2 outline-none focus:border-blue-400"
             ></input>
             <p className=" ml-5 mt-2">Comments</p>
-
-            <div className="flex space-x-48">
+          </div>
+            <div className="flex m-11 space-x-20">
               <div className="mt-10 mr-0 w-80 flex-grow ">
                 <input
                   id="1"
@@ -206,43 +231,43 @@ export default function ContractDrafterEnEU() {
                 <p className=" ml-5 mt-2">Received by Designated Agent</p>
               </div>
 
-              <div className="mr-0 w-80 flex-grow overflow-x-auto">
+              <div className="mr-0 w-80 flex-grow ">
                 <div className="mt-10 flex">
-                  <div>
+                  <div className=" mr-1">
                     <input
                       id="1"
                       name="input1"
                       type="text"
-                      className="border-gray-400 required ml-1 mr-1 w-40 w-auto border-b-2 text-center outline-none focus:border-blue-400"
+                      className="border-gray-400 required ml-1 mr-1 w-full border-b-2 text-center outline-none focus:border-blue-400"
                     ></input>
                     <p className=" ml-5 mt-2 text-center">Day</p>
                   </div>
 
-                  <div>
+                  <div className=" mr-1">
                     <input
                       id="1"
                       name="input1"
                       type="text"
-                      className="border-gray-400 required ml-1 mr-1 w-40 w-auto border-b-2 text-center outline-none focus:border-blue-400"
+                      className="border-gray-400 required ml-1 mr-1 w-full border-b-2 text-center outline-none focus:border-blue-400"
                     ></input>
                     <p className=" ml-5 mt-2 text-center">Date</p>
                   </div>
 
-                  <div>
+                  <div className=" mr-1">
                     <input
                       id="1"
                       name="input1"
                       type="text"
-                      className="border-gray-400 required ml-1 mr-1 w-40 w-auto border-b-2 text-center outline-none focus:border-blue-400"
+                      className="border-gray-400 required ml-1 mr-1 w-full border-b-2 text-center outline-none focus:border-blue-400"
                     ></input>
                     <p className=" ml-5 mt-2 text-center">Time</p>
                   </div>
-                  <div>
+                  <div className=" mr-1">
                     <input
                       id="1"
                       name="input1"
                       type="text"
-                      className="border-gray-400 required ml-1 mr-1 w-40 w-auto border-b-2 text-center outline-none focus:border-blue-400"
+                      className="border-gray-400 required ml-1 mr-1 w-full border-b-2 text-center outline-none focus:border-blue-400"
                     ></input>
                     <p className=" ml-5 mt-2 text-center">AM/PM</p>
                   </div>
@@ -250,11 +275,11 @@ export default function ContractDrafterEnEU() {
               </div>
             </div>
           </div>
-        </section>
-      }
+       
+      
 
-      <section className="w-full overflow-x-auto md:w-auto">
-        <div className="mt-10 mb-10">
+  
+        <div className="m-11 space-x-20">
           <p className="mb-6 text-center text-4xl font-black">
             LOUISIANA RESIDENTIAL AGREEMENT TO BUY OR SELL
           </p>
@@ -530,7 +555,28 @@ export default function ContractDrafterEnEU() {
             </div>
           </div>
         </div>
-      </section>
+    
+
+      </div>
+
+      <div className="flex">
+        <button
+          className="mr-auto  mb-5 ml-5 flex flex rounded bg-gradient-to-r from-gradient-for-footer to-gradient-to py-2 px-4 font-bold text-white"
+          type="submit"
+          name="TXT"
+        >
+          Descargar TXT
+        </button>
+        <button
+          className="ml-auto  mb-5 mr-5 flex flex rounded bg-gradient-to-r from-gradient-for-footer to-gradient-to py-2 px-4 font-bold text-white"
+          type="submit"
+          name="Word"
+        >
+          Descargar Documento Word
+        </button>
+      </div>
+    </form>
+       
     </div>
   );
 }

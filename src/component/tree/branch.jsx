@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Node from "./node";
 
-const Branch = ({ item, level, contract, setContract }) => {
+const Branch = ({ item, level, contract, setContract,setContentId }) => {
   const [selected, setSelected] = useState(item.selected ?? false);
 
   const hasChildren = item.options && item.options.length !== 0;
@@ -17,6 +17,7 @@ const Branch = ({ item, level, contract, setContract }) => {
             item={child}
             contract={contract}
             setContract={setContract}
+            setContentId={setContentId}
             level={newLevel}
           />
         );
@@ -40,6 +41,7 @@ const Branch = ({ item, level, contract, setContract }) => {
         onToggle={toggleSelected}
         contract={contract}
         setContract={setContract}
+        setContentId={setContentId}
       />
 
       {selected && renderBranches()}

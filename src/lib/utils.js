@@ -95,7 +95,7 @@ export const saveWord = (filename = "", id, json) => {
   document.body.removeChild(downloadLink);
 };
 
-export const saveTXT = (id, json) => {
+export const saveTXT = (filename, id, json) => {
   let data = document.getElementById(id).innerHTML;
 
   var strippedHtml = replaceInput(data, json);
@@ -107,7 +107,7 @@ export const saveTXT = (id, json) => {
   const txt = [...pre].map((el) => el.textContent.trim()).join("\r\n\r\n");
 
   const textToBLOB = new Blob([txt], { type: "text/plain" });
-  const sFileName = "formData.txt";
+  const sFileName = `${filename}.txt`;
 
   let newLink = document.createElement("a");
   newLink.download = sFileName;

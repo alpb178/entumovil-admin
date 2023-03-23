@@ -1,9 +1,27 @@
 import { saveTXT, saveWord } from "@/lib/utils";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ViewDocContractDrafter from "./viewDocContractDrafter";
 
 export default function BodyContractDrafterJson(props) {
   const [json, setJson] = useState({});
+
+  useEffect(() => {
+    const doc = document.getElementById('content');
+    console.log(props.contentId)
+    const element = doc.querySelectorAll(`[id=${props.contentId}`)[0];
+    if (element) {
+      setTimeout(
+        () =>
+          element?.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+            inline: "nearest",
+          }),
+        1000
+      );
+    }
+  }, [props.contentId]);
+
   return (
     <form
       id="myform"
@@ -12,10 +30,12 @@ export default function BodyContractDrafterJson(props) {
         event.preventDefault();
         const buttonName = e.nativeEvent.submitter.name;
         if (buttonName === "Word") {
-          saveWord("contrato", "content", json), document.getElementById("myform").reset();;
+          saveWord(props?.contract?.title, "content", json),
+            document.getElementById("myform").reset();
         }
         if (buttonName === "TXT") {
-          saveTXT("content", json), document.getElementById("myform").reset();;
+          saveTXT(props?.contract?.title, "content", json),
+            document.getElementById("myform").reset();
         }
       }}
     >
@@ -24,6 +44,7 @@ export default function BodyContractDrafterJson(props) {
           Object.keys(props?.contract).map((key, i) => (
             <div
               key={i}
+              id={key}
               className="mx-5 mt-5 mb-5  whitespace-pre-wrap text-justify text-xl  leading-loose"
             >
               <ViewDocContractDrafter
@@ -33,7 +54,7 @@ export default function BodyContractDrafterJson(props) {
                 json={json}
                 setJson={setJson}
               />
-              <br/>
+              <br />
             </div>
           ))}
       </div>

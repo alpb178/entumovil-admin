@@ -5,6 +5,7 @@ import NavigationContractDrafter from "./navigationContractDrafter";
 
 export default function ContractDrafterComponent(props) {
   const [contract, setContract] = useState();
+  const [contentId, setContentId] = useState("content");
 
   useEffect(() => {
     let Json = {};
@@ -22,10 +23,11 @@ export default function ContractDrafterComponent(props) {
         <NavigationContractDrafter
           contract={contract}
           setContract={setContract}
+          setContentId={setContentId}
           data={props?.contract}
         />
-        <div className="mt-14 ml-20 mb-7 w-full h-screen overflow-x-hidden border-2">
-          <BodyContractDrafterJson contract={contract} />
+        <div className="mt-14 ml-20 mb-7 h-screen w-full overflow-x-hidden border-2">
+          <BodyContractDrafterJson contentId={contentId} contract={contract} />
         </div>
       </div>
     </div>

@@ -8,6 +8,7 @@ export default function NavigationContractDrafter(props) {
         data={props.data}
         contract={props.contract}
         setContract={props.setContract}
+        setContentId={props.setContentId}
       />
     </ul>
   );

@@ -24,7 +24,7 @@ export default function ViewDocContractDrafter({
           name={info + i}
           onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
           type="text"
-          className="border-gray-400 required ml-1 mr-1  w-auto border-b-2 outline-none focus:border-blue-400"
+          className="border-gray-400 required w-auto border-b-2 outline-none focus:border-blue-400"
         />
       ))}
     </>

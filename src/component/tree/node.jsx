@@ -16,16 +16,16 @@ const Node = ({
   return (
     <div className="mb-5 text-lg" style={{ paddingLeft: `${level * 16}px` }}>
       {hasChildren && (
-        <div className="hover:font-bold ">
-          {item.name}
+        <div className="hover:font-bold flex  "><div className="border-b-2">  {item.name}</div>
+        
           <button onClick={onToggle}>
-            <i className="fas fa-chevron-down fa-xs ml-2 hover:mt-1.5 hover:text-xl hover:font-bold " />
+            <i className="fas fa-chevron-down fa-xs ml-2 " />
           </button>
         </div>
       )}
       {!hasChildren && (
         <button
-          className="hover:text-2xl hover:font-bold hover:text-red"
+          className="hover:font-bold"
           onClick={() => {
             handleChangeV2(item.value, item.father), setContentId(item.father);
           }}

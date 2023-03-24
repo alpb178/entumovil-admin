@@ -1,19 +1,9 @@
 import TopImage from "@/component/topImage";
+import { stateForm } from "@/lib/drafter";
 import { saveTXT, saveWord } from "@/lib/utils";
 import { useState } from "react";
 export default function ContractDrafterEnEU() {
-  const [json, setJson] = useState({
-    input1: "",
-    input2: "",
-    input3: "",
-    input4: "",
-    input5: "",
-    input6: "",
-    input7: "",
-    input8: "",
-    input9: "",
-    input10: "",
-  });
+  const [json, setJson] = useState(stateForm);
   const handleChangeV2 = (value, field) => {
     const newState = { ...json, [field]: value };
     setJson(newState);
@@ -56,10 +46,10 @@ export default function ContractDrafterEnEU() {
                 <input
                   id="1"
                   name="input1"
+                  type="text"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
-                  type="text"
                   className="border-gray-400  ml-1 mr-1  w-80 border-b-2 outline-none focus:border-blue-400"
                 ></input>
                 <p className=" ml-5 mt-2">Listing Firm</p>
@@ -68,6 +58,9 @@ export default function ContractDrafterEnEU() {
                   id="1"
                   name="input2"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  mt-10 ml-1 mr-1  w-80 border-b-2 outline-none focus:border-blue-400"
                 ></input>
                 <p className=" ml-5 mt-2">Seller’s Designated</p>
@@ -76,8 +69,11 @@ export default function ContractDrafterEnEU() {
                   <div className="mr-1">
                     <input
                       id="1"
-                      name="input1"
+                      name="input3"
                       type="text"
+                      onChange={(e) =>
+                        handleChangeV2(e.target.value, e.target.name)
+                      }
                       className="border-gray-400  ml-1 mr-1 w-full border-b-2 text-center outline-none focus:border-blue-400"
                     ></input>
                     <p className=" ml-5 mt-2 text-center">Phone Number</p>
@@ -86,8 +82,11 @@ export default function ContractDrafterEnEU() {
                   <div className="mr-1">
                     <input
                       id="1"
-                      name="input1"
+                      name="input4"
                       type="text"
+                      onChange={(e) =>
+                        handleChangeV2(e.target.value, e.target.name)
+                      }
                       className="border-gray-400  ml-1 mr-1 w-full border-b-2 text-center outline-none focus:border-blue-400"
                     ></input>
                     <p className=" ml-5 mt-2 text-center">Office</p>
@@ -96,8 +95,11 @@ export default function ContractDrafterEnEU() {
                   <div className="mr-1">
                     <input
                       id="1"
-                      name="input1"
+                      name="input5"
                       type="text"
+                      onChange={(e) =>
+                        handleChangeV2(e.target.value, e.target.name)
+                      }
                       className="border-gray-400  ml-1 mr-1 w-full border-b-2 text-center outline-none focus:border-blue-400"
                     ></input>
                     <p className=" ml-5 mt-2 text-center">Fax</p>
@@ -106,16 +108,22 @@ export default function ContractDrafterEnEU() {
 
                 <input
                   id="1"
-                  name="input1"
+                  name="input6"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  mt-10 ml-1 mr-1  w-80 border-b-2 outline-none focus:border-blue-400"
                 ></input>
                 <p className=" ml-5 mt-2">Email Address</p>
 
                 <input
                   id="1"
-                  name="input1"
+                  name="input7"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  mt-10 ml-1 mr-1  w-80 border-b-2 outline-none focus:border-blue-400"
                 ></input>
                 <p className=" ml-5 mt-2">Delivered by Designated Agent to</p>
@@ -124,8 +132,11 @@ export default function ContractDrafterEnEU() {
               <div className="mx-1/2 my-1/2 mt-40 h-10 w-10">
                 <input
                   id="1"
-                  name="input1"
+                  name="input8"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  ml-1 mr-1 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <p className="mt-2 text-center">Dual Agent</p>
@@ -134,16 +145,22 @@ export default function ContractDrafterEnEU() {
               <div className="mr-0 w-80 flex-grow ">
                 <input
                   id="1"
-                  name="input1"
+                  name="input9"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  ml-1 mr-1  w-80 border-b-2 outline-none focus:border-blue-400"
                 ></input>
                 <p className=" ml-5 mt-2">Selling Firm</p>
 
                 <input
                   id="1"
-                  name="input1"
+                  name="input10"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  mt-10 ml-1 mr-1  w-80 border-b-2 outline-none focus:border-blue-400"
                 ></input>
                 <p className=" ml-5 mt-2">Buyer’s Designated Agent</p>
@@ -152,8 +169,11 @@ export default function ContractDrafterEnEU() {
                   <div className="mr-1">
                     <input
                       id="1"
-                      name="input1"
+                      name="input11"
                       type="text"
+                      onChange={(e) =>
+                        handleChangeV2(e.target.value, e.target.name)
+                      }
                       className="border-gray-400  ml-1 mr-1 w-full border-b-2 text-center outline-none focus:border-blue-400"
                     ></input>
                     <p className=" ml-5 mt-2 text-center">Phone Number</p>
@@ -161,9 +181,12 @@ export default function ContractDrafterEnEU() {
 
                   <div className="mr-1">
                     <input
-                      id="1"
-                      name="input1"
+                      id="12"
+                      name="input12"
                       type="text"
+                      onChange={(e) =>
+                        handleChangeV2(e.target.value, e.target.name)
+                      }
                       className="border-gray-400  ml-1 mr-1 w-full border-b-2 text-center outline-none focus:border-blue-400"
                     ></input>
                     <p className=" ml-5 mt-2 text-center">Office</p>
@@ -171,9 +194,12 @@ export default function ContractDrafterEnEU() {
 
                   <div className="mr-1">
                     <input
-                      id="1"
-                      name="input1"
+                      id="13"
+                      name="input13"
                       type="text"
+                      onChange={(e) =>
+                        handleChangeV2(e.target.value, e.target.name)
+                      }
                       className="border-gray-400  ml-1 mr-1 w-full border-b-2 text-center outline-none focus:border-blue-400"
                     ></input>
                     <p className=" ml-5 mt-2 text-center">Fax</p>
@@ -181,9 +207,12 @@ export default function ContractDrafterEnEU() {
                 </div>
 
                 <input
-                  id="1"
-                  name="input1"
+                  id="14"
+                  name="input14"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  mt-10 ml-1 mr-1  w-80 border-b-2 outline-none focus:border-blue-400"
                 ></input>
                 <p className=" ml-5 mt-2">Email Address</p>
@@ -191,38 +220,50 @@ export default function ContractDrafterEnEU() {
                 <div className="mt-10 flex">
                   <div className="mr-1">
                     <input
-                      id="1"
-                      name="input1"
+                      id="15"
+                      name="input15"
                       type="text"
+                      onChange={(e) =>
+                        handleChangeV2(e.target.value, e.target.name)
+                      }
                       className="border-gray-400  ml-1 mr-1 w-full border-b-2 text-center outline-none focus:border-blue-400"
                     ></input>
                     <p className=" ml-5 mt-2 text-center">Day</p>
                   </div>
 
-                  <div className="mr-1">
+                  <div className="mr-16">
                     <input
-                      id="1"
-                      name="input1"
+                      id="16"
+                      name="input16"
                       type="text"
+                      onChange={(e) =>
+                        handleChangeV2(e.target.value, e.target.name)
+                      }
                       className="border-gray-400  ml-1 mr-1 w-full border-b-2 text-center outline-none focus:border-blue-400"
                     ></input>
                     <p className=" ml-5 mt-2 text-center">Date</p>
                   </div>
 
-                  <div className="mr-1">
+                  <div className="mr-17">
                     <input
-                      id="1"
-                      name="input1"
+                      id="17"
+                      name="input17"
                       type="text"
+                      onChange={(e) =>
+                        handleChangeV2(e.target.value, e.target.name)
+                      }
                       className="border-gray-400  ml-1 mr-1 w-full border-b-2 text-center outline-none focus:border-blue-400"
                     ></input>
                     <p className=" ml-5 mt-2 text-center">Time</p>
                   </div>
-                  <div className="mr-1">
+                  <div className="mr-18">
                     <input
                       id="1"
                       name="input1"
                       type="text"
+                      onChange={(e) =>
+                        handleChangeV2(e.target.value, e.target.name)
+                      }
                       className="border-gray-400  ml-1 mr-1 w-full border-b-2 text-center outline-none focus:border-blue-400"
                     ></input>
                     <p className=" ml-5 mt-2 text-center">AM/PM</p>
@@ -233,9 +274,10 @@ export default function ContractDrafterEnEU() {
 
             <div className=" m-11 space-x-20">
               <input
-                id="1"
-                name="input1"
+                id="19"
+                name="input19"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400 mt-10 mr-16  w-full  border-b-2 outline-none focus:border-blue-400"
               ></input>
               <p className=" ml-5 mt-2">Comments</p>
@@ -243,9 +285,12 @@ export default function ContractDrafterEnEU() {
             <div className="m-11 flex space-x-20">
               <div className="mt-10 mr-0 w-80 flex-grow ">
                 <input
-                  id="1"
-                  name="input1"
+                  id="20"
+                  name="input20"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  ml-1 mr-1  w-80 border-b-2 outline-none focus:border-blue-400"
                 ></input>
                 <p className=" ml-5 mt-2">Received by Designated Agent</p>
@@ -255,9 +300,12 @@ export default function ContractDrafterEnEU() {
                 <div className="mt-10 flex">
                   <div className=" mr-1">
                     <input
-                      id="1"
-                      name="input1"
+                      id="21"
+                      name="input21"
                       type="text"
+                      onChange={(e) =>
+                        handleChangeV2(e.target.value, e.target.name)
+                      }
                       className="border-gray-400  ml-1 mr-1 w-full border-b-2 text-center outline-none focus:border-blue-400"
                     ></input>
                     <p className=" ml-5 mt-2 text-center">Day</p>
@@ -265,9 +313,12 @@ export default function ContractDrafterEnEU() {
 
                   <div className=" mr-1">
                     <input
-                      id="1"
-                      name="input1"
+                      id="22"
+                      name="input22"
                       type="text"
+                      onChange={(e) =>
+                        handleChangeV2(e.target.value, e.target.name)
+                      }
                       className="border-gray-400  ml-1 mr-1 w-full border-b-2 text-center outline-none focus:border-blue-400"
                     ></input>
                     <p className=" ml-5 mt-2 text-center">Date</p>
@@ -275,18 +326,24 @@ export default function ContractDrafterEnEU() {
 
                   <div className=" mr-1">
                     <input
-                      id="1"
-                      name="input1"
+                      id="23"
+                      name="input23"
                       type="text"
+                      onChange={(e) =>
+                        handleChangeV2(e.target.value, e.target.name)
+                      }
                       className="border-gray-400  ml-1 mr-1 w-full border-b-2 text-center outline-none focus:border-blue-400"
                     ></input>
                     <p className=" ml-5 mt-2 text-center">Time</p>
                   </div>
                   <div className=" mr-1">
                     <input
-                      id="1"
-                      name="input1"
+                      id="24"
+                      name="input24"
                       type="text"
+                      onChange={(e) =>
+                        handleChangeV2(e.target.value, e.target.name)
+                      }
                       className="border-gray-400  ml-1 mr-1 w-full border-b-2 text-center outline-none focus:border-blue-400"
                     ></input>
                     <p className=" ml-5 mt-2 text-center">AM/PM</p>
@@ -303,9 +360,10 @@ export default function ContractDrafterEnEU() {
             <div className="ml-10 mt-10 mr-0 flex w-full">
               <p className=" mt-2">Date:</p>
               <input
-                id="1"
-                name="input1"
+                id="25"
+                name="input25"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  ml-1 mr-1  w-1/2 border-b-2 outline-none focus:border-blue-400"
               ></input>
             </div>
@@ -320,9 +378,10 @@ export default function ContractDrafterEnEU() {
             <div className="ml-10 mt-10 mr-0 flex w-full">
               <p className=" mt-2">(Municipal Address)</p>
               <input
-                id="1"
-                name="input1"
+                id="26"
+                name="input26"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  ml-1 mr-1  w-1/2 border-b-2 outline-none focus:border-blue-400"
               ></input>
             </div>
@@ -331,9 +390,12 @@ export default function ContractDrafterEnEU() {
               <div className="ml-5 mt-10 mr-0 flex">
                 <p className=" mt-2">City</p>
                 <input
-                  id="1"
-                  name="input1"
+                  id="27"
+                  name="input27"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  ml-1 mr-1  w-80 border-b-2 outline-none focus:border-blue-400"
                 ></input>
               </div>
@@ -343,9 +405,12 @@ export default function ContractDrafterEnEU() {
               <div className="ml-2 mt-10 mr-0 flex">
                 <p className=" mt-2">Zip</p>
                 <input
-                  id="1"
-                  name="input1"
+                  id="28"
+                  name="input28"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  ml-1 mr-1  w-80 border-b-2 outline-none focus:border-blue-400"
                 ></input>
               </div>
@@ -355,9 +420,12 @@ export default function ContractDrafterEnEU() {
               <div className="ml-2 mt-10 mr-0 flex">
                 <p className=" mt-2">Parish</p>
                 <input
-                  id="1"
-                  name="input1"
+                  id="29"
+                  name="input29"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  ml-1 mr-1  w-80 border-b-2 outline-none focus:border-blue-400"
                 ></input>
               </div>
@@ -368,9 +436,10 @@ export default function ContractDrafterEnEU() {
             <div className="ml-10 mt-2 mr-0 flex w-full">
               <p className=" mt-2">(Legal Description)</p>
               <input
-                id="1"
-                name="input1"
+                id="30"
+                name="input30"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  ml-1 mr-1  w-3/5 border-b-2 outline-none focus:border-blue-400"
               ></input>
             </div>
@@ -379,9 +448,10 @@ export default function ContractDrafterEnEU() {
                 on lands and grounds measuring approximately
               </p>
               <input
-                id="1"
-                name="input1"
+                id="31"
+                name="input32"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  ml-1 mr-1  w-1/2 border-b-2 outline-none focus:border-blue-400"
               ></input>
             </div>
@@ -407,34 +477,40 @@ export default function ContractDrafterEnEU() {
                 remain with the property, but are not to be considered as part
                 of the Sale Price and have no value:
                 <input
-                  id="1"
-                  name="input1"
+                  id="33"
+                  name="input33"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  mr ml-1 w-40 border-b-2 outline-none focus:border-blue-400"
                 ></input>
               </p>
             </div>
             <div className="ml-10 flex">
               <input
-                id="1"
-                name="input1"
+                id="34"
+                name="input34"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  mr-5 ml-1  w-full border-b-2 outline-none focus:border-blue-400"
               ></input>
             </div>
             <div className="ml-10 flex">
               <input
-                id="1"
-                name="input1"
+                id="35"
+                name="input35"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  mr-5 ml-1  w-full border-b-2 outline-none focus:border-blue-400"
               ></input>
             </div>
             <div className="ml-10 flex">
               <input
-                id="1"
-                name="input1"
+                id="36"
+                name="input36"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  mr-5 ml-1  w-full border-b-2 outline-none focus:border-blue-400"
               ></input>
             </div>
@@ -449,15 +525,21 @@ export default function ContractDrafterEnEU() {
                 “Property.”) The following items are excluded from the Property
                 sold:
                 <input
-                  id="1"
-                  name="input1"
+                  id="37"
+                  name="input37"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  mr ml-1 w-full border-b-2 outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="38"
+                  name="input38"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  mr ml-1 w-full border-b-2 outline-none focus:border-blue-400"
                 ></input>
               </p>
@@ -468,9 +550,12 @@ export default function ContractDrafterEnEU() {
                 If the SELLER transfers any mineral rights, they are to be
                 transferred without warranty.
                 <input
-                  id="1"
-                  name="input1"
+                  id="39"
+                  name="input39"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  mr ml-1 w-40 border-b-2 outline-none focus:border-blue-400"
                 ></input>{" "}
                 % mineral rights owned by the SELLER are to be reserved by the
@@ -485,16 +570,22 @@ export default function ContractDrafterEnEU() {
                 zoning restrictions, servitudes of record, and 35 law or
                 ordinances affecting the Property for the sum of
                 <input
-                  id="1"
-                  name="input1"
+                  id="40"
+                  name="input40"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  mr ml-1 w-1/2 border-b-2 outline-none focus:border-blue-400"
                 ></input>{" "}
                 Dollars ($
                 <input
-                  id="1"
-                  name="input1"
+                  id="41"
+                  name="input42"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  mr ml-1 w-40 border-b-2 outline-none focus:border-blue-400"
                 ></input>
                 ) (the “Sale Price”).
@@ -507,16 +598,22 @@ export default function ContractDrafterEnEU() {
                 The Act of Sale is to be executed before a settlement agent or
                 Notary Public to be chosen by the BUYER, on
                 <input
-                  id="1"
-                  name="input1"
+                  id="43"
+                  name="input43"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  mr ml-1 w-40 border-b-2 outline-none focus:border-blue-400"
                 ></input>{" "}
                 , 20
                 <input
-                  id="1"
-                  name="input1"
+                  id="44"
+                  name="input44"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  mr ml-1 w-20 border-b-2 outline-none focus:border-blue-400"
                 ></input>
                 , or before if mutually agreed upon. Any change of the date for
@@ -539,15 +636,21 @@ export default function ContractDrafterEnEU() {
                   BUYER’S Initials
                   <div className="flex ">
                     <input
-                      id="1"
-                      name="input1"
+                      id="45"
+                      name="input45"
                       type="text"
+                      onChange={(e) =>
+                        handleChangeV2(e.target.value, e.target.name)
+                      }
                       className="border-gray-400  mr ml-2 w-20 border-b-2 outline-none focus:border-blue-400"
                     ></input>
                     <input
-                      id="1"
-                      name="input1"
+                      id="46"
+                      name="input46"
                       type="text"
+                      onChange={(e) =>
+                        handleChangeV2(e.target.value, e.target.name)
+                      }
                       className="border-gray-400  mr ml-5 w-20 border-b-2 outline-none focus:border-blue-400"
                     ></input>
                   </div>
@@ -558,15 +661,21 @@ export default function ContractDrafterEnEU() {
                   SELLER’S Initials
                   <div className=" flex">
                     <input
-                      id="1"
-                      name="input1"
+                      id="47"
+                      name="input47"
                       type="text"
+                      onChange={(e) =>
+                        handleChangeV2(e.target.value, e.target.name)
+                      }
                       className="border-gray-400  mr ml-2 w-20 border-b-2 outline-none focus:border-blue-400"
                     ></input>
                     <input
-                      id="1"
-                      name="input1"
+                      id="48"
+                      name="input48"
                       type="text"
+                      onChange={(e) =>
+                        handleChangeV2(e.target.value, e.target.name)
+                      }
                       className="border-gray-400  mr ml-5 w-20 border-b-2 outline-none focus:border-blue-400"
                     ></input>
                   </div>
@@ -577,9 +686,12 @@ export default function ContractDrafterEnEU() {
             <div className="mt-40 flex space-x-20 ">
               <div className="mr-1 w-1/2">
                 <input
-                  id="1"
-                  name="input1"
+                  id="49"
+                  name="input49"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  ml-1 mr-1 w-full border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <p className=" ml-5 mt-2 text-center">
@@ -589,9 +701,12 @@ export default function ContractDrafterEnEU() {
 
               <div className="mr-1 w-1/2">
                 <input
-                  id="1"
-                  name="input1"
+                  id="50"
+                  name="input50"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  ml-1 mr-1 w-full border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <p className=" ml-5 mt-2 text-center">Date</p>
@@ -603,9 +718,10 @@ export default function ContractDrafterEnEU() {
             </div>
             <div className="mt-2 flex h-10">
               <input
-                id="1"
-                name="input1"
+                id="51"
+                name="input51"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
               ></input>
               <p className="mt-1">
@@ -615,9 +731,10 @@ export default function ContractDrafterEnEU() {
             </div>
             <div className="mt-2 flex h-10">
               <input
-                id="1"
-                name="input1"
+                id="52"
+                name="input52"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-40 ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
               ></input>
               <p className="mt-1">
@@ -628,9 +745,10 @@ export default function ContractDrafterEnEU() {
             </div>
             <div className="mt-10 flex h-10">
               <input
-                id="1"
-                name="input1"
+                id="53"
+                name="input53"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-40 ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
               ></input>
               <p className="mt-1">
@@ -641,9 +759,10 @@ export default function ContractDrafterEnEU() {
             </div>
             <div className="mt-10 flex h-10 text-justify">
               <input
-                id="1"
-                name="input1"
+                id="54"
+                name="input54"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-40 ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
               ></input>
               <p className="mt-1">
@@ -651,32 +770,44 @@ export default function ContractDrafterEnEU() {
                 conditioned upon the ability of BUYER to borrow with this
                 Property as security for the loan the sum of $
                 <input
-                  id="1"
-                  name="input1"
+                  id="55"
+                  name="input55"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  mr ml-1 w-40 border-b-2 outline-none focus:border-blue-400"
                 ></input>{" "}
                 or{" "}
                 <input
-                  id="1"
-                  name="input1"
+                  id="56"
+                  name="input56"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  mr ml-1 w-20 border-b-2 outline-none focus:border-blue-400"
                 ></input>
                 % of the Sale Price by a mortgage loan or loans at an initial
                 interest rate not to exceed{" "}
                 <input
-                  id="1"
-                  name="input1"
+                  id="57"
+                  name="input57"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  mr ml-1 w-20 border-b-2 outline-none focus:border-blue-400"
                 ></input>
                 % per annum, interest and principal, amortized over a period of
                 not less than{" "}
                 <input
-                  id="1"
-                  name="input1"
+                  id="59"
+                  name="input59"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  mr ml-1 w-20 border-b-2 outline-none focus:border-blue-400"
                 ></input>{" "}
                 years, payable in monthly installments or on any other terms as
@@ -689,36 +820,48 @@ export default function ContractDrafterEnEU() {
               <div className="w-1/2">
                 <div className="mt-2 flex h-10">
                   <input
-                    id="1"
-                    name="input1"
+                    id="60"
+                    name="input60"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                   ></input>
                   <p className="mt-1">Fixed Rate Mortgage</p>
                 </div>
                 <div className="mt-2 flex h-10">
                   <input
-                    id="1"
-                    name="input1"
+                    id="61"
+                    name="input61"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                   ></input>
                   <p className="mt-1">Adjustable Rate Mortgage</p>
                 </div>
                 <div className="mt-2 flex h-10">
                   <input
-                    id="1"
-                    name="input1"
+                    id="62"
+                    name="input62"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                   ></input>
                   <p className="mt-1">Rural Development</p>
                 </div>
                 <div className="mt-2 flex h-10">
                   <input
-                    id="1"
-                    name="input1"
+                    id="63"
+                    name="input63"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                   ></input>
                   <p className="mt-1">VA Guaranteed Mortgage</p>
@@ -727,43 +870,58 @@ export default function ContractDrafterEnEU() {
               <div className="ml-48 w-1/2">
                 <div className="mt-2 flex h-10">
                   <input
-                    id="1"
-                    name="input1"
+                    id="64"
+                    name="input64"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                   ></input>
                   <p className="mt-1">FHA Insured Mortgage</p>
                 </div>
                 <div className="mt-2 flex h-10">
                   <input
-                    id="1"
-                    name="input1"
+                    id="65"
+                    name="input65"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                   ></input>
                   <p className="mt-1">Owner Financing</p>
                 </div>
                 <div className="mt-2 flex h-10">
                   <input
-                    id="1"
-                    name="input1"
+                    id="66"
+                    name="input66"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                   ></input>
                   <p className="mt-1">Bond Financing</p>
                 </div>
                 <div className="mt-2 flex h-10">
                   <input
-                    id="1"
-                    name="input1"
+                    id="67"
+                    name="input68"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                   ></input>
                   <p className="mt-1 flex">Other</p>
                   <input
-                    id="1"
-                    name="input1"
+                    id="69"
+                    name="input69"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  ml-1 w-full border-b-2 outline-none focus:border-blue-400"
                   ></input>
                 </div>
@@ -772,28 +930,32 @@ export default function ContractDrafterEnEU() {
             <p className="mt-10 text-justify">
               The BUYER agrees to pay discount points not to exceed{" "}
               <input
-                id="1"
-                name="input1"
+                id="70"
+                name="input70"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  mr ml-1 w-20 border-b-2 outline-none focus:border-blue-400"
               ></input>
               % of the loan amount. Other financing conditions:
               <input
-                id="1"
-                name="input1"
+                id="71"
+                name="input71"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  mr ml-1 w-full border-b-2 outline-none focus:border-blue-400"
               ></input>
               <input
-                id="1"
-                name="input1"
+                id="72"
+                name="input72"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  mr ml-1 w-full border-b-2 outline-none focus:border-blue-400"
               ></input>
               <input
-                id="1"
-                name="input1"
+                id="73"
+                name="input73"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  mr ml-1 w-full border-b-2 outline-none focus:border-blue-400"
               ></input>
               . The BUYER acknowledges and warrants that the BUYER has available
@@ -803,9 +965,10 @@ export default function ContractDrafterEnEU() {
               BUYER shall supply the SELLER written documentation from a lender
               that a written loan application has been made within (
               <input
-                id="1"
-                name="input1"
+                id="74"
+                name="input74"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  mr ml-1 w-20 border-b-2 outline-none focus:border-blue-400"
               ></input>
               ) calendar days after the date of acceptance of this offer by both
@@ -836,16 +999,18 @@ export default function ContractDrafterEnEU() {
             <p className="mt-10 text-justify">
               <a className="font-black">APPRAISAL:</a> :{" "}
               <input
-                id="1"
-                name="input1"
+                id="75"
+                name="input75"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  ml-1 mr-1 h-5 w-5 border border-b-2 text-center outline-none focus:border-blue-400"
               ></input>{" "}
               This sale is NOT conditioned on appraisal.{" "}
               <input
-                id="1"
-                name="input1"
+                id="76"
+                name="input76"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  ml-1 mr-1 h-5 w-5 border border-b-2 text-center outline-none focus:border-blue-400"
               ></input>{" "}
               This sale IS conditioned on the appraisal of the Property being
@@ -855,31 +1020,35 @@ export default function ContractDrafterEnEU() {
               the appraised value is less than the Sale Price, the BUYER shall
               provide the SELLER with a copy of the appraisal within{" "}
               <input
-                id="1"
-                name="input1"
+                id="77"
+                name="input77"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  mr ml-1 w-40 border-b-2 outline-none focus:border-blue-400"
               ></input>{" "}
               ({" "}
               <input
-                id="1"
-                name="input1"
+                id="78"
+                name="input78"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  mr ml-1 w-20 border-b-2 outline-none focus:border-blue-400"
               ></input>
               ) calendar days of receipt of same, along with the BUYER’S written
               request for the SELLER to reduce the Sale Price. Within{" "}
               <input
-                id="1"
-                name="input1"
+                id="79"
+                name="input79"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  mr ml-1 w-40 border-b-2 outline-none focus:border-blue-400"
               ></input>{" "}
               ({" "}
               <input
-                id="1"
-                name="input1"
+                id="80"
+                name="input80"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  mr ml-1 w-20 border-b-2 outline-none focus:border-blue-400"
               ></input>
               ) calendar days after the SELLER’S receipt of such written
@@ -897,63 +1066,72 @@ export default function ContractDrafterEnEU() {
               notice of acceptance of the offer, the BUYER’S deposit (the
               “Deposit”) in the amount of $
               <input
-                id="1"
-                name="input1"
+                id="81"
+                name="input81"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  mr ml-1 w-20 border-b-2 outline-none focus:border-blue-400"
               ></input>{" "}
               or{" "}
               <input
-                id="1"
-                name="input1"
+                id="82"
+                name="input82"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  mr ml-1 w-20 border-b-2 outline-none focus:border-blue-400"
               ></input>
               % of the Sale Price to be paid in the form of:
               <input
-                id="1"
-                name="input1"
+                id="83"
+                name="input83"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  ml-1 mr-1 h-5 w-5 border border-b-2 text-center outline-none focus:border-blue-400"
               ></input>{" "}
               Cash $
               <input
-                id="1"
-                name="input1"
+                id="84"
+                name="input4"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  mr ml-1 w-20 border-b-2 outline-none focus:border-blue-400"
               ></input>{" "}
               <input
-                id="1"
-                name="input1"
+                id="85"
+                name="input85"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  ml-1 mr-1 h-5 w-5 border border-b-2 text-center outline-none focus:border-blue-400"
               ></input>{" "}
               Promissory Note $
               <input
-                id="1"
-                name="input1"
+                id="86"
+                name="input86"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  mr ml-1 w-40 border-b-2 outline-none focus:border-blue-400"
               ></input>
               <input
-                id="1"
-                name="input1"
+                id="87"
+                name="input87"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  ml-1 mr-1 h-5 w-5 border border-b-2 text-center outline-none focus:border-blue-400"
               ></input>{" "}
               Check $
               <input
-                id="1"
-                name="input1"
+                id="88"
+                name="input88"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  mr ml-1 w-40 border-b-2 outline-none focus:border-blue-400"
               ></input>
               The Deposit shall be held by{" "}
               <input
-                id="1"
-                name="input1"
+                id="89"
+                name="input89"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  mr ml-1 w-full border-b-2 outline-none focus:border-blue-400"
               ></input>
             </p>
@@ -1019,9 +1197,12 @@ export default function ContractDrafterEnEU() {
               construction, or to be constructed, check one:
               <div className="flex">
                 <input
-                  id="1"
-                  name="input1"
+                  id="90"
+                  name="input90"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400 ml-1 mr-1 mt-1  h-5 w-5 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <p>
@@ -1031,9 +1212,12 @@ export default function ContractDrafterEnEU() {
               </div>
               <div className="flex">
                 <input
-                  id="1"
-                  name="input1"
+                  id="91"
+                  name="input91"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400 ml-1 mr-1 mt-1  h-5 w-5 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <p>There is no new home construction addendum.</p>
@@ -1052,9 +1236,10 @@ export default function ContractDrafterEnEU() {
             <p className="mt-10 text-justify">
               The BUYER shall have an inspection and due diligence period of (
               <input
-                id="1"
-                name="input1"
+                id="92"
+                name="input92"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  mr ml-1 w-20 border-b-2 outline-none focus:border-blue-400"
               ></input>
               ) calendar days, commencing the first day after acceptance of this
@@ -1117,24 +1302,31 @@ export default function ContractDrafterEnEU() {
             </p>
             <div className="mt-5 flex h-10">
               <input
-                id="1"
-                name="input1"
+                id="93"
+                name="input93"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
               ></input>
               <p className="mt-1">
                 There is/are{" "}
                 <input
-                  id="1"
-                  name="input1"
+                  id="94"
+                  name="input94"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  mr ml-1 w-40 border-b-2 outline-none focus:border-blue-400"
                 ></input>{" "}
                 (
                 <input
-                  id="1"
-                  name="input1"
+                  id="95"
+                  name="input95"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  mr ml-1 w-20 border-b-2 outline-none focus:border-blue-400"
                 ></input>
                 ) private water system(s) servicing only the primary residence,
@@ -1145,24 +1337,31 @@ export default function ContractDrafterEnEU() {
             </div>
             <div className="mt-10 flex h-10">
               <input
-                id="1"
-                name="input1"
+                id="96"
+                name="input96"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
               ></input>
               <p className="mt-1">
                 There is/are{" "}
                 <input
-                  id="1"
-                  name="input1"
+                  id="97"
+                  name="input97"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400   ml-1 w-40 border-b-2 outline-none focus:border-blue-400"
                 ></input>{" "}
                 (
                 <input
-                  id="1"
-                  name="input1"
+                  id="98"
+                  name="input98"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400   ml-1 w-20 border-b-2 outline-none focus:border-blue-400"
                 ></input>
                 ) private septic/treatment system(s) servicing only the primary
@@ -1173,9 +1372,10 @@ export default function ContractDrafterEnEU() {
             </div>
             <div className="mt-10 flex h-10">
               <input
-                id="1"
-                name="input1"
+                id="99"
+                name="input99"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
               ></input>
               <p className="mt-1">
@@ -1187,45 +1387,51 @@ export default function ContractDrafterEnEU() {
               <a className="font-black">HOME SERVICE/WARRANTY:</a> A home
               service/warranty plan{" "}
               <input
-                id="1"
-                name="input1"
+                id="100"
+                name="input100"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  ml-1 mr-1 h-5 w-5 border border-b-2 text-center outline-none focus:border-blue-400"
               ></input>{" "}
               will /{" "}
               <input
-                id="1"
-                name="input1"
+                id="101"
+                name="input101"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  ml-1 mr-1 h-5 w-5 border border-b-2 text-center outline-none focus:border-blue-400"
               ></input>{" "}
               will not be purchased at the closing of sale at a cost not to
               exceed $
               <input
-                id="1"
-                name="input1"
+                id="102"
+                name="input102"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400   ml-1 w-20 border-b-2 outline-none focus:border-blue-400"
               ></input>{" "}
               to be paid by{" "}
               <input
-                id="1"
-                name="input1"
+                id="103"
+                name="input103"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  ml-1 mr-1 h-5 w-5 border border-b-2 text-center outline-none focus:border-blue-400"
               ></input>{" "}
               the BUYER /{" "}
               <input
-                id="1"
-                name="input1"
+                id="104"
+                name="input105"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  ml-1 mr-1 h-5 w-5 border border-b-2 text-center outline-none focus:border-blue-400"
               ></input>{" "}
               the SELLER. Home Service Warranty will be ordered by
               <input
-                id="1"
-                name="input1"
+                id="106"
+                name="input106"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400   ml-1 w-80 border-b-2 outline-none focus:border-blue-400"
               ></input>
               .
@@ -1249,9 +1455,12 @@ export default function ContractDrafterEnEU() {
               (CHECK ONE ONLY)
               <div className="mt-10 flex h-10">
                 <input
-                  id="1"
-                  name="input1"
+                  id="107"
+                  name="input107"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <p className="mt-1">
@@ -1264,9 +1473,12 @@ export default function ContractDrafterEnEU() {
               </div>
               <div className="mt-20 flex h-10">
                 <input
-                  id="1"
-                  name="input1"
+                  id="108"
+                  name="input108"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <p className="mt-1">
@@ -1286,9 +1498,12 @@ export default function ContractDrafterEnEU() {
               </div>
               <div className="mt-40 flex h-10">
                 <input
-                  id="1"
-                  name="input1"
+                  id="109"
+                  name="input109"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <p className="mt-1">
@@ -1312,16 +1527,18 @@ export default function ContractDrafterEnEU() {
               Agreement is conditioned, the parties agree to and do extend the
               date for passing the Act of Sale to a date not more than
               <input
-                id="1"
-                name="input1"
+                id="110"
+                name="input110"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400   ml-1 w-40 border-b-2 outline-none focus:border-blue-400"
               ></input>{" "}
               ({" "}
               <input
-                id="1"
-                name="input1"
+                id="111"
+                name="input111"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400   ml-1 w-20 border-b-2 outline-none focus:border-blue-400"
               ></input>
               ) calendar days from the date of the Act of Sale stated herein.
@@ -1429,49 +1646,55 @@ export default function ContractDrafterEnEU() {
             </div>
             <div className="ml-10 flex">
               <input
-                id="1"
-                name="input1"
+                id="112"
+                name="input112"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  mr-5 ml-1  w-full border-b-2 outline-none focus:border-blue-400"
               ></input>
             </div>
             <div className="ml-10 flex">
               <input
-                id="1"
-                name="input1"
+                id="113"
+                name="input113"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  mr-5 ml-1  w-full border-b-2 outline-none focus:border-blue-400"
               ></input>
             </div>
             <div className="ml-10 flex">
               <input
-                id="1"
-                name="input1"
+                id="114"
+                name="input114"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  mr-5 ml-1  w-full border-b-2 outline-none focus:border-blue-400"
               ></input>
             </div>
             <div className="ml-10 flex">
               <input
-                id="1"
-                name="input1"
+                id="115"
+                name="input115"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  mr-5 ml-1  w-full border-b-2 outline-none focus:border-blue-400"
               ></input>
             </div>
             <div className="ml-10 flex">
               <input
-                id="1"
-                name="input1"
+                id="116"
+                name="input116"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  mr-5 ml-1  w-full border-b-2 outline-none focus:border-blue-400"
               ></input>
             </div>
             <div className="ml-10 flex">
               <input
-                id="1"
-                name="input1"
+                id="117"
+                name="input117"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  mr-5 ml-1  w-full border-b-2 outline-none focus:border-blue-400"
               ></input>
             </div>
@@ -1517,9 +1740,12 @@ export default function ContractDrafterEnEU() {
               <div className="w-1/2">
                 <div className="mt-5 flex h-10">
                   <input
-                    id="1"
-                    name="input1"
+                    id="118"
+                    name="input118"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                   ></input>
                   <p className="mt-1">
@@ -1528,27 +1754,36 @@ export default function ContractDrafterEnEU() {
                 </div>
                 <div className="mt-5 flex h-10">
                   <input
-                    id="1"
-                    name="input1"
+                    id="119"
+                    name="input119"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                   ></input>
                   <p className="mt-1">Condominium Addendum</p>
                 </div>
                 <div className="mt-5 flex h-10">
                   <input
-                    id="1"
-                    name="input1"
+                    id="120"
+                    name="input120"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                   ></input>
                   <p className="mt-1">FHA Amendatory Clause</p>
                 </div>
                 <div className="mt-5 flex h-10">
                   <input
-                    id="1"
-                    name="input1"
+                    id="121"
+                    name="input121"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                   ></input>
                   <p className="mt-1">New Construction Addendum</p>
@@ -1557,52 +1792,73 @@ export default function ContractDrafterEnEU() {
               <div className="w-1/2">
                 <div className="mt-5 flex h-10">
                   <input
-                    id="1"
-                    name="input1"
+                    id="122"
+                    name="input122"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                   ></input>
                   <p className="mt-1">Private Water/Sewerage Addendum</p>
                 </div>
                 <div className="mt-5 flex h-10">
                   <input
-                    id="1"
-                    name="input1"
+                    id="123"
+                    name="input123"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                   ></input>
                   <input
-                    id="1"
-                    name="input1"
+                    id="124"
+                    name="input124"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  mr-5 ml-1  w-full border-b-2 outline-none focus:border-blue-400"
                   ></input>
                 </div>
                 <div className="mt-5 flex h-10">
                   <input
-                    id="1"
-                    name="input1"
+                    id="125"
+                    name="input125"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                   ></input>
                   <input
-                    id="1"
-                    name="input1"
+                    id="126"
+                    name="input126"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  mr-5 ml-1  w-full border-b-2 outline-none focus:border-blue-400"
                   ></input>
                 </div>
                 <div className="mt-5 flex h-10">
                   <input
-                    id="1"
-                    name="input1"
+                    id="127"
+                    name="input127"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                   ></input>
                   <input
-                    id="1"
-                    name="input1"
+                    id="128"
+                    name="input128"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  mr-5 ml-1  w-full border-b-2 outline-none focus:border-blue-400"
                   ></input>
                 </div>
@@ -1645,27 +1901,32 @@ export default function ContractDrafterEnEU() {
             </p>
             <div className="mt-10 flex h-10">
               <input
-                id="1"
-                name="input1"
+                id="130"
+                name="input130"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
               ></input>
               <p className="mt-1">
                 The BUYER further authorizes notices and other communications to
                 be delivered electronically to the following Agent address(es):
                 <input
-                  id="1"
-                  name="input1"
+                  id="131"
+                  name="input131"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  mr-5 ml-1  w-full border-b-2 outline-none focus:border-blue-400"
                 ></input>
               </p>
             </div>
             <div className="mt-10 flex h-10">
               <input
-                id="1"
-                name="input1"
+                id="132"
+                name="input132"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
               ></input>
               <p className="mt-1">
@@ -1673,9 +1934,12 @@ export default function ContractDrafterEnEU() {
                 to be delivered electronically to the following Agent
                 address(es):
                 <input
-                  id="1"
-                  name="input1"
+                  id="133"
+                  name="input133"
                   type="text"
+                  onChange={(e) =>
+                    handleChangeV2(e.target.value, e.target.name)
+                  }
                   className="border-gray-400  mr-5 ml-1  w-full border-b-2 outline-none focus:border-blue-400"
                 ></input>
               </p>
@@ -1699,23 +1963,26 @@ export default function ContractDrafterEnEU() {
             <p className="mt-10 text-justify">
               This offer is binding and irrevocable until{" "}
               <input
-                id="1"
-                name="input1"
+                id="134"
+                name="input134"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  mr-5 ml-1  w-40 border-b-2 outline-none focus:border-blue-400"
               ></input>
               , 20{" "}
               <input
-                id="1"
-                name="input1"
+                id="135"
+                name="input135"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  mr-5 ml-1  w-20 border-b-2 outline-none focus:border-blue-400"
               ></input>{" "}
               at{" "}
               <input
-                id="1"
-                name="input1"
+                id="136"
+                name="input136"
                 type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  mr-5 ml-1  w-20 border-b-2 outline-none focus:border-blue-400"
               ></input>{" "}
               AM/PM/MIDNIGHT/NOON. The Acceptance of this offer must be
@@ -1729,18 +1996,24 @@ export default function ContractDrafterEnEU() {
                 <div className="flex w-1/2">
                   <div className="mt-2 flex h-10 ">
                     <input
-                      id="1"
-                      name="input1"
+                      id="137"
+                      name="input137"
                       type="text"
+                      onChange={(e) =>
+                        handleChangeV2(e.target.value, e.target.name)
+                      }
                       className="border-gray-400  ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                     ></input>
                     <p>Buyer’s</p>
                   </div>
                   <div className="mt-2 ml-2 flex h-10 ">
                     <input
-                      id="1"
-                      name="input1"
+                      id="138"
+                      name="input138"
                       type="text"
+                      onChange={(e) =>
+                        handleChangeV2(e.target.value, e.target.name)
+                      }
                       className="border-gray-400  ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                     ></input>
                     <p>Seller’s.Signature</p>
@@ -1753,18 +2026,24 @@ export default function ContractDrafterEnEU() {
                 <div className="flex w-1/2">
                   <div className="mt-2 flex h-10 ">
                     <input
-                      id="1"
-                      name="input1"
+                      id="139"
+                      name="input140"
                       type="text"
+                      onChange={(e) =>
+                        handleChangeV2(e.target.value, e.target.name)
+                      }
                       className="border-gray-400  ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                     ></input>
                     <p>Buyer’s</p>
                   </div>
                   <div className="mt-2 ml-2 flex h-10 ">
                     <input
-                      id="1"
-                      name="input1"
+                      id="141"
+                      name="input141"
                       type="text"
+                      onChange={(e) =>
+                        handleChangeV2(e.target.value, e.target.name)
+                      }
                       className="border-gray-400  ml-1 mr-1 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                     ></input>
                     <p>Seller’s.Signature</p>
@@ -1777,63 +2056,84 @@ export default function ContractDrafterEnEU() {
               <div className="w-1/2">
                 <div className="mt-2">
                   <input
-                    id="1"
-                    name="input1"
+                    id="142"
+                    name="input142"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  mr-5 ml-1  w-full border-b-2 outline-none focus:border-blue-400"
                   ></input>
                   <p>Print Buyer’s/Seller’s Full Name (First, Middle, Last)</p>
                 </div>
                 <div className="mt-1">
                   <input
-                    id="1"
-                    name="input1"
+                    id="143"
+                    name="input143"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  mr-5 ml-1  w-full border-b-2 outline-none focus:border-blue-400"
                   ></input>
                   <p>Street Address</p>
                 </div>
                 <div className="mt-1">
                   <input
-                    id="1"
-                    name="input1"
+                    id="144"
+                    name="input144"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  mr-5 ml-1  w-full border-b-2 outline-none focus:border-blue-400"
                   ></input>
                   <p>City, State, Zip</p>
                 </div>
                 <div className="mt-1">
                   <input
-                    id="1"
-                    name="input1"
+                    id="145"
+                    name="input145"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  mr-5 ml-1  w-full border-b-2 outline-none focus:border-blue-400"
                   ></input>
                   <p>Telephone Number.Cell</p>
                 </div>
                 <div className="mt-1">
                   <input
-                    id="1"
-                    name="input1"
+                    id="146"
+                    name="input146"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  mr-5 ml-1  w-full border-b-2 outline-none focus:border-blue-400"
                   ></input>
                   <p>Telephone Number. home / Telephone Number.Work</p>
                 </div>
                 <div className="mt-1">
                   <input
-                    id="1"
-                    name="input1"
+                    id="147"
+                    name="input147"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  mr-5 ml-1  w-full border-b-2 outline-none focus:border-blue-400"
                   ></input>
                   <p>E-Mail Address</p>
                 </div>
                 <div className="mt-1">
                   <input
-                    id="1"
-                    name="input1"
+                    id="148"
+                    name="input148"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  mr-5 ml-1  w-full border-b-2 outline-none focus:border-blue-400"
                   ></input>
                   <p>This counter offer was presented to the Seller/Buyer by</p>
@@ -1843,63 +2143,84 @@ export default function ContractDrafterEnEU() {
               <div className="w-1/2">
                 <div className="mt-2">
                   <input
-                    id="1"
-                    name="input1"
+                    id="149"
+                    name="input149"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  mr-5 ml-1  w-full border-b-2 outline-none focus:border-blue-400"
                   ></input>
                   <p>Print Buyer’s/Seller’s Full Name (First, Middle, Last)</p>
                 </div>
                 <div className="mt-1">
                   <input
-                    id="1"
-                    name="input1"
+                    id="150"
+                    name="input150"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  mr-5 ml-1  w-full border-b-2 outline-none focus:border-blue-400"
                   ></input>
                   <p>Street Address</p>
                 </div>
                 <div className="mt-1">
                   <input
-                    id="1"
-                    name="input1"
+                    id="151"
+                    name="input151"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  mr-5 ml-1  w-full border-b-2 outline-none focus:border-blue-400"
                   ></input>
                   <p>City, State, Zip</p>
                 </div>
                 <div className="mt-1">
                   <input
-                    id="1"
-                    name="input1"
+                    id="152"
+                    name="input152"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  mr-5 ml-1  w-full border-b-2 outline-none focus:border-blue-400"
                   ></input>
                   <p>Telephone Number.Cell</p>
                 </div>
                 <div className="mt-1">
                   <input
-                    id="1"
-                    name="input1"
+                    id="153"
+                    name="input153"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  mr-5 ml-1  w-full border-b-2 outline-none focus:border-blue-400"
                   ></input>
                   <p>Telephone Number. home / Telephone Number.Work</p>
                 </div>
                 <div className="mt-1">
                   <input
-                    id="1"
-                    name="input1"
+                    id="154"
+                    name="input154"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  mr-5 ml-1  w-full border-b-2 outline-none focus:border-blue-400"
                   ></input>
                   <p>E-Mail Address</p>
                 </div>
                 <div className="mt-1">
                   <input
-                    id="1"
-                    name="input1"
+                    id="155"
+                    name="input155"
                     type="text"
+                    onChange={(e) =>
+                      handleChangeV2(e.target.value, e.target.name)
+                    }
                     className="border-gray-400  mr-5 ml-1  w-full border-b-2 outline-none focus:border-blue-400"
                   ></input>
                   <p>Day/ Date/ Time AM/PM MIDNIGHT/NOON</p>
@@ -1909,16 +2230,16 @@ export default function ContractDrafterEnEU() {
           </div>
         </div>
 
-        <div className="mt-204 flex">
+        <div className=" ml-20 mr-20 mb-20 flex">
           <button
-            className="mr-auto  mb-5 ml-5 flex flex rounded bg-gradient-to-r from-gradient-for-footer to-gradient-to py-2 px-4 font-bold text-white"
+            className="mr-auto  mb-5 ml-32 flex flex rounded bg-gradient-to-r from-gradient-for-footer to-gradient-to py-2 px-4 font-bold text-white"
             type="submit"
             name="TXT"
           >
             Descargar TXT
           </button>
           <button
-            className="ml-auto  mb-5 mr-5 flex flex rounded bg-gradient-to-r from-gradient-for-footer to-gradient-to py-2 px-4 font-bold text-white"
+            className="ml-auto  mb-5 mr-32 flex flex rounded bg-gradient-to-r from-gradient-for-footer to-gradient-to py-2 px-4 font-bold text-white"
             type="submit"
             name="Word"
           >

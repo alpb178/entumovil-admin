@@ -1,19 +1,9 @@
 import TopImage from "@/component/topImage";
+import { stateForm } from "@/lib/drafter";
 import { saveTXT, saveWord } from "@/lib/utils";
 import { useState } from "react";
 export default function ContractDrafterIR() {
-  const [json, setJson] = useState({
-    input1: "",
-    input2: "",
-    input3: "",
-    input4: "",
-    input5: "",
-    input6: "",
-    input7: "",
-    input8: "",
-    input9: "",
-    input10: "",
-  });
+  const [json, setJson] = useState(stateForm);
   const handleChangeV2 = (value, field) => {
     const newState = { ...json, [field]: value };
     setJson(newState);
@@ -32,19 +22,11 @@ export default function ContractDrafterIR() {
           event.preventDefault();
           const buttonName = e.nativeEvent.submitter.name;
           if (buttonName === "Word") {
-            saveWord(
-              "LOUISIANA RESIDENTIAL AGREEMENT TO BUY OR SELL",
-              "content",
-              json
-            ),
+            saveWord("IRLANDA", "content", json),
               document.getElementById("myform").reset();
           }
           if (buttonName === "TXT") {
-            saveTXT(
-              "LOUISIANA RESIDENTIAL AGREEMENT TO BUY OR SELL",
-              "content",
-              json
-            ),
+            saveTXT("IRLANDA", "content", json),
               document.getElementById("myform").reset();
           }
         }}
@@ -60,9 +42,9 @@ export default function ContractDrafterIR() {
           <div className="mt-40">PARTICULARS and CONDITIONS OF SALE of</div>
           <input
             id="1"
-            name="input2"
-            onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
+            name="input1"
             type="text"
+            onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
             className="border-gray-400 mt-5 ml-1 mr-1 w-full border-b-2 outline-none focus:border-blue-400"
           ></input>
           <div className="mt-20 font-black">*SALE BY PRIVATE TREATY</div>
@@ -70,7 +52,7 @@ export default function ContractDrafterIR() {
           <div className="flex">
             <p className="mt-10">to be held at:</p>
             <input
-              id="1"
+              id="2"
               name="input2"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
@@ -80,32 +62,32 @@ export default function ContractDrafterIR() {
           <p>
             on the{" "}
             <input
-              id="1"
-              name="input2"
+              id="3"
+              name="input3"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400 mt-5 ml-1 mr-1 w-20 border-b-2 outline-none focus:border-blue-400"
             ></input>{" "}
             day of{" "}
             <input
-              id="1"
-              name="input2"
+              id="4"
+              name="input4"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400 mt-5 ml-1 mr-1 w-40 border-b-2 outline-none focus:border-blue-400"
             ></input>{" "}
             , 20{" "}
             <input
-              id="1"
-              name="input2"
+              id="5"
+              name="input5"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400 mt-5 ml-1 mr-1 w-20 border-b-2 outline-none focus:border-blue-400"
             ></input>{" "}
             at{" "}
             <input
-              id="1"
-              name="input2"
+              id="6"
+              name="input6"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400 mt-5 ml-1 mr-1 w-20 border-b-2 outline-none focus:border-blue-400"
@@ -115,8 +97,8 @@ export default function ContractDrafterIR() {
           <div className="mt-5 mr-0 flex w-full">
             <p className=" mt-2 font-black">*AUCTIONEER:</p>
             <input
-              id="1"
-              name="input1"
+              id="7"
+              name="input7"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400  ml-1 mr-1  w-full border-b-2 outline-none focus:border-blue-400"
@@ -125,8 +107,8 @@ export default function ContractDrafterIR() {
           <div className="mt-5 mr-0 flex w-full">
             <p className=" mt-2 font-black">*ADDRESS:</p>
             <input
-              id="1"
-              name="input1"
+              id="8"
+              name="input8"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400  ml-1 mr-1  w-full border-b-2 outline-none focus:border-blue-400"
@@ -135,8 +117,8 @@ export default function ContractDrafterIR() {
           <div className="mt-40 mr-0 flex w-full">
             <p className=" mt-2 font-black">VENDOR:</p>
             <input
-              id="1"
-              name="input1"
+              id="9"
+              name="input9"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400  ml-1 mr-1  w-full border-b-2 outline-none focus:border-blue-400"
@@ -145,8 +127,8 @@ export default function ContractDrafterIR() {
           <div className="mt-5 mr-0 flex w-full">
             <p className=" mt-2 font-black">VENDOR’S SOLICITOR:</p>
             <input
-              id="1"
-              name="input1"
+              id="10"
+              name="input10"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400  ml-1 mr-1  w-full border-b-2 outline-none focus:border-blue-400"
@@ -155,8 +137,8 @@ export default function ContractDrafterIR() {
           <div className="mt-5 mr-0 flex w-full">
             <p className=" mt-2 font-black">ADDRESS:</p>
             <input
-              id="1"
-              name="input1"
+              id="11"
+              name="input11"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400  ml-1 mr-1  w-full border-b-2 outline-none focus:border-blue-400"
@@ -165,8 +147,8 @@ export default function ContractDrafterIR() {
           <div className="mt-5 mr-0 flex w-full">
             <p className=" mt-2 font-black">REFERENCE:</p>
             <input
-              id="1"
-              name="input1"
+              id="12"
+              name="input12"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400  ml-1 mr-1  w-full border-b-2 outline-none focus:border-blue-400"
@@ -176,8 +158,8 @@ export default function ContractDrafterIR() {
           <p className="mt-10">
             I,{" "}
             <input
-              id="1"
-              name="input1"
+              id="13"
+              name="input13"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400  ml-1 mr-1  w-40 border-b-2 outline-none focus:border-blue-400"
@@ -201,40 +183,40 @@ export default function ContractDrafterIR() {
           <p className="mt-10">
             MEMORANDUM OF AGREEMENT made this{" "}
             <input
-              id="1"
-              name="input2"
+              id="7"
+              name="input7"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400 mt-5 ml-1 mr-1 w-20 border-b-2 outline-none focus:border-blue-400"
             ></input>{" "}
             day of{" "}
             <input
-              id="1"
-              name="input2"
+              id="8"
+              name="input8"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400 mt-5 ml-1 mr-1 w-20 border-b-2 outline-none focus:border-blue-400"
             ></input>{" "}
             20
             <input
-              id="1"
-              name="input2"
+              id="8"
+              name="input8"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400 mt-5 ml-1 mr-1 w-20 border-b-2 outline-none focus:border-blue-400"
             ></input>{" "}
             Between{" "}
             <input
-              id="1"
-              name="input2"
+              id="9"
+              name="input9"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400 mt-5 ml-1 mr-1 w-80 border-b-2 outline-none focus:border-blue-400"
             ></input>{" "}
             of{" "}
             <input
-              id="1"
-              name="input2"
+              id="10"
+              name="input10"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400 mt-5 ml-1 mr-1 w-80 border-b-2 outline-none focus:border-blue-400"
@@ -245,8 +227,8 @@ export default function ContractDrafterIR() {
               <div className="mt-10 flex">
                 <p className="w-28">Tax number:</p>
                 <input
-                  id="1"
-                  name="input1"
+                  id="14"
+                  name="input14"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -254,8 +236,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400  ml-5 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="15"
+                  name="input15"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -263,8 +245,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400   h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="16"
+                  name="input16"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -272,8 +254,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400   h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="17"
+                  name="input17"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -281,8 +263,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400   h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="18"
+                  name="input18"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -290,8 +272,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400   h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="19"
+                  name="input19"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -299,8 +281,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400   h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="20"
+                  name="input20"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -308,8 +290,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400   h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="21"
+                  name="input21"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -317,8 +299,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400   h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="22"
+                  name="input22"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -329,8 +311,8 @@ export default function ContractDrafterIR() {
               <div className="mt-2 flex">
                 <p className=" mt-2 w-28">Tax type</p>
                 <input
-                  id="1"
-                  name="input1"
+                  id="23"
+                  name="input23"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -343,8 +325,8 @@ export default function ContractDrafterIR() {
               <div className="mt-10 flex">
                 <p className="w-28">Tax number:</p>
                 <input
-                  id="1"
-                  name="input1"
+                  id="24"
+                  name="input24"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -352,8 +334,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400  ml-5 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="25"
+                  name="input25"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -361,8 +343,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400   h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="26"
+                  name="input26"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -370,8 +352,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400   h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="27"
+                  name="input27"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -379,8 +361,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400   h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="28"
+                  name="input28"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -388,8 +370,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400   h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="29"
+                  name="input29"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -397,8 +379,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400   h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="30"
+                  name="input30"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -406,8 +388,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400   h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="31"
+                  name="input31"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -415,8 +397,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400   h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="32"
+                  name="input32"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -427,8 +409,8 @@ export default function ContractDrafterIR() {
               <div className="mt-2 flex">
                 <p className=" mt-2 w-28">Tax type</p>
                 <input
-                  id="1"
-                  name="input1"
+                  id="33"
+                  name="input33"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -445,8 +427,8 @@ export default function ContractDrafterIR() {
               Nominated Email Address of Vendor’s solicitor
             </p>
             <input
-              id="1"
-              name="input1"
+              id="34"
+              name="input34"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400  ml-1 mr-80  w-1/2 border-b-2 outline-none focus:border-blue-400"
@@ -455,8 +437,8 @@ export default function ContractDrafterIR() {
           <div className="mt-10 flex">
             <p className="mt-2 flex">And</p>
             <input
-              id="1"
-              name="input1"
+              id="35"
+              name="input35"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400  ml-1 mr-80  w-full border-b-2 outline-none focus:border-blue-400"
@@ -465,8 +447,8 @@ export default function ContractDrafterIR() {
           <div className="mt-2 flex">
             <p className="mt-2 flex">of</p>
             <input
-              id="1"
-              name="input1"
+              id="36"
+              name="input36"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400  ml-1 mr-80  w-full border-b-2 outline-none focus:border-blue-400"
@@ -477,8 +459,8 @@ export default function ContractDrafterIR() {
               <div className="mt-10 flex">
                 <p className="w-28">Tax number:</p>
                 <input
-                  id="1"
-                  name="input1"
+                  id="37"
+                  name="input38"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -486,8 +468,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400  ml-5 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="39"
+                  name="input39"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -495,8 +477,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400   h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="40"
+                  name="input40"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -504,8 +486,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400   h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="41"
+                  name="input41"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -513,8 +495,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400   h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="42"
+                  name="input42"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -522,8 +504,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400   h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="43"
+                  name="input43"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -531,8 +513,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400   h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="44"
+                  name="input44"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -540,8 +522,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400   h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="45"
+                  name="input45"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -549,8 +531,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400   h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="46"
+                  name="input46"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -561,8 +543,8 @@ export default function ContractDrafterIR() {
               <div className="mt-2 flex">
                 <p className=" mt-2 w-28">Tax type</p>
                 <input
-                  id="1"
-                  name="input1"
+                  id="47"
+                  name="input48"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -575,8 +557,8 @@ export default function ContractDrafterIR() {
               <div className="mt-10 flex">
                 <p className="w-28">Tax number:</p>
                 <input
-                  id="1"
-                  name="input1"
+                  id="49"
+                  name="input49"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -584,8 +566,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400  ml-5 h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="50"
+                  name="input50"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -593,8 +575,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400   h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="51"
+                  name="input51"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -602,8 +584,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400   h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="52"
+                  name="input52"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -611,8 +593,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400   h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="53"
+                  name="input53"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -620,8 +602,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400   h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="54"
+                  name="input54"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -629,8 +611,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400   h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="55"
+                  name="input55"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -638,8 +620,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400   h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="56"
+                  name="input56"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -647,8 +629,8 @@ export default function ContractDrafterIR() {
                   className="border-gray-400   h-8 w-8 border border-b-2 text-center outline-none focus:border-blue-400"
                 ></input>
                 <input
-                  id="1"
-                  name="input1"
+                  id="57"
+                  name="input57"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -659,8 +641,8 @@ export default function ContractDrafterIR() {
               <div className="mt-2 flex">
                 <p className=" mt-2 w-28">Tax type</p>
                 <input
-                  id="1"
-                  name="input1"
+                  id="58"
+                  name="input58"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -675,8 +657,8 @@ export default function ContractDrafterIR() {
             <p className="mt-2 flex">
               Nominated Email Address of Purchaser’s solicitor{" "}
               <input
-                id="1"
-                name="input1"
+                id="59"
+                name="input59"
                 onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 type="text"
                 className="border-gray-400  ml-1 mr-80  w-80 border-b-2 outline-none focus:border-blue-400"
@@ -694,8 +676,8 @@ export default function ContractDrafterIR() {
               <div className="mt-10 mr-0 flex">
                 <p className=" mt-2 w-40 font-black">Purchase Price €</p>
                 <input
-                  id="1"
-                  name="input1"
+                  id="60"
+                  name="input61"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -706,8 +688,8 @@ export default function ContractDrafterIR() {
               <div className="mt-10 mr-0 flex w-full">
                 <p className=" mt-2 w-48 font-black">less deposit €</p>
                 <input
-                  id="1"
-                  name="input1"
+                  id="62"
+                  name="input62"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -718,8 +700,8 @@ export default function ContractDrafterIR() {
               <div className="mt-10 mr-0 flex w-full">
                 <p className=" mt-2 w-40 font-black">Balance €</p>
                 <input
-                  id="1"
-                  name="input1"
+                  id="63"
+                  name="input63"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -735,8 +717,8 @@ export default function ContractDrafterIR() {
               <div className="mt-10 mr-0 flex w-full">
                 <p className=" mt-2 font-black ">Witness</p>
                 <input
-                  id="1"
-                  name="input1"
+                  id="64"
+                  name="input65"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -747,8 +729,8 @@ export default function ContractDrafterIR() {
               <div className="mt-10 mr-0 flex w-full">
                 <p className=" mt-2 font-black">Occupation</p>
                 <input
-                  id="1"
-                  name="input1"
+                  id="66"
+                  name="input66"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -759,8 +741,8 @@ export default function ContractDrafterIR() {
               <div className="mt-10 mr-0 flex w-full">
                 <p className=" mt-2 font-black">Address</p>
                 <input
-                  id="1"
-                  name="input1"
+                  id="67"
+                  name="input67"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -773,8 +755,8 @@ export default function ContractDrafterIR() {
               <div className="mt-10 mr-0 flex">
                 <p className=" mt-2 w-40 font-black">Closing Date:</p>
                 <input
-                  id="1"
-                  name="input1"
+                  id="68"
+                  name="input68"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -785,8 +767,8 @@ export default function ContractDrafterIR() {
               <div className="mt-10 mr-0 flex w-full">
                 <p className=" mt-2 font-black">Interest Rate:</p>
                 <input
-                  id="1"
-                  name="input1"
+                  id="69"
+                  name="input69"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -803,8 +785,8 @@ export default function ContractDrafterIR() {
               <div className="mt-10 mr-0 flex w-full">
                 <p className=" mt-2 font-black ">Witness</p>
                 <input
-                  id="1"
-                  name="input1"
+                  id="71"
+                  name="input71"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -815,8 +797,8 @@ export default function ContractDrafterIR() {
               <div className="mt-10 mr-0 flex w-full">
                 <p className=" mt-2 font-black">Occupation</p>
                 <input
-                  id="1"
-                  name="input1"
+                  id="72"
+                  name="input72"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -827,8 +809,8 @@ export default function ContractDrafterIR() {
               <div className="mt-10 mr-0 flex w-full">
                 <p className=" mt-2 font-black">Address</p>
                 <input
-                  id="1"
-                  name="input1"
+                  id="73"
+                  name="input73"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
                   }
@@ -841,8 +823,8 @@ export default function ContractDrafterIR() {
           <p className=" mt-10">
             As stakeholder I/we acknowledge receipt of bank draft/cheque for €
             <input
-              id="1"
-              name="input1"
+              id="74"
+              name="input74"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400  ml-1 mr-1  w-40 border-b-2 outline-none focus:border-blue-400"
@@ -859,22 +841,22 @@ export default function ContractDrafterIR() {
           <div className="mt-2 mr-0 w-full">
             <p className=" mt-10">All That</p>
             <input
-              id="1"
-              name="input1"
+              id="75"
+              name="input75"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400  ml-1 mr-1  w-full border-b-2 outline-none focus:border-blue-400"
             ></input>
             <input
-              id="1"
-              name="input1"
+              id="76"
+              name="input76"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400  ml-1 mr-1  w-full border-b-2 outline-none focus:border-blue-400"
             ></input>
             <input
-              id="1"
-              name="input1"
+              id="77"
+              name="input77"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400  ml-1 mr-1  w-full border-b-2 outline-none focus:border-blue-400"
@@ -883,22 +865,22 @@ export default function ContractDrafterIR() {
           <div className="mt-2 mr-0 w-full">
             <p className=" mt-10">Held</p>
             <input
-              id="1"
-              name="input1"
+              id="78"
+              name="input78"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400  ml-1 mr-1  w-full border-b-2 outline-none focus:border-blue-400"
             ></input>
             <input
-              id="1"
-              name="input1"
+              id="79"
+              name="input79"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400  ml-1 mr-1  w-full border-b-2 outline-none focus:border-blue-400"
             ></input>
             <input
-              id="1"
-              name="input1"
+              id="80"
+              name="input80"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400  ml-1 mr-1  w-full border-b-2 outline-none focus:border-blue-400"
@@ -909,8 +891,8 @@ export default function ContractDrafterIR() {
               Local Property Tax (LPT) property ID number (where applicable)
             </p>
             <input
-              id="1"
-              name="input1"
+              id="81"
+              name="input81"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400  ml-1 mr-1  w-full border-b-2 outline-none focus:border-blue-400"
@@ -919,22 +901,22 @@ export default function ContractDrafterIR() {
           <div className="mt-10 mr-0 w-full">
             <p className=" mt-10">DOCUMENTS SCHEDULE</p>
             <input
-              id="1"
-              name="input1"
+              id="82"
+              name="input82"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400  ml-1 mr-1  w-full border-b-2 outline-none focus:border-blue-400"
             ></input>
             <input
-              id="1"
-              name="input1"
+              id="83"
+              name="input83"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400  ml-1 mr-1  w-full border-b-2 outline-none focus:border-blue-400"
             ></input>
             <input
-              id="1"
-              name="input1"
+              id="84"
+              name="input85"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400  ml-1 mr-1  w-full border-b-2 outline-none focus:border-blue-400"
@@ -945,16 +927,16 @@ export default function ContractDrafterIR() {
             1. Official Search in the Registry of Deeds on the Index of Names
             only for all acts affecting the{" "}
             <input
-              id="1"
-              name="input1"
+              id="86"
+              name="input86"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400  ml-1 mr-1  w-40 border-b-2 outline-none focus:border-blue-400"
             ></input>{" "}
             Subject Property by the Vendor from the day of{" "}
             <input
-              id="1"
-              name="input1"
+              id="87"
+              name="input87"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400  ml-1 mr-1  w-80 border-b-2 outline-none focus:border-blue-400"
@@ -964,22 +946,22 @@ export default function ContractDrafterIR() {
           <div className="mt-10 mr-0 w-full">
             <p className=" mt-10">and</p>
             <input
-              id="1"
-              name="input1"
+              id="88"
+              name="input88"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400  ml-1 mr-1  w-full border-b-2 outline-none focus:border-blue-400"
             ></input>
             <input
-              id="1"
-              name="input1"
+              id="89"
+              name="input89"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400  ml-1 mr-1  w-full border-b-2 outline-none focus:border-blue-400"
             ></input>
             <input
-              id="1"
-              name="input1"
+              id="90"
+              name="input90"
               onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
               type="text"
               className="border-gray-400  ml-1 mr-1  w-full border-b-2 outline-none focus:border-blue-400"
@@ -1013,36 +995,36 @@ export default function ContractDrafterIR() {
             </p>
             <div className="mt-1 mr-0 w-full">
               <input
-                id="1"
-                name="input1"
+                id="91"
+                name="input91"
                 onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 type="text"
                 className="border-gray-400  ml-1 mr-1  w-full border-b-2 outline-none focus:border-blue-400"
               ></input>
               <input
-                id="1"
-                name="input1"
+                id="92"
+                name="input92"
                 onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 type="text"
                 className="border-gray-400  ml-1 mr-1  w-full border-b-2 outline-none focus:border-blue-400"
               ></input>
               <input
-                id="1"
-                name="input1"
+                id="93"
+                name="input93"
                 onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 type="text"
                 className="border-gray-400  ml-1 mr-1  w-full border-b-2 outline-none focus:border-blue-400"
               ></input>
               <input
-                id="1"
-                name="input1"
+                id="94"
+                name="input94"
                 onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 type="text"
                 className="border-gray-400  ml-1 mr-1  w-full border-b-2 outline-none focus:border-blue-400"
               ></input>
               <input
-                id="1"
-                name="input1"
+                id="95"
+                name="input95"
                 onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 type="text"
                 className="border-gray-400  ml-1 mr-1  w-full border-b-2 outline-none focus:border-blue-400"
@@ -1433,16 +1415,16 @@ export default function ContractDrafterIR() {
           </div>
         </div>
 
-        <div className="mt-204 flex">
+        <div className=" flex">
           <button
-            className="mr-auto  mb-5 ml-5 flex flex rounded bg-gradient-to-r from-gradient-for-footer to-gradient-to py-2 px-4 font-bold text-white"
+            className="mr-auto  mb-5 ml-32 flex flex rounded bg-gradient-to-r from-gradient-for-footer to-gradient-to py-2 px-4 font-bold text-white"
             type="submit"
             name="TXT"
           >
             Descargar TXT
           </button>
           <button
-            className="ml-auto  mb-5 mr-5 flex flex rounded bg-gradient-to-r from-gradient-for-footer to-gradient-to py-2 px-4 font-bold text-white"
+            className="ml-auto  mb-5 mr-32 flex flex rounded bg-gradient-to-r from-gradient-for-footer to-gradient-to py-2 px-4 font-bold text-white"
             type="submit"
             name="Word"
           >

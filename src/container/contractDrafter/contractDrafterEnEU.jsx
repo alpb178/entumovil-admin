@@ -259,7 +259,7 @@ export default function ContractDrafterEnEU() {
                   <div className="mr-18">
                     <input
                       id="1"
-                      name="input1"
+                      name="input18"
                       type="text"
                       onChange={(e) =>
                         handleChangeV2(e.target.value, e.target.name)
@@ -449,7 +449,7 @@ export default function ContractDrafterEnEU() {
               </p>
               <input
                 id="31"
-                name="input32"
+                name="input31"
                 type="text"
                 onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  ml-1 mr-1  w-1/2 border-b-2 outline-none focus:border-blue-400"
@@ -477,8 +477,8 @@ export default function ContractDrafterEnEU() {
                 remain with the property, but are not to be considered as part
                 of the Sale Price and have no value:
                 <input
-                  id="33"
-                  name="input33"
+                  id="32"
+                  name="input32"
                   type="text"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
@@ -486,6 +486,15 @@ export default function ContractDrafterEnEU() {
                   className="border-gray-400  mr ml-1 w-40 border-b-2 outline-none focus:border-blue-400"
                 ></input>
               </p>
+            </div>
+            <div className="ml-10 flex">
+              <input
+                id="33"
+                name="input33"
+                type="text"
+                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
+                className="border-gray-400  mr-5 ml-1  w-full border-b-2 outline-none focus:border-blue-400"
+              ></input>
             </div>
             <div className="ml-10 flex">
               <input
@@ -506,15 +515,6 @@ export default function ContractDrafterEnEU() {
               ></input>
             </div>
             <div className="ml-10 flex">
-              <input
-                id="36"
-                name="input36"
-                type="text"
-                onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
-                className="border-gray-400  mr-5 ml-1  w-full border-b-2 outline-none focus:border-blue-400"
-              ></input>
-            </div>
-            <div className="ml-10 flex">
               <p className=" mt-2 mr-5 text-justify">
                 All items listed herein are included in the property sold no
                 matter how they are attached or installed, provided that 24 any
@@ -525,8 +525,8 @@ export default function ContractDrafterEnEU() {
                 “Property.”) The following items are excluded from the Property
                 sold:
                 <input
-                  id="37"
-                  name="input37"
+                  id="36"
+                  name="input36"
                   type="text"
                   onChange={(e) =>
                     handleChangeV2(e.target.value, e.target.name)
@@ -1091,7 +1091,7 @@ export default function ContractDrafterEnEU() {
               Cash $
               <input
                 id="84"
-                name="input4"
+                name="input84"
                 type="text"
                 onChange={(e) => handleChangeV2(e.target.value, e.target.name)}
                 className="border-gray-400  mr ml-1 w-20 border-b-2 outline-none focus:border-blue-400"

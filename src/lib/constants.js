@@ -41,28 +41,28 @@ export const legislation = [
     href: INMOCOR_LEGISLATION,
   },
   {
-    name: "Legislacion en la Union Europea",
+    name: "Legislación en la Union Europea",
     href: INMOCOR_LEGISLATION_UE,
   },
   {
-    name: "Legislacion España",
+    name: "Legislación España",
     href: INMOCOR_LEGISLATION_ES,
   },
   {
-    name: "Legislacion Argentina",
+    name: "Legislación Argentina",
     href: INMOCOR_LEGISLATION_AR,
   },
   {
-    name: "Legislacion Reino Unido",
+    name: "Legislación Reino Unido",
 
     href: INMOCOR_LEGISLATION_RU,
   },
-  { name: "Legislacion en Estados Unidos", href: INMOCOR_LEGISLATION_EU },
-  { name: "Legislacion en Irlanda", href: INMOCOR_LEGISLATION_IR },
-  { name: "Legislacion en Alemania", href: INMOCOR_LEGISLATION_AL },
-  { name: "Legislacion en Francia", href: INMOCOR_LEGISLATION_FR },
-  { name: "Legislacion en Italia", href: INMOCOR_LEGISLATION_IT },
-  { name: "Legislacion en Cataluña", href: INMOCOR_LEGISLATION_CA },
+  { name: "Legislación en Estados Unidos", href: INMOCOR_LEGISLATION_EU },
+  { name: "Legislación en Irlanda", href: INMOCOR_LEGISLATION_IR },
+  { name: "Legislación en Alemania", href: INMOCOR_LEGISLATION_AL },
+  { name: "Legislación en Francia", href: INMOCOR_LEGISLATION_FR },
+  { name: "Legislación en Italia", href: INMOCOR_LEGISLATION_IT },
+  { name: "Legislación en Cataluña", href: INMOCOR_LEGISLATION_CA },
 ];
 
 // link Footer

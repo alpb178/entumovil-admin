@@ -4,22 +4,22 @@ export const contractDrafterESP = [
     options: [
       {
         father: "title",
-        name: "opcion 1",
+        name: "opción 1",
         value: "CONTRATO DE COMPRAVENTA DE VIVIENDA",
       },
       {
         father: "title",
-        name: "opcion 2",
+        name: "opción 2",
         value: "CONTRATO DE ALQUILER DE VIVIENDA",
       },
       {
         father: "title",
-        name: "opcion 3",
+        name: "opción 3",
         value: "Contrato de compraventa de bien inmueble",
       },
       {
         father: "title",
-        name: "opcion 4",
+        name: "opción 4",
         value: "CONTRATO DE COMPRAVENTA ENTRE PARTICULARES",
       },
     ],
@@ -29,12 +29,12 @@ export const contractDrafterESP = [
     options: [
       {
         father: "sumary",
-        name: "opcion 1",
+        name: "opción 1",
         value: "En XXX, a XXX de XXX del XXX",
       },
       {
         father: "sumary",
-        name: "opcion 2",
+        name: "opción 2",
         value: "En la ciudad de XXX, a XXX. de XXX. de XXX",
       },
     ],
@@ -44,7 +44,7 @@ export const contractDrafterESP = [
     options: [
       {
         father: "parts",
-        name: "opcion 1",
+        name: "opción 1",
         value: `De un lado la parte vendedora, D XXX, mayor de edad, con domicilio en XXX, con DNI nº XXX casado en régimen de comunidad de
           gananciales con Dª.XXX, mayor de edad, con domicilio en XXX, y con DNI nº XXX. Y de otro la parte compradora, DXXX, mayor de edad,
           con domicilio en XXX, de estado civil soltero y con DNI nº XXX .
@@ -53,7 +53,7 @@ export const contractDrafterESP = [
       },
       {
         father: "parts",
-        name: "opcion 2",
+        name: "opción 2",
         value: `DE UNA PARTE: D. XXX. y Dª XXX, mayores de edad, cónyuges,
           con domicilio en XXX, calle XXX, nº XXX, y cuyos números de Documento
           Nacional de Identidad son los XXX. y XXX, respectivamente, en adelante
@@ -67,7 +67,7 @@ export const contractDrafterESP = [
       },
       {
         father: "parts",
-        name: "opcion 3",
+        name: "opción 3",
         value: `de una parte como compradora D/ña. XXX, mayor de edad, de estado civil XXX, con DNI. Nº XXX, y con 
           domicilio en la ciudad de XXX, C/ XXXY de otra como parte vendedora D/ña. XXX, mayor de edad, de estado civil XXX, 
           con DNI Nº XXX. y con domicilio en la ciudad de XXX, C/ XXX
@@ -81,7 +81,7 @@ export const contractDrafterESP = [
     options: [
       {
         father: "clausesClient",
-        name: "opcion 1",
+        name: "opción 1",
         value: [
           `EXPONEN
           PRIMERO: Que XXX. son dueños en pleno dominio del inmueble sito en XXX. Según consta en escritura, de fecha XXX de XXX de XXX otorgada ante el Notario de XXX, con el nº XXX. de orden de su protocolo. Escritura cuya copia queda unida a este contrato . Dicho inmueble figura inscrito en el REGISTRO DE LA PROPIEDAD Nº XXX DE XXX, en el Tomo XXX, Libro XXX, Folio XXX, Finca nº XXX, 
@@ -95,7 +95,7 @@ export const contractDrafterESP = [
       },
       {
         father: "clausesClient",
-        name: "opcion 2",
+        name: "opción 2",
         value: [
           `EXPONEN
           PRIMERO: Que los VENDEDORES son propietarios, en régimen de gananciales, de la siguiente finca:XXX, letra XXX, del inmueble núm. XXX de la calle XXX. Dicho piso consta de: (XXX habitaciones, salón-comedor, 
@@ -108,7 +108,7 @@ export const contractDrafterESP = [
       },
       {
         father: "clausesClient",
-        name: "opcion 3",
+        name: "opción 3",
         value: [
           `EXPONEN
           Que D/ña XXX. es propietario en pleno dominio por título de XXX de la vivienda ubicada en la C/ XXX, piso XXX de la ciudad de XXX, de XXX metros cuadrados de superficie según consta en escritura de fecha XXX otorgada ante el Notario D. XXX con número de protocolo XXX, (se adjunta como anexo XXX), a la que corresponde una cuota de participación en elementos comunes, por formar parte de comunidad de propietarios, del XXX%, cuya superficie y composición así como demás características son perfectamente conocidas por los intervinientes.El inmueble está inscrito en el Registro de la Propiedad Nº de la ciudad de XXX al tomo XXX, libro XXX, folio XXX con el número XXX (Se adjunta como anexo XXX). 
@@ -126,7 +126,7 @@ export const contractDrafterESP = [
     options: [
       {
         father: "clausesContract",
-        name: "opcion 1",
+        name: "opción 1",
         value: [
           `ESTIPULACIONES
           PRIMERA: Objeto D. XXX Y Dª. XXX, VENDEN la vivienda y anexos reseñados a D. XXX, quien a su vez acepta y COMPRA. La venta se efectúa con cuantos derechos, usos, servicios y servidumbres le sean inherentes a la vivienda y anexos vendidos, incluida la parte 
@@ -145,7 +145,7 @@ export const contractDrafterESP = [
       },
       {
         father: "clausesContract",
-        name: "opcion 2",
+        name: "opción 2",
         value: [
           `ESTIPULACIONES
           PRIMERA: Los VENDEDORES venden al COMPRADOR, quien compra, la finca descrita en el Expositivo primero
@@ -165,7 +165,7 @@ export const contractDrafterESP = [
       },
       {
         father: "clausesContract",
-        name: "opcion 3",
+        name: "opción 3",
         value: [
           `ESTIPULACIONES
           PRIMERA:D/ña. XXX. vende a D/ña. XXX. la vivienda descrita en el expositivo primero de este documento a D/ña XXX, quien acepta.
@@ -198,13 +198,13 @@ export const contractDrafterESP = [
     options: [
       {
         father: "footer",
-        name: "opcion 1",
+        name: "opción 1",
         value:
           "Y en prueba de conformidad, firman ambas partes el presente contrato, por duplicado, en el lugar y fecha indicados en el encabezamiento.",
       },
       {
         father: "footer",
-        name: "opcion 2",
+        name: "opción 2",
         value:
           "Y con el carácter expresado en la intervención, firman el presente contrato por duplicado, junto con los anexos que a él se unen, en XXX folios escritos por el anverso numeradas sus caras del uno al XXX, en el lugar y fecha indicados.",
       },
@@ -364,7 +364,7 @@ export const contractDrafterARG = [
 ];
 export const contractDrafterFR = [
   {
-    name: "Qualification",
+    name: "Titre",
     options: [
       {
         father: "title",
@@ -385,7 +385,7 @@ export const contractDrafterFR = [
     ],
   },
   {
-    name: "des soirées",
+    name: "Les soussignés",
     options: [
       {
         father: "parts",

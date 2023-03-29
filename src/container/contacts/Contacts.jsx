@@ -144,12 +144,12 @@ export default function Contacts() {
                   </div>
                   <div className="w-1/2">
                     <p className="mt-2 text-2xl font-black text-black">
-                      Universitat Málaga
+                       Universidad de Málaga
                     </p>
                     <ul className="ml-10 mt-2 list-disc">
                       <li className="m-2"> José Jesús Benito Picazo</li>
                       <li className="m-2"> Carlos Manuel Hidalgo Ternero</li>
-                      <li className="m-2"> Ángela Luque Peñalver</li>
+                      <li className="m-2"> Ángela Luque Giráldez</li>
                     </ul>
                   </div>
                   <div className="w-1/2">
@@ -161,7 +161,7 @@ export default function Contacts() {
                       <li className="m-2">Purificación Fernández Nistal</li>
                       <li className="m-2">M.ª Teresa Ortego Antón</li>
                       <li className="m-2">Isabel Peñuelas Gil</li>
-                      <li className="m-2">Jaime Sánchez Peñicer</li>
+                      <li className="m-2">Jaime Sánchez Carnicer</li>
                     </ul>
                   </div>
                 </div>
@@ -187,7 +187,7 @@ export default function Contacts() {
                 <div className="mt-2 flex sm:block md:block  lg:flex">
                   <div className="w-1/2">
                     <p className="mt-2 text-2xl font-black text-black">
-                      Universitè d'Artois (Francia)
+                      Université d'Artois (Francia)
                     </p>
                     <ul className="ml-10 mt-2 list-disc">
                       <li className="m-2"> Luis Meneses</li>

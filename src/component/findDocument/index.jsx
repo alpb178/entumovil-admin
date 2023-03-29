@@ -1,5 +1,5 @@
 import { Document } from "@/lib/doc";
-import { findWordsDocTxt } from "@/lib/utils";
+import { findWordsDocTxt, textTofind } from "@/lib/utils";
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import React, { useEffect, useState } from "react";
 import ViewTXT from "./viewDocTxt";
@@ -75,12 +75,14 @@ export default function ViewFindDocument({
                 </h5>
               </div>
 
-              <ViewTXT
-                key={index}
-                className="whitespace-pre-wrap"
-                textDoc={element?.docTxt.substring(0, 338) + "[..]"}
-                findText={findText}
-              />
+              {textTofind(element?.docTxt, findText).map((textDoc,i) => (
+                <ViewTXT
+                  key={i}
+                  className="whitespace-pre-wrap"
+                  textDoc={textDoc}
+                  findText={findText}
+                />
+              ))}
 
               <div className="flex">
                 <button

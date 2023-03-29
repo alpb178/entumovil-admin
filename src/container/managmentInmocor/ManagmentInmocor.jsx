@@ -76,11 +76,15 @@ export function ManagmentInmocor() {
         description="Legislación y Contratos"
         imageUrl="cabecera-legislacion-generalidades-inmocor.jpg"
       />
+      {console.log(contentId)}
 
       <section className="bg-gray-50 -mt-14 px-4 pb-20 pt-4 text-xl">
         {documentTxt === "" ? (
           <div className="container mx-auto ">
-            <Card className="shadow-gray-500/10 rounded-none shadow-lg">
+            <Card
+              id="container-card"
+              className="shadow-gray-500/10 rounded-none shadow-lg"
+            >
               <CardBody className="px-8 text-left">
                 <div className="m-5">
                   <div className="flex sm:block md:block  lg:flex">
@@ -288,6 +292,7 @@ export function ManagmentInmocor() {
                       valueSelect={valueSelect}
                       findText={findText}
                       setDocumentTxt={setDocumentTxt}
+                      setContentId={setContentId}
                     />
                   </div>
                 )}
@@ -300,7 +305,9 @@ export function ManagmentInmocor() {
               <CardBody className="px-8 text-left">
                 <button
                   className="flex-inline m-5 mt-5 flex rounded bg-gradient-to-r from-gradient-for-footer to-gradient-to py-2 px-4 font-bold text-white"
-                  onClick={() => setDocumentTxt("")}
+                  onClick={() => {
+                    setDocumentTxt(""), setContentId("content-find");
+                  }}
                 >
                   <ArrowLeftIcon className="mt flex-inline ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
                   Ir Atrás ...
@@ -309,7 +316,9 @@ export function ManagmentInmocor() {
                 <ViewTXT textDoc={documentTxt} findText={findText} />
                 <button
                   className="flex-inline m-5 mt-5 flex rounded bg-gradient-to-r from-gradient-for-footer to-gradient-to py-2 px-4 font-bold text-white"
-                  onClick={() => setDocumentTxt("")}
+                  onClick={() => {
+                    setDocumentTxt(""), setContentId("content-find");
+                  }}
                 >
                   <ArrowLeftIcon className="mt flex-inline ml-2 flex h-7 w-10  font-black text-red hover:w-20" />
                   Ir Atrás ...

@@ -133,7 +133,7 @@ export const textTofindText = (text, findText) => {
   let count = 0;
   if (
     textWithDoubleQuotes.length &&
-    docTxt.toUpperCase().includes(textWithDoubleQuotes[0].toUpperCase())
+    text.toUpperCase().includes(textWithDoubleQuotes[0].toUpperCase())
   ) {
     count++;
   } else if (!textWithDoubleQuotes.length) {

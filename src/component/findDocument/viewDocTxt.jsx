@@ -4,10 +4,11 @@ import reactStringReplace from "react-string-replace";
 
 export default function ViewDocTxt({ textDoc, findText }) {
   const textWithDoubleQuotes = obtainTexTWithQuotes(findText);
+
   const ViewDocTxt = () => {
     return (
       <p className="mt-5 ml-20  whitespace-pre-wrap text-gray">
-        {textWithDoubleQuotes.length &&
+        {textWithDoubleQuotes.length > 0 &&
           reactStringReplace(
             textDoc,
             findText.replace(/['"]+/g, ""),
@@ -19,19 +20,22 @@ export default function ViewDocTxt({ textDoc, findText }) {
           )}
 
         {!textWithDoubleQuotes.length &&
-          textDoc.split(" ").map((text, i) => {
+          textDoc.split(/['" ",.()]+/g).map((text, i) => {
             if (
               findText
                 .split(" ")
-                .find((element) => element.toUpperCase() === text.toUpperCase())
+                .find((element) =>
+                  text.toUpperCase().includes(element.toUpperCase())
+                )
             ) {
               return (
                 <strong key={i} className="bg-amber-300 text-black">
                   {text}
                 </strong>
               );
+            } else {
+              return `${text} `;
             }
-            return `${text} `;
           })}
       </p>
     );

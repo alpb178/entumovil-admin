@@ -8,6 +8,7 @@ export default function ViewFindDocument({
   valueSelect,
   findText,
   setDocumentTxt,
+  setContentId,
 }) {
   const [docToShow, setDocToShow] = useState([]);
 
@@ -75,7 +76,7 @@ export default function ViewFindDocument({
                 </h5>
               </div>
 
-              {textTofind(element?.docTxt, findText).map((textDoc,i) => (
+              {textTofind(element?.docTxt, findText).map((textDoc, i) => (
                 <ViewTXT
                   key={i}
                   className="whitespace-pre-wrap"
@@ -84,9 +85,12 @@ export default function ViewFindDocument({
                 />
               ))}
 
-              <div className="flex">
+              <div className="mt-12 flex">
                 <button
-                  onClick={() => setDocumentTxt(element?.docTxt)}
+                  onClick={() => {
+                    setDocumentTxt(element?.docTxt),
+                      setContentId("container-section");
+                  }}
                   className="ml-auto hover:text-red"
                 >
                   Ver mas ...

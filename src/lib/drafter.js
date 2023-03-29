@@ -308,15 +308,15 @@ export const contractDrafterARG = [
           SEGUNDA: (II- ESTADO DE LA FINCA) La FINCA se entregará en el estado de conservación como se encuentra, que el COMPRADOR declara conocer y aceptar.
           TERCERA: (III- DEUDAS REALES) 1- (impuestos y/o tasas y servicios) Quedarán n a cargo del VENDEDOR todas las deudas de la FINCA anteriores a la fecha de escrituración, sean XXX(al Consorcio de Propietarios por expensas comunes de la propiedad horizontal, a Aguas y Saneamientos Argentinos, tasas o impuestos inmobiliarios municipales, impuestos inmobiliariosprovinciales). 2- (asunción) A partir del día de escrituración, todos los gastos correrán por cuenta y cargo del COMPRADOR. 3- (titularidad) El COMPRADOR cambiará la titularidad delos mismos y a su costa, en el plazo máximo de XXX (XXX) días del acto de escrituración.
           CUARTA: (IV- TELEFONÍA) La FINCA se entregará con la línea telefónica en servicio con número XXX, que está abonada a XXX(Telecom/Telefónica de Argentina/Cooperativa Telefónica de XXX)y el VENDEDOR le cederá al COMPRADOR todos los derechos sobre ella.
-          QUINTA: (V- PRECIO) El precio total, fijo e inamovible de la FINCA será la suma de XXX (XXX)/dólares de los Estados Unidos de América XXX (XXX). El COMPRADOR entregará al VENDEDOR	con las modalidades siguientes: a) al contado y en este acto el XXX (XXX) por ciento, o sea la suma de XXX (XXX)/dólares de los Estados Unidos de América XXX (XXX)>, que el VENDEDOR recibe de conformidad y extiende por el presente suficiente recibo y carta de pago; b) el XXX (XXX) por ciento, por lo tanto la suma de XXX (XXX)/dólares de los Estados Unidos de
-          América XXX (XXX)>, contra la entrega de la posesión en el acto de firma de la escritura pública traslativa de dominio; c) el saldo restante, o sea el XXX (XXX) por ciento que correspondea la suma de XXX (XXX)/dólares de los Estados Unidos de América XXX (XXX)> lo pagará en el plazo de XXX (XXX) meses, con un interés XXX(mensual/anual), pagadero por período XXX (adelantado/vencido), del XXX (XXX) por ciento.
+          QUINTA: (V- PRECIO) El precio total, fijo e inamovible de la FINCA será la suma de XXX (XXX)/dólares de los Estados Unidos de América XXX (XXX). El COMPRADOR entregará al VENDEDOR	con las modalidades siguientes: a) al contado y en este acto el XXX (XXX) por ciento, o sea la suma de XXX (XXX)/dólares de los Estados Unidos de América XXX (XXX), que el VENDEDOR recibe de conformidad y extiende por el presente suficiente recibo y carta de pago; b) el XXX (XXX) por ciento, por lo tanto la suma de XXX (XXX)/dólares de los Estados Unidos de
+          América XXX (XXX), contra la entrega de la posesión en el acto de firma de la escritura pública traslativa de dominio; c) el saldo restante, o sea el XXX (XXX) por ciento que correspondea la suma de XXX (XXX)/dólares de los Estados Unidos de América XXX (XXX) lo pagará en el plazo de XXX (XXX) meses, con un interés XXX(mensual/anual), pagadero por período XXX (adelantado/vencido), del XXX (XXX) por ciento.
           SEXTA: (VI- POSESIÓN Y ESCRITURA) 1- La entrega de la posesión, firma de la escritura pública traslativa de dominio y constitución de la hipoteca, se realizará en el plazo
           máximo de XXX (XXX) días, con la intervención del escribano público XXX, designado por el VENDEDOR. 2- Los gastos y honorarios que demandare la escrituración serán a cargo del COMPRADOR,
           salvo los impuestos que por ley recaigan sobre el VENDEDOR. 
           SEPTIMA: (VII- ESTADO A LA ENTREGA) La FINCA se deberá entregar: a- totalmente desocupada y libre de toda ocupación; b- en XXX(buenas condiciones/perfecto estado) de limpieza; c- con latotalidad de las cosas que la integran.
           OCTAVA: (VIII- ASENTIMIENTO DEL CÓNYUGE) El cónyuge del VENDEDOR presta su asentimiento y también suscribe al pie este instrumento (art. 470 CCyC).
           NOVENA: (IX- INTERMEDIACIÓN) Las partes
-          declaran que para la celebración del presente acto XXX(tuvo intervención la Inmobiliaria XXX; no intermedió persona alguna XXXpropiedades>).
+          declaran que para la celebración del presente acto XXX(tuvo intervención la Inmobiliaria XXX; no intermedió persona alguna XXXpropiedades).
           UNDÉCIMA: (XI- SELLADOS O TIMBRES) El impuesto de sellos o timbres que gravare el acto será a cargo de XXX(COMPRADOR/VENDEDOR/las partes por mitades o en proporciones distintas).
           DUODÉCIMA: (XII- DOMICILIOS) Para cualesquiera notificaciones derivadas del presente, las partes constituyen los domicilios especiales siguientes: a) el VENDEDOR en XXX; b) el COMPRADORen XXX; donde tendrán eficacia todas las que se realicen.
           DECIMOTERCIA: (XIII- COMPETENCIA JUDICIAL) En caso de litigio, las partes se someterán exclusivamente a la competencia de los tribunales ordinarios de XXX, renunciando a cualesquieraotras que pudieran corresponderles.
@@ -487,7 +487,7 @@ export const contractDrafterFR = [
 ];
 export const contractDrafterIT = [
   {
-    name: "Título",
+    name: "Titolo",
     options: [
       {
         father: "title",
@@ -517,132 +517,318 @@ export const contractDrafterIT = [
       {
         father: "sumary",
         name: "opcion 1",
-        value: "En XXX, a XXX de XXX del XXX",
-      },
-      {
-        father: "sumary",
-        name: "opcion 2",
-        value: "En la ciudad de XXX, a XXX. de XXX. de XXX",
+        value: "Luogo XXX, data XXX",
       },
     ],
   },
   {
-    name: "Partes",
+    name: "Parti",
     options: [
       {
         father: "parts",
         name: "opcion 1",
-        value: `De un lado la parte vendedora, D XXX, mayor de edad, con
-          domicilio en XXX, con DNI nº XXX casado en régimen de comunidad de
-          gananciales con Dª.XXX, mayor de edad, con domicilio en XXX, y con
-          DNI nº XXX. Y de otro la parte compradora, DXXX, mayor de edad,
-          con domicilio en XXX, de estado civil soltero y con DNI nº XXX.
-          Ambas partes tienen y se reconocen la capacidad legal necesaria
-          para el otorgamiento del presente contrato , y a tal fin.`,
+        value: `Tra XXX, nato/a il XXX a XXX e residente in XXX via XXX n. XXX (c.f. XXX ) (di seguito denominato promittente venditore)eX nato/a il XXX a XXX e residente in XXX via XXX n. XXX (c.f. XXX) (di seguito denominato promissario acquirente)`,
       },
       {
         father: "parts",
         name: "opcion 2",
-        value: `DE UNA PARTE: D. XXX. y Dª XXX, mayores de edad, cónyuges,
-          con domicilio en XXX, calle XXX, nº XXX, y cuyos números de Documento
-          Nacional de Identidad son los XXX. y XXX, respectivamente, en adelante
-          los VENDEDORES;
-          Y DE OTRA PARTE: D. XXX, XXX, mayor de edad, y con domicilio en XXX,
-          calle XXX. nº XXX, provisto del DNI nº XXX, en adelante el COMPRADOR.
-          INTERVIENEN: Todos en su propio nombre y derecho. Ambas partes
-          se reconocen
-          mutuamente la capacidad legal necesaria para el otorgamiento y firma del presente contrato
-          de compraventa, para lo cual,`,
+        value: `Il giorno XXX in XXX innanzi al Notaio XXX sono presentiPer la parte venditrice:XXX, nata il XXX, a XXX ed ivi residente alla Via XXX; C.F. XXXXXX, nata il XXX, a XXX ed ivi residente in Via di XXX, C.F.: XXX denominate a volte “parte venditrice” o “venditrice”ePer la parta acquirente:XXX nata il XXX, a XXX ed ivi residente in Via XXXC.F.: XXX denominata “acquirente” o “parte acquirente”`,
       },
       {
         father: "parts",
         name: "opcion 3",
-        value: `de una parte como compradora D/ña. XXX, mayor de edad, de estado civil XXX, con DNI. Nº XXX, y con 
-          domicilio en la ciudad de XXX, C/ XXXY de otra como parte vendedora D/ña. XXX, mayor de edad, de estado civil XXX, 
-          con DNI Nº XXX. y con domicilio en la ciudad de XXX, C/ XXX
-          INTERVIENEN Las dos partes en su propio nombre y derecho como comprador y vendedor respectivamente. Ambas partes tienen 
-          plena capacidad legal para concurrir a este acto según manifiestan y, recíprocamente, se reconocen y`,
+        value: `Con la presente scrittura privata, da valere a ogni effetto di legge, i signori:- XXX, nato a XXX il giorno XXX, residente a XXX, via XXX n. XXX, codice fiscale XXX, di stato civile XXX, in prosieguo denominata anche “Parte Promittente Venditrice”;- XXX, nato a XXX il giorno XXX, residente a XXX, via XXX n. XXX, codice fiscale XXX, di stato civile XXX, in prosieguo denominato anche “Parte Promissaria Acquirente”, convengono e stipulano quanto segue.`,
+      },
+    ],
+  },
+  {
+    name: "Estipulaciones",
+    options: [
+      {
+        father: "clausesContract",
+        name: "opcion 1",
+        value: [
+          `1.Oggetto del contrattoXXX si obbliga a cedere e vendere a XXX, che si obbliga ad acquistare per sé, persona, impresa o ente da nominare al momento della stipula del definitivo, l’intera piena proprietà dell’
+          unità immobiliare sita nel Comune di XXX, via XXX n. XXX, costituita da XXX al piano XXX, con relativi accessori e pertinenze, il tutto
+          così distinto in catasto:CATASTO FABBRICATI XXX COMUNE DI XXX SEZIONE XXX FOGLIO XXX Mappale XXX Subalterno XXX, classe XXX, categoria XXX, rendita catastale XXX vani o superficie XXX
+          PARTI COMUNI: nella promessa vendita è pure compresa la quota di comproprietà sulle parti comuni al fabbricato di cui è di compendio quanto in oggetto e così su quanto previsto in comune dagli artt. 1117 e ss.c.c., per destinazione o per titolo.
+          
+          2.Garanzie della Parte Promittente VenditriceLa Parte Promittente Venditrice garantisce la piena proprietà dell’immobile de quo, l’agibilità, la sua disponibilità e la sua libertà da pesi, vincoli, oneri, iscrizioni e trascrizioni pregiudizievoli.
+          
+          3.Dichiarazioni urbanistiche e di conformità amministrativaI) IPOTESI -IMMOBILI REALIZZATI ANTE 1° SETTEMBRE 1967Per quanto possa occorrere, benché il presente contratto non abbia natura traslativa o costitutiva di diritti reali, LA PARTE PROMITTENTE VENDITRICE DICHIARA, ai sensi della vigente normativa urbanistica ed edilizia, CHE LE OPERE DI COSTRUZIONE DEL FABBRICATO IN OGGETTO SONO INIZIATE IN DATA ANTERIORE AL GIORNO 1° SETTEMBRE 1967 (ipotesi eventuale) e che successivamente ilComune di XXX ha rilasciato i seguenti provvedimenti:-concessione XXX;-sanatoria XXX.II) IPOTESI -IMMOBILI REALIZZATI POST 1° SETTEMBRE 1967LA PARTE VENDITRICE, ai sensi della vigente normativa urbanistica ed edilizia, DICHIARA che il fabbricato di cui quanto in oggetto costituisce porzione è stato edificato in forza e in conformità ai seguenti provvedimenti rilasciati dal Comune di XXX:- n. XXX in data XXX protocollo n. XXX;- variante in corso lavori n. XXX in data XXX protocollo n. XXX;- D.I.A. (Dichiarazione di Inizio Attività) in data protocollo n XXX.Il fabbricato è stato dichiarato agibile con provvedimento in data XXX protocollo n. XXX (inizio lavori in data XXX e fine lavori in data XXX ).Dichiara e garantisce da ultimo che quanto in oggetto è immune da vizi per i quali siano stati adottati provvedimenti sanzionatori ai sensi dell’art. 41 legge 1150/1942 e successive modifiche e integrazioni o per i quali dovesse richiedersi concessione o autorizzazione in sanatoria ai sensi della legge 47/1985 e successive modificazioni e integrazioni e leggi successive e che pertanto l’immobile deve ritenersi conforme e in regola con la normativa urbanistica ed edilizia.
+          
+          4.Stipula dell’atto definitivo di compravenditaL’atto notarile definitivo di compravendita dovrà essere stipulato entro e non oltre il giorno a ministero di notaio a scelta di Parte Promissaria Acquirente (con preavviso da comunicarsi alla PartePromittente Venditrice almeno venti giorni prima della data stabilita per l’atto notarile) e contestualmente al rogito la Parte Promissaria Acquirente sarà immessa nel possesso e detenzione dell’immobile.Le Parti dichiarano che l’utilità economica del contratto e l’interesse alla stipula del medesimo andranno perduti con l’inutile decorso del termine, che dichiarano quindi essere essenziale.La Parte Promittente Venditrice si obbliga a produrre al notaio che sarà incaricato tutta la documentazione necessaria per l’istruzione della pratica almeno venti giorni prima della data come sopra stabilita per il rogito e, ai sensi di quanto disposto dall’art. 19, comma 14, d.l. 31 maggio 2010, n. 78, pubblicato in Gazzetta Ufficiale n. 125, Serie generale del 31 maggio 2010, convertito con modificazioni dalla legge 30 luglio 2010, n. 122, (pubblicato in Gazzetta Ufficiale n. 176, Suppl. Ord. 174/L del 30 luglio 2010) si impegna a ottemperare a quanto necessario, ove ne ricorra il caso, per far constare la conformità allo stato di fatto dei dati catastali e delle planimetrie nonché l’allineamento degli intestatari catastali e con le risultanze dei registri immobiliari.
+          
+          5.Caparrae ripartizione delle spese dell’atto definitivo
+          Al momento della stipula del contratto notarile definitivo le somme versate a titolo di caparra confirmatoria saranno computate in conto prezzo dell’immobile.
+          Le spese, imposte e tasse per l’atto notarile definitivo saranno a carico della Parte Promissaria Acquirente a eccezione delle spese eventualmente tecniche, connesse e dipendenti che saranno a carico della Parte Promittente Venditrice e salvo quanto altro per legge.
+          
+          6.Prezzoe pagamento
+          Il prezzo della vendita viene convenuto e accettato dalle Parti nella somma di euro XXX ed è regolato come segue:
+          euro XXX a titolo di caparra confirmatoria, sono stati versati già prima d’ora dalla parte promissaria acquirente alla parte promittente venditrice a mezzo degli assegni circolari infra citati e per detto e tanto importo la Parte Promittente Venditrice rilascia corrispondente quietanza; euro XXX ancora dovuti a saldo, dovranno essere pagati, a mezzo di assegni circolari/bonifico bancario e nel rispetto della normativa valutaria vigente, contestualmente alla sottoscrizione del contratto notarile definitivo di compravendita.
+          
+          7.Misure di contrasto dell’evasione e dell’elusione fiscalePer quanto occorrer possa, in ottemperanza a quanto disposto dall’art. 35, comma 22, d.l. 4 luglio 2006, n. 223, convertito nella legge 248/2006, LE PARTI DICHIARANO:A) LA PARTE PROMITTENTE VENDITRICE: «che la presente compravendita è stata conclusa con l’intervento, quale mediatore, ai sensi degli artt. 1754 ss. c.c., dell’Agenzia XXX, con sede in XXX, partita IVA XXX, legale rappresentante signor XXX, nato a il giorno XXX, codice fiscale XXX, iscritto/a al n. nella Sezione degli Agenti immobiliari presso il XXX Ruolo mediatori della Camera di Commercio di XXX ovvero, ai sensi del d.lgs. 59/2010 e della legge 122/2010, al n. del Registro Imprese/REA della Camera di Commercio di XXX, dal XXX, la quale ha percepito da parte di essa promittente venditrice a titolo di provvigione e di rimborso spese la complessiva somma di euro XXX, IVA compresa, a mezzo di assegno bancario non trasferibile n. XXX, emesso dalla banca XXX, in data XXX, tratto sul c/c n. XXX, intestato a XXX»;B) LA PARTE PROMISSARIA ACQUIRENTE: «che la presente compravendita è stata conclusa con l’intervento, quale mediatore, ai sensi degli artt. 1754 ss. c.c. dell’Agenzia XXX, con sede in XXX, partita IVA XXX, legale rappresentante signor XXX, nato a XXX il giorno XXX, codice fiscale XXX, iscritto/a al n. XXX nella Sezione degli Agenti immobiliari presso il Ruolo mediatori della Camera di Commercio di ovvero, ai sensi del d.lgs. 59/2010 e della legge 122/2010, al n. XXX del Registro Imprese/REA della Camera di Commercio di XXX , dal , la quale ha percepito da parte di essa promissaria acquirente a titolo di provvigione e di rimborso spese la complessiva somma di XXX euro, IVA compresa, a mezzo di assegno bancario non trasferibile n. XXX, emesso dalla banca XXX, in data XXX, tratto sul c/c n. XXX, intestato a XXX»;C) LA PARTE PROMITTENTE VENDITRICE E LA PARTE PROMISSARIA ACQUIRENTE: «che la caparra confirmatoria di cui sopra detto è stata regolata a mezzo di: assegno circolare non trasferibile n. XXX, emesso dalla banca XXX, in data XXX, tratto sul c/c n. XXX, intestato a XXX»;
+          
+          8.Clausola risolutiva espressaTutte le clausole, gli elementi, obblighi e oneri e quant’altro contenuti nel presente atto si intendono elementi essenziali a cui è subordinato l’acquisto e la mancanza o la non osservanza anche di uno solo di tali requisiti produrrà ipso iure la risoluzione del contratto ex art. 1456 e ss. c.c., dando luogo alle responsabilità conseguenti.
+          
+          9.Ripartizione delle spese dell’atto preliminare di compravendita In considerazione di quanto stabilito dalla normativa vigente in ordine alla solidarietà tributaria del mediatore per il pagamento delle imposte e tasse relative alla registrazione del presente contratto preliminare, le Parti conferiscono mandato all’Agenzia, e per essa al suo legale rappresentante, affinché ne curi la registrazione per loro conto, versando alla stessa le relative somme che si quantificano in euro. Le spese del presente contratto inerenti e conseguenti sono a carico della Parte Promissaria Acquirente, salvo solo quanto per legge diversamente stabilito.
+          
+          10.Clausola di risoluzione delle controversieTutte le controversie nascenti dal presente contratto saranno devolute a un tentativo di conciliazione pressol’Organismo di mediazione delle Camere di Commercio die risolte secondo ilRegolamento da questa adottato.
+          
+          11.Riservatezza dei dati personaliLe Parti si autorizzano reciprocamente a comunicare a terzi i propri dati personali in relazione ad adempimenti connessi con il rapporto in oggetto.`,
+        ],
+      },
+      {
+        father: "clausesContract",
+        name: "opcion 2",
+        value: [
+          `ESTIPULACIONES
+          Con la presente scrittura privata, a valersi fra le parti a tutti gli effetti di legge, i predetti convengono e stipulano che il promittente venditore è proprietario del seguente bene così identificato
+          XXX descrizione del bene, con indicazione di ogni dato utile per la sua individuazione
+          il promittente venditore promette di vendere al promissario acquirente che promette di acquistare il sopra descritto bene al prezzo di euro XXX (indicare in cifre e in lettere)
+          il venditore dichiara che il bene ceduto è libero da qualsiasi vincolo, pignoramento o ipoteca
+          il bene sarà venduto nello stato di fatto e di diritto in cui si trova e il trasferimento di proprietà avverrà con (indicare la forma del contratto, es. scrittura privata o atto notarile) da stipularsi entro e non oltre il XXX termine che le parti dichiarano essere essenziale.il pagamento del prezzo, la consegna del bene e l’immissione nel possesso avverranno XXX (indicare data o evento dal quale scaturirà il pagamento del prezzo concordato)
+          Al momento della firma della presente scrittura viene versata una caparra anticipo altro di euro XXX (eventuale)`,
+        ],
+      },
+      {
+        father: "clausesContract",
+        name: "opcion 3",
+        value: [
+          `ESTIPULACIONES
+          Io notaio sono certo dell’identità personale delle parti che convengono e stipulano quanto segue:
+            `,
+          `Art. 1
+          A e B vendono a C che acquista diritti pari a 2/3 (1/3 pari all’intera quota di proprietà della sig.ra A ed 1/3 pari all’intera quota di proprietà della sig.ra B) della piena proprietà sulla porzione di fabbricato destinato a civile abitazione sito in Comune di XXX, Via XXX e precisamente:
+          -appartamento posto al piano XXX, distinto con il numero interno XXX, composto di XXX camere ed accessori, confinante con Via XXX, proprietà XXX o suoi aventi causa, salvo altri;-cantina posta al piano seminterrato distinta con la lettera XXX, confinante con proprietà XXX o suoi aventi causa, salvo altri;-garage distinto con il numero XXX, avente accesso da Via XXX, confinante con proprietà XXX o aventi causa, proprietà XXX o suoi aventi causa, Via XXX, salvo altri;`,
+
+          `Art. 2
+           La parte venditrice garantisce che le quote vengono cedute libere da ogni affittanza, nello stato di fatto e di diritto in cui si trovano, comunque libere da vincoli, ipoteche o altre trascrizioni pregiudizievoli al diritto di proprietà, e ne garantisce tanto la piena proprietà quanto la legittima provenienza;`,
+          `CUARTA: OTORGAMIENTO DE ESCRITURA PÚBLICA. Las partes se obligan a otorgar escritura pública de compraventa en el plazo de XXX días a contar desde la fecha del presente contrato ante el Notario designado por la parte compradora. Para ello, la parte compradora comunicará a la vendedora con una antelación mínima de XXX días, el lugar, la fecha y la hora donde habrá de otorgarse escritura pública.Aportará el vendedor en el momento 
+            del otorgamiento de la escritura el último recibo del Impuesto de bienes inmuebles y certificado de la comunidad de propietarios en el que se indique que dicho inmueble se encuentra al corriente de pagos por todos los conceptos, así como el título que justifique la propiedad del inmueble y nota registral de la vivienda en la que se refleje la inexistencia de cargas y gravámenes al momento del otorgamiento de la escritura.
+            `,
+          `Art. 3
+          Il prezzo di vendita viene fissato in € XXX (XXX euro), rispettivamente euro XXX (XXX euro)
+          da corrispondere alla sig.ra A, ed euro XXX (XXX euro) da corrispondere alla sig.ra B, defalcati da tale cifra complessiva la somma di euro XXX, già corrisposta a ciascuna parte venditrice; pertanto restano da corrispondere nel seguente modo:Quanto a € XXX che vengono oggi corrisposte alla sig.ra XXX (venditrice) a mezzo assegno circolare n. XXX tratto su XXX e che rilascia con la firma del presente atto ampia e liberatoria quietanza di pagamento;Quanto a € XXX che vengono oggi corrisposte alla sig.ra XXX (venditrice) a mezzo assegno circolare n. XXX tratto su XXX e che rilascia con la firma del presente atto ampia e liberatoria quietanza di pagamento;`,
+          `Art. 4
+          La vendita è a corpo con tutti i connessi diritti, accessori, accessioni, pertinenze inerenti, i proporzionali diritti sui beni comuni per legge, servitù attive e passive.
+            `,
+          `Art. 5
+          Il possesso e il materiale godimento dell’immobile in contratto vengono formalmente trasferiti in capo all’acquirente con la stipula del presente atto. `,
+          `OCTAVA: DOMICILIO A EFECTO DE NOTIFICACIONES. Las partes señalan como domicilio a efecto de notificaciones el señalado para cada una de ellas en el encabezamiento de este contrato. Tendrán obligación las partes de notificarse mutuamente cualquier cambio que se produzca de domicilio, en el plazo de XXX días desde que éste se produzca.
+            `,
+          `Art. 6
+          La parte venditrice dichiara che 
+          a) relativamente al suddetto immobile non esistono arretrati di imposte, tasse e contributi di alcun genere, né sono pendenti pignoramenti, sequestri o altre procedure di natura civile, penale o amministrativa.
+          b) in relazione all’unità immobiliare non esiste e non è stato costituito alcun condominio.`,
+        ],
+      },
+    ],
+  },
+  {
+    name: "Cierre Contrato",
+    options: [
+      {
+        father: "footer",
+        name: "opcion 1",
+        value: `Letto, approvato e sottoscritto
+        Firma delle parti`
+      },
+      {
+        father: "footer",
+        name: "opcion 2",
+        value: 
+          `Interamente letto, confermato e sottoscritto in duplice originale.
+          Il venditore XXXIl venditore XXXL’acquirente XXX
+          I sottoscritti dichiarano di aver preso conoscenza di tutto quanto precede e in particolare, ai sensi e per effetti di cui all’art. 1341 cod. civ. i seguenti articoli:art. 1)art.2)art. 3)art. 4)
+          Il venditore XXXIl venditore XXXL’acquirente XXX`,
+      },
+      {
+        father: "footer",
+        name: "opcion 3",
+        value: `Letto, firmato e sottoscritto
+        PROMITTENTE VENDITRICE XXX PARTE PROMISSARIA ACQUIRENTE XXX`
       },
     ],
   },
 ];
 export const contractDrafterUK = [
   {
-    name: "Título",
+    name: "Title",
     options: [
       {
         father: "title",
         name: "opcion 1",
-        value: "CONTRATO DE COMPRAVENTA DE VIVIENDAzzzz",
+        value: "CONTRACT OF PURCHASE AND SALE",
       },
       {
         father: "title",
         name: "opcion 2",
-        value: "CONTRATO DE ALQUILER DE VIVIENDA",
+        value: "AGREEMENT FOR SALE",
       },
       {
         father: "title",
         name: "opcion 3",
-        value: "Contrato de compraventa de bien inmueble",
-      },
-      {
-        father: "title",
-        name: "opcion 4",
-        value: "CONTRATO DE COMPRAVENTA ENTRE PARTICULARES",
+        value: "DRAFT AGREEMENT FOR SALEby reference to the Standard Commercial Property Conditions (2nd Edition)",
       },
     ],
   },
   {
-    name: "Lugar",
+    name: "Pleace",
     options: [
       {
         father: "sumary",
         name: "opcion 1",
-        value: "En XXX, a XXX de XXX del XXX",
+        value: "This purchase ande sale agreement is entered into this day of XXX 20XXX",
       },
       {
         father: "sumary",
         name: "opcion 2",
-        value: "En la ciudad de XXX, a XXX. de XXX. de XXX",
+        value: "THIS AGREEMENT FOR SALE is made and executed on this the day of XXX, XXX",
       },
     ],
   },
   {
-    name: "Partes",
+    name: "Parts",
     options: [
       {
         father: "parts",
         name: "opcion 1",
-        value: `De un lado la parte vendedora, D XXX, mayor de edad, con
-          domicilio en XXX, con DNI nº XXX casado en régimen de comunidad de
-          gananciales con Dª.XXX, mayor de edad, con domicilio en XXX, y con
-          DNI nº XXX. Y de otro la parte compradora, DXXX, mayor de edad,
-          con domicilio en XXX, de estado civil soltero y con DNI nº XXX.
-          Ambas partes tienen y se reconocen la capacidad legal necesaria
-          para el otorgamiento del presente contrato , y a tal fin.`,
+        value: `Mr. XXX of legal age XXX, holder Identify Card XXX and resident in XXX and Mrs. XXX of legal age XXX, holder of Identify Card XXX and resident in XXX (the Sellers)ANDMr. XXX of legal age XXX, 
+        holder Identify Card XXX and resident in XXX and Mrs. XXX of legal age XXX, holder of Identify Card XXX and resident in XXX (the Purchasers)Mr./Ms. XXX [insert full name, address and tax number] ("the Vendor), 
+        appoint Mr./Ms. XXX [insert full name, address, fiscal number and professional qualification, if necessary] ("the Agent"), subject to and in accordance with the terms and conditions of this Agreement, to act as his/her XXX [exclusive or non- exclusive] 
+        Agent in the marketing and sale of the real estate property located in/atXXX [insert address town and country] whose information is provided in Annex 1 (Property Information Form) of this Agreement.Mr./Ms. [insert full name, address and fiscal tax number]("the Vendor), 
+        appoint [insert company legal name] whose registered officeis at XXX [address, city and country] and registration/tax number isXXX, represented by XXX [surname and firstname, position] ("the Agent), subject to and in accordance with the terms and conditions of this Agreement, 
+        to act as his/her XXX [exclusive or non-exclusive] Agent in themarketing and sale of the real estate property located in/at XXXXXX [insert address, town and country] whoseinformation is provided in Annex 1 (Property Information Form) of this Agreement.`,
       },
       {
         father: "parts",
         name: "opcion 2",
-        value: `DE UNA PARTE: D. XXX. y Dª XXX, mayores de edad, cónyuges,
-          con domicilio en XXX, calle XXX, nº XXX, y cuyos números de Documento
-          Nacional de Identidad son los XXX. y XXX, respectivamente, en adelante
-          los VENDEDORES;
-          Y DE OTRA PARTE: D. XXX, XXX, mayor de edad, y con domicilio en XXX,
-          calle XXX. nº XXX, provisto del DNI nº XXX, en adelante el COMPRADOR.
-          INTERVIENEN: Todos en su propio nombre y derecho. Ambas partes
-          se reconocen
-          mutuamente la capacidad legal necesaria para el otorgamiento y firma del presente contrato
-          de compraventa, para lo cual,`,
+        value: `BETWEENMr. XXX s/o. XXX aged XXX years residing at XX hereinafter called the "SELLER" (which expression shall mean and include her legal heirs, successors, successors-in-interest, executors, administrators, legal representatives, attorneys and assigns) 
+        of ONE PART.ANDMr. XXX s /o XXX aged¬ XXX years residing at XXX hereinafter called the "PURCHASER" (represented by his power of attorney ) which expression shall mean and include his heirs, successors, executors, administrators, legal representatives, attorneys and assigns of the OTHER PART.`,
       },
       {
         father: "parts",
         name: "opcion 3",
-        value: `de una parte como compradora D/ña. XXX, mayor de edad, de estado civil XXX, con DNI. Nº XXX, y con 
-          domicilio en la ciudad de XXX, C/ XXXY de otra como parte vendedora D/ña. XXX, mayor de edad, de estado civil XXX, 
-          con DNI Nº XXX. y con domicilio en la ciudad de XXX, C/ XXX
-          INTERVIENEN Las dos partes en su propio nombre y derecho como comprador y vendedor respectivamente. Ambas partes tienen 
-          plena capacidad legal para concurrir a este acto según manifiestan y, recíprocamente, se reconocen y`,
+        value: `PARTICULARS1. (i) Vendor XXX(ii) Selling Full Title Guarantee2. Purchaser`,
+      },
+    ],
+  },
+  {
+    name: "Expose",
+    options: [
+      {
+        father: "clausesClient",
+        name: "opcion 1",
+        value: [
+          `EXPOSE
+          WHEREAS THE SELLER is the absolute owner in possession and enjoyment of themore fully described in the schedule hereunder and hereafter called the "SCHEDULE PROPERTY.
+          WHEREAS the property more fully described in the schedule hereunder is the self acquired property of the SELLER who purchased the same from XXX in and by sale deed dated XXX and registered as Doc. No. XXX of Book XXX Volume No XXX Pages XXX to XXX registered on XXX and filed on the file of the Sub-Registrar,
+          WHEREAS the SELLER is the absolute owner of the property and he has been enjoying the same with absolute right and he has clear and marketable title to the Schedule Property
+          WHEREAS the SELLER being in need of funds for the purpose of has decided to sell the property more fully described in the Schedule hereunder and the PURCHASER has offered to purchase the same.
+          WHEREAS the SELLER offered to sell and transfer the schedule property to the PURCHASER for a sale consideration of XXX and the PURCHASER herein has agreed to purchase the same for the aforesaid consideration on the following terms and conditions:`,
+        ],
+      },
+      {
+        father: "clausesClient",
+        name: "opcion 2",
+        value: [
+          `EXPOSE
+          3. Price £ XXX
+          4. Description of Property and interest soldThe freehold title of the property known as XXX and for the purposes of identification only shown edged red on the plan attached to this Agreement
+          5. Vendor’s enabling power[Housing Act XXX]
+          6. Completion Date On the XXX day of XXX XXX at the office ofthe Vendor’s Principal Lawyer, XXX
+          The Standard Commercial Property Conditions (Second Edition) are deemed to be incorporated in this Agreement as far as they are not inconsistent with the following special conditions.
+          The Vendor agrees to sell and the Purchaser agrees to purchase the Property described in the Particulars and on the terms of this agreement.`,
+        ],
+      },
+    ],
+  },
+  {
+    name: "Clauses",
+    options: [
+      {
+        father: "clausesContract",
+        name: "opcion 1",
+        value: [
+          `Clauses
+          1. RepresentationsThe Seller represents and warrants that the Property is free and clear of any liens, charged, encumbrances or rights of others which will not be satisfied out of the sales proceeds. If the representations of the Seller are untrue upon the Closing Date, the Purchaser may terminate any future agreement without penalty.
+          2. VALIDITY PERIOD OF THE AGREEMENTThis Agreement shall take effect on XXX [Day/Month/Year] and expireXXX [Day/Month/Year], both days inclusive.This Agreement shall commence on XXX [Day/Month/Year] and shall have a term of [1, 3, 6, 9, 12] months.
+          3. DUTIES OF THE AGENTIn addition to the duties incumbent on the Agent under this Agreement, the Agent shall:(a) Obtain all the information necessary for the sale of the Property.(b) Market the Property on behalf of the Vendor.(c) Arrange for purchasers to inspect the Property.(d) Conduct negotiations and submit all offers in relation to the Property to the Vendor.(e) Assist the Vendor in entering into a binding agreement for sale and purchase with a Purchaser.
+          4. PRICE OF THE PROPERTYThe price of the property shall be [insert amount and currency].This price may only be varied with written instructions of the Vendor and such instructions shall become part of this Agreement.The Vendor does not confer upon the Agent, by virtue of this Clause, the right to accept an offer on behalf of the Vendor. The price specified is for advertising and marketing of the property purposes only.
+          5. COMMISSIONif during the Validity Period of the Agreement the Vendor through the Agent enters into a binding Contract for sale and purchase of the Property, then the Vendor is liable to pay the Agent a commission of XXX % [insert percentage, usually between 1% and 5%] of the transacted price of the Property (taxes excluded).The commission shall be paid:Alternative A. Upon the signing of the sale and purchase contract.Alternative B. Upon completion of the Property transaction as specified in the contract for sale and purchase.XXX
+          Notices Clause In order to comply with their contractual obligations, the Parties establish the following address for the provision of notices related to this contract:- Party 1 [insert full address].- Party 2 [insert full address].
+          ANNEXESThe contracts incorporate some Annexes, each of them, referenced to the corresponding Clause.
+          Real Estate DisclosureThe Seller does not know of any material facts that would affect the value of the Property, except those observable by the Purchaser or know to the Seller and stated in this Contract.`,
+        ],
+      },
+      {
+        father: "clausesContract",
+        name: "opcion 2",
+        value: [
+          `Clauses
+          NOW THIS AGREEMENT WITNESSETH AS FOLLOWS:
+          1. The Sale consideration of the Schedule Property is fixed at XXX.
+          2. The PURCHASER has paid a sum of XXX by cash/ cheque / No XXX drawn on XXX dated XXX as advance, the receipt of which sum the SELLER hereby acknowledges.3. The balance payment of XXX will be paid by the PURCHASER to the SELLER at the time of execution of the absolute Sale Deed and thus completing the Sale transaction.
+          4. The parties herein covenant to complete the Sale transaction and to execute the Absolute Sale Deed by the end of XXX.
+          5. The SELLER confirms with the PURCHASER that he/she has not entered into any agreement for sale, mortgage or exchange whatsoever with any other person relating to the Schedule Property of this Agreement.
+          6. The SELLER hereby assures the PURCHASER and he/she has absolute power to convey the same and there are no encumbrances, liens, charges, Government dues, attachments, acquisition, or requisition, proceedings etc.
+          7. The SELLER agrees to put the purchaser in absolute and vacant possession of the schedule property after executing the sale deed and registering the same in the jurisdictional Sub-Registrar's office.
+          8. The SELLER covenants with the purchaser that he/she shall not do any act, deed or thing creating any charge, lien or encumbrance in respect of the schedule property during the subsistence of this Agreement.
+          9. The SELLER has specifically agreed and covenants with the PURCHASER that he/she shall do all acts, deeds and things which are necessary and requisite to convey absolute and marketable title in respect of the schedule property in favour of the PURCHASER or his nominee.
+          10. IT IS AGREED between the parties that all expenses towards Stamp Duty and Registration charges shall be borne by the PURCHASER only.
+          11. The PURCHASER shall have the right to nominate or assign his right under thisagreement to any person / persons of his choice and the SELLER shall execute theSale Deed as per terms and conditions of this Agreement in favour of thePURCHASER or his nominee or assignee.
+          12. The SELLER has agreed to get consent deed duly executed to this Sale transaction from his wife/her husband, sons and daughters on or before date of registration of Sale Deed and assured that they all join to execute sale deed in favor of the purchaser.
+          13. It is hereby expressly provided and agreed by the parties here to that both parties are entitled to enforce specific performance of the agreement against each other in case of breach of any conditions mentioned in this Agreement.
+          14. The original of the "AGREEMENT" signed by both the parties shall be with the PURCHASER and copy of the same similarly signed shall be with the SELLER`,
+        ],
+      },
+      {
+        father: "clausesContract",
+        name: "opcion 3",
+        value: [
+          `Clauses
+          SPECIAL CONDITIONS
+          A. Title is deduced and consists of as shown in Part I of the Schedule to this Agreement (“the Schedule”).
+          B. The property is sold subject to and with the benefit of the entries in the Registers of the Vendor's Title and the Purchaser having been supplied with copies of the entries is deemed to purchase with full knowledge of the entriesand shall raise no further enquiry or requisition.
+          C. In addition to the Purchase Price the Purchaser will pay the sums specified in Part 2 of the Schedule.
+          D. Possession will be given in accordance with the provisions of Part 3 of the Schedule.
+          E. The prescribed rate of interest payable under Conditions 2 and 9 of the Standard Conditions of Sale is XXX % per annum above the current Co-operative Bank Base Rate but with a minimum of XXX % per annum.
+          F. The Vendor will not be obliged to convey otherwise than to the Purchaser.
+          G. The Purchaser, having had the opportunity to inspect the Property personally or through agents and professional advisers, acknowledges that it is entering into this Contract solely in reliance on such inspection and not in reliance on any representation whether written oral or implied made by or on behalf of the Vendor other than written reply to the Purchaser’s Solicitors’ written enquiries.
+          H. The Buyer shall accept that vacant possession is the giving of the property notwithstanding that there may be unlawful occupiers, furniture and building materials and/or rubbish remaining therein. The Seller shall incur no liability whatsoever for the cost of their removal and the Buyer hereby fully indemnifies the Seller in respect of the same.
+          I. Notwithstanding that at the sole discretion of the Vendor the XXX % deposit may be waived or reduced on exchange of Contracts, in the event of the Purchaser failing to complete on the Completion Date then the full XXX % deposit (or the balance of) becomes immediately due and recoverable as a debt on demand.
+          J. This Contract does not merge into the Transfer in relation to any condition or liability remaining unfulfilled or which has not been performed observed or discharged.
+          K. The parties will complete a Transfer substantially in the form of the draftannexed to this Agreement.
+          L. For the avoidance of doubt nothing contained or implied in this Agreement prejudices or affects the Vendor’s rights powers duties and obligations or fetter its decisions in the exercise of its functions as a local authorityM. In this Agreement where the context admits the masculine gender includes the feminine gender and the singular includes the plural and vice versa.
+          SCHEDULEPart 11. Copies of the entries on the Register of the Vendors title XXX together with a copy of the filed plan2. Copies of all deeds referred to on the above mentioned Registers
+          Part 21. The Vendor's Surveyor's fees amounting to XXX % of the Purchase Price or a minimum sum of XXX whichever is the greater2. The Vendor's Solicitor's costs amounting to XXX % of the Purchase Price or a minimum sum of £XXX whichever is the greater
+          Part 3The sale is with vacant possession on completion.`,
+        ],
+      },
+    ],
+  },
+  {
+    name: "Closing Contract",
+    options: [
+      {
+        father: "footer",
+        name: "opcion 1",
+        value:
+          "Purchaser XXX Seller XXX",
+      },
+      {
+        father: "footer",
+        name: "opcion 2",
+        value: `SCHEDULEIN WITNESS WHEREOF the SELLER and the PURCHASER have signed this Agreement of Sale on the day month and year herein above mentioned in the presence of the witnesses:WITNESSES: XXX
+          1. XXX SELLER 
+          2. XXX PURCHAS`,
+      },
+      {
+        father: "footer",
+        name: "opcion 3",
+        value: `AS WITNESS the parties
+        SIGNED: XXXVendor's Principal Lawyer XXX Purchaser's Solicitor XXX`,
       },
     ],
   },
@@ -730,7 +916,7 @@ export const contractDrafterDE = [
 ];
 export const contractDrafterCA = [
   {
-    name: "Título",
+    name: "Títol",
     options: [
       {
         father: "title",
@@ -745,22 +931,17 @@ export const contractDrafterCA = [
       {
         father: "title",
         name: "opcion 3",
-        value: "Contracte de compravenda",
-      },
-      {
-        father: "title",
-        name: "opcion 4",
         value: "Compravenda de finca urbana amb condició suspensiva",
       },
       {
         father: "title",
-        name: "opcion 5",
+        name: "opcion 4",
         value: "Compravenda de finca urbana amb part de preu diferit",
       },
     ],
   },
   {
-    name: "Lugar",
+    name: "Lloc",
     options: [
       {
         father: "sumary",
@@ -790,7 +971,7 @@ export const contractDrafterCA = [
     ],
   },
   {
-    name: "Partes",
+    name: "Parts",
     options: [
       {
         father: "parts",
@@ -902,7 +1083,7 @@ export const contractDrafterCA = [
     ],
   },
   {
-    name: "Estipulaciones",
+    name: "Estipulacions",
     options: [
       {
         father: "clausesContract",
@@ -1046,7 +1227,7 @@ export const contractDrafterCA = [
     ],
   },
   {
-    name: "Cierre Contrato",
+    name: "Tancament Contracte",
     options: [
       {
         father: "footer",
@@ -1253,7 +1434,7 @@ export const stateForm = {
   input139: "",
   input140: "",
   //----------------------------
-   input141: "",
+  input141: "",
   input142: "",
   input143: "",
   input144: "",

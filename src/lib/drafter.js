@@ -308,15 +308,15 @@ export const contractDrafterARG = [
           SEGUNDA: (II- ESTADO DE LA FINCA) La FINCA se entregará en el estado de conservación como se encuentra, que el COMPRADOR declara conocer y aceptar.
           TERCERA: (III- DEUDAS REALES) 1- (impuestos y/o tasas y servicios) Quedarán n a cargo del VENDEDOR todas las deudas de la FINCA anteriores a la fecha de escrituración, sean XXX(al Consorcio de Propietarios por expensas comunes de la propiedad horizontal, a Aguas y Saneamientos Argentinos, tasas o impuestos inmobiliarios municipales, impuestos inmobiliariosprovinciales). 2- (asunción) A partir del día de escrituración, todos los gastos correrán por cuenta y cargo del COMPRADOR. 3- (titularidad) El COMPRADOR cambiará la titularidad delos mismos y a su costa, en el plazo máximo de XXX (XXX) días del acto de escrituración.
           CUARTA: (IV- TELEFONÍA) La FINCA se entregará con la línea telefónica en servicio con número XXX, que está abonada a XXX(Telecom/Telefónica de Argentina/Cooperativa Telefónica de XXX)y el VENDEDOR le cederá al COMPRADOR todos los derechos sobre ella.
-          QUINTA: (V- PRECIO) El precio total, fijo e inamovible de la FINCA será la suma de XXX (XXX)/dólares de los Estados Unidos de América XXX (XXX). El COMPRADOR entregará al VENDEDOR	con las modalidades siguientes: a) al contado y en este acto el XXX (XXX) por ciento, o sea la suma de XXX (XXX)/dólares de los Estados Unidos de América XXX (XXX)>, que el VENDEDOR recibe de conformidad y extiende por el presente suficiente recibo y carta de pago; b) el XXX (XXX) por ciento, por lo tanto la suma de XXX (XXX)/dólares de los Estados Unidos de
-          América XXX (XXX)>, contra la entrega de la posesión en el acto de firma de la escritura pública traslativa de dominio; c) el saldo restante, o sea el XXX (XXX) por ciento que correspondea la suma de XXX (XXX)/dólares de los Estados Unidos de América XXX (XXX)> lo pagará en el plazo de XXX (XXX) meses, con un interés XXX(mensual/anual), pagadero por período XXX (adelantado/vencido), del XXX (XXX) por ciento.
+          QUINTA: (V- PRECIO) El precio total, fijo e inamovible de la FINCA será la suma de XXX (XXX)/dólares de los Estados Unidos de América XXX (XXX). El COMPRADOR entregará al VENDEDOR	con las modalidades siguientes: a) al contado y en este acto el XXX (XXX) por ciento, o sea la suma de XXX (XXX)/dólares de los Estados Unidos de América XXX (XXX), que el VENDEDOR recibe de conformidad y extiende por el presente suficiente recibo y carta de pago; b) el XXX (XXX) por ciento, por lo tanto la suma de XXX (XXX)/dólares de los Estados Unidos de
+          América XXX (XXX), contra la entrega de la posesión en el acto de firma de la escritura pública traslativa de dominio; c) el saldo restante, o sea el XXX (XXX) por ciento que correspondea la suma de XXX (XXX)/dólares de los Estados Unidos de América XXX (XXX) lo pagará en el plazo de XXX (XXX) meses, con un interés XXX(mensual/anual), pagadero por período XXX (adelantado/vencido), del XXX (XXX) por ciento.
           SEXTA: (VI- POSESIÓN Y ESCRITURA) 1- La entrega de la posesión, firma de la escritura pública traslativa de dominio y constitución de la hipoteca, se realizará en el plazo
           máximo de XXX (XXX) días, con la intervención del escribano público XXX, designado por el VENDEDOR. 2- Los gastos y honorarios que demandare la escrituración serán a cargo del COMPRADOR,
           salvo los impuestos que por ley recaigan sobre el VENDEDOR. 
           SEPTIMA: (VII- ESTADO A LA ENTREGA) La FINCA se deberá entregar: a- totalmente desocupada y libre de toda ocupación; b- en XXX(buenas condiciones/perfecto estado) de limpieza; c- con latotalidad de las cosas que la integran.
           OCTAVA: (VIII- ASENTIMIENTO DEL CÓNYUGE) El cónyuge del VENDEDOR presta su asentimiento y también suscribe al pie este instrumento (art. 470 CCyC).
           NOVENA: (IX- INTERMEDIACIÓN) Las partes
-          declaran que para la celebración del presente acto XXX(tuvo intervención la Inmobiliaria XXX; no intermedió persona alguna XXXpropiedades>).
+          declaran que para la celebración del presente acto XXX(tuvo intervención la Inmobiliaria XXX; no intermedió persona alguna XXXpropiedades).
           UNDÉCIMA: (XI- SELLADOS O TIMBRES) El impuesto de sellos o timbres que gravare el acto será a cargo de XXX(COMPRADOR/VENDEDOR/las partes por mitades o en proporciones distintas).
           DUODÉCIMA: (XII- DOMICILIOS) Para cualesquiera notificaciones derivadas del presente, las partes constituyen los domicilios especiales siguientes: a) el VENDEDOR en XXX; b) el COMPRADORen XXX; donde tendrán eficacia todas las que se realicen.
           DECIMOTERCIA: (XIII- COMPETENCIA JUDICIAL) En caso de litigio, las partes se someterán exclusivamente a la competencia de los tribunales ordinarios de XXX, renunciando a cualesquieraotras que pudieran corresponderles.
@@ -487,7 +487,7 @@ export const contractDrafterFR = [
 ];
 export const contractDrafterIT = [
   {
-    name: "Título",
+    name: "Titolo",
     options: [
       {
         father: "title",
@@ -517,220 +517,490 @@ export const contractDrafterIT = [
       {
         father: "sumary",
         name: "opcion 1",
-        value: "En XXX, a XXX de XXX del XXX",
-      },
-      {
-        father: "sumary",
-        name: "opcion 2",
-        value: "En la ciudad de XXX, a XXX. de XXX. de XXX",
+        value: "Luogo XXX, data XXX",
       },
     ],
   },
   {
-    name: "Partes",
+    name: "Parti",
     options: [
       {
         father: "parts",
         name: "opcion 1",
-        value: `De un lado la parte vendedora, D XXX, mayor de edad, con
-          domicilio en XXX, con DNI nº XXX casado en régimen de comunidad de
-          gananciales con Dª.XXX, mayor de edad, con domicilio en XXX, y con
-          DNI nº XXX. Y de otro la parte compradora, DXXX, mayor de edad,
-          con domicilio en XXX, de estado civil soltero y con DNI nº XXX.
-          Ambas partes tienen y se reconocen la capacidad legal necesaria
-          para el otorgamiento del presente contrato , y a tal fin.`,
+        value: `Tra XXX, nato/a il XXX a XXX e residente in XXX via XXX n. XXX (c.f. XXX ) (di seguito denominato promittente venditore)eX nato/a il XXX a XXX e residente in XXX via XXX n. XXX (c.f. XXX) (di seguito denominato promissario acquirente)`,
       },
       {
         father: "parts",
         name: "opcion 2",
-        value: `DE UNA PARTE: D. XXX. y Dª XXX, mayores de edad, cónyuges,
-          con domicilio en XXX, calle XXX, nº XXX, y cuyos números de Documento
-          Nacional de Identidad son los XXX. y XXX, respectivamente, en adelante
-          los VENDEDORES;
-          Y DE OTRA PARTE: D. XXX, XXX, mayor de edad, y con domicilio en XXX,
-          calle XXX. nº XXX, provisto del DNI nº XXX, en adelante el COMPRADOR.
-          INTERVIENEN: Todos en su propio nombre y derecho. Ambas partes
-          se reconocen
-          mutuamente la capacidad legal necesaria para el otorgamiento y firma del presente contrato
-          de compraventa, para lo cual,`,
+        value: `Il giorno XXX in XXX innanzi al Notaio XXX sono presentiPer la parte venditrice:XXX, nata il XXX, a XXX ed ivi residente alla Via XXX; C.F. XXXXXX, nata il XXX, a XXX ed ivi residente in Via di XXX, C.F.: XXX denominate a volte “parte venditrice” o “venditrice”ePer la parta acquirente:XXX nata il XXX, a XXX ed ivi residente in Via XXXC.F.: XXX denominata “acquirente” o “parte acquirente”`,
       },
       {
         father: "parts",
         name: "opcion 3",
-        value: `de una parte como compradora D/ña. XXX, mayor de edad, de estado civil XXX, con DNI. Nº XXX, y con 
-          domicilio en la ciudad de XXX, C/ XXXY de otra como parte vendedora D/ña. XXX, mayor de edad, de estado civil XXX, 
-          con DNI Nº XXX. y con domicilio en la ciudad de XXX, C/ XXX
-          INTERVIENEN Las dos partes en su propio nombre y derecho como comprador y vendedor respectivamente. Ambas partes tienen 
-          plena capacidad legal para concurrir a este acto según manifiestan y, recíprocamente, se reconocen y`,
+        value: `Con la presente scrittura privata, da valere a ogni effetto di legge, i signori:- XXX, nato a XXX il giorno XXX, residente a XXX, via XXX n. XXX, codice fiscale XXX, di stato civile XXX, in prosieguo denominata anche “Parte Promittente Venditrice”;- XXX, nato a XXX il giorno XXX, residente a XXX, via XXX n. XXX, codice fiscale XXX, di stato civile XXX, in prosieguo denominato anche “Parte Promissaria Acquirente”, convengono e stipulano quanto segue.`,
+      },
+    ],
+  },
+  {
+    name: "Estipulaciones",
+    options: [
+      {
+        father: "clausesContract",
+        name: "opcion 1",
+        value: [
+          `1.Oggetto del contrattoXXX si obbliga a cedere e vendere a XXX, che si obbliga ad acquistare per sé, persona, impresa o ente da nominare al momento della stipula del definitivo, l’intera piena proprietà dell’
+          unità immobiliare sita nel Comune di XXX, via XXX n. XXX, costituita da XXX al piano XXX, con relativi accessori e pertinenze, il tutto
+          così distinto in catasto:CATASTO FABBRICATI XXX COMUNE DI XXX SEZIONE XXX FOGLIO XXX Mappale XXX Subalterno XXX, classe XXX, categoria XXX, rendita catastale XXX vani o superficie XXX
+          PARTI COMUNI: nella promessa vendita è pure compresa la quota di comproprietà sulle parti comuni al fabbricato di cui è di compendio quanto in oggetto e così su quanto previsto in comune dagli artt. 1117 e ss.c.c., per destinazione o per titolo.
+          
+          2.Garanzie della Parte Promittente VenditriceLa Parte Promittente Venditrice garantisce la piena proprietà dell’immobile de quo, l’agibilità, la sua disponibilità e la sua libertà da pesi, vincoli, oneri, iscrizioni e trascrizioni pregiudizievoli.
+          
+          3.Dichiarazioni urbanistiche e di conformità amministrativaI) IPOTESI -IMMOBILI REALIZZATI ANTE 1° SETTEMBRE 1967Per quanto possa occorrere, benché il presente contratto non abbia natura traslativa o costitutiva di diritti reali, LA PARTE PROMITTENTE VENDITRICE DICHIARA, ai sensi della vigente normativa urbanistica ed edilizia, CHE LE OPERE DI COSTRUZIONE DEL FABBRICATO IN OGGETTO SONO INIZIATE IN DATA ANTERIORE AL GIORNO 1° SETTEMBRE 1967 (ipotesi eventuale) e che successivamente ilComune di XXX ha rilasciato i seguenti provvedimenti:-concessione XXX;-sanatoria XXX.II) IPOTESI -IMMOBILI REALIZZATI POST 1° SETTEMBRE 1967LA PARTE VENDITRICE, ai sensi della vigente normativa urbanistica ed edilizia, DICHIARA che il fabbricato di cui quanto in oggetto costituisce porzione è stato edificato in forza e in conformità ai seguenti provvedimenti rilasciati dal Comune di XXX:- n. XXX in data XXX protocollo n. XXX;- variante in corso lavori n. XXX in data XXX protocollo n. XXX;- D.I.A. (Dichiarazione di Inizio Attività) in data protocollo n XXX.Il fabbricato è stato dichiarato agibile con provvedimento in data XXX protocollo n. XXX (inizio lavori in data XXX e fine lavori in data XXX ).Dichiara e garantisce da ultimo che quanto in oggetto è immune da vizi per i quali siano stati adottati provvedimenti sanzionatori ai sensi dell’art. 41 legge 1150/1942 e successive modifiche e integrazioni o per i quali dovesse richiedersi concessione o autorizzazione in sanatoria ai sensi della legge 47/1985 e successive modificazioni e integrazioni e leggi successive e che pertanto l’immobile deve ritenersi conforme e in regola con la normativa urbanistica ed edilizia.
+          
+          4.Stipula dell’atto definitivo di compravenditaL’atto notarile definitivo di compravendita dovrà essere stipulato entro e non oltre il giorno a ministero di notaio a scelta di Parte Promissaria Acquirente (con preavviso da comunicarsi alla PartePromittente Venditrice almeno venti giorni prima della data stabilita per l’atto notarile) e contestualmente al rogito la Parte Promissaria Acquirente sarà immessa nel possesso e detenzione dell’immobile.Le Parti dichiarano che l’utilità economica del contratto e l’interesse alla stipula del medesimo andranno perduti con l’inutile decorso del termine, che dichiarano quindi essere essenziale.La Parte Promittente Venditrice si obbliga a produrre al notaio che sarà incaricato tutta la documentazione necessaria per l’istruzione della pratica almeno venti giorni prima della data come sopra stabilita per il rogito e, ai sensi di quanto disposto dall’art. 19, comma 14, d.l. 31 maggio 2010, n. 78, pubblicato in Gazzetta Ufficiale n. 125, Serie generale del 31 maggio 2010, convertito con modificazioni dalla legge 30 luglio 2010, n. 122, (pubblicato in Gazzetta Ufficiale n. 176, Suppl. Ord. 174/L del 30 luglio 2010) si impegna a ottemperare a quanto necessario, ove ne ricorra il caso, per far constare la conformità allo stato di fatto dei dati catastali e delle planimetrie nonché l’allineamento degli intestatari catastali e con le risultanze dei registri immobiliari.
+          
+          5.Caparrae ripartizione delle spese dell’atto definitivo
+          Al momento della stipula del contratto notarile definitivo le somme versate a titolo di caparra confirmatoria saranno computate in conto prezzo dell’immobile.
+          Le spese, imposte e tasse per l’atto notarile definitivo saranno a carico della Parte Promissaria Acquirente a eccezione delle spese eventualmente tecniche, connesse e dipendenti che saranno a carico della Parte Promittente Venditrice e salvo quanto altro per legge.
+          
+          6.Prezzoe pagamento
+          Il prezzo della vendita viene convenuto e accettato dalle Parti nella somma di euro XXX ed è regolato come segue:
+          euro XXX a titolo di caparra confirmatoria, sono stati versati già prima d’ora dalla parte promissaria acquirente alla parte promittente venditrice a mezzo degli assegni circolari infra citati e per detto e tanto importo la Parte Promittente Venditrice rilascia corrispondente quietanza; euro XXX ancora dovuti a saldo, dovranno essere pagati, a mezzo di assegni circolari/bonifico bancario e nel rispetto della normativa valutaria vigente, contestualmente alla sottoscrizione del contratto notarile definitivo di compravendita.
+          
+          7.Misure di contrasto dell’evasione e dell’elusione fiscalePer quanto occorrer possa, in ottemperanza a quanto disposto dall’art. 35, comma 22, d.l. 4 luglio 2006, n. 223, convertito nella legge 248/2006, LE PARTI DICHIARANO:A) LA PARTE PROMITTENTE VENDITRICE: «che la presente compravendita è stata conclusa con l’intervento, quale mediatore, ai sensi degli artt. 1754 ss. c.c., dell’Agenzia XXX, con sede in XXX, partita IVA XXX, legale rappresentante signor XXX, nato a il giorno XXX, codice fiscale XXX, iscritto/a al n. nella Sezione degli Agenti immobiliari presso il XXX Ruolo mediatori della Camera di Commercio di XXX ovvero, ai sensi del d.lgs. 59/2010 e della legge 122/2010, al n. del Registro Imprese/REA della Camera di Commercio di XXX, dal XXX, la quale ha percepito da parte di essa promittente venditrice a titolo di provvigione e di rimborso spese la complessiva somma di euro XXX, IVA compresa, a mezzo di assegno bancario non trasferibile n. XXX, emesso dalla banca XXX, in data XXX, tratto sul c/c n. XXX, intestato a XXX»;B) LA PARTE PROMISSARIA ACQUIRENTE: «che la presente compravendita è stata conclusa con l’intervento, quale mediatore, ai sensi degli artt. 1754 ss. c.c. dell’Agenzia XXX, con sede in XXX, partita IVA XXX, legale rappresentante signor XXX, nato a XXX il giorno XXX, codice fiscale XXX, iscritto/a al n. XXX nella Sezione degli Agenti immobiliari presso il Ruolo mediatori della Camera di Commercio di ovvero, ai sensi del d.lgs. 59/2010 e della legge 122/2010, al n. XXX del Registro Imprese/REA della Camera di Commercio di XXX , dal , la quale ha percepito da parte di essa promissaria acquirente a titolo di provvigione e di rimborso spese la complessiva somma di XXX euro, IVA compresa, a mezzo di assegno bancario non trasferibile n. XXX, emesso dalla banca XXX, in data XXX, tratto sul c/c n. XXX, intestato a XXX»;C) LA PARTE PROMITTENTE VENDITRICE E LA PARTE PROMISSARIA ACQUIRENTE: «che la caparra confirmatoria di cui sopra detto è stata regolata a mezzo di: assegno circolare non trasferibile n. XXX, emesso dalla banca XXX, in data XXX, tratto sul c/c n. XXX, intestato a XXX»;
+          
+          8.Clausola risolutiva espressaTutte le clausole, gli elementi, obblighi e oneri e quant’altro contenuti nel presente atto si intendono elementi essenziali a cui è subordinato l’acquisto e la mancanza o la non osservanza anche di uno solo di tali requisiti produrrà ipso iure la risoluzione del contratto ex art. 1456 e ss. c.c., dando luogo alle responsabilità conseguenti.
+          
+          9.Ripartizione delle spese dell’atto preliminare di compravendita In considerazione di quanto stabilito dalla normativa vigente in ordine alla solidarietà tributaria del mediatore per il pagamento delle imposte e tasse relative alla registrazione del presente contratto preliminare, le Parti conferiscono mandato all’Agenzia, e per essa al suo legale rappresentante, affinché ne curi la registrazione per loro conto, versando alla stessa le relative somme che si quantificano in euro. Le spese del presente contratto inerenti e conseguenti sono a carico della Parte Promissaria Acquirente, salvo solo quanto per legge diversamente stabilito.
+          
+          10.Clausola di risoluzione delle controversieTutte le controversie nascenti dal presente contratto saranno devolute a un tentativo di conciliazione pressol’Organismo di mediazione delle Camere di Commercio die risolte secondo ilRegolamento da questa adottato.
+          
+          11.Riservatezza dei dati personaliLe Parti si autorizzano reciprocamente a comunicare a terzi i propri dati personali in relazione ad adempimenti connessi con il rapporto in oggetto.`,
+        ],
+      },
+      {
+        father: "clausesContract",
+        name: "opcion 2",
+        value: [
+          `ESTIPULACIONES
+          Con la presente scrittura privata, a valersi fra le parti a tutti gli effetti di legge, i predetti convengono e stipulano che il promittente venditore è proprietario del seguente bene così identificato
+          XXX descrizione del bene, con indicazione di ogni dato utile per la sua individuazione
+          il promittente venditore promette di vendere al promissario acquirente che promette di acquistare il sopra descritto bene al prezzo di euro XXX (indicare in cifre e in lettere)
+          il venditore dichiara che il bene ceduto è libero da qualsiasi vincolo, pignoramento o ipoteca
+          il bene sarà venduto nello stato di fatto e di diritto in cui si trova e il trasferimento di proprietà avverrà con (indicare la forma del contratto, es. scrittura privata o atto notarile) da stipularsi entro e non oltre il XXX termine che le parti dichiarano essere essenziale.il pagamento del prezzo, la consegna del bene e l’immissione nel possesso avverranno XXX (indicare data o evento dal quale scaturirà il pagamento del prezzo concordato)
+          Al momento della firma della presente scrittura viene versata una caparra anticipo altro di euro XXX (eventuale)`,
+        ],
+      },
+      {
+        father: "clausesContract",
+        name: "opcion 3",
+        value: [
+          `ESTIPULACIONES
+          Io notaio sono certo dell’identità personale delle parti che convengono e stipulano quanto segue:
+            `,
+          `Art. 1
+          A e B vendono a C che acquista diritti pari a 2/3 (1/3 pari all’intera quota di proprietà della sig.ra A ed 1/3 pari all’intera quota di proprietà della sig.ra B) della piena proprietà sulla porzione di fabbricato destinato a civile abitazione sito in Comune di XXX, Via XXX e precisamente:
+          -appartamento posto al piano XXX, distinto con il numero interno XXX, composto di XXX camere ed accessori, confinante con Via XXX, proprietà XXX o suoi aventi causa, salvo altri;-cantina posta al piano seminterrato distinta con la lettera XXX, confinante con proprietà XXX o suoi aventi causa, salvo altri;-garage distinto con il numero XXX, avente accesso da Via XXX, confinante con proprietà XXX o aventi causa, proprietà XXX o suoi aventi causa, Via XXX, salvo altri;`,
+
+          `Art. 2
+           La parte venditrice garantisce che le quote vengono cedute libere da ogni affittanza, nello stato di fatto e di diritto in cui si trovano, comunque libere da vincoli, ipoteche o altre trascrizioni pregiudizievoli al diritto di proprietà, e ne garantisce tanto la piena proprietà quanto la legittima provenienza;`,
+          `CUARTA: OTORGAMIENTO DE ESCRITURA PÚBLICA. Las partes se obligan a otorgar escritura pública de compraventa en el plazo de XXX días a contar desde la fecha del presente contrato ante el Notario designado por la parte compradora. Para ello, la parte compradora comunicará a la vendedora con una antelación mínima de XXX días, el lugar, la fecha y la hora donde habrá de otorgarse escritura pública.Aportará el vendedor en el momento 
+            del otorgamiento de la escritura el último recibo del Impuesto de bienes inmuebles y certificado de la comunidad de propietarios en el que se indique que dicho inmueble se encuentra al corriente de pagos por todos los conceptos, así como el título que justifique la propiedad del inmueble y nota registral de la vivienda en la que se refleje la inexistencia de cargas y gravámenes al momento del otorgamiento de la escritura.
+            `,
+          `Art. 3
+          Il prezzo di vendita viene fissato in € XXX (XXX euro), rispettivamente euro XXX (XXX euro)
+          da corrispondere alla sig.ra A, ed euro XXX (XXX euro) da corrispondere alla sig.ra B, defalcati da tale cifra complessiva la somma di euro XXX, già corrisposta a ciascuna parte venditrice; pertanto restano da corrispondere nel seguente modo:Quanto a € XXX che vengono oggi corrisposte alla sig.ra XXX (venditrice) a mezzo assegno circolare n. XXX tratto su XXX e che rilascia con la firma del presente atto ampia e liberatoria quietanza di pagamento;Quanto a € XXX che vengono oggi corrisposte alla sig.ra XXX (venditrice) a mezzo assegno circolare n. XXX tratto su XXX e che rilascia con la firma del presente atto ampia e liberatoria quietanza di pagamento;`,
+          `Art. 4
+          La vendita è a corpo con tutti i connessi diritti, accessori, accessioni, pertinenze inerenti, i proporzionali diritti sui beni comuni per legge, servitù attive e passive.
+            `,
+          `Art. 5
+          Il possesso e il materiale godimento dell’immobile in contratto vengono formalmente trasferiti in capo all’acquirente con la stipula del presente atto. `,
+          `OCTAVA: DOMICILIO A EFECTO DE NOTIFICACIONES. Las partes señalan como domicilio a efecto de notificaciones el señalado para cada una de ellas en el encabezamiento de este contrato. Tendrán obligación las partes de notificarse mutuamente cualquier cambio que se produzca de domicilio, en el plazo de XXX días desde que éste se produzca.
+            `,
+          `Art. 6
+          La parte venditrice dichiara che 
+          a) relativamente al suddetto immobile non esistono arretrati di imposte, tasse e contributi di alcun genere, né sono pendenti pignoramenti, sequestri o altre procedure di natura civile, penale o amministrativa.
+          b) in relazione all’unità immobiliare non esiste e non è stato costituito alcun condominio.`,
+        ],
+      },
+    ],
+  },
+  {
+    name: "Cierre Contrato",
+    options: [
+      {
+        father: "footer",
+        name: "opcion 1",
+        value: `Letto, approvato e sottoscritto
+        Firma delle parti`
+      },
+      {
+        father: "footer",
+        name: "opcion 2",
+        value: 
+          `Interamente letto, confermato e sottoscritto in duplice originale.
+          Il venditore XXXIl venditore XXXL’acquirente XXX
+          I sottoscritti dichiarano di aver preso conoscenza di tutto quanto precede e in particolare, ai sensi e per effetti di cui all’art. 1341 cod. civ. i seguenti articoli:art. 1)art.2)art. 3)art. 4)
+          Il venditore XXXIl venditore XXXL’acquirente XXX`,
+      },
+      {
+        father: "footer",
+        name: "opcion 3",
+        value: `Letto, firmato e sottoscritto
+        PROMITTENTE VENDITRICE XXX PARTE PROMISSARIA ACQUIRENTE XXX`
       },
     ],
   },
 ];
 export const contractDrafterUK = [
   {
-    name: "Título",
+    name: "Title",
     options: [
       {
         father: "title",
         name: "opcion 1",
-        value: "CONTRATO DE COMPRAVENTA DE VIVIENDAzzzz",
+        value: "CONTRACT OF PURCHASE AND SALE",
       },
       {
         father: "title",
         name: "opcion 2",
-        value: "CONTRATO DE ALQUILER DE VIVIENDA",
+        value: "AGREEMENT FOR SALE",
       },
       {
         father: "title",
         name: "opcion 3",
-        value: "Contrato de compraventa de bien inmueble",
-      },
-      {
-        father: "title",
-        name: "opcion 4",
-        value: "CONTRATO DE COMPRAVENTA ENTRE PARTICULARES",
+        value: "DRAFT AGREEMENT FOR SALEby reference to the Standard Commercial Property Conditions (2nd Edition)",
       },
     ],
   },
   {
-    name: "Lugar",
+    name: "Pleace",
     options: [
       {
         father: "sumary",
         name: "opcion 1",
-        value: "En XXX, a XXX de XXX del XXX",
+        value: "This purchase ande sale agreement is entered into this day of XXX 20XXX",
       },
       {
         father: "sumary",
         name: "opcion 2",
-        value: "En la ciudad de XXX, a XXX. de XXX. de XXX",
+        value: "THIS AGREEMENT FOR SALE is made and executed on this the day of XXX, XXX",
       },
     ],
   },
   {
-    name: "Partes",
+    name: "Parts",
     options: [
       {
         father: "parts",
         name: "opcion 1",
-        value: `De un lado la parte vendedora, D XXX, mayor de edad, con
-          domicilio en XXX, con DNI nº XXX casado en régimen de comunidad de
-          gananciales con Dª.XXX, mayor de edad, con domicilio en XXX, y con
-          DNI nº XXX. Y de otro la parte compradora, DXXX, mayor de edad,
-          con domicilio en XXX, de estado civil soltero y con DNI nº XXX.
-          Ambas partes tienen y se reconocen la capacidad legal necesaria
-          para el otorgamiento del presente contrato , y a tal fin.`,
+        value: `Mr. XXX of legal age XXX, holder Identify Card XXX and resident in XXX and Mrs. XXX of legal age XXX, holder of Identify Card XXX and resident in XXX (the Sellers)ANDMr. XXX of legal age XXX, 
+        holder Identify Card XXX and resident in XXX and Mrs. XXX of legal age XXX, holder of Identify Card XXX and resident in XXX (the Purchasers)Mr./Ms. XXX [insert full name, address and tax number] ("the Vendor), 
+        appoint Mr./Ms. XXX [insert full name, address, fiscal number and professional qualification, if necessary] ("the Agent"), subject to and in accordance with the terms and conditions of this Agreement, to act as his/her XXX [exclusive or non- exclusive] 
+        Agent in the marketing and sale of the real estate property located in/atXXX [insert address town and country] whose information is provided in Annex 1 (Property Information Form) of this Agreement.Mr./Ms. [insert full name, address and fiscal tax number]("the Vendor), 
+        appoint [insert company legal name] whose registered officeis at XXX [address, city and country] and registration/tax number isXXX, represented by XXX [surname and firstname, position] ("the Agent), subject to and in accordance with the terms and conditions of this Agreement, 
+        to act as his/her XXX [exclusive or non-exclusive] Agent in themarketing and sale of the real estate property located in/at XXXXXX [insert address, town and country] whoseinformation is provided in Annex 1 (Property Information Form) of this Agreement.`,
       },
       {
         father: "parts",
         name: "opcion 2",
-        value: `DE UNA PARTE: D. XXX. y Dª XXX, mayores de edad, cónyuges,
-          con domicilio en XXX, calle XXX, nº XXX, y cuyos números de Documento
-          Nacional de Identidad son los XXX. y XXX, respectivamente, en adelante
-          los VENDEDORES;
-          Y DE OTRA PARTE: D. XXX, XXX, mayor de edad, y con domicilio en XXX,
-          calle XXX. nº XXX, provisto del DNI nº XXX, en adelante el COMPRADOR.
-          INTERVIENEN: Todos en su propio nombre y derecho. Ambas partes
-          se reconocen
-          mutuamente la capacidad legal necesaria para el otorgamiento y firma del presente contrato
-          de compraventa, para lo cual,`,
+        value: `BETWEENMr. XXX s/o. XXX aged XXX years residing at XX hereinafter called the "SELLER" (which expression shall mean and include her legal heirs, successors, successors-in-interest, executors, administrators, legal representatives, attorneys and assigns) 
+        of ONE PART.ANDMr. XXX s /o XXX aged¬ XXX years residing at XXX hereinafter called the "PURCHASER" (represented by his power of attorney ) which expression shall mean and include his heirs, successors, executors, administrators, legal representatives, attorneys and assigns of the OTHER PART.`,
       },
       {
         father: "parts",
         name: "opcion 3",
-        value: `de una parte como compradora D/ña. XXX, mayor de edad, de estado civil XXX, con DNI. Nº XXX, y con 
-          domicilio en la ciudad de XXX, C/ XXXY de otra como parte vendedora D/ña. XXX, mayor de edad, de estado civil XXX, 
-          con DNI Nº XXX. y con domicilio en la ciudad de XXX, C/ XXX
-          INTERVIENEN Las dos partes en su propio nombre y derecho como comprador y vendedor respectivamente. Ambas partes tienen 
-          plena capacidad legal para concurrir a este acto según manifiestan y, recíprocamente, se reconocen y`,
+        value: `PARTICULARS1. (i) Vendor XXX(ii) Selling Full Title Guarantee2. Purchaser`,
+      },
+    ],
+  },
+  {
+    name: "Expose",
+    options: [
+      {
+        father: "clausesClient",
+        name: "opcion 1",
+        value: [
+          `EXPOSE
+          WHEREAS THE SELLER is the absolute owner in possession and enjoyment of themore fully described in the schedule hereunder and hereafter called the "SCHEDULE PROPERTY.
+          WHEREAS the property more fully described in the schedule hereunder is the self acquired property of the SELLER who purchased the same from XXX in and by sale deed dated XXX and registered as Doc. No. XXX of Book XXX Volume No XXX Pages XXX to XXX registered on XXX and filed on the file of the Sub-Registrar,
+          WHEREAS the SELLER is the absolute owner of the property and he has been enjoying the same with absolute right and he has clear and marketable title to the Schedule Property
+          WHEREAS the SELLER being in need of funds for the purpose of has decided to sell the property more fully described in the Schedule hereunder and the PURCHASER has offered to purchase the same.
+          WHEREAS the SELLER offered to sell and transfer the schedule property to the PURCHASER for a sale consideration of XXX and the PURCHASER herein has agreed to purchase the same for the aforesaid consideration on the following terms and conditions:`,
+        ],
+      },
+      {
+        father: "clausesClient",
+        name: "opcion 2",
+        value: [
+          `EXPOSE
+          3. Price £ XXX
+          4. Description of Property and interest soldThe freehold title of the property known as XXX and for the purposes of identification only shown edged red on the plan attached to this Agreement
+          5. Vendor’s enabling power[Housing Act XXX]
+          6. Completion Date On the XXX day of XXX XXX at the office ofthe Vendor’s Principal Lawyer, XXX
+          The Standard Commercial Property Conditions (Second Edition) are deemed to be incorporated in this Agreement as far as they are not inconsistent with the following special conditions.
+          The Vendor agrees to sell and the Purchaser agrees to purchase the Property described in the Particulars and on the terms of this agreement.`,
+        ],
+      },
+    ],
+  },
+  {
+    name: "Clauses",
+    options: [
+      {
+        father: "clausesContract",
+        name: "opcion 1",
+        value: [
+          `Clauses
+          1. RepresentationsThe Seller represents and warrants that the Property is free and clear of any liens, charged, encumbrances or rights of others which will not be satisfied out of the sales proceeds. If the representations of the Seller are untrue upon the Closing Date, the Purchaser may terminate any future agreement without penalty.
+          2. VALIDITY PERIOD OF THE AGREEMENTThis Agreement shall take effect on XXX [Day/Month/Year] and expireXXX [Day/Month/Year], both days inclusive.This Agreement shall commence on XXX [Day/Month/Year] and shall have a term of [1, 3, 6, 9, 12] months.
+          3. DUTIES OF THE AGENTIn addition to the duties incumbent on the Agent under this Agreement, the Agent shall:(a) Obtain all the information necessary for the sale of the Property.(b) Market the Property on behalf of the Vendor.(c) Arrange for purchasers to inspect the Property.(d) Conduct negotiations and submit all offers in relation to the Property to the Vendor.(e) Assist the Vendor in entering into a binding agreement for sale and purchase with a Purchaser.
+          4. PRICE OF THE PROPERTYThe price of the property shall be [insert amount and currency].This price may only be varied with written instructions of the Vendor and such instructions shall become part of this Agreement.The Vendor does not confer upon the Agent, by virtue of this Clause, the right to accept an offer on behalf of the Vendor. The price specified is for advertising and marketing of the property purposes only.
+          5. COMMISSIONif during the Validity Period of the Agreement the Vendor through the Agent enters into a binding Contract for sale and purchase of the Property, then the Vendor is liable to pay the Agent a commission of XXX % [insert percentage, usually between 1% and 5%] of the transacted price of the Property (taxes excluded).The commission shall be paid:Alternative A. Upon the signing of the sale and purchase contract.Alternative B. Upon completion of the Property transaction as specified in the contract for sale and purchase.XXX
+          Notices Clause In order to comply with their contractual obligations, the Parties establish the following address for the provision of notices related to this contract:- Party 1 [insert full address].- Party 2 [insert full address].
+          ANNEXESThe contracts incorporate some Annexes, each of them, referenced to the corresponding Clause.
+          Real Estate DisclosureThe Seller does not know of any material facts that would affect the value of the Property, except those observable by the Purchaser or know to the Seller and stated in this Contract.`,
+        ],
+      },
+      {
+        father: "clausesContract",
+        name: "opcion 2",
+        value: [
+          `Clauses
+          NOW THIS AGREEMENT WITNESSETH AS FOLLOWS:
+          1. The Sale consideration of the Schedule Property is fixed at XXX.
+          2. The PURCHASER has paid a sum of XXX by cash/ cheque / No XXX drawn on XXX dated XXX as advance, the receipt of which sum the SELLER hereby acknowledges.3. The balance payment of XXX will be paid by the PURCHASER to the SELLER at the time of execution of the absolute Sale Deed and thus completing the Sale transaction.
+          4. The parties herein covenant to complete the Sale transaction and to execute the Absolute Sale Deed by the end of XXX.
+          5. The SELLER confirms with the PURCHASER that he/she has not entered into any agreement for sale, mortgage or exchange whatsoever with any other person relating to the Schedule Property of this Agreement.
+          6. The SELLER hereby assures the PURCHASER and he/she has absolute power to convey the same and there are no encumbrances, liens, charges, Government dues, attachments, acquisition, or requisition, proceedings etc.
+          7. The SELLER agrees to put the purchaser in absolute and vacant possession of the schedule property after executing the sale deed and registering the same in the jurisdictional Sub-Registrar's office.
+          8. The SELLER covenants with the purchaser that he/she shall not do any act, deed or thing creating any charge, lien or encumbrance in respect of the schedule property during the subsistence of this Agreement.
+          9. The SELLER has specifically agreed and covenants with the PURCHASER that he/she shall do all acts, deeds and things which are necessary and requisite to convey absolute and marketable title in respect of the schedule property in favour of the PURCHASER or his nominee.
+          10. IT IS AGREED between the parties that all expenses towards Stamp Duty and Registration charges shall be borne by the PURCHASER only.
+          11. The PURCHASER shall have the right to nominate or assign his right under thisagreement to any person / persons of his choice and the SELLER shall execute theSale Deed as per terms and conditions of this Agreement in favour of thePURCHASER or his nominee or assignee.
+          12. The SELLER has agreed to get consent deed duly executed to this Sale transaction from his wife/her husband, sons and daughters on or before date of registration of Sale Deed and assured that they all join to execute sale deed in favor of the purchaser.
+          13. It is hereby expressly provided and agreed by the parties here to that both parties are entitled to enforce specific performance of the agreement against each other in case of breach of any conditions mentioned in this Agreement.
+          14. The original of the "AGREEMENT" signed by both the parties shall be with the PURCHASER and copy of the same similarly signed shall be with the SELLER`,
+        ],
+      },
+      {
+        father: "clausesContract",
+        name: "opcion 3",
+        value: [
+          `Clauses
+          SPECIAL CONDITIONS
+          A. Title is deduced and consists of as shown in Part I of the Schedule to this Agreement (“the Schedule”).
+          B. The property is sold subject to and with the benefit of the entries in the Registers of the Vendor's Title and the Purchaser having been supplied with copies of the entries is deemed to purchase with full knowledge of the entriesand shall raise no further enquiry or requisition.
+          C. In addition to the Purchase Price the Purchaser will pay the sums specified in Part 2 of the Schedule.
+          D. Possession will be given in accordance with the provisions of Part 3 of the Schedule.
+          E. The prescribed rate of interest payable under Conditions 2 and 9 of the Standard Conditions of Sale is XXX % per annum above the current Co-operative Bank Base Rate but with a minimum of XXX % per annum.
+          F. The Vendor will not be obliged to convey otherwise than to the Purchaser.
+          G. The Purchaser, having had the opportunity to inspect the Property personally or through agents and professional advisers, acknowledges that it is entering into this Contract solely in reliance on such inspection and not in reliance on any representation whether written oral or implied made by or on behalf of the Vendor other than written reply to the Purchaser’s Solicitors’ written enquiries.
+          H. The Buyer shall accept that vacant possession is the giving of the property notwithstanding that there may be unlawful occupiers, furniture and building materials and/or rubbish remaining therein. The Seller shall incur no liability whatsoever for the cost of their removal and the Buyer hereby fully indemnifies the Seller in respect of the same.
+          I. Notwithstanding that at the sole discretion of the Vendor the XXX % deposit may be waived or reduced on exchange of Contracts, in the event of the Purchaser failing to complete on the Completion Date then the full XXX % deposit (or the balance of) becomes immediately due and recoverable as a debt on demand.
+          J. This Contract does not merge into the Transfer in relation to any condition or liability remaining unfulfilled or which has not been performed observed or discharged.
+          K. The parties will complete a Transfer substantially in the form of the draftannexed to this Agreement.
+          L. For the avoidance of doubt nothing contained or implied in this Agreement prejudices or affects the Vendor’s rights powers duties and obligations or fetter its decisions in the exercise of its functions as a local authorityM. In this Agreement where the context admits the masculine gender includes the feminine gender and the singular includes the plural and vice versa.
+          SCHEDULEPart 11. Copies of the entries on the Register of the Vendors title XXX together with a copy of the filed plan2. Copies of all deeds referred to on the above mentioned Registers
+          Part 21. The Vendor's Surveyor's fees amounting to XXX % of the Purchase Price or a minimum sum of XXX whichever is the greater2. The Vendor's Solicitor's costs amounting to XXX % of the Purchase Price or a minimum sum of £XXX whichever is the greater
+          Part 3The sale is with vacant possession on completion.`,
+        ],
+      },
+    ],
+  },
+  {
+    name: "Closing Contract",
+    options: [
+      {
+        father: "footer",
+        name: "opcion 1",
+        value:
+          "Purchaser XXX Seller XXX",
+      },
+      {
+        father: "footer",
+        name: "opcion 2",
+        value: `SCHEDULEIN WITNESS WHEREOF the SELLER and the PURCHASER have signed this Agreement of Sale on the day month and year herein above mentioned in the presence of the witnesses:WITNESSES: XXX
+          1. XXX SELLER 
+          2. XXX PURCHAS`,
+      },
+      {
+        father: "footer",
+        name: "opcion 3",
+        value: `AS WITNESS the parties
+        SIGNED: XXXVendor's Principal Lawyer XXX Purchaser's Solicitor XXX`,
       },
     ],
   },
 ];
 export const contractDrafterDE = [
   {
-    name: "Título",
+    name: "Qualifikation",
     options: [
       {
         father: "title",
         name: "opcion 1",
-        value: "CONTRATO DE COMPRAVENTA DE VIVIENDAzzzz",
+        value: "Kaufvertrag über ein bebautes Grundstück",
       },
       {
         father: "title",
         name: "opcion 2",
-        value: "CONTRATO DE ALQUILER DE VIVIENDA",
+        value: "Immobilienkaufvertrag",
       },
       {
         father: "title",
         name: "opcion 3",
-        value: "Contrato de compraventa de bien inmueble",
-      },
-      {
-        father: "title",
-        name: "opcion 4",
-        value: "CONTRATO DE COMPRAVENTA ENTRE PARTICULARES",
+        value: "Kaufvertragsmuster Grundstückskaufvertrag ohne Anderkonto",
       },
     ],
   },
   {
-    name: "Lugar",
+    name: "Ort",
     options: [
       {
         father: "sumary",
         name: "opcion 1",
-        value: "En XXX, a XXX de XXX del XXX",
-      },
-      {
-        father: "sumary",
-        name: "opcion 2",
-        value: "En la ciudad de XXX, a XXX. de XXX. de XXX",
+        value: "Verhandelt zu XXX am XXX",
       },
     ],
   },
   {
-    name: "Partes",
+    name: "Parteien",
     options: [
       {
         father: "parts",
         name: "opcion 1",
-        value: `De un lado la parte vendedora, D XXX, mayor de edad, con
-          domicilio en XXX, con DNI nº XXX casado en régimen de comunidad de
-          gananciales con Dª.XXX, mayor de edad, con domicilio en XXX, y con
-          DNI nº XXX. Y de otro la parte compradora, DXXX, mayor de edad,
-          con domicilio en XXX, de estado civil soltero y con DNI nº XXX.
-          Ambas partes tienen y se reconocen la capacidad legal necesaria
-          para el otorgamiento del presente contrato , y a tal fin.`,
+        value: `ZwischenFirma/Name XXXStraße und Hausnummer XXXPLZ XXXStadt XXX- im Folgenden Käufer genannt - undFirma/Name XXXStraße und Hausnummer XXXPLZ XXXStadt XXX- im Folgenden Verkäufer genannt`,
       },
       {
         father: "parts",
         name: "opcion 2",
-        value: `DE UNA PARTE: D. XXX. y Dª XXX, mayores de edad, cónyuges,
-          con domicilio en XXX, calle XXX, nº XXX, y cuyos números de Documento
-          Nacional de Identidad son los XXX. y XXX, respectivamente, en adelante
-          los VENDEDORES;
-          Y DE OTRA PARTE: D. XXX, XXX, mayor de edad, y con domicilio en XXX,
-          calle XXX. nº XXX, provisto del DNI nº XXX, en adelante el COMPRADOR.
-          INTERVIENEN: Todos en su propio nombre y derecho. Ambas partes
-          se reconocen
-          mutuamente la capacidad legal necesaria para el otorgamiento y firma del presente contrato
-          de compraventa, para lo cual,`,
+        value: `Vor dem unterzeichnenden NotarDr. XXXmit dem Amtssitz zu XXX erschien:1. für die XXXmit dem Sitz in XXX, Straße XXX, Stadt XXX2. Frau XXXpersönlich bekannt / ausgewiesen durch3. Herr XXXpersönlich bekannt / ausgewiesen durch
+        Der Käufer wurde auf die Frist und die Bedeutung des § 17 Abs. 2 a BeurkG hingewiesen. Er erklärt hierzu, dass ihm derKaufvertragsentwurf mindestens 14 Tage vor der heutigen Beurkundung von dem Notar zur Verfügung gestellt wurde und 
+        er ausreichend Gelegenheit hatte, sich vorab mit dem Gegenstand der heutigen Beurkundung zu befassen.Die Erschienenen baten sodann um Beurkundung der folgenden Erklärungen:`,
       },
       {
         father: "parts",
         name: "opcion 3",
-        value: `de una parte como compradora D/ña. XXX, mayor de edad, de estado civil XXX, con DNI. Nº XXX, y con 
-          domicilio en la ciudad de XXX, C/ XXXY de otra como parte vendedora D/ña. XXX, mayor de edad, de estado civil XXX, 
-          con DNI Nº XXX. y con domicilio en la ciudad de XXX, C/ XXX
-          INTERVIENEN Las dos partes en su propio nombre y derecho como comprador y vendedor respectivamente. Ambas partes tienen 
-          plena capacidad legal para concurrir a este acto según manifiestan y, recíprocamente, se reconocen y`,
+        value: `Die Erschienenen erklärten: Wir schließen den nachstehendenK A U F V E R T R A G,
+        in welchem der Erschienene zu 1) im Folgenden kurz als "der Verkäufer" und die Erschienenen zu 2) und 3) im Folgenden kurz als "der Käufer" bezeichnet werden, auch soweit mehrere Personen beteiligt sind.
+        Die Erschienenen erklärten übereinstimmend: Kein Vertragsteil schließt diesen Vertrag im Rahmen einer gewerblichen oder selbstständigen beruflichen Tätigkeit.`,
+      },
+    ],
+  },
+  {
+    name: "Bestimmungen",
+    options: [
+      {
+        father: "clausesContract",
+        name: "opcion 1",
+        value: [
+          `Bestimmungen
+          Wird folgender Kaufvertrag geschlossen:
+          § 1 Grundbuchstand[1] Im Grundbuch des Amtsgerichts XXX Band XXX Blatt XXXIst in Abt. I XXX als Alleineigentümer des FolgendenGrundstückes eingetragen:Flur-Nr XXXFlurstück: XXXQuadratmeter: XXXnachfolgend Grundstück genanntEs ist mit einem Einfamilienhaus bebaut.[2] In Abt. II des Grundbuches ist eingetragen EUR XXX Buchgrundschuldabgetreten mit Zinsen seit XXX an die Bank: XXX[3] In Abt. III des Grundbuches ist nichts eingetragen. 
+          Seite 2
+          § 2 KaufDer Verkäufer verkauft an den Käufer das in §1 Nr. 1 näherbezeichnete Grundstück mit allen Rechten, Pflichten, den gesetzlichen Bestandteilen und dem gesetzlichen Zubehör.
+          § 3 Kaufpreis, Fälligkeit
+          (1) Der Kaufpreis in Höhe von XXX EUR in Worten: XXX ist Fällig innerhalb von 14 Tagen nach Absendung einer Bestätigung des Notars an beide Vertragsparteien, dass Folgende Bedingungen erfüllt sind:- Die Auflassungsvormerkung im Rang nach den in § 1 genannten oder auch für Rechnung des Käufers bestellten Belastungen wurde eingetragen.- Die Gemeinde hat gegenüber dem Notar verbindlich erklärt, dass ein gesetzliches Vorkaufsrecht nicht besteht oder nicht ausgeübt wird.- Die Löschungsunterlagen des Gläubigers, dass die in Abt. III des Grundbuchblattes genannte und nicht übernommene Belastung freigestellt wird, liegen dem Notar vor und die damit verbundenen Zahlungsauflagen können mit dem Kaufpreis beglichen werden.[2] Der Verkäufer tritt seinen Kaufpreisanspruch in Höhe der Zahlungsauflage des Gläubigers an diesen ab.[3] Der Verkäufer weist den Käufer unwiderruflich an, den Kaufpreis entsprechend der Zahlungsauflage zu begleichen.(4) Der restliche Kaufpreis ist auf folgendes Konto des Verkäufers zu überweisen:BankleitzahlKontonummerBei Zahlungsverzug werden 10 % Verzugszinsen geschuldet, die sofort Fällig sind. Ein weitergehender Verzugsschaden kann zusätzlich geltend gemacht werden.
+          § 4 Zwangsvollstreckungsunterwerfung(1) Der Käufer unterwirft sich gegenüber dem Käufer wegen des Kaufpreisanspruches vonXXX EUR (in Worten XXX]zuz glich 10 % jährlichen Zinsen ab dem Fälligkeitszeitpunkt der sofortigen Zwangsvollstreckung aus dieser Urkunde in sein gesamtes Vermögen.(2) Er ermächtigt den beurkundenden Notar, dem Verkäufer jederzeit eine vollstreckbare Ausfertigung dieser Urkunde auszufertigen, ohne dass die Fälligkeit der Kaufpreisforderung hierzu nachgewiesen werden müsste.
+          Seite 3
+          § 5 Auflassung(1) Die Vertragsparteien sind sich über den Eigentumsübergang des in § 1 bezeichneten Grundstückes vom Verkäufer auf den Käufer einig und erklären die Auflassung.(2) Der Verkäufer bewilligt und der Käufer beantragt die Eintragung der Auflassung in das Grundbuch sowie die Löschung der nicht übernommenen Belastung nach Maßgabe der von den Berechtigten abzugebenden Bewilligungen.
+          § 6 Auflassungsvormerkung(1) Die Vertragsparteien bewilligen und beantragen, zugunsten des Käufers im Grundbuch eine Auflassungsvormerkung gern. § B33 BGB einzutragen, damit der Anspruch des Käufers auf Eigentumsumschreibung gesichert wird.(2) Der Käufer bewilligt und beantragt ferner die Löschung dieser Vormerkung bei Eintragung der Auflassung. Voraussetzung ist, dass bis zu diesem Zeitpunkt keine Zwischeneintragungen beim Grundbuchamt eingegangen sind, an denen er nicht mitgewirkt hat.
+          § 7 Besitzübergang (Übergabe)[1) Am Tag der vollständigen Kaufpreiszahlung gehen Besitz, Nutzungen, Lasten, die Gefahren zufällige Verschlechterung und die Verkehrssicherungspflichten des Grundbesitzes sowie die Grundstückshaftung auf den Käufer über.
+          (2) Der Verkäufer trägt die Erschließungskosten und die öffentlichen einmaligen Lasten für Anlagen, die bis zum Übergang des Besitzes vollständig fertiggestellt sind unabhängig von etwaigen Bescheiden. Ab diesem Zeitpunkt ist der Käufer verpflichtet, hierfür aufzukommen.
+          § 8 Haftung für Sachmängel(1) Der Verkäufer übernimmt keine Gewährleistung für Flächengröße, Bodenbeschaffenheit, Bauzustand und sonstige 5achmängel. Das Grundstück und das Gebäude werden im dem Käufer bekannten Zustand verkauft.(2) Der Verkäufer versichert, dass ihm verdeckte und schwerwiegende Mängel nicht bekannt sind.
+          § 9 Haftung für Rechtsmängel(1) Der Verkäufer haftet für die Freiheit von Rechten Dritter in Abteilung II und III des Grundbuches mit Ausnahme zur Kaufpreisfinanzierung bestellten Grundpfandrechte.(2) Der Verkäufer versichert, dass der Grundbesitz von Miet-, Pacht- und sonstigen Besitzrechten frei ist und das den Grundbesitz betreffende öffentliche oder private Abgaben zum Übergabezeitpunkt beglichen sein werden.
+          § 10 Finanzierungsmitwirkung(1) Der Verkäufer verpflichtet sich, bei der Bestellung von Grundpfandrechten, die ausschließlich der Finanzierung des Kaufpreises durch den Käufer dienen, vor Eigentumsumschreibung mitzuwirken.Seite 4(2) Der Käufer tritt bereits heute seine Ansprüche auf Auszahlung der Darlehensvaluta, die durch die vom Verkäufer bestellten Grundpfandrechte gesichert sind, ab:- soweit zur Ablösung der in § 1 bezeichneten Belastung erforderlich, an den dort bezeichneten Gläubiger;- im übrigen an den Verkäufer(3) Der Käufer weist die finanzierende Bank unwiderruflich an:- den Ablösungsbetrag an den Gläubiger des Grundpfandrechtes und- den restlichen an den Käufer abgetretenen Betrag bei Fälligkeit des Kaufpreises ausschließlich auf das in § 3 Nr. 4 bezeichnete Konto zu überweisen.(4) Alle mit der Kreditaufnahme und Bestellung der Grundpfandrechte verknüpften Kosten und Gebühren trägt der Käufer.(5) Der Verkäufer überträgt alle ihm an den bestellten Grundpfandrechten zustehenden Rechte, wie insbesondere die Eigentümerrechte und die Rückgewähransprüche auf den Käufer und bewilligt schon heute die entsprechende Umschreibung der Eigentümerrechte im Grundbuch.(G) Der Käufer ist mit der Übertragung einverstanden. Die Übertragung steht unter der aufschiebenden Bedingung, dass der Kaufpreis gezahlt wird.(7) Diese Grundpfandrechte werden vom Käufer übernommen.
+          § 11 Finanzierungsvollmacht(1) Der Verkäufer erteilt dem Käufer Vollmacht unter der Befreiung von den Beschränkungen des §181 BGB, das Grundstück mit Grundpfandrechten in beliebiger Höhe mit beliebigen Zins und Zahlungsbestimmungen zu belasten und der dinglichen Zwangsvollstreckung zu unterwerfen sowie alle Im Zusammenhang stehenden Erklärungen gegenüber den Gläubigern und dem Grundbuchamt abzugeben.(2) Von dieser Vollmacht dar nur vor dem Urkundsnotar Gebrauch gemacht werden, der darauf zu achten hat, dass die Gläubiger auf die Abtretung der Auszahlungsanprüche gemäß dieser Urkunde hingewiesen werden.
+          § 12 Rücktrittsrecht(1) Der Verkäufer kann vom Kaufvertrag zurücktreten, wenn er wegen der vom Käufer nicht beglichenen Grunderwerbsteuer in Anspruch genommen wird, der Käufer den Kaufpreis nicht binnen 4 Wochen nach Fälligkeit vollständig bezahlt hat oder ein Vorkaufsrecht ausgeübt wird.(2) Der Rücktritt kann nur durch eingeschriebenen Brief und nur solange erklärt werden, als der Käufer die unter Ziffer bezeichneten Zahlungen nicht doch noch leistet.(3) Die Kosten der Rückabwicklung hat der Käufer zu tragen. Die Geltendmachung weitergehender Schadensersatzansprüche des Verkäufers bleibt Vorbehalten.
+          § 13 Abwicklungsermächtigung für den NotarDie Vertragsparteien beauftragen und bevollmächtigen den Notar, für sie einzuholen und entgegenzunehmen:Seite 5- Genehmigungen- Vollzugsmitteilungen des Grundbuchamtes- Notwendige Freistellungserklärungen- Stellungnahmen und Zeugnisse der Gemeinde und des Landratsamtes über das Bestehen und die Ausübung gesetzlicher Vorkaufsrechte.
+          § 14 Kosten(1] Die Kosten dieser Urkunde und ihrer Durchführung sowie die Grunderwerbsteuer trägt der Käufer.(2] Die Kosten der Lastenfreistellung trägt der Verkäufer.
+          § 15 Salvatorische Klausel(1) Falls einzelne Bestimmungen dieses Vertrages unwirksam sein oder werden sollten,wird dadurch die Wirksamkeit der übrigen Bestimmungen nicht berührt.(2] Anstelle der unwirksamen Bestimmung gilt diejenige wirksame Bestimmung als vereinbart, welche Sinn und Zweck der unwirksamen Bestimmung am ehesten entspricht.
+          § 16 Abschriften und AusfertigungenKäufer und Verkäufer erhalten vor dem grundbuchamtlichen Eigentumsumschreibung beglaubigte Abschriften, nachher Ausfertigungen des Vertrages.
+          § 17 Hinweise und Belehrungen(1) Der Notar hat die aktuell vorliegenden Grundbucheintragungen mit den Vertragsparteien erörtert. Das öffentliche Baulastenverzeichnis wurde nicht eingesehen.(2) Der Notar weist die Vertragsparteien noch auf folgendes hin:- Der Vertrag ist nichtig, wenn Vertragsbestimmungen (etwa ein verdeckter und tatsächlich höherer Kaufpreis] nicht vollständig oder nicht richtig beurkundet werden.- Das Eigentum Grundstück und Gebäude geht erst mit der Eintragung des Käufers im Grundbuch auf diesen über. Dies hängt von folgenden weiteren Voraussetzungen ab:1. Zahlung der Grundbuchamtskosten2. Vorlage der steuerlichen Unbedenklichkeitsbescheinigung3. Verzichtserklärung auf das gesetzliche Vorkaufsrecht nach dem BauGB- Der Notar prüft die planungs- und baurechtlichen Verhältnisse auch im Hinblick auf etwaige öffentlich-rechtliche Baulasten nicht. Auskünfte darüber erteilen die Baubehörden.- Das Finanzamt - Grunderwerbsteuerstelle - erhält eine einfache Abschrift des Vertrages.`,
+        ],
+      },
+      {
+        father: "clausesContract",
+        name: "opcion 2",
+        value: [
+          `Bestimmungen
+          <STIPULATIONS_>
+          § 1 In diesem Vertrag werden- die XXX als "Verkäufer"- Frau XXX und Herr XXXals "Käufer"bezeichnet.
+          (2) Der Verkäufer verkauft an den Käuferdas Wohnungseigentum / Teileigentumbestehend aus dem Miteigentumsanteil wie in der Anlage 1 beschrieben an dem Grundbesitzjeweils Gemarkung XXXFlur XXXGebäude- und FreiflächeFlurstück XXX, Straße XXXFlurstück XXX, Straße XXX Flurstück XXX, XXXinsgesamt groß XXX qmeingetragen beim Amtsgericht XXXim Grundbuch von XXXmit dem in der Anlage beschriebenen Grundbuchblatt.(3) Soweit mehrere Personen Käufer sind, erwerben diese in Gemeinschaft nach Bruchteilen, untereinander zu gleichen Anteilen.Soweit nichts anderes vereinbart, erwerben sie alle Rechte in diesem Beteiligungsverhältnis und übernehmen alle Pflichten als Gesamtschuldner.Sie bevollmächtigen sich gegenseitig, alle Erklärungen abzugeben und entgegenzunehmen, die zur Abwicklung dieses Vertrages erforderlich sind.(4) Soweit dieser Urkunde mehrere Anlagen 1 beigefügt sind, bildet jede eigene Anlage einen eigenständigen Kaufvertrag. Alle Kaufverträge sollen aber einheitlich vollzogen werden,d.h. insbesondere, dass die Kaufpreisfälligkeit erst bei Vorliegen aller Fälligkeitsvoraussetzungen zu allen Verträgen eintritt.
+          § 2 Grundbuchangaben(1) Der Notar hat sich über den Grundbuchinhalt am XXX unterrichtet. Danach ist der Grundbuchstand wie folgt:(2) Zweite Abteilung (Lasten und Beschränkungen) lastenfrei(3) Dritte Abteilung (Hypotheken, Grundschulden)alle Grundbücherlfd. Nr. XXXEUR XXX Grundschuld ohne Brief nebst XXX % Zinsen jährlichfür die Sparkasse XXX in XXXMithaft in weiteren GrundbüchernDiese Belastung Abteilung III lfd. Nr. XXX ist durch den Verkäufer auf dem Kaufobjekt im Grundbuch zu löschen. Die Beteiligten bewilligen und beantragen die Löschung bzw.Pfandfreigabe auf dem Kaufobjekt nach Maßgabe der Bewilligung der Berechtigten.(4) Der Verkäufer garantiert, dass ihm keine unerledigten Grundbuchanträge bekannt sind und dass er keine noch nicht vollzogenen Eintragungen bewilligt hat.
+          § 3 Kaufpreis(1) Der Gesamtkaufpreis hat die Höhe wie in der Anlage aufgeführt.- dieser Betrag nachfolgend "Gesamtkaufpreis" genannt -(2) Voraussetzung für die Fälligkeit des Kaufpreises ist, dass- alle zur Rechtswirksamkeit dieses Vertrages erforderlichen Erklärungen und Nachweise vorliegen und- die Auflassungsvormerkung für den Käufer an der vereinbarten Rangstelle eingetragen ist oder beantragt ist und sich nach der beim Grundbuchamt elektronisch geführten Antragsliste ergibt, dass keine anderen Anträge ohne Mitwirkung des Käufers gestellt sind, und- die Unterlagen zur Löschung aller nicht übernommenen und der Vormerkung im Rang vorgehenden Belastungen vorliegen und- die Verwendung der vorgenannten Unterlagen und die Löschung im Grundbuch aus Mittel des Kaufpreises möglich ist.(3) Der Kaufpreis ist fällig 7 Tage, nachdem- der Notar dem Käufer bestätigt hat (Datum des Poststempels), dass die vorstehenden Voraussetzungen für die Fälligkeit des Kaufpreises eingetreten sind,jedoch nicht vor dem
+          Der Kaufpreis ist nach den Weisungen des NOtars zu zahlen. Soweit erforderlich, ist er nicht an den Verkäufer auszuzahlen, sondern zur Lastenfreistellung zu verwenden. Insoweit kann er nicht an Dritte abgetreten werden.- Für die Einhaltung der Fälligkeit ist die Gutschrift entscheidend.
+          4) Hinweis: Bei nicht fristgerechter Zahlung kommt der Zahlungsverpflichtete auch ohne besondere Mahnung in Verzug, wenn die gesetzlichen Voraussetzungen dafür vorliegen. Der gesetzliche Verzugszins beträgt 5 Prozentpunkte über dem Basiszinssatz p.a.(5) Sollte sich die Fälligkeit des Kaufpreises aus Gründen verzögert, die der Verkäufer zu vertreten hat, so ist der Verkäufer zum Schadensersatz verpflichtet.(6) Der Käufer unterwirft sich gegenüber dem Verkäufer wegen des Gesamtkaufpreises nebst jährlichen Zinsen ab heute in Höhe von 5 Prozentpunkten über dem Basiszinssatz der sofortigen Zwangsvollstreckung aus dieser Urkunde.Mit einer vollstreckbaren Ausfertigung kann der Verkäufer ohne Klage gegen den Käufer vollstrecken. Deshalb darf sie nur verlangen, wenn und soweit der Käufer mit der Zahlung in Verzug ist; diese Voraussetzung kann der Notar nicht prüfen.Der Notar darf dem Verkäufer auf Verlangen eine vollstreckbare Ausfertigung erteilen, jedoch- erst zwei Wochen, nachdem er dies dem Käufer schriftlich angekündigt hat (Datum des Poststempels), und- nur gemäß der Fälligkeitsmitteilung des Notars und nicht vor dem Zeitpunkt der frühesten Fälligkeit, soweit deren Voraussetzungen vom Notar festzustellen sind, und- hinsichtlich der Zinsen erst für die Zeit ab Vorliegen der frühesten Fälligkeit, soweit deren Voraussetzungen vom Notar festzustellen sind.(7) Der Anspruch des Käufers auf Verschaffung des Eigentums so- wie der Anspruch des Verkäufers auf Zahlung des Kaufpreises verjähren in dreißig Jahren ab dem gesetzlichen Verjährungsbeginn.
+          § 4 Nutzungsübergang(1) Auf den Käufer gehen über- der Besitz und die Nutzungen des Kaufobjekts: mit Kaufpreiszahlung,- die Lasten und die Verkehrssicherungspflicht sowie die Gefahr eines zufälligen Untergangs und einer zufälligen Verschlechterung:mit Kaufpreisfälligkeit, spätestens mit Übergabe des Kaufobjektes an den Käufer.Auf den Zeitpunkt des Lastenübergangs sind jeweils alle Vorauszahlungen oder Nachzahlungen abzugrenzen und unter den Vertragsparteien entsprechend auszugleichen, soweit nicht ausdrücklich etwas anderes vereinbart wird.(2) Soweit in der Anlage unter "Nutzungsübergang" bei "vermietet" "ja" angegeben ist, gilt:Das bestehende Mietverhältnis und der zugrunde liegende Mietvertrag sind dem Käufer bekannt. Es geht kraft Gesetzes auf den Käufer über, wirtschaftlich mit Wirkung ab Übergang der Nutzungen.Unabhängig vom Eigentumswechsel werden die Ansprüche und Rechte aus dem Mietverhältnis einschließlich aller Gestaltungsrechte mit Wirkung ab Nutzungsübergang an den Käufer abgetreten. Die entsprechende Mitteilung an den Mieter wer- den Verkäufer und Käufer gemeinsam unverzüglich nach Nutzungsübergang vornehmen.Der Verkäufer garantiert, dass - spätestens mit Vollzug dieses Vertrages - die Ansprüche aus den Mietverhältnissen nicht (mehr) an Dritte, insbesondere nicht an Kreditinstitute abgetreten sind.Ein Mietervorkaufsrecht besteht nicht, weil der Verkäufer das Kaufobjekt bereits als Wohnungseigentum erworben hat und der vorliegende Kaufvertrag daher nicht der erste Ver- kaufsfall nach der Begründung des Wohnungseigentums ist.
+          (3) Soweit in der Anlage unter "Nutzungsübergang" bei "Erstattung Mietdifferenz bis XXX €" "ja" angegeben ist, gilt: Im Hinblick auf die derzeitige Höhe der Miete - ohne Betriebskostenpauschale / -vorauszahlungen - vereinbaren die Beteiligten, dass der Verkäufer eine Mieterhöhung auf mindestens 7,95 € /m² Wohnfläche durchführt, soweit diese Miete derzeit nicht erreicht ist. Hierzu wird der Verkäufer vom Käufer soweit erforderlich bevollmächtigt.Der Differenzbetrag zwischen der derzeitig mit dem Mieter vereinbarten Kaltmiete und XXX EURO pro Quadratmeter Kalt- miete wird vom Verkäufer, bis die Mieterhöhung durchgesetzt wurde, erstattet - längstens jedoch für 36 Monate ab dem Tage des Besitzübergangs. Der Differenzbetrag ist monatlich jeweils zum fünften Tag des Monats fällig. Der Verkäufer ist zur Zahlung in einer Summe - ohne Abzinsung - berechtigt. Auf eine Absicherung dieser Erstattungsverpflichtung,z.B. durch Kaufpreiseinbehalt oder Bankbürgschaft, wird nach Belehrung verzichtet.(4) Der Verkäufer wird ab heute ohne Zustimmung des Käufers keine Verpflichtungen oder Bindungen mehr eingehen, die auf den Käufer übergehen können, soweit vorstehend nicht abweichend geregelt.(5) Mit Nutzungsübergang übernimmt der Käufer alle Rechte, mit Lastenübergang tritt er in alle Pflichten gegenüber der Eigentümergemeinschaft ein, insbesondere zur Zahlung der laufenden Bewirtschaftungskosten ("Hausgeld"). Der Verkäufer bevollmächtigt den Käufer, ab Nutzungsübergang sein Stimmrecht in der Eigentümerversammlung wahrzunehmen.Der Käufer erkennt die Gemeinschaftsordnung und den Verwaltervertrag als für sich verbindlich an.(6) Erstattungen oder Nachzahlungen auf das Hausgeld für die Zeit bis Lastenübergang erhält bzw. trägt der Verkäufer. Verbrauchsabhängige Kosten sind nach tatsächlichem Verbrauch aufzuteilen. Soweit keine stichtagsbezogene Abrechnung erfolgt, ist die Aufteilung zeitanteilig entsprechend Abrechnungsperiode und Zeitpunkt des Lastenübergangs vorzu- nehmen.(7) Die Instandhaltungsrücklage steht der Eigentümergemeinschaft zu und verbleibt bei dieser.(8) Der Verkäufer erklärt, keine Rückstände gegenüber der Eigentümergemeinschaft zu haben und von etwaigen Rückständen anderer Eigentümer nichts zu wissen.
+          § 5 Beschaffenheit des Kaufobjekts, Rechte des Käufers bei Mängeln(1) Der Verkauf erfolgt in dem bei der letzten Besichtigung durch den Käufer bzw. ersatzweise am heutigen Tag bestehen- den Zustand, unter Berücksichtigung einer zwischenzeitlichen gewöhnlichen Abnutzung.Eine bestimmte Größe des Grundbesitzes bzw. der Wohnung oder Verwendbarkeit des Kaufobjektes wird nicht vereinbart, ebenso wenig die Freiheit von Baulasten und nachbarrechtlichen Beschränkungen.(2) Der Verkäufer haftet nicht für erkennbare oder verborgene Sachmängel, ausgenommen solche, die nachweislich erst nach der Besichtigung eingetreten und nicht auf eine zwischenzeitliche gewöhnliche Abnutzung zurückzuführen sind.Der Verkäufer erklärt, keine Kenntnis von verborgenen Sachmängeln, Belastungen und Beschränkungen zu haben.Nach Kenntnis des Verkäufers steht das Kaufobjekt nicht- auch nicht teilweise - unter Denkmalschutz (z. B. als Bau-, Boden- oder Naturdenkmal).(3) Ein verbrauchsabhängiger Energieausweis liegt vor.(4) Soweit nicht anders vereinbart, ist das Kaufobjekt frei von Rechten Dritter zu übergeben.(5) Die vorstehenden Vereinbarungen gelten auch für die zum Gemeinschaftseigentum gehörenden Grundstücks- und Gebäudeteile.(6) Der vorstehende Gewährleistungsausschluss wurde mit den Beteiligten eingehend erörtert. Der Notar hat den Käufer darüber belehrt, dass ihm aufgrund der vorstehenden Vereinbarungen bei Mängeln des Kaufobjektes grundsätzlich keine Ansprüche gegen den Verkäufer zustehen.
+          § 6 Anliegerkosten(1) Hinweis: Die Gemeinden erheben Beiträge und Kostenersatz (nachste- hend Anliegerkosten genannt) für die Herstellung, Erweiterung und Verbesserung von Straßen, Plätzen und Wegen, Bürgersteigen, Park- buchten und Grünanlagen sowie deren Beleuchtung und Entwässerung, und von anderen Einrichtungen und Anlagen (z.B. Ver- und Entsorgungsleitungen, Haus- und Grundstücksanschlüssen).Die Heranziehungsbescheide ergehen mitunter erst Jahre nach den entsprechenden Maßnahmen. (Die Behörden erteilen auf Verlangen Auskunft über noch zu erwartende Anliegerkosten).Zur Zeit werden nach Angaben der Vertragsbeteiligten keine Straßenbauarbeiten und sonstigen Erschließungsmaßnahmen durchgeführt.Dazu vereinbaren Verkäufer und Käufer Folgendes:(2) Anliegerkosten für den heutigen Ausbauzustand der Straße und sonstiger Erschließungsanlagen sind noch von dem Verkäufer zu bezahlen, auch wenn sie erst in Zukunft erhoben werden sollten. Alle weiteren Anliegerkosten trägt der Käufer.(3) Hinweis: Die Behörden halten sich unabhängig von hier getroffenen Vereinbarungen an den jeweiligen Grundstückseigentümer.In diesem Zusammenhang erklärt der Verkäufer, von keinem Heranziehungsbescheid zu wissen, aus dem noch Zahlungen of- fen sind.
+          § 7 Vertragsabwicklung(1) Der Notar machte auf den weiteren Gang des Verfahrens bis zur Umschreibung im Grundbuch aufmerksam.Der Notar wird beauftragt, alle zur Rechtswirksamkeit dieser Urkunde oder zu ihrem Vollzug erforderlichen privaten und behördlichen Genehmigungen, Verzichte, Erklärungen und Bewilligungen einzuholen. Zum Zwecke der Pfandfreigabe soll er der abzulösenden Gläubigerbank eine Abschrift des Vertrages übersenden.Alle Genehmigungen werden für alle Beteiligten wirksam, wenn sie beim Notar eingehen.Genehmigungen unter Auflagen sind den Beteiligten unmittelbar zuzustellen. Eine Abschrift davon wird an den Notar erbeten.(2) Hierdurch werden die Notare Dr. XXX undDr. XXX in XXX, deren Vertreter und die Mitarbeiter Herr XXX- je einzeln und mit der Erlaubnis, für alle Beteiligten gleichzeitig zu handeln -bevollmächtigt, alles zu erklären und zu bewilligen, was nach ihrem pflichtgemäßen Ermessen zum Vollzug dieses Vertrages und zur Eintragung im Grundbuch - insbesondere bei gerichtlichen Zwischenverfügungen - noch notwendig oder zweckmäßig ist.(3) Der Käufer darf das Kaufobjekt als Pfandobjekt für seine Fremdfinanzierung nutzen. Der Verkäufer verpflichtet sich, bei der Bestellung von banküblichen Grundpfandrechten für Kreditinstitute unter deutscher Aufsicht mitzuwirken; er übernimmt jedoch keine persönliche Haftung und trägt im Innenverhältnis keine KostenDazu bevollmächtigt der Verkäufer den Käufer und dessen Bevollmächtigte, die Käufer sich untereinander und Verkäufer und Käufer vorsorglich die vorgenannten Mitarbeiter des Notars,- das Pfandobjekt mit Grundpfandrechten in beliebiger Höhe zu belasten,- den Käufer persönlich und den jeweiligen Eigentümer des Pfandobjektes dinglich der Zwangsvollstreckung zu unterwerfen,- alle banküblichen Erklärungen zur Auszahlung der Fremdmittel abzugeben; davon ausgenommen sind Darlehensvereinbarungen,- und alle erforderlichen Eintragungen im Grundbuch zu bewilligen und zu beantragen, insbesondere erforderli- che Rangrücktritte, z.B. mit der Auflassungsvormerkung des Käufers zu erklären und die Berichtigung unrichtiger Eintragungen zu veranlassen.Hinweis: Die Formulare der Kreditinstitute sehen regelmäßig vor, 
+          dass der Kreditnehmer bei Bestellung einer Grundschuld auch die per- sönliche Haftung für einen Betrag in Höhe der Grundschuld und ihrer Zinsen und Nebenleistungen übernimmt (abstraktes Schuldversprechen), und dass er sich deshalb der Zwangsvollstreckung in sein gesamtes Vermögen unterwirft. Daraus kann ihn der Kreditgeber in Anspruch nehmen, unabhängig von dem Kreditvertrag und ohne zuvor in das Pfandobjekt zu vollstrecken.Die hier erteilte Vollmacht ermächtigt auch zur Abgabe der dazu erforderlichen Erklärungen.Jeder Bevollmächtigte darf einzeln und für alle Beteiligten gleichzeitig handeln. Er darf Untervollmacht erteilen. Die Vollmachten gelten nur vor dem Notar, seinem Sozius oder dem amtlichen Vertretern.Die Mitarbeiter des Notars sollen nur in Ausnahmefällen von ihrer Vollmacht Gebrauch machen. Ggf. sind sie schriftlich durch den Käufer aufzufordern (Telefax genügt).Anweisung:Bis zur vollständigen Kaufpreiszahlung, spätestens bis zum Eigentumswechsel dürfen die Grundpfandrechte nur Zahlungen auf den Kaufpreis (ohne Zinsen und Nebenkosten) sichern und müssen die Kreditinstitute deren Löschung ggf. wieder bewilligen, wenn solche Zahlungen zurückerstattet werden.Diese Anweisung richtet sich nur an die Bevollmächtigten und den Notar. Sie schränkt den Umfang der Vollmacht gegenüber Dritten nicht ein und unterliegt nicht der Kontrolle des Grundbuchamts. Gleiches gilt für die Ausübung der Vollmacht durch Mitarbeiter des Notars.
+          (4) Sollten Teile dieses Vertrages unwirksam oder unvollständig sein, hat dies keinen Einfluss auf die übrigen Bestimmungen. Stattdessen gilt eine angemessene Regelung, die der unwirksamen möglichst nahe kommt oder wie sie die Beteiligten nach Sinn und Zweck des Vertrages vereinbart hätten, wenn sie den Punkt bedacht hätten.
+          § 8 Kosten, Steuern(1) Die durch diesen Vertrag und seinen Vollzug entstehenden Notar-, Behörden- und Gerichtskosten gehen zu Lasten des Käufers.Die Mehrkosten seiner Vertretung (z.B. für Vollmacht oder Genehmigung) trägt jeder Beteiligte selbst.Die Mehrkosten der Löschung nicht übernommener Belastungen gehen zu Lasten des Verkäufers.(2) Die Grunderwerbsteuer trägt der Käufer.(3) Hinweise: Trotz der vorstehenden Vereinbarungen haften die Beteiligten nach außen für Kosten und etwaige Steuern als Gesamtschuldner.Die Eigentumsumschreibung im Grundbuch kann erst beantragt werden, wenn die grunderwerbsteuerliche Unbedenklichkeitsbescheinigung des Finanzamtes vorliegt.Der Notar hat keine steuerliche und keine wirtschaftliche Beratung übernommen.
+          § 9 Grundbucherklärungen(1) Auflassung: Die Vertragsparteien sind darüber einig, dass das Eigentum an dem Kaufobjekt auf den Käufer übergeht, und zwar bei mehreren Erwerbern in dem in § 1 vereinbarten Beteiligungsverhältnis.Der Verkäufer bewilligt und der Käufer beantragt, den Eigentumswechsel in das Grundbuch einzutragen.(2) Vormerkung: Zur Sicherung des Anspruchs auf Eigentumsverschaffung bewilligen und beantragen die Beteiligten die Eintragung einer Vormerkung (§ 883 BGB) zu Lasten des Kaufobjekts für den Käufer - bei mehreren Erwerbern in dem vereinbarten Beteiligungsverhältnis - mit Rang nur nach solchen etwaigen Belastungen, an deren Bestellung der Käufer mitgewirkt hat und im Übrigen mit Rang nach den in § 2 angegebenen Belastungen.Der durch die Vormerkung gesicherte Anspruch kann nicht ohne Zustimmung des Verkäufers an Dritte abgetreten werden. Verkäufer und Käufer bewilligen und beantragen, dies bei der Vormerkung zu vermerken.(3) Der Käufer bewilligt und beantragt, die für ihn eingetragene Vormerkung wieder zu löschen.Der Notar darf den Löschungsantrag nur stellen- Zug um Zug mit dem Eigentumswechsel, sofern ohne Mitwirkung des Käufers keine Zwischeneintragungen erfolgt oder beantragt sind oder- wenn der Verkäufer substantiiert behauptet, zum Rücktritt berechtigt zu sein, und die Löschung verlangt und der Käufer dagegen nicht innerhalb von sechs Wochen nach Aufforderung durch den Notar an seine zuletzt angegebene Anschrift eine einstweilige Verfügung erwirkt und dem Notar nachgewiesen hat.(4) Verkäufer und Käufer bewilligen und beantragen ferner, in das Grundbuch einzutragen:
+          `,
+        ],
+      },
+      {
+        father: "clausesContract",
+        name: "opcion 3",
+        value: [
+          `Bestimmungen
+          § 1 Vertragsgegenstand
+          Der Verkäufer ist als Eigentümer des im Grundbuch des Amtsgerichtes XXX Grundbuch von XXX Blatt XXX verzeichneten Grundeigentums, der Gemarkung XXX, Flur XXX Flurstück XXX mit einer im Grundbuch verzeichneten Größe von XXX eingetragen.Das Grundstück ist belegen in XXX und mit einem im Jahre XXX errichteten (z.B.) Einfamilienhaus bebaut.
+          Das vorbeschriebene Grundeigentum verkauft der Erschienene zu 1) mit allen gesetzlichen Bestandteilen und sämtlichem Zubehör in seinem gegenwärtigen Zustand, wie dies von dem Käufer vor dem Kauf in Augenschein genommen werden konnte, an die Erschienenen zu 2) und 3). Sofern das Grundeigentum von mehreren Personen erworben wird, erwerben diese zu gleichen ideellen Bruchteilen. Der Käufer verpflichtet sich, das Vertragsobjekt abzunehmen.
+          § 2 KaufpreisDer Kaufpreis beträgt:und ist wie folgt zu zahlen:Der gesamte Kaufpreis ist fällig am ......................, jedoch nicht vor Ablauf von 14 Tagen nach einer schriftlichen Mitteilung des Notars (maßgeblich ist das Datum der Mitteilung), dass folgende Voraussetzungen erfüllt sind:1. zur Sicherung des Käufers auf Eigentumsübertragung eine Vormerkung im Grundbuch eingetragen bzw. sichergestellt ist, und zwar mit Rang nur nach den in § 3 genannten Belastungen bzw. 
+          mit Rang nach Grundpfandrechten, bei deren Bestellung der Käufer mit‐ gewirkt hat;2. die Vorkaufsrechtsverzichtserklärung der zuständigen Gemeinde vorliegt;3. dem Notar die Löschungsunterlagen für die nicht übernommenen Belastungen entweder auflagenfrei oder mit der Maßgabe vorliegen, hiervon gegen Zahlung eines Betrages Gebrauch zum machen, der insgesamt nicht höher als der vereinbarte Kaufpreis liegt;4. weitere, vom Notar nicht zu bestätigende Kaufpreisvoraussetzung ist, dass der Verkäufer das Kaufobjekt eine Woche vor Fälligkeit vollständig und besenrein geräumt hat.Auf das Vorliegen der Unbedenklichkeitsbescheinigung des Finanzamtes kommt es für die vorstehende Fälligkeitsregelung nicht an. Der Käufer verpflichtet sich, die von dem Finanzamt festgesetzte Grunderwerbssteuer unverzüglich nach Erhalt des Bescheides auszugleichen.Der Notar wird den Beteiligten den Inhalt des Treuhandauftrages mitteilen; der Käufer ist berechtigt und bei Kaufpreisfälligkeit auch verpflichtet, die zur Ablösung verlangten Beträge an die Gläubiger in Anrechnung auf den Kaufpreis zu zahlen. Der Notar wies darauf hin, dass eine Überweisung nach Ablauf der von dem Gläubiger gesetzten Frist zu Risiken führt.Soweit der Kaufpreis nicht zur Lastenfreistellung benötigt wird, ist er auf das Konto des Verkäufer XXX zu zahlen.Sollte der Käufer mit der Zahlung des Kaufpreises oder Teilen hiervon in Zahlungsrückstand geraten, hat er den jeweils ausstehenden Betrag mit 5% Punkten über dem jeweiligen Ba‐siszinssatz bis zum Eingang des Geldes auf dem vorbezeichneten Konto des Verkäufers zu verzinsen, unbeschadet weiterer Rechte des Verkäufers.Wegen der Verpflichtung zur Zahlung des Kaufpreises nebst etwaiger Verzugszinsen unterwirft sich der Käufer ‐mehrere als Gesamtschuldner‐ hiermit der sofortigen Zwangsvollstreckung aus dieser Urkunde in sein gesamtes Vermögen. Der Notar wird ermächtigt, dem Verkäufer nach Absendung der Fälligkeitsmitteilung auf jederzeit zulässiges Ersuchen eine vollstreckbare Ausfertigung dieser Urkunde zu erteilen, ohne dass es des Nachweises der die Fälligkeit begründenden Tatsachen bedarf. Eine Beweislastumkehr ist hiermit nicht verbunden.
+          Der Notar wird angewiesen, die Eintragung des Eigentumswechsels erst zu veranlassen, wenn ihm die Zahlung des Kaufpreises nachgewiesen ist.
+          § 3 Belastungen in Abteilung II und IIIDas Grundeigentum ist in Abt. II und III wie folgt belastet:Abt. II lfd. Nr. 1 Abt. III lfd. Nr. 1Das Grundeigentum wird frei von Lasten in Abt. II und III des Grundbuches geliefert.Soweit der Kaufpreis durch Fremdmittel erbracht wird, ist der Verkäufer mit einer Vorwegbeleihung des Kaufgegenstandes vor Eigentumsumschreibung einschließlich der dinglichenZwangsvollstreckungsunterwerfung bis zur 1,25‐fachen Kaufpreishöhe und Jahreszinsen bis zu 20 % ab Bestellung und einer einmaligen Nebenleistung bis zu 10 % nach folgender Maßgabe einverstanden, ohne jedoch die persönliche Haftung oder Kosten zu übernehmen. Der Notar hat bei der Beurkundung vorzusehen, dass eine Valutierung nur zur Kaufpreiszahlung nach Maßgabe der nachfolgenden Vereinbarung sichergestellt ist.a) SicherungsabredeDie Grundschuldgläubigerin darf die Grundschuld nur insoweit als Sicherheit verwerten oder behalten, als sie tatsächlich Zahlungen mit Tilgungswirkung auf die Kaufpreisschuld des Käufers geleistet hat. Alle weiteren Zweckbestimmungserklärungen, Sicherungs‐ und Verwertungs‐ vereinbarungen innerhalb oder außerhalb dieser Urkunde gelten erst, nachdem der Kaufpreis vollständig gezahlt ist, in jedem Fall ab Eigentumsumschreibung. Ab diesem Zeitpunkt gelten sie für und gegen den Käufer als neuen Sicherungsgeber.b) ZahlungsanweisungSoweit der Kaufpreis nicht zur Freistellung des verkauften Grundbesitzes von eingetragenen Belastungen zu verwenden ist, sind Zahlungen gemäß a) ausschließlich auf das Konto des Verkäufers zu zahlen, im Übrigen nach Maßgabe dieses Vertrages unter Berücksichtigung der von den Grundbuchgläubigern mitgeteilten Ablösebeträge.c) Übernahme GrundpfandrechteDas Grundpfandrecht darf auch nach Eigentumsumschreibung auf den Käufer bestehen bleiben. Der Verkäufer überträgt alle ihm an diesem Grundpfandrecht zustehenden Rechte, insbesondere Eigentümerrechte und Rückgewähransprüche, mit Wirkung ab Zahlung des Kaufpreises.
+          d) Persönliche Zahlungspflichten, KostenDer Verkäufer übernimmt im Zusammenhang mit der Grundschuld‐bestellung keinerlei persönliche Zahlungspflichten. Der Käufer verpflichtet sich, den 
+          Verkäufer von allen Kosten und sonstigen Folgen der Grundschuldbestellung freizustellen.Die Grundschuldbestellung kann nur mit der vorstehenden Zweckbestim‐mung angenommen werden. Der Käufer tritt seine Auszahlungsansprüche bei Vorwegbeleihung hiermit vorrangig in Höhe des Kaufpreises insoweit unwiderruflich an den Verkäufer ab und weist die Kreditinstitute an, die Darlehensvaluten in Anrechnung auf den Kaufpreis nur nach Maßgabe dieses Vertrages zu zahlen.
+          § 4 AuflassungsvormerkungDer Verkäufer bewilligt und der Käufer beantragt, zu Gunsten des Käufers eine Vormerkung zur Sicherung des Eigentumsübertragungsanspruches (sofern mehrere erwerben, in dem in § 1 genannten Beteiligungsverhältnis) in das Grundbuch einzutragen. Der Käufer bewilligt und beantragt schon jetzt, die Vormerkung zu löschen, sobald er als Ei‐gentümer des Kaufgegenstandes im Grundbuch eingetragen ist; vorausgesetzt, dass ohne Zustimmung des Käufers keine Zwischeneintragungen erfolgt sind und Zwischenanträge nicht vorliegen.
+          § 5 VorkaufsrechtSollte die zuständige Kommune von dem ihr an diesem Grundeigentum etwa zustehenden gesetzlichen Vorkaufsrecht Gebrauch machen, tritt der Verkäufer seine Ansprüche aus dem Vertrag mit der zuständigen Kommune insoweit an den Käufer ab, als Zahlungen des Käufers zur Lastenfreiheit verwendet oder an den Verkäufer ausgekehrt worden sind. Etwa noch auf dem Anderkonto befindliche Beträge sind unverzüglich an den Käufer zurückzuzahlen. Wird ein Vorkaufsrecht ausgeübt, so sind beide Vertragsparteien zum Rücktritt vom Vertrag berechtigt; ein Anspruch auf Schadensersatz oder Verzinsung bereits geleisteter Kaufpreisteile besteht in diesem Fall nicht. Der Käufer nimmt diese Abtretung hiermit an.
+          § 6 ÜbergabeDer Verkäufer verpflichtet sich, das hier verkaufte Grundeigentum am XXX frühestens jedoch nach vollständiger Kaufpreiszahlung im vorhandenen Zustand und frei von Miet, Pacht‐ und sonstigen Nutzungsverhältnissen zu übergeben. Der Zustand ist dem Käufer bekannt.
+          § 7 Nutzungen und LastenMit dem Übergabetag (Verrechnungstag) gehen die Nutzungen und Lasten des Grundeigentums sowie die Verkehrssicherungspflicht von dem Verkäufer auf den Käufer über und werden bis zu diesem Tag nach Verhältnis der Zeit verrechnet. Die Gefahr des zufälligen Unterganges und der zufälligen Verschlechterung geht vom Übergabetag an auf den Käufer über, wogegen ihm von diesem Tage die Versicherungen zustehen. Für die gewöhnliche Instandhaltung (Aufrechterhaltung des bisherigen Zustandes) hat der Verkäufer bis zum Übergabetag auf seine Kosten zu sorgen.
+          § 8 Sonstige BelastungenDer Käufer übernimmt alle etwa vorhandenen, aus dem Grundbuch nicht ersichtlichen, auch öffentlich‐rechtliche Beschränkungen und Lasten. Der Verkäufer versichert, dass ihm solche nicht bekannt sind, insbesondere dass er keine Eintragungen in das Baulastenverzeichnis veranlasst hat. Die Beteiligten wurden auf die Möglichkeit hingewiesen, das Baulasten‐verzeichnis selbst einzusehen.Anliegerbeiträge, Sielbaubeiträge, Sielanschlussgebühren etc., die nach Abschluss dieses Vertrages aufgrund von neuen Baumaßnahmen entstehen, trägt der Käufer allein. Soweit die diesen Kosten zu Grunde liegenden Maßnahmen bis heute in Natur ganz oder teilweise erstellt worden sind, treffen die Kosten den Verkäufer.
+          § 9 HaftungsausschlussDie Rechte des Käufers wegen eines Sachmangels des Grundstückes und des Gebäudes sind ausgeschlossen. Dies gilt auch für alle Ansprüche auf Schadensersatz, es sei denn der Verkäufer handelt vorsätzlich.Der Verkäufer versichert, dass ihm nicht bekannt ist, dass das Gebäude von Hausschwamm oder Hausbock befallen ist oder war und behördliche Auflagen oder widerrufliche Genehmigungen bestehen und dass ihm von Verunreinigungen oder Belastungen des Bodens durch Ablagerungen wiez.B. sogenannte Altlasten, Düngungs‐ bzw. Pflanzenschutzmittel, Emissionen oder ähnlichen Stoffen nichts bekannt ist.Der Notar belehrte, dass der Veräußerer nach dem Bodenschutzgesetz auch nach Eigentumsübergang öffentlich‐rechtlich zur Beseitigung von Altlasten und anderen schädlichen Bodenveränderungen herangezogen werden kann.Der Käufer hat das Kaufobjekt besichtigt; er kauft es im gegenwärtigen, gebrauchten Zustand. Der Verkäufer ist verpflichtet, den verkauften Grundbesitz frei von im Grundbuch in Abt. II und IIIeingetragenen Belastungen und Beschränkungen zu verschaffen, soweit sie nicht vom Käuferübernommen worden sind.Der Verkäufer garantiert, dass keine Wohnungsbindung oder Bindung aufgrund sozialer Wohnraumförderung besteht.
+          § 10 KostenDie mit diesem Vertrag und dessen Ausführung verbundenen Kosten und Abgaben (Grunderwerbsteuer, die Notar‐ und Gerichtskosten) trägt der Käufer allein.Kosten für die Löschung der nicht übernommenen Belastungen trägt der Verkäufer.
+          § 11 Auftrag, HinweiseWir beauftragen hiermit den beurkundenden Notar, die für die Durchführung dieses Vertrages erforderlichen Unterlagen zu beschaffen und den Vertrag abzuwickeln. Der Notar ist berechtigt, Anträge aus dieser Urkunde getrennt und eingeschränkt zu stellen und sie in gleicher Weise zurückzunehmen. Dem Notar sind sämtliche Benachrichtigungen und Bescheinigungen zuzusenden. Wir sind von dem beurkundenden Notar darauf hingewiesen worden, dass:a) das Eigentum erst mit der Umschreibung in dem Grundbuch auf den Käufer übergeht, nicht schon mit der heutigen Beurkundung;b) der Verkäufer und der Käufer kraft Gesetzes Dritten gegenüber für die Grunderwerbsteuer sowie die Notar‐ und Gerichtskosten als Gesamtschuldner haften; im Innenverhältnis gilt jedoch die Kostenregelung dieses Vertrages;c) der Notar das Grundbuch vor der Beurkundung eingesehen hat;d) die Eintragung im Grundbuch erst vorgenommen wird, wenn die Unbedenklichkeitsbescheinigung des Finanzamtes für Verkehrssteuern vorliegt sowie der Gerichtskostenvorschuss bezahlt worden ist;e) die zuständige Gemeinde unter Umständen ein gesetzliches Vorkaufsrecht hat;f) der Notar steuerliche Belange nicht geprüft hat und für die steuerliche Bewertung keine Haftung übernimmt; der Notar hat jedoch auf die mögliche Steuerpflicht eine Veräußerung vor Ablauf von 10 Jahren und aus Betriebsvermögen hingewiesen.
+          § 12 Auflassung und AnträgeSodann erklären die Erschienenen die Auflassung wie folgt:Wir sind uns darüber einig, dass das Eigentum an dem in § 1 näher bezeichneten Grundeigentum und dem dort genannten Beteiligungsverhältnis von dem Verkäufer auf den Käufer übergehen soll und bewilligen und beantragen, die Eigentumsveränderung im Grundbuch einzutragen.Die Beteiligten verzichten auf das Recht, den Antrag dem Grundbuchamt selbst einzureichen. Dies soll ausschließlich durch den amtierenden Notar oder seinen Amtsnachfolger nach Erfüllung der im Vertrag festgelegten Umschreibungsvoraussetzungen geschehen.
+          Von diesem Protokoll soll nur eine Ausfertigung mit dem Auflassungsprotokoll versehen werden und diese zu treuen Händen bei dem beurkundenden Notar verbleiben. Dieser wird hiermit mit der Einreichung beim Grundbuchamt beauftragt, nachdem die vertraglich vorgesehenen Zahlungen erfolgt bzw. sichergestellt sind. Im Übrigen sind Ausfertigungen oder Ab‐schriften ohne Auflassungserklärung herzustellen.Der Verkäufer beantragt ferner die Löschung der nicht in diesem Vertrag ausdrücklich übernommenen Belastungen in Abteilung II und III des Grundbuches.
+          § 13 Durchführungsvollmacht, HinweiseDie Vertragsparteien bevollmächtigen nach Erörterung durch den beurkundenden Notar, und zwar unter Befreiung von den Beschränkungen des § 181 BGB, die Notariatsmitarbeiterinnen Frau Natascha Martens und Frau Julia Ströh, sämtlich dienstlich ansässig in 21509 Glinde, c/o Notar Klein, Markt 16, ‐ jede einzeln für sich ‐ mit der Berechtigung Untervollmachten zu er‐teilen:a) alle zur Durchführung und Umschreibung erforderlichen Erklärungen einschließlich etwaiger Vertragsänderungen abzugeben und entgegen zu nehmen;b) Rangänderungen und Löschungen hinsichtlich der in Abt. II und III des Grundbuches eingetragenen oder noch einzutragenden Rechte zu bewilligen und zu beantragen;c) das Vertragsobjekt mit Grundpfandrechten bis zur 1,25fachen Höhe des Kaufpreises einschließlich dinglicher Zwangsvollstreckungsunterwerfung gem. § 800 ZPO und persönlicher Zwangsvollstreckungsunterwerfung des Käufers zu belasten; fernerErklärungen betreffend die Übernahme bereits eingetragener Grundpfandrechte abzugeben; sowie die Löschung der Auflassungsvormerkung im Falle des Rücktrittes einer der Beteiligten von dem Kaufvertrag und nach Aufforderung durch den Verkäufer zu bewilligen, wenn der Kaufpreis nicht innerhalb eines Monats nach der in diesem Vertrag bestimmten Kaufpreisfälligkeit gutgeschrieben worden ist.Die Vollmacht soll durch den Tod der Vollmachtgeber nicht erlöschen und kann nur von beiden Parteien gemeinsam widerrufen werden.
+          
+          Die Vertragsparteien sind von dem Notar auf Folgendes hingewiesen worden: Soweit der Käufer den Kaufpreis durch Aufnahme eines Kredites finanzieren muss, verlangt der Kreditgeber in der Regel, dass zur Sicherheit das Kaufobjekt mit einem Grundpfandrecht in Höhe des Kreditbetrages zu belasten ist und insoweit der jeweilige Eigentümer der sofortigen Zwangsvollstreckung in das Grundstück unterliegt. Darüber hinaus hat der Käufer als Kreditnehmer ein Schuldanerkenntnis abzugeben und sich der sofortigen Zwangsvollstreckung in sein gesamtes Vermögen zu unterwerfen. Der Käufer hat diesem Grundpfandrecht den Vorrang vor der zu seinen Gunsten bestellenden Auflassungsvormerkung einzuräumen. Über Inhalt, Folgen und Gefahren dieser Grundpfandrechtsbestellung hat der Notar die Parteien, insbesondere den Käufer, entsprechend belehrt.`,
+        ],
+      }, 
+    ],
+  },
+  {
+    name: "Abschlussvertrag",
+    options: [
+      {
+        father: "footer",
+        name: "opcion 1",
+        value: `Ort XXX, Datum XXX, Verkäufer XXX
+        Ort XXX, Datum XXX, Käufer XXX`,
+      },
+      {
+        father: "footer",
+        name: "opcion 2",
+        value:`Diese Niederschrift nebst Anlage wurde vom Notar vorgelesen, von den Erschienenen genehmigt und wie folgt unterschrieben: XXX`,
+      },
+      {
+        father: "footer",
+        name: "opcion 3",
+        value:`Vorstehendes Protokoll wurde den Erschienenen vorgelesen, von ihnen genehmigt und eigenhändig unterschrieben.
+        `,
       },
     ],
   },
 ];
 export const contractDrafterCA = [
   {
-    name: "Título",
+    name: "Títol",
     options: [
       {
         father: "title",
@@ -745,22 +1015,17 @@ export const contractDrafterCA = [
       {
         father: "title",
         name: "opcion 3",
-        value: "Contracte de compravenda",
-      },
-      {
-        father: "title",
-        name: "opcion 4",
         value: "Compravenda de finca urbana amb condició suspensiva",
       },
       {
         father: "title",
-        name: "opcion 5",
+        name: "opcion 4",
         value: "Compravenda de finca urbana amb part de preu diferit",
       },
     ],
   },
   {
-    name: "Lugar",
+    name: "Lloc",
     options: [
       {
         father: "sumary",
@@ -790,7 +1055,7 @@ export const contractDrafterCA = [
     ],
   },
   {
-    name: "Partes",
+    name: "Parts",
     options: [
       {
         father: "parts",
@@ -902,7 +1167,7 @@ export const contractDrafterCA = [
     ],
   },
   {
-    name: "Estipulaciones",
+    name: "Estipulacions",
     options: [
       {
         father: "clausesContract",
@@ -1046,7 +1311,7 @@ export const contractDrafterCA = [
     ],
   },
   {
-    name: "Cierre Contrato",
+    name: "Tancament Contracte",
     options: [
       {
         father: "footer",
@@ -1253,7 +1518,7 @@ export const stateForm = {
   input139: "",
   input140: "",
   //----------------------------
-   input141: "",
+  input141: "",
   input142: "",
   input143: "",
   input144: "",

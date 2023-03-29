@@ -6,8 +6,7 @@ export default function BodyContractDrafterJson(props) {
   const [json, setJson] = useState({});
 
   useEffect(() => {
-    const doc = document.getElementById('content');
-    console.log(props.contentId)
+    const doc = document.getElementById("content");
     const element = doc.querySelectorAll(`[id=${props.contentId}`)[0];
     if (element) {
       setTimeout(

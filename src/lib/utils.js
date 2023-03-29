@@ -1,3 +1,4 @@
+import { element } from "prop-types";
 import reactStringReplace from "react-string-replace";
 
 export const obtainTexTWithQuotes = (text) => {
@@ -115,4 +116,31 @@ export const saveTXT = (filename, id, json) => {
   }
 
   newLink.click();
+};
+
+export const textTofind = (text, findText) => {
+  let textToResolve = [];
+  text.match(/.{0,250}(.$)?/g).map((element) => {
+    if (textTofindText(element, findText))
+      textToResolve.push(`...${element} ...`);
+  });
+  return textToResolve;
+};
+
+export const textTofindText = (text, findText) => {
+  const textWithDoubleQuotes = obtainTexTWithQuotes(findText);
+  findText.split(" ");
+  let count = 0;
+  if (
+    textWithDoubleQuotes.length &&
+    docTxt.toUpperCase().includes(textWithDoubleQuotes[0].toUpperCase())
+  ) {
+    count++;
+  } else if (!textWithDoubleQuotes.length) {
+    findText.split(" ").map((element) => {
+      if (text.toUpperCase().includes(element.toUpperCase())) count++;
+    });
+  }
+
+  return count >= 1 ? true : false;
 };

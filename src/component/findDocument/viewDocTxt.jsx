@@ -12,9 +12,9 @@ export default function ViewDocTxt({ textDoc, findText }) {
             textDoc,
             findText.replace(/['"]+/g, ""),
             (match, i) => (
-              <span key={i}>
-                <strong className="bg-amber-300 text-black">{match}</strong>
-              </span>
+              <strong key={i} className="bg-amber-300 text-black">
+                {match}
+              </strong>
             )
           )}
 
@@ -26,9 +26,9 @@ export default function ViewDocTxt({ textDoc, findText }) {
                 .find((element) => element.toUpperCase() === text.toUpperCase())
             ) {
               return (
-                <span key={i}>
-                  <strong className="bg-amber-300 text-black">{text}</strong>{" "}
-                </span>
+                <strong key={i} className="bg-amber-300 text-black">
+                  {text}
+                </strong>
               );
             }
             return `${text} `;

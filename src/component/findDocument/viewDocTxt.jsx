@@ -13,7 +13,7 @@ export default function ViewDocTxt({ textDoc, findText }) {
             textDoc,
             findText.replace(/['"]+/g, ""),
             (match, i) => (
-              <strong key={i} className="bg-amber-300 text-black">
+              <strong key={i} className="bg-amber-300 ml-5 mr-5 text-black">
                 {match}
               </strong>
             )
@@ -29,7 +29,7 @@ export default function ViewDocTxt({ textDoc, findText }) {
                 )
             ) {
               return (
-                <strong key={i} className="bg-amber-300 text-black">
+                <strong key={i} className="bg-amber-300 ml-1 mr-1 text-black">
                   {text}
                 </strong>
               );

@@ -8,6 +8,7 @@ export default function ViewDocTxt({ textDoc, findText }) {
   const ViewDocTxt = () => {
     return (
       <p className="mt-5 ml-20  whitespace-pre-wrap text-gray">
+        ...
         {textWithDoubleQuotes.length > 0 &&
           reactStringReplace(
             textDoc,
@@ -36,7 +37,7 @@ export default function ViewDocTxt({ textDoc, findText }) {
             } else {
               return `${text} `;
             }
-          })}
+          })}[...]
       </p>
     );
   };

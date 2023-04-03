@@ -122,7 +122,7 @@ export const textTofind = (text, findText) => {
   let textToResolve = [];
   text.match(/.{0,250}(.$)?/g).map((element) => {
     if (textTofindText(element, findText))
-      textToResolve.push(`...${element} ...`);
+      textToResolve.push(`${element}`);
   });
   return textToResolve;
 };

@@ -37,7 +37,7 @@ export default function ViewDocTxt({ textDoc, findText }) {
             } else {
               return `${text} `;
             }
-          })}[...]
+          })}...
       </p>
     );
   };

@@ -491,32 +491,32 @@ export const contractDrafterIT = [
     options: [
       {
         father: "title",
-        name: "opcion 1",
+        name: "Opzione 1",
         value: "Modello di compravendita",
       },
       {
         father: "title",
-        name: "opcion 2",
+        name: "Opzione 2",
         value: "Modello contratto di vendita immobile",
       },
       {
         father: "title",
-        name: "opcion 3",
+        name: "Opzione 3",
         value: "Contratto-tipo preliminare di compravendita immobiliare",
       },
       {
         father: "title",
-        name: "opcion 4",
+        name: "Opzione 4",
         value: "FACSIMILE DI CONTRATTO PRELIMINARE DI COMPRAVENDITA",
       },
     ],
   },
   {
-    name: "Lugar",
+    name: "Luogo e data",
     options: [
       {
         father: "sumary",
-        name: "opcion 1",
+        name: "Opzione 1",
         value: "Luogo XXX, data XXX",
       },
     ],
@@ -526,27 +526,27 @@ export const contractDrafterIT = [
     options: [
       {
         father: "parts",
-        name: "opcion 1",
+        name: "Opzione 1",
         value: `Tra XXX, nato/a il XXX a XXX e residente in XXX via XXX n. XXX (c.f. XXX ) (di seguito denominato promittente venditore)eX nato/a il XXX a XXX e residente in XXX via XXX n. XXX (c.f. XXX) (di seguito denominato promissario acquirente)`,
       },
       {
         father: "parts",
-        name: "opcion 2",
+        name: "Opzione 2",
         value: `Il giorno XXX in XXX innanzi al Notaio XXX sono presentiPer la parte venditrice:XXX, nata il XXX, a XXX ed ivi residente alla Via XXX; C.F. XXXXXX, nata il XXX, a XXX ed ivi residente in Via di XXX, C.F.: XXX denominate a volte “parte venditrice” o “venditrice”ePer la parta acquirente:XXX nata il XXX, a XXX ed ivi residente in Via XXXC.F.: XXX denominata “acquirente” o “parte acquirente”`,
       },
       {
         father: "parts",
-        name: "opcion 3",
+        name: "Opzione 3",
         value: `Con la presente scrittura privata, da valere a ogni effetto di legge, i signori:- XXX, nato a XXX il giorno XXX, residente a XXX, via XXX n. XXX, codice fiscale XXX, di stato civile XXX, in prosieguo denominata anche “Parte Promittente Venditrice”;- XXX, nato a XXX il giorno XXX, residente a XXX, via XXX n. XXX, codice fiscale XXX, di stato civile XXX, in prosieguo denominato anche “Parte Promissaria Acquirente”, convengono e stipulano quanto segue.`,
       },
     ],
   },
   {
-    name: "Estipulaciones",
+    name: "Clausole",
     options: [
       {
         father: "clausesContract",
-        name: "opcion 1",
+        name: "Opzione 1",
         value: [
           `1.Oggetto del contrattoXXX si obbliga a cedere e vendere a XXX, che si obbliga ad acquistare per sé, persona, impresa o ente da nominare al momento della stipula del definitivo, l’intera piena proprietà dell’
           unità immobiliare sita nel Comune di XXX, via XXX n. XXX, costituita da XXX al piano XXX, con relativi accessori e pertinenze, il tutto
@@ -580,7 +580,7 @@ export const contractDrafterIT = [
       },
       {
         father: "clausesContract",
-        name: "opcion 2",
+        name: "Opzione 2",
         value: [
           `ESTIPULACIONES
           Con la presente scrittura privata, a valersi fra le parti a tutti gli effetti di legge, i predetti convengono e stipulano che il promittente venditore è proprietario del seguente bene così identificato
@@ -591,63 +591,30 @@ export const contractDrafterIT = [
           Al momento della firma della presente scrittura viene versata una caparra anticipo altro di euro XXX (eventuale)`,
         ],
       },
-      {
-        father: "clausesContract",
-        name: "opcion 3",
-        value: [
-          `ESTIPULACIONES
-          Io notaio sono certo dell’identità personale delle parti che convengono e stipulano quanto segue:
-            `,
-          `Art. 1
-          A e B vendono a C che acquista diritti pari a 2/3 (1/3 pari all’intera quota di proprietà della sig.ra A ed 1/3 pari all’intera quota di proprietà della sig.ra B) della piena proprietà sulla porzione di fabbricato destinato a civile abitazione sito in Comune di XXX, Via XXX e precisamente:
-          -appartamento posto al piano XXX, distinto con il numero interno XXX, composto di XXX camere ed accessori, confinante con Via XXX, proprietà XXX o suoi aventi causa, salvo altri;-cantina posta al piano seminterrato distinta con la lettera XXX, confinante con proprietà XXX o suoi aventi causa, salvo altri;-garage distinto con il numero XXX, avente accesso da Via XXX, confinante con proprietà XXX o aventi causa, proprietà XXX o suoi aventi causa, Via XXX, salvo altri;`,
-
-          `Art. 2
-           La parte venditrice garantisce che le quote vengono cedute libere da ogni affittanza, nello stato di fatto e di diritto in cui si trovano, comunque libere da vincoli, ipoteche o altre trascrizioni pregiudizievoli al diritto di proprietà, e ne garantisce tanto la piena proprietà quanto la legittima provenienza;`,
-          `CUARTA: OTORGAMIENTO DE ESCRITURA PÚBLICA. Las partes se obligan a otorgar escritura pública de compraventa en el plazo de XXX días a contar desde la fecha del presente contrato ante el Notario designado por la parte compradora. Para ello, la parte compradora comunicará a la vendedora con una antelación mínima de XXX días, el lugar, la fecha y la hora donde habrá de otorgarse escritura pública.Aportará el vendedor en el momento 
-            del otorgamiento de la escritura el último recibo del Impuesto de bienes inmuebles y certificado de la comunidad de propietarios en el que se indique que dicho inmueble se encuentra al corriente de pagos por todos los conceptos, así como el título que justifique la propiedad del inmueble y nota registral de la vivienda en la que se refleje la inexistencia de cargas y gravámenes al momento del otorgamiento de la escritura.
-            `,
-          `Art. 3
-          Il prezzo di vendita viene fissato in € XXX (XXX euro), rispettivamente euro XXX (XXX euro)
-          da corrispondere alla sig.ra A, ed euro XXX (XXX euro) da corrispondere alla sig.ra B, defalcati da tale cifra complessiva la somma di euro XXX, già corrisposta a ciascuna parte venditrice; pertanto restano da corrispondere nel seguente modo:Quanto a € XXX che vengono oggi corrisposte alla sig.ra XXX (venditrice) a mezzo assegno circolare n. XXX tratto su XXX e che rilascia con la firma del presente atto ampia e liberatoria quietanza di pagamento;Quanto a € XXX che vengono oggi corrisposte alla sig.ra XXX (venditrice) a mezzo assegno circolare n. XXX tratto su XXX e che rilascia con la firma del presente atto ampia e liberatoria quietanza di pagamento;`,
-          `Art. 4
-          La vendita è a corpo con tutti i connessi diritti, accessori, accessioni, pertinenze inerenti, i proporzionali diritti sui beni comuni per legge, servitù attive e passive.
-            `,
-          `Art. 5
-          Il possesso e il materiale godimento dell’immobile in contratto vengono formalmente trasferiti in capo all’acquirente con la stipula del presente atto. `,
-          `OCTAVA: DOMICILIO A EFECTO DE NOTIFICACIONES. Las partes señalan como domicilio a efecto de notificaciones el señalado para cada una de ellas en el encabezamiento de este contrato. Tendrán obligación las partes de notificarse mutuamente cualquier cambio que se produzca de domicilio, en el plazo de XXX días desde que éste se produzca.
-            `,
-          `Art. 6
-          La parte venditrice dichiara che 
-          a) relativamente al suddetto immobile non esistono arretrati di imposte, tasse e contributi di alcun genere, né sono pendenti pignoramenti, sequestri o altre procedure di natura civile, penale o amministrativa.
-          b) in relazione all’unità immobiliare non esiste e non è stato costituito alcun condominio.`,
-        ],
-      },
     ],
   },
   {
-    name: "Cierre Contrato",
+    name: "Sottoscrizione del contratto",
     options: [
       {
         father: "footer",
-        name: "opcion 1",
+        name: "Opzione 1",
         value: `Letto, approvato e sottoscritto
-        Firma delle parti`
+        Firma delle parti`,
       },
       {
         father: "footer",
-        name: "opcion 2",
-        value: 
-          `Interamente letto, confermato e sottoscritto in duplice originale.
+        name: "Opzione 2",
+        value: `Interamente letto, confermato e sottoscritto in duplice originale.
           Il venditore XXXIl venditore XXXL’acquirente XXX
           I sottoscritti dichiarano di aver preso conoscenza di tutto quanto precede e in particolare, ai sensi e per effetti di cui all’art. 1341 cod. civ. i seguenti articoli:art. 1)art.2)art. 3)art. 4)
           Il venditore XXXIl venditore XXXL’acquirente XXX`,
       },
       {
         father: "footer",
-        name: "opcion 3",
+        name: "Opzione 3",
         value: `Letto, firmato e sottoscritto
-        PROMITTENTE VENDITRICE XXX PARTE PROMISSARIA ACQUIRENTE XXX`
+        PROMITTENTE VENDITRICE XXX PARTE PROMISSARIA ACQUIRENTE XXX`,
       },
     ],
   },
@@ -669,7 +636,8 @@ export const contractDrafterUK = [
       {
         father: "title",
         name: "opcion 3",
-        value: "DRAFT AGREEMENT FOR SALEby reference to the Standard Commercial Property Conditions (2nd Edition)",
+        value:
+          "DRAFT AGREEMENT FOR SALEby reference to the Standard Commercial Property Conditions (2nd Edition)",
       },
     ],
   },
@@ -679,12 +647,14 @@ export const contractDrafterUK = [
       {
         father: "sumary",
         name: "opcion 1",
-        value: "This purchase ande sale agreement is entered into this day of XXX 20XXX",
+        value:
+          "This purchase ande sale agreement is entered into this day of XXX 20XXX",
       },
       {
         father: "sumary",
         name: "opcion 2",
-        value: "THIS AGREEMENT FOR SALE is made and executed on this the day of XXX, XXX",
+        value:
+          "THIS AGREEMENT FOR SALE is made and executed on this the day of XXX, XXX",
       },
     ],
   },
@@ -814,8 +784,7 @@ export const contractDrafterUK = [
       {
         father: "footer",
         name: "opcion 1",
-        value:
-          "Purchaser XXX Seller XXX",
+        value: "Purchaser XXX Seller XXX",
       },
       {
         father: "footer",
@@ -972,7 +941,7 @@ export const contractDrafterDE = [
           
           Die Vertragsparteien sind von dem Notar auf Folgendes hingewiesen worden: Soweit der Käufer den Kaufpreis durch Aufnahme eines Kredites finanzieren muss, verlangt der Kreditgeber in der Regel, dass zur Sicherheit das Kaufobjekt mit einem Grundpfandrecht in Höhe des Kreditbetrages zu belasten ist und insoweit der jeweilige Eigentümer der sofortigen Zwangsvollstreckung in das Grundstück unterliegt. Darüber hinaus hat der Käufer als Kreditnehmer ein Schuldanerkenntnis abzugeben und sich der sofortigen Zwangsvollstreckung in sein gesamtes Vermögen zu unterwerfen. Der Käufer hat diesem Grundpfandrecht den Vorrang vor der zu seinen Gunsten bestellenden Auflassungsvormerkung einzuräumen. Über Inhalt, Folgen und Gefahren dieser Grundpfandrechtsbestellung hat der Notar die Parteien, insbesondere den Käufer, entsprechend belehrt.`,
         ],
-      }, 
+      },
     ],
   },
   {
@@ -987,12 +956,12 @@ export const contractDrafterDE = [
       {
         father: "footer",
         name: "opcion 2",
-        value:`Diese Niederschrift nebst Anlage wurde vom Notar vorgelesen, von den Erschienenen genehmigt und wie folgt unterschrieben: XXX`,
+        value: `Diese Niederschrift nebst Anlage wurde vom Notar vorgelesen, von den Erschienenen genehmigt und wie folgt unterschrieben: XXX`,
       },
       {
         father: "footer",
         name: "opcion 3",
-        value:`Vorstehendes Protokoll wurde den Erschienenen vorgelesen, von ihnen genehmigt und eigenhändig unterschrieben.
+        value: `Vorstehendes Protokoll wurde den Erschienenen vorgelesen, von ihnen genehmigt und eigenhändig unterschrieben.
         `,
       },
     ],

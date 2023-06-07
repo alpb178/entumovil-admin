@@ -1,18 +1,11 @@
-import { Routes, Route, Navigate } from "react-router-dom";
-import routes from "@/routes";
+import ProtectedPage from "./component/Protected";
+import PublicPage from "./component/Public";
+import useAuth from "./hooks/useAuth";
 
 function App() {
-  return (
-    <>
-      <Routes>
-        {routes.map(
-          ({ path, element }, key) =>
-            element && <Route key={key} exact path={path} element={element} />
-        )}
-        <Route path="*" element={<Navigate to="/Inicio" replace />} />
-      </Routes>
-    </>
-  );
+  const isLogin = useAuth();
+
+  return isLogin ? <ProtectedPage /> : <PublicPage />;
 }
 
 export default App;

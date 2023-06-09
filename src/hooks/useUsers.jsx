@@ -1,8 +1,10 @@
-import { getData } from "@/lib";
+import { getData, saveData } from "@/lib";
 import {
   API_URL_DELETE,
   API_URL_EDITAR,
-    API_URL_INSERTAR,
+  API_URL_FIND_BY_KEYCLOACK,
+  API_URL_INSERTAR,
+  API_URL_INSERT_BY_KEYCLOACK,
   API_URL_LIST,
   DELETE,
   POST,
@@ -30,6 +32,24 @@ export const saveUsers = async ({ args = {}, options = {} } = {}) => {
       break;
   }
 };
+
+export const saveUsersKeyCloack = async ({ args = {}, options = {} } = {}) => {
+  switch (options?.method) {
+    case POST:
+      await saveData({
+        path: API_URL_INSERT_BY_KEYCLOACK + `/${args.id}`,
+        data: {},
+        method: POST,
+      });
+      break;
+  }
+};
 export const deleteUsers = async ({ args = {} } = {}) => {
   await deleteData({ path: API_URL_DELETE + `/${args.id}`, method: DELETE });
 };
+
+export function useFindUsers({ args = {}, options = {} } = {}) {
+  return useQuery([API_URL_FIND_BY_KEYCLOACK , { ...args }], getData, {
+    ...options,
+  });
+}

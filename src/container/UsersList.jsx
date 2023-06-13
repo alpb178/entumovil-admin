@@ -1,11 +1,16 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 import useUsers from "@/hooks/useUsers";
 import DataTable from "../component/table";
 import TableActions from "../component/table/TableActions";
+import Profile from "./Profile";
+import ProfileAdmin from "./ProfileAdmin";
+import Loader from "@/component/loader";
 
 export default function UsersList() {
-  const [openNav, setOpenNav] = React.useState(false);
+  const [openNav, setOpenNav] = useState(false);
+  const [openForm, setOpenForm] = useState(false);
+  const [selectedItem, setSelectedItem] = useState();
 
   const { data, isLoading } = useUsers({
     args: {},
@@ -34,18 +39,18 @@ export default function UsersList() {
 
   const columns = React.useMemo(() => [
     {
-      Header: "Nombre",
-      accessor: "nombre",
+      Header: "KeyCloack",
+      accessor: "keyDoackId",
     },
 
     {
-      Header: "Ocupación",
-      accessor: "ocupacion",
+      Header: "Cuenta de Banco",
+      accessor: "cuentaBanco",
       align: "center",
     },
     {
-      Header: "KeyCloack",
-      accessor: "keyDoackId",
+      Header: "Número de telefóno",
+      accessor: "telefono",
       align: "center",
     },
     {
@@ -53,8 +58,10 @@ export default function UsersList() {
       displayName: "optionsareas",
       Cell: ({ row }) => (
         <TableActions
-          onEdit={(event) => onUpdate(event, row)}
-          onDelete={(event) => onDelete(event, row)}
+          onViewDetails={(row) => {
+            setSelectedItem(row?.original, setOpenForm(true));
+            setOpenForm(true);
+          }}
         />
       ),
     },
@@ -64,14 +71,23 @@ export default function UsersList() {
     columns,
     data: data,
     count: 10,
-    // setPage: onPageChangeCallback,
-    // setSortBy: onSortChangeCallback,
-    //  pageSize,
-    //  onPageSizeChange: setPageSize,
-    /*  onRowClick: (row) => {
+    onRowClick: (row) => {
       setSelectedItem(row?.original, setOpenForm(true));
-    },*/
+      setOpenForm(true);
+    },
   };
 
-  return <DataTable {...options} />;
+  return (
+    <>
+      {isLoading ? <Loader /> : <DataTable {...options} />}
+
+      {openForm && (
+        <ProfileAdmin
+          data={selectedItem}
+          open={openForm}
+          onOpen={setOpenForm}
+        />
+      )}
+    </>
+  );
 }

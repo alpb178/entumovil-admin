@@ -15,7 +15,7 @@ export default function Profile({ userlogged, roles }) {
   });
 
   return (
-    <div className="relative m-5 mt-16  flex w-full min-w-0 flex-col  bg-white">
+    <>
       {isLoading ? (
         <Loader />
       ) : (
@@ -126,6 +126,6 @@ export default function Profile({ userlogged, roles }) {
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 }

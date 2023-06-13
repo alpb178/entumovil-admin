@@ -1,48 +1,187 @@
+import Loader from "@/component/loader";
+import { saveUsers, useFindUsers } from "@/hooks/useUsers";
+import { PUT } from "@/lib/constant";
+import { Button } from "@material-tailwind/react";
+import { Field, Form, Formik } from "formik";
 import React, { useState } from "react";
+import { toast } from "react-toastify";
+import * as Yup from "yup";
 
-export default function EditProfile({ userlogged, roles }) {
-  const [hideRoles, setHideRoles] = useState(false);
+export default function EditProfile({
+  userlogged,
+  setHideImage,
+  setHideInfoEditUsers,
+}) {
+  const [loading, setLoading] = useState(false);
+  const { data, isLoading } = useFindUsers({
+    args: { id: userlogged.id },
+    options: {
+      keepPreviousData: true,
+    },
+  });
+
+  const message = "Campo Obligatorio *";
+
+  const initialValues = {
+    cuentaBanco: data?.cuentaBanco || "",
+    edad: data?.edad || "",
+    nacimiento: data?.nacimiento || "",
+    ocupacion: data?.ocupacion || "",
+    telefono: data?.telefono || "",
+  };
+
+  const validationSchema = Yup.object().shape({
+    telefono: Yup.string().required(message),
+  });
+
+  const onSubmit = async (values) => {
+    let method = PUT;
+
+    try {
+      setLoading(true);
+
+      values.id = data.id;
+
+      await saveUsers({
+        args: values,
+        options: {
+          method,
+        },
+      });
+
+      toast.success("Usuario Editado Con Exito");
+      setHideImage(false);
+      setHideInfoEditUsers(false);
+    } catch (error) {
+      toast.error(error.toString());
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
-    <div class="relative m-5 mt-16  flex w-full min-w-0 flex-col  bg-white">
-      <div class="px-6">
-        <div class="flex flex-wrap justify-center">
-          <div class="flex w-full justify-center px-4">
-            <div class="relative">
-              <img
-                alt="..."
-                src="/images.png"
-                class="max-w-150-px absolute -m-16 -ml-20 h-auto rounded-full border-none align-middle shadow-xl lg:-ml-16"
-              />
-            </div>
-          </div>
-        </div>
-        <div class="mt-12 text-center">
-          <h3 class="text-blueGray-700 mb-2 mb-2 text-xl font-semibold leading-normal">
-            {userlogged.username}
-          </h3>
-          <div class="text-blueGray-400 mt-0 mb-2 text-sm font-bold uppercase leading-normal">
-            <i class="fas fa-map-marker-alt text-blueGray-400 mr-2 text-lg"></i>
-            {userlogged.email}
-          </div>
-          <div class="text-blueGray-600 mb-2 mt-10">
-            <i class="fas fa-briefcase text-blueGray-400 mr-2 text-lg"></i>
-            {userlogged.firstName} - {userlogged.lastName} - {userlogged.id}
-          </div>
-        </div>
+    <div className="mx-auto max-w-screen-md">
+      {isLoading || loading ? <Loader/> : (
+        <Formik
+          initialValues={initialValues}
+          validationSchema={validationSchema}
+          onSubmit={onSubmit}
+        >
+          {({ errors, touched }) => (
+            <Form className="space-y-6 p-6 text-lg">
+              <div className="flex w-full">
+                <p className="font-bold">Información Cuenta de Banco:</p>
+                <div>
+                  <Field
+                    name="cuentaBanco"
+                    id="cuentaBanco"
+                    className={`autocomplete-field ml-3 rounded-md border p-1  ${
+                      errors?.cuentaBanco && touched?.cuentaBanco
+                        ? "border-red"
+                        : "border-gray"
+                    }`}
+                  />
+                  {errors?.cuentaBanco && touched?.cuentaBanco ? (
+                    <p className="ml-5 mt-1 text-sm text-red">
+                      {errors?.cuentaBanco}
+                    </p>
+                  ) : null}
+                </div>
+              </div>
 
-        <div className="border-blueGray-200 mt-10 border-t py-10 text-center">
-          <div className="flex flex-wrap justify-center">
-            <div className="w-full px-4 lg:w-9/12">
-              <button
-                className="font-normal text-pink-500"
-                onClick={() => setHideRoles(!hideRoles)}
-              >
-                Editar Datos
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
+              <div className="flex w-full">
+                <p className="font-bold">Edad:</p>
+                <div>
+                  <Field
+                    name="edad"
+                    type="number"
+                    className={` autocomplete-field ml-3 rounded-md border p-1 ${
+                      errors?.edad && touched?.edad
+                        ? "border-red"
+                        : "border-gray"
+                    }`}
+                  />
+                  {errors?.edad && touched?.edad ? (
+                    <p className="ml-5  mt-1 text-sm text-red">
+                      {errors?.edad}
+                    </p>
+                  ) : null}
+                </div>
+              </div>
+
+              <div className="flex w-full">
+                <p className="font-bold">Fecha de nacimiento:</p>
+                <div>
+                  <Field
+                    name="nacimiento"
+                    type="date"
+                    placeholder="Fecha de nacimiento"
+                    className={` autocomplete-field ml-3  rounded-md border p-1 ${
+                      errors?.nacimiento && touched?.nacimiento
+                        ? "border-red"
+                        : "border-gray"
+                    }`}
+                  />
+                  {errors?.nacimiento && touched?.nacimiento ? (
+                    <p className="ml-5 mt-1 text-sm text-red">
+                      {errors?.nacimiento}
+                    </p>
+                  ) : null}
+                </div>
+              </div>
+
+              <div className=" flex w-full ">
+                <p className="font-bold">Ocupacion:</p>
+                <div>
+                  <Field
+                    name="ocupacion"
+                    className={`ml-3 rounded-md border p-1 ${
+                      errors?.ocupacion && touched?.ocupacion
+                        ? "border-red"
+                        : "border-gray"
+                    }`}
+                  />
+                  {errors?.ocupacion && touched?.ocupacion ? (
+                    <p className="ml-5 mt-1 text-sm text-red">
+                      {errors?.ocupacion}
+                    </p>
+                  ) : null}
+                </div>
+              </div>
+
+              <div className="flex w-full">
+                <p className="font-bold">Número de telefono:</p>
+                <div>
+                  <Field
+                    name="telefono"
+                    className={` autocomplete-field ml-3 rounded-md border p-1 ${
+                      errors?.telefono && touched?.telefono
+                        ? "border-red"
+                        : "border-gray"
+                    }`}
+                  />
+                  {errors?.telefono && touched?.telefono ? (
+                    <p className="ml-5 mt-1 text-sm text-red">
+                      {errors?.telefono}
+                    </p>
+                  ) : null}
+                </div>
+              </div>
+
+              <div className="flex justify-end space-x-8">
+                <Button
+                  variant="gradient"
+                  type="submit"
+                  size="sm"
+                  className="mt-2 border-t"
+                >
+                  <span>Salvar Datos</span>
+                </Button>
+              </div>
+            </Form>
+          )}
+        </Formik>
+      )}
     </div>
   );
 }

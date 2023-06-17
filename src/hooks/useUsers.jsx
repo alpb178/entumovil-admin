@@ -2,6 +2,7 @@ import { getData, saveData } from "@/lib";
 import {
   API_URL_DELETE,
   API_URL_EDITAR,
+  API_URL_EDIT_BY_KEYCLOACK_ID,
   API_URL_FIND_BY_KEYCLOACK,
   API_URL_INSERTAR,
   API_URL_INSERT_BY_KEYCLOACK,
@@ -34,14 +35,20 @@ export const saveUsers = async ({ args = {}, options = {} } = {}) => {
 };
 
 export const saveUsersKeyCloack = async ({ args = {}, options = {} } = {}) => {
-  switch (options?.method) {
-    case POST:
-      await saveData({
-        path: API_URL_INSERT_BY_KEYCLOACK + `/${args.id}`,
-        data: {},
-        method: POST,
-      });
-      break;
+  if (options.method == POST) {
+    const data = await saveData({
+      path: API_URL_INSERT_BY_KEYCLOACK + `/${args.id}`,
+      data: {},
+      method: POST,
+    });
+    return data;
+  } else if (options.method == PUT) {
+    const data = await saveData({
+      path: API_URL_EDIT_BY_KEYCLOACK_ID + `/${args.keyDoackId}`,
+      data: args,
+      method: PUT,
+    });
+    return data;
   }
 };
 export const deleteUsers = async ({ args = {} } = {}) => {
@@ -49,7 +56,7 @@ export const deleteUsers = async ({ args = {} } = {}) => {
 };
 
 export function useFindUsers({ args = {}, options = {} } = {}) {
-  return useQuery([API_URL_FIND_BY_KEYCLOACK , { ...args }], getData, {
+  return useQuery([API_URL_FIND_BY_KEYCLOACK, { ...args }], getData, {
     ...options,
   });
 }

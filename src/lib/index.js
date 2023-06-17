@@ -11,6 +11,7 @@ export const getData = async ({ queryKey }) => {
 export const saveData = async (args) => {
   const { path, data: values, method } = args;
   const { data } = await apiFetcher(path, { data: values, method });
+  console.log(data)
   return data;
 };
 

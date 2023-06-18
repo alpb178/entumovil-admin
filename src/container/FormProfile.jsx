@@ -7,10 +7,9 @@ import React, { useState } from "react";
 import { toast } from "react-toastify";
 import * as Yup from "yup";
 
-export default function FormProfile({
-  data,
-  onOpen,
-}) {
+import PhoneInputField from "@/component/inputPhone";
+
+export default function FormProfile({ data, onOpen }) {
   const [loading, setLoading] = useState(false);
 
   const message = "Campo Obligatorio *";
@@ -20,7 +19,10 @@ export default function FormProfile({
   };
 
   const validationSchema = Yup.object().shape({
-    telefono: Yup.string().required(message),
+    telefono: Yup.string()
+      .required(message)
+      .min(10, "Deben ser 10 dígitos")
+      .max(10, "Deben ser 10 dígitos"),
   });
 
   const onSubmit = async (values) => {
@@ -59,24 +61,12 @@ export default function FormProfile({
         >
           {({ errors, touched }) => (
             <Form className="space-y-6 p-6 text-lg">
-              <div className="flex w-full">
-                <p className="font-bold">Número de telefono:</p>
-                <div>
-                  <Field
-                    name="telefono"
-                    className={` autocomplete-field ml-3 rounded-md border p-1 ${
-                      errors?.telefono && touched?.telefono
-                        ? "border-red"
-                        : "border-gray"
-                    }`}
-                  />
-                  {errors?.telefono && touched?.telefono ? (
-                    <p className="ml-5 mt-1 text-sm text-red">
-                      {errors?.telefono}
-                    </p>
-                  ) : null}
-                </div>
-              </div>
+              <p className="font-bold">Número de telefono:</p>
+
+              <PhoneInputField label="Phone Number" name="telefono" />
+              {errors?.telefono && touched?.telefono ? (
+                <p className="ml-5 mt-1 text-sm text-red">{errors?.telefono}</p>
+              ) : null}
 
               <div className="flex justify-end space-x-8">
                 <Button

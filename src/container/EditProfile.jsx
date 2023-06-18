@@ -1,3 +1,4 @@
+import PhoneInputField from "@/component/inputPhone";
 import Loader from "@/component/loader";
 import { saveUsers, useFindUsers } from "@/hooks/useUsers";
 import { PUT } from "@/lib/constant";
@@ -23,7 +24,7 @@ export default function EditProfile({
   const message = "Campo Obligatorio *";
 
   const initialValues = {
-    cuentaBanco: data?.cuentaBanco || "",
+    nombre: data?.nombre || "",
     edad: data?.edad || "",
     nacimiento: data?.nacimiento || "",
     ocupacion: data?.ocupacion || "",
@@ -61,7 +62,9 @@ export default function EditProfile({
 
   return (
     <div className="mx-auto max-w-screen-md">
-      {isLoading || loading ? <Loader/> : (
+      {isLoading || loading ? (
+        <Loader />
+      ) : (
         <Formik
           initialValues={initialValues}
           validationSchema={validationSchema}
@@ -69,73 +72,85 @@ export default function EditProfile({
         >
           {({ errors, touched }) => (
             <Form className="space-y-6 p-6 text-lg">
-              <div className="flex w-full">
-                <p className="font-bold">Información Cuenta de Banco:</p>
+              <div className=" w-full">
+                <p className="ml-3 mb-2 font-bold">Nombre y Apellidos:</p>
                 <div>
                   <Field
-                    name="cuentaBanco"
-                    id="cuentaBanco"
-                    className={`autocomplete-field ml-3 rounded-md border p-1  ${
-                      errors?.cuentaBanco && touched?.cuentaBanco
+                    name="nombre"
+                    id="nombre"
+                    className={`autocomplete-field ml-3 w-full rounded-md border p-3  ${
+                      errors?.nombre && touched?.nombre
                         ? "border-red"
                         : "border-gray"
                     }`}
                   />
-                  {errors?.cuentaBanco && touched?.cuentaBanco ? (
+                  {errors?.nombre && touched?.nombre ? (
                     <p className="ml-5 mt-1 text-sm text-red">
-                      {errors?.cuentaBanco}
+                      {errors?.nombre}
                     </p>
                   ) : null}
                 </div>
+              </div>
+
+              <div className="ml-3">
+                <p className="font-bold">Número de telefono:</p>
+
+                <PhoneInputField label="Phone Number" name="telefono" />
+                {errors?.telefono && touched?.telefono ? (
+                  <p className="ml-5 mt-1 text-sm text-red">
+                    {errors?.telefono}
+                  </p>
+                ) : null}
               </div>
 
               <div className="flex w-full">
-                <p className="font-bold">Edad:</p>
-                <div>
-                  <Field
-                    name="edad"
-                    type="number"
-                    className={` autocomplete-field ml-3 rounded-md border p-1 ${
-                      errors?.edad && touched?.edad
-                        ? "border-red"
-                        : "border-gray"
-                    }`}
-                  />
-                  {errors?.edad && touched?.edad ? (
-                    <p className="ml-5  mt-1 text-sm text-red">
-                      {errors?.edad}
-                    </p>
-                  ) : null}
+                <div className="w-full">
+                  <p className="ml-3 mb-2 font-bold">Fecha de nacimiento:</p>
+                  <div>
+                    <Field
+                      name="nacimiento"
+                      type="date"
+                      placeholder="Fecha de nacimiento"
+                      className={` autocomplete-field ml-3 max-w-full  rounded-md border p-3 ${
+                        errors?.nacimiento && touched?.nacimiento
+                          ? "border-red"
+                          : "border-gray"
+                      }`}
+                    />
+                    {errors?.nacimiento && touched?.nacimiento ? (
+                      <p className="ml-5 mt-1 text-sm text-red">
+                        {errors?.nacimiento}
+                      </p>
+                    ) : null}
+                  </div>
+                </div>
+                <div className="w-full">
+                  <p className="ml-3 mb-2 font-bold">Edad:</p>
+                  <div>
+                    <Field
+                      name="edad"
+                      type="number"
+                      className={` autocomplete-field ml-3 w-16 rounded-md border p-3 ${
+                        errors?.edad && touched?.edad
+                          ? "border-red"
+                          : "border-gray"
+                      }`}
+                    />
+                    {errors?.edad && touched?.edad ? (
+                      <p className="ml-5  mt-1 text-sm text-red">
+                        {errors?.edad}
+                      </p>
+                    ) : null}
+                  </div>
                 </div>
               </div>
 
-              <div className="flex w-full">
-                <p className="font-bold">Fecha de nacimiento:</p>
-                <div>
-                  <Field
-                    name="nacimiento"
-                    type="date"
-                    placeholder="Fecha de nacimiento"
-                    className={` autocomplete-field ml-3  rounded-md border p-1 ${
-                      errors?.nacimiento && touched?.nacimiento
-                        ? "border-red"
-                        : "border-gray"
-                    }`}
-                  />
-                  {errors?.nacimiento && touched?.nacimiento ? (
-                    <p className="ml-5 mt-1 text-sm text-red">
-                      {errors?.nacimiento}
-                    </p>
-                  ) : null}
-                </div>
-              </div>
-
-              <div className=" flex w-full ">
-                <p className="font-bold">Ocupacion:</p>
+              <div className="w-full ">
+                <p className="ml-3 mb-2 font-bold">Ocupacion:</p>
                 <div>
                   <Field
                     name="ocupacion"
-                    className={`ml-3 rounded-md border p-1 ${
+                    className={`ml-3 rounded-md border p-3 ${
                       errors?.ocupacion && touched?.ocupacion
                         ? "border-red"
                         : "border-gray"
@@ -144,25 +159,6 @@ export default function EditProfile({
                   {errors?.ocupacion && touched?.ocupacion ? (
                     <p className="ml-5 mt-1 text-sm text-red">
                       {errors?.ocupacion}
-                    </p>
-                  ) : null}
-                </div>
-              </div>
-
-              <div className="flex w-full">
-                <p className="font-bold">Número de telefono:</p>
-                <div>
-                  <Field
-                    name="telefono"
-                    className={` autocomplete-field ml-3 rounded-md border p-1 ${
-                      errors?.telefono && touched?.telefono
-                        ? "border-red"
-                        : "border-gray"
-                    }`}
-                  />
-                  {errors?.telefono && touched?.telefono ? (
-                    <p className="ml-5 mt-1 text-sm text-red">
-                      {errors?.telefono}
                     </p>
                   ) : null}
                 </div>

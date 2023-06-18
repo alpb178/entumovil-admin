@@ -17,6 +17,7 @@ module.exports = withMT({
       hover: "#f30066",
       color: "#969696",
       red: "#fd4632",
+      button:'#004080',
       "footer-background": "#f5f5f5",
     },
     screens: {

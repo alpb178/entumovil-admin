@@ -31,7 +31,7 @@ export default function Profile({ userlogged, roles }) {
               </div>
             </div>
           </div>
-          <div className=" text-center border-b">
+          <div className=" border-b text-center">
             <h3 className="text-blueGray-700 mb-2 font-semibold leading-normal">
               Usuario:
               <i className="fas fa-map-marker-alt ml-3 text-gray ">
@@ -44,14 +44,8 @@ export default function Profile({ userlogged, roles }) {
                 {userlogged.email}
               </i>
             </div>
-            <div className="mb-2 block font-bold">
-              Nombre - Primer Apellido:
-              <i className="fas fa-briefcase ml-3 text-gray ">
-                {userlogged.firstName} - {userlogged.lastName}
-              </i>
-            </div>
           </div>
-          
+
           <div className=" mt-10 flex  py-10 text-center sm:block md:block lg:flex">
             {roles && (
               <div className="flex w-1/2 flex-wrap justify-center md:w-full ">
@@ -90,9 +84,9 @@ export default function Profile({ userlogged, roles }) {
                 {hideExtraInfo && (
                   <div className="mt- mx-auto">
                     <div className="text-blueGray-400 mt-0 mb-2  font-bold  leading-normal">
-                      Información Cuenta de Banco:
+                      Nombre - Apellidos:
                       <i className="fas fa-map-marker-alt ml-3 text-gray ">
-                        {data.cuentaBanco}
+                        {data.nombre} {data?.apellidos}
                       </i>
                     </div>
                     <div className="text-blueGray-400 mt-0 mb-2  font-bold  leading-normal">

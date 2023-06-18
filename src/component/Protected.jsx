@@ -97,10 +97,10 @@ export default function ProtectedPage() {
           </Typography>
           <div className="flex items-center gap-4">
             <Button
-              variant="gradient"
+              
               size="sm"
               onClick={() => keycloak.logout()}
-              className="hidden lg:inline-block"
+              className="hidden rounded-none lg:inline-block lg:bg-button"
             >
               <span>Cerrar Sesión</span>
             </Button>
@@ -146,11 +146,10 @@ export default function ProtectedPage() {
         </div>
         <MobileNav open={openNav}>
           <Button
-            variant="gradient"
             size="sm"
             onClick={() => keycloak.logout()}
             fullWidth
-            className="mb-2"
+            className="mb-2 bg-button rounded-none"
           >
             <span>Cerrar Sesión</span>
           </Button>
@@ -193,7 +192,7 @@ export default function ProtectedPage() {
                   )}
                   <div className="mx-auto max-w-screen-md py-12">
                     <Button
-                      className=" mr-2 bg-cyan-800 font-normal text-white"
+                      className=" mr-2 bg-button rounded-none font-normal text-white"
                       onClick={() => {
                         setHideInfoListUsers(false),
                           setHideInfoEditUsers(false),
@@ -204,7 +203,7 @@ export default function ProtectedPage() {
                       Mostar Info del usuario
                     </Button>
                     <Button
-                      className=" mr-2 bg-orange-400 font-normal text-white"
+                      className=" mr-2 bg-gray rounded-none font-normal text-white"
                       onClick={() => {
                         setHideInfoListUsers(false),
                           setHideInfoEditUsers(true),
@@ -216,7 +215,7 @@ export default function ProtectedPage() {
                     </Button>
                     {hideInfoAdmin && (
                       <Button
-                        className=" mr-2 bg-gray font-normal text-white"
+                        className=" mr-2 bg-gray  rounded-none font-normal text-white"
                         onClick={() => {
                           setHideInfoListUsers(true),
                             setHideInfoEditUsers(false),

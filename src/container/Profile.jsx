@@ -46,42 +46,21 @@ export default function Profile({ userlogged, roles }) {
             </div>
           </div>
 
-          <div className=" mt-10 flex  py-10 text-center sm:block md:block lg:flex">
-            {roles && (
-              <div className="flex w-1/2 flex-wrap justify-center md:w-full ">
-                <div className="mb-3 w-full px-4 lg:w-9/12">
-                  <button
-                    className="font-normal text-pink-500"
-                    onClick={() => setHideRoles(!hideRoles)}
-                  >
-                    {!hideRoles ? "Mostar Roles" : "Ocultar Roles"}
-                  </button>
-                  {hideRoles && (
-                    <div className="mx-auto">
-                      <dl className="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2">
+          <div className=" mt-5 flex  text-center sm:block md:block lg:flex">
+             <div className="flex w-1/2  flex-wrap justify-center md:w-full">
+                      <dl>
                         {roles.map((field) => (
                           <div key={field} className="sm:col-span-1">
-                            <dd className="text-gray-900 mt-1">{field}</dd>
+                            <dd className="text-gray-900 bg-gradient-to p-2 text-white rounded mt-1">{field}</dd>
                           </div>
                         ))}
                       </dl>
-                    </div>
-                  )}
-                </div>
-              </div>
-            )}
+                   </div>
 
             <div className="flex w-1/2  flex-wrap justify-center md:w-full">
               <div className="w-full px-4 lg:w-9/12">
-                <button
-                  className="mb-3 font-normal text-pink-500"
-                  onClick={() => setInfoExtra(!hideExtraInfo)}
-                >
-                  {!hideExtraInfo
-                    ? "Mostar Información Extra"
-                    : "Ocultar Información Extra"}
-                </button>
-                {hideExtraInfo && (
+             
+              
                   <div className="mt- mx-auto">
                     <div className="text-blueGray-400 mt-0 mb-2  font-bold  leading-normal">
                       Nombre - Apellidos:
@@ -114,7 +93,7 @@ export default function Profile({ userlogged, roles }) {
                       </i>
                     </div>
                   </div>
-                )}
+                
               </div>
             </div>
           </div>

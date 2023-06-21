@@ -164,8 +164,8 @@ export default function ProtectedPage() {
         </div>
       ) : (
         <div className="align-center content-center">
-          <div className="mx-auto max-w-screen-lg py-12">
-            <div className="mx-auto max-w-screen-md py-12">
+          <div className="mx-auto max-w-screen-lg py-5">
+            <div className="mx-auto max-w-screen-md">
               <Typography variant="h2" color="blue-gray" className="ml-24">
                 Usuario {userLogged.username} Autenticado
               </Typography>
@@ -180,18 +180,8 @@ export default function ProtectedPage() {
                 />
               ) : (
                 <div>
-                  {hideInfoUsers && (
-                    <Profile userlogged={userLogged} roles={roles} />
-                  )}
-                  {hideInfoEditUsers && (
-                    <EditProfile
-                      userlogged={userLogged}
-                      setHideImage={setHideInfoUsers}
-                      setHideInfoEditUsers={setHideInfoEditUsers}
-                    />
-                  )}
                   <div className="mx-auto max-w-screen-md py-12">
-                    <Button
+                   {!hideInfoUsers && <Button
                       className=" mr-2 bg-button rounded-none font-normal text-white"
                       onClick={() => {
                         setHideInfoListUsers(false),
@@ -201,8 +191,8 @@ export default function ProtectedPage() {
                       disabled={hideInfoUsers}
                     >
                       Mostar Info del usuario
-                    </Button>
-                    <Button
+                    </Button>}
+                   {!hideInfoEditUsers && <Button
                       className=" mr-2 bg-gray rounded-none font-normal text-white"
                       onClick={() => {
                         setHideInfoListUsers(false),
@@ -212,21 +202,32 @@ export default function ProtectedPage() {
                       disabled={hideInfoEditUsers}
                     >
                       Editar Info del usuario
-                    </Button>
-                    {hideInfoAdmin && (
+                    </Button>}
+                    {hideInfoAdmin && !hideInfoListUsers &&  (
                       <Button
-                        className=" mr-2 bg-gray  rounded-none font-normal text-white"
+                        className=" mr-2 bg-gradient-for  rounded-none font-normal text-white"
                         onClick={() => {
                           setHideInfoListUsers(true),
                             setHideInfoEditUsers(false),
                             setHideInfoUsers(false);
                         }}
-                        disabled={hideInfoAdmin}
+                        disabled={hideInfoListUsers}
                       >
                         Listar Info de los usuarios
                       </Button>
                     )}
                   </div>
+                  {hideInfoUsers && (
+                    <Profile userlogged={userLogged} roles={roles} />
+                  )}
+                  {hideInfoEditUsers && (
+                    <EditProfile
+                      userlogged={userLogged}
+                      setHideInfoUsers={setHideInfoUsers}
+                      setHideInfoEditUsers={setHideInfoEditUsers}
+                    />
+                  )}
+                  
 
                   <div className="overflow-hidden">
                     {hideInfoListUsers && <UsersList />}

@@ -1,3 +1,4 @@
+import DateInputField from "@/component/inputDate";
 import PhoneInputField from "@/component/inputPhone";
 import Loader from "@/component/loader";
 import { saveUsers, useFindUsers } from "@/hooks/useUsers";
@@ -8,9 +9,10 @@ import React, { useState } from "react";
 import { toast } from "react-toastify";
 import * as Yup from "yup";
 
+
 export default function EditProfile({
   userlogged,
-  setHideImage,
+  setHideInfoUsers,
   setHideInfoEditUsers,
 }) {
   const [loading, setLoading] = useState(false);
@@ -51,7 +53,7 @@ export default function EditProfile({
       });
 
       toast.success("Usuario Editado Con Exito");
-      setHideImage(false);
+      setHideInfoUsers(true);
       setHideInfoEditUsers(false);
     } catch (error) {
       toast.error(error.toString());
@@ -70,7 +72,7 @@ export default function EditProfile({
           validationSchema={validationSchema}
           onSubmit={onSubmit}
         >
-          {({ errors, touched }) => (
+          {({ errors, touched ,setFieldValue}) => (
             <Form className="space-y-6 p-6 text-lg">
               <div className=" w-full">
                 <p className="ml-3 mb-2 font-bold">Nombre y Apellidos:</p>
@@ -78,7 +80,7 @@ export default function EditProfile({
                   <Field
                     name="nombre"
                     id="nombre"
-                    className={`autocomplete-field ml-3 w-full rounded-md border p-3  ${
+                    className={`autocomplete-field ml-3 w-full bg-field  border hover:border-button border-t-0 border-r-0 border-l-0 p-3  ${
                       errors?.nombre && touched?.nombre
                         ? "border-red"
                         : "border-gray"
@@ -103,20 +105,17 @@ export default function EditProfile({
                 ) : null}
               </div>
 
+             
+
               <div className="flex w-full">
                 <div className="w-full">
                   <p className="ml-3 mb-2 font-bold">Fecha de nacimiento:</p>
                   <div>
-                    <Field
-                      name="nacimiento"
-                      type="date"
-                      placeholder="Fecha de nacimiento"
-                      className={` autocomplete-field ml-3 max-w-full  rounded-md border p-3 ${
-                        errors?.nacimiento && touched?.nacimiento
-                          ? "border-red"
-                          : "border-gray"
-                      }`}
+                  <DateInputField 
+                      name='nacimiento'
+                     
                     />
+                   
                     {errors?.nacimiento && touched?.nacimiento ? (
                       <p className="ml-5 mt-1 text-sm text-red">
                         {errors?.nacimiento}
@@ -130,7 +129,7 @@ export default function EditProfile({
                     <Field
                       name="edad"
                       type="number"
-                      className={` autocomplete-field ml-3 w-16 rounded-md border p-3 ${
+                      className={` autocomplete-field bg-field  ml-3 w-16 border hover:border-button border-t-0 border-r-0 border-l-0 p-3 ${
                         errors?.edad && touched?.edad
                           ? "border-red"
                           : "border-gray"
@@ -150,7 +149,7 @@ export default function EditProfile({
                 <div>
                   <Field
                     name="ocupacion"
-                    className={`ml-3 rounded-md border p-3 ${
+                    className={`ml-3 border bg-field  hover:border-button border-t-0 border-r-0 border-l-0 ${
                       errors?.ocupacion && touched?.ocupacion
                         ? "border-red"
                         : "border-gray"

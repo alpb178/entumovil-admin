@@ -14,6 +14,7 @@ module.exports = withMT({
       "link-red": "#fd6a5a",
       "gradient-for-footer": "#161427",
       "gradient-to-footer": "#592036",
+      "field": "#E8F0FE",
       hover: "#f30066",
       color: "#969696",
       red: "#fd4632",

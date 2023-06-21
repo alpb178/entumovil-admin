@@ -23,9 +23,9 @@ const PhoneInputField = ({ label, ...props }) => {
         width: "12rem",
         height: "50px",
         fontSize: "larger",
-        boxShadow: "none",
+         background:"#E8F0FE",
         borderColor: "gray100",
-        borderRadius: "0.3rem",
+        borderRadius: "0",
       }}
     
     />

@@ -9,65 +9,12 @@ import {
   IconButton,
   Card,
 } from "@material-tailwind/react";
-
-import Profile from "@/container/Profile";
 import { useProfile } from "@/hooks/useProfile";
 
-import UsersList from "../container/UsersList";
-import { saveUsers, saveUsersKeyCloack } from "@/hooks/useUsers";
-import { useQueryClient } from "react-query";
-import Loader from "./loader";
-import { POST } from "@/lib/constant";
-import EditProfile from "@/container/EditProfile";
-import { toast } from "react-toastify";
-import FormProfile from "@/container/FormProfile";
-
 export default function ProtectedPage() {
-  const queryClient = useQueryClient();
-
   const [openNav, setOpenNav] = useState(false);
-  const [hideInfoAdmin, setHideInAdmin] = useState(false);
 
-  const [loading, setLoading] = useState(true);
-  const [register, setRegister] = useState(false);
-
-  const [hideInfoUsers, setHideInfoUsers] = useState(true);
-  const [hideInfoListUsers, setHideInfoListUsers] = useState(false);
-  const [hideInfoEditUsers, setHideInfoEditUsers] = useState(false);
-
-  const { userLogged, roles } = useProfile();
-
-  const onLoad = async () => {
-    let method = POST;
-
-    try {
-      setLoading(true);
-      saveUsersKeyCloack({
-        args: { id: userLogged.id },
-        options: {
-          method,
-        },
-      }).then((data) => {
-        if (data) {
-          setRegister(data);
-          toast.success(
-            "Bienvenido al Portal de Cuentas del Proyecto EntuMóvil,Debe continuar el registro"
-          );
-        } else {
-          setRegister(data);
-          toast.success(
-            "Bienvenido al Portal de Cuentas del Proyecto EntuMóvil"
-          );
-        }
-      });
-    } catch (error) {
-      toast.error(error.response.data.message || error.toString(), {
-        theme: "colored",
-      });
-    } finally {
-      setLoading(false);
-    }
-  };
+  const { userLogged } = useProfile();
 
   useEffect(() => {
     window.addEventListener(
@@ -75,14 +22,6 @@ export default function ProtectedPage() {
       () => window.innerWidth >= 960 && setOpenNav(false)
     );
   }, []);
-
-  useEffect(() => {
-    roles.includes("admin") ? setHideInAdmin(true) : setHideInAdmin(false);
-  }, [roles]);
-
-  useEffect(() => {
-    if (userLogged.id) onLoad();
-  }, [userLogged]);
 
   return (
     <>
@@ -93,11 +32,10 @@ export default function ProtectedPage() {
             href="#"
             className="mr-4 cursor-pointer py-1.5 font-medium"
           >
-            Portal de cuentas
+            Portal Entumovil
           </Typography>
           <div className="flex items-center gap-4">
             <Button
-              
               size="sm"
               onClick={() => keycloak.logout()}
               className="hidden rounded-none lg:inline-block lg:bg-button"
@@ -149,95 +87,37 @@ export default function ProtectedPage() {
             size="sm"
             onClick={() => keycloak.logout()}
             fullWidth
-            className="mb-2 bg-button rounded-none"
+            className="mb-2 rounded-none bg-button"
           >
             <span>Cerrar Sesión</span>
           </Button>
         </MobileNav>
       </Navbar>
 
-      {loading ? (
-        <div className="align-center flex content-center">
-          <div className="mx-auto flex max-w-screen-md py-12">
-            <Loader />
+      <div className="align-center flex content-center">
+        <div className="mx-auto w-1/2 py-5">
+          <div className="mx-auto max-w-screen-md">
+            <Typography variant="h2" color="blue-gray" className="ml-24">
+              Usuario {userLogged.username} Autenticado
+            </Typography>
           </div>
         </div>
-      ) : (
-        <div className="align-center content-center">
-          <div className="mx-auto max-w-screen-lg py-5">
-            <div className="mx-auto max-w-screen-md">
-              <Typography variant="h2" color="blue-gray" className="ml-24">
-                Usuario {userLogged.username} Autenticado
-              </Typography>
+        <div className="w-1/4 p-10 ">
+          <Card className="p-5">
+            <Typography variant="h5" color="blue-gray">
+              Sitios del Portal Entumovil
+            </Typography>
+            <div className="ml-5 mt-5">
+              <a
+                className="font-black italic text-black hover:text-link-red"
+                href="http://localhost:4001"
+              >
+                Portal de Cuentas
+              </a>
             </div>
-
-            <Card>
-              {register ? (
-                <FormProfile
-                  data={userLogged.id}
-                  open={register}
-                  onOpen={setRegister}
-                />
-              ) : (
-                <div>
-                  <div className="mx-auto max-w-screen-md py-12">
-                   {!hideInfoUsers && <Button
-                      className=" mr-2 bg-button rounded-none font-normal text-white"
-                      onClick={() => {
-                        setHideInfoListUsers(false),
-                          setHideInfoEditUsers(false),
-                          setHideInfoUsers(true);
-                      }}
-                      disabled={hideInfoUsers}
-                    >
-                      Mostar Info del usuario
-                    </Button>}
-                   {!hideInfoEditUsers && <Button
-                      className=" mr-2 bg-gray rounded-none font-normal text-white"
-                      onClick={() => {
-                        setHideInfoListUsers(false),
-                          setHideInfoEditUsers(true),
-                          setHideInfoUsers(false);
-                      }}
-                      disabled={hideInfoEditUsers}
-                    >
-                      Editar Info del usuario
-                    </Button>}
-                    {hideInfoAdmin && !hideInfoListUsers &&  (
-                      <Button
-                        className=" mr-2 bg-gradient-for  rounded-none font-normal text-white"
-                        onClick={() => {
-                          setHideInfoListUsers(true),
-                            setHideInfoEditUsers(false),
-                            setHideInfoUsers(false);
-                        }}
-                        disabled={hideInfoListUsers}
-                      >
-                        Listar Info de los usuarios
-                      </Button>
-                    )}
-                  </div>
-                  {hideInfoUsers && (
-                    <Profile userlogged={userLogged} roles={roles} />
-                  )}
-                  {hideInfoEditUsers && (
-                    <EditProfile
-                      userlogged={userLogged}
-                      setHideInfoUsers={setHideInfoUsers}
-                      setHideInfoEditUsers={setHideInfoEditUsers}
-                    />
-                  )}
-                  
-
-                  <div className="overflow-hidden">
-                    {hideInfoListUsers && <UsersList />}
-                  </div>
-                </div>
-              )}
-            </Card>
-          </div>
+          </Card>
         </div>
-      )}
+      </div>
     </>
   );
 }

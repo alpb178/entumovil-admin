@@ -11,7 +11,7 @@ const useAuth = () => {
 
     isRun.current = true;
 
-    keycloak.init({ onLoad: "login-required" }).then((res) => {
+    keycloak.init({ onLoad: "login-required",kc_idp_hint:'portal-entumovil' }).then((res) => {
       setLogin(res)
     });
   }, []);

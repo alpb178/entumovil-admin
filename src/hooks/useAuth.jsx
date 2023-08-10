@@ -1,9 +1,9 @@
 import { useEffect, useState, useRef } from "react";
-import Keycloak from "keycloak-js";
+
 import keycloak from "@/keycloack";
 
 const useAuth = () => {
-  const [islogin, setLogin] = useState(false);
+  const [islogin, setLogin] = useState();
   const isRun = useRef(false);
 
   useEffect(() => {
@@ -11,9 +11,24 @@ const useAuth = () => {
 
     isRun.current = true;
 
-    keycloak.init({ onLoad: "login-required",kc_idp_hint:'portal-entumovil' }).then((res) => {
-      setLogin(res)
-    });
+    try {
+      keycloak
+        .init({
+          onLoad: "login-required",
+        })
+        .then((authenticated) => {
+          if (authenticated) {
+            //call api to either login or register and log in the user
+            console.log("user info");
+            console.log(keycloak.userInfo);
+            setLogin(true);
+          } else {
+            setLogin(false);
+          }
+        });
+    } catch (error) {
+      throw error;
+    }
   }, []);
 
   return islogin;

@@ -1,4 +1,5 @@
-import { Card } from "@material-tailwind/react";
+import keycloak from "@/keycloack";
+import { Button, Card } from "@material-tailwind/react";
 
 export default function PublicPage() {
   return (
@@ -10,6 +11,14 @@ export default function PublicPage() {
           src="/cabecera-equipo-contacto-inmocor.jpg"
         />
       </Card>
+
+      <Button
+        size="sm"
+        onClick={() => keycloak.login()}
+        className="hidden rounded-none lg:inline-block lg:bg-button"
+      >
+        <span>Iniciar</span>
+      </Button>
     </div>
   );
 }

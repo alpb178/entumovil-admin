@@ -10,9 +10,12 @@ import {
   Card,
 } from "@material-tailwind/react";
 import { useProfile } from "@/hooks/useProfile";
+import useAuth from "@/hooks/useAuth";
+import { URL_HOME } from "@/lib/constant";
 
 export default function ProtectedPage() {
   const [openNav, setOpenNav] = useState(false);
+  const isLogin = useAuth();
 
   const { userLogged } = useProfile();
 
@@ -35,13 +38,18 @@ export default function ProtectedPage() {
             Portal Entumovil
           </Typography>
           <div className="flex items-center gap-4">
-            <Button
-              size="sm"
-              onClick={() => keycloak.logout()}
-              className="hidden rounded-none lg:inline-block lg:bg-button"
+            <a
+              href={URL_HOME}
+              className="flex content-center items-center hover:text-red"
             >
-              <span>Cerrar Sesión</span>
-            </Button>
+              <Button
+                size="sm"
+                onClick={() => keycloak.logout()}
+                className="hidden rounded-none lg:inline-block lg:bg-button"
+              >
+                <span>Cerrar Sesión</span>
+              </Button>
+            </a>
 
             <IconButton
               variant="text"
@@ -83,41 +91,47 @@ export default function ProtectedPage() {
           </div>
         </div>
         <MobileNav open={openNav}>
-          <Button
-            size="sm"
-            onClick={() => keycloak.logout()}
-            fullWidth
-            className="mb-2 rounded-none bg-button"
+          <a
+            href={URL_HOME}
+            className="flex content-center items-center hover:text-red"
           >
-            <span>Cerrar Sesión</span>
-          </Button>
+            <Button
+              size="sm"
+              onClick={() => keycloak.logout()}
+              className="hidden rounded-none lg:inline-block lg:bg-button"
+            >
+              <span>Cerrar Sesión</span>
+            </Button>
+          </a>
         </MobileNav>
       </Navbar>
 
-      <div className="align-center flex content-center">
-        <div className="mx-auto w-1/2 py-5">
-          <div className="mx-auto max-w-screen-md">
-            <Typography variant="h2" color="blue-gray" className="ml-24">
-              Usuario {userLogged.username} Autenticado
-            </Typography>
+      {isLogin && (
+        <div className="align-center flex content-center">
+          <div className="mx-auto w-1/2 py-5">
+            <div className="mx-auto max-w-screen-md">
+              <Typography variant="h2" color="blue-gray" className="ml-24">
+                Usuario {userLogged.username} Autenticado
+              </Typography>
+            </div>
+          </div>
+          <div className="w-1/4 p-10 ">
+            <Card className="p-5">
+              <Typography variant="h5" color="blue-gray">
+                Sitios del Portal Entumovil
+              </Typography>
+              <div className="ml-5 mt-5">
+                <a
+                  className="font-black italic text-black hover:text-link-red"
+                  href="http://localhost:4001"
+                >
+                  Portal de Cuentas
+                </a>
+              </div>
+            </Card>
           </div>
         </div>
-        <div className="w-1/4 p-10 ">
-          <Card className="p-5">
-            <Typography variant="h5" color="blue-gray">
-              Sitios del Portal Entumovil
-            </Typography>
-            <div className="ml-5 mt-5">
-              <a
-                className="font-black italic text-black hover:text-link-red"
-                href="http://localhost:4001"
-              >
-                Portal de Cuentas
-              </a>
-            </div>
-          </Card>
-        </div>
-      </div>
+      )}
     </>
   );
 }

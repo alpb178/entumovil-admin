@@ -18,9 +18,6 @@ const useAuth = () => {
         })
         .then((authenticated) => {
           if (authenticated) {
-            //call api to either login or register and log in the user
-            console.log("user info");
-            console.log(keycloak.userInfo);
             setLogin(true);
           } else {
             setLogin(false);

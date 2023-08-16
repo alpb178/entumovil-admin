@@ -1,5 +1,5 @@
-import keycloak from "@/keycloack";
-import { Button, Card } from "@material-tailwind/react";
+import { Card } from "@material-tailwind/react";
+import { URL_POTECTED } from "@/lib/constant";
 
 export default function PublicPage() {
   return (
@@ -12,13 +12,12 @@ export default function PublicPage() {
         />
       </Card>
 
-      <Button
-        size="sm"
-        onClick={() => keycloak.login()}
-        className="hidden rounded-none lg:inline-block lg:bg-button"
+      <a
+        href={URL_POTECTED}
+        className="flex content-center items-center hover:text-red"
       >
-        <span>Iniciar</span>
-      </Button>
+        Comenzar
+      </a>
     </div>
   );
 }

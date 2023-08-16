@@ -12,6 +12,7 @@ import {
 import { useProfile } from "@/hooks/useProfile";
 import useAuth from "@/hooks/useAuth";
 import { URL_HOME } from "@/lib/constant";
+import SitesAvailables from "@/component/sites";
 
 export default function ProtectedPage() {
   const [openNav, setOpenNav] = useState(false);
@@ -116,19 +117,7 @@ export default function ProtectedPage() {
             </div>
           </div>
           <div className="w-1/4 p-10 ">
-            <Card className="p-5">
-              <Typography variant="h5" color="blue-gray">
-                Sitios del Portal Entumovil
-              </Typography>
-              <div className="ml-5 mt-5">
-                <a
-                  className="font-black italic text-black hover:text-link-red"
-                  href="http://localhost:4001"
-                >
-                  Portal de Cuentas
-                </a>
-              </div>
-            </Card>
+            <SitesAvailables />
           </div>
         </div>
       )}

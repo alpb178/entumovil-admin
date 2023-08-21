@@ -1,5 +1,7 @@
 export const API_URL_LIST = "/list";
 
+export const API_URLS_LIST = "/list";
+
 export const API_URL_INSERT_BY_KEYCLOACK = "/insertBykeyDoackId";
 export const API_URL_FIND_BY_KEYCLOACK = "/findBykeyDoackId";
 export const API_URL_EDIT_BY_KEYCLOACK_ID = "/editByKeycloackId";

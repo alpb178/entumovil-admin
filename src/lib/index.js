@@ -1,17 +1,24 @@
-import { apiFetcher } from '@/lib/apiFetcher';
+import { apiFetcher } from "@/lib/apiFetcher";
 
 export const getData = async ({ queryKey }) => {
   const [path, params] = queryKey;
   const { id, ...rest } = params;
-  const url = id ? path.concat('/', id) : path;
-  const { data } = await apiFetcher(url, { params: rest });
+  const url = id ? path.concat("/", id) : path;
+  const { data } = await apiFetcher(url, { params: rest }, api);
+  return data;
+};
+
+export const getDataApiII = async ({ queryKey }) => {
+  const [path, params] = queryKey;
+  const { id, ...rest } = params;
+  const url = id ? path.concat("/", id) : path;
+  const { data } = await apiFetcher(url, { params: rest }, true);
   return data;
 };
 
 export const saveData = async (args) => {
   const { path, data: values, method } = args;
   const { data } = await apiFetcher(path, { data: values, method });
-  console.log(data)
   return data;
 };
 
@@ -20,4 +27,3 @@ export const deleteData = async (args) => {
   const { data } = await apiFetcher(path, { method });
   return data;
 };
-

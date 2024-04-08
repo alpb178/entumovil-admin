@@ -13,7 +13,7 @@ const SecureRoute = ({ element, ...rest }) => {
     checkAuth();
   }, []);
 
-  return keycloak.authenticated ? <Route {...rest} element={element} /> : <Navigate to="/login" />;
+  return !keycloak.authenticated ? <Route {...rest} element={element} /> : <Navigate to="/login" />;
 };
 
 export default SecureRoute;

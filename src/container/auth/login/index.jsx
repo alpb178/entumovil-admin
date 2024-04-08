@@ -2,8 +2,9 @@ import { ButtonSubmit } from "@/component/button";
 import { InputField } from "@/component/field/InputField";
 import { PasswordField } from "@/component/field/PassworField";
 import { URL_FORGOT_PASSWORD } from "@/lib/constant";
-import { Field, Form, Formik } from "formik";
+import { Form, Formik } from "formik";
 import { Link } from "react-router-dom";
+import { ValidationSchema } from "./validation";
 
 export function Login() {
   const initialValues = {
@@ -18,7 +19,7 @@ export function Login() {
   return (
     <Formik
       initialValues={initialValues}
-      //validationSchema={CredentialsValidationSchema}
+      validationSchema={ValidationSchema}
       onSubmit={handleSubmit}
     >
       {({ errors, touched, isSubmitting }) => (
@@ -51,7 +52,7 @@ export function Login() {
           </div>
 
           <div className="flex justify-center pt-1">
-            <ButtonSubmit type="submit" name='Iniciar Sesión'/> 
+            <ButtonSubmit type="submit" disabled={isSubmitting}  name='Iniciar Sesión'/> 
           </div>
         </Form>
       )}

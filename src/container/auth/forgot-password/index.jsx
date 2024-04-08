@@ -2,7 +2,7 @@ import { ButtonCancelLink, ButtonSubmit } from "@/component/button";
 import { InputField } from "@/component/field/InputField";
 import { URL_LOGIN } from "@/lib/constant";
 import { Form, Formik } from "formik";
-import { Router } from "react-router-dom";
+import { ValidationSchema } from "./validation";
 
 export function ForgotPassword() {
   const initialValues = {
@@ -16,7 +16,7 @@ export function ForgotPassword() {
     <div className=" flex flex-col items-center justify-center space-y-5">
       <Formik
         initialValues={initialValues}
-        //validationSchema={CredentialsValidationSchema}
+        validationSchema={ValidationSchema}
         onSubmit={handleSubmit}
       >
         {({ errors, touched, isSubmitting }) => (
@@ -25,14 +25,18 @@ export function ForgotPassword() {
               <InputField
                 type="text"
                 name="email"
-                error={errors.username}
+                error={errors.email}
                 placeholder="Inserte correo electrónico"
                 label="Correo electrónico"
               />
             </div>
 
             <div className="flex justify-center pt-4">
-              <ButtonSubmit type="submit" name="Recuperar contraseña" />
+              <ButtonSubmit
+                type="submit"
+                disabled={isSubmitting}
+                name="Recuperar contraseña"
+              />
               <ButtonCancelLink name="Cancelar" url={URL_LOGIN} />
             </div>
           </Form>

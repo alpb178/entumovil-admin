@@ -1,10 +1,12 @@
+import { ButtonCancelLink, ButtonSubmit } from "@/component/button";
+import { InputField } from "@/component/field/InputField";
+import { URL_LOGIN } from "@/lib/constant";
 import { Form, Formik } from "formik";
-import React, { useState } from "react";
-import { FieldsForm } from "./fields";
+import { ValidationSchema } from "./validation";
+import { PasswordField } from "@/component/field/PassworField";
 import { HeaderPage } from "@/component/header";
-import { ButtonSubmit } from "@/component/button";
 
-export function Register() {
+export function RegisterForm() {
   const initialValues = {
     email: "",
     name: "",
@@ -14,24 +16,71 @@ export function Register() {
     code: "",
   };
 
-  const onSubmit = async (values) => {
+  const handleSubmit = (values) => {
     console.log(values);
   };
-
   return (
     <div className=" flex flex-col items-center justify-center space-y-5">
-      <HeaderPage name="Registro en el Sistema Cuentas" />
-
+       <HeaderPage name="Registro en el Sistema Cuentas" />
       <Formik
         initialValues={initialValues}
-        // ValidationSchema={CredentialsValidationSchema}
-        onSubmit={onSubmit}
+        validationSchema={ValidationSchema}
+        onSubmit={handleSubmit}
       >
         {({ errors, touched, isSubmitting }) => (
-          <Form className="mt-20 flex flex-col items-center justify-center  space-y-12">
-            <FieldsForm errors={errors} touched={touched} />
+          <Form className="mt-10 flex flex-col items-center justify-center space-y-10">
+            <div className="space-y-6">
+              <InputField
+                type="text"
+                name="email"
+                error={errors.email}
+                placeholder="Inserte correo electrónico"
+                label="Correo electrónico"
+              />
+              <InputField
+                type="text"
+                error={errors.name}
+                name="name"
+                label="Nombre*"
+                placeholder="Insertar nombre*"
+              />
+
+              <InputField
+                type="text"
+                error={errors.lastName}
+                name="lastName"
+                label="Apellidos*"
+                placeholder="Insertar apellidos*"
+              />
+              <PasswordField
+                name="password"
+                error={errors.password}
+                label="Contraseña*"
+                placeholder="Insertar contraseña"
+              />
+
+              <PasswordField
+                name="repeatPassword"
+                label="Confirmar contraseña*"
+                error={errors.repeatPassword}
+                placeholder="Insertar confirmación de la contraseña"
+              />
+
+              <InputField
+                type="text"
+                name="code"
+                error={errors.code}
+                label="Codigo de verificación*"
+                placeholder="Insertar código de verificación"
+              />
+            </div>
+
             <div className="flex justify-center pt-4">
-              <ButtonSubmit type="submit" name="Registrarme" />
+              <ButtonSubmit
+                type="submit"
+                disabled={isSubmitting}
+                name="Registrar"
+              />
             </div>
           </Form>
         )}

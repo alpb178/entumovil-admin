@@ -1,8 +1,8 @@
-
+import { HeaderPage } from "../header";
 
 export function LogoEntuMovil({ isLogin }) {
   return (
-    <div className="flex flex-col justify-center items-center mt-10 space-y-5">
+    <div className="mt-10 flex flex-col items-center justify-center space-y-5">
       <img
         src="/images/autenticar_usuario/u2.png"
         alt="autenticar_usuario"
@@ -17,7 +17,9 @@ export function LogoEntuMovil({ isLogin }) {
         height={100}
       />
 
-      <a>{isLogin ? 'Bienvenido el Sistema cuentas' : 'Sistema de cuentas'}</a>
+      <HeaderPage
+        name={isLogin ? "Bienvenido el Sistema cuentas" : "Sistema de cuentas"}
+      />
     </div>
   );
 }

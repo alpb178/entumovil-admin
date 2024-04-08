@@ -8,9 +8,9 @@ import React from "react";
 export default function LoginPage() {
   return (
     <PageAnimation>
-      <LogoEntuMovil />
+      <LogoEntuMovil isLogin={true}  />
       <Login />
-      <AuthBottomBar />
+      <AuthBottomBar isLogin={true} />
     </PageAnimation>
   );
 }

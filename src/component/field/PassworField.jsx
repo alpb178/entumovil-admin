@@ -7,10 +7,10 @@ export const PasswordField = (props) => {
   const [showPassword, setShowPassword] = useState(false);
 
   return (
-    <div className="flex w-full flex-col m-5">
+    <div className="flex w-full flex-col p-5 text-xl">
       <div className="relative">
         {label && (
-          <label htmlFor="password" className="sr-only">
+          <label htmlFor="password" className="font-bold">
             {label}
           </label>
         )}

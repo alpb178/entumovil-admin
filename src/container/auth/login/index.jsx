@@ -1,3 +1,4 @@
+import { ButtonSubmit } from "@/component/button";
 import { InputField } from "@/component/field/InputField";
 import { PasswordField } from "@/component/field/PassworField";
 import { URL_FORGOT_PASSWORD } from "@/lib/constant";
@@ -22,7 +23,7 @@ export function Login() {
     >
       {({ errors, touched, isSubmitting }) => (
         <Form className="mt-10 flex flex-col items-center justify-center space-y-10">
-          <div className="space-y-6 space-x-16 ">
+          <div className="space-y-6  ">
             <InputField
               type="text"
               name="username"
@@ -49,8 +50,8 @@ export function Login() {
             </Link>
           </div>
 
-          <div className="flex justify-center pt-4">
-            <button type="submit">Iniciar Sesión </button>
+          <div className="flex justify-center pt-1">
+            <ButtonSubmit type="submit" name='Iniciar Sesión'/> 
           </div>
         </Form>
       )}

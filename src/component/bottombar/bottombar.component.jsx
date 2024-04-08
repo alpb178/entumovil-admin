@@ -1,3 +1,5 @@
+import { URL_LOGIN, URL_REGISTER } from "@/lib/constant";
+import { Link } from "react-router-dom";
 
 
 export default function  AuthBottomBar({isLogin}) {
@@ -10,14 +12,14 @@ export default function  AuthBottomBar({isLogin}) {
             : "Ya tienes una cuenta"}
         </span>
 
-        {/*  <Link
-          href={props.isLogin ? REGISTER_PAGE : LOGIN_PAGE}
+        <Link
+          to={isLogin ? URL_REGISTER : URL_LOGIN}
           className="inline-flex justify-center px-1 font-medium"
         >
           <span className="text-primary-600">
-            {props.isLogin ? 'Registrarse' : 'Iniciar Sesión'}
+            {isLogin ? 'Registrarse' : 'Iniciar Sesión'}
           </span>
-          </Link>*/}
+          </Link>
       </div>
     </div>
   );

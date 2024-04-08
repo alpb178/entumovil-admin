@@ -1,43 +1,41 @@
-
 import { Form, Formik } from "formik";
 import React, { useState } from "react";
 import { FieldsForm } from "./fields";
+import { HeaderPage } from "@/component/header";
+import { ButtonSubmit } from "@/component/button";
 
-export  function Register() {
-
+export function Register() {
   const initialValues = {
-    username: '',
-    password: '',
-    rememberMe: true
+    email: "",
+    name: "",
+    lastName: "",
+    password: "",
+    repeatPassword: "",
+    code: "",
   };
 
   const onSubmit = async (values) => {
-   console.log(values)
+    console.log(values);
   };
 
-  const [showPassword, setShowPassword] = useState(false);
- 
-
   return (
-    <div>
-    <div className="flex mt-10  justify-center items-center space-y-5">
-      <a>Registro en el Sistema Cuentas</a>
-    </div>
+    <div className=" flex flex-col items-center justify-center space-y-5">
+      <HeaderPage name="Registro en el Sistema Cuentas" />
 
-    <Formik
-      initialValues={initialValues}
-      // ValidationSchema={CredentialsValidationSchema}
-      onSubmit={onSubmit}
-    >
-      {({ errors, touched, isSubmitting }) => (
-        <Form className="flex flex-col justify-center items-center mt-20  space-y-12">
-          <FieldsForm errors={errors} touched={touched} />
-          <div className="flex justify-center pt-4">
-            <button type="submit">Registrarme</button>
-          </div>
-        </Form>
-      )}
-    </Formik>
-  </div>
+      <Formik
+        initialValues={initialValues}
+        // ValidationSchema={CredentialsValidationSchema}
+        onSubmit={onSubmit}
+      >
+        {({ errors, touched, isSubmitting }) => (
+          <Form className="mt-20 flex flex-col items-center justify-center  space-y-12">
+            <FieldsForm errors={errors} touched={touched} />
+            <div className="flex justify-center pt-4">
+              <ButtonSubmit type="submit" name="Registrarme" />
+            </div>
+          </Form>
+        )}
+      </Formik>
+    </div>
   );
 }

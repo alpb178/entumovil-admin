@@ -63,12 +63,6 @@ export default function Profile({ userlogged, roles }) {
               
                   <div className="mt- mx-auto">
                     <div className="text-blueGray-400 mt-0 mb-2  font-bold  leading-normal">
-                      Nombre - Apellidos:
-                      <i className="fas fa-map-marker-alt ml-3 text-gray ">
-                        {data.nombre} {data?.apellidos}
-                      </i>
-                    </div>
-                    <div className="text-blueGray-400 mt-0 mb-2  font-bold  leading-normal">
                       Edad:
                       <i className="fas fa-map-marker-alt ml-3 text-gray ">
                         {data.edad}

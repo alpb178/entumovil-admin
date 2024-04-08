@@ -14,7 +14,7 @@ import useAuth from "@/hooks/useAuth";
 import { URL_HOME } from "@/lib/constant";
 import SitesAvailables from "@/component/sites";
 
-export default function ProtectedPage() {
+export default function ProfileUserPage() {
   const [openNav, setOpenNav] = useState(false);
   const isLogin = useAuth();
 

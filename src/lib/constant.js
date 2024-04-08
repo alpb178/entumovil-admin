@@ -17,4 +17,8 @@ export const GET = "GET";
 
 // Route
 export const URL_HOME = "/";
-export const URL_POTECTED = "/autenticado";
+export const URL_LOGIN = "/login";
+export const URL_FORGOT_PASSWORD = "/forgot-password";
+export const URL_REGISTER = "/register";
+export const URL_PROFILE_ADMIN = "/profile/admin";
+export const URL_PROFILE_USER = "/profile/user";

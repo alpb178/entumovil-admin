@@ -5,16 +5,21 @@ import { URL_FORGOT_PASSWORD } from "@/lib/constant";
 import { Form, Formik } from "formik";
 import { Link } from "react-router-dom";
 import { ValidationSchema } from "./validation";
+import { useNavigateRoute } from "@/hooks/useNavigateRoute";
 
 export function Login() {
   const initialValues = {
     username: "",
     password: "",
-    rememberMe: true,
   };
 
+  const { navigateToHome } = useNavigateRoute();
+
   const handleSubmit = (values) => {
-    console.log(values);
+    navigateToHome();
+    toast.success(
+      "Bienvenido al Sistema de Cuentas"
+    );
   };
   return (
     <Formik
@@ -52,7 +57,11 @@ export function Login() {
           </div>
 
           <div className="flex justify-center pt-1">
-            <ButtonSubmit type="submit" disabled={isSubmitting}  name='Iniciar Sesión'/> 
+            <ButtonSubmit
+              type="submit"
+              disabled={isSubmitting}
+              name="Iniciar Sesión"
+            />
           </div>
         </Form>
       )}

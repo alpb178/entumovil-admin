@@ -3,14 +3,22 @@ import { InputField } from "@/component/field/InputField";
 import { URL_LOGIN } from "@/lib/constant";
 import { Form, Formik } from "formik";
 import { ValidationSchema } from "./validation";
+import { useNavigateRoute } from "@/hooks/useNavigateRoute";
+import { toast } from "react-toastify";
+
 
 export function ForgotPassword() {
   const initialValues = {
     email: "",
   };
 
+  const { navigateToLogin } = useNavigateRoute();
+
   const handleSubmit = (values) => {
-    console.log(values);
+    navigateToLogin();
+    toast.success(
+      "Hemos Enviado un Correo con los pasos a seguir para cambiar su contraseña"
+    );
   };
   return (
     <div className=" flex flex-col items-center justify-center space-y-5">

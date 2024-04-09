@@ -1,8 +1,7 @@
 // App.jsx
 import React from "react";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 
-import SecureRoute from "./SecureRoute";
 import LoginPage from "./pages/auth/Login";
 import ProfileAdminPage from "./pages/profile/ProfileAdmin";
 import RegisterPage from "./pages/auth/Register";
@@ -17,6 +16,7 @@ import {
 } from "./lib/constant";
 import ForgotPasswordPage from "./pages/auth/ForgotPassword";
 import ProtectedRoute from "./ProtectedRoute";
+import ProfilePage from "./pages/profile/Profile";
 
 function App() {
   return (
@@ -33,13 +33,23 @@ function App() {
         }
       />
       <Route
-        path={URL_PROFILE_USER}
+        path={URL_HOME}
         element={
           <ProtectedRoute>
-            <ProfileAdminPage />
+            <ProfilePage />
           </ProtectedRoute>
         }
       />
+      <Route
+        path={URL_PROFILE_USER}
+        element={
+          <ProtectedRoute>
+            <ProfileUserPage />
+          </ProtectedRoute>
+        }
+      />
+
+      <Route path="*" element={<Navigate to={URL_HOME} replace />} />
     </Routes>
   );
 }

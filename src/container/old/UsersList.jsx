@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 
 import useUsers from "@/hooks/useUsers";
-import DataTable from "../component/table";
-import TableActions from "../component/table/TableActions";
+import DataTable from "../../component/table";
+import TableActions from "../../component/table/TableActions";
 import Profile from "./Profile";
 import ProfileAdmin from "./ProfileAdmin";
 import Loader from "@/component/loader";

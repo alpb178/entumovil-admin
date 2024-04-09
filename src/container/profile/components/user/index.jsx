@@ -1,32 +1,36 @@
-import { ButtonCancelLink, ButtonSubmit } from "@/component/button";
 import { InputField } from "@/component/field/InputField";
-import { URL_LOGIN } from "@/lib/constant";
+
 import { Form, Formik } from "formik";
-import { ValidationSchema } from "./validation";
 import { PasswordField } from "@/component/field/PassworField";
-import { HeaderPage } from "@/component/header";
+import { ButtonCancel, ButtonSubmit } from "@/component/button";
+import { ValidationSchema } from "./validation";
 import { useNavigateRoute } from "@/hooks/useNavigateRoute";
 import { toast } from "react-toastify";
 
-export function RegisterForm() {
-  const { navigateToLogin } = useNavigateRoute();
+export function ProfileUser() {
   const initialValues = {
     email: "",
     name: "",
     lastName: "",
     password: "",
     repeatPassword: "",
-    code: "",
   };
+
+  const { navigateToHome } = useNavigateRoute();
 
   const handleSubmit = (values) => {
     console.log(values);
-    navigateToLogin();
-    toast.success("Se ha registrado con éxito en el sistema de cuentas");
+    navigateToHome();
+    toast.success(
+      "Usuario Actualizado"
+    );
+  };
+
+  const handleCancel = () => {
+    navigateToHome();
   };
   return (
     <div className=" flex flex-col items-center justify-center space-y-5">
-      <HeaderPage name="Registro en el Sistema Cuentas" />
       <Formik
         initialValues={initialValues}
         validationSchema={ValidationSchema}
@@ -70,21 +74,19 @@ export function RegisterForm() {
                 error={errors.repeatPassword}
                 placeholder="Insertar confirmación de la contraseña"
               />
-
-              <InputField
-                type="text"
-                name="code"
-                error={errors.code}
-                label="Codigo de verificación*"
-                placeholder="Insertar código de verificación"
-              />
             </div>
 
             <div className="flex justify-center pt-4">
               <ButtonSubmit
                 type="submit"
                 disabled={isSubmitting}
-                name="Registrar"
+                name="Actualizar"
+              />
+              <ButtonCancel
+                type="submit"
+                disabled={isSubmitting}
+                onClick={handleCancel}
+                name="Cancelar"
               />
             </div>
           </Form>

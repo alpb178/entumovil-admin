@@ -6,6 +6,7 @@ import { Form, Formik } from "formik";
 import { Link } from "react-router-dom";
 import { ValidationSchema } from "./validation";
 import { useNavigateRoute } from "@/hooks/useNavigateRoute";
+import { useAuth } from "@/hooks/useAuth";
 
 export function Login() {
   const initialValues = {
@@ -13,14 +14,18 @@ export function Login() {
     password: "",
   };
 
-  const { navigateToHome } = useNavigateRoute();
+  const { login } = useAuth();
 
-  const handleSubmit = (values) => {
-    navigateToHome();
-    toast.success(
-      "Bienvenido al Sistema de Cuentas"
-    );
+  const handleSubmit = async (values) => {
+    console.log("Submit");
+
+    try {
+      login(values);
+    } catch (error) {
+      toast.error(error.toString());
+    }
   };
+
   return (
     <Formik
       initialValues={initialValues}

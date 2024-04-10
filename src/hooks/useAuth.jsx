@@ -1,33 +1,46 @@
-import { useEffect, useState, useRef } from "react";
+import axios from "axios";
+import { useNavigateRoute } from "./useNavigateRoute";
+import { toast } from "react-toastify";
 
-import keycloak from "@/keycloack";
+const BASE_URL = import.meta.env.VITE_BASE_URL;
 
-const useAuth = () => {
-  const [islogin, setLogin] = useState();
-  const isRun = useRef(false);
+export const useAuth = () => {
+  const { navigateToHome, navigateToLogin } = useNavigateRoute();
+  const getToken = () => {
+    return sessionStorage.getItem("token");
+  };
+  const getId = () => {
+    return sessionStorage.getItem("username");
+  };
+  const logout = () => {
+    sessionStorage.removeItem("token");
+    sessionStorage.removeItem("username");
+    navigateToLogin();
+  };
 
-  useEffect(() => {
-    if (isRun.current) return true;
+  const isAuthenticated = !!getToken();
 
-    isRun.current = true;
-
+  const login = async (credentials) => {
     try {
-      keycloak
-        .init({
-          onLoad: "login-required",
-        })
-        .then((authenticated) => {
-          if (authenticated) {
-            setLogin(true);
-          } else {
-            setLogin(false);
-          }
-        });
+      const response = await axios.post(
+        `${BASE_URL}/api/auth/login`,
+        credentials
+      );
+      const { token } = response.data;
+      sessionStorage.setItem("token", token);
+      sessionStorage.setItem("username", credentials.username);
+      navigateToHome();
+      toast.success("Bienvenido al Sistema de Cuentas");
     } catch (error) {
-      throw error;
+      toast.error(error.message);
     }
-  }, []);
+  };
 
-  return islogin;
+  return {
+    getToken,
+    getId,
+    logout,
+    login,
+    isAuthenticated,
+  };
 };
-export default useAuth;

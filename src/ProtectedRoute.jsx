@@ -2,8 +2,10 @@ import { useEffect } from "react";
 import { Navigate, Outlet } from "react-router-dom";
 import keycloak from "./keycloack";
 import { URL_LOGIN } from "./lib/constant";
+import { useAuth } from "./hooks/useAuth";
 
 export default function ProtectedRoute({ redirectTo = URL_LOGIN, children }) {
+  const { isAuthenticated } = useAuth();
   useEffect(() => {
     const checkAuth = async () => {
       await keycloak.init({ onLoad: "check-sso" });
@@ -11,7 +13,10 @@ export default function ProtectedRoute({ redirectTo = URL_LOGIN, children }) {
 
     checkAuth();
   }, []);
-  if (keycloak.authenticated) {
+
+  console.log(isAuthenticated,keycloak.authenticated)
+
+  if (!isAuthenticated) {
     return <Navigate to={redirectTo} />;
   }
   return children ? children : <Outlet />;

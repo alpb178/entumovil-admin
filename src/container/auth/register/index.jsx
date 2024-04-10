@@ -20,7 +20,6 @@ export function RegisterForm() {
   };
 
   const handleSubmit = (values) => {
-    console.log(values);
     navigateToLogin();
     toast.success("Se ha registrado con éxito en el sistema de cuentas");
   };

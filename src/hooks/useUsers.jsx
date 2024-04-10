@@ -1,5 +1,6 @@
 import { getData, saveData } from "@/lib";
 import {
+  API_URLS_USERS_LIST,
   API_URL_DELETE,
   API_URL_EDITAR,
   API_URL_EDIT_BY_KEYCLOACK_ID,
@@ -14,7 +15,13 @@ import {
 import { useQuery } from "react-query";
 
 export default function useUsers({ args = {}, options = {} } = {}) {
-  return useQuery([API_URL_LIST, { ...args }], getData, {
+  return useQuery([API_URLS_USERS_LIST, { ...args }], getData, {
+    ...options,
+  });
+}
+
+export function useFindUsers({ args = {}, options = {} } = {}) {
+  return useQuery([API_URLS_USERS_LIST, { ...args }], getData, {
     ...options,
   });
 }
@@ -54,9 +61,3 @@ export const saveUsersKeyCloack = async ({ args = {}, options = {} } = {}) => {
 export const deleteUsers = async ({ args = {} } = {}) => {
   await deleteData({ path: API_URL_DELETE + `/${args.id}`, method: DELETE });
 };
-
-export function useFindUsers({ args = {}, options = {} } = {}) {
-  return useQuery([API_URL_FIND_BY_KEYCLOACK, { ...args }], getData, {
-    ...options,
-  });
-}

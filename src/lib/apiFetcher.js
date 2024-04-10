@@ -1,8 +1,7 @@
 import axios from "axios";
 
-export const apiFetcher = async (url, options = {}, api) => {
+export const apiFetcher = async (url, options = {}) => {
   const BASE_URL = import.meta.env.VITE_BASE_URL;
-  const BASE_URL_II = import.meta.env.VITE_BASE_URL_II;
   const sanitizedUrl = url
     .split("/")
     .filter((v) => !!v)
@@ -11,9 +10,9 @@ export const apiFetcher = async (url, options = {}, api) => {
   const { ...config } = options;
 
   try {
-    let path = api ? BASE_URL_II : BASE_URL;
+    let path = BASE_URL;
     if (typeof window === "undefined") {
-      path = api ? BASE_URL_II : BASE_URL + path;
+      path = BASE_URL + path;
     }
 
     const response = await axios(`${path}/${sanitizedUrl}`, {

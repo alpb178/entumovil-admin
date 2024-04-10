@@ -4,7 +4,7 @@ export const getData = async ({ queryKey }) => {
   const [path, params] = queryKey;
   const { id, ...rest } = params;
   const url = id ? path.concat("/", id) : path;
-  const { data } = await apiFetcher(url, { params: rest }, api);
+  const { data } = await apiFetcher(url, { params: rest });
   return data;
 };
 
@@ -18,6 +18,7 @@ export const getDataApiII = async ({ queryKey }) => {
 
 export const saveData = async (args) => {
   const { path, data: values, method } = args;
+  console.log(values, "SAVEDATA");
   const { data } = await apiFetcher(path, { data: values, method });
   return data;
 };

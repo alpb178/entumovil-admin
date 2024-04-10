@@ -4,17 +4,21 @@ import DataTable from "@/component/table";
 import TableActions from "@/component/table/TableActions";
 import { useNavigate } from "react-router-dom";
 import { URL_PROFILE_USER } from "@/lib/constant";
+import { useFindUsers } from "@/hooks/useUsers";
+import { useAuth } from "@/hooks/useAuth";
 
 export default function TableProfile() {
   const [selectedItem, setSelectedItem] = useState();
   const navigate = useNavigate();
 
-  /* const { data, isLoading } = useUrls({
-    args: {},
+  const { getId } = useAuth();
+
+  const { data, isLoading } = useFindUsers({
+    args: { id: getId() },
     options: {
       keepPreviousData: true,
     },
-  });*/
+  });
 
   const columns = React.useMemo(() => [
     {
@@ -53,14 +57,7 @@ export default function TableProfile() {
 
   const options = {
     columns,
-    data: [
-      {
-        name: "Ale",
-        lastName: "perez",
-        email: "alpb@getMaxListeners.com",
-        phone: "",
-      },
-    ],
+    data: data,
     count: 10,
     onRowClick: (row) => {
       setSelectedItem(row?.original, setOpenForm(true));
@@ -70,6 +67,7 @@ export default function TableProfile() {
 
   return (
     <div className="align-center content-center">
+      {console.log(data)}
       <DataTable {...options} />
     </div>
   );

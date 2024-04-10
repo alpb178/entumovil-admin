@@ -4,17 +4,18 @@ import DataTable from "@/component/table";
 import TableActions from "@/component/table/TableActions";
 import { useNavigate } from "react-router-dom";
 import { URL_PROFILE_USER } from "@/lib/constant";
+import useUsers from "@/hooks/useUsers";
 
 export default function TableAdmin() {
   const [selectedItem, setSelectedItem] = useState();
   const navigate = useNavigate();
 
-  /* const { data, isLoading } = useUrls({
+  const { data, isLoading } = useUsers({
     args: {},
     options: {
       keepPreviousData: true,
     },
-  });*/
+  });
 
   const columns = React.useMemo(() => [
     {
@@ -66,14 +67,7 @@ export default function TableAdmin() {
 
   const options = {
     columns,
-    data: [
-      {
-        name: "Ale",
-        lastName: "perez",
-        email: "alpb@getMaxListeners.com",
-        phone: "",
-      },
-    ],
+    data: data,
     count: 10,
     onRowClick: (row) => {
       setSelectedItem(row?.original, setOpenForm(true));

@@ -1,13 +1,12 @@
 import { useNavigate } from "react-router-dom";
 import { LogoEntuMovil } from "../logo/logo";
-import { URL_LOGIN, URL_PROFILE_ADMIN } from "@/lib/constant";
+import { URL_PROFILE_ADMIN } from "@/lib/constant";
+import { useAuth } from "@/hooks/useAuth";
 
 export function NavbarUserLoggued() {
   const navigate = useNavigate();
 
-  const handleLogout = () => {
-    navigate(URL_LOGIN);
-  };
+  const { logout } = useAuth();
 
   const handleViewAdmin = () => {
     navigate(URL_PROFILE_ADMIN);
@@ -44,7 +43,7 @@ export function NavbarUserLoggued() {
         </div>
         <div
           className="flex items-center justify-center p-2"
-          onClick={() => handleLogout()}
+          onClick={() => logout()}
         >
           <img
             src="/images/entrar_usuario_auntenticado_/u48.png"

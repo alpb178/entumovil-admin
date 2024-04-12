@@ -1,8 +1,11 @@
 import React, { useState } from "react";
-
+import { useQueryClient } from "react-query";
 import DataTable from "@/component/table";
 import TableActions from "@/component/table/TableActions";
 import useUsers, { deleteUsers } from "@/hooks/useUsers";
+import { toast } from "react-toastify";
+import { API_URLS_USERS_LIST } from "@/lib/constant";
+import ModalDelete from "@/component/modal-confirmation/modal-delete-confirmation";
 
 export default function TableAdmin() {
   const { data, isLoading } = useUsers({
@@ -12,6 +15,27 @@ export default function TableAdmin() {
     },
   });
 
+  const queryClient = useQueryClient();
+
+  const [open, setOpen] = useState(false);
+  const [id, setId] = useState();
+
+  const closeShowModal = () => {
+    setOpen(false);
+  };
+
+  const handleDelete = async () => {
+    try {
+      await deleteUsers({ args: { id } }).then(() => {
+        closeShowModal();
+        toast.success("Usuario Eliminado");
+        queryClient.invalidateQueries([API_URLS_USERS_LIST]);
+      });
+    } catch (error) {
+      toast.error(error.message);
+    }
+  };
+
   const columns = React.useMemo(() => [
     {
       Header: "Correo electrónico",
@@ -19,18 +43,13 @@ export default function TableAdmin() {
     },
 
     {
-      Header: "Nombre",
-      accessor: "name",
-      align: "center",
-    },
-    {
-      Header: "Apellidos",
+      Header: "Nombre y Apellidos",
       accessor: "lastName",
       align: "center",
     },
     {
-      Header: "Telefono",
-      accessor: "phone",
+      Header: "Telefóno",
+      accessor: "firstName",
       align: "center",
     },
     {
@@ -46,7 +65,9 @@ export default function TableAdmin() {
         <TableActions
           onDelete={() => {
             console.log(row, "ROW", row.original.id);
-            deleteUsers({ args: { id: row.original.id } });
+            setId(row.original.id);
+            setOpen(true);
+            //deleteUsers({ args: { id: row.original.id } });
           }}
         />
       ),
@@ -62,6 +83,11 @@ export default function TableAdmin() {
   return (
     <div className="align-center content-center">
       <DataTable {...options} />
+      <ModalDelete
+        open={open}
+        onOpen={closeShowModal}
+        onSubmit={handleDelete}
+      />
     </div>
   );
 }

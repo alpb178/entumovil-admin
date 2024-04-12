@@ -5,7 +5,6 @@ import { URL_FORGOT_PASSWORD } from "@/lib/constant";
 import { Form, Formik } from "formik";
 import { Link } from "react-router-dom";
 import { ValidationSchema } from "./validation";
-import { useNavigateRoute } from "@/hooks/useNavigateRoute";
 import { useAuth } from "@/hooks/useAuth";
 
 export function Login() {
@@ -17,8 +16,6 @@ export function Login() {
   const { login } = useAuth();
 
   const handleSubmit = async (values) => {
-    console.log("Submit");
-
     try {
       login(values);
     } catch (error) {

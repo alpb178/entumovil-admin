@@ -1,9 +1,8 @@
 import { Dialog, Transition } from "@headlessui/react";
-import { Button } from "@material-tailwind/react";
-//import { Form, Formik } from "formik";
 import React, { Fragment, useEffect, useState } from "react";
+import { ButtonCancel, ButtonSubmit } from "../button";
 
-const Modal = ({ children, open, onOpen, isNewData }) => {
+const Modal = ({ children, open, onOpen, isNewData, onSubmit }) => {
   const [title, setTitle] = useState();
 
   useEffect(() => {
@@ -39,14 +38,21 @@ const Modal = ({ children, open, onOpen, isNewData }) => {
               <Dialog.Panel className="w-full max-w-lg transform overflow-hidden rounded-lg bg-white p-6 text-left align-middle shadow-lg transition-all">
                 {children}
                 <div className=" border-t  text-center">
-                  <Button
+                  <ButtonSubmit
+                    variant="gradient"
+                    size="sm"
+                    onClick={() => onSubmit()}
+                    className="mt-2 border-t"
+                    name="ok"
+                  />
+
+                  <ButtonCancel
                     variant="gradient"
                     size="sm"
                     onClick={() => onOpen(false)}
                     className="mt-2 border-t"
-                  >
-                    <span>Cerrar</span>
-                  </Button>
+                    name="Cancelar"
+                  />
                 </div>
               </Dialog.Panel>
             </Transition.Child>

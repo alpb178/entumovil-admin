@@ -26,18 +26,13 @@ export default function TableProfile() {
     },
 
     {
-      Header: "Nombre",
-      accessor: "name",
-      align: "center",
-    },
-    {
-      Header: "Apellidos",
+      Header: "Nombre y Apellidos",
       accessor: "lastName",
       align: "center",
     },
     {
-      Header: "Telefono",
-      accessor: "phone",
+      Header: "Telefóno",
+      accessor: "firstName",
       align: "center",
     },
     {

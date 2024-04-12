@@ -4,7 +4,7 @@ export const InputField = (props) => {
   const { type, name, error, placeholder, label } = props;
 
   return (
-    <div className="w-full p-2 text-xl">
+    <div className="w-full text-xl">
       {label && (
         <label htmlFor={name} className="font-bold">
           {label}

@@ -36,6 +36,7 @@ export const API_URL = "api";
 export const API_AUTH_URL = `${API_URL}/auth`;
 
 export const API_URL_LOGIN = `${API_AUTH_URL}/login`;
+export const API_URL_REGISTER = `${API_AUTH_URL}/register`;
 
 
 // Users

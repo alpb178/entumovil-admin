@@ -2,11 +2,23 @@ import { useNavigate } from "react-router-dom";
 import { LogoEntuMovil } from "../logo/logo";
 import { URL_PROFILE_ADMIN } from "@/lib/constant";
 import { useAuth } from "@/hooks/useAuth";
+import { useState } from "react";
+import ModalLogout from "../modal-confirmation/modal-logout-confirmation";
 
 export function NavbarUserLoggued() {
   const navigate = useNavigate();
 
   const { logout } = useAuth();
+
+  const [open, setOpen] = useState(false);
+
+  const handlelogout = () => {
+    logout();
+    setOpen(false);
+  };
+  const closeShowModal = () => {
+    setOpen(false);
+  };
 
   const handleViewAdmin = () => {
     navigate(URL_PROFILE_ADMIN);
@@ -43,7 +55,7 @@ export function NavbarUserLoggued() {
         </div>
         <div
           className="flex items-center justify-center p-2"
-          onClick={() => logout()}
+          onClick={() => setOpen(true)}
         >
           <img
             src="/images/entrar_usuario_auntenticado_/u48.png"
@@ -55,6 +67,11 @@ export function NavbarUserLoggued() {
           Cerrar Sesión
         </div>
       </div>
+      <ModalLogout
+        open={open}
+        onOpen={closeShowModal}
+        onSubmit={handlelogout}
+      />
     </div>
   );
 }

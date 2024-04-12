@@ -6,24 +6,30 @@ import { ButtonCancel, ButtonSubmit } from "@/component/button";
 import { ValidationSchema } from "./validation";
 import { useNavigateRoute } from "@/hooks/useNavigateRoute";
 import { toast } from "react-toastify";
+import { useParams } from "react-router-dom";
+import { useFindUsers } from "@/hooks/useUsers";
 
 export function ProfileUser() {
+  const { navigateToHome } = useNavigateRoute();
+  const params = useParams();
+  const { data, isLoading } = useFindUsers({
+    args: { id: params.id },
+    options: {
+      keepPreviousData: true,
+    },
+  });
   const initialValues = {
-    email: "",
-    name: "",
-    lastName: "",
+    email: data[0]?.email ?? "",
+    name: data[0]?.firstName ?? "",
+    lastName: data[0]?.lastName ?? "",
     password: "",
     repeatPassword: "",
   };
 
-  const { navigateToHome } = useNavigateRoute();
-
   const handleSubmit = (values) => {
     console.log(values);
     navigateToHome();
-    toast.success(
-      "Usuario Actualizado"
-    );
+    toast.success("Usuario Actualizado");
   };
 
   const handleCancel = () => {
@@ -31,6 +37,7 @@ export function ProfileUser() {
   };
   return (
     <div className=" flex flex-col items-center justify-center space-y-5">
+      {console.log(data, "params")}
       <Formik
         initialValues={initialValues}
         validationSchema={ValidationSchema}

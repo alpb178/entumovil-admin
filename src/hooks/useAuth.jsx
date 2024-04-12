@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useNavigateRoute } from "./useNavigateRoute";
 import { toast } from "react-toastify";
+import { API_URL_LOGIN } from "@/lib/constant";
 
 const BASE_URL = import.meta.env.VITE_BASE_URL;
 
@@ -23,7 +24,7 @@ export const useAuth = () => {
   const login = async (credentials) => {
     try {
       const response = await axios.post(
-        `${BASE_URL}/api/auth/login`,
+        `${BASE_URL}/${API_URL_LOGIN}`,
         credentials
       );
       const { token } = response.data;

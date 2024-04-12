@@ -14,7 +14,7 @@ const useAuthKeyCloack = () => {
     try {
       keycloak
         .init({
-          onLoad: "login-required",
+          onLoad: "check-sso",
         })
         .then((authenticated) => {
           if (authenticated) {

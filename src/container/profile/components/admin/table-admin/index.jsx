@@ -2,14 +2,9 @@ import React, { useState } from "react";
 
 import DataTable from "@/component/table";
 import TableActions from "@/component/table/TableActions";
-import { useNavigate } from "react-router-dom";
-import { URL_PROFILE_USER } from "@/lib/constant";
-import useUsers from "@/hooks/useUsers";
+import useUsers, { deleteUsers } from "@/hooks/useUsers";
 
 export default function TableAdmin() {
-  const [selectedItem, setSelectedItem] = useState();
-  const navigate = useNavigate();
-
   const { data, isLoading } = useUsers({
     args: {},
     options: {
@@ -41,24 +36,17 @@ export default function TableAdmin() {
     {
       Header: "Activar/Desactivar",
       id: "activated/desactivated",
-      Cell: ({ row }) => (
-        <TableActions
-          onEdit={(row) => {
-            // setSelectedItem(row?.original, setOpenForm(true));
-            navigate(URL_PROFILE_USER);
-          }}
-        />
-      ),
+      Cell: ({ row }) => <TableActions onEdit={(row) => {}} />,
     },
     {
       Header: "Acciones",
-      id: "optionsareas",
+      id: "actions",
       displayName: "optionsareas",
       Cell: ({ row }) => (
         <TableActions
-          onDelete={(row) => {
-            // setSelectedItem(row?.original, setOpenForm(true));
-            navigate(URL_PROFILE_USER);
+          onDelete={() => {
+            console.log(row, "ROW", row.original.id);
+            deleteUsers({ args: { id: row.original.id } });
           }}
         />
       ),
@@ -69,10 +57,6 @@ export default function TableAdmin() {
     columns,
     data: data,
     count: 10,
-    onRowClick: (row) => {
-      setSelectedItem(row?.original, setOpenForm(true));
-      setOpenForm(true);
-    },
   };
 
   return (

@@ -23,7 +23,7 @@ export const URL_LOGIN = "/login";
 export const URL_FORGOT_PASSWORD = "/forgot-password";
 export const URL_REGISTER = "/register";
 export const URL_PROFILE_ADMIN = "/profile/admin";
-export const URL_PROFILE_USER = "/profile/user";
+export const URL_PROFILE_USER = "/profile/user/:id";
 
 
 //  Form
@@ -32,6 +32,16 @@ export const MESSAGE_REQUIRED="campo requerido"
 export const MESSAGE_INVALID_FORMAT="formato incorrecto"
 
 
-export const API_URL_LOGIN = "/auht/login";
+export const API_URL = "api";
+export const API_AUTH_URL = `${API_URL}/auth`;
 
-export const API_URLS_USERS_LIST = "api/user/search";
+export const API_URL_LOGIN = `${API_AUTH_URL}/login`;
+
+
+// Users
+export const API_URLS_USERS = `${API_URL}/user`;
+export const API_URLS_USERS_LIST = `${API_URLS_USERS}/search`;
+export const API_URLS_USER_DELETE = `${API_URLS_USERS}/delete`;
+export const API_URLS_USER_CREATE = `${API_URLS_USERS}/create`;
+export const API_URLS_USER_UPDATE = `${API_URLS_USERS}/update`;
+

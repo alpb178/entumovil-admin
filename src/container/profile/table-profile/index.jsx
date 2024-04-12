@@ -8,7 +8,6 @@ import { useFindUsers } from "@/hooks/useUsers";
 import { useAuth } from "@/hooks/useAuth";
 
 export default function TableProfile() {
-  const [selectedItem, setSelectedItem] = useState();
   const navigate = useNavigate();
 
   const { getId } = useAuth();
@@ -42,13 +41,17 @@ export default function TableProfile() {
       align: "center",
     },
     {
-      id: "optionsareas",
+      Header: "Acciones",
+      id: "actions",
       displayName: "optionsareas",
       Cell: ({ row }) => (
         <TableActions
-          onEdit={(row) => {
-            // setSelectedItem(row?.original, setOpenForm(true));
-            navigate(URL_PROFILE_USER);
+          onEdit={() => {
+            const path = URL_PROFILE_USER.replace(
+              ":id",
+              row?.original?.username
+            );
+            navigate(path);
           }}
         />
       ),
@@ -59,15 +62,10 @@ export default function TableProfile() {
     columns,
     data: data,
     count: 10,
-    onRowClick: (row) => {
-      setSelectedItem(row?.original, setOpenForm(true));
-      setOpenForm(true);
-    },
   };
 
   return (
     <div className="align-center content-center">
-      {console.log(data)}
       <DataTable {...options} />
     </div>
   );

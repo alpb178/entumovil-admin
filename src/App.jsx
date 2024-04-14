@@ -11,12 +11,14 @@ import {
   URL_HOME,
   URL_LOGIN,
   URL_PROFILE_ADMIN,
+  URL_PROFILE_EDIT_ADMIN,
   URL_PROFILE_USER,
   URL_REGISTER,
 } from "./lib/constant";
 import ForgotPasswordPage from "./pages/auth/ForgotPassword";
 import ProtectedRoute from "./ProtectedRoute";
 import ProfilePage from "./pages/profile/Profile";
+import ProfileEditAdminPage from "./pages/profile/ProfileEditAdmin";
 
 function App() {
   return (
@@ -47,6 +49,16 @@ function App() {
             <ProfileUserPage />
           </ProtectedRoute>
         }
+        
+      />
+       <Route
+        path={URL_PROFILE_EDIT_ADMIN}
+        element={
+          <ProtectedRoute>
+            <ProfileEditAdminPage />
+          </ProtectedRoute>
+        }
+        
       />
 
       <Route path="*" element={<Navigate to={URL_HOME} replace />} />

@@ -3,6 +3,7 @@ import { Navigate, Outlet } from "react-router-dom";
 import keycloak from "./keycloack";
 import { URL_LOGIN } from "./lib/constant";
 import { useAuth } from "./hooks/useAuth";
+import { NavbarUserLoggued } from "./component/navbar";
 
 export default function ProtectedRoute({ redirectTo = URL_LOGIN, children }) {
   const { isAuthenticated } = useAuth();
@@ -14,10 +15,8 @@ export default function ProtectedRoute({ redirectTo = URL_LOGIN, children }) {
     checkAuth();
   }, []);
 
-  console.log(isAuthenticated,keycloak.authenticated)
-
   if (!isAuthenticated) {
     return <Navigate to={redirectTo} />;
   }
-  return children ? children : <Outlet />;
+  return children ? <><NavbarUserLoggued />{children}</> : <Outlet />;
 }

@@ -7,10 +7,14 @@ import { ValidationSchema } from "./validation";
 import { useNavigateRoute } from "@/hooks/useNavigateRoute";
 import { toast } from "react-toastify";
 import { useParams } from "react-router-dom";
-import { useFindUsers } from "@/hooks/useUsers";
+import { saveUsers, useFindUsers } from "@/hooks/useUsers";
+import { PhoneInputField } from "@/component/field/PhoneField";
+import { useState } from "react";
+import { POST, PUT } from "@/lib/constant";
 
 export function ProfileUser() {
   const { navigateToHome } = useNavigateRoute();
+  const [loading, setLoading] = useState(false);
   const params = useParams();
   const { data, isLoading } = useFindUsers({
     args: { id: params.id },
@@ -20,16 +24,51 @@ export function ProfileUser() {
   });
   const initialValues = {
     email: data[0]?.email ?? "",
-    name: data[0]?.firstName ?? "",
+    phone: data[0]?.firstName ?? "",
     lastName: data[0]?.lastName ?? "",
     password: "",
     repeatPassword: "",
   };
 
-  const handleSubmit = (values) => {
-    console.log(values);
-    navigateToHome();
-    toast.success("Usuario Actualizado");
+  const handleSubmit = async (values) => {
+    console.log(values, "value");
+
+    let method = PUT;
+
+    console.log(method, "value");
+
+    try {
+      //setLoading(true);
+
+      values.id = data[0].id;
+
+      const newData = {
+        id: values.id,
+        username: values.email,
+        email: values.email,
+        firstname: values.phone ?? "-",
+        lastname: values.lastName,
+        password: values.password,
+        roles: ["user_client_role"],
+      };
+
+      console.log(newData, "value");
+
+      await saveUsers({
+        args: newData,
+        options: {
+          method,
+        },
+      });
+
+      toast.success("Usuario editado Con éxito");
+      navigateToHome();
+    } catch (error) {
+      toast.error(error.toString());
+      console.log("value");
+    } finally {
+      // setLoading(false);
+    }
   };
 
   const handleCancel = () => {
@@ -37,7 +76,6 @@ export function ProfileUser() {
   };
   return (
     <div className=" flex flex-col items-center justify-center space-y-5">
-      {console.log(data, "params")}
       <Formik
         initialValues={initialValues}
         validationSchema={ValidationSchema}
@@ -51,22 +89,17 @@ export function ProfileUser() {
                 name="email"
                 error={errors.email}
                 placeholder="Inserte correo electrónico"
-                label="Correo electrónico"
+                label="Correo electrónico*"
               />
-              <InputField
-                type="text"
-                error={errors.name}
-                name="name"
-                label="Nombre*"
-                placeholder="Insertar nombre*"
-              />
+
+              <PhoneInputField label="Telefóno*" name="phone" />
 
               <InputField
                 type="text"
                 error={errors.lastName}
                 name="lastName"
-                label="Apellidos*"
-                placeholder="Insertar apellidos*"
+                label="Nombre y apellidos*"
+                placeholder="Insertar nombre y apellidos*"
               />
               <PasswordField
                 name="password"
@@ -87,7 +120,7 @@ export function ProfileUser() {
               <ButtonSubmit
                 type="submit"
                 disabled={isSubmitting}
-                name="Actualizar"
+                name={isSubmitting || loading ? "Cargando" : "Actualizar"}
               />
               <ButtonCancel
                 type="submit"

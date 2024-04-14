@@ -1,8 +1,12 @@
 import { deleteData, getData, saveData } from "@/lib";
 import {
   API_URLS_USERS_LIST,
+  API_URLS_USER_CREATE,
   API_URLS_USER_DELETE,
+  API_URLS_USER_UPDATE,
   DELETE,
+  POST,
+  PUT,
 } from "@/lib/constant";
 import { useQuery } from "react-query";
 
@@ -25,23 +29,22 @@ export const deleteUsers = async ({ args = {} } = {}) => {
   });
 };
 
-/*
-
 export const saveUsers = async ({ args = {}, options = {} } = {}) => {
+  console.log(args,'Save Users')
   switch (options?.method) {
     case POST:
-      await saveData({ path: API_URL_INSERTAR, data: args, method: POST });
+      await saveData({ path: API_URLS_USER_CREATE, data: args, method: POST });
       break;
     case PUT:
       await saveData({
-        path: API_URL_EDITAR + `/${args.id}`,
+        path: API_URLS_USER_UPDATE + `/${args.id}`,
         data: args,
         method: PUT,
       });
       break;
   }
 };
-
+/*
 export const saveUsersKeyCloack = async ({ args = {}, options = {} } = {}) => {
   if (options.method == POST) {
     const data = await saveData({

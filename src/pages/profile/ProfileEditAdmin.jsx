@@ -1,12 +1,11 @@
 import React from "react";
 import { PageAnimation } from "@/component/page-animation/page-animation.component";
-import { Profile } from "@/container/profile";
+import ProfileEditAdmin from "@/container/profile/components/admin/profile-admin";
 
-
-export default function ProfilePage() {
+export default function ProfileEditAdminPage() {
   return (
     <PageAnimation>
-      <Profile />
+      <ProfileEditAdmin />
     </PageAnimation>
   );
 }

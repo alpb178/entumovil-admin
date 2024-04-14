@@ -1,0 +1,23 @@
+import { Input } from "@material-tailwind/react";
+import { useState } from "react";
+import { Link } from "react-router-dom";
+
+export const CheckBox = ({ enabled, id, onAFtterCheck }) => {
+  const [checked, setChecked] = useState(enabled);
+  const handleChange = async () => {
+    setChecked(!checked);
+    onAFtterCheck(id, !checked);
+  };
+
+  return (
+    <Input
+      type="checkbox"
+      checked={checked}
+      className="h-8 w-8 rounded border-gray-300 bg-gray-100"
+      onChange={(e) => {
+        e.stopPropagation();
+        handleChange();
+      }}
+    />
+  );
+};

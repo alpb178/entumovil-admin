@@ -39,18 +39,14 @@ const Modal = ({ children, open, onOpen, isNewData, onSubmit }) => {
                 {children}
                 <div className=" border-t  text-center">
                   <ButtonSubmit
-                    variant="gradient"
-                    size="sm"
                     onClick={() => onSubmit()}
-                    className="mt-2 border-t"
-                    name="ok"
+                    className="p-4 m-4 border-t"
+                    name="Aceptar"
                   />
 
                   <ButtonCancel
-                    variant="gradient"
-                    size="sm"
                     onClick={() => onOpen(false)}
-                    className="mt-2 border-t"
+                    className="p-4 m-4 border-t"
                     name="Cancelar"
                   />
                 </div>

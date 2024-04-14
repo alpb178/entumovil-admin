@@ -6,5 +6,8 @@ export const ValidationSchema = Yup.object().shape({
   firstname: Yup.string().required(MESSAGE_REQUIRED),
   lastName: Yup.string().required(MESSAGE_REQUIRED),
   password: Yup.string().required(MESSAGE_REQUIRED),
-  repeatPassword: Yup.string().required(MESSAGE_REQUIRED),
+  repeatPassword: Yup.string().required(MESSAGE_REQUIRED).oneOf(
+    [Yup.ref("password"), null],
+    "Los Password deben ser iguales"
+  ),
 });

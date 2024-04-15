@@ -30,7 +30,6 @@ export const deleteUsers = async ({ args = {} } = {}) => {
 };
 
 export const saveUsers = async ({ args = {}, options = {} } = {}) => {
-  console.log(args,'Save Users')
   switch (options?.method) {
     case POST:
       await saveData({ path: API_URLS_USER_CREATE, data: args, method: POST });

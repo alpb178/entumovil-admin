@@ -6,11 +6,25 @@ import { useNavigate } from "react-router-dom";
 import { URL_PROFILE_USER } from "@/lib/constant";
 import { useFindUsers } from "@/hooks/useUsers";
 import { useAuth } from "@/hooks/useAuth";
+import { PasswordUser } from "../components/password";
+import Modal from "@/component/modal";
 
 export default function TableProfile() {
   const navigate = useNavigate();
 
   const { getId } = useAuth();
+
+  const [open, setOpen] = useState(false);
+  const [id, setId] = useState({});
+
+  const handleUpdatePassword = async (id) => {
+    setId(id);
+    setOpen(true);
+  };
+
+  const closeShowModal = () => {
+    setOpen(false);
+  };
 
   const { data, isLoading } = useFindUsers({
     args: { id: getId() },
@@ -34,6 +48,22 @@ export default function TableProfile() {
       Header: "Telefóno",
       accessor: "firstName",
       align: "center",
+    },
+    {
+      Header: "Contraseña",
+      id: "password",
+      displayName: "passoword",
+      align: "center",
+      Cell: ({ row }) => (
+        <a className="items-center"
+          onClick={(e) => {
+            e.stopPropagation();
+            handleUpdatePassword(row.original.id);
+          }}
+        >
+          actualizar
+        </a>
+      ),
     },
     {
       Header: "Acciones",
@@ -62,6 +92,10 @@ export default function TableProfile() {
   return (
     <div className="align-center content-center">
       <DataTable {...options} />
+
+      <Modal open={open} onOpen={closeShowModal} hideButton={true}>
+        <PasswordUser id={id} onClose={closeShowModal} />
+      </Modal>
     </div>
   );
 }

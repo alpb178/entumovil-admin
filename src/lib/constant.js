@@ -24,7 +24,7 @@ export const URL_FORGOT_PASSWORD = "/forgot-password";
 export const URL_REGISTER = "/register";
 export const URL_PROFILE_ADMIN = "/profile/admin";
 export const URL_PROFILE_USER = "/profile/user/:id";
-export const URL_PROFILE_EDIT_ADMIN = "/profile/admin/edit/:id";
+export const URL_PROFILE_EDIT_ADMIN = "/profile/edit/:id";
 
 
 //  Form

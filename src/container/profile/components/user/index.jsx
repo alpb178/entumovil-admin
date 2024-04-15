@@ -1,7 +1,5 @@
 import { InputField } from "@/component/field/InputField";
-
 import { Form, Formik } from "formik";
-import { PasswordField } from "@/component/field/PassworField";
 import { ButtonCancel, ButtonSubmit } from "@/component/button";
 import { ValidationSchema } from "./validation";
 import { useNavigateRoute } from "@/hooks/useNavigateRoute";
@@ -10,7 +8,7 @@ import { useParams } from "react-router-dom";
 import { saveUsers, useFindUsers } from "@/hooks/useUsers";
 import { PhoneInputField } from "@/component/field/PhoneField";
 import { useState } from "react";
-import { POST, PUT } from "@/lib/constant";
+import { PUT } from "@/lib/constant";
 
 export function ProfileUser() {
   const { navigateToHome } = useNavigateRoute();
@@ -26,33 +24,19 @@ export function ProfileUser() {
     email: data[0]?.email ?? "",
     phone: data[0]?.firstName ?? "",
     lastName: data[0]?.lastName ?? "",
-    password: "",
-    repeatPassword: "",
   };
 
   const handleSubmit = async (values) => {
-    console.log(values, "value");
-
     let method = PUT;
 
-    console.log(method, "value");
-
     try {
-      //setLoading(true);
-
-      values.id = data[0].id;
-
       const newData = {
-        id: values.id,
+        id: data[0].id,
         username: values.email,
         email: values.email,
         firstname: values.phone ?? "-",
-        lastname: values.lastName,
-        password: values.password,
-        roles: ["user_client_role"],
+        lastName: values.lastName,
       };
-
-      console.log(newData, "value");
 
       await saveUsers({
         args: newData,
@@ -65,9 +49,7 @@ export function ProfileUser() {
       navigateToHome();
     } catch (error) {
       toast.error(error.toString());
-      console.log("value");
     } finally {
-      // setLoading(false);
     }
   };
 
@@ -100,19 +82,6 @@ export function ProfileUser() {
                 name="lastName"
                 label="Nombre y apellidos*"
                 placeholder="Insertar nombre y apellidos*"
-              />
-              <PasswordField
-                name="password"
-                error={errors.password}
-                label="Contraseña*"
-                placeholder="Insertar contraseña"
-              />
-
-              <PasswordField
-                name="repeatPassword"
-                label="Confirmar contraseña*"
-                error={errors.repeatPassword}
-                placeholder="Insertar confirmación de la contraseña"
               />
             </div>
 

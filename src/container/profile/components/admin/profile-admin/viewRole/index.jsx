@@ -4,24 +4,18 @@ import DataTable from "@/component/table";
 import TableActions from "@/component/table/TableActions";
 import useUsers, { deleteUsers, saveUsers } from "@/hooks/useUsers";
 import { toast } from "react-toastify";
-import {
-  API_URLS_USERS_LIST,
-  PUT,
-  URL_PROFILE_EDIT_ADMIN,
-} from "@/lib/constant";
+import { API_URLS_USERS_LIST, PUT } from "@/lib/constant";
 import ModalDelete from "@/component/modal-confirmation/modal-delete-confirmation";
+import { Input } from "@material-tailwind/react";
 import { CheckBox } from "@/component/checkBox";
-import { useNavigate } from "react-router-dom";
 
-export default function TableAdmin() {
+export default function ViewRoleAdmin() {
   const { data, isLoading } = useUsers({
     args: {},
     options: {
       keepPreviousData: true,
     },
   });
-
-  const navigate = useNavigate();
 
   const queryClient = useQueryClient();
 
@@ -107,10 +101,9 @@ export default function TableAdmin() {
             setId(row.original.id);
             setOpen(true);
           }}
-          onEdit={() => {
-            navigate(
-              URL_PROFILE_EDIT_ADMIN.replace(":id", row?.original?.username)
-            );
+          onEdit={(e) => {
+            setId(row.original.id);
+            setOpen(true);
           }}
         />
       ),

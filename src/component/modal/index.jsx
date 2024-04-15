@@ -2,7 +2,7 @@ import { Dialog, Transition } from "@headlessui/react";
 import React, { Fragment, useEffect, useState } from "react";
 import { ButtonCancel, ButtonSubmit } from "../button";
 
-const Modal = ({ children, open, onOpen, isNewData, onSubmit }) => {
+const Modal = ({ children, open, onOpen, isNewData, onSubmit, hideButton }) => {
   const [title, setTitle] = useState();
 
   useEffect(() => {
@@ -37,19 +37,21 @@ const Modal = ({ children, open, onOpen, isNewData, onSubmit }) => {
             >
               <Dialog.Panel className="w-full max-w-lg transform overflow-hidden rounded-lg bg-white p-6 text-left align-middle shadow-lg transition-all">
                 {children}
-                <div className=" border-t  text-center">
-                  <ButtonSubmit
-                    onClick={() => onSubmit()}
-                    className="p-4 m-4 border-t"
-                    name="Aceptar"
-                  />
+                {!hideButton && (
+                  <div className=" border-t  text-center">
+                    <ButtonSubmit
+                      onClick={() => onSubmit()}
+                      className="m-4 border-t p-4"
+                      name="Aceptar"
+                    />
 
-                  <ButtonCancel
-                    onClick={() => onOpen(false)}
-                    className="p-4 m-4 border-t"
-                    name="Cancelar"
-                  />
-                </div>
+                    <ButtonCancel
+                      onClick={() => onOpen(false)}
+                      className="m-4 border-t p-4"
+                      name="Cancelar"
+                    />
+                  </div>
+                )}
               </Dialog.Panel>
             </Transition.Child>
           </div>

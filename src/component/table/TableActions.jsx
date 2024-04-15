@@ -14,7 +14,10 @@ const TableActions = ({ onEdit, onDelete, onViewDetails, onCheck }) => {
           type="button"
           className="rounded-full p-1 hover:bg-blue-100 hover:text-blue-500"
           id="buttonEdit"
-          onClick={onEdit}
+          onClick={(e) => {
+            e.stopPropagation();
+            onEdit();
+          }}
         >
           <PencilSquareIcon className="h-6 w-6" />
         </button>
@@ -24,7 +27,10 @@ const TableActions = ({ onEdit, onDelete, onViewDetails, onCheck }) => {
           type="button"
           className="rounded-full p-1 hover:bg-red-100 hover:text-red-500"
           id="buttonDelete"
-          onClick={onDelete}
+          onClick={(e) => {
+            e.stopPropagation();
+            onDelete();
+          }}
         >
           <TrashIcon className="h-6 w-6" />
         </button>
@@ -33,8 +39,11 @@ const TableActions = ({ onEdit, onDelete, onViewDetails, onCheck }) => {
         <button
           type="button"
           className="rounded-full p-1 hover:bg-red-100 hover:text-red-500"
-          id="buttonDelete"
-          onClick={onViewDetails}
+          id="buttonDetails"
+          onClick={(e) => {
+            e.stopPropagation();
+            onViewDetails;
+          }}
         >
           <EyeIcon className="h-6 w-6" />
         </button>

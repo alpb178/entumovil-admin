@@ -30,7 +30,6 @@ export function NavbarUserLoggued() {
   };
   return (
     <div className="flex justify-center">
-      {console.log(location)}
       <div className="ml-auto pl-36 ">
         <LogoEntuMovil isLogin={true} />
       </div>
@@ -46,7 +45,7 @@ export function NavbarUserLoggued() {
           />
           Usuario Autenticado
         </div>
-        {location.pathname.includes('admin') ? (
+        {location.pathname.includes("admin") ? (
           <div
             className="flex items-center justify-center p-2"
             onClick={() => handleViewProfile()}

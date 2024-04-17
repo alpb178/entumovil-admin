@@ -8,6 +8,7 @@ import { API_URLS_USERS_LIST, PUT } from "@/lib/constant";
 import ModalDelete from "@/component/modal-confirmation/modal-delete-confirmation";
 import { Input } from "@material-tailwind/react";
 import { CheckBox } from "@/component/checkBox";
+import ModalDeleteRol from "@/component/modal-confirmation/modal-delete-rol";
 
 export default function ViewRoleAdmin() {
   const { data, isLoading } = useUsers({
@@ -61,38 +62,23 @@ export default function ViewRoleAdmin() {
 
   const columns = React.useMemo(() => [
     {
-      Header: "Correo electrónico",
+      Header: "Nombre",
       accessor: "email",
     },
 
     {
-      Header: "Nombre y Apellidos",
+      Header: "Activo/Inactivo",
       accessor: "lastName",
       align: "center",
     },
     {
-      Header: "Telefóno",
+      Header: "Descripción",
       accessor: "firstName",
       align: "center",
     },
+  
     {
-      Header: "Activar/Desactivar",
-      id: "activated/desactivated",
-
-      Cell: ({ row }) => {
-        return (
-          <div className=" flex items-center">
-            <CheckBox
-              enabled={row.original.enabled}
-              id={row.original.id}
-              onAFtterCheck={handleActivatedDeactivated}
-            />
-          </div>
-        );
-      },
-    },
-    {
-      Header: "Acciones",
+      Header: "Eliminar",
       id: "actions",
       displayName: "optionsareas",
       Cell: ({ row }) => (
@@ -101,10 +87,7 @@ export default function ViewRoleAdmin() {
             setId(row.original.id);
             setOpen(true);
           }}
-          onEdit={(e) => {
-            setId(row.original.id);
-            setOpen(true);
-          }}
+        
         />
       ),
     },
@@ -117,9 +100,9 @@ export default function ViewRoleAdmin() {
   };
 
   return (
-    <div className="align-center content-center">
+    <div className="align-center content-center mt-5">
       <DataTable {...options} />
-      <ModalDelete
+      <ModalDeleteRol
         open={open}
         onOpen={closeShowModal}
         onSubmit={handleDelete}

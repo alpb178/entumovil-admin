@@ -3,10 +3,10 @@ import { InputField } from "@/component/field/InputField";
 import { Form, Formik } from "formik";
 import { ValidationSchema } from "./validation";
 import { PasswordField } from "@/component/field/PassworField";
-import { HeaderPage } from "@/component/header";
 import { toast } from "react-toastify";
 import { useAuth } from "@/hooks/useAuth";
 import { PhoneInputField } from "@/component/field/PhoneField";
+import { LogoEntuMovil } from "@/component/logo/logo";
 
 export function RegisterForm() {
   const initialValues = {
@@ -35,7 +35,7 @@ export function RegisterForm() {
   };
   return (
     <div className=" flex flex-col items-center justify-center space-y-5">
-      <HeaderPage name="Registro en el Sistema Cuentas" />
+      <LogoEntuMovil />
       <Formik
         initialValues={initialValues}
         validationSchema={ValidationSchema}

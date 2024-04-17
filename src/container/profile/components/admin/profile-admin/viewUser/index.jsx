@@ -36,7 +36,7 @@ export function ViewUser({ data }) {
   };
 
   return (
-    <div className=" flex flex-col items-start justify-start text-lg ">
+    <div className=" flex flex-col mt-5 items-start justify-start text-lg ">
       <div className="text-blueGray-400 mt-0 mb-2 ">
         Correo Electrónico:
         <i className="ml-3 ">{data.email}</i>
@@ -45,9 +45,9 @@ export function ViewUser({ data }) {
         Telefóno:
         <i className=" ml-3 ">{data.firstName}</i>
       </div>
-      <div className="text-blueGray-400 mt-0 mb-2 ">
+      <div className="text-blueGray-400 mt-0  ">
         Nombre y Apellidos:
-        <i className=" ml-3 ">{data.lastName}</i>
+        <i className="ml-3 ">{data.lastName}</i>
       </div>
       <Formik
         initialValues={initialValues}
@@ -55,7 +55,7 @@ export function ViewUser({ data }) {
         onSubmit={handleSubmit}
       >
         {({ errors, touched, isSubmitting }) => (
-          <Form className="mt-10 flex flex-col border-t">
+          <Form className="mt-2 flex flex-col border-t">
             <div className="mt-5 space-y-6">
               <PasswordField
                 name="password"

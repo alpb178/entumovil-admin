@@ -10,13 +10,6 @@ export function LogoEntuMovil({ isLogin }) {
         height={100}
       />
 
-      <img
-        src="/images/autenticar_usuario/u3.png"
-        alt="autenticar_usuario"
-        width={100}
-        height={100}
-      />
-
       <HeaderPage
         name={isLogin ? "Bienvenido el Sistema cuentas" : "Sistema de cuentas"}
       />

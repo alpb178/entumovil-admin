@@ -22,6 +22,7 @@ export const URL_HOME = "/";
 export const URL_LOGIN = "/login";
 export const URL_FORGOT_PASSWORD = "/forgot-password";
 export const URL_REGISTER = "/register";
+export const URL_REGISTER_COMPLETE = `/register-complete`;
 export const URL_PROFILE_ADMIN = "/profile/admin";
 export const URL_PROFILE_USER = "/profile/user/:id";
 export const URL_PROFILE_EDIT_ADMIN = "/profile/edit/:id";
@@ -38,6 +39,7 @@ export const API_AUTH_URL = `${API_URL}/auth`;
 
 export const API_URL_LOGIN = `${API_AUTH_URL}/login`;
 export const API_URL_REGISTER = `${API_AUTH_URL}/register`;
+
 
 
 // Users

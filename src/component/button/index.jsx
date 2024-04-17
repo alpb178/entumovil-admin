@@ -36,7 +36,7 @@ export const ButtonCancelLink = (props) => {
   return (
     <Link
       to={url}
-      className="m-1 rounded-md bg-gray-400 p-2 text-xl text-black"
+      className="p-2 m-3 rounded-md bg-gray-300  text-xl text-black "
       prefetch={false}
       
     >

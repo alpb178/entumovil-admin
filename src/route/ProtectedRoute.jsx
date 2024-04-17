@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import { Navigate, Outlet } from "react-router-dom";
-import keycloak from "./keycloack";
-import { URL_LOGIN } from "./lib/constant";
-import { useAuth } from "./hooks/useAuth";
-import { NavbarUserLoggued } from "./component/navbar";
+import keycloak from "../keycloack";
+import { URL_LOGIN } from "../lib/constant";
+import { useAuth } from "../hooks/useAuth";
+import { NavbarUserLoggued } from "../component/navbar";
 
 export default function ProtectedRoute({ redirectTo = URL_LOGIN, children }) {
   const { isAuthenticated } = useAuth();

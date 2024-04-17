@@ -14,18 +14,22 @@ import {
   URL_PROFILE_EDIT_ADMIN,
   URL_PROFILE_USER,
   URL_REGISTER,
+  URL_REGISTER_COMPLETE,
 } from "./lib/constant";
 import ForgotPasswordPage from "./pages/auth/ForgotPassword";
-import ProtectedRoute from "./ProtectedRoute";
+import ProtectedRoute from "./route/ProtectedRoute";
 import ProfilePage from "./pages/profile/Profile";
 import ProfileEditAdminPage from "./pages/profile/ProfileEditAdmin";
+import RegisterCompletePage from "./pages/auth/RegisterComplete";
 
 function App() {
   return (
     <Routes>
       <Route path={URL_LOGIN} element={<LoginPage />} />
       <Route path={URL_REGISTER} element={<RegisterPage />} />
+      <Route path={URL_REGISTER_COMPLETE} element={<RegisterCompletePage />} />
       <Route path={URL_FORGOT_PASSWORD} element={<ForgotPasswordPage />} />
+
       <Route
         path={URL_PROFILE_ADMIN}
         element={
@@ -49,16 +53,14 @@ function App() {
             <ProfileUserPage />
           </ProtectedRoute>
         }
-        
       />
-       <Route
+      <Route
         path={URL_PROFILE_EDIT_ADMIN}
         element={
           <ProtectedRoute>
             <ProfileEditAdminPage />
           </ProtectedRoute>
         }
-        
       />
 
       <Route path="*" element={<Navigate to={URL_HOME} replace />} />

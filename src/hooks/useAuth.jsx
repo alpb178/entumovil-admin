@@ -6,7 +6,7 @@ import { API_URLS_USER_CREATE, API_URL_LOGIN } from "@/lib/constant";
 const BASE_URL = import.meta.env.VITE_BASE_URL;
 
 export const useAuth = () => {
-  const { navigateToHome, navigateToLogin } = useNavigateRoute();
+  const { navigateToHome, navigateToLogin,navigateToRegisterComplete } = useNavigateRoute();
   const getToken = () => {
     return sessionStorage.getItem("token");
   };
@@ -40,7 +40,7 @@ export const useAuth = () => {
   const register = async (user) => {
     try {
       await axios.post(`${BASE_URL}/${API_URLS_USER_CREATE}`, user);
-      navigateToHome();
+      navigateToRegisterComplete();
 
       toast.success("Used Ha Sido Registrado en el Sistema de cuentas");
     } catch (error) {

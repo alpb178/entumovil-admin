@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export function RegisterComplete() {
   return (
-    <div className=" flex flex-col items-center justify-center space-y-5">
+    <div className=" flex flex-col items-center justify-center space-y-5 m-5">
       <LogoEntuMovil />
       <a className="text-2xl">
         Usted se ha registrado en el portal de cuentas. Hemos Enviado un Correo

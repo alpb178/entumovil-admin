@@ -25,16 +25,16 @@ export function RegisterForm() {
         username: values.email,
         email: values.email,
         firstname: values.phone ?? "-",
-        lastname: values.firstname + " " + values.lastName,
+        lastname: `${values?.firstname ?? "-"}  ${values.lastName ?? "-"}`,
         password: values.password,
-        roles: ["user_client_role"],
+        roles: ["user"],
       });
     } catch (error) {
       toast.error(error.toString());
     }
   };
   return (
-    <div className=" flex flex-col items-center justify-center space-y-5">
+    <div className=" flex flex-col items-center justify-center space-y-5 m-5">
       <LogoEntuMovil />
       <Formik
         initialValues={initialValues}
@@ -57,7 +57,7 @@ export function RegisterForm() {
                 type="text"
                 error={errors.firstname}
                 name="firstname"
-                label="Nombre*"
+                label="Nombre"
                 placeholder="Insertar nombre*"
               />
 
@@ -65,7 +65,7 @@ export function RegisterForm() {
                 type="text"
                 error={errors.lastName}
                 name="lastName"
-                label="Apellidos*"
+                label="Apellidos"
                 placeholder="Insertar apellidos*"
               />
               <PasswordField

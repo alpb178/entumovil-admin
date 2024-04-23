@@ -6,12 +6,7 @@ export default function ModalDelete({ onOpen, open, onSubmit }) {
     <Modal open={open} onOpen={onOpen} onSubmit={onSubmit}>
       <div className=" align-center m-10 flex flex-col items-center content-center text-xl">
         <a className="mb-5">¿Está seguro que desea eliminar este usuario?</a>
-        <img
-          src={deleteImages}
-          alt="delete"
-          width={100}
-          height={100}
-        />
+     
       </div>
     </Modal>
   );

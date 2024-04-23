@@ -15,8 +15,15 @@ export const apiFetcher = async (url, options = {}) => {
       path = BASE_URL + path;
     }
 
+    console.log(sessionStorage.getItem("username"));
+    console.log(sessionStorage.getItem("token"));
+   
+
     const response = await axios(`${path}/${sanitizedUrl}`, {
       ...config,
+      headers: {
+        Authorization: "Bearer " + sessionStorage.getItem("token"),
+      },
     });
 
     if (response.data === null) {

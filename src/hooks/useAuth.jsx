@@ -6,7 +6,8 @@ import { API_URLS_USER_CREATE, API_URL_LOGIN } from "@/lib/constant";
 const BASE_URL = import.meta.env.VITE_BASE_URL;
 
 export const useAuth = () => {
-  const { navigateToHome, navigateToLogin,navigateToRegisterComplete } = useNavigateRoute();
+  const { navigateToHome, navigateToLogin, navigateToRegisterComplete } =
+    useNavigateRoute();
   const getToken = () => {
     return sessionStorage.getItem("token");
   };
@@ -27,8 +28,8 @@ export const useAuth = () => {
         `${BASE_URL}/${API_URL_LOGIN}`,
         credentials
       );
-      const { token } = response.data;
-      sessionStorage.setItem("token", token);
+      const { access_token } = response.data;
+      sessionStorage.setItem("token", access_token);
       sessionStorage.setItem("username", credentials.username);
       navigateToHome();
       toast.success("Bienvenido al Sistema de Cuentas");

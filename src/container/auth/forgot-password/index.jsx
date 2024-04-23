@@ -28,7 +28,7 @@ export function ForgotPassword() {
         onSubmit={handleSubmit}
       >
         {({ errors, touched, isSubmitting }) => (
-          <Form className="mt-10 flex flex-col items-center justify-center space-y-10">
+          <Form className="mt-10 flex flex-col items-center justify-center space-y-10 m-5">
             <div className="space-y-6 space-x-16 ">
               <InputField
                 type="text"

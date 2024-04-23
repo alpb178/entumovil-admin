@@ -34,7 +34,7 @@ export default function TableAdmin() {
     try {
       const newData = {
         id,
-        enabled: value,
+        isEnabled: value,
       };
 
       await saveUsers({
@@ -124,7 +124,7 @@ export default function TableAdmin() {
   };
 
   return (
-    <div className="align-center content-center">
+    <div className="align-center content-center m-5">
       <DataTable {...options} />
       <ModalDelete
         open={open}

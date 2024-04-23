@@ -6,6 +6,7 @@ import { Form, Formik } from "formik";
 import { Link } from "react-router-dom";
 import { ValidationSchema } from "./validation";
 import { useAuth } from "@/hooks/useAuth";
+import AuthBottomBar from "@/component/bottombar/bottombar.component";
 
 export function Login() {
   const initialValues = {
@@ -30,7 +31,7 @@ export function Login() {
       onSubmit={handleSubmit}
     >
       {({ errors, touched, isSubmitting }) => (
-        <Form className="mt-10 flex flex-col items-center justify-center space-y-10">
+        <Form className="mt-10 flex flex-col items-center justify-center space-y-10 m-5">
           <div className="space-y-6  ">
             <InputField
               type="text"
@@ -58,15 +59,17 @@ export function Login() {
             </Link>
           </div>
 
-          <div className="flex justify-center pt-1">
+          <div className="justify-center pt-1">
             <ButtonSubmit
               type="submit"
               disabled={isSubmitting}
               name="Iniciar Sesión"
             />
           </div>
+          <AuthBottomBar isLogin={true} />
         </Form>
       )}
+       
     </Formik>
   );
 }

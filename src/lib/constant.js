@@ -22,6 +22,7 @@ export const API_URL = "api";
 export const API_AUTH_URL = `${API_URL}/auth`;
 export const API_URL_LOGIN = `${API_AUTH_URL}/login`;
 export const API_URL_REGISTER = `${API_AUTH_URL}/register`;
+export const API_URL_LOGOUT = `${API_AUTH_URL}/logout`;
 
 // Users
 export const API_URLS_USERS = `${API_URL}/user`;

@@ -27,7 +27,7 @@ export function PasswordUser({ id, onClose }) {
         },
       });
 
-      toast.success("Usuario editado Con éxito");
+      toast.success("Usuario editado con éxito");
       onClose();
     } catch (error) {
       toast.error(error.toString());
@@ -42,7 +42,7 @@ export function PasswordUser({ id, onClose }) {
         validationSchema={ValidationSchema}
         onSubmit={handleSubmit}
       >
-        {({ errors, touched, isSubmitting }) => (
+        {({ errors, isSubmitting }) => (
           <Form className="mt-10 flex flex-col items-center justify-center space-y-10">
             <div className="space-y-6">
               <PasswordField

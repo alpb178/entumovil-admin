@@ -4,6 +4,7 @@ import { toast } from "react-toastify";
 import {
   API_URLS_USER_CREATE,
   API_URL_LOGIN,
+  API_URL_LOGOUT,
   AUTH_ID,
   AUTH_TOKEN,
   AUTH_USERNAME,
@@ -26,10 +27,17 @@ export const useAuth = () => {
   const getUsername = () => {
     return Cookies.get(AUTH_USERNAME);
   };
-  const logout = () => {
-    cleanCookies();
-    navigateToLogin();
+  const logout = async () => {
+    try {
+      cleanCookies();
+      navigateToLogin();
+      await apiFetcher(API_URL_LOGOUT);
+      toast.success("Sus sesión ha sido cerrada en el Sistema de cuentas");
+    } catch (error) {
+      toast.error(error.message);
+    }
   };
+
   const cleanCookies = () => {
     Cookies.remove(AUTH_TOKEN);
     Cookies.remove(AUTH_USERNAME);

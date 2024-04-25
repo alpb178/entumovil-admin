@@ -1,6 +1,8 @@
 import axios from "axios";
 import Cookies from "js-cookie";
 import { AUTH_TOKEN } from "./constant";
+import { cleanCookiesFromSession } from "./utils";
+import { toast } from "react-toastify";
 
 export const apiFetcher = async (url, options = {}) => {
   const BASE_URL = import.meta.env.VITE_BASE_URL;
@@ -26,11 +28,15 @@ export const apiFetcher = async (url, options = {}) => {
 
     if (response.data === null) {
       response.data = null;
+      cleanCookiesFromSession();
     }
 
     return response;
   } catch (error) {
     if (error?.response?.status === 401) {
+      cleanCookiesFromSession();
+      toast.error("Su sessión ha expirado");
+
       throw new Error("Session expired");
     }
     throw error;

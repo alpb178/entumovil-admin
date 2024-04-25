@@ -46,7 +46,7 @@ export function ProfileUser() {
         },
       });
 
-      toast.success("Usuario editado Con éxito");
+      toast.success("Usuario editado con éxito");
       navigateToHome();
       setLoading(false)
     } catch (error) {
@@ -70,7 +70,7 @@ export function ProfileUser() {
           validationSchema={ValidationSchema}
           onSubmit={handleSubmit}
         >
-          {({ errors, touched, isSubmitting }) => (
+          {({ errors,  isSubmitting }) => (
             <Form className="mt-10 flex flex-col items-center justify-center space-y-10">
               <div className="space-y-6">
                 <InputField

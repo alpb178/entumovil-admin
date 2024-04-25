@@ -66,12 +66,7 @@ export function PasswordUser({ id, onClose }) {
                 disabled={isSubmitting}
                 name={isSubmitting ? "Cargando" : "Actualizar"}
               />
-              <ButtonCancel
-                type="submit"
-                disabled={isSubmitting}
-                onClick={onClose}
-                name="Cancelar"
-              />
+              <ButtonCancel onClick={onClose} name="Cancelar" />
             </div>
           </Form>
         )}

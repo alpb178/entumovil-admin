@@ -19,8 +19,22 @@ export const userRegisterd = async () => {
   }
 };
 
-export const cleanCookiesFromSession = async () => {
+export const cleanCookiesFromSession = () => {
   Cookies.remove(AUTH_TOKEN);
   Cookies.remove(AUTH_USERNAME);
   Cookies.remove(AUTH_ID);
+};
+
+export const getError = (error) => {
+  switch (error) {
+    case "ERR_NETWORK":
+      cleanCookiesFromSession();
+      return "Su sessión ha sido cerrada";
+
+    case "ERR_BAD_REQUEST":
+      return "Ha ocurrido un error con la red. Intente de nuevo";
+
+    default:
+      return "Ha ocurrido un error. Contacte con la administración";
+  }
 };

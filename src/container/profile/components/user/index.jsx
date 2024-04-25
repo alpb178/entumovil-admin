@@ -48,12 +48,12 @@ export function ProfileUser() {
 
       toast.success("Usuario editado con éxito");
       navigateToHome();
-      setLoading(false)
+      setLoading(false);
     } catch (error) {
       toast.error(error.toString());
-      setLoading(false)
+      setLoading(false);
     } finally {
-      setLoading(false)
+      setLoading(false);
     }
   };
 
@@ -70,7 +70,7 @@ export function ProfileUser() {
           validationSchema={ValidationSchema}
           onSubmit={handleSubmit}
         >
-          {({ errors,  isSubmitting }) => (
+          {({ errors, isSubmitting }) => (
             <Form className="mt-10 flex flex-col items-center justify-center space-y-10">
               <div className="space-y-6">
                 <InputField
@@ -99,7 +99,6 @@ export function ProfileUser() {
                   name={isSubmitting || loading ? "Cargando" : "Actualizar"}
                 />
                 <ButtonCancel
-                  type="submit"
                   disabled={isSubmitting}
                   onClick={handleCancel}
                   name="Cancelar"

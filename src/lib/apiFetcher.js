@@ -1,7 +1,7 @@
 import axios from "axios";
 import Cookies from "js-cookie";
 import { AUTH_TOKEN } from "./constant";
-import { cleanCookiesFromSession } from "./utils";
+import { cleanCookiesFromSession, getError } from "./utils";
 import { toast } from "react-toastify";
 
 export const apiFetcher = async (url, options = {}) => {
@@ -33,12 +33,6 @@ export const apiFetcher = async (url, options = {}) => {
 
     return response;
   } catch (error) {
-    if (error?.response?.status === 401) {
-      cleanCookiesFromSession();
-      toast.error("Su sessión ha expirado");
-
-      throw new Error("Session expired");
-    }
-    throw error;
+    throw new Error(getError(error?.code));
   }
 };

@@ -29,9 +29,10 @@ export const useAuth = () => {
   };
   const logout = async () => {
     try {
+    
+      await apiFetcher(API_URL_LOGOUT);
       cleanCookies();
       navigateToLogin();
-      await apiFetcher(API_URL_LOGOUT);
       toast.success("Sus sesión ha sido cerrada en el Sistema de cuentas");
     } catch (error) {
       toast.error(error.message);

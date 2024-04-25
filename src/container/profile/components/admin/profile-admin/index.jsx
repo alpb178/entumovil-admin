@@ -26,7 +26,7 @@ export function ProfileEditAdmin() {
           </div>
           <div className="w-full p-5 ">
             <a className="border-b p-2 text-2xl">Roles del usuario</a>
-            <ViewRoleAdmin />
+            <ViewRoleAdmin idUser={data[0].id} />
           </div>
         </div>
       )}

@@ -1,4 +1,6 @@
 import axios from "axios";
+import Cookies from "js-cookie";
+import { AUTH_TOKEN } from "./constant";
 
 export const apiFetcher = async (url, options = {}) => {
   const BASE_URL = import.meta.env.VITE_BASE_URL;
@@ -15,14 +17,10 @@ export const apiFetcher = async (url, options = {}) => {
       path = BASE_URL + path;
     }
 
-    console.log(sessionStorage.getItem("username"));
-    console.log(sessionStorage.getItem("token"));
-   
-
     const response = await axios(`${path}/${sanitizedUrl}`, {
       ...config,
       headers: {
-        Authorization: "Bearer " + sessionStorage.getItem("token"),
+        Authorization: "Bearer " + Cookies.get(AUTH_TOKEN),
       },
     });
 

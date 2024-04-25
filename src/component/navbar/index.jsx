@@ -1,15 +1,25 @@
-import { useLocation, useNavigate } from "react-router-dom";
-import { LogoEntuMovil } from "../logo/logo";
+import { useNavigate } from "react-router-dom";
 import { URL_HOME, URL_PROFILE_ADMIN } from "@/lib/constant";
 import { useAuth } from "@/hooks/useAuth";
 import { useState } from "react";
 import ModalLogout from "../modal-confirmation/modal-logout-confirmation";
 
-export function NavbarUserLoggued() {
-  const navigate = useNavigate();
-  const location = useLocation();
+import { Fragment } from "react";
+import { Disclosure, Menu, Transition } from "@headlessui/react";
+import { useFindRoles } from "@/hooks/useRoles";
+import Loader from "../loader";
 
-  const { logout } = useAuth();
+export default function NavbarUserLoggued() {
+  const navigate = useNavigate();
+
+  const { logout, getId } = useAuth();
+
+  const { data, isLoading } = useFindRoles({
+    args: { id: getId() },
+    options: {
+      keepPreviousData: true,
+    },
+  });
 
   const [open, setOpen] = useState(false);
 
@@ -28,71 +38,82 @@ export function NavbarUserLoggued() {
   const handleViewProfile = () => {
     navigate(URL_HOME);
   };
-  return (
-    <div className="flex justify-center">
-      <div className="ml-auto pl-36 ">
-        <LogoEntuMovil isLogin={true} />
-      </div>
 
-      <div className="ml-auto pt-5 pr-8">
-        <div className="flex flex-col items-center justify-center p-2">
-          <img
-            className="mr-2"
-            src="/images/entrar_usuario_auntenticado_/u44.png"
-            alt="autenticar_usuario"
-            width={50}
-            height={50}
-          />
-          Usuario Autenticado
-        </div>
-        {location.pathname.includes("admin") ? (
-          <div
-            className="flex items-center justify-center p-2"
-            onClick={() => handleViewProfile()}
-          >
-            <img
-              src="/images/entrar_usuario_auntenticado_/u89.png"
-              alt="autenticar_usuario"
-              className="mr-2"
-              width={25}
-              height={25}
-            />
-            Vista Perfil
+  const isAdmin = !!data.find((m) => m.name.includes("admin"));
+  return (
+    <Disclosure as="nav">
+      <>
+        <div className="mx-auto  border-b px-2 sm:px-6 lg:px-8">
+          <div className="relative flex h-16 items-center justify-between">
+            <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+              <div className="flex flex-shrink-0 items-center">
+                <img
+                  className="h-8 w-auto"
+                  src="/images/autenticar_usuario/u2.png"
+                  alt="Your Company"
+                />
+              </div>
+            </div>
+            {isLoading ? (
+              <Loader />
+            ) : (
+              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                {/* Profile dropdown */}
+                <Menu as="div" className="relative ml-3">
+                  <div>
+                    <Menu.Button className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                      <img
+                        className="h-8 w-8 rounded-full"
+                        src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                        alt=""
+                      />
+                    </Menu.Button>
+                  </div>
+                  <Transition
+                    as={Fragment}
+                    enter="transition ease-out duration-100"
+                    enterFrom="transform opacity-0 scale-95"
+                    enterTo="transform opacity-100 scale-100"
+                    leave="transition ease-in duration-75"
+                    leaveFrom="transform opacity-100 scale-100"
+                    leaveTo="transform opacity-0 scale-95"
+                  >
+                    <Menu.Items className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                      <div
+                        className="flex items-center justify-center p-2"
+                        onClick={() => handleViewProfile()}
+                      >
+                        Perfil
+                      </div>
+
+                      {isAdmin && (
+                        <div
+                          className="flex items-center justify-center p-2"
+                          onClick={() => handleViewAdmin()}
+                        >
+                          Admin
+                        </div>
+                      )}
+
+                      <div
+                        className="flex items-center justify-center p-2"
+                        onClick={() => setOpen(true)}
+                      >
+                        Cerrar Sesión
+                      </div>
+                    </Menu.Items>
+                  </Transition>
+                </Menu>
+              </div>
+            )}
           </div>
-        ) : (
-          <div
-            className="flex items-center justify-center p-2"
-            onClick={() => handleViewAdmin()}
-          >
-            <img
-              src="/images/entrar_usuario_auntenticado_/u89.png"
-              alt="autenticar_usuario"
-              className="mr-2"
-              width={25}
-              height={25}
-            />
-            Vista Admin
-          </div>
-        )}
-        <div
-          className="flex items-center justify-center p-2"
-          onClick={() => setOpen(true)}
-        >
-          <img
-            src="/images/entrar_usuario_auntenticado_/u48.png"
-            alt="autenticar_usuario"
-            className="mr-2"
-            width={25}
-            height={25}
-          />
-          Cerrar Sesión
         </div>
-      </div>
+      </>
       <ModalLogout
         open={open}
         onOpen={closeShowModal}
         onSubmit={handlelogout}
       />
-    </div>
+    </Disclosure>
   );
 }

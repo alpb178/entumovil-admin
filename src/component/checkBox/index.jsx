@@ -1,6 +1,5 @@
 import { Input } from "@material-tailwind/react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
 
 export const CheckBox = ({ enabled, id, onAFtterCheck }) => {
   const [checked, setChecked] = useState(enabled);

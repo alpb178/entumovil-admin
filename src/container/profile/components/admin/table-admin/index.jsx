@@ -12,6 +12,7 @@ import {
 import ModalDelete from "@/component/modal-confirmation/modal-delete-confirmation";
 import { CheckBox } from "@/component/checkBox";
 import { useNavigate } from "react-router-dom";
+import Loader from "@/component/loader";
 
 export default function TableAdmin() {
   const { data, isLoading } = useUsers({
@@ -124,8 +125,8 @@ export default function TableAdmin() {
   };
 
   return (
-    <div className="align-center content-center m-5">
-      <DataTable {...options} />
+    <div className="align-center m-5 content-center">
+      {isLoading ? <Loader /> : <DataTable {...options} />}
       <ModalDelete
         open={open}
         onOpen={closeShowModal}

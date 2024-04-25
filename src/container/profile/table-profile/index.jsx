@@ -12,7 +12,7 @@ import Modal from "@/component/modal";
 export default function TableProfile() {
   const navigate = useNavigate();
 
-  const { getId } = useAuth();
+  const { getUsername } = useAuth();
 
   const [open, setOpen] = useState(false);
   const [id, setId] = useState({});
@@ -27,7 +27,7 @@ export default function TableProfile() {
   };
 
   const { data, isLoading } = useFindUsers({
-    args: { id: getId() },
+    args: { id: getUsername() },
     options: {
       keepPreviousData: true,
     },
@@ -55,7 +55,8 @@ export default function TableProfile() {
       displayName: "passoword",
       align: "center",
       Cell: ({ row }) => (
-        <a className="items-center"
+        <a
+          className="items-center"
           onClick={(e) => {
             e.stopPropagation();
             handleUpdatePassword(row.original.id);
@@ -69,14 +70,10 @@ export default function TableProfile() {
       Header: "Acciones",
       id: "actions",
       displayName: "optionsareas",
-      Cell: ({ row }) => (
+      Cell: () => (
         <TableActions
           onEdit={() => {
-            const path = URL_PROFILE_USER.replace(
-              ":id",
-              row?.original?.username
-            );
-            navigate(path);
+            navigate(URL_PROFILE_USER);
           }}
         />
       ),

@@ -1,26 +1,42 @@
 import axios from "axios";
 import { useNavigateRoute } from "./useNavigateRoute";
 import { toast } from "react-toastify";
-import { API_URLS_USER_CREATE, API_URL_LOGIN } from "@/lib/constant";
+import {
+  API_URLS_USER_CREATE,
+  API_URL_LOGIN,
+  AUTH_ID,
+  AUTH_TOKEN,
+  AUTH_USERNAME,
+} from "@/lib/constant";
+import { apiFetcher } from "@/lib/apiFetcher";
+import Cookies from "js-cookie";
 
 const BASE_URL = import.meta.env.VITE_BASE_URL;
 
 export const useAuth = () => {
   const { navigateToHome, navigateToLogin, navigateToRegisterComplete } =
     useNavigateRoute();
+
   const getToken = () => {
-    return sessionStorage.getItem("token");
+    return Cookies.get(AUTH_TOKEN);
   };
   const getId = () => {
-    return sessionStorage.getItem("username");
+    return Cookies.get(AUTH_ID);
+  };
+  const getUsername = () => {
+    return Cookies.get(AUTH_USERNAME);
   };
   const logout = () => {
-    sessionStorage.removeItem("token");
-    sessionStorage.removeItem("username");
+    cleanCookies();
     navigateToLogin();
   };
+  const cleanCookies = () => {
+    Cookies.remove(AUTH_TOKEN);
+    Cookies.remove(AUTH_USERNAME);
+    Cookies.remove(AUTH_ID);
+  };
 
-  const isAuthenticated = !!getToken();
+  const isAuthenticated = !!getToken() && !!getId() && !!getUsername();
 
   const login = async (credentials) => {
     try {
@@ -29,12 +45,27 @@ export const useAuth = () => {
         credentials
       );
       const { access_token } = response.data;
-      sessionStorage.setItem("token", access_token);
-      sessionStorage.setItem("username", credentials.username);
-      navigateToHome();
-      toast.success("Bienvenido al Sistema de Cuentas");
+      Cookies.set(AUTH_TOKEN, access_token);
+      Cookies.set(AUTH_USERNAME, credentials.username);
+      await userLogged(credentials.username);
     } catch (error) {
       toast.error(error.message);
+    }
+  };
+
+  const userLogged = async (username) => {
+    try {
+      const response = await apiFetcher(`api/user/search/${username}`);
+      if (response.status == 200) {
+        Cookies.set(AUTH_ID, response.data[0].id);
+        navigateToHome();
+        toast.success("Bienvenido al Sistema de Cuentas");
+      } else {
+        cleanCookies();
+      }
+    } catch (error) {
+      toast.error(error.message);
+      cleanCookies();
     }
   };
 
@@ -56,5 +87,7 @@ export const useAuth = () => {
     login,
     register,
     isAuthenticated,
+    getUsername,
+    cleanCookies,
   };
 };

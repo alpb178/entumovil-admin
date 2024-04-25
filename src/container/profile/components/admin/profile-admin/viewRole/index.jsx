@@ -2,17 +2,17 @@ import React, { useState } from "react";
 import { useQueryClient } from "react-query";
 import DataTable from "@/component/table";
 import TableActions from "@/component/table/TableActions";
-import useUsers, { deleteUsers, saveUsers } from "@/hooks/useUsers";
+import { deleteUsers } from "@/hooks/useUsers";
 import { toast } from "react-toastify";
-import { API_URLS_USERS_LIST, PUT } from "@/lib/constant";
-import ModalDelete from "@/component/modal-confirmation/modal-delete-confirmation";
-import { Input } from "@material-tailwind/react";
-import { CheckBox } from "@/component/checkBox";
+import { API_URLS_USERS_LIST } from "@/lib/constant";
 import ModalDeleteRol from "@/component/modal-confirmation/modal-delete-rol";
+import { useFindRoles } from "@/hooks/useRoles";
+import Loader from "@/component/loader";
+import { useAuth } from "@/hooks/useAuth";
 
-export default function ViewRoleAdmin() {
-  const { data, isLoading } = useUsers({
-    args: {},
+export default function ViewRoleAdmin({ idUser }) {
+  const { data, isLoading } = useFindRoles({
+    args: { id: idUser },
     options: {
       keepPreviousData: true,
     },
@@ -22,27 +22,6 @@ export default function ViewRoleAdmin() {
 
   const [open, setOpen] = useState(false);
   const [id, setId] = useState({});
-
-  const handleActivatedDeactivated = async (id, value) => {
-    let method = PUT;
-
-    try {
-      const newData = {
-        id,
-        enabled: value,
-      };
-
-      await saveUsers({
-        args: newData,
-        options: {
-          method,
-        },
-      });
-    } catch (error) {
-      toast.error(error.toString());
-    } finally {
-    }
-  };
 
   const closeShowModal = () => {
     setOpen(false);
@@ -63,20 +42,15 @@ export default function ViewRoleAdmin() {
   const columns = React.useMemo(() => [
     {
       Header: "Nombre",
-      accessor: "email",
+      accessor: "name",
     },
 
     {
-      Header: "Activo/Inactivo",
-      accessor: "lastName",
-      align: "center",
-    },
-    {
       Header: "Descripción",
-      accessor: "firstName",
+      accessor: "description",
       align: "center",
     },
-  
+
     {
       Header: "Eliminar",
       id: "actions",
@@ -87,7 +61,6 @@ export default function ViewRoleAdmin() {
             setId(row.original.id);
             setOpen(true);
           }}
-        
         />
       ),
     },
@@ -100,8 +73,9 @@ export default function ViewRoleAdmin() {
   };
 
   return (
-    <div className="align-center content-center mt-5">
-      <DataTable {...options} />
+    <div className="align-center mt-5 content-center">
+      {isLoading ? <Loader /> : <DataTable {...options} />}
+
       <ModalDeleteRol
         open={open}
         onOpen={closeShowModal}

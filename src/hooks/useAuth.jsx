@@ -11,6 +11,7 @@ import {
 } from "@/lib/constant";
 import { apiFetcher } from "@/lib/apiFetcher";
 import Cookies from "js-cookie";
+import { getErrorTransaction } from "@/lib/utils";
 
 const BASE_URL = import.meta.env.VITE_BASE_URL;
 
@@ -29,7 +30,6 @@ export const useAuth = () => {
   };
   const logout = async () => {
     try {
-    
       await apiFetcher(API_URL_LOGOUT);
       cleanCookies();
       navigateToLogin();
@@ -58,7 +58,7 @@ export const useAuth = () => {
       Cookies.set(AUTH_USERNAME, credentials.username);
       await userLogged(credentials.username);
     } catch (error) {
-      toast.error(error.message);
+      toast.error(getErrorTransaction(error.message));
     }
   };
 

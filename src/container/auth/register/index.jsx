@@ -7,6 +7,7 @@ import { toast } from "react-toastify";
 import { useAuth } from "@/hooks/useAuth";
 import { PhoneInputField } from "@/component/field/PhoneField";
 import { LogoEntuMovil } from "@/component/logo/logo";
+import { getErrorTransaction } from "@/lib/utils";
 
 export function RegisterForm() {
   const initialValues = {
@@ -30,7 +31,7 @@ export function RegisterForm() {
         roles: ['user_client_role'],
       });
     } catch (error) {
-      toast.error(error.toString());
+      toast.error(getErrorTransaction(error.toString()));
     }
   };
   return (

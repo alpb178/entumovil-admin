@@ -2,8 +2,8 @@ export const HeaderPage = (props) => {
   const { name } = props;
 
   return (
-    <label htmlFor={name} className="text-2xl font-bold">
+    <div  className="text-2xl flex font-bold items-center justify-center text-justify">
       {name}
-    </label>
+    </div>
   );
 };

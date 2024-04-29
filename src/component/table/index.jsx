@@ -1,11 +1,13 @@
 /* eslint-disable react/jsx-key */
-import { BarsArrowDownIcon, BarsArrowUpIcon } from '@heroicons/react/24/outline';
-import clsx from 'clsx';
+import {
+  BarsArrowDownIcon,
+  BarsArrowUpIcon,
+} from "@heroicons/react/24/outline";
+import clsx from "clsx";
 
-import PropTypes from 'prop-types';
-import { useEffect } from 'react';
-import { usePagination, useSortBy, useTable } from 'react-table';
-
+import PropTypes from "prop-types";
+import { useEffect } from "react";
+import { usePagination, useSortBy, useTable } from "react-table";
 
 const DataTable = ({
   actions,
@@ -19,7 +21,7 @@ const DataTable = ({
   onPageSizeChange,
   pageSize,
   setPage,
-  setSortBy
+  setSortBy,
 }) => {
   const tableInstance = useTable(
     {
@@ -30,7 +32,7 @@ const DataTable = ({
       manualSortBy: true,
       autoResetSortBy: false,
       autoResetPage: false,
-      pageCount: Math.ceil(count / pageSize)
+      pageCount: Math.ceil(count / pageSize),
     },
     useSortBy,
     usePagination
@@ -42,34 +44,36 @@ const DataTable = ({
     headerGroups,
     prepareRow,
     page,
-    state: { pageIndex, sortBy }
+    state: { pageIndex, sortBy },
   } = tableInstance;
 
   useEffect(() => {
     if (setPage) setPage(pageIndex);
 
-    const sortStr = sortBy.map((c) => `${c.id},${c.desc ? 'desc' : 'asc'}`).join('&');
+    const sortStr = sortBy
+      .map((c) => `${c.id},${c.desc ? "desc" : "asc"}`)
+      .join("&");
     setSortBy(sortStr);
   }, [pageIndex, sortBy]);
 
   return (
-    <div className="w-full pb-4">
+    <div className="flex w-screen overflow-auto p-4  lg:justify-center">
       {name || actions ? (
         <div className="flex flex-col">
           <div
             className={clsx(
-              'flex items-center w-full p-6 pb-0 text-gray-700 mb-8',
-              name ? 'justify-between' : 'justify-end'
+              "mb-8 flex w-full items-center p-6 pb-0 text-gray-700",
+              name ? "justify-between" : "justify-end"
             )}
           >
             {name ? <h3 className="header-title">{name}</h3> : null}
-            <div className="flex justify-end w-ful">{actions}</div>
+            <div className="w-ful flex justify-end">{actions}</div>
           </div>
           {onFilter}
         </div>
       ) : null}
 
-      <table {...getTableProps()} className="w-full border-b">
+      <table {...getTableProps()} className="w-5 border">
         <thead className="border-b">
           {headerGroups.map((headerGroup) => (
             <tr {...headerGroup.getHeaderGroupProps()}>
@@ -78,26 +82,26 @@ const DataTable = ({
                   {...column.getHeaderProps([
                     {
                       className: column.className,
-                      style: column.style
+                      style: column.style,
                     },
-                    column.getSortByToggleProps()
+                    column.getSortByToggleProps(),
                   ])}
-                  className="px-6 py-5 text-xs font-medium text-left text-gray-500 uppercase"
+                  className="px-6 py-5 text-left text-xs font-medium uppercase text-gray-500"
                 >
-                  <div className="flex items-center group">
-                    {column.render('Header')}
+                  <div className="group flex items-center">
+                    {column.render("Header")}
 
                     <span className="ml-2">
                       {column.isSorted ? (
                         column.isSortedDesc ? (
-                          <BarsArrowDownIcon className="w-5 h-5" />
+                          <BarsArrowDownIcon className="h-5 w-5" />
                         ) : (
-                          <BarsArrowUpIcon className="w-5 h-5" />
+                          <BarsArrowUpIcon className="h-5 w-5" />
                         )
                       ) : column.canSort ? (
-                        <BarsArrowUpIcon className="w-5 h-5 transition-opacity duration-150 ease-in opacity-50 lg:opacity-0 lg:group-hover:opacity-50" />
+                        <BarsArrowUpIcon className="h-5 w-5 opacity-50 transition-opacity duration-150 ease-in lg:opacity-0 lg:group-hover:opacity-50" />
                       ) : (
-                        ''
+                        ""
                       )}
                     </span>
                   </div>
@@ -112,16 +116,18 @@ const DataTable = ({
             return (
               <tr
                 {...row.getRowProps({
-                  onClick: () => onRowClick(row)
+                  onClick: () => onRowClick(row),
                 })}
-                className={`${onRowClick ? 'cursor-pointer hover:bg-gray-50' : ''}`}
+                className={`${
+                  onRowClick ? "cursor-pointer hover:bg-gray-50" : ""
+                }`}
               >
                 {row.cells.map((cell) => (
                   <td
                     {...cell.getCellProps()}
-                    className="px-6 py-4 text-sm text-gray-800 whitespace-nowrap xl:text-base"
+                    className="whitespace-nowrap px-6 py-4 text-sm text-gray-800 xl:text-base"
                   >
-                    {cell.render('Cell')}
+                    {cell.render("Cell")}
                   </td>
                 ))}
               </tr>
@@ -136,10 +142,10 @@ const DataTable = ({
 DataTable.defaultProps = {
   data: [],
   hiddenColumns: [],
-  name: '',
+  name: "",
   onPageSizeChange: () => null,
   onRowClick: () => null,
-  setSortBy: () => null
+  setSortBy: () => null,
 };
 
 DataTable.propTypes = {
@@ -154,7 +160,7 @@ DataTable.propTypes = {
   onRowClick: PropTypes.func,
   pageSize: PropTypes.number,
   setPage: PropTypes.func,
-  setSortBy: PropTypes.func
+  setSortBy: PropTypes.func,
 };
 
 export default DataTable;

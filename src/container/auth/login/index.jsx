@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import { ValidationSchema } from "./validation";
 import { useAuth } from "@/hooks/useAuth";
 import AuthBottomBar from "@/component/bottombar/bottombar.component";
+import { getErrorTransaction } from "@/lib/utils";
 
 export function Login() {
   const initialValues = {
@@ -20,7 +21,7 @@ export function Login() {
     try {
       login(values);
     } catch (error) {
-      toast.error(error.toString());
+      toast.error(getErrorTransaction(error.toString()));
     }
   };
 

@@ -3,8 +3,9 @@ import { PasswordField } from "@/component/field/PassworField";
 import { ButtonCancel, ButtonSubmit } from "@/component/button";
 import { ValidationSchema } from "./validation";
 import { toast } from "react-toastify";
-import { saveUsers } from "@/hooks/useUsers";
-import { PUT } from "@/lib/constant";
+import { saveUsersPass } from "@/hooks/useUsers";
+import { getErrorTransaction } from "@/lib/utils";
+import { MESSAGE_SUCCES_PASSWORD_FORMAT } from "@/lib/constant";
 
 export function PasswordUser({ id, onClose }) {
   const initialValues = {
@@ -13,24 +14,21 @@ export function PasswordUser({ id, onClose }) {
   };
 
   const handleSubmit = async (values) => {
-    let method = PUT;
     try {
       const newData = {
         id,
-        password: values.password,
+        newPass: values.password,
+        repNewPass: values.repeatPassword,
       };
 
-      await saveUsers({
+      await saveUsersPass({
         args: newData,
-        options: {
-          method,
-        },
       });
 
-      toast.success("Usuario editado con éxito");
+      toast.success(MESSAGE_SUCCES_PASSWORD_FORMAT);
       onClose();
     } catch (error) {
-      toast.error(error.toString());
+      toast.error(getErrorTransaction(error.toString()));
     } finally {
     }
   };

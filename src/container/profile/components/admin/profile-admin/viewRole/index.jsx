@@ -9,6 +9,7 @@ import ModalDeleteRol from "@/component/modal-confirmation/modal-delete-rol";
 import { useFindRoles } from "@/hooks/useRoles";
 import Loader from "@/component/loader";
 import { useAuth } from "@/hooks/useAuth";
+import { getErrorTransaction } from "@/lib/utils";
 
 export default function ViewRoleAdmin({ idUser }) {
   const { data, isLoading } = useFindRoles({
@@ -35,7 +36,7 @@ export default function ViewRoleAdmin({ idUser }) {
         queryClient.invalidateQueries([API_URLS_USERS_LIST]);
       });
     } catch (error) {
-      toast.error(error.message);
+      toast.error(getErrorTransaction(error.toString()));
     }
   };
 

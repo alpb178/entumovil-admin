@@ -50,7 +50,7 @@ export function ProfileUser() {
       navigateToHome();
       setLoading(false);
     } catch (error) {
-      toast.error(error.toString());
+      toast.error(getErrorTransaction(error.toString()));
       setLoading(false);
     } finally {
       setLoading(false);
@@ -61,7 +61,7 @@ export function ProfileUser() {
     navigateToHome();
   };
   return (
-    <div className=" flex flex-col items-center justify-center space-y-5">
+    <div className=" flex flex-col items-center m-5 justify-center space-y-5">
       {isLoading || !data ? (
         <Loader />
       ) : (

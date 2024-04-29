@@ -2,9 +2,10 @@ import { Form, Formik } from "formik";
 import { ButtonSubmit } from "@/component/button";
 import { ValidationSchema } from "./validation";
 import { toast } from "react-toastify";
-import { saveUsers } from "@/hooks/useUsers";
-import { PUT } from "@/lib/constant";
+import { saveUsersPass } from "@/hooks/useUsers";
+import { MESSAGE_SUCCES_PASSWORD_FORMAT, PUT } from "@/lib/constant";
 import { PasswordField } from "@/component/field/PassworField";
+import { getErrorTransaction } from "@/lib/utils";
 
 export function ViewUser({ data }) {
   const initialValues = {
@@ -17,26 +18,24 @@ export function ViewUser({ data }) {
 
     try {
       const newData = {
-        id: data.id,
-        password: values.password,
+        id:data.id,
+        newPass: values.password,
+        repNewPass: values.repeatPassword,
       };
 
-      await saveUsers({
+      await saveUsersPass({
         args: newData,
-        options: {
-          method,
-        },
       });
 
-      toast.success("Contraseña actualizada con éxito");
+      toast.success(MESSAGE_SUCCES_PASSWORD_FORMAT);
     } catch (error) {
-      toast.error(error.toString());
+      toast.error(getErrorTransaction(error.toString()));
     } finally {
     }
   };
 
   return (
-    <div className=" flex flex-col mt-5 items-start justify-start text-lg ">
+    <div className=" mt-5 flex flex-col items-start justify-start text-lg ">
       <div className="text-blueGray-400 mt-0 mb-2 ">
         Correo Electrónico:
         <i className="ml-3 ">{data.email}</i>

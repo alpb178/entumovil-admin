@@ -1,5 +1,3 @@
-import useRoles from "@/hooks/useRoles";
-
 export const POST = "POST";
 export const PUT = "PUT";
 export const DELETE = "DELETE";
@@ -17,7 +15,16 @@ export const URL_PROFILE_EDIT_ADMIN = "/profile/edit/:id";
 
 //  Forms
 export const MESSAGE_REQUIRED = "campo requerido";
+
 export const MESSAGE_INVALID_FORMAT = "formato incorrecto";
+export const MESSAGE_SUCCES_PASSWORD_FORMAT = "Password editado con éxito";
+export const MESSAGE_SUCCES_USER_FORMAT = "Usuario editado con éxito";
+export const MESSAGE_ERROR_FORMAT = "Ha ocurrido un error:";
+export const MESSAGE_ERROR_ADMIN = "En caso de duda. Contacte con el administrador";
+
+
+
+///
 export const API_URL = "api";
 export const API_AUTH_URL = `${API_URL}/auth`;
 export const API_URL_LOGIN = `${API_AUTH_URL}/login`;
@@ -30,13 +37,12 @@ export const API_URLS_USERS_LIST = `${API_URLS_USERS}/search`;
 export const API_URLS_USER_DELETE = `${API_URLS_USERS}/delete`;
 export const API_URLS_USER_CREATE = `${API_URLS_USERS}/create`;
 export const API_URLS_USER_UPDATE = `${API_URLS_USERS}/update`;
-
+export const API_URLS_USER_CHANGE_PASS = `${API_URLS_USERS}/changePass`;
 
 // Roles
 export const API_URLS_ROLES_LIST = `${API_URLS_USERS_LIST}/roles`;
 
-
 //Cookies
-export const AUTH_TOKEN='authToken'
-export const AUTH_USERNAME='authUsername'
-export const AUTH_ID='authId'
+export const AUTH_TOKEN = "authToken";
+export const AUTH_USERNAME = "authUsername";
+export const AUTH_ID = "authId";

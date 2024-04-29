@@ -19,8 +19,8 @@ export function ProfileEditAdmin() {
       {isLoading ? (
         <Loader />
       ) : (
-        <div className="m-16 flex border">
-          <div className="w-1/2 border-r p-5">
+        <div className="m-16  border sm:block lg:flex">
+          <div className="p-5 w-full   lg:w-1/2 lg:border-r ">
             <a className="border-b p-2 text-2xl">Detalles del usuario</a>
             <ViewUser data={data[0]} />
           </div>

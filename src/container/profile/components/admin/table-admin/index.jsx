@@ -13,6 +13,7 @@ import ModalDelete from "@/component/modal-confirmation/modal-delete-confirmatio
 import { CheckBox } from "@/component/checkBox";
 import { useNavigate } from "react-router-dom";
 import Loader from "@/component/loader";
+import { getErrorTransaction } from "@/lib/utils";
 
 export default function TableAdmin() {
   const { data, isLoading } = useUsers({
@@ -45,7 +46,7 @@ export default function TableAdmin() {
         },
       });
     } catch (error) {
-      toast.error(error.toString());
+      toast.error(getErrorTransaction(error.toString()));
     } finally {
     }
   };

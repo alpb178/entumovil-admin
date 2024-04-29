@@ -1,6 +1,7 @@
 import { deleteData, getData, saveData } from "@/lib";
 import {
   API_URLS_USERS_LIST,
+  API_URLS_USER_CHANGE_PASS,
   API_URLS_USER_CREATE,
   API_URLS_USER_DELETE,
   API_URLS_USER_UPDATE,
@@ -43,21 +44,12 @@ export const saveUsers = async ({ args = {}, options = {} } = {}) => {
       break;
   }
 };
-/*
-export const saveUsersKeyCloack = async ({ args = {}, options = {} } = {}) => {
-  if (options.method == POST) {
-    const data = await saveData({
-      path: API_URL_INSERT_BY_KEYCLOACK + `/${args.id}`,
-      data: {},
-      method: POST,
-    });
-    return data;
-  } else if (options.method == PUT) {
-    const data = await saveData({
-      path: API_URL_EDIT_BY_KEYCLOACK_ID + `/${args.keyDoackId}`,
-      data: args,
-      method: PUT,
-    });
-    return data;
-  }
-};*/
+
+export const saveUsersPass = async ({ args = {}, options = {} } = {}) => {
+  const data = await saveData({
+    path: API_URLS_USER_CHANGE_PASS + `/${args.id}`,
+    data: args,
+    method: POST,
+  });
+  return data;
+};

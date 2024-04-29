@@ -1,6 +1,12 @@
 import Cookies from "js-cookie";
 import { apiFetcher } from "./apiFetcher";
-import { AUTH_ID, AUTH_TOKEN, AUTH_USERNAME } from "./constant";
+import {
+  AUTH_ID,
+  AUTH_TOKEN,
+  AUTH_USERNAME,
+  MESSAGE_ERROR_ADMIN,
+  MESSAGE_ERROR_FORMAT,
+} from "./constant";
 
 export const userRegisterd = async () => {
   try {
@@ -29,7 +35,7 @@ export const getError = (error) => {
   switch (error) {
     case "ERR_NETWORK":
       cleanCookiesFromSession();
-      return "Su sessión ha sido cerrada";
+      return getErrorTransaction("Su sessión ha sido cerrada");
 
     case "ERR_BAD_REQUEST":
       return "Ha ocurrido un error con la red. Intente de nuevo";
@@ -37,4 +43,8 @@ export const getError = (error) => {
     default:
       return "Ha ocurrido un error. Contacte con la administración";
   }
+};
+
+export const getErrorTransaction = (error) => {
+  return `${MESSAGE_ERROR_FORMAT} ${error}. ${MESSAGE_ERROR_ADMIN}`;
 };

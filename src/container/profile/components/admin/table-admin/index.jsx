@@ -123,6 +123,7 @@ export default function TableAdmin() {
     columns,
     data: data,
     count: 10,
+    center:true
   };
 
   return (

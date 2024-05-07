@@ -22,6 +22,7 @@ const DataTable = ({
   pageSize,
   setPage,
   setSortBy,
+  center
 }) => {
   const tableInstance = useTable(
     {
@@ -57,7 +58,11 @@ const DataTable = ({
   }, [pageIndex, sortBy]);
 
   return (
-    <div className="flex w-screen overflow-auto p-4  lg:justify-center">
+    <div
+      className={`flex w-screen overflow-auto p-4  ${
+        center && "lg:justify-center"
+      }`}
+    >
       {name || actions ? (
         <div className="flex flex-col">
           <div

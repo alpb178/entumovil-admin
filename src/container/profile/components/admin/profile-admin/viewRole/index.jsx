@@ -2,14 +2,13 @@ import React, { useState } from "react";
 import { useQueryClient } from "react-query";
 import DataTable from "@/component/table";
 import TableActions from "@/component/table/TableActions";
-import { deleteUsers } from "@/hooks/useUsers";
 import { toast } from "react-toastify";
-import { API_URLS_USERS_LIST } from "@/lib/constant";
+import { API_URLS_USERS_LIST, DELETE } from "@/lib/constant";
 import ModalDeleteRol from "@/component/modal-confirmation/modal-delete-rol";
 import { useFindRoles } from "@/hooks/useRoles";
 import Loader from "@/component/loader";
-import { useAuth } from "@/hooks/useAuth";
 import { getErrorTransaction } from "@/lib/utils";
+import { saveRoles } from "@/hooks/useAdmin";
 
 export default function ViewRoleAdmin({ idUser }) {
   const { data, isLoading } = useFindRoles({
@@ -22,18 +21,28 @@ export default function ViewRoleAdmin({ idUser }) {
   const queryClient = useQueryClient();
 
   const [open, setOpen] = useState(false);
-  const [id, setId] = useState({});
+  const [user, setUser] = useState({});
 
   const closeShowModal = () => {
     setOpen(false);
   };
 
   const handleDelete = async () => {
+    let method = DELETE;
+    const args = {
+      id: user.id,
+      data: { roles: [user.name] },
+    };
     try {
-      await deleteUsers({ args: { id } }).then(() => {
-        closeShowModal();
+      await saveRoles({
+        args,
+        options: {
+          method,
+        },
+      }).then(() => {
         toast.success("Usuario Eliminado");
         queryClient.invalidateQueries([API_URLS_USERS_LIST]);
+        closeShowModal();
       });
     } catch (error) {
       toast.error(getErrorTransaction(error.toString()));
@@ -59,7 +68,7 @@ export default function ViewRoleAdmin({ idUser }) {
       Cell: ({ row }) => (
         <TableActions
           onDelete={() => {
-            setId(row.original.id);
+            setUser(row.original);
             setOpen(true);
           }}
         />
@@ -75,6 +84,7 @@ export default function ViewRoleAdmin({ idUser }) {
 
   return (
     <div className="align-center mt-5 content-center">
+      <a className="border-b p-2 text-2xl">Roles del usuario</a>
       {isLoading ? <Loader /> : <DataTable {...options} />}
 
       <ModalDeleteRol

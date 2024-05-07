@@ -84,6 +84,7 @@ export default function TableProfile() {
     columns,
     data: data,
     count: 10,
+    center: true,
   };
 
   return (

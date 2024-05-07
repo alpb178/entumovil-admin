@@ -22,7 +22,6 @@ export function ProfileUser() {
     },
   });
   const initialValues = {
-    email: data[0]?.email ?? "",
     phone: data[0]?.firstname ?? "",
     lastName: data[0]?.lastName ?? "",
   };
@@ -33,10 +32,7 @@ export function ProfileUser() {
     try {
       const newData = {
         id: getId(),
-        username: values.email,
-        email: values.email,
-        firstname: values.phone ?? "-",
-        lastName: values.lastName,
+        data: { firstname: values.phone ?? "-", lastname: values.lastName },
       };
 
       await saveUsers({
@@ -61,31 +57,24 @@ export function ProfileUser() {
     navigateToHome();
   };
   return (
-    <div className=" flex flex-col items-center m-5 justify-center space-y-5">
+    <div className=" m-5 flex flex-col items-center justify-center space-y-5">
       {isLoading || !data ? (
         <Loader />
       ) : (
-        <Formik
-          initialValues={initialValues}
-          validationSchema={ValidationSchema}
-          onSubmit={handleSubmit}
-        >
+        <Formik initialValues={initialValues} onSubmit={handleSubmit}>
           {({ errors, isSubmitting }) => (
             <Form className="mt-10 flex flex-col items-center justify-center space-y-10">
               <div className="space-y-6">
-                <InputField
-                  type="text"
-                  name="email"
-                  error={errors.email}
-                  placeholder="Inserte correo electrónico"
-                  label="Correo electrónico*"
-                />
+                <div className="flex flex-col text-xl ">
+                  <a className="font-bold">Correo Electrónico:</a>
+                  <a className="m-5 ">{data[0]?.email}</a>
+                </div>
 
                 <PhoneInputField label="Telefóno" name="phone" />
 
                 <InputField
                   type="text"
-                  error={errors.lastName}
+                  error={errors?.lastName}
                   name="lastName"
                   label="Nombre y apellidos*"
                   placeholder="Insertar nombre y apellidos"

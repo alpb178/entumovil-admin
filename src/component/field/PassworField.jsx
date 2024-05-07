@@ -3,7 +3,7 @@ import { Field } from "formik";
 import { useState } from "react";
 
 export const PasswordField = (props) => {
-  const { name, error, placeholder, label } = props;
+  const { name, error, placeholder, label, touched } = props;
   const [showPassword, setShowPassword] = useState(false);
 
   return (
@@ -20,7 +20,7 @@ export const PasswordField = (props) => {
           id={name}
           placeholder={placeholder}
           className={`text-field mt-2 ${
-            error
+            error && touched
               ? "border-red-400 bg-red-100"
               : "filled border-transparent"
           }`}
@@ -42,7 +42,9 @@ export const PasswordField = (props) => {
         </button>
       </div>
 
-      {error ? <p className="mt-2 text-red-600">{error.toString()}</p> : null}
+      {error && touched ? (
+        <p className="mt-2 text-red-600">{error.toString()}</p>
+      ) : null}
     </div>
   );
 };

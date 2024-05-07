@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function  AuthBottomBar({isLogin}) {
   return (
-    <div className=" mt-8 w-full max-w-2xl border-t bg-white lg:relative">
+    <div className=" mt-8 w-full  border-t bg-white lg:relative">
       <div className="relative my-6 flex flex-col items-center justify-center space-y-2 text-base md:flex-row md:space-y-0">
         <span className="text-gray-700 px-2">
           {isLogin

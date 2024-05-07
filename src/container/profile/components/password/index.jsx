@@ -17,8 +17,7 @@ export function PasswordUser({ id, onClose }) {
     try {
       const newData = {
         id,
-        newPass: values.password,
-        repNewPass: values.repeatPassword,
+        data: { newPass: values.password, repNewPass: values.repeatPassword },
       };
 
       await saveUsersPass({
@@ -40,12 +39,13 @@ export function PasswordUser({ id, onClose }) {
         validationSchema={ValidationSchema}
         onSubmit={handleSubmit}
       >
-        {({ errors, isSubmitting }) => (
+        {({ errors, touched, isSubmitting }) => (
           <Form className="mt-10 flex flex-col items-center justify-center space-y-10">
             <div className="space-y-6">
               <PasswordField
                 name="password"
                 error={errors.password}
+                touched={touched.password}
                 label="Contraseña*"
                 placeholder="Insertar contraseña"
               />
@@ -54,6 +54,7 @@ export function PasswordUser({ id, onClose }) {
                 name="repeatPassword"
                 label="Confirmar contraseña*"
                 error={errors.repeatPassword}
+                touched={touched.repeatPassword}
                 placeholder="Insertar confirmación de la contraseña"
               />
             </div>
@@ -64,7 +65,12 @@ export function PasswordUser({ id, onClose }) {
                 disabled={isSubmitting}
                 name={isSubmitting ? "Cargando" : "Actualizar"}
               />
-              <ButtonCancel onClick={onClose} name="Cancelar" />
+              <ButtonCancel
+                onClick={() => {
+                  onClose();
+                }}
+                name="Cancelar"
+              />
             </div>
           </Form>
         )}

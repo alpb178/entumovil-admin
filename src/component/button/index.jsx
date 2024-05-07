@@ -16,11 +16,15 @@ export const ButtonSubmit = (props) => {
 };
 
 export const ButtonCancel = (props) => {
-  const { name, onClick, type, disabled } = props;
+  const { name, onClick, disabled } = props;
 
   return (
     <button
-      onClick={() => onClick?.()}
+      type="button"
+      onClick={(e) => {
+        e.stopPropagation();
+        onClick?.();
+      }}
       disabled={disabled}
       className="m-3 rounded-md bg-gray-300 p-2  text-xl text-black "
     >

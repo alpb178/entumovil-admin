@@ -38,7 +38,7 @@ export const saveUsers = async ({ args = {}, options = {} } = {}) => {
     case PUT:
       await saveData({
         path: API_URLS_USER_UPDATE + `/${args.id}`,
-        data: args,
+        data: args.data,
         method: PUT,
       });
       break;
@@ -48,7 +48,7 @@ export const saveUsers = async ({ args = {}, options = {} } = {}) => {
 export const saveUsersPass = async ({ args = {}, options = {} } = {}) => {
   const data = await saveData({
     path: API_URLS_USER_CHANGE_PASS + `/${args.id}`,
-    data: args,
+    data: args.data,
     method: POST,
   });
   return data;

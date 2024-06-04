@@ -1,46 +1,58 @@
-/** @type {import('tailwindcss').Config} */
-const withMT = require("@material-tailwind/react/utils/withMT");
+const colors = require('tailwindcss/colors');
+const { fontFamily } = require('tailwindcss/defaultTheme');
 
-module.exports = withMT({
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    './src/app/**/*.{js,ts,jsx,tsx}',
+    './src/component/**/*.{js,ts,jsx,tsx}',
+    './src/container/**/*.{js,ts,jsx,tsx}',
+    './src/lib/**/*.{js,ts,jsx,tsx}',
+    './src/pages/**/*.{js,ts,jsx,tsx}'
+  ],
   theme: {
     colors: {
-      gray: "#626262",
-      footer: "#1e2325",
-      "legislation-gray": "#f4f4f5",
-      "gradient-for": "#6d1017",
-      "gradient-to": "#592036",
-      "ocre-red": "#c42723",
-      "link-red": "#fd6a5a",
-      "gradient-for-footer": "#161427",
-      "gradient-to-footer": "#592036",
-      hover: "#f30066",
-      color: "#969696",
-      red: "#fd4632",
-      "footer-background": "#f5f5f5",
-    },
-    screens: {
-      'tablet': '640px',
-      // => @media (min-width: 640px) { ... }
-
-      'laptop': '1024px',
-      // => @media (min-width: 1024px) { ... }
-
-      'desktop': '1280px',
-      // => @media (min-width: 1280px) { ... }
+      black: colors.black,
+      blue: colors.blue,
+      emerald: colors.emerald,
+      gray: colors.gray,
+      green: colors.green,
+      primary: colors.sky,
+      red: colors.red,
+      secondary: colors.indigo,
+      slate: colors.slate,
+      teal: colors.teal,
+      transparent: 'transparent',
+      white: colors.white,
+      yellow: colors.amber,
+      success: '#14A44D',
+      warning: '#E4A11B',
+      info: '#54B4D3',
+      error: '#DC4C64'
     },
     extend: {
-      spacing: {
-        26: "26px",
-        204: "204px",
-        231: "231",
-        92: "92",
-        98:"400px",
-        600: "600",
-        'logo-w': "20",
-        'logo-h': "20",
+      fontFamily: {
+        sans: ['var(--font-poppins)']
       },
-    },
+      spacing: {
+        72: '18rem',
+        84: '21rem',
+        96: '24rem'
+      },
+      screens: {
+        xs: '480px'
+      },
+      backgroundImage: {
+        'split-red-white': `linear-gradient(to right, ${colors.red[400]} 50%, #eee 50%);`,
+        'split-white-red': `linear-gradient(to right, #eee 50%, ${colors.red[400]} 50%);`,
+        'split-black-white': `linear-gradient(to right, ${colors.gray[800]} 50%, #f3f4f6 50%);`,
+        'split-white-black': `linear-gradient(to right, #f3f4f6 50%, ${colors.gray[800]} 50%);`
+      }
+    }
   },
-  plugins: [],
-});
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/aspect-ratio')
+  ]
+};

@@ -1,17 +1,70 @@
+// App.jsx
+import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
-import routes from "@/routes";
+
+import LoginPage from "./pages/auth/Login";
+import ProfileAdminPage from "./pages/profile/ProfileAdmin";
+import RegisterPage from "./pages/auth/Register";
+import ProfileUserPage from "./pages/profile/ProfileUser";
+import {
+  URL_FORGOT_PASSWORD,
+  URL_HOME,
+  URL_LOGIN,
+  URL_PROFILE_ADMIN,
+  URL_PROFILE_EDIT_ADMIN,
+  URL_PROFILE_USER,
+  URL_REGISTER,
+  URL_REGISTER_COMPLETE,
+} from "./lib/constant";
+import ForgotPasswordPage from "./pages/auth/ForgotPassword";
+import ProtectedRoute from "./route/ProtectedRoute";
+import ProfilePage from "./pages/profile/Profile";
+import ProfileEditAdminPage from "./pages/profile/ProfileEditAdmin";
+import RegisterCompletePage from "./pages/auth/RegisterComplete";
 
 function App() {
   return (
-    <>
-      <Routes>
-        {routes.map(
-          ({ path, element }, key) =>
-            element && <Route key={key} exact path={path} element={element} />
-        )}
-        <Route path="*" element={<Navigate to="/Inicio" replace />} />
-      </Routes>
-    </>
+    <Routes>
+      <Route path={URL_LOGIN} element={<LoginPage />} />
+      <Route path={URL_REGISTER} element={<RegisterPage />} />
+      <Route path={URL_REGISTER_COMPLETE} element={<RegisterCompletePage />} />
+      <Route path={URL_FORGOT_PASSWORD} element={<ForgotPasswordPage />} />
+
+      <Route
+        path={URL_PROFILE_ADMIN}
+        element={
+          <ProtectedRoute>
+            <ProfileAdminPage />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path={URL_HOME}
+        element={
+          <ProtectedRoute>
+            <ProfilePage />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path={URL_PROFILE_USER}
+        element={
+          <ProtectedRoute>
+            <ProfileUserPage />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path={URL_PROFILE_EDIT_ADMIN}
+        element={
+          <ProtectedRoute>
+            <ProfileEditAdminPage />
+          </ProtectedRoute>
+        }
+      />
+
+      <Route path="*" element={<Navigate to={URL_HOME} replace />} />
+    </Routes>
   );
 }
 

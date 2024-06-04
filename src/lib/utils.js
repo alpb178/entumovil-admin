@@ -1,118 +1,50 @@
-import reactStringReplace from "react-string-replace";
+import Cookies from "js-cookie";
+import { apiFetcher } from "./apiFetcher";
+import {
+  AUTH_ID,
+  AUTH_TOKEN,
+  AUTH_USERNAME,
+  MESSAGE_ERROR_ADMIN,
+  MESSAGE_ERROR_FORMAT,
+} from "./constant";
 
-export const obtainTexTWithQuotes = (text) => {
-  const regex =
-    /[^'"\\]*(?:\\.[^'"\\]*)*(["'])([^"'\\]*(?:(?:(?!\1)["']|\\.)[^"'\\]*)*)\1/gy;
+export const userRegisterd = async () => {
+  try {
+    const response = await apiFetcher("api/user/search/alpb17.08@gmail.com");
 
-  let grupo = "";
-  let resultado = [];
-
-  while ((grupo = regex.exec(text)) !== null) {
-    resultado.push(grupo[2]);
+    if (response.status == 200) {
+      sessionStorage.setItem("user", response);
+      return true;
+    } else {
+      sessionStorage.setItem("user", "");
+      return false;
+    }
+  } catch (error) {
+    sessionStorage.setItem("user", "");
+    return false;
   }
-
-  return resultado;
 };
 
-export const findWordsDocTxt = (docTxt, findText) => {
-  const textWithDoubleQuotes = obtainTexTWithQuotes(findText);
-  if (
-    textWithDoubleQuotes.length &&
-    docTxt.toUpperCase().includes(textWithDoubleQuotes[0].toUpperCase())
-  ) {
-    return true;
-  } else if (!textWithDoubleQuotes.length) {
-    let text = findText.split(" ");
-    let count = 0;
-    text.map((element) => {
-      if (docTxt.toUpperCase().includes(element.toUpperCase())) count++;
-    });
-    return count === text.length ? true : false;
+export const cleanCookiesFromSession = () => {
+  Cookies.remove(AUTH_TOKEN);
+  Cookies.remove(AUTH_USERNAME);
+  Cookies.remove(AUTH_ID);
+};
+
+export const getError = (error) => {
+  switch (error) {
+    case "ERR_NETWORK":
+      cleanCookiesFromSession();
+      return getErrorTransaction("Su sessión ha sido cerrada");
+
+    case "ERR_BAD_REQUEST":
+      return "Ha ocurrido un error con la red. Intente de nuevo";
+
+    default:
+      return "Ha ocurrido un error. Contacte con la administración";
   }
-  return false;
 };
 
-export const replaceInput = (content, json) => {
-  var dataR = reactStringReplace(content, /<input (.*?)>/, (match, i) =>
-    extractNameInput(match, json)
-  );
-  return dataR.join(" ");
-};
-
-export const extractNameInput = (content, json) => {
-  let result = "";
-  reactStringReplace(content, /name="(.*?)"/, (match, i) => (result = match));
-  return json[result] === "" ? "......." : json[result];
-};
-
-export const returnJson = (content, info, setJson, json) => {
-  let jsonNew = {};
-  reactStringReplace(content, "XXX", (match, i) => {
-    jsonNew[info + i] = "";
-  });
-  setJson(Object.assign(json, jsonNew));
-};
-
-export const saveWord = (filename = "", id, json) => {
-  var preHtml =
-    "<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'><head><meta charset='utf-8'><title>Export HTML To Doc</title></head><body>";
-  var postHtml = "</body></html>";
-
-  var html =
-    preHtml +
-    replaceInput(document.getElementById(id).innerHTML, json) +
-    postHtml;
-
-  var blob = new Blob(["\ufeff", html], {
-    type: "application/msword",
-  });
-
-  var url =
-    "data:application/vnd.ms-word;charset=utf-8," + encodeURIComponent(html);
-
-  filename = filename ? filename + ".doc" : "document.doc";
-
-  var downloadLink = document.createElement("a");
-
-  document.body.appendChild(downloadLink);
-
-  if (navigator.msSaveOrOpenBlob) {
-    navigator.msSaveOrOpenBlob(blob, filename);
-  } else {
-    downloadLink.href = url;
-
-    downloadLink.download = filename;
-
-    downloadLink.click();
-  }
-
-  document.body.removeChild(downloadLink);
-};
-
-export const saveTXT = (filename, id, json) => {
-  let data = document.getElementById(id).innerHTML;
-
-  var strippedHtml = replaceInput(data, json);
-
-  var t = document.createElement("div");
-  t.innerHTML = strippedHtml;
-
-  const pre = t.querySelectorAll("div");
-  const txt = [...pre].map((el) => el.textContent.trim()).join("\r\n\r\n");
-
-  const textToBLOB = new Blob([txt], { type: "text/plain" });
-  const sFileName = `${filename}.txt`;
-
-  let newLink = document.createElement("a");
-  newLink.download = sFileName;
-
-  if (window.webkitURL != null) {
-    newLink.href = window.webkitURL.createObjectURL(textToBLOB);
-  } else {
-    newLink.href = window.URL.createObjectURL(textToBLOB);
-    newLink.style.display = "none";
-    document.body.appendChild(newLink);
-  }
-
-  newLink.click();
+export const getErrorTransaction = (error) => {
+  return `${MESSAGE_ERROR_FORMAT} ${error}. ${MESSAGE_ERROR_ADMIN}`;
 };

@@ -20,7 +20,7 @@ export const MESSAGE_INVALID_FORMAT = "formato incorrecto";
 export const MESSAGE_SUCCES_PASSWORD_FORMAT = "Password editado con éxito";
 export const MESSAGE_SUCCES_USER_FORMAT = "Usuario editado con éxito";
 export const MESSAGE_ERROR_FORMAT = "Ha ocurrido un error:";
-export const MESSAGE_ERROR_ADMIN = "En caso de duda. Contacte con el administrador";
+export const MESSAGE_ERROR_ADMIN = "En caso de duda contacte con el administrador";
 
 
 

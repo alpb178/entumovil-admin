@@ -6,8 +6,8 @@ import { Form, Formik } from "formik";
 import { Link } from "react-router-dom";
 import { ValidationSchema } from "./validation";
 import { useAuth } from "@/hooks/useAuth";
-import AuthBottomBar from "@/component/bottombar/bottombar.component";
 import { getErrorTransaction } from "@/lib/utils";
+import { AuthBottomBar } from "@/component/bottombar/bottombar";
 
 export function Login() {
   const initialValues = {
@@ -31,8 +31,8 @@ export function Login() {
       validationSchema={ValidationSchema}
       onSubmit={handleSubmit}
     >
-      {({ errors, touched, isSubmitting }) => (
-        <Form className="mt-10 flex flex-col items-center justify-center space-y-10 m-5">
+      {({ errors, isSubmitting }) => (
+        <Form className="m-5 mt-10 flex flex-col items-center justify-center space-y-10">
           <div className="space-y-6  ">
             <InputField
               type="text"
@@ -50,17 +50,14 @@ export function Login() {
             />
           </div>
 
-          <div className="flex flex-col justify-between space-y-8 sm:flex-row sm:items-center sm:space-y-0">
+          <div className=" flex flex-col justify-center">
             <Link
               to={URL_FORGOT_PASSWORD}
-              className="hover:text-primary-dark font-medium text-gray-700 duration-200 ease-in-out hover:text-primary-500"
+              className="hover:text-primary-dark mt-1 font-medium text-gray-700 duration-200 ease-in-out hover:text-primary-500"
               prefetch={false}
             >
               Olvidar Contraseña
             </Link>
-          </div>
-
-          <div className="justify-center pt-1">
             <ButtonSubmit
               type="submit"
               disabled={isSubmitting}
@@ -70,7 +67,6 @@ export function Login() {
           <AuthBottomBar isLogin={true} />
         </Form>
       )}
-       
     </Formik>
   );
 }

@@ -2,14 +2,14 @@ import { useNavigate } from "react-router-dom";
 import { URL_HOME, URL_LOGIN, URL_PROFILE_ADMIN } from "@/lib/constant";
 import { useAuth } from "@/hooks/useAuth";
 import { useState } from "react";
-import ModalLogout from "../modal-confirmation/modal-logout-confirmation";
+import {ModalLogout} from "../modal-confirmation/modal-logout-confirmation";
 
 import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { useFindRoles } from "@/hooks/useRoles";
-import Loader from "../loader";
+import {Loader} from "../loader";
 
-export default function NavbarUserLoggued() {
+export function NavbarUserLoggued() {
   const navigate = useNavigate();
 
   const { logout, getId, getUsername } = useAuth();

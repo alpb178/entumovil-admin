@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 
-import DataTable from "@/component/table";
-import TableActions from "@/component/table/TableActions";
+import {DataTable} from "@/component/table";
+import {TableActions} from "@/component/table/TableActions";
 import { useNavigate } from "react-router-dom";
 import { URL_PROFILE_USER } from "@/lib/constant";
 import { useFindUsers } from "@/hooks/useUsers";
 import { useAuth } from "@/hooks/useAuth";
 import { PasswordUser } from "../components/password";
-import Modal from "@/component/modal";
+import {Modal} from "@/component/modal";
 
-export default function TableProfile() {
+export function TableProfile() {
   const navigate = useNavigate();
 
   const { getUsername } = useAuth();

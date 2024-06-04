@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import { useQueryClient } from "react-query";
-import DataTable from "@/component/table";
-import TableActions from "@/component/table/TableActions";
+import {DataTable} from "@/component/table";
+import {TableActions} from "@/component/table/TableActions";
 import { toast } from "react-toastify";
 import { API_URLS_USERS_LIST, DELETE } from "@/lib/constant";
-import ModalDeleteRol from "@/component/modal-confirmation/modal-delete-rol";
+import {ModalDeleteRol} from "@/component/modal-confirmation/modal-delete-rol";
 import { useFindRoles } from "@/hooks/useRoles";
-import Loader from "@/component/loader";
+import {Loader} from "@/component/loader";
 import { getErrorTransaction } from "@/lib/utils";
 import { saveRoles } from "@/hooks/useAdmin";
 
-export default function ViewRoleAdmin({ idUser }) {
+export function ViewRoleAdmin({ idUser }) {
   const { data, isLoading } = useFindRoles({
     args: { id: idUser },
     options: {

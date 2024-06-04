@@ -1,5 +1,5 @@
 import { HeaderPage } from "@/component/header";
-import TableProfile from "./table-profile";
+import {TableProfile} from "./table-profile";
 
 export function Profile() {
   return (

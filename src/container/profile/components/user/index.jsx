@@ -1,14 +1,14 @@
 import { InputField } from "@/component/field/InputField";
 import { Form, Formik } from "formik";
 import { ButtonCancel, ButtonSubmit } from "@/component/button";
-import { ValidationSchema } from "./validation";
+
 import { useNavigateRoute } from "@/hooks/useNavigateRoute";
 import { toast } from "react-toastify";
 import { saveUsers, useFindUsers } from "@/hooks/useUsers";
 import { PhoneInputField } from "@/component/field/PhoneField";
 import { useState } from "react";
 import { PUT } from "@/lib/constant";
-import Loader from "@/component/loader";
+import { Loader } from "@/component/loader";
 import { useAuth } from "@/hooks/useAuth";
 
 export function ProfileUser() {

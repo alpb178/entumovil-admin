@@ -3,7 +3,7 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { format } from "date-fns";
 
-const DateInputField = ({ label, ...props }) => {
+export const DateInputField = ({ label, ...props }) => {
   const [field, meta, helpers] = useField(props.name);
 
   return (
@@ -19,5 +19,3 @@ const DateInputField = ({ label, ...props }) => {
     />
   );
 };
-
-export default DateInputField;

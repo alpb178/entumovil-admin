@@ -1,10 +1,10 @@
 import React from "react";
 import { useFindUsers } from "@/hooks/useUsers";
 
-import ViewRoleAdmin from "./viewRole";
+import {ViewRoleAdmin} from "./viewRole";
 import { ViewUser } from "./viewUser";
 import { useParams } from "react-router-dom";
-import Loader from "@/component/loader";
+import {Loader} from "@/component/loader";
 
 export function ProfileEditAdmin() {
   const params = useParams();

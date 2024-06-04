@@ -1,7 +1,5 @@
-// App.jsx
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
-
 import LoginPage from "./pages/auth/Login";
 import ProfileAdminPage from "./pages/profile/ProfileAdmin";
 import RegisterPage from "./pages/auth/Register";

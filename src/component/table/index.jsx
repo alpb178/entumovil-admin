@@ -9,7 +9,7 @@ import PropTypes from "prop-types";
 import { useEffect } from "react";
 import { usePagination, useSortBy, useTable } from "react-table";
 
-const DataTable = ({
+export const DataTable = ({
   actions,
   columns,
   count,
@@ -22,7 +22,7 @@ const DataTable = ({
   pageSize,
   setPage,
   setSortBy,
-  center
+  center,
 }) => {
   const tableInstance = useTable(
     {
@@ -167,5 +167,3 @@ DataTable.propTypes = {
   setPage: PropTypes.func,
   setSortBy: PropTypes.func,
 };
-
-export default DataTable;

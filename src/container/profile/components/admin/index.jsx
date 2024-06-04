@@ -1,5 +1,4 @@
-import { HeaderPage } from "@/component/header";
-import TableAdmin from "./table-admin";
+import {TableAdmin} from "./table-admin";
 
 export function ProfileAdmin() {
   return (

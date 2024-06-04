@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useQueryClient } from "react-query";
-import DataTable from "@/component/table";
-import TableActions from "@/component/table/TableActions";
+import {DataTable} from "@/component/table";
+import {TableActions} from "@/component/table/TableActions";
 import useUsers, { deleteUsers, saveUsers } from "@/hooks/useUsers";
 import { toast } from "react-toastify";
 import {
@@ -9,13 +9,13 @@ import {
   PUT,
   URL_PROFILE_EDIT_ADMIN,
 } from "@/lib/constant";
-import ModalDelete from "@/component/modal-confirmation/modal-delete-confirmation";
+import {ModalDelete} from "@/component/modal-confirmation/modal-delete-confirmation";
 import { CheckBox } from "@/component/checkBox";
 import { useNavigate } from "react-router-dom";
-import Loader from "@/component/loader";
+import {Loader} from "@/component/loader";
 import { getErrorTransaction } from "@/lib/utils";
 
-export default function TableAdmin() {
+export function TableAdmin() {
   const { data, isLoading } = useUsers({
     args: {},
     options: {

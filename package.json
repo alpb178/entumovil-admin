@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "publishConfig": {
-    "registry": "http://nexus.hab.desoft.cu/repository/proyecto-entumovil-cuentas/"
+    "registry": "http://jenkins@wajo*123:nexus.hab.desoft.cu/repository/proyecto-entumovil-cuentas/"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",

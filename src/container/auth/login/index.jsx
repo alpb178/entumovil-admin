@@ -32,8 +32,7 @@ export function Login() {
       <Formik
         initialValues={initialValues}
         validationSchema={ValidationSchema}
-        on
-        Submit={handleSubmit}
+        onSubmit={handleSubmit}
       >
         {({ errors, isSubmitting }) => (
           <Form className="m-5 mt-10 flex flex-col items-center justify-center space-y-10">
@@ -65,7 +64,7 @@ export function Login() {
               <ButtonSubmit
                 type="submit"
                 disabled={isSubmitting}
-                name="Iniciar Sesión"
+                name={isSubmitting ? "Cargando" : "Iniciar Sesión"}
               />
             </div>
           </Form>

@@ -8,6 +8,7 @@ import { useAuth } from "@/hooks/useAuth";
 import { PhoneInputField } from "@/component/field/PhoneField";
 import { LogoEntuMovil } from "@/component/logo/logo";
 import { getErrorTransaction } from "@/lib/utils";
+import { AuthBottomBar } from "@/component/bottombar/bottombar";
 
 export function RegisterForm() {
   const initialValues = {
@@ -35,15 +36,15 @@ export function RegisterForm() {
     }
   };
   return (
-    <div className=" flex flex-col items-center justify-center space-y-5">
+    <div>
       <LogoEntuMovil />
       <Formik
         initialValues={initialValues}
         validationSchema={ValidationSchema}
         onSubmit={handleSubmit}
       >
-        {({ errors, touched, isSubmitting }) => (
-          <Form className="mt-10 flex flex-col items-center justify-center space-y-10">
+        {({ errors, isSubmitting }) => (
+          <Form className="mt-5 flex flex-col items-center justify-center space-y-10">
             <div className="space-y-6">
               <InputField
                 type="text"
@@ -84,7 +85,7 @@ export function RegisterForm() {
               />
             </div>
 
-            <div className="flex justify-center pt-4">
+            <div className="flex justify-center -pt-6">
               <ButtonSubmit
                 type="submit"
                 disabled={isSubmitting}
@@ -94,6 +95,7 @@ export function RegisterForm() {
           </Form>
         )}
       </Formik>
+      <AuthBottomBar />
     </div>
   );
 }

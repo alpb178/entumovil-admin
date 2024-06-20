@@ -1,9 +1,11 @@
 import { useField } from "formik";
-import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
+import PI from "react-phone-input-2";
+
 
 export const PhoneInputField = ({ label,error, ...props }) => {
   const [field, meta, helpers] = useField(props.name);
+  const ReactPhoneInput = PI.default ? PI.default : PI;
 
   return (
     <div className="flex w-full flex-col text-xl">
@@ -13,7 +15,7 @@ export const PhoneInputField = ({ label,error, ...props }) => {
             {label}
           </label>
         )}
-        <PhoneInput
+        <ReactPhoneInput
           {...props}
           {...field}
         

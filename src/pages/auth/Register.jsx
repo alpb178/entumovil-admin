@@ -7,7 +7,6 @@ export default function RegisterPage() {
   return (
     <PageAnimation>
       <RegisterForm />
-      <AuthBottomBar />
     </PageAnimation>
   );
 }

@@ -8,6 +8,7 @@ import { ValidationSchema } from "./validation";
 import { useAuth } from "@/hooks/useAuth";
 import { getErrorTransaction } from "@/lib/utils";
 import { AuthBottomBar } from "@/component/bottombar/bottombar";
+import { LogoEntuMovil } from "@/component/logo/logo";
 
 export function Login() {
   const initialValues = {
@@ -26,47 +27,51 @@ export function Login() {
   };
 
   return (
-    <Formik
-      initialValues={initialValues}
-      validationSchema={ValidationSchema}
-      onSubmit={handleSubmit}
-    >
-      {({ errors, isSubmitting }) => (
-        <Form className="m-5 mt-10 flex flex-col items-center justify-center space-y-10">
-          <div className="space-y-6  ">
-            <InputField
-              type="text"
-              name="username"
-              error={errors.username}
-              placeholder="Inserte correo electrónico"
-              label="Correo electrónico"
-            />
+    <div>
+      <LogoEntuMovil isLogin={true} />
+      <Formik
+        initialValues={initialValues}
+        validationSchema={ValidationSchema}
+        on
+        Submit={handleSubmit}
+      >
+        {({ errors, isSubmitting }) => (
+          <Form className="m-5 mt-10 flex flex-col items-center justify-center space-y-10">
+            <div className="space-y-6  ">
+              <InputField
+                type="text"
+                name="username"
+                error={errors.username}
+                placeholder="Inserte correo electrónico"
+                label="Correo electrónico"
+              />
 
-            <PasswordField
-              name="password"
-              placeholder="Insertar contraseña"
-              label="Contraseña"
-              error={errors.password}
-            />
-          </div>
+              <PasswordField
+                name="password"
+                placeholder="Insertar contraseña"
+                label="Contraseña"
+                error={errors.password}
+              />
+            </div>
 
-          <div className=" flex flex-col justify-center">
-            <Link
-              to={URL_FORGOT_PASSWORD}
-              className="hover:text-primary-dark mt-1 font-medium text-gray-700 duration-200 ease-in-out hover:text-primary-500"
-              prefetch={false}
-            >
-              Olvidar Contraseña
-            </Link>
-            <ButtonSubmit
-              type="submit"
-              disabled={isSubmitting}
-              name="Iniciar Sesión"
-            />
-          </div>
-          <AuthBottomBar isLogin={true} />
-        </Form>
-      )}
-    </Formik>
+            <div className=" flex flex-col justify-center">
+              <Link
+                to={URL_FORGOT_PASSWORD}
+                className="hover:text-primary-dark mt-1 font-medium text-gray-700 duration-200 ease-in-out hover:text-primary-500"
+                prefetch={false}
+              >
+                Olvidar Contraseña
+              </Link>
+              <ButtonSubmit
+                type="submit"
+                disabled={isSubmitting}
+                name="Iniciar Sesión"
+              />
+            </div>
+          </Form>
+        )}
+      </Formik>
+      <AuthBottomBar isLogin={true} />
+    </div>
   );
 }

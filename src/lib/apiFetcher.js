@@ -2,7 +2,6 @@ import axios from "axios";
 import Cookies from "js-cookie";
 import { AUTH_TOKEN } from "./constant";
 import { cleanCookiesFromSession, getError } from "./utils";
-import { toast } from "react-toastify";
 
 export const apiFetcher = async (url, options = {}) => {
   const BASE_URL = import.meta.env.VITE_BASE_URL;

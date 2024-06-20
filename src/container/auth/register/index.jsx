@@ -35,7 +35,7 @@ export function RegisterForm() {
     }
   };
   return (
-    <div className=" flex flex-col items-center justify-center space-y-5 m-5">
+    <div className=" flex flex-col items-center justify-center space-y-5">
       <LogoEntuMovil />
       <Formik
         initialValues={initialValues}

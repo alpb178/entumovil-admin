@@ -20,7 +20,7 @@ export const PasswordField = (props) => {
           id={name}
           placeholder={placeholder}
           className={`text-field mt-2 ${
-            error && touched
+            error
               ? "border-red-400 bg-red-100"
               : "filled border-transparent"
           }`}
@@ -42,7 +42,7 @@ export const PasswordField = (props) => {
         </button>
       </div>
 
-      {error && touched ? (
+      {error ? (
         <p className="mt-2 text-red-600">{error.toString()}</p>
       ) : null}
     </div>

@@ -29,7 +29,7 @@ export function RegisterForm() {
         firstname: values.phone ?? "-",
         lastname: `${values?.firstname ?? "-"}  ${values.lastName ?? "-"}`,
         password: values.password,
-        roles: ['user_client_role'],
+        roles: ["user_client_role"],
       });
     } catch (error) {
       toast.error(getErrorTransaction(error.toString()));
@@ -44,22 +44,22 @@ export function RegisterForm() {
         onSubmit={handleSubmit}
       >
         {({ errors, isSubmitting }) => (
-          <Form className="mt-5 flex flex-col items-center justify-center space-y-10">
+          <Form className="mt-1 flex flex-col items-center justify-center space-y-10">
             <div className="space-y-6">
               <InputField
                 type="text"
                 name="email"
                 error={errors.email}
                 placeholder="Inserte correo electrónico"
-                label="Correo electrónico"
+                label="Correo electrónico*"
               />
 
-              <PhoneInputField label="Telefóno" name="phone" />
+              <PhoneInputField label="Telefóno*" name="phone" />
               <InputField
                 type="text"
                 error={errors.firstname}
                 name="firstname"
-                label="Nombre"
+                label="Nombre*"
                 placeholder="Insertar nombre*"
               />
 
@@ -67,8 +67,8 @@ export function RegisterForm() {
                 type="text"
                 error={errors.lastName}
                 name="lastName"
-                label="Apellidos"
-                placeholder="Insertar apellidos*"
+                label="Apellidos*"
+                placeholder="Insertar apellidos"
               />
               <PasswordField
                 name="password"
@@ -83,14 +83,13 @@ export function RegisterForm() {
                 error={errors.repeatPassword}
                 placeholder="Insertar confirmación de la contraseña"
               />
-            </div>
-
-            <div className="flex justify-center -pt-6">
-              <ButtonSubmit
-                type="submit"
-                disabled={isSubmitting}
-                name={isSubmitting ? "Cargando" : "Registrar"}
-              />
+              <div className="-mt-6 flex justify-center">
+                <ButtonSubmit
+                  type="submit"
+                  disabled={isSubmitting}
+                  name={isSubmitting ? "Cargando" : "Registrar"}
+                />
+              </div>
             </div>
           </Form>
         )}

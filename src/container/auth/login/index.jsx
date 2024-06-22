@@ -9,8 +9,10 @@ import { useAuth } from "@/hooks/useAuth";
 import { getErrorTransaction } from "@/lib/utils";
 import { AuthBottomBar } from "@/component/bottombar/bottombar";
 import { LogoEntuMovil } from "@/component/logo/logo";
+import { useState } from "react";
 
 export function Login() {
+  const [loading, setLoading] = useState(false);
   const initialValues = {
     username: "",
     password: "",
@@ -20,9 +22,14 @@ export function Login() {
 
   const handleSubmit = async (values) => {
     try {
+      setLoading(true)
       login(values);
     } catch (error) {
       toast.error(getErrorTransaction(error.toString()));
+      setLoading(false)
+    }
+    finally{
+      setLoading(false)
     }
   };
 
@@ -59,12 +66,11 @@ export function Login() {
                 className="hover:text-primary-dark mt-1 font-medium text-gray-700 duration-200 ease-in-out hover:text-primary-500"
                 prefetch={false}
               >
-                Olvidar Contraseña
+                ¿Has olvidado la contraseña?
               </Link>
               <ButtonSubmit
                 type="submit"
-                disabled={isSubmitting}
-                name={isSubmitting ? "Cargando" : "Iniciar Sesión"}
+                name={isSubmitting || loading ? "Cargando" : "Iniciar Sesión"}
               />
             </div>
           </Form>

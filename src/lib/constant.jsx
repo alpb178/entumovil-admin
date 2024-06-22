@@ -17,12 +17,13 @@ export const URL_PROFILE_EDIT_ADMIN = "/profile/edit/:id";
 export const MESSAGE_REQUIRED = "campo requerido";
 
 export const MESSAGE_INVALID_FORMAT = "formato incorrecto";
+export const MESSAGE_INVALID_PASSWORD =
+  "Debe contener al menos 8 caracteres: una mayúscula, una minúscula, un número y un carácter de caso especial";
 export const MESSAGE_SUCCES_PASSWORD_FORMAT = "Password editado con éxito";
 export const MESSAGE_SUCCES_USER_FORMAT = "Usuario editado con éxito";
 export const MESSAGE_ERROR_FORMAT = "Ha ocurrido un error:";
-export const MESSAGE_ERROR_ADMIN = "En caso de duda contacte con el administrador";
-
-
+export const MESSAGE_ERROR_ADMIN =
+  "En caso de duda contacte con el administrador";
 
 ///
 export const API_URL = "api";
@@ -38,7 +39,6 @@ export const API_URLS_USER_DELETE = `${API_URLS_USERS}/delete`;
 export const API_URLS_USER_CREATE = `${API_URLS_USERS}/create`;
 export const API_URLS_USER_UPDATE = `${API_URLS_USERS}/update`;
 export const API_URLS_USER_CHANGE_PASS = `${API_URLS_USERS}/changePass`;
-
 
 // Roles
 export const API_URLS_ROLES_LIST = `${API_URLS_USERS_LIST}/roles`;

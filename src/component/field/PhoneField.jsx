@@ -37,6 +37,10 @@ export const PhoneInputField = ({ label,error, ...props }) => {
             borderColor: "gray100",
             borderRadius: "10",
           }}
+          inputProps={{
+            name: 'phone',
+            required: true,
+           }}
         />
       </div>
     </div>

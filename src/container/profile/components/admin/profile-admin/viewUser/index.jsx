@@ -41,7 +41,7 @@ export function ViewUser({ data }) {
           </div>
           <div className="flex flex-col text-xl ">
             <a className="font-bold">Telefóno:</a>
-            <a className="m-5 ">{data[0]?.firstName}</a>
+            <a className="m-5 ">{data?.firstName}</a>
           </div>
           <div className="flex flex-col text-xl ">
             <a className="font-bold">Nombre y Apellidos:</a>

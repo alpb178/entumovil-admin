@@ -26,8 +26,8 @@ export function RegisterForm() {
       register({
         username: values.email,
         email: values.email,
-        firstname: values.phone ?? "-",
-        lastname: `${values?.firstname ?? "-"}  ${values.lastName ?? "-"}`,
+        firstName: values.phone ?? "-",
+        lastname: `${values?.firstName ?? "-"}  ${values.lastName ?? "-"}`,
         password: values.password,
         roles: ["user_client_role"],
       });
@@ -57,8 +57,8 @@ export function RegisterForm() {
               <PhoneInputField label="Telefóno*" name="phone" />
               <InputField
                 type="text"
-                error={errors.firstname}
-                name="firstname"
+                error={errors.firstName}
+                name="firstName"
                 label="Nombre*"
                 placeholder="Insertar nombre*"
               />

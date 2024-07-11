@@ -12,7 +12,7 @@ export const ValidationSchema = Yup.object().shape({
       /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
       MESSAGE_INVALID_FORMAT
     ),
-  firstname: Yup.string().required(MESSAGE_REQUIRED),
+  firstName: Yup.string().required(MESSAGE_REQUIRED),
   lastName: Yup.string().required(MESSAGE_REQUIRED),
   password: Yup.string()
     .required(MESSAGE_REQUIRED)

@@ -2,13 +2,13 @@ import { useField } from "formik";
 import "react-phone-input-2/lib/style.css";
 import PI from "react-phone-input-2";
 
-
-export const PhoneInputField = ({ label,error, ...props }) => {
-  const [field, meta, helpers] = useField(props.name);
+export const PhoneInputField = ({ label, error, ...props }) => {
+  const [field, meta, helpers] = useField(props.name, props.value);
   const ReactPhoneInput = PI.default ? PI.default : PI;
 
   return (
     <div className="flex w-full flex-col text-xl">
+      {console.log(field, "Field", props.value)}
       <div className="relative">
         {label && (
           <label htmlFor="password" className="font-bold">
@@ -18,7 +18,6 @@ export const PhoneInputField = ({ label,error, ...props }) => {
         <ReactPhoneInput
           {...props}
           {...field}
-        
           name={props.name}
           country={"cu"}
           onlyCountries={["cu"]}
@@ -38,9 +37,9 @@ export const PhoneInputField = ({ label,error, ...props }) => {
             borderRadius: "10",
           }}
           inputProps={{
-            name: 'phone',
+            name: "phone",
             required: true,
-           }}
+          }}
         />
       </div>
     </div>

@@ -21,15 +21,14 @@ export function Login() {
   const { login } = useAuth();
 
   const handleSubmit = async (values) => {
+    setLoading(true);
     try {
-      setLoading(true)
       login(values);
     } catch (error) {
       toast.error(getErrorTransaction(error.toString()));
-      setLoading(false)
-    }
-    finally{
-      setLoading(false)
+      setLoading(false);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -70,7 +69,7 @@ export function Login() {
               </Link>
               <ButtonSubmit
                 type="submit"
-                name={isSubmitting || loading ? "Cargando" : "Iniciar Sesión"}
+                name={loading  || isSubmitting ? "Cargando" : "Iniciar Sesión"}
               />
             </div>
           </Form>

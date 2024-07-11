@@ -22,7 +22,7 @@ export function ProfileUser() {
     },
   });
   const initialValues = {
-    phone: data[0]?.firstname ?? "",
+    phone: data[0]?.firstName ?? "",
     lastName: data[0]?.lastName ?? "",
   };
 
@@ -32,7 +32,7 @@ export function ProfileUser() {
     try {
       const newData = {
         id: getId(),
-        data: { firstname: values.phone ?? "-", lastname: values.lastName },
+        data: { firstName: values.phone ?? "-", lastname: values.lastName },
       };
 
       await saveUsers({
@@ -70,7 +70,7 @@ export function ProfileUser() {
                   <a className="m-5 ">{data[0]?.email}</a>
                 </div>
 
-                <PhoneInputField label="Telefóno" name="phone" />
+                <PhoneInputField label="Telefóno" name="phone"  />
 
                 <InputField
                   type="text"

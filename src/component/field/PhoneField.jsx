@@ -3,7 +3,7 @@ import "react-phone-input-2/lib/style.css";
 import PI from "react-phone-input-2";
 
 export const PhoneInputField = ({ label, error, ...props }) => {
-  const [field, meta, helpers] = useField(props.name, props.value);
+  const [field, helpers] = useField(props.name);
   const ReactPhoneInput = PI.default ? PI.default : PI;
 
   return (

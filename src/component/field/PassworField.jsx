@@ -3,7 +3,7 @@ import { Field } from "formik";
 import { useState } from "react";
 
 export const PasswordField = (props) => {
-  const { name, error, placeholder, label, touched } = props;
+  const { name, error, placeholder, label } = props;
   const [showPassword, setShowPassword] = useState(false);
 
   return (

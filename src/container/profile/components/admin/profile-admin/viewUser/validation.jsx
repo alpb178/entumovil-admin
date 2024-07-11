@@ -5,7 +5,7 @@ export const ValidationSchema = Yup.object().shape({
   password: Yup.string()
     .required(MESSAGE_REQUIRED)
     .min(8, 'La contraseña debe tener 8 caracteres')
-    .matches(/[0-9]/, 'La contraseña requiere un número')
+    .matches(/^\d/, 'La contraseña requiere un número')
     .matches(/[a-z]/, 'La contraseña requiere una letra minúscula')
     .matches(/[A-Z]/, 'La contraseña requiere una letra mayúscula')
     .matches(/[^\w]/, 'La contraseña requiere un símbolo'),

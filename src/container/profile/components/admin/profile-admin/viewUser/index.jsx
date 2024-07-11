@@ -54,7 +54,7 @@ export function ViewUser({ data }) {
             validationSchema={ValidationSchema}
             onSubmit={handleSubmit}
           >
-            {({ errors, touched, isSubmitting }) => (
+            {({ errors,isSubmitting }) => (
               <Form className=" flex flex-col">
                 <div className="mt-5 space-y-6">
                   <PasswordField

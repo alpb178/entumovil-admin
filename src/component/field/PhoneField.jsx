@@ -3,12 +3,11 @@ import "react-phone-input-2/lib/style.css";
 import PI from "react-phone-input-2";
 
 export const PhoneInputField = ({ label, error, ...props }) => {
-  const [field, helpers] = useField(props.name);
+  const [field, meta, helpers] = useField(props.name);
   const ReactPhoneInput = PI.default ? PI.default : PI;
 
   return (
     <div className="flex w-full flex-col text-xl">
-      {console.log(field, "Field", props.value)}
       <div className="relative">
         {label && (
           <label htmlFor="password" className="font-bold">
@@ -17,6 +16,7 @@ export const PhoneInputField = ({ label, error, ...props }) => {
         )}
         <ReactPhoneInput
           {...props}
+          {...meta}
           {...field}
           name={props.name}
           country={"cu"}

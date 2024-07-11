@@ -4,11 +4,12 @@ import "react-datepicker/dist/react-datepicker.css";
 import { format } from "date-fns";
 
 export const DateInputField = ({ label, ...props }) => {
-  const [field, helpers] = useField(props.name);
+  const [field, meta,helpers] = useField(props.name);
 
   return (
     <DatePicker
       {...props}
+      {...meta}
       {...field}
       name={props.name}
       dateFormat="MMMM d, yyyy"

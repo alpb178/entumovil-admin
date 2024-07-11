@@ -29,7 +29,6 @@ export function RegisterForm() {
         firstName: values.phone ?? "-",
         lastname: `${values?.firstName ?? "-"}  ${values.lastName ?? "-"}`,
         password: values.password,
-        roles: ["user"],
       });
     } catch (error) {
       toast.error(getErrorTransaction(error.toString()));

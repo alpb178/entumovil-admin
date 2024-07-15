@@ -70,8 +70,6 @@ export function ProfileUser() {
                   <a className="m-5 ">{data[0]?.email}</a>
                 </div>
 
-                <PhoneInputField label="Telefóno" name="phone"  />
-
                 <InputField
                   type="text"
                   error={errors?.lastName}
@@ -79,9 +77,15 @@ export function ProfileUser() {
                   label="Nombre y apellidos*"
                   placeholder="Insertar nombre y apellidos"
                 />
+
+                <PhoneInputField
+                  label="Telefóno"
+                  name="phone"
+                  error={errors.phone}
+                />
               </div>
 
-              <div className="flex justify-center pt-4">
+              <div className="flex justify-center pt-2">
                 <ButtonSubmit
                   type="submit"
                   disabled={isSubmitting}

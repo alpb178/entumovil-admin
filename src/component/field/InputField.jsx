@@ -16,7 +16,7 @@ export const InputField = (props) => {
         name={name}
         id={name}
         placeholder={placeholder}
-        className={`text-field mt-2 ${
+        className={`text-field !p-2 ${
           error
             ? "border-red-400 bg-red-100"
             : "filled border-transparent"
@@ -25,7 +25,7 @@ export const InputField = (props) => {
       />
 
       {error ? (
-        <p className="mt-2 text-red-600">{error.toString()}</p>
+        <p className="text-red-600">{error.toString()}</p>
       ) : null}
     </div>
   );

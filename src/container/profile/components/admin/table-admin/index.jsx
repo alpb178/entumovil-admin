@@ -39,8 +39,12 @@ export function TableAdmin() {
     try {
       const newData = {
         id,
-        isEnabled: value,
+        data: {
+          isEnabled: value,
+        },
       };
+
+      console.log(newData);
 
       await saveUsers({
         args: newData,
@@ -48,6 +52,8 @@ export function TableAdmin() {
           method,
         },
       });
+      toast.success("Usuario actualizado");
+      queryClient.invalidateQueries([API_URLS_USERS_LIST]);
     } catch (error) {
       toast.error(getErrorTransaction(error.toString()));
     } finally {
@@ -62,7 +68,7 @@ export function TableAdmin() {
     try {
       await deleteUsers({ args: { id } }).then(() => {
         closeShowModal();
-        toast.success("Usuario Eliminado");
+        toast.success("Usuario eliminado");
         queryClient.invalidateQueries([API_URLS_USERS_LIST]);
       });
     } catch (error) {
@@ -92,12 +98,14 @@ export function TableAdmin() {
 
       Cell: ({ row }) => {
         return (
-          <div className=" flex items-center">
-            <CheckBox
-              enabled={row.original.enabled}
-              id={row.original.id}
-              onAFtterCheck={handleActivatedDeactivated}
-            />
+          <div className="ml-15 flex w-full items-center">
+            <div className="ml-10 w-8">
+              <CheckBox
+                enabled={row.original.enabled}
+                id={row.original.id}
+                onAFtterCheck={handleActivatedDeactivated}
+              />
+            </div>
           </div>
         );
       },
@@ -124,7 +132,7 @@ export function TableAdmin() {
 
   const options = {
     columns,
-    data: data.filter((obj) => obj.username != getUsername()),
+    data: data?.filter((obj) => obj.username != getUsername()),
     count: 10,
     center: true,
   };

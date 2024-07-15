@@ -18,7 +18,7 @@ export function Login() {
     password: "",
   };
 
-  const { login } = useAuth();
+  const { login,isBusy } = useAuth();
 
   const handleSubmit = async (values) => {
     setLoading(true);
@@ -69,7 +69,7 @@ export function Login() {
               </Link>
               <ButtonSubmit
                 type="submit"
-                name={loading  || isSubmitting ? "Cargando" : "Iniciar Sesión"}
+                name={isBusy ? "Cargando" : "Iniciar Sesión"}
               />
             </div>
           </Form>

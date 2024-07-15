@@ -1,6 +1,7 @@
 import { useField } from "formik";
 import "react-phone-input-2/lib/style.css";
 import PI from "react-phone-input-2";
+import { useState } from "react";
 
 export const PhoneInputField = ({ label, error, ...props }) => {
   const [field, meta, helpers] = useField(props.name);
@@ -33,7 +34,7 @@ export const PhoneInputField = ({ label, error, ...props }) => {
             height: "50px",
             fontSize: "larger",
             background: "#E8F0FE",
-            borderColor: "gray100",
+            borderColor: error ? "red" : "white",
             borderRadius: "10",
           }}
           inputProps={{
@@ -41,6 +42,7 @@ export const PhoneInputField = ({ label, error, ...props }) => {
             required: true,
           }}
         />
+        {error ? <p className="mt-2 text-red-600">{error.toString()}</p> : null}
       </div>
     </div>
   );

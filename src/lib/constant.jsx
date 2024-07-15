@@ -14,9 +14,9 @@ export const URL_PROFILE_USER = "/profile/user";
 export const URL_PROFILE_EDIT_ADMIN = "/profile/edit/:id";
 
 //  Forms
-export const MESSAGE_REQUIRED = "campo requerido";
+export const MESSAGE_REQUIRED = "Campo requerido";
 
-export const MESSAGE_INVALID_FORMAT = "formato incorrecto";
+export const MESSAGE_INVALID_FORMAT = "Formato incorrecto";
 export const MESSAGE_INVALID_PASSWORD =
   "Debe contener al menos 8 caracteres: una mayúscula, una minúscula, un número y un carácter de caso especial";
 export const MESSAGE_SUCCES_PASSWORD_FORMAT = "Password editado con éxito";

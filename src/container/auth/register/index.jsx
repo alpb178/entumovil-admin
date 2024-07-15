@@ -19,15 +19,15 @@ export function RegisterForm() {
     phone: "",
   };
 
-  const { register } = useAuth();
+  const { register, isBusy } = useAuth();
 
   const handleSubmit = (values) => {
     try {
       register({
         username: values.email,
         email: values.email,
-        firstName: values.phone ?? "-",
-        lastname: `${values?.firstName ?? "-"}  ${values.lastName ?? "-"}`,
+        firstname: values.phone ?? "-",
+        lastname: `${values?.firstName} ${values.lastName}`,
         password: values.password,
       });
     } catch (error) {
@@ -42,7 +42,7 @@ export function RegisterForm() {
         validationSchema={ValidationSchema}
         onSubmit={handleSubmit}
       >
-        {({ errors, isSubmitting }) => (
+        {({ errors }) => (
           <Form className="mt-1 flex flex-col items-center justify-center space-y-10">
             <div className="space-y-6">
               <InputField
@@ -53,7 +53,6 @@ export function RegisterForm() {
                 label="Correo electrónico*"
               />
 
-              <PhoneInputField label="Telefóno*" name="phone" />
               <InputField
                 type="text"
                 error={errors.firstName}
@@ -68,6 +67,11 @@ export function RegisterForm() {
                 name="lastName"
                 label="Apellidos*"
                 placeholder="Insertar apellidos"
+              />
+              <PhoneInputField
+                label="Telefóno*"
+                name="phone"
+                error={errors.phone}
               />
               <PasswordField
                 name="password"
@@ -85,8 +89,7 @@ export function RegisterForm() {
               <div className="-mt-6 flex justify-center">
                 <ButtonSubmit
                   type="submit"
-                  disabled={isSubmitting}
-                  name={isSubmitting ? "Cargando" : "Registrar"}
+                  name={isBusy ? "Cargando" : "Registrar"}
                 />
               </div>
             </div>

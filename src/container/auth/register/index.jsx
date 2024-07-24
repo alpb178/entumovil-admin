@@ -7,7 +7,7 @@ import { toast } from "react-toastify";
 import { useAuth } from "@/hooks/useAuth";
 import { PhoneInputField } from "@/component/field/PhoneField";
 import { LogoEntuMovil } from "@/component/logo/logo";
-import { getErrorTransaction } from "@/lib/utils";
+import { checkIfJSONisEmpty, getErrorTransaction } from "@/lib/utils";
 import { AuthBottomBar } from "@/component/bottombar/bottombar";
 
 export function RegisterForm() {
@@ -69,7 +69,7 @@ export function RegisterForm() {
                 placeholder="Insertar apellidos"
               />
               <PhoneInputField
-                label="Telefóno*"
+                label="Telefóno"
                 name="phone"
                 error={errors.phone}
               />
@@ -89,6 +89,7 @@ export function RegisterForm() {
               <div className="-mt-6 flex justify-center">
                 <ButtonSubmit
                   type="submit"
+                  disabled={!checkIfJSONisEmpty(errors)}
                   name={isBusy ? "Cargando" : "Registrar"}
                 />
               </div>

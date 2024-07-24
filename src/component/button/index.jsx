@@ -8,7 +8,9 @@ export const ButtonSubmit = (props) => {
       type={type}
       onClick={() => onClick?.()}
       disabled={disabled}
-      className="m-3 rounded-md bg-blue-500 p-2  text-xl text-white"
+      className={`m-3 rounded-md ${
+        disabled ? "bg-gray-200" : "bg-blue-500"
+      } p-2  text-xl text-white`}
     >
       {name}
     </button>

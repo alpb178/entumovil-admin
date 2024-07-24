@@ -10,6 +10,8 @@ import { useState } from "react";
 import { PUT } from "@/lib/constant";
 import { Loader } from "@/component/loader";
 import { useAuth } from "@/hooks/useAuth";
+import { checkIfJSONisEmpty } from "@/lib/utils";
+import { ValidationSchema } from "./validation";
 
 export function ProfileUser() {
   const { navigateToHome } = useNavigateRoute();
@@ -61,9 +63,14 @@ export function ProfileUser() {
       {isLoading || !data ? (
         <Loader />
       ) : (
-        <Formik initialValues={initialValues} onSubmit={handleSubmit}>
+        <Formik
+          initialValues={initialValues}
+          onSubmit={handleSubmit}
+          validationSchema={ValidationSchema}
+        >
           {({ errors, isSubmitting }) => (
             <Form className="mt-10 flex flex-col items-center justify-center space-y-10">
+              {console.log(errors)}
               <div className="space-y-6">
                 <div className="flex flex-col text-xl ">
                   <a className="font-bold">Correo Electrónico:</a>
@@ -78,17 +85,13 @@ export function ProfileUser() {
                   placeholder="Insertar nombre y apellidos"
                 />
 
-                <PhoneInputField
-                  label="Telefóno"
-                  name="phone"
-                  error={errors.phone}
-                />
+                <PhoneInputField label="Telefóno" name="phone" />
               </div>
 
               <div className="flex justify-center pt-2">
                 <ButtonSubmit
                   type="submit"
-                  disabled={isSubmitting}
+                  disabled={!checkIfJSONisEmpty(errors)}
                   name={isSubmitting || loading ? "Cargando" : "Actualizar"}
                 />
                 <ButtonCancel

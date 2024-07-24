@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 import { saveUsersPass } from "@/hooks/useUsers";
 import { MESSAGE_SUCCES_PASSWORD_FORMAT, PUT } from "@/lib/constant";
 import { PasswordField } from "@/component/field/PassworField";
-import { getErrorTransaction } from "@/lib/utils";
+import { checkIfJSONisEmpty, getErrorTransaction } from "@/lib/utils";
 
 export function ViewUser({ data }) {
   const initialValues = {
@@ -75,7 +75,7 @@ export function ViewUser({ data }) {
                 <div className="flex justify-center pt-4">
                   <ButtonSubmit
                     type="submit"
-                    disabled={isSubmitting}
+                    disabled={!checkIfJSONisEmpty(errors)}
                     name={isSubmitting ? "Cargando" : "Actualizar"}
                   />
                 </div>

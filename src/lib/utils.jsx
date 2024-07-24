@@ -48,3 +48,7 @@ export const getError = (error) => {
 export const getErrorTransaction = (error) => {
   return `${MESSAGE_ERROR_FORMAT} ${error}. ${MESSAGE_ERROR_ADMIN}`;
 };
+
+export const checkIfJSONisEmpty = (obj) => {
+  return Object.keys(obj).length === 0;
+};

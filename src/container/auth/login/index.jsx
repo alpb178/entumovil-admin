@@ -6,7 +6,7 @@ import { Form, Formik } from "formik";
 import { Link } from "react-router-dom";
 import { ValidationSchema } from "./validation";
 import { useAuth } from "@/hooks/useAuth";
-import { getErrorTransaction } from "@/lib/utils";
+import { checkIfJSONisEmpty, getErrorTransaction } from "@/lib/utils";
 import { AuthBottomBar } from "@/component/bottombar/bottombar";
 import { LogoEntuMovil } from "@/component/logo/logo";
 import { useState } from "react";
@@ -69,6 +69,7 @@ export function Login() {
               </Link>
               <ButtonSubmit
                 type="submit"
+                disabled={!checkIfJSONisEmpty(errors)}
                 name={isBusy ? "Cargando" : "Iniciar Sesión"}
               />
             </div>

@@ -18,7 +18,7 @@ export const MESSAGE_REQUIRED = "Campo requerido";
 
 export const MESSAGE_INVALID_FORMAT = "Formato incorrecto";
 export const MESSAGE_INVALID_PASSWORD =
-  "Debe contener al menos 8 caracteres: una mayúscula, una minúscula, un número y un carácter de caso especial";
+  "Debe contener al menos 8 carácteres: una mayúscula, una minúscula, un número y un carácter de caso especial";
 export const MESSAGE_SUCCES_PASSWORD_FORMAT = "Password editado con éxito";
 export const MESSAGE_SUCCES_USER_FORMAT = "Usuario editado con éxito";
 export const MESSAGE_ERROR_FORMAT = "Ha ocurrido un error:";

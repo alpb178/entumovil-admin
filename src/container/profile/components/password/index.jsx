@@ -4,7 +4,7 @@ import { ButtonCancel, ButtonSubmit } from "@/component/button";
 import { ValidationSchema } from "./validation";
 import { toast } from "react-toastify";
 import { saveUsersPass } from "@/hooks/useUsers";
-import { getErrorTransaction } from "@/lib/utils";
+import { checkIfJSONisEmpty, getErrorTransaction } from "@/lib/utils";
 import { MESSAGE_SUCCES_PASSWORD_FORMAT } from "@/lib/constant";
 
 export function PasswordUser({ id, onClose }) {
@@ -62,7 +62,7 @@ export function PasswordUser({ id, onClose }) {
             <div className="flex justify-center pt-4">
               <ButtonSubmit
                 type="submit"
-                disabled={isSubmitting}
+                disabled={!checkIfJSONisEmpty(errors)}
                 name={isSubmitting ? "Cargando" : "Actualizar"}
               />
               <ButtonCancel

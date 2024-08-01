@@ -44,8 +44,6 @@ export function TableAdmin() {
         },
       };
 
-      console.log(newData);
-
       await saveUsers({
         args: newData,
         options: {

@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { useQueryClient } from "react-query";
-import {DataTable} from "@/component/table";
-import {TableActions} from "@/component/table/TableActions";
+import { DataTable } from "@/component/table";
+import { TableActions } from "@/component/table/TableActions";
 import { toast } from "react-toastify";
-import { API_URLS_USERS_LIST, DELETE } from "@/lib/constant";
-import {ModalDeleteRol} from "@/component/modal-confirmation/modal-delete-rol";
+import { API_URLS_ROLES_LIST, API_URLS_USERS_LIST, DELETE } from "@/lib/constant";
+import { ModalDeleteRol } from "@/component/modal-confirmation/modal-delete-rol";
 import { useFindRoles } from "@/hooks/useRoles";
-import {Loader} from "@/component/loader";
+import { Loader } from "@/component/loader";
 import { getErrorTransaction } from "@/lib/utils";
 import { saveRoles } from "@/hooks/useAdmin";
 
@@ -30,7 +30,7 @@ export function ViewRoleAdmin({ idUser }) {
   const handleDelete = async () => {
     let method = DELETE;
     const args = {
-      id: user.id,
+      id: idUser,
       data: { roles: [user.name] },
     };
     try {
@@ -40,8 +40,8 @@ export function ViewRoleAdmin({ idUser }) {
           method,
         },
       }).then(() => {
-        toast.success("Usuario Eliminado");
-        queryClient.invalidateQueries([API_URLS_USERS_LIST]);
+        toast.success("Role Eliminado");
+        queryClient.invalidateQueries([API_URLS_ROLES_LIST]);
         closeShowModal();
       });
     } catch (error) {
@@ -78,7 +78,7 @@ export function ViewRoleAdmin({ idUser }) {
 
   const options = {
     columns,
-    data: data,
+    data: data?.filter((obj) => obj.name != "default-roles-checkout-client"),
     count: 10,
   };
 

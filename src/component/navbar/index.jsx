@@ -41,7 +41,7 @@ export function NavbarUserLoggued() {
     navigate(URL_HOME);
   };
 
-  const isAdmin = !!data?.find((m) => m.name.includes("admin_client_role"));
+  const isAdmin = !!data?.find((m) => m.name.includes("admin"));
   return (
     <>
       {isError ? (

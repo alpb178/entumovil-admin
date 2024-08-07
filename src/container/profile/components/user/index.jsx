@@ -34,7 +34,7 @@ export function ProfileUser() {
     try {
       const newData = {
         id: getId(),
-        data: { firstName: values.phone ?? "-", lastname: values.lastName },
+        data: { firstname: values.phone ?? "-", lastname: values.lastName },
       };
 
       await saveUsers({

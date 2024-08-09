@@ -54,6 +54,9 @@ export const MESSAGE_ERROR_ADMIN =
 export const MESSAGE_INVALID_PASSWORD_CHARACTER =
   "Formato incorrecto: requiere 8 carácteres";
 
+export const MESSAGE_INVALID_FIRSTNAME_CHARACTER =
+  "Formato incorrecto: requiere entre 2 y 20 carácteres";
+
 export const MESSAGE_INVALID_LASTNAME_CHARACTER =
   "Formato incorrecto: requiere entre 2 y 40 carácteres";
 export const MESSAGE_SAME_PASSWORD_CHARACTER = "Los Password deben ser iguales";
@@ -61,9 +64,11 @@ export const MESSAGE_SAME_PASSWORD_DOWCASE =
   "Formato incorrecto: requiere una letra minúscula";
 export const MESSAGE_SAME_PASSWORD_UPCASE =
   "Formato incorrecto: requiere una letra mayúscula";
-export const MESSAGE_SAME_PASSWORD_SYMBOL = "Formato incorrecto: requiere un símbolo";
+export const MESSAGE_SAME_PASSWORD_SYMBOL =
+  "Formato incorrecto: requiere un símbolo";
 
 export const MESSAGE_INVALID_PHONE_CHARACTER =
   "Formato incorrecto: requiere entre 2 y 10 carácteres";
 
-
+export const regexEmail =
+  /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@(([[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;

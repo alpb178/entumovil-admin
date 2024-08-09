@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { Dialog, Transition } from "@headlessui/react";
-import React, { Fragment, useEffect, useState } from "react";
+import React, { Fragment} from "react";
 import { ButtonCancel, ButtonSubmit } from "../button";
 import { LogoEntuMovil } from "../logo/logo";
 
@@ -8,16 +8,10 @@ export const Modal = ({
   children,
   open,
   onOpen,
-  isNewData,
+
   onSubmit,
   hideButton,
 }) => {
-  const [setTitle] = useState();
-
-  useEffect(() => {
-    setTitle("Modal");
-  }, [isNewData]);
-
   return (
     <Transition appear show={open} as={Fragment}>
       <Dialog as="div" className="relative z-10" onClose={() => onOpen(false)}>

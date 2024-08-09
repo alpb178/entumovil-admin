@@ -11,7 +11,7 @@ export const ButtonSubmit = (props) => {
       disabled={disabled}
       className={`m-3 rounded-md ${
         disabled ? "bg-gray-200 text-black" : "bg-blue-500 text-white"
-      } p-2  text-xl`}
+      } p-2  text-lg`}
     >
       {name}
     </button>
@@ -29,7 +29,7 @@ export const ButtonCancel = (props) => {
         onClick?.();
       }}
       disabled={disabled}
-      className="m-3 rounded-md bg-gray-300 p-2  text-xl text-black "
+      className="m-3 rounded-md bg-gray-300 p-2  text-lg text-black "
     >
       {name}
     </button>
@@ -42,7 +42,7 @@ export const ButtonCancelLink = (props) => {
   return (
     <Link
       to={url}
-      className="m-3 rounded-md bg-gray-300 p-2  text-xl text-black "
+      className="m-3 rounded-md bg-gray-300 p-2  text-lg text-black "
       prefetch={false}
     >
       {name}

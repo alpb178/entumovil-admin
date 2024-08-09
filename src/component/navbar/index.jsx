@@ -69,7 +69,7 @@ export function NavbarUserLoggued() {
                     <Menu as="div" className="relative ml-3">
                       <div>
                         <Menu.Button className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
-                          <a className="ml-3 mr-3 mt-2 mb-2 rounded-full text-xl text-white">
+                          <a className="ml-3 mr-3 mt-2 mb-2 rounded-full text-lg text-white">
                             {initialLetters}
                           </a>
                         </Menu.Button>

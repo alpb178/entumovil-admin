@@ -9,7 +9,7 @@ export const PasswordField = (props) => {
   const [showPassword, setShowPassword] = useState(false);
 
   return (
-    <div className="flex w-full flex-col text-xl">
+    <div className="flex w-full flex-col text-lg">
       <div className="relative">
         {label && (
           <label htmlFor="password" className="font-bold">
@@ -42,7 +42,7 @@ export const PasswordField = (props) => {
         </button>
       </div>
 
-      {error ? <p className="mt-1 text-red-600">{error.toString()}</p> : null}
+      {error ? <p className="mt-1 text-red-600 text-sm">{error.toString()}</p> : null}
     </div>
   );
 };

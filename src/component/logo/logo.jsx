@@ -1,4 +1,6 @@
+/* eslint-disable react/prop-types */
 import { HeaderPage } from "../header";
+import React from "react";
 
 export function LogoEntuMovil({ isLogin }) {
   return (

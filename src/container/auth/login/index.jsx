@@ -7,12 +7,11 @@ import { useAuth } from "@/hooks/useAuth";
 import { checkIfJSONisEmpty, getErrorTransaction } from "@/lib/utils";
 import { AuthBottomBar } from "@/component/bottombar/bottombar";
 import { LogoEntuMovil } from "@/component/logo/logo";
-import { useState } from "react";
+
 import React from "react";
 import { toast } from "react-toastify";
 
 export function Login() {
-  const [setLoading] = useState(false);
   const initialValues = {
     username: "",
     password: "",
@@ -21,14 +20,12 @@ export function Login() {
   const { login, isBusy } = useAuth();
 
   const handleSubmit = async (values) => {
-    setLoading(true);
+    console.log(values);
+
     try {
       login(values);
     } catch (error) {
       toast.error(getErrorTransaction(error.toString()));
-      setLoading(false);
-    } finally {
-      setLoading(false);
     }
   };
 

@@ -9,7 +9,7 @@ export const PhoneInputField = ({ label, error, ...props }) => {
   const ReactPhoneInput = PI.default ? PI.default : PI;
 
   return (
-    <div className="flex w-full flex-col text-xl">
+    <div className="flex w-full flex-col text-lg">
       <div className="relative">
         {label && (
           <label htmlFor="password" className="font-bold">
@@ -43,7 +43,7 @@ export const PhoneInputField = ({ label, error, ...props }) => {
             required: true,
           }}
         />
-        {error ? <p className="mt-2 text-red-600">{error.toString()}</p> : null}
+        {error ? <p className="mt-2 text-red-600 text-sm">{error.toString()}</p> : null}
       </div>
     </div>
   );

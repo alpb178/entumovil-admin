@@ -1,4 +1,5 @@
 import {
+  MESSAGE_INVALID_FIRSTNAME_CHARACTER,
   MESSAGE_INVALID_FORMAT,
   MESSAGE_INVALID_LASTNAME_CHARACTER,
   MESSAGE_INVALID_PASSWORD_CHARACTER,
@@ -8,18 +9,19 @@ import {
   MESSAGE_SAME_PASSWORD_DOWCASE,
   MESSAGE_SAME_PASSWORD_SYMBOL,
   MESSAGE_SAME_PASSWORD_UPCASE,
+  regexEmail,
 } from "@/lib/constant";
 import * as Yup from "yup";
 
 export const ValidationSchema = Yup.object().shape({
   email: Yup.string()
     .required(MESSAGE_REQUIRED)
-    .matches(
-      /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
-      MESSAGE_INVALID_FORMAT
-    ),
+    .matches(regexEmail, MESSAGE_INVALID_FORMAT),
 
-  firstName: Yup.string().required(MESSAGE_REQUIRED),
+  firstName: Yup.string()
+    .required(MESSAGE_REQUIRED)
+    .min(2, MESSAGE_INVALID_FIRSTNAME_CHARACTER)
+    .max(40, MESSAGE_INVALID_FIRSTNAME_CHARACTER),
   lastName: Yup.string()
     .required(MESSAGE_REQUIRED)
     .min(2, MESSAGE_INVALID_LASTNAME_CHARACTER)

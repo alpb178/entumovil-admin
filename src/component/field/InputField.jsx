@@ -6,7 +6,7 @@ export const InputField = (props) => {
   const { type, name, error, placeholder, label } = props;
 
   return (
-    <div className="w-full text-xl">
+    <div className="w-full text-lg">
       {label && (
         <label htmlFor={name} className="font-bold">
           {label}
@@ -27,7 +27,7 @@ export const InputField = (props) => {
       />
 
       {error ? (
-        <p className="text-red-600">{error.toString()}</p>
+        <p className="text-red-600 text-sm">{error.toString()}</p>
       ) : null}
     </div>
   );

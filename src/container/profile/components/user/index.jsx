@@ -72,7 +72,7 @@ export function ProfileUser() {
           {({ errors, isSubmitting }) => (
             <Form className="mt-10 flex flex-col items-center justify-center space-y-10">
               <div className="space-y-6">
-                <div className="flex flex-col text-xl ">
+                <div className="flex flex-col text-lg ">
                   <a className="font-bold">Correo Electrónico:</a>
                   <a className="m-5 ">{data[0]?.email}</a>
                 </div>

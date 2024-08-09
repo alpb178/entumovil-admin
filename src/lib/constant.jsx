@@ -13,18 +13,6 @@ export const URL_PROFILE_ADMIN = "/profile/admin";
 export const URL_PROFILE_USER = "/profile/user";
 export const URL_PROFILE_EDIT_ADMIN = "/profile/edit/:id";
 
-//  Forms
-export const MESSAGE_REQUIRED = "Campo requerido";
-
-export const MESSAGE_INVALID_FORMAT = "Formato incorrecto";
-export const MESSAGE_INVALID_PASSWORD =
-  "Debe contener al menos 8 carácteres: una mayúscula, una minúscula, un número y un carácter de caso especial";
-export const MESSAGE_SUCCES_PASSWORD_FORMAT = "Password editado con éxito";
-export const MESSAGE_SUCCES_USER_FORMAT = "Usuario editado con éxito";
-export const MESSAGE_ERROR_FORMAT = "Ha ocurrido un error:";
-export const MESSAGE_ERROR_ADMIN =
-  "En caso de duda contacte con el administrador";
-
 ///
 export const API_URL = "api";
 export const API_AUTH_URL = `${API_URL}/auth`;
@@ -49,5 +37,33 @@ export const API_URLS_ADD_ROLE = `${API_URLS_USERS}/addRoleUser`;
 export const AUTH_TOKEN = "authToken";
 export const AUTH_USERNAME = "authUsername";
 export const AUTH_ID = "authId";
+export const ROLE = "default-roles-entumovil-prod";
 
-export const ROLE='default-roles-entumovil-prod'
+//  Forms
+export const MESSAGE_REQUIRED = "Campo requerido";
+
+export const MESSAGE_INVALID_FORMAT = "Formato incorrecto";
+export const MESSAGE_INVALID_PASSWORD =
+  "Debe contener al menos 8 carácteres: una mayúscula, una minúscula, un número y un carácter de caso especial";
+export const MESSAGE_SUCCES_PASSWORD_FORMAT = "Password editado con éxito";
+export const MESSAGE_SUCCES_USER_FORMAT = "Usuario editado con éxito";
+export const MESSAGE_ERROR_FORMAT = "Ha ocurrido un error:";
+export const MESSAGE_ERROR_ADMIN =
+  "En caso de duda contacte con el administrador";
+
+export const MESSAGE_INVALID_PASSWORD_CHARACTER =
+  "Formato incorrecto: requiere 8 carácteres";
+
+export const MESSAGE_INVALID_LASTNAME_CHARACTER =
+  "Formato incorrecto: requiere entre 2 y 40 carácteres";
+export const MESSAGE_SAME_PASSWORD_CHARACTER = "Los Password deben ser iguales";
+export const MESSAGE_SAME_PASSWORD_DOWCASE =
+  "Formato incorrecto: requiere una letra minúscula";
+export const MESSAGE_SAME_PASSWORD_UPCASE =
+  "Formato incorrecto: requiere una letra mayúscula";
+export const MESSAGE_SAME_PASSWORD_SYMBOL = "Formato incorrecto: requiere un símbolo";
+
+export const MESSAGE_INVALID_PHONE_CHARACTER =
+  "Formato incorrecto: requiere entre 2 y 10 carácteres";
+
+

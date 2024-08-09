@@ -1,11 +1,11 @@
 import { Form, Formik } from "formik";
 import { ButtonSubmit } from "@/component/button";
-import { ValidationSchema } from "./validation";
 import { toast } from "react-toastify";
 import { saveUsersPass } from "@/hooks/useUsers";
-import { MESSAGE_SUCCES_PASSWORD_FORMAT, PUT } from "@/lib/constant";
+import { MESSAGE_SUCCES_PASSWORD_FORMAT } from "@/lib/constant";
 import { PasswordField } from "@/component/field/PassworField";
 import { checkIfJSONisEmpty, getErrorTransaction } from "@/lib/utils";
+import { ValidationSchemaPassoword } from "@/lib/validation";
 
 export function ViewUser({ data }) {
   const initialValues = {
@@ -40,7 +40,7 @@ export function ViewUser({ data }) {
             <a className="m-5 ">{data?.email}</a>
           </div>
           <div className="flex flex-col text-xl ">
-            <a className="font-bold">Telefóno:</a>
+            <a className="font-bold">Teléfono:</a>
             <a className="m-5 ">{data?.firstName}</a>
           </div>
           <div className="flex flex-col text-xl ">
@@ -51,10 +51,10 @@ export function ViewUser({ data }) {
         <div className="w-1/2">
           <Formik
             initialValues={initialValues}
-            validationSchema={ValidationSchema}
+            validationSchema={ValidationSchemaPassoword}
             onSubmit={handleSubmit}
           >
-            {({ errors,isSubmitting }) => (
+            {({ errors, isSubmitting }) => (
               <Form className=" flex flex-col">
                 <div className="mt-5 space-y-6">
                   <PasswordField

@@ -1,4 +1,14 @@
-import { MESSAGE_INVALID_FORMAT, MESSAGE_REQUIRED } from "@/lib/constant";
+import {
+  MESSAGE_INVALID_FORMAT,
+  MESSAGE_INVALID_LASTNAME_CHARACTER,
+  MESSAGE_INVALID_PASSWORD_CHARACTER,
+  MESSAGE_INVALID_PHONE_CHARACTER,
+  MESSAGE_REQUIRED,
+  MESSAGE_SAME_PASSWORD_CHARACTER,
+  MESSAGE_SAME_PASSWORD_DOWCASE,
+  MESSAGE_SAME_PASSWORD_SYMBOL,
+  MESSAGE_SAME_PASSWORD_UPCASE,
+} from "@/lib/constant";
 import * as Yup from "yup";
 
 export const ValidationSchema = Yup.object().shape({
@@ -8,17 +18,24 @@ export const ValidationSchema = Yup.object().shape({
       /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
       MESSAGE_INVALID_FORMAT
     ),
-  // phone: Yup.string().required(MESSAGE_REQUIRED),
+
   firstName: Yup.string().required(MESSAGE_REQUIRED),
-  lastName: Yup.string().required(MESSAGE_REQUIRED),
+  lastName: Yup.string()
+    .required(MESSAGE_REQUIRED)
+    .min(2, MESSAGE_INVALID_LASTNAME_CHARACTER)
+    .max(40, MESSAGE_INVALID_LASTNAME_CHARACTER),
   password: Yup.string()
     .required(MESSAGE_REQUIRED)
-    .min(8, "La contraseña debe tener 8 carácteres")
-    .matches(/[a-z]/, "La contraseña requiere una letra minúscula")
-    .matches(/[A-Z]/, "La contraseña requiere una letra mayúscula")
-    .matches(/[^\w]/, "La contraseña requiere un símbolo"),
+    .min(8, MESSAGE_INVALID_PASSWORD_CHARACTER)
+    .max(8, MESSAGE_INVALID_PASSWORD_CHARACTER)
+    .matches(/[a-z]/, MESSAGE_SAME_PASSWORD_DOWCASE)
+    .matches(/[A-Z]/, MESSAGE_SAME_PASSWORD_UPCASE)
+    .matches(/[^\w]/, MESSAGE_SAME_PASSWORD_SYMBOL),
 
   repeatPassword: Yup.string()
     .required(MESSAGE_REQUIRED)
-    .oneOf([Yup.ref("password"), null], "Los Password deben ser iguales"),
+    .oneOf([Yup.ref("password"), null], MESSAGE_SAME_PASSWORD_CHARACTER),
+  phone: Yup.string()
+    .min(2, MESSAGE_INVALID_PHONE_CHARACTER)
+    .max(10, MESSAGE_INVALID_PHONE_CHARACTER),
 });

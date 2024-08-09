@@ -18,7 +18,7 @@ export function Login() {
     password: "",
   };
 
-  const { login,isBusy } = useAuth();
+  const { login, isBusy } = useAuth();
 
   const handleSubmit = async (values) => {
     setLoading(true);
@@ -48,25 +48,25 @@ export function Login() {
                 name="username"
                 error={errors.username}
                 placeholder="Inserte correo electrónico"
-                label="Correo electrónico"
+                label="Correo electrónico*"
               />
 
               <PasswordField
                 name="password"
                 placeholder="Insertar contraseña"
-                label="Contraseña"
+                label="Contraseña*"
                 error={errors.password}
               />
             </div>
 
             <div className=" flex flex-col justify-center">
-              <Link
+              {/* <Link
                 to={URL_FORGOT_PASSWORD}
                 className="hover:text-primary-dark mt-1 font-medium text-gray-700 duration-200 ease-in-out hover:text-primary-500"
                 prefetch={false}
               >
                 ¿Has olvidado la contraseña?
-              </Link>
+              </Link>*/}
               <ButtonSubmit
                 type="submit"
                 disabled={!checkIfJSONisEmpty(errors)}

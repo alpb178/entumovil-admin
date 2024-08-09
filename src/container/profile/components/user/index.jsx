@@ -31,7 +31,6 @@ export function ProfileUser() {
   const handleSubmit = async (values) => {
     let method = PUT;
 
-
     try {
       const newData = {
         id: getId(),
@@ -71,7 +70,6 @@ export function ProfileUser() {
         >
           {({ errors, isSubmitting }) => (
             <Form className="mt-10 flex flex-col items-center justify-center space-y-10">
-              {console.log(errors)}
               <div className="space-y-6">
                 <div className="flex flex-col text-xl ">
                   <a className="font-bold">Correo Electrónico:</a>
@@ -86,7 +84,11 @@ export function ProfileUser() {
                   placeholder="Insertar nombre y apellidos"
                 />
 
-                <PhoneInputField label="Telefóno" name="phone" />
+                <PhoneInputField
+                  label="Teléfono"
+                  name="phone"
+                  error={errors.phone}
+                />
               </div>
 
               <div className="flex justify-center pt-2">

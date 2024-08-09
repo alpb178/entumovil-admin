@@ -35,7 +35,7 @@ export function ForgotPassword() {
                 name="email"
                 error={errors.email}
                 placeholder="Inserte correo electrónico"
-                label="Correo electrónico"
+                label="Correo electrónico*"
               />
             </div>
 

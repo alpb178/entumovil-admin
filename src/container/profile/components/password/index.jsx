@@ -1,11 +1,11 @@
 import { Form, Formik } from "formik";
 import { PasswordField } from "@/component/field/PassworField";
 import { ButtonCancel, ButtonSubmit } from "@/component/button";
-import { ValidationSchema } from "./validation";
 import { toast } from "react-toastify";
 import { saveUsersPass } from "@/hooks/useUsers";
 import { checkIfJSONisEmpty, getErrorTransaction } from "@/lib/utils";
 import { MESSAGE_SUCCES_PASSWORD_FORMAT } from "@/lib/constant";
+import { ValidationSchemaPassoword } from "@/lib/validation";
 
 export function PasswordUser({ id, onClose }) {
   const initialValues = {
@@ -36,7 +36,7 @@ export function PasswordUser({ id, onClose }) {
     <div className=" flex flex-col items-center justify-center space-y-5">
       <Formik
         initialValues={initialValues}
-        validationSchema={ValidationSchema}
+        validationSchema={ValidationSchemaPassoword}
         onSubmit={handleSubmit}
       >
         {({ errors, touched, isSubmitting }) => (

@@ -86,7 +86,7 @@ export function TableAdmin() {
       align: "center",
     },
     {
-      Header: "Telefóno",
+      Header: "Teléfono",
       accessor: "firstName",
       align: "center",
     },

@@ -7,7 +7,7 @@ export const AuthBottomBar = ({ isLogin }) => {
       <div className="relative my-6 flex flex-col items-center justify-center space-y-2 text-base md:flex-row md:space-y-0">
         <span className="px-2 text-gray-700">
           {isLogin
-            ? "Crear nueva cuenta en el Portal de cuentas"
+            ? "¿Aún no tienes cuenta? Regístrate"
             : "Ya tienes una cuenta"}
         </span>
 

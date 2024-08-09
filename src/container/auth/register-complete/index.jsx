@@ -1,6 +1,7 @@
 import { LogoEntuMovil } from "@/component/logo/logo";
 import { URL_LOGIN } from "@/lib/constant";
 import { Link } from "react-router-dom";
+import React from "react";
 
 export function RegisterComplete() {
   return (

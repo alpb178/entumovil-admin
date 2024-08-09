@@ -1,6 +1,8 @@
+/* eslint-disable react/prop-types */
 import { EyeIcon, EyeSlashIcon } from "@heroicons/react/24/outline";
 import { Field } from "formik";
 import { useState } from "react";
+import React from "react";
 
 export const PasswordField = (props) => {
   const { name, error, placeholder, label } = props;
@@ -20,16 +22,14 @@ export const PasswordField = (props) => {
           id={name}
           placeholder={placeholder}
           className={`text-field !p-2 ${
-            error
-              ? "border-red-400 bg-red-100"
-              : "filled border-transparent"
+            error ? "border-red-400 bg-red-100" : "filled border-transparent"
           }`}
           aria-label="password"
         />
         <button
           type="button"
           onClick={() => setShowPassword(!showPassword)}
-          className="absolute inset-y-0 right-0 flex items-center pt-6 pr-3"
+          className="absolute inset-y-0 right-0 flex items-center pr-3 pt-6"
         >
           {showPassword ? (
             <EyeSlashIcon
@@ -42,9 +42,7 @@ export const PasswordField = (props) => {
         </button>
       </div>
 
-      {error ? (
-        <p className="mt-1 text-red-600">{error.toString()}</p>
-      ) : null}
+      {error ? <p className="mt-1 text-red-600">{error.toString()}</p> : null}
     </div>
   );
 };

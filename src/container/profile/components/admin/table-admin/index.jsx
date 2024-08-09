@@ -54,7 +54,6 @@ export function TableAdmin() {
       queryClient.invalidateQueries([API_URLS_USERS_LIST]);
     } catch (error) {
       toast.error(getErrorTransaction(error.toString()));
-    } finally {
     }
   };
 

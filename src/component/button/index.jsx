@@ -1,5 +1,6 @@
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
-
+import React from "react";
 export const ButtonSubmit = (props) => {
   const { name, onClick, type, disabled } = props;
 

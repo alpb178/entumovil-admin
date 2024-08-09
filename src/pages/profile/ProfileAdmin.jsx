@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 import { PageAnimation } from "@/component/page-animation/page-animation.component";
 import { ProfileAdmin } from "@/container/profile/components/admin";

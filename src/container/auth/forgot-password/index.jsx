@@ -5,6 +5,7 @@ import { Form, Formik } from "formik";
 import { ValidationSchema } from "./validation";
 import { useNavigateRoute } from "@/hooks/useNavigateRoute";
 import { toast } from "react-toastify";
+import React from "react";
 
 
 export function ForgotPassword() {
@@ -14,7 +15,7 @@ export function ForgotPassword() {
 
   const { navigateToLogin } = useNavigateRoute();
 
-  const handleSubmit = (values) => {
+  const handleSubmit = () => {
     navigateToLogin();
     toast.success(
       "Hemos Enviado un Correo con los pasos a seguir para cambiar su contraseña"

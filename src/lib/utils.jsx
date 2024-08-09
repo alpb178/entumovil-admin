@@ -19,7 +19,7 @@ export const userRegisterd = async () => {
       sessionStorage.setItem("user", "");
       return false;
     }
-  } catch (error) {
+  } catch {
     sessionStorage.setItem("user", "");
     return false;
   }

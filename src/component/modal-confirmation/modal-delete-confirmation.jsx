@@ -1,5 +1,6 @@
+/* eslint-disable react/prop-types */
 import { Modal } from "../modal";
-
+import React from "react";
 
 export function ModalDelete({ onOpen, open, onSubmit }) {
   return (

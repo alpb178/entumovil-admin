@@ -1,9 +1,10 @@
+/* eslint-disable react/prop-types */
 import React, { useState } from "react";
 import { useQueryClient } from "react-query";
 import { DataTable } from "@/component/table";
 import { TableActions } from "@/component/table/TableActions";
 import { toast } from "react-toastify";
-import { API_URLS_ROLES_LIST, API_URLS_USERS_LIST, DELETE } from "@/lib/constant";
+import { API_URLS_ROLES_LIST, DELETE } from "@/lib/constant";
 import { ModalDeleteRol } from "@/component/modal-confirmation/modal-delete-rol";
 import { useFindRoles } from "@/hooks/useRoles";
 import { Loader } from "@/component/loader";

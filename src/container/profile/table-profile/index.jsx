@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React, { useState } from "react";
 
 import {DataTable} from "@/component/table";
@@ -26,7 +27,7 @@ export function TableProfile() {
     setOpen(false);
   };
 
-  const { data, isLoading } = useFindUsers({
+  const { data } = useFindUsers({
     args: { id: getUsername() },
     options: {
       keepPreviousData: true,

@@ -1,4 +1,6 @@
+/* eslint-disable react/prop-types */
 import { Field } from "formik";
+import React from "react";
 
 export const InputField = (props) => {
   const { type, name, error, placeholder, label } = props;

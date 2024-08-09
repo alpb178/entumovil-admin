@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+import React from "react";
 import { Form, Formik } from "formik";
 import { PasswordField } from "@/component/field/PassworField";
 import { ButtonCancel, ButtonSubmit } from "@/component/button";
@@ -28,7 +30,6 @@ export function PasswordUser({ id, onClose }) {
       onClose();
     } catch (error) {
       toast.error(getErrorTransaction(error.toString()));
-    } finally {
     }
   };
 

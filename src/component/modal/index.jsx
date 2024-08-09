@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Dialog, Transition } from "@headlessui/react";
 import React, { Fragment, useEffect, useState } from "react";
 import { ButtonCancel, ButtonSubmit } from "../button";
@@ -11,7 +12,7 @@ export const Modal = ({
   onSubmit,
   hideButton,
 }) => {
-  const [title, setTitle] = useState();
+  const [setTitle] = useState();
 
   useEffect(() => {
     setTitle("Modal");

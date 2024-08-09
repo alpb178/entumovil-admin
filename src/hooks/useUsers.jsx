@@ -45,7 +45,7 @@ export const saveUsers = async ({ args = {}, options = {} } = {}) => {
   }
 };
 
-export const saveUsersPass = async ({ args = {}, options = {} } = {}) => {
+export const saveUsersPass = async ({ args = {} } = {}) => {
   const data = await saveData({
     path: API_URLS_USER_CHANGE_PASS + `/${args.id}`,
     data: args.data,

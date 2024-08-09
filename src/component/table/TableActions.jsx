@@ -6,7 +6,7 @@ import {
 } from "@heroicons/react/24/outline";
 import PropTypes from "prop-types";
 
-export const TableActions = ({ onEdit, onDelete, onViewDetails, onCheck }) => {
+export const TableActions = ({ onEdit, onDelete, onViewDetails }) => {
   return (
     <div className="z-40 flex items-center justify-end space-x-4">
       {onEdit ? (
@@ -57,5 +57,3 @@ TableActions.propTypes = {
   onDelete: PropTypes.func,
   onViewDetails: PropTypes.func,
 };
-
-

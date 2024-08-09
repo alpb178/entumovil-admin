@@ -1,4 +1,5 @@
 /* eslint-disable react/jsx-key */
+import React from "react";
 import {
   BarsArrowDownIcon,
   BarsArrowUpIcon,
@@ -18,7 +19,7 @@ export const DataTable = ({
   hiddenColumns,
   name,
   onFilter,
-  onPageSizeChange,
+
   pageSize,
   setPage,
   setSortBy,
@@ -166,4 +167,5 @@ DataTable.propTypes = {
   pageSize: PropTypes.number,
   setPage: PropTypes.func,
   setSortBy: PropTypes.func,
+  center: PropTypes.any,
 };

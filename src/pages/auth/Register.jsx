@@ -1,5 +1,5 @@
 import React from "react";
-import {AuthBottomBar} from "@/component/bottombar/bottombar";
+
 import { PageAnimation } from "@/component/page-animation/page-animation.component";
 import { RegisterForm } from "@/container/auth/register";
 

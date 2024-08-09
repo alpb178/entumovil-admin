@@ -10,8 +10,9 @@ import { useState } from "react";
 import { PUT } from "@/lib/constant";
 import { Loader } from "@/component/loader";
 import { useAuth } from "@/hooks/useAuth";
-import { checkIfJSONisEmpty } from "@/lib/utils";
+import { checkIfJSONisEmpty, getErrorTransaction } from "@/lib/utils";
 import { ValidationSchema } from "./validation";
+import React from "react";
 
 export function ProfileUser() {
   const { navigateToHome } = useNavigateRoute();

@@ -1,5 +1,7 @@
+/* eslint-disable react/prop-types */
 import { Input } from "@material-tailwind/react";
 import { useState } from "react";
+import React from "react";
 
 export const CheckBox = ({ enabled, id, onAFtterCheck }) => {
   const [checked, setChecked] = useState(enabled);

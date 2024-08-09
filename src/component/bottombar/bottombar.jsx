@@ -1,5 +1,7 @@
+/* eslint-disable react/prop-types */
 import { URL_LOGIN, URL_REGISTER } from "@/lib/constant";
 import { Link } from "react-router-dom";
+import React from "react";
 
 export const AuthBottomBar = ({ isLogin }) => {
   return (

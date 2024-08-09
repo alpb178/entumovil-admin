@@ -1,18 +1,18 @@
 import { ButtonSubmit } from "@/component/button";
 import { InputField } from "@/component/field/InputField";
 import { PasswordField } from "@/component/field/PassworField";
-import { URL_FORGOT_PASSWORD } from "@/lib/constant";
 import { Form, Formik } from "formik";
-import { Link } from "react-router-dom";
 import { ValidationSchema } from "./validation";
 import { useAuth } from "@/hooks/useAuth";
 import { checkIfJSONisEmpty, getErrorTransaction } from "@/lib/utils";
 import { AuthBottomBar } from "@/component/bottombar/bottombar";
 import { LogoEntuMovil } from "@/component/logo/logo";
 import { useState } from "react";
+import React from "react";
+import { toast } from "react-toastify";
 
 export function Login() {
-  const [loading, setLoading] = useState(false);
+  const [setLoading] = useState(false);
   const initialValues = {
     username: "",
     password: "",
@@ -40,7 +40,7 @@ export function Login() {
         validationSchema={ValidationSchema}
         onSubmit={handleSubmit}
       >
-        {({ errors, isSubmitting }) => (
+        {({ errors }) => (
           <Form className="m-5 mt-10 flex flex-col items-center justify-center space-y-10">
             <div className="space-y-6  ">
               <InputField

@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Form, Formik } from "formik";
 import { ButtonSubmit } from "@/component/button";
 import { toast } from "react-toastify";
@@ -6,6 +7,7 @@ import { MESSAGE_SUCCES_PASSWORD_FORMAT } from "@/lib/constant";
 import { PasswordField } from "@/component/field/PassworField";
 import { checkIfJSONisEmpty, getErrorTransaction } from "@/lib/utils";
 import { ValidationSchemaPassoword } from "@/lib/validation";
+import React from "react";
 
 export function ViewUser({ data }) {
   const initialValues = {
@@ -26,7 +28,6 @@ export function ViewUser({ data }) {
       toast.success(MESSAGE_SUCCES_PASSWORD_FORMAT);
     } catch (error) {
       toast.error(getErrorTransaction(error.toString()));
-    } finally {
     }
   };
 

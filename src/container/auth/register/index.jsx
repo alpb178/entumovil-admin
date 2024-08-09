@@ -44,7 +44,6 @@ export function RegisterForm() {
       >
         {({ errors }) => (
           <Form className="mt-1 flex flex-col items-center justify-center space-y-10">
-            {console.log(errors)}
             <div className="space-y-6">
               <InputField
                 type="text"

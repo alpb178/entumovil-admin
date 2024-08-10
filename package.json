@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "sonarqube": "sonar-scanner",
-     "lint": "eslint '**/*.{js,jsx}'"
+     "lint": "eslint '**/*.{js,jsx}'",
+    "sonarqube": "sonar-scanner"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",

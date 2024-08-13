@@ -10,6 +10,8 @@ import { LogoEntuMovil } from "@/component/logo/logo";
 
 import React from "react";
 import { toast } from "react-toastify";
+import { Link } from "react-router-dom";
+import { URL_FORGOT_PASSWORD } from "@/lib/constant";
 
 export function Login() {
   const initialValues = {
@@ -20,12 +22,10 @@ export function Login() {
   const { login, isBusy } = useAuth();
 
   const handleSubmit = async (values) => {
-    console.log(values);
-
     try {
       login(values);
     } catch (error) {
-      toast.error(getErrorTransaction(error.toString()));
+      toast.error(getErrorTransaction(error.status));
     }
   };
 
@@ -57,13 +57,14 @@ export function Login() {
             </div>
 
             <div className=" flex flex-col justify-center">
-              {/* <Link
+              <Link
                 to={URL_FORGOT_PASSWORD}
                 className="hover:text-primary-dark mt-1 font-medium text-gray-700 duration-200 ease-in-out hover:text-primary-500"
                 prefetch={false}
               >
                 ¿Has olvidado la contraseña?
-              </Link>*/}
+              </Link>
+
               <ButtonSubmit
                 type="submit"
                 disabled={!checkIfJSONisEmpty(errors)}

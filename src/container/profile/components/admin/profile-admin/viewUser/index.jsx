@@ -27,7 +27,7 @@ export function ViewUser({ data }) {
       });
       toast.success(MESSAGE_SUCCES_PASSWORD_FORMAT);
     } catch (error) {
-      toast.error(getErrorTransaction(error.toString()));
+      toast.error(getErrorTransaction(error.status));
     }
   };
 

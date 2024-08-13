@@ -39,10 +39,10 @@ export const useAuth = () => {
       cleanCookies();
       setBusy(false);
       navigateToLogin();
-      toast.success("Su sesión ha sido cerrada en el Sistema de cuentas");
+      toast.success("Su sesión ha sido cerrada en el Portal de cuentas");
     } catch (error) {
       setBusy(false);
-      toast.error(error.message);
+      toast.error(getErrorTransaction(error.status));
     } finally {
       setBusy(false);
     }
@@ -70,7 +70,7 @@ export const useAuth = () => {
       setBusy(false);
     } catch (error) {
       setBusy(false);
-      toast.error(getErrorTransaction(error.message));
+      toast.error(getErrorTransaction(error.status));
     } finally {
       setBusy(false);
     }
@@ -84,14 +84,14 @@ export const useAuth = () => {
         Cookies.set(AUTH_ID, response.data[0].id);
         setBusy(false);
         navigateToHome();
-        toast.success("Bienvenido al Sistema de Cuentas");
+        toast.success("Bienvenido al Portal de Cuentas");
       } else {
         setBusy(false);
         cleanCookies();
       }
     } catch (error) {
       setBusy(false);
-      toast.error(error.message);
+      toast.error(getErrorTransaction(error.status));
       cleanCookies();
     } finally {
       setBusy(false);
@@ -103,11 +103,11 @@ export const useAuth = () => {
     try {
       await axios.post(`${BASE_URL}/${API_URLS_USER_CREATE}`, user);
       navigateToRegisterComplete();
-      toast.success("Used Ha Sido Registrado en el Sistema de cuentas");
+      toast.success("Used Ha Sido Registrado en el Portal de cuentas");
       setBusy(false);
     } catch (error) {
       setBusy(false);
-      toast.error(error.message);
+      toast.error(getErrorTransaction(error.status));
     } finally {
       setBusy(false);
     }

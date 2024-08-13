@@ -2,9 +2,13 @@
 import { Navigate, Outlet } from "react-router-dom";
 import { URL_LOGIN } from "../lib/constant";
 import { useAuth } from "../hooks/useAuth";
-import {NavbarUserLoggued} from "@/component/navbar";
+
 import { useNavigateLogin } from "@/hooks/useNavigateLogin";
 import React from "react";
+import { NavbarUserLoggued } from "@/component/navbar";
+
+
+
 
 
 export default function ProtectedRoute({ redirectTo = URL_LOGIN, children }) {

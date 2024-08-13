@@ -1,12 +1,6 @@
 import Cookies from "js-cookie";
 import { apiFetcher } from "./apiFetcher";
-import {
-  AUTH_ID,
-  AUTH_TOKEN,
-  AUTH_USERNAME,
-  MESSAGE_ERROR_ADMIN,
-  MESSAGE_ERROR_FORMAT,
-} from "./constant";
+import { AUTH_ID, AUTH_TOKEN, AUTH_USERNAME } from "./constant";
 
 export const userRegisterd = async () => {
   try {
@@ -45,8 +39,22 @@ export const getError = (error) => {
   }
 };
 
-export const getErrorTransaction = (error) => {
-  return `${MESSAGE_ERROR_FORMAT} ${error}. ${MESSAGE_ERROR_ADMIN}`;
+export const getErrorTransaction = (status) => {
+  switch (status) {
+    case 401:
+      return "Credenciales Inválidas";
+
+    case 400:
+      return "Ha ocurrido un error con la red. Intente de nuevo";
+    case 404:
+      return "Ha ocurrido un error con la red. Intente de nuevo";
+    case 500:
+      return "Ha ocurrido un error con la red. Intente de nuevo";
+    case 503:
+      return "Ha ocurrido un error con la red. Intente de nuevo";
+    default:
+      return "Ha ocurrido un error. Contacte con la administración";
+  }
 };
 
 export const checkIfJSONisEmpty = (obj) => {

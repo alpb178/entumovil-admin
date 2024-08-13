@@ -9,7 +9,10 @@ import { PhoneInputField } from "@/component/field/PhoneField";
 import { LogoEntuMovil } from "@/component/logo/logo";
 import { checkIfJSONisEmpty, getErrorTransaction } from "@/lib/utils";
 import { AuthBottomBar } from "@/component/bottombar/bottombar";
-import React from "react";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import { URL_TERM_CONDITIONS } from "@/lib/constant";
+import { Input } from "@material-tailwind/react";
 
 export function RegisterForm() {
   const initialValues = {
@@ -22,6 +25,11 @@ export function RegisterForm() {
 
   const { register, isBusy } = useAuth();
 
+  const [checked, setChecked] = useState(false);
+  const handleChange = async () => {
+    setChecked(!checked);
+  };
+
   const handleSubmit = (values) => {
     try {
       register({
@@ -32,7 +40,7 @@ export function RegisterForm() {
         password: values.password,
       });
     } catch (error) {
-      toast.error(getErrorTransaction(error.toString()));
+      toast.error(getErrorTransaction(error.status));
     }
   };
   return (
@@ -87,10 +95,34 @@ export function RegisterForm() {
                 error={errors.repeatPassword}
                 placeholder="Insertar confirmación de la contraseña"
               />
+
+              <div className=" flex flex-row justify-center">
+                <div>
+                  <Input
+                    type="checkbox"
+                    checked={checked}
+                    className="h-4 w-4 rounded border-gray-300 bg-gray-100"
+                    onChange={(e) => {
+                      e.stopPropagation();
+                      handleChange();
+                    }}
+                  />
+                </div>
+
+                <div  className="mr-8">
+                  <Link
+                    to={URL_TERM_CONDITIONS}
+                    className="hover:text-primary-dark ml-2 font-medium text-gray-700 duration-200 ease-in-out hover:text-primary-500"
+                    prefetch={false}
+                  >
+                    Aceptar términos y condiciones
+                  </Link>
+                </div>
+              </div>
               <div className="-mt-6 flex justify-center">
                 <ButtonSubmit
                   type="submit"
-                  disabled={!checkIfJSONisEmpty(errors)}
+                  disabled={!checkIfJSONisEmpty(errors) || !checked}
                   name={isBusy ? "Cargando" : "Registrar"}
                 />
               </div>

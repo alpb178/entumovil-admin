@@ -13,7 +13,7 @@ export function LogoEntuMovil({ isLogin }) {
       />
 
       <HeaderPage
-        name={isLogin ? "Bienvenido el Sistema cuentas" : "Sistema de cuentas"}
+        name={isLogin ? "Bienvenido el Portal cuentas" : "Portal de cuentas"}
       />
     </div>
   );

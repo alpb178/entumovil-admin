@@ -13,12 +13,14 @@ import {
   URL_PROFILE_USER,
   URL_REGISTER,
   URL_REGISTER_COMPLETE,
+  URL_TERM_CONDITIONS,
 } from "./lib/constant";
 import ForgotPasswordPage from "./pages/auth/ForgotPassword";
 import ProtectedRoute from "./route/ProtectedRoute";
 import ProfilePage from "./pages/profile/Profile";
 import ProfileEditAdminPage from "./pages/profile/ProfileEditAdmin";
 import RegisterCompletePage from "./pages/auth/RegisterComplete";
+import { TermConditions } from "./container/auth/term-conditions";
 
 function App() {
   return (
@@ -27,6 +29,7 @@ function App() {
       <Route path={URL_REGISTER} element={<RegisterPage />} />
       <Route path={URL_REGISTER_COMPLETE} element={<RegisterCompletePage />} />
       <Route path={URL_FORGOT_PASSWORD} element={<ForgotPasswordPage />} />
+      <Route path={URL_TERM_CONDITIONS} element={<TermConditions />} />
 
       <Route
         path={URL_PROFILE_ADMIN}

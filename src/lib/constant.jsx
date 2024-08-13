@@ -12,6 +12,7 @@ export const URL_REGISTER_COMPLETE = `/register-complete`;
 export const URL_PROFILE_ADMIN = "/profile/admin";
 export const URL_PROFILE_USER = "/profile/user";
 export const URL_PROFILE_EDIT_ADMIN = "/profile/edit/:id";
+export const URL_TERM_CONDITIONS = "/term-conditions";
 
 ///
 export const API_URL = "api";
@@ -44,7 +45,7 @@ export const MESSAGE_REQUIRED = "Campo requerido";
 
 export const MESSAGE_INVALID_FORMAT = "Formato incorrecto";
 export const MESSAGE_INVALID_PASSWORD =
-  "Debe contener al menos 8 carácteres: una mayúscula, una minúscula, un número y un carácter de caso especial";
+  "Debe contener al menos 6 carácteres: una mayúscula, una minúscula, un número y un carácter de caso especial";
 export const MESSAGE_SUCCES_PASSWORD_FORMAT = "Password editado con éxito";
 export const MESSAGE_SUCCES_USER_FORMAT = "Usuario editado con éxito";
 export const MESSAGE_ERROR_FORMAT = "Ha ocurrido un error:";
@@ -52,7 +53,7 @@ export const MESSAGE_ERROR_ADMIN =
   "En caso de duda contacte con el administrador";
 
 export const MESSAGE_INVALID_PASSWORD_CHARACTER =
-  "Formato incorrecto: requiere 8 carácteres";
+  "Formato incorrecto: requiere 6 carácteres";
 
 export const MESSAGE_INVALID_FIRSTNAME_CHARACTER =
   "Formato incorrecto: requiere entre 2 y 20 carácteres";

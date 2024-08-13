@@ -13,6 +13,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { URL_TERM_CONDITIONS } from "@/lib/constant";
 import { Input } from "@material-tailwind/react";
+import { Captcha } from "@/component/captcha";
 
 export function RegisterForm() {
   const initialValues = {
@@ -28,6 +29,13 @@ export function RegisterForm() {
   const [checked, setChecked] = useState(false);
   const handleChange = async () => {
     setChecked(!checked);
+  };
+
+  const [captchaVerified, setCaptchaVerified] = useState(false);
+
+  const handleCaptchaVerify = (isVerified) => {
+    console.log(captchaVerified);
+    setCaptchaVerified(isVerified);
   };
 
   const handleSubmit = (values) => {
@@ -109,7 +117,7 @@ export function RegisterForm() {
                   />
                 </div>
 
-                <div  className="mr-8">
+                <div className="mr-8">
                   <Link
                     to={URL_TERM_CONDITIONS}
                     className="hover:text-primary-dark ml-2 font-medium text-gray-700 duration-200 ease-in-out hover:text-primary-500"
@@ -118,6 +126,10 @@ export function RegisterForm() {
                     Aceptar términos y condiciones
                   </Link>
                 </div>
+              </div>
+
+              <div className=" flex flex-row justify-center">
+                <Captcha onVerify={handleCaptchaVerify} />
               </div>
               <div className="-mt-6 flex justify-center">
                 <ButtonSubmit

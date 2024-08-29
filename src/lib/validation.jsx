@@ -11,7 +11,8 @@ import {
 export const ValidationSchemaPassoword = Yup.object().shape({
   password: Yup.string()
     .required(MESSAGE_REQUIRED)
-    .min(6, MESSAGE_INVALID_PASSWORD_CHARACTER)
+    .min(8, MESSAGE_INVALID_PASSWORD_CHARACTER)
+    .max(128, MESSAGE_INVALID_PASSWORD_CHARACTER)
     .matches(/[a-z]/, MESSAGE_SAME_PASSWORD_DOWCASE)
     .matches(/[A-Z]/, MESSAGE_SAME_PASSWORD_UPCASE)
     .matches(/[^\w]/, MESSAGE_SAME_PASSWORD_SYMBOL),

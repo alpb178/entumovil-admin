@@ -109,7 +109,7 @@ export function RegisterForm() {
                   <Input
                     type="checkbox"
                     checked={checked}
-                    className="h-4 w-4 rounded border-gray-300 bg-gray-100"
+                    className="h-6 w-10 rounded border-gray-300 bg-gray-100"
                     onChange={(e) => {
                       e.stopPropagation();
                       handleChange();

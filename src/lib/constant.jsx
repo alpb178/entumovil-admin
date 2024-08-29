@@ -53,7 +53,7 @@ export const MESSAGE_ERROR_ADMIN =
   "En caso de duda contacte con el administrador";
 
 export const MESSAGE_INVALID_PASSWORD_CHARACTER =
-  "Formato incorrecto: requiere 6 carácteres";
+  "Formato incorrecto: requiere 8 carácteres";
 
 export const MESSAGE_INVALID_FIRSTNAME_CHARACTER =
   "Formato incorrecto: requiere entre 2 y 20 carácteres";

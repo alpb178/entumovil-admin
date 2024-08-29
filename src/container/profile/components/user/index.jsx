@@ -49,7 +49,7 @@ export function ProfileUser() {
       navigateToHome();
       setLoading(false);
     } catch (error) {
-      toast.error(getErrorTransaction(error.status));
+      toast.error(getErrorTransaction(error?.response?.status));
       setLoading(false);
     } finally {
       setLoading(false);

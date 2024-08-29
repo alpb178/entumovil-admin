@@ -48,7 +48,7 @@ export function RegisterForm() {
         password: values.password,
       });
     } catch (error) {
-      toast.error(getErrorTransaction(error.status));
+      toast.error(getErrorTransaction(error?.response?.status));
     }
   };
   return (

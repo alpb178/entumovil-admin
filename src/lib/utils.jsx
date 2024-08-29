@@ -45,22 +45,20 @@ export const getErrorTransaction = (status) => {
       return "Email no verificado";
     case 401:
       return "Credenciales Inválidas";
-    case 400:
-      return "Ha ocurrido un error con la red. Intente de nuevo";
-    case 404:
-      return "Ha ocurrido un error con la red. Intente de nuevo";
     case 406:
       return "Dirección de correo no válida";
     case 409:
-      return "Usuario existente";
+      return "Usuario registrado";
+    case 412:
+      return "Número de telefóno registrado";
     case 423:
       return "Usuario deshabilitado";
+    case 400:
+    case 404:
     case 500:
-      return "Ha ocurrido un error con la red. Intente de nuevo";
     case 502:
-      return "Error de Servidor";
     case 503:
-      return "Servidor de autenticación";
+      return "Ha ocurrido un error con la red. Intente de nuevo";
     default:
       return "Ha ocurrido un error. Contacte con la administración";
   }

@@ -2,6 +2,8 @@ import axios from "axios";
 import { useNavigateRoute } from "./useNavigateRoute";
 import { toast } from "react-toastify";
 import {
+  API_RESET_PASSWORD,
+  API_URLS_USERS_LIST,
   API_URLS_USER_CREATE,
   API_URL_LOGIN,
   API_URL_LOGOUT,
@@ -42,7 +44,7 @@ export const useAuth = () => {
       toast.success("Su sesión ha sido cerrada en el Portal de cuentas");
     } catch (error) {
       setBusy(false);
-      toast.error(getErrorTransaction(error.status));
+      toast.error(getErrorTransaction(error?.response?.status));
     } finally {
       setBusy(false);
     }
@@ -70,7 +72,7 @@ export const useAuth = () => {
       setBusy(false);
     } catch (error) {
       setBusy(false);
-      toast.error(getErrorTransaction(error.status));
+      toast.error(getErrorTransaction(error?.response?.status));
     } finally {
       setBusy(false);
     }
@@ -79,7 +81,7 @@ export const useAuth = () => {
   const userLogged = async (username) => {
     setBusy(true);
     try {
-      const response = await apiFetcher(`api/user/search/${username}`);
+      const response = await apiFetcher(`${API_URLS_USERS_LIST}/${username}`);
       if (response.status == 200) {
         Cookies.set(AUTH_ID, response.data[0].id);
         setBusy(false);
@@ -91,7 +93,7 @@ export const useAuth = () => {
       }
     } catch (error) {
       setBusy(false);
-      toast.error(getErrorTransaction(error.status));
+      toast.error(getErrorTransaction(error?.response?.status));
       cleanCookies();
     } finally {
       setBusy(false);
@@ -107,7 +109,25 @@ export const useAuth = () => {
       setBusy(false);
     } catch (error) {
       setBusy(false);
-      toast.error(getErrorTransaction(error.status));
+      toast.error(getErrorTransaction(error?.response?.status));
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  const resetPassword = async (username) => {
+    setBusy(true);
+    try {
+      await axios.post(`${BASE_URL}/${API_RESET_PASSWORD}/${username}`);
+
+      toast.success(
+        "Hemos enviado un correo con los pasos a seguir para cambiar su contraseña"
+      );
+      navigateToLogin();
+    } catch (error) {
+      setBusy(false);
+      toast.error(getErrorTransaction(error?.response?.status));
+      cleanCookies();
     } finally {
       setBusy(false);
     }
@@ -123,5 +143,6 @@ export const useAuth = () => {
     getUsername,
     cleanCookies,
     isBusy,
+    resetPassword,
   };
 };

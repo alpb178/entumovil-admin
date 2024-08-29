@@ -3,23 +3,18 @@ import { InputField } from "@/component/field/InputField";
 import { URL_LOGIN } from "@/lib/constant";
 import { Form, Formik } from "formik";
 import { ValidationSchema } from "./validation";
-import { useNavigateRoute } from "@/hooks/useNavigateRoute";
-import { toast } from "react-toastify";
 import React from "react";
-
+import { useAuth } from "@/hooks/useAuth";
 
 export function ForgotPassword() {
   const initialValues = {
     email: "",
   };
 
-  const { navigateToLogin } = useNavigateRoute();
+  const { resetPassword, isBusy } = useAuth();
 
-  const handleSubmit = () => {
-    navigateToLogin();
-    toast.success(
-      "Hemos Enviado un Correo con los pasos a seguir para cambiar su contraseña"
-    );
+  const handleSubmit = (values) => {
+    resetPassword(values.email);
   };
   return (
     <div className=" flex flex-col items-center justify-center space-y-5">
@@ -28,9 +23,9 @@ export function ForgotPassword() {
         validationSchema={ValidationSchema}
         onSubmit={handleSubmit}
       >
-        {({ errors, isSubmitting }) => (
-          <Form className="mt-10 flex flex-col items-center justify-center space-y-10 m-5">
-            <div className="space-y-6 space-x-16 ">
+        {({ errors }) => (
+          <Form className="m-5 mt-10 flex flex-col items-center justify-center space-y-10">
+            <div className="space-x-16 space-y-6 ">
               <InputField
                 type="text"
                 name="email"
@@ -43,8 +38,7 @@ export function ForgotPassword() {
             <div className="flex justify-center pt-4">
               <ButtonSubmit
                 type="submit"
-                disabled={isSubmitting}
-                name="Recuperar contraseña"
+                name={isBusy ? "Cargando" : "Recuperar contraseña"}
               />
               <ButtonCancelLink name="Cancelar" url={URL_LOGIN} />
             </div>

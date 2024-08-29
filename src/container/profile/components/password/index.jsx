@@ -29,7 +29,7 @@ export function PasswordUser({ id, onClose }) {
       toast.success(MESSAGE_SUCCES_PASSWORD_FORMAT);
       onClose();
     } catch (error) {
-      toast.error(getErrorTransaction(error.status));
+      toast.error(getErrorTransaction(error?.response?.status));
     }
   };
 

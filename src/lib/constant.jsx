@@ -29,6 +29,9 @@ export const API_URLS_USER_CREATE = `${API_URLS_USERS}/create`;
 export const API_URLS_USER_UPDATE = `${API_URLS_USERS}/update`;
 export const API_URLS_USER_CHANGE_PASS = `${API_URLS_USERS}/changePass`;
 
+//Reset pass
+export const API_RESET_PASSWORD = `${API_URLS_USERS}/resetPasswordEmail`;
+
 // Roles
 export const API_URLS_ROLES_LIST = `${API_URLS_USERS_LIST}/roles`;
 export const API_URLS_ROLES_DELETE = `${API_URLS_USERS}/deleteRoleUser`;

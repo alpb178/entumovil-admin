@@ -25,7 +25,7 @@ export function Login() {
     try {
       login(values);
     } catch (error) {
-      toast.error(getErrorTransaction(error.status));
+      toast.error(getErrorTransaction(error?.response?.status));
     }
   };
 

@@ -1,18 +1,9 @@
 /* eslint-disable react/prop-types */
 import React, { useEffect, useState } from "react";
 
-import ReCAPTCHA from "react-google-recaptcha";
+import { ButtonSubmit } from "../button";
 
-export function Captcha({ onChangeCaptcha }) {
-  const handleCaptchaChange = (value) => {
-    if (value) {
-      onChangeCaptcha?.();
-    }
-  };
-  return <ReCAPTCHA sitekey="YOUR_SITE_KEY" onChange={handleCaptchaChange} />;
-}
-
-export const CaptchaV2 = ({ onVerify }) => {
+export const Captcha = ({ onVerify, disabled }) => {
   const [captchaText, setCaptchaText] = useState("");
   const [inputValue, setInputValue] = useState("");
 
@@ -34,13 +25,10 @@ export const CaptchaV2 = ({ onVerify }) => {
     setInputValue(e.target.value);
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handeVerified = () => {
     if (inputValue === captchaText) {
-      alert("CAPTCHA verified!");
       onVerify(true);
     } else {
-      alert("Incorrect CAPTCHA. Please try again.");
       onVerify(false);
       generateCaptcha();
       setInputValue("");
@@ -49,7 +37,7 @@ export const CaptchaV2 = ({ onVerify }) => {
 
   return (
     <div>
-      <p>Enter the text you see in the box below:</p>
+      <p>Inserte el código en el campo:</p>
       <div
         style={{
           background: "#f0f0f0",
@@ -63,17 +51,21 @@ export const CaptchaV2 = ({ onVerify }) => {
       >
         {captchaText}
       </div>
-      <form onSubmit={handleSubmit}>
+      <div className="flex flex-row">
         <input
+          className="text-field filled border-transparent"
           type="text"
           value={inputValue}
           onChange={handleChange}
           required
         />
-        <button type="submit">Verify</button>
-      </form>
+        <ButtonSubmit
+          type="button"
+          onClick={handeVerified}
+          disabled={disabled}
+          name="verificar"
+        />
+      </div>
     </div>
   );
 };
-
-export default Captcha;

@@ -15,6 +15,7 @@ import { URL_TERM_CONDITIONS } from "@/lib/constant";
 import { Input } from "@material-tailwind/react";
 import { Captcha } from "@/component/captcha";
 
+
 export function RegisterForm() {
   const initialValues = {
     email: "",
@@ -34,7 +35,6 @@ export function RegisterForm() {
   const [captchaVerified, setCaptchaVerified] = useState(false);
 
   const handleCaptchaVerify = (isVerified) => {
-    console.log(captchaVerified);
     setCaptchaVerified(isVerified);
   };
 
@@ -104,12 +104,12 @@ export function RegisterForm() {
                 placeholder="Insertar confirmación de la contraseña"
               />
 
-              <div className=" flex flex-row justify-center">
-                <div>
+              <div className="flex">
+                <div className="w-5">
                   <Input
                     type="checkbox"
                     checked={checked}
-                    className="h-6 w-10 rounded border-gray-300 bg-gray-100"
+                    className="h-4 w-4 rounded border-gray-300 bg-gray-100"
                     onChange={(e) => {
                       e.stopPropagation();
                       handleChange();
@@ -117,24 +117,26 @@ export function RegisterForm() {
                   />
                 </div>
 
-                <div className="mr-8">
-                  <Link
-                    to={URL_TERM_CONDITIONS}
-                    className="hover:text-primary-dark ml-2 font-medium text-gray-700 duration-200 ease-in-out hover:text-primary-500"
-                    prefetch={false}
-                  >
-                    Aceptar términos y condiciones
-                  </Link>
-                </div>
+                <Link
+                  to={URL_TERM_CONDITIONS}
+                  className="hover:text-primary-dark font-medium text-gray-700 duration-200 ease-in-out hover:text-primary-500"
+                >
+                  Aceptar términos y condiciones
+                </Link>
               </div>
 
               <div className=" flex flex-row justify-center">
-                <Captcha onVerify={handleCaptchaVerify} />
+                <Captcha
+                  onVerify={handleCaptchaVerify}
+                  disabled={!checkIfJSONisEmpty(errors) || !checked}
+                />
               </div>
               <div className="-mt-6 flex justify-center">
                 <ButtonSubmit
                   type="submit"
-                  disabled={!checkIfJSONisEmpty(errors) || !checked}
+                  disabled={
+                    !checkIfJSONisEmpty(errors) || !checked || !captchaVerified
+                  }
                   name={isBusy ? "Cargando" : "Registrar"}
                 />
               </div>

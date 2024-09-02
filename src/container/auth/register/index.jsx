@@ -109,7 +109,7 @@ export function RegisterForm() {
                   <Input
                     type="checkbox"
                     checked={checked}
-                    className="h-4 w-4 rounded border-gray-300 bg-gray-100"
+                    className="h-6 w-6 rounded border-gray-300 bg-gray-100"
                     onChange={(e) => {
                       e.stopPropagation();
                       handleChange();
@@ -119,7 +119,7 @@ export function RegisterForm() {
 
                 <Link
                   to={URL_TERM_CONDITIONS}
-                  className="hover:text-primary-dark font-medium text-gray-700 duration-200 ease-in-out hover:text-primary-500"
+                  className="hover:text-primary-dark font-medium ml-2 text-gray-700 duration-200 ease-in-out hover:text-primary-500"
                 >
                   Aceptar términos y condiciones
                 </Link>

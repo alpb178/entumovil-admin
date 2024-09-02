@@ -21,7 +21,7 @@ export const ValidationSchema = Yup.object().shape({
   firstName: Yup.string()
     .required(MESSAGE_REQUIRED)
     .min(2, MESSAGE_INVALID_FIRSTNAME_CHARACTER)
-    .max(40, MESSAGE_INVALID_FIRSTNAME_CHARACTER),
+    .max(20, MESSAGE_INVALID_FIRSTNAME_CHARACTER),
   lastName: Yup.string()
     .required(MESSAGE_REQUIRED)
     .min(2, MESSAGE_INVALID_LASTNAME_CHARACTER)

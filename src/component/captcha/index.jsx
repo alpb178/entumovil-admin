@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 
 import { ButtonSubmit } from "../button";
+import { toast } from "react-toastify";
 
 export const Captcha = ({ onVerify, disabled }) => {
   const [captchaText, setCaptchaText] = useState("");
@@ -28,10 +29,12 @@ export const Captcha = ({ onVerify, disabled }) => {
   const handeVerified = () => {
     if (inputValue === captchaText) {
       onVerify(true);
+      toast.error("Código correcto");
     } else {
       onVerify(false);
       generateCaptcha();
       setInputValue("");
+      toast.error("Código incorrecto. Por favor intente de nuevo");
     }
   };
 
@@ -40,11 +43,10 @@ export const Captcha = ({ onVerify, disabled }) => {
       <p>Inserte el código en el campo:</p>
       <div
         style={{
-          background: "#f0f0f0",
-          padding: "10px",
           fontSize: "24px",
           fontFamily: "monospace",
           letterSpacing: "2px",
+          marginTop: "10px",
           marginBottom: "10px",
           textAlign: "center",
         }}
@@ -53,7 +55,7 @@ export const Captcha = ({ onVerify, disabled }) => {
       </div>
       <div className="flex flex-row">
         <input
-          className="text-field filled border-transparent"
+          className="text-field filled mt-3 h-11 border-transparent"
           type="text"
           value={inputValue}
           onChange={handleChange}

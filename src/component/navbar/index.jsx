@@ -53,7 +53,7 @@ export function NavbarUserLoggued() {
                   <div className="flex flex-shrink-0 items-center">
                     <img
                       className="h-8 w-auto"
-                      src="/images/autenticar_usuario/u2.png"
+                      src="/public/img/favicon-32x32.png"
                       alt="Your Company"
                     />
                   </div>

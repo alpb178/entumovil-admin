@@ -63,5 +63,9 @@
   },
   "publishConfig": {
     "registry": "http://nexus.hab.desoft.cu/repository/cuentas-frontend/"
-  }
+  },
+  "description": "Proyecto cuentas",
+  "repository": "git@github.com:alpb178/proyecto-etumovil-front.git",
+  "author": "alpb17.08@gmail.com",
+  "license": "MIT"
 }

@@ -2,7 +2,8 @@
 import { Input } from "@material-tailwind/react";
 import React, { useState } from "react";
 
-export const CheckBox = ({ enabled, id, onAFtterCheck }) => {
+export const CheckBox = (props) => {
+  const { enabled, id, onAFtterCheck } = props;
   const [checked, setChecked] = useState(enabled);
   const handleChange = async () => {
     setChecked(!checked);

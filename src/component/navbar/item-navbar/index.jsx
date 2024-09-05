@@ -6,7 +6,8 @@ import MenuItem from "@mui/material/MenuItem";
 import { URL_HOME, URL_PROFILE_ADMIN } from "@/lib/constant";
 import { useNavigate } from "react-router-dom";
 
-export function MenuItemNavbar({ letter, isAdmin, openModalLogout }) {
+export function MenuItemNavbar(props) {
+  const { letter, isAdmin, openModalLogout } = props;
   const navigate = useNavigate();
   const [anchorEl, setAnchorEl] = useState(null);
 
@@ -30,7 +31,11 @@ export function MenuItemNavbar({ letter, isAdmin, openModalLogout }) {
 
   return (
     <Fragment>
-      <Avatar sx={{ width: 32, height: 32 }} className="cursor-pointer" onClick={handleClick}>
+      <Avatar
+        sx={{ width: 32, height: 32 }}
+        className="cursor-pointer"
+        onClick={handleClick}
+      >
         {letter}
       </Avatar>
 

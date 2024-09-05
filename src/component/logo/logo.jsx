@@ -2,7 +2,8 @@
 import { HeaderPage } from "../header";
 import React from "react";
 
-export function LogoEntuMovil({ isLogin }) {
+export function LogoEntuMovil(props) {
+  const { isLogin } = props;
   return (
     <div className="mt-10 flex flex-col items-center justify-center space-y-5">
       <HeaderPage

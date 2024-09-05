@@ -4,7 +4,8 @@ import React, { useEffect, useState } from "react";
 import { ButtonSubmit } from "../button";
 import { toast } from "react-toastify";
 
-export const Captcha = ({ onVerify, disabled }) => {
+export const Captcha = (props) => {
+  const { onVerify, disabled } = props;
   const [captchaText, setCaptchaText] = useState("");
   const [inputValue, setInputValue] = useState("");
 

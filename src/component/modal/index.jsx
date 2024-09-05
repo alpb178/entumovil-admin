@@ -1,17 +1,11 @@
 /* eslint-disable react/prop-types */
 import { Dialog, Transition } from "@headlessui/react";
-import React, { Fragment} from "react";
+import React, { Fragment } from "react";
 import { ButtonCancel, ButtonSubmit } from "../button";
 import { LogoEntuMovil } from "../logo/logo";
 
-export const Modal = ({
-  children,
-  open,
-  onOpen,
-
-  onSubmit,
-  hideButton,
-}) => {
+export const Modal = (props) => {
+  const { children, open, onOpen, onSubmit, hideButton } = props;
   return (
     <Transition appear show={open} as={Fragment}>
       <Dialog as="div" className="relative z-10" onClose={() => onOpen(false)}>

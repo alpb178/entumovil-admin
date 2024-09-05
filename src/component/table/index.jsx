@@ -8,20 +8,21 @@ import {
 import React, { useEffect } from "react";
 import { usePagination, useSortBy, useTable } from "react-table";
 
-export const DataTable = ({
-  actions,
-  columns,
-  count,
-  data,
-  onRowClick,
-  hiddenColumns,
-  name,
-  onFilter,
-  pageSize,
-  setPage,
-  setSortBy,
-  center,
-}) => {
+export const DataTable = (props) => {
+  const {
+    actions,
+    columns,
+    count,
+    data,
+    onRowClick,
+    hiddenColumns,
+    name,
+    onFilter,
+    pageSize,
+    setPage,
+    setSortBy,
+    center,
+  } = props;
   const tableInstance = useTable(
     {
       columns,

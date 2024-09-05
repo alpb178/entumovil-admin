@@ -1,8 +1,7 @@
 /* eslint-disable react/prop-types */
 import { EyeIcon, EyeSlashIcon } from "@heroicons/react/24/outline";
 import { Field } from "formik";
-import { useState } from "react";
-import React from "react";
+import React, { useState } from "react";
 
 export const PasswordField = (props) => {
   const { name, error, placeholder, label } = props;
@@ -42,7 +41,9 @@ export const PasswordField = (props) => {
         </button>
       </div>
 
-      {error ? <p className="mt-1 text-red-600 text-sm">{error.toString()}</p> : null}
+      {error ? (
+        <p className="mt-1 text-sm text-red-600">{error.toString()}</p>
+      ) : null}
     </div>
   );
 };

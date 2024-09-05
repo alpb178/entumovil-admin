@@ -1,13 +1,11 @@
-/* eslint-disable react/jsx-key */
-import React from "react";
+/* eslint-disable react/prop-types */
+
 import {
   BarsArrowDownIcon,
   BarsArrowUpIcon,
 } from "@heroicons/react/24/outline";
-import clsx from "clsx";
 
-import PropTypes from "prop-types";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import { usePagination, useSortBy, useTable } from "react-table";
 
 export const DataTable = ({
@@ -19,7 +17,6 @@ export const DataTable = ({
   hiddenColumns,
   name,
   onFilter,
-
   pageSize,
   setPage,
   setSortBy,
@@ -67,10 +64,9 @@ export const DataTable = ({
       {name || actions ? (
         <div className="flex flex-col">
           <div
-            className={clsx(
-              "mb-8 flex w-full items-center p-6 pb-0 text-gray-700",
+            className={`mb-8 flex w-full items-center p-6 pb-0 text-gray-700 ${
               name ? "justify-between" : "justify-end"
-            )}
+            }`}
           >
             {name ? <h3 className="header-title">{name}</h3> : null}
             <div className="w-ful flex justify-end">{actions}</div>
@@ -81,10 +77,11 @@ export const DataTable = ({
 
       <table {...getTableProps()} className="w-5 border">
         <thead className="border-b">
-          {headerGroups.map((headerGroup) => (
-            <tr {...headerGroup.getHeaderGroupProps()}>
-              {headerGroup.headers.map((column) => (
+          {headerGroups.map((headerGroup, index) => (
+            <tr key={index} {...headerGroup.getHeaderGroupProps()}>
+              {headerGroup.headers.map((column, index) => (
                 <th
+                  key={index}
                   {...column.getHeaderProps([
                     {
                       className: column.className,
@@ -117,10 +114,11 @@ export const DataTable = ({
           ))}
         </thead>
         <tbody {...getTableBodyProps()} className="divide-y">
-          {page.map((row) => {
+          {page.map((row, index) => {
             prepareRow(row);
             return (
               <tr
+                key={index}
                 {...row.getRowProps({
                   onClick: () => onRowClick(row),
                 })}
@@ -128,8 +126,9 @@ export const DataTable = ({
                   onRowClick ? "cursor-pointer hover:bg-gray-50" : ""
                 }`}
               >
-                {row.cells.map((cell) => (
+                {row.cells.map((cell, index) => (
                   <td
+                    key={index}
                     {...cell.getCellProps()}
                     className="whitespace-nowrap px-6 py-4 text-sm text-gray-800 xl:text-base"
                   >
@@ -152,20 +151,4 @@ DataTable.defaultProps = {
   onPageSizeChange: () => null,
   onRowClick: () => null,
   setSortBy: () => null,
-};
-
-DataTable.propTypes = {
-  actions: PropTypes.node,
-  columns: PropTypes.array.isRequired,
-  count: PropTypes.number.isRequired,
-  data: PropTypes.array,
-  hiddenColumns: PropTypes.array,
-  name: PropTypes.string,
-  onFilter: PropTypes.node,
-  onPageSizeChange: PropTypes.func,
-  onRowClick: PropTypes.func,
-  pageSize: PropTypes.number,
-  setPage: PropTypes.func,
-  setSortBy: PropTypes.func,
-  center: PropTypes.any,
 };

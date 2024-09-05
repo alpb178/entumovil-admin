@@ -7,10 +7,6 @@ import { useNavigateLogin } from "@/hooks/useNavigateLogin";
 import React from "react";
 import { NavbarUserLoggued } from "@/component/navbar";
 
-
-
-
-
 export default function ProtectedRoute({ redirectTo = URL_LOGIN, children }) {
   const { isAuthenticated } = useAuth();
   useNavigateLogin();

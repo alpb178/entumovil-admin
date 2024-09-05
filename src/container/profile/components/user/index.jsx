@@ -6,13 +6,12 @@ import { useNavigateRoute } from "@/hooks/useNavigateRoute";
 import { toast } from "react-toastify";
 import { saveUsers, useFindUsers } from "@/hooks/useUsers";
 import { PhoneInputField } from "@/component/field/PhoneField";
-import { useState } from "react";
+import React, { useState } from "react";
 import { PUT } from "@/lib/constant";
 import { Loader } from "@/component/loader";
 import { useAuth } from "@/hooks/useAuth";
 import { checkIfJSONisEmpty, getErrorTransaction } from "@/lib/utils";
 import { ValidationSchema } from "./validation";
-import React from "react";
 
 export function ProfileUser() {
   const { navigateToHome } = useNavigateRoute();

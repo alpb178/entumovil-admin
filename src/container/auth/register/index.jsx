@@ -124,7 +124,7 @@ export function RegisterForm() {
                   />
                 </div>
                 <a
-                  className="ml-2 text-primary-600 hover:text-primary-800"
+                  className="ml-2 text-primary-600 hover:text-primary-800 cursor-pointer"
                   onClick={openModal}
                 >
                   Aceptar términos y condiciones

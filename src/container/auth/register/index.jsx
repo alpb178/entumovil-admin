@@ -10,11 +10,9 @@ import { LogoEntuMovil } from "@/component/logo/logo";
 import { checkIfJSONisEmpty, getErrorTransaction } from "@/lib/utils";
 import { AuthBottomBar } from "@/component/bottombar/bottombar";
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import { URL_TERM_CONDITIONS } from "@/lib/constant";
 import { Input } from "@material-tailwind/react";
 import { Captcha } from "@/component/captcha";
-
+import { ModalConfirmation } from "@/component/modal-confirmation/modal-confirmation";
 
 export function RegisterForm() {
   const initialValues = {
@@ -26,6 +24,15 @@ export function RegisterForm() {
   };
 
   const { register, isBusy } = useAuth();
+  const [open, setOpen] = useState(false);
+
+  const openModal = () => {
+    setOpen(true);
+  };
+
+  const closeShowModal = () => {
+    setOpen(false);
+  };
 
   const [checked, setChecked] = useState(false);
   const handleChange = async () => {
@@ -116,13 +123,12 @@ export function RegisterForm() {
                     }}
                   />
                 </div>
-
-                <Link
-                  to={URL_TERM_CONDITIONS}
-                  className="hover:text-primary-dark font-medium ml-2 text-gray-700 duration-200 ease-in-out hover:text-primary-500"
+                <a
+                  className="ml-2 text-primary-600 hover:text-primary-800"
+                  onClick={openModal}
                 >
                   Aceptar términos y condiciones
-                </Link>
+                </a>
               </div>
 
               <div className=" flex flex-row justify-center">
@@ -144,6 +150,13 @@ export function RegisterForm() {
           </Form>
         )}
       </Formik>
+      <ModalConfirmation
+        open={open}
+        onOpen={closeShowModal}
+        isInformation={true}
+        nameButtonCancel='Cerrar'
+        message='Términos y condiciones'
+      />
       <AuthBottomBar />
     </div>
   );

@@ -3,12 +3,12 @@ import { useNavigate } from "react-router-dom";
 import { URL_LOGIN } from "@/lib/constant";
 import { useAuth } from "@/hooks/useAuth";
 import { useState } from "react";
-import { ModalLogout } from "../modal-confirmation/modal-logout-confirmation";
 
 import { Disclosure } from "@headlessui/react";
 import { useFindRoles } from "@/hooks/useRoles";
 import { Loader } from "../loader";
 import { MenuItemNavbar } from "./item-navbar";
+import { ModalConfirmation } from "../modal-confirmation/modal-confirmation";
 
 export function NavbarUserLoggued() {
   const navigate = useNavigate();
@@ -70,10 +70,11 @@ export function NavbarUserLoggued() {
               </div>
             </div>
           </>
-          <ModalLogout
+          <ModalConfirmation
             open={open}
             onOpen={closeShowModal}
             onSubmit={handlelogout}
+            message="¿Está seguro que desea cerrar sesión?"
           />
         </Disclosure>
       )}

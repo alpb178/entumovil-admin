@@ -10,12 +10,12 @@ import {
   PUT,
   URL_PROFILE_EDIT_ADMIN,
 } from "@/lib/constant";
-import { ModalDelete } from "@/component/modal-confirmation/modal-delete-confirmation";
 import { CheckBox } from "@/component/checkBox";
 import { useNavigate } from "react-router-dom";
 import { Loader } from "@/component/loader";
 import { getErrorTransaction } from "@/lib/utils";
 import { useAuth } from "@/hooks/useAuth";
+import { ModalConfirmation } from "@/component/modal-confirmation/modal-confirmation";
 
 export function TableAdmin() {
   const { data, isLoading } = useUsers({
@@ -138,10 +138,11 @@ export function TableAdmin() {
   return (
     <div className="align-center m-5 content-center">
       {isLoading ? <Loader /> : <DataTable {...options} />}
-      <ModalDelete
+      <ModalConfirmation
         open={open}
         onOpen={closeShowModal}
         onSubmit={handleDelete}
+        message="¿Está seguro que desea eliminar este usuario?"
       />
     </div>
   );

@@ -5,7 +5,16 @@ import { ButtonCancel, ButtonSubmit } from "../button";
 import { LogoEntuMovil } from "../logo/logo";
 
 export const Modal = (props) => {
-  const { children, open, onOpen, onSubmit, hideButton } = props;
+  const {
+    children,
+    open,
+    onOpen,
+    onSubmit,
+    hideButton,
+    isInformation,
+    nameButtonConfirm,
+    nameButtonCancel,
+  } = props;
   return (
     <Transition appear show={open} as={Fragment}>
       <Dialog as="div" className="relative z-10" onClose={() => onOpen(false)}>
@@ -37,16 +46,18 @@ export const Modal = (props) => {
                 {children}
                 {!hideButton && (
                   <div className=" border-t  text-center">
-                    <ButtonSubmit
-                      onClick={() => onSubmit()}
-                      className="m-4 border-t p-4"
-                      name="Aceptar"
-                    />
+                    {!isInformation && (
+                      <ButtonSubmit
+                        onClick={() => onSubmit()}
+                        className="m-4 border-t p-4"
+                        name={nameButtonConfirm ?? "Aceptar"}
+                      />
+                    )}
 
                     <ButtonCancel
                       onClick={() => onOpen(false)}
                       className="m-4 border-t p-4"
-                      name="Cancelar"
+                      name={nameButtonCancel ?? "Cancelar"}
                     />
                   </div>
                 )}

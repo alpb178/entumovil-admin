@@ -30,7 +30,6 @@ export const Captcha = (props) => {
   const handeVerified = () => {
     if (inputValue === captchaText) {
       onVerify(true);
-      toast.error("Código correcto");
     } else {
       onVerify(false);
       generateCaptcha();

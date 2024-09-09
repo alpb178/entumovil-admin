@@ -10,7 +10,7 @@ export const ButtonSubmit = (props) => {
       onClick={() => onClick?.()}
       disabled={disabled}
       className={`m-3 rounded-md ${
-        disabled ? "bg-gray-200" : "bg-blue-500"
+        disabled ? "bg-gray-400" : "bg-blue-500"
       } p-2  text-lg  text-white`}
     >
       {name}

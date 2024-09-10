@@ -8,6 +8,7 @@ import { PasswordField } from "@/component/field/PassworField";
 import { checkIfJSONisEmpty, getErrorTransaction } from "@/lib/utils";
 import { ValidationSchemaPassoword } from "@/lib/validation";
 import React from "react";
+import { dictLoad, dictUpdate } from "@/lib/dict";
 
 export function ViewUser({ data }) {
   const initialValues = {
@@ -77,7 +78,7 @@ export function ViewUser({ data }) {
                   <ButtonSubmit
                     type="submit"
                     disabled={!checkIfJSONisEmpty(errors)}
-                    name={isSubmitting ? "Cargando" : "Actualizar"}
+                    name={isSubmitting ? dictLoad : dictUpdate}
                   />
                 </div>
               </Form>

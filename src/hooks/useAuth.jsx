@@ -15,6 +15,12 @@ import { apiFetcher } from "@/lib/apiFetcher";
 import Cookies from "js-cookie";
 import { getErrorTransaction } from "@/lib/utils";
 import { useState } from "react";
+import {
+  dictCloseSession,
+  dictRegistPortal,
+  dictResetEmail,
+  dictWelcome,
+} from "@/lib/dict";
 
 const BASE_URL = import.meta.env.VITE_BASE_URL;
 
@@ -41,7 +47,7 @@ export const useAuth = () => {
       cleanCookies();
       setBusy(false);
       navigateToLogin();
-      toast.success("Su sesión ha sido cerrada en el Portal de cuentas");
+      toast.success(dictCloseSession);
     } catch (error) {
       setBusy(false);
       toast.error(getErrorTransaction(error?.response?.status));
@@ -86,7 +92,7 @@ export const useAuth = () => {
         Cookies.set(AUTH_ID, response.data[0].id);
         setBusy(false);
         navigateToHome();
-        toast.success("Bienvenido al Portal de Cuentas");
+        toast.success(dictWelcome);
       } else {
         setBusy(false);
         cleanCookies();
@@ -105,7 +111,7 @@ export const useAuth = () => {
     try {
       await axios.post(`${BASE_URL}/${API_URLS_USER_CREATE}`, user);
       navigateToRegisterComplete();
-      toast.success("Used Ha Sido Registrado en el Portal de cuentas");
+      toast.success(dictRegistPortal);
       setBusy(false);
     } catch (error) {
       setBusy(false);
@@ -119,10 +125,7 @@ export const useAuth = () => {
     setBusy(true);
     try {
       await axios.post(`${BASE_URL}/${API_RESET_PASSWORD}/${username}`);
-
-      toast.success(
-        "Hemos enviado un correo con los pasos a seguir para cambiar su contraseña"
-      );
+      toast.success(dictResetEmail);
       navigateToLogin();
     } catch (error) {
       setBusy(false);

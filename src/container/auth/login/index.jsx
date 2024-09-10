@@ -12,6 +12,7 @@ import React from "react";
 import { toast } from "react-toastify";
 import { Link } from "react-router-dom";
 import { URL_FORGOT_PASSWORD } from "@/lib/constant";
+import { dictInitSession, dictLoad } from "@/lib/dict";
 
 export function Login() {
   const initialValues = {
@@ -68,7 +69,7 @@ export function Login() {
               <ButtonSubmit
                 type="submit"
                 disabled={!checkIfJSONisEmpty(errors)}
-                name={isBusy ? "Cargando" : "Iniciar Sesión"}
+                name={isBusy ? dictLoad : dictInitSession}
               />
             </div>
           </Form>

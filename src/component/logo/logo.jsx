@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import { dictNamePortal, dictWelcome } from "@/lib/dict";
 import { HeaderPage } from "../header";
 import React from "react";
 
@@ -7,7 +8,7 @@ export function LogoEntuMovil(props) {
   return (
     <div className="mt-10 flex flex-col items-center justify-center space-y-5">
       <HeaderPage
-        name={isLogin ? "Bienvenido el Portal cuentas" : "Portal de cuentas"}
+        name={isLogin ? dictWelcome : dictNamePortal}
       />
     </div>
   );

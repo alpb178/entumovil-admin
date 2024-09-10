@@ -3,6 +3,7 @@ import { Dialog, Transition } from "@headlessui/react";
 import React, { Fragment } from "react";
 import { ButtonCancel, ButtonSubmit } from "../button";
 import { LogoEntuMovil } from "../logo/logo";
+import { dictButtonAccept, dictButtonCancel } from "@/lib/dict";
 
 export const Modal = (props) => {
   const {
@@ -50,14 +51,14 @@ export const Modal = (props) => {
                       <ButtonSubmit
                         onClick={() => onSubmit()}
                         className="m-4 border-t p-4"
-                        name={nameButtonConfirm ?? "Aceptar"}
+                        name={nameButtonConfirm ?? dictButtonAccept}
                       />
                     )}
 
                     <ButtonCancel
                       onClick={() => onOpen(false)}
                       className="m-4 border-t p-4"
-                      name={nameButtonCancel ?? "Cancelar"}
+                      name={nameButtonCancel ?? dictButtonCancel}
                     />
                   </div>
                 )}

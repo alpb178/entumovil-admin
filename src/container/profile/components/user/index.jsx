@@ -12,6 +12,7 @@ import { Loader } from "@/component/loader";
 import { useAuth } from "@/hooks/useAuth";
 import { checkIfJSONisEmpty, getErrorTransaction } from "@/lib/utils";
 import { ValidationSchema } from "./validation";
+import { dictButtonCancel, dictLoad, dictUpdate } from "@/lib/dict";
 
 export function ProfileUser() {
   const { navigateToHome } = useNavigateRoute();
@@ -95,12 +96,12 @@ export function ProfileUser() {
                 <ButtonSubmit
                   type="submit"
                   disabled={!checkIfJSONisEmpty(errors)}
-                  name={isSubmitting || loading ? "Cargando" : "Actualizar"}
+                  name={isSubmitting || loading ? dictLoad : dictUpdate}
                 />
                 <ButtonCancel
                   disabled={isSubmitting}
                   onClick={handleCancel}
-                  name="Cancelar"
+                  name={dictButtonCancel}
                 />
               </div>
             </Form>

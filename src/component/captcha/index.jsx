@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 
 import { ButtonSubmit } from "../button";
 import { toast } from "react-toastify";
+import { dictCode, dictVerifyCode, dictWrongCode } from "@/lib/dict";
 
 export const Captcha = (props) => {
   const { onVerify, disabled } = props;
@@ -34,13 +35,13 @@ export const Captcha = (props) => {
       onVerify(false);
       generateCaptcha();
       setInputValue("");
-      toast.error("Código incorrecto. Por favor intente de nuevo");
+      toast.error(dictWrongCode);
     }
   };
 
   return (
     <div>
-      <p>Inserte el código en el campo:</p>
+      <p>{dictCode}</p>
       <div
         style={{
           fontSize: "24px",
@@ -65,7 +66,7 @@ export const Captcha = (props) => {
           type="button"
           onClick={handeVerified}
           disabled={disabled}
-          name="verificar"
+          name={dictVerifyCode}
         />
       </div>
     </div>

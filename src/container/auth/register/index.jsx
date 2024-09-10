@@ -13,6 +13,7 @@ import React, { useState } from "react";
 import { Input } from "@material-tailwind/react";
 import { Captcha } from "@/component/captcha";
 import { ModalConfirmation } from "@/component/modal-confirmation/modal-confirmation";
+import { dictLoad, dictRegist } from "@/lib/dict";
 
 export function RegisterForm() {
   const initialValues = {
@@ -143,7 +144,7 @@ export function RegisterForm() {
                   disabled={
                     !checkIfJSONisEmpty(errors) || !checked || !captchaVerified
                   }
-                  name={isBusy ? "Cargando" : "Registrar"}
+                  name={isBusy ? dictLoad : dictRegist}
                 />
               </div>
             </div>

@@ -8,6 +8,7 @@ import { saveUsersPass } from "@/hooks/useUsers";
 import { checkIfJSONisEmpty, getErrorTransaction } from "@/lib/utils";
 import { MESSAGE_SUCCES_PASSWORD_FORMAT } from "@/lib/constant";
 import { ValidationSchemaPassoword } from "@/lib/validation";
+import { dictButtonCancel, dictLoad, dictUpdate } from "@/lib/dict";
 
 export function PasswordUser({ id, onClose }) {
   const initialValues = {
@@ -64,13 +65,13 @@ export function PasswordUser({ id, onClose }) {
               <ButtonSubmit
                 type="submit"
                 disabled={!checkIfJSONisEmpty(errors)}
-                name={isSubmitting ? "Cargando" : "Actualizar"}
+                name={isSubmitting ? dictLoad : dictUpdate}
               />
               <ButtonCancel
                 onClick={() => {
                   onClose();
                 }}
-                name="Cancelar"
+                name={dictButtonCancel}
               />
             </div>
           </Form>

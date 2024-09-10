@@ -5,6 +5,7 @@ import { Form, Formik } from "formik";
 import { ValidationSchema } from "./validation";
 import React from "react";
 import { useAuth } from "@/hooks/useAuth";
+import { dictButtonCancel, dictLoad, dictRecoverPass } from "@/lib/dict";
 
 export function ForgotPassword() {
   const initialValues = {
@@ -38,9 +39,9 @@ export function ForgotPassword() {
             <div className="flex justify-center pt-4">
               <ButtonSubmit
                 type="submit"
-                name={isBusy ? "Cargando" : "Recuperar contraseña"}
+                name={isBusy ? dictLoad : dictRecoverPass}
               />
-              <ButtonCancelLink name="Cancelar" url={URL_LOGIN} />
+              <ButtonCancelLink name={dictButtonCancel} url={URL_LOGIN} />
             </div>
           </Form>
         )}

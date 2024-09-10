@@ -1,43 +1,18 @@
 import {
-  MESSAGE_INVALID_FIRSTNAME_CHARACTER,
-  MESSAGE_INVALID_FORMAT,
-  MESSAGE_INVALID_LASTNAME_CHARACTER,
-  MESSAGE_INVALID_PASSWORD_CHARACTER,
-  MESSAGE_INVALID_PHONE_CHARACTER,
-  MESSAGE_REQUIRED,
-  MESSAGE_SAME_PASSWORD_CHARACTER,
-  MESSAGE_SAME_PASSWORD_DOWCASE,
-  MESSAGE_SAME_PASSWORD_SYMBOL,
-  MESSAGE_SAME_PASSWORD_UPCASE,
-  regexEmail,
-} from "@/lib/constant";
+  validationEmail,
+  validationFirstName,
+  validationLastName,
+  validationPassword,
+  validationPhone,
+  validationRepeatPassword,
+} from "@/lib/validation";
 import * as Yup from "yup";
 
 export const ValidationSchema = Yup.object().shape({
-  email: Yup.string()
-    .required(MESSAGE_REQUIRED)
-    .matches(regexEmail, MESSAGE_INVALID_FORMAT),
-
-  firstName: Yup.string()
-    .required(MESSAGE_REQUIRED)
-    .min(2, MESSAGE_INVALID_FIRSTNAME_CHARACTER)
-    .max(20, MESSAGE_INVALID_FIRSTNAME_CHARACTER),
-  lastName: Yup.string()
-    .required(MESSAGE_REQUIRED)
-    .min(2, MESSAGE_INVALID_LASTNAME_CHARACTER)
-    .max(40, MESSAGE_INVALID_LASTNAME_CHARACTER),
-  password: Yup.string()
-    .required(MESSAGE_REQUIRED)
-    .min(8, MESSAGE_INVALID_PASSWORD_CHARACTER)
-    .max(128,MESSAGE_INVALID_PASSWORD_CHARACTER)
-    .matches(/[a-z]/, MESSAGE_SAME_PASSWORD_DOWCASE)
-    .matches(/[A-Z]/, MESSAGE_SAME_PASSWORD_UPCASE)
-    .matches(/[^\w]/, MESSAGE_SAME_PASSWORD_SYMBOL),
-
-  repeatPassword: Yup.string()
-    .required(MESSAGE_REQUIRED)
-    .oneOf([Yup.ref("password"), null], MESSAGE_SAME_PASSWORD_CHARACTER),
-  phone: Yup.string()
-    .min(2, MESSAGE_INVALID_PHONE_CHARACTER)
-    .max(10, MESSAGE_INVALID_PHONE_CHARACTER),
+  email: validationEmail,
+  firstName: validationFirstName,
+  lastName: validationLastName,
+  password: validationPassword,
+  repeatPassword: validationRepeatPassword,
+  phone: validationPhone,
 });

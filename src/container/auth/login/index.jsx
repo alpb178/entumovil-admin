@@ -9,7 +9,7 @@ import { AuthBottomBar } from "@/component/bottombar/bottombar";
 import { LogoEntuMovil } from "@/component/logo/logo";
 
 import React from "react";
-import { toast } from "react-toastify";
+
 import { Link } from "react-router-dom";
 import { URL_FORGOT_PASSWORD } from "@/lib/constant";
 import { dictInitSession, dictLoad } from "@/lib/dict";
@@ -26,7 +26,7 @@ export function Login() {
     try {
       login(values);
     } catch (error) {
-      toast.error(getErrorTransaction(error?.response?.status));
+      getErrorTransaction(error);
     }
   };
 

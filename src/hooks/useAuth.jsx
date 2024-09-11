@@ -38,7 +38,7 @@ export const useAuth = () => {
 
   const catchError = (error) => {
     setBusy(false);
-    toast.error(getErrorTransaction(error?.response?.status));
+    getErrorTransaction(error);
   };
 
   const logout = async () => {
@@ -70,7 +70,7 @@ export const useAuth = () => {
       await userLogged(credentials.username);
       setBusy(false);
     } catch (error) {
-      catchError(error)
+      catchError(error);
     } finally {
       setBusy(false);
     }
@@ -90,7 +90,7 @@ export const useAuth = () => {
         cleanCookiesFromSession();
       }
     } catch (error) {
-      catchError(error)
+      catchError(error);
       cleanCookiesFromSession();
     } finally {
       setBusy(false);
@@ -105,7 +105,7 @@ export const useAuth = () => {
       toast.success(dictRegistPortal);
       setBusy(false);
     } catch (error) {
-      catchError(error)
+      catchError(error);
     } finally {
       setBusy(false);
     }
@@ -118,7 +118,7 @@ export const useAuth = () => {
       toast.success(dictResetEmail);
       navigateToLogin();
     } catch (error) {
-      catchError(error)
+      catchError(error);
       cleanCookiesFromSession();
     } finally {
       setBusy(false);

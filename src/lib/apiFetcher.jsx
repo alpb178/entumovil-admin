@@ -1,7 +1,7 @@
 import axios from "axios";
 import Cookies from "js-cookie";
 import { AUTH_TOKEN } from "./constant";
-import { cleanCookiesFromSession, getErrorTransaction } from "./utils";
+import { cleanCookiesFromSession } from "./utils";
 
 export const apiFetcher = async (url, options = {}) => {
   const BASE_URL = import.meta.env.VITE_BASE_URL;
@@ -32,6 +32,6 @@ export const apiFetcher = async (url, options = {}) => {
 
     return response;
   } catch (error) {
-    throw new Error(getErrorTransaction(error?.code));
+    throw new Error(error?.response?.status);
   }
 };

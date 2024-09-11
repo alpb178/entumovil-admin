@@ -54,7 +54,7 @@ export function TableAdmin() {
       toast.success("Usuario actualizado");
       queryClient.invalidateQueries([API_URLS_USERS_LIST]);
     } catch (error) {
-      toast.error(getErrorTransaction(error?.response?.status));
+      getErrorTransaction(error);
     }
   };
 
@@ -70,7 +70,7 @@ export function TableAdmin() {
         queryClient.invalidateQueries([API_URLS_USERS_LIST]);
       });
     } catch (error) {
-      toast.error(getErrorTransaction(error?.response?.status));
+      getErrorTransaction(error);
     }
   };
 

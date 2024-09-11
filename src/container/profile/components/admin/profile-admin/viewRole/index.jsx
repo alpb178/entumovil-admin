@@ -46,7 +46,7 @@ export function ViewRoleAdmin({ idUser }) {
         closeShowModal();
       });
     } catch (error) {
-      toast.error(getErrorTransaction(error?.response?.status));
+      getErrorTransaction(error);
     }
   };
 

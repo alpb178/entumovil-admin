@@ -3,7 +3,6 @@ import { InputField } from "@/component/field/InputField";
 import { Form, Formik } from "formik";
 import { ValidationSchema } from "./validation";
 import { PasswordField } from "@/component/field/PassworField";
-import { toast } from "react-toastify";
 import { useAuth } from "@/hooks/useAuth";
 import { PhoneInputField } from "@/component/field/PhoneField";
 import { LogoEntuMovil } from "@/component/logo/logo";
@@ -56,7 +55,7 @@ export function RegisterForm() {
         password: values.password,
       });
     } catch (error) {
-      toast.error(getErrorTransaction(error?.response?.status));
+      getErrorTransaction(error);
     }
   };
   return (

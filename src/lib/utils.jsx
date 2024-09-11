@@ -25,26 +25,14 @@ export const cleanCookiesFromSession = () => {
   Cookies.remove(AUTH_ID);
 };
 
-export const getError = (error) => {
-  switch (error) {
-    case "ERR_NETWORK":
-      cleanCookiesFromSession();
-      return getErrorTransaction("Su sessión ha sido cerrada");
-
-    case "ERR_BAD_REQUEST":
-      return "Ha ocurrido un error con la red. Intente de nuevo";
-
-    default:
-      return "Ha ocurrido un error. Contacte con la administración";
-  }
-};
-
 export const getErrorTransaction = (status) => {
   switch (status) {
     case 206:
       return "Email no verificado";
     case 401:
       return "Credenciales Inválidas";
+    case 403:
+      return "No tiene permisos";
     case 406:
       return "Dirección de correo no válida";
     case 409:
@@ -66,4 +54,14 @@ export const getErrorTransaction = (status) => {
 
 export const checkIfJSONisEmpty = (obj) => {
   return Object.keys(obj).length === 0;
+};
+
+export const getToken = () => {
+  return Cookies.get(AUTH_TOKEN);
+};
+export const getId = () => {
+  return Cookies.get(AUTH_ID);
+};
+export const getUsername = () => {
+  return Cookies.get(AUTH_USERNAME);
 };

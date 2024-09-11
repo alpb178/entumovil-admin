@@ -13,7 +13,13 @@ import {
 } from "@/lib/constant";
 import { apiFetcher } from "@/lib/apiFetcher";
 import Cookies from "js-cookie";
-import { getErrorTransaction } from "@/lib/utils";
+import {
+  cleanCookiesFromSession,
+  getErrorTransaction,
+  getId,
+  getToken,
+  getUsername,
+} from "@/lib/utils";
 import { useState } from "react";
 import {
   dictCloseSession,
@@ -30,39 +36,25 @@ export const useAuth = () => {
 
   const [isBusy, setBusy] = useState(false);
 
-  const getToken = () => {
-    return Cookies.get(AUTH_TOKEN);
-  };
-  const getId = () => {
-    return Cookies.get(AUTH_ID);
-  };
-  const getUsername = () => {
-    return Cookies.get(AUTH_USERNAME);
+  const catchError = (error) => {
+    setBusy(false);
+    toast.error(getErrorTransaction(error?.response?.status));
   };
 
   const logout = async () => {
     setBusy(true);
     try {
       await apiFetcher(API_URL_LOGOUT);
-      cleanCookies();
+      cleanCookiesFromSession();
       setBusy(false);
       navigateToLogin();
       toast.success(dictCloseSession);
     } catch (error) {
-      setBusy(false);
-      toast.error(getErrorTransaction(error?.response?.status));
+      catchError(error);
     } finally {
       setBusy(false);
     }
   };
-
-  const cleanCookies = () => {
-    Cookies.remove(AUTH_TOKEN);
-    Cookies.remove(AUTH_USERNAME);
-    Cookies.remove(AUTH_ID);
-  };
-
-  const isAuthenticated = !!getToken() && !!getId() && !!getUsername();
 
   const login = async (credentials) => {
     setBusy(true);
@@ -78,8 +70,7 @@ export const useAuth = () => {
       await userLogged(credentials.username);
       setBusy(false);
     } catch (error) {
-      setBusy(false);
-      toast.error(getErrorTransaction(error?.response?.status));
+      catchError(error)
     } finally {
       setBusy(false);
     }
@@ -96,12 +87,11 @@ export const useAuth = () => {
         toast.success(dictWelcome);
       } else {
         setBusy(false);
-        cleanCookies();
+        cleanCookiesFromSession();
       }
     } catch (error) {
-      setBusy(false);
-      toast.error(getErrorTransaction(error?.response?.status));
-      cleanCookies();
+      catchError(error)
+      cleanCookiesFromSession();
     } finally {
       setBusy(false);
     }
@@ -115,8 +105,7 @@ export const useAuth = () => {
       toast.success(dictRegistPortal);
       setBusy(false);
     } catch (error) {
-      setBusy(false);
-      toast.error(getErrorTransaction(error?.response?.status));
+      catchError(error)
     } finally {
       setBusy(false);
     }
@@ -129,9 +118,8 @@ export const useAuth = () => {
       toast.success(dictResetEmail);
       navigateToLogin();
     } catch (error) {
-      setBusy(false);
-      toast.error(getErrorTransaction(error?.response?.status));
-      cleanCookies();
+      catchError(error)
+      cleanCookiesFromSession();
     } finally {
       setBusy(false);
     }
@@ -143,9 +131,8 @@ export const useAuth = () => {
     logout,
     login,
     register,
-    isAuthenticated,
+    isAuthenticated: !!getToken() && !!getId() && !!getUsername(),
     getUsername,
-    cleanCookies,
     isBusy,
     resetPassword,
   };

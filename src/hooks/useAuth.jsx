@@ -71,7 +71,8 @@ export const useAuth = () => {
         `${BASE_URL}/${API_URL_LOGIN}`,
         credentials
       );
-      const { access_token } = response.data;
+      const { body } = response.data;
+      const { access_token } = body;
       Cookies.set(AUTH_TOKEN, access_token);
       Cookies.set(AUTH_USERNAME, credentials.username);
       await userLogged(credentials.username);

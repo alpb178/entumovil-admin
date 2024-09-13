@@ -15,4 +15,5 @@ export const ValidationSchema = Yup.object().shape({
   password: validationPassword,
   repeatPassword: validationRepeatPassword,
   phone: validationPhone,
+  termConditions:Yup.boolean().isTrue()
 });

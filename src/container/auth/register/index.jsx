@@ -9,10 +9,10 @@ import { LogoEntuMovil } from "@/component/logo/logo";
 import { checkIfJSONisEmpty, getErrorTransaction } from "@/lib/utils";
 import { AuthBottomBar } from "@/component/bottombar/bottombar";
 import React, { useState } from "react";
-import { Input } from "@material-tailwind/react";
 import { Captcha } from "@/component/captcha";
 import { ModalConfirmation } from "@/component/modal-confirmation/modal-confirmation";
 import { dictLoad, dictRegist } from "@/lib/dict";
+import { CheckBoxField } from "@/component/field/InputField copy";
 
 export function RegisterForm() {
   const initialValues = {
@@ -21,6 +21,7 @@ export function RegisterForm() {
     password: "",
     repeatPassword: "",
     phone: "",
+    termConditions: false,
   };
 
   const { register, isBusy } = useAuth();
@@ -32,11 +33,6 @@ export function RegisterForm() {
 
   const closeShowModal = () => {
     setOpen(false);
-  };
-
-  const [checked, setChecked] = useState(false);
-  const handleChange = async () => {
-    setChecked(!checked);
   };
 
   const [captchaVerified, setCaptchaVerified] = useState(false);
@@ -67,7 +63,7 @@ export function RegisterForm() {
         onSubmit={handleSubmit}
       >
         {({ errors }) => (
-          <Form className="mt-1 flex flex-col items-center justify-center space-y-10">
+          <Form className="mt-5 flex flex-col items-center justify-center space-y-10">
             <div className="space-y-6">
               <InputField
                 type="text"
@@ -111,38 +107,20 @@ export function RegisterForm() {
                 placeholder="Insertar confirmación de la contraseña"
               />
 
-              <div className="flex">
-                <div className="w-5">
-                  <Input
-                    type="checkbox"
-                    checked={checked}
-                    className="h-6 w-6 rounded border-gray-300 bg-gray-100"
-                    onChange={(e) => {
-                      e.stopPropagation();
-                      handleChange();
-                    }}
-                  />
-                </div>
-                <a
-                  className="ml-2 text-primary-600 hover:text-primary-800 cursor-pointer"
-                  onClick={openModal}
-                >
-                  Aceptar términos y condiciones
-                </a>
-              </div>
+              <CheckBoxField
+                name="termConditions"
+                label="Aceptar términos y condiciones"
+                error={errors.termConditions}
+                onClick={openModal}
+              />
 
               <div className=" flex flex-row justify-center">
-                <Captcha
-                  onVerify={handleCaptchaVerify}
-                  disabled={!checkIfJSONisEmpty(errors) || !checked}
-                />
+                <Captcha onVerify={handleCaptchaVerify} />
               </div>
               <div className="-mt-6 flex justify-center">
                 <ButtonSubmit
                   type="submit"
-                  disabled={
-                    !checkIfJSONisEmpty(errors) || !checked || !captchaVerified
-                  }
+                  disabled={!checkIfJSONisEmpty(errors) || !captchaVerified}
                   name={isBusy ? dictLoad : dictRegist}
                 />
               </div>
@@ -154,8 +132,8 @@ export function RegisterForm() {
         open={open}
         onOpen={closeShowModal}
         isInformation={true}
-        nameButtonCancel='Cerrar'
-        message='Términos y condiciones'
+        nameButtonCancel="Cerrar"
+        message="Términos y condiciones"
       />
       <AuthBottomBar />
     </div>

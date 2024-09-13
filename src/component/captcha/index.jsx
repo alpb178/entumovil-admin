@@ -6,7 +6,7 @@ import { toast } from "react-toastify";
 import { dictCode, dictVerifyCode, dictWrongCode } from "@/lib/dict";
 
 export const Captcha = (props) => {
-  const { onVerify, disabled } = props;
+  const { onVerify } = props;
   const [captchaText, setCaptchaText] = useState("");
   const [inputValue, setInputValue] = useState("");
 
@@ -65,7 +65,7 @@ export const Captcha = (props) => {
         <ButtonSubmit
           type="button"
           onClick={handeVerified}
-          disabled={disabled}
+          disabled={inputValue?.length<6}
           name={dictVerifyCode}
         />
       </div>

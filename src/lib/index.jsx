@@ -1,29 +1,37 @@
 import { apiFetcher } from "@/lib/apiFetcher";
 
-export const getData = async ({ queryKey }) => {
-  const [path, params] = queryKey;
-  const { id, ...rest } = params;
-  const url = id ? path.concat("/", id) : path;
-  const { data } = await apiFetcher(url, { params: rest });
-  return data;
-};
+import { getErrorTransaction } from "./utils";
 
-export const getDataApiII = async ({ queryKey }) => {
-  const [path, params] = queryKey;
-  const { id, ...rest } = params;
-  const url = id ? path.concat("/", id) : path;
-  const { data } = await apiFetcher(url, { params: rest }, true);
-  return data;
+export const getData = async ({ queryKey }) => {
+  try {
+    const [path, params] = queryKey;
+    const { id, ...rest } = params;
+    const url = id ? path.concat("/", id) : path;
+    const { data } = await apiFetcher(url, { params: rest });
+    return data;
+  } catch (error) {
+    getErrorTransaction(error);
+  }
 };
 
 export const saveData = async (args) => {
-  const { path, data: values, method } = args;
-  const { data } = await apiFetcher(path, { data: values, method });
-  return data;
+  try {
+    const { path, data: values, method } = args;
+    const { data } = await apiFetcher(path, { data: values, method });
+    return data;
+  } catch (error) {
+    getErrorTransaction(error);
+  }
 };
 
 export const deleteData = async (args) => {
-  const { path, method } = args;
-  const { data } = await apiFetcher(path, { method });
-  return data;
+  try {
+    
+    const { path, method } = args;
+    const { data } = await apiFetcher(path, { method });
+    return data;
+  } catch (error) {
+    getErrorTransaction(error)
+  }
+ 
 };

@@ -40,6 +40,7 @@ export const API_URLS_ADD_ROLE = `${API_URLS_USERS}/addRoleUser`;
 //Cookies
 export const AUTH_TOKEN = "authToken";
 export const AUTH_USERNAME = "authUsername";
+export const AUTH_ADMIN = "authAdmin";
 export const AUTH_ID = "authId";
 export const ROLE = "default-roles-entumovil-prod";
 

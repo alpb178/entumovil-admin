@@ -25,7 +25,7 @@ export function TableAdmin() {
     },
   });
 
-  const { getUsername } = useAuth();
+  const { username } = useAuth();
 
   const navigate = useNavigate();
 
@@ -130,7 +130,7 @@ export function TableAdmin() {
 
   const options = {
     columns,
-    data: data?.filter((obj) => obj.username != getUsername()),
+    data: data?.filter((obj) => obj.username != username),
     count: 10,
     center: true,
   };

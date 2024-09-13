@@ -16,10 +16,10 @@ import { dictButtonCancel, dictLoad, dictUpdate } from "@/lib/dict";
 
 export function ProfileUser() {
   const { navigateToHome } = useNavigateRoute();
-  const { getUsername, getId } = useAuth();
+  const { username, id } = useAuth();
   const [loading, setLoading] = useState(false);
   const { data, isLoading } = useFindUsers({
-    args: { id: getUsername() },
+    args: { id: username },
     options: {
       keepPreviousData: true,
     },
@@ -34,7 +34,7 @@ export function ProfileUser() {
 
     try {
       const newData = {
-        id: getId(),
+        id: id,
         data: { firstname: values.phone ?? "-", lastname: values.lastName },
       };
 

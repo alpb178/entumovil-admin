@@ -1,28 +1,15 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
-import { URL_LOGIN } from "@/lib/constant";
 import { useAuth } from "@/hooks/useAuth";
 import { useState } from "react";
 
 import { Disclosure } from "@headlessui/react";
-import { useFindRoles } from "@/hooks/useRoles";
-import { Loader } from "../loader";
 import { MenuItemNavbar } from "./item-navbar";
 import { ModalConfirmation } from "../modal-confirmation/modal-confirmation";
 
 export function NavbarUserLoggued() {
-  const navigate = useNavigate();
+  const { logout, username, isAdmin } = useAuth();
 
-  const { logout, getId, getUsername } = useAuth();
-
-  const { data, isLoading, isError } = useFindRoles({
-    args: { id: getId() },
-    options: {
-      keepPreviousData: true,
-    },
-  });
-
-  const initialLetters = getUsername()?.substring(0, 1).toUpperCase();
+  const initialLetters = username?.substring(0, 1).toUpperCase();
 
   const [open, setOpen] = useState(false);
 
@@ -39,45 +26,36 @@ export function NavbarUserLoggued() {
     setOpen(false);
   };
 
-  const isAdmin = !!data?.find((m) => m.name.includes("admin"));
+  //const isAdmin = !!data?.find((m) => m.name.includes("admin"));
   return (
-    <>
-      {isError ? (
-        <>{navigate(URL_LOGIN)}</>
-      ) : (
-        <Disclosure as="nav">
-          <>
-            <div className="mx-auto  border-b px-2 sm:px-6 lg:px-8">
-              <div className="relative flex h-16 items-center justify-between">
-                <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-                  <div className="flex flex-shrink-0 items-center">
-                    <img
-                      className="h-8 w-auto"
-                      src="/public/img/favicon-32x32.png"
-                      alt="Your Company"
-                    />
-                  </div>
-                </div>
-                {isLoading ? (
-                  <Loader />
-                ) : (
-                  <MenuItemNavbar
-                    openModalLogout={openModalLogout}
-                    isAdmin={isAdmin}
-                    letter={initialLetters}
-                  />
-                )}
+    <Disclosure as="nav">
+      <>
+        <div className="mx-auto  border-b px-2 sm:px-6 lg:px-8">
+          <div className="relative flex h-16 items-center justify-between">
+            <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+              <div className="flex flex-shrink-0 items-center">
+                <img
+                  className="h-8 w-auto"
+                  src="/public/img/favicon-32x32.png"
+                  alt="Your Company"
+                />
               </div>
             </div>
-          </>
-          <ModalConfirmation
-            open={open}
-            onOpen={closeShowModal}
-            onSubmit={handlelogout}
-            message="¿Está seguro que desea cerrar sesión?"
-          />
-        </Disclosure>
-      )}
-    </>
+
+            <MenuItemNavbar
+              openModalLogout={openModalLogout}
+              isAdmin={isAdmin}
+              letter={initialLetters}
+            />
+          </div>
+        </div>
+      </>
+      <ModalConfirmation
+        open={open}
+        onOpen={closeShowModal}
+        onSubmit={handlelogout}
+        message="¿Está seguro que desea cerrar sesión?"
+      />
+    </Disclosure>
   );
 }

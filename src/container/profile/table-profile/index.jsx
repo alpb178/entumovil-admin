@@ -13,7 +13,7 @@ import {Modal} from "@/component/modal";
 export function TableProfile() {
   const navigate = useNavigate();
 
-  const { getUsername } = useAuth();
+  const { username } = useAuth();
 
   const [open, setOpen] = useState(false);
   const [id, setId] = useState({});
@@ -28,7 +28,7 @@ export function TableProfile() {
   };
 
   const { data } = useFindUsers({
-    args: { id: getUsername() },
+    args: { id: username },
     options: {
       keepPreviousData: true,
     },

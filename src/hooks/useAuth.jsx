@@ -3,22 +3,19 @@ import { useNavigateRoute } from "./useNavigateRoute";
 import { toast } from "react-toastify";
 import {
   API_RESET_PASSWORD,
-  API_URLS_USERS_LIST,
   API_URLS_USER_CREATE,
   API_URL_LOGIN,
   API_URL_LOGOUT,
-  AUTH_ID,
-  AUTH_TOKEN,
-  AUTH_USERNAME,
 } from "@/lib/constant";
 import { apiFetcher } from "@/lib/apiFetcher";
-import Cookies from "js-cookie";
 import {
   cleanCookiesFromSession,
+  getAdmin,
   getErrorTransaction,
   getId,
   getToken,
   getUsername,
+  setCookiesLogin,
 } from "@/lib/utils";
 import { useState } from "react";
 import {
@@ -51,6 +48,7 @@ export const useAuth = () => {
       toast.success(dictCloseSession);
     } catch (error) {
       catchError(error);
+      navigateToLogin();
     } finally {
       setBusy(false);
     }
@@ -64,31 +62,11 @@ export const useAuth = () => {
         credentials
       );
       const { body } = response.data;
-      const { access_token } = body;
-      Cookies.set(AUTH_TOKEN, access_token);
-      Cookies.set(AUTH_USERNAME, credentials.username);
-      await userLogged(credentials.username);
+      const { access_token, id, username, admin } = body;
+      setCookiesLogin(access_token, username, admin, id);
+      navigateToHome();
+      toast.success(dictWelcome);
       setBusy(false);
-    } catch (error) {
-      catchError(error);
-    } finally {
-      setBusy(false);
-    }
-  };
-
-  const userLogged = async (username) => {
-    setBusy(true);
-    try {
-      const response = await apiFetcher(`${API_URLS_USERS_LIST}/${username}`);
-      if (response.status == 200) {
-        Cookies.set(AUTH_ID, response.data[0].id);
-        setBusy(false);
-        navigateToHome();
-        toast.success(dictWelcome);
-      } else {
-        setBusy(false);
-        cleanCookiesFromSession();
-      }
     } catch (error) {
       catchError(error);
       cleanCookiesFromSession();
@@ -127,12 +105,13 @@ export const useAuth = () => {
 
   return {
     getToken,
-    getId,
     logout,
     login,
     register,
     isAuthenticated: !!getToken() && !!getId() && !!getUsername(),
-    getUsername,
+    username: getUsername(),
+    isAdmin: getAdmin(),
+    id: getId(),
     isBusy,
     resetPassword,
   };

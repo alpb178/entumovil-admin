@@ -36,6 +36,7 @@ export function RegisterForm() {
   };
 
   const [captchaVerified, setCaptchaVerified] = useState(false);
+  const [reloadCaptcha, setReloadCaptcha] = useState(false);
 
   const handleCaptchaVerify = (isVerified) => {
     setCaptchaVerified(isVerified);
@@ -51,6 +52,8 @@ export function RegisterForm() {
         password: values.password,
       });
     } catch (error) {
+      console.log(error);
+      setReloadCaptcha(true);
       getErrorTransaction(error);
     }
   };
@@ -115,7 +118,11 @@ export function RegisterForm() {
               />
 
               <div className=" flex flex-row justify-center">
-                <Captcha onVerify={handleCaptchaVerify} />
+                <Captcha
+                  onVerify={handleCaptchaVerify}
+                  reloadCaptcha={reloadCaptcha}
+                  onReloadCaptcha={setReloadCaptcha}
+                />
               </div>
               <div className="-mt-6 flex justify-center">
                 <ButtonSubmit

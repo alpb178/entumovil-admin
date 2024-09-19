@@ -6,13 +6,23 @@ import { toast } from "react-toastify";
 import { dictCode, dictVerifyCode, dictWrongCode } from "@/lib/dict";
 
 export const Captcha = (props) => {
-  const { onVerify } = props;
+  const { onVerify, reloadCaptcha, onReloadCaptcha } = props;
   const [captchaText, setCaptchaText] = useState("");
   const [inputValue, setInputValue] = useState("");
 
   useEffect(() => {
     generateCaptcha();
   }, []);
+
+  useEffect(() => {
+    if (reloadCaptcha) {
+      console.log(reloadCaptcha);
+      onVerify(false);
+      generateCaptcha();
+      setInputValue("");
+      onReloadCaptcha(true);
+    }
+  }, [reloadCaptcha]);
 
   const generateCaptcha = () => {
     const chars =
@@ -65,7 +75,7 @@ export const Captcha = (props) => {
         <ButtonSubmit
           type="button"
           onClick={handeVerified}
-          disabled={inputValue?.length<6}
+          disabled={inputValue?.length < 6}
           name={dictVerifyCode}
         />
       </div>

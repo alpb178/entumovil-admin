@@ -13,31 +13,34 @@ export const getErrorTransaction = (error) => {
   const status = getStatus(error);
   switch (status.toString()) {
     case "206":
-      return toast.error("Email no verificado.");
+      return toast.error("El correo electrónico no ha sido verificado.");
     case "401":
-      return toast.error("Credenciales Inválidas.");
+      return toast.error("Credenciales inválidas.");
     case "403":
-      return toast.error("No tiene permisos. Intente de nuevo o contacte con la administración.");
+      return toast.error(
+        "No tiene permisos para realizar esta acción. Intente nuevamente o contacte con el administrador."
+      );
     case "406":
-      return toast.error("Dirección de correo no válida.");
+      return toast.error("La dirección de correo electrónico no es válida.");
     case "409":
-      return toast.error("Usuario registrado.");
+      return toast.error("El usuario ya existe.");
     case "412":
-      return toast.error("Número de telefóno registrado.");
+      return toast.error("El número de teléfono ya está registrado.");
     case "423":
-      return toast.error("Usuario deshabilitado.");
+      return toast.error("El usuario está deshabilitado.");
     case "400":
     case "404":
     case "500":
     case "502":
     case "503":
-      return toast.error("Ha ocurrido un error con la red. Intente de nuevo.");
+      return toast.error("Ha ocurrido un error de red. Por favor, intente nuevamente.");
     default:
       return toast.error(
-        "Ha ocurrido un error. Contacte con la administración."
+        "Ha ocurrido un error inesperado. Contacte con el administrador."
       );
   }
 };
+
 
 export const checkIfJSONisEmpty = (obj) => {
   return Object.keys(obj).length === 0;

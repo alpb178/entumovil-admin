@@ -75,7 +75,7 @@ export const useAuth = () => {
     }
   };
 
-  const register = async (user) => {
+  const register = async (user, onAftterSucces) => {
     setBusy(true);
     try {
       await axios.post(`${BASE_URL}/${API_URLS_USER_CREATE}`, user);
@@ -84,6 +84,7 @@ export const useAuth = () => {
       setBusy(false);
     } catch (error) {
       catchError(error);
+      onAftterSucces?.()
     } finally {
       setBusy(false);
     }

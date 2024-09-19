@@ -33,14 +33,15 @@ export const getErrorTransaction = (error) => {
     case "500":
     case "502":
     case "503":
-      return toast.error("Ha ocurrido un error de red. Por favor, intente nuevamente.");
+      return toast.error(
+        "Ha ocurrido un error de red. Por favor, intente nuevamente."
+      );
     default:
       return toast.error(
         "Ha ocurrido un error inesperado. Contacte con el administrador."
       );
   }
 };
-
 
 export const checkIfJSONisEmpty = (obj) => {
   return Object.keys(obj).length === 0;
@@ -77,6 +78,6 @@ const getStatus = (error) => {
 export const setCookiesLogin = (access_token, username, admin, id) => {
   Cookies.set(AUTH_TOKEN, access_token);
   Cookies.set(AUTH_USERNAME, username);
-  Cookies.set(AUTH_ADMIN, admin);
+  Cookies.set(AUTH_ADMIN, admin ? "admin" : "user");
   Cookies.set(AUTH_ID, id);
 };

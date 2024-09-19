@@ -7,9 +7,7 @@ import { MenuItemNavbar } from "./item-navbar";
 import { ModalConfirmation } from "../modal-confirmation/modal-confirmation";
 
 export function NavbarUserLoggued() {
-  const { logout, username, isAdmin } = useAuth();
-
-  const initialLetters = username?.substring(0, 1).toUpperCase();
+  const { logout } = useAuth();
 
   const [open, setOpen] = useState(false);
 
@@ -26,7 +24,6 @@ export function NavbarUserLoggued() {
     setOpen(false);
   };
 
-  //const isAdmin = !!data?.find((m) => m.name.includes("admin"));
   return (
     <Disclosure as="nav">
       <>
@@ -42,11 +39,7 @@ export function NavbarUserLoggued() {
               </div>
             </div>
 
-            <MenuItemNavbar
-              openModalLogout={openModalLogout}
-              isAdmin={isAdmin}
-              letter={initialLetters}
-            />
+            <MenuItemNavbar openModalLogout={openModalLogout} />
           </div>
         </div>
       </>

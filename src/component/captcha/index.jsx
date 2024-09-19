@@ -20,7 +20,7 @@ export const Captcha = (props) => {
       onVerify(false);
       generateCaptcha();
       setInputValue("");
-      onReloadCaptcha(true);
+      onReloadCaptcha(false);
     }
   }, [reloadCaptcha]);
 
@@ -60,6 +60,7 @@ export const Captcha = (props) => {
           marginTop: "10px",
           marginBottom: "10px",
           textAlign: "center",
+          opacity: 0.5,
         }}
       >
         {captchaText}

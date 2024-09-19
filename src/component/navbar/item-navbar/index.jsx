@@ -5,9 +5,13 @@ import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import { URL_HOME, URL_PROFILE_ADMIN } from "@/lib/constant";
 import { useNavigate } from "react-router-dom";
+import { useAuth } from "@/hooks/useAuth";
 
 export function MenuItemNavbar(props) {
-  const { letter, isAdmin, openModalLogout } = props;
+  const { openModalLogout } = props;
+  const { username, isAdmin } = useAuth();
+
+  const letter = username?.substring(0, 1).toUpperCase();
   const navigate = useNavigate();
   const [anchorEl, setAnchorEl] = useState(null);
 
@@ -47,7 +51,9 @@ export function MenuItemNavbar(props) {
         onClick={handleClose}
       >
         <MenuItem onClick={handleViewProfile}>Perfil</MenuItem>
-        {isAdmin && <MenuItem onClick={handleViewAdmin}>Admin</MenuItem>}
+        {isAdmin === "admin" && (
+          <MenuItem onClick={handleViewAdmin}>Admin</MenuItem>
+        )}
         <MenuItem onClick={openModalLogout}>Cerrar Sesión</MenuItem>
       </Menu>
     </Fragment>

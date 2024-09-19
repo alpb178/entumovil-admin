@@ -32,10 +32,12 @@ export function ProfileUser() {
   const handleSubmit = async (values) => {
     let method = PUT;
 
+    const phone = values?.phone?.length > 3 ? values.phone : "";
+
     try {
       const newData = {
         id: id,
-        data: { firstname: values.phone ?? "-", lastname: values.lastName },
+        data: { firstname: phone, lastname: values.lastName },
       };
 
       await saveUsers({
@@ -49,6 +51,7 @@ export function ProfileUser() {
       navigateToHome();
       setLoading(false);
     } catch (error) {
+      console.log(error);
       getErrorTransaction(error);
       setLoading(false);
     } finally {
@@ -88,7 +91,7 @@ export function ProfileUser() {
                 <PhoneInputField
                   label="Teléfono"
                   name="phone"
-                  error={errors.phone}
+                  error={errors?.phone}
                 />
               </div>
 

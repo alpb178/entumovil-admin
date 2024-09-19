@@ -44,16 +44,17 @@ export function RegisterForm() {
 
   const handleSubmit = (values) => {
     try {
-      register({
-        username: values.email,
-        email: values.email,
-        firstname: values.phone ?? "-",
-        lastname: `${values?.firstName} ${values.lastName}`,
-        password: values.password,
-      });
+      register(
+        {
+          username: values.email,
+          email: values.email,
+          firstname: values.phone ?? "-",
+          lastname: `${values?.firstName} ${values.lastName}`,
+          password: values.password,
+        },
+        () => setReloadCaptcha(true)
+      );
     } catch (error) {
-      console.log(error);
-      setReloadCaptcha(true);
       getErrorTransaction(error);
     }
   };

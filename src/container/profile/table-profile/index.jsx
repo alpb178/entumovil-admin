@@ -5,7 +5,7 @@ import {DataTable} from "@/component/table";
 import {TableActions} from "@/component/table/TableActions";
 import { useNavigate } from "react-router-dom";
 import { URL_PROFILE_USER } from "@/lib/constant";
-import { useFindUsers } from "@/hooks/useUsers";
+import { useFindUsers } from "@/hooks/users/useUsers";
 import { useAuth } from "@/hooks/useAuth";
 import { PasswordUser } from "../components/password";
 import {Modal} from "@/component/modal";

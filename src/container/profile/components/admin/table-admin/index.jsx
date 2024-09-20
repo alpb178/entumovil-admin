@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { useQueryClient } from "react-query";
 import { DataTable } from "@/component/table";
 import { TableActions } from "@/component/table/TableActions";
-import useUsers, { deleteUsers, saveUsers } from "@/hooks/useUsers";
+import useUsers, { deleteUsers, saveUsers } from "@/hooks/users/useUsers";
 import { toast } from "react-toastify";
 import {
   API_URLS_USERS_LIST,

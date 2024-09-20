@@ -1,13 +1,15 @@
 import React from "react";
-import { useAuth } from "@/hooks/useAuth";
+
 import { useState } from "react";
 
 import { Disclosure } from "@headlessui/react";
 import { MenuItemNavbar } from "./item-navbar";
 import { ModalConfirmation } from "../modal-confirmation/modal-confirmation";
+import { useLogout } from "@/hooks/logout/useLogout";
+import { dictNamePortal } from "@/lib/dict";
 
 export function NavbarUserLoggued() {
-  const { logout } = useAuth();
+  const { logout } = useLogout();
 
   const [open, setOpen] = useState(false);
 
@@ -32,10 +34,11 @@ export function NavbarUserLoggued() {
             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
               <div className="flex flex-shrink-0 items-center">
                 <img
-                  className="h-8 w-auto"
+                  className="h-8 w-auto m-2"
                   src="/public/img/favicon-32x32.png"
                   alt="Your Company"
                 />
+                {dictNamePortal}
               </div>
             </div>
 

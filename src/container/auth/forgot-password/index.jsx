@@ -4,15 +4,15 @@ import { URL_LOGIN } from "@/lib/constant";
 import { Form, Formik } from "formik";
 import { ValidationSchema } from "./validation";
 import React from "react";
-import { useAuth } from "@/hooks/useAuth";
 import { dictButtonCancel, dictLoad, dictRecoverPass } from "@/lib/dict";
+import { useResetPassword } from "@/hooks/users/useResetPassword";
 
 export function ForgotPassword() {
   const initialValues = {
     email: "",
   };
 
-  const { resetPassword, isBusy } = useAuth();
+  const { resetPassword, isBusy } = useResetPassword();
 
   const handleSubmit = (values) => {
     resetPassword(values.email);

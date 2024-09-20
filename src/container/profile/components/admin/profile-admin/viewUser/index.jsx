@@ -2,7 +2,7 @@
 import { Form, Formik } from "formik";
 import { ButtonSubmit } from "@/component/button";
 import { toast } from "react-toastify";
-import { saveUsersPass } from "@/hooks/useUsers";
+import { saveUsersPass } from "@/hooks/users/useUsers";
 import { MESSAGE_SUCCES_PASSWORD_FORMAT } from "@/lib/constant";
 import { PasswordField } from "@/component/field/PassworField";
 import { checkIfJSONisEmpty, getErrorTransaction } from "@/lib/utils";

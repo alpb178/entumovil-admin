@@ -3,7 +3,7 @@ import { Navigate, Outlet } from "react-router-dom";
 import { URL_LOGIN } from "../lib/constant";
 import { useAuth } from "../hooks/useAuth";
 
-import { useNavigateLogin } from "@/hooks/useNavigateLogin";
+import { useNavigateLogin } from "@/hooks/navigate/useNavigateLogin";
 import React from "react";
 import { NavbarUserLoggued } from "@/component/navbar";
 

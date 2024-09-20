@@ -3,7 +3,6 @@ import { InputField } from "@/component/field/InputField";
 import { PasswordField } from "@/component/field/PassworField";
 import { Form, Formik } from "formik";
 import { ValidationSchema } from "./validation";
-import { useAuth } from "@/hooks/useAuth";
 import { checkIfJSONisEmpty, getErrorTransaction } from "@/lib/utils";
 import { AuthBottomBar } from "@/component/bottombar/bottombar";
 import { LogoEntuMovil } from "@/component/logo/logo";
@@ -13,6 +12,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { URL_FORGOT_PASSWORD } from "@/lib/constant";
 import { dictInitSession, dictLoad } from "@/lib/dict";
+import { useLogin } from "@/hooks/login/useLogin";
 
 export function Login() {
   const initialValues = {
@@ -20,7 +20,7 @@ export function Login() {
     password: "",
   };
 
-  const { login, isBusy } = useAuth();
+  const { login, isBusy } = useLogin();
 
   const handleSubmit = async (values) => {
     try {

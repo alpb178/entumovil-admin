@@ -3,7 +3,6 @@ import { InputField } from "@/component/field/InputField";
 import { Form, Formik } from "formik";
 import { ValidationSchema } from "./validation";
 import { PasswordField } from "@/component/field/PassworField";
-import { useAuth } from "@/hooks/useAuth";
 import { PhoneInputField } from "@/component/field/PhoneField";
 import { LogoEntuMovil } from "@/component/logo/logo";
 import { checkIfJSONisEmpty, getErrorTransaction } from "@/lib/utils";
@@ -13,6 +12,7 @@ import { Captcha } from "@/component/captcha";
 import { ModalConfirmation } from "@/component/modal-confirmation/modal-confirmation";
 import { dictLoad, dictRegist } from "@/lib/dict";
 import { CheckBoxField } from "@/component/field/InputField copy";
+import { useRegister } from "@/hooks/register/useAuth";
 
 export function RegisterForm() {
   const initialValues = {
@@ -24,7 +24,7 @@ export function RegisterForm() {
     termConditions: false,
   };
 
-  const { register, isBusy } = useAuth();
+  const { register, isBusy } = useRegister();
   const [open, setOpen] = useState(false);
 
   const openModal = () => {

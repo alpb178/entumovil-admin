@@ -1,8 +1,9 @@
 import { URL_LOGIN } from "@/lib/constant";
 import { useNavigate } from "react-router-dom";
-import { useAuth } from "./useAuth";
+
 import { useEffect } from "react";
 import { cleanCookiesFromSession } from "@/lib/utils";
+import { useAuth } from "../useAuth";
 
 export const useNavigateLogin = () => {
   const navigate = useNavigate();

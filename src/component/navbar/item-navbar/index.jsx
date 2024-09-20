@@ -50,11 +50,17 @@ export function MenuItemNavbar(props) {
         onClose={handleClose}
         onClick={handleClose}
       >
-        <MenuItem onClick={handleViewProfile}>Perfil</MenuItem>
+        <MenuItem className="!m-2" onClick={handleViewProfile}>
+          Perfil
+        </MenuItem>
         {isAdmin === "admin" && (
-          <MenuItem onClick={handleViewAdmin}>Admin</MenuItem>
+          <MenuItem className="!m-2" onClick={handleViewAdmin}>
+            Admin
+          </MenuItem>
         )}
-        <MenuItem onClick={openModalLogout}>Cerrar Sesión</MenuItem>
+        <MenuItem className="!m-2" onClick={openModalLogout}>
+          Cerrar Sesión
+        </MenuItem>
       </Menu>
     </Fragment>
   );

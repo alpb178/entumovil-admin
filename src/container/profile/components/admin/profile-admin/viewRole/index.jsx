@@ -6,10 +6,10 @@ import { TableActions } from "@/component/table/TableActions";
 import { toast } from "react-toastify";
 import { API_URLS_ROLES_LIST, DELETE } from "@/lib/constant";
 import { ModalConfirmation } from "@/component/modal-confirmation/modal-confirmation";
-import { useFindRoles } from "@/hooks/useRoles";
+import { useFindRoles } from "@/hooks/roles/useRoles";
 import { Loader } from "@/component/loader";
 import { getErrorTransaction } from "@/lib/utils";
-import { saveRoles } from "@/hooks/useAdmin";
+import { saveRoles } from "@/hooks/admin/useAdmin";
 
 export function ViewRoleAdmin({ idUser }) {
   const { data, isLoading } = useFindRoles({

@@ -1,5 +1,5 @@
 import React from "react";
-import { useFindUsers } from "@/hooks/useUsers";
+import { useFindUsers } from "@/hooks/users/useUsers";
 
 import {ViewRoleAdmin} from "./viewRole";
 import { ViewUser } from "./viewUser";

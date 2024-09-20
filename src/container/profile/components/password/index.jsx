@@ -4,7 +4,7 @@ import { Form, Formik } from "formik";
 import { PasswordField } from "@/component/field/PassworField";
 import { ButtonCancel, ButtonSubmit } from "@/component/button";
 import { toast } from "react-toastify";
-import { saveUsersPass } from "@/hooks/useUsers";
+import { saveUsersPass } from "@/hooks/users/useUsers";
 import { checkIfJSONisEmpty, getErrorTransaction } from "@/lib/utils";
 import { MESSAGE_SUCCES_PASSWORD_FORMAT } from "@/lib/constant";
 import { ValidationSchemaPassoword } from "@/lib/validation";

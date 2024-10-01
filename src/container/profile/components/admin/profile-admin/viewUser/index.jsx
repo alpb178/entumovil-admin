@@ -8,7 +8,7 @@ import { PasswordField } from "@/component/field/PassworField";
 import { checkIfJSONisEmpty, getErrorTransaction } from "@/lib/utils";
 import { ValidationSchemaPassoword } from "@/lib/validation";
 import React from "react";
-import { dictLoad, dictUpdate } from "@/lib/dict";
+import { dictButtonAccept, dictLoad } from "@/lib/dict";
 
 export function ViewUser({ data }) {
   const initialValues = {
@@ -42,12 +42,12 @@ export function ViewUser({ data }) {
             <a className="m-5 ">{data?.email}</a>
           </div>
           <div className="flex flex-col text-lg ">
-            <a className="font-bold">Teléfono:</a>
-            <a className="m-5 ">{data?.firstName}</a>
-          </div>
-          <div className="flex flex-col text-lg ">
             <a className="font-bold">Nombre y Apellidos:</a>
             <a className="m-5 ">{data?.lastName}</a>
+          </div>
+          <div className="flex flex-col text-lg ">
+            <a className="font-bold">Teléfono:</a>
+            <a className="m-5 ">{data?.firstName}</a>
           </div>
         </div>
         <div className="w-1/2">
@@ -68,7 +68,7 @@ export function ViewUser({ data }) {
 
                   <PasswordField
                     name="repeatPassword"
-                    label="Confirmar contraseña*"
+                    label="Confirmar Contraseña*"
                     error={errors.repeatPassword}
                     placeholder="Insertar confirmación de la contraseña"
                   />
@@ -78,7 +78,7 @@ export function ViewUser({ data }) {
                   <ButtonSubmit
                     type="submit"
                     disabled={!checkIfJSONisEmpty(errors)}
-                    name={isSubmitting ? dictLoad : dictUpdate}
+                    name={isSubmitting ? dictLoad : dictButtonAccept}
                   />
                 </div>
               </Form>

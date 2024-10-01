@@ -14,7 +14,7 @@ import { useNavigateRoute } from "../navigate/useNavigateRoute";
 const BASE_URL = import.meta.env.VITE_BASE_URL;
 
 export const useLogin = () => {
-  const { navigateToHome } = useNavigateRoute();
+  const { navigateToHome, navigateToAdmin } = useNavigateRoute();
 
   const [isBusy, setBusy] = useState(false);
 
@@ -33,7 +33,7 @@ export const useLogin = () => {
       const { body } = response.data;
       const { access_token, id, username, admin } = body;
       setCookiesLogin(access_token, username, admin, id);
-      navigateToHome();
+      admin ? navigateToAdmin() : navigateToHome();
       toast.success(dictWelcome);
       setBusy(false);
     } catch (error) {

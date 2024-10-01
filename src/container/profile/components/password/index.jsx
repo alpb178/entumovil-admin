@@ -8,7 +8,7 @@ import { saveUsersPass } from "@/hooks/users/useUsers";
 import { checkIfJSONisEmpty, getErrorTransaction } from "@/lib/utils";
 import { MESSAGE_SUCCES_PASSWORD_FORMAT } from "@/lib/constant";
 import { ValidationSchemaPassoword } from "@/lib/validation";
-import { dictButtonCancel, dictLoad, dictUpdate } from "@/lib/dict";
+import { dictButtonAccept, dictButtonCancel, dictLoad } from "@/lib/dict";
 
 export function PasswordUser({ id, onClose }) {
   const initialValues = {
@@ -54,7 +54,7 @@ export function PasswordUser({ id, onClose }) {
 
               <PasswordField
                 name="repeatPassword"
-                label="Confirmar contraseña*"
+                label="Confirmar Contraseña*"
                 error={errors.repeatPassword}
                 touched={touched.repeatPassword}
                 placeholder="Insertar confirmación de la contraseña"
@@ -65,7 +65,7 @@ export function PasswordUser({ id, onClose }) {
               <ButtonSubmit
                 type="submit"
                 disabled={!checkIfJSONisEmpty(errors)}
-                name={isSubmitting ? dictLoad : dictUpdate}
+                name={isSubmitting ? dictLoad : dictButtonAccept}
               />
               <ButtonCancel
                 onClick={() => {

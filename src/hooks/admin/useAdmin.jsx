@@ -4,7 +4,7 @@ import {
   API_URLS_ROLES_DELETE,
   API_URLS_USERS_LIST,
   DELETE,
-  PUT,
+  POST,
 } from "@/lib/constant";
 import { useQuery } from "react-query";
 
@@ -16,11 +16,11 @@ export default function useRoles({ args = {}, options = {} } = {}) {
 
 export const saveRoles = async ({ args = {}, options = {} } = {}) => {
   switch (options?.method) {
-    case PUT:
+    case POST:
       await saveData({
         path: API_URLS_ADD_ROLE + `/${args.id}`,
         data: args.data,
-        method: PUT,
+        method: POST,
       });
       break;
     case DELETE:

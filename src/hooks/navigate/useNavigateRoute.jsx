@@ -1,4 +1,4 @@
-import { URL_HOME, URL_LOGIN, URL_REGISTER_COMPLETE } from "@/lib/constant";
+import { URL_HOME, URL_LOGIN, URL_PROFILE_ADMIN, URL_REGISTER_COMPLETE } from "@/lib/constant";
 import { cleanCookiesFromSession } from "@/lib/utils";
 import { useNavigate } from "react-router-dom";
 
@@ -18,9 +18,14 @@ export const useNavigateRoute = () => {
     navigate(URL_REGISTER_COMPLETE);
   };
 
+  const navigateToAdmin = () => {
+    navigate(URL_PROFILE_ADMIN);
+  };
+
   return {
     navigateToHome,
     navigateToLogin,
     navigateToRegisterComplete,
+    navigateToAdmin
   };
 };

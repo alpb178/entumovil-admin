@@ -3,19 +3,22 @@ import { Field } from "formik";
 import React from "react";
 
 export const CheckBoxField = (props) => {
-  const { name, error, label, onClick } = props;
+  const { name, error, label, onClick, disabled } = props;
 
   return (
     <div className="w-full text-lg">
       <div className="flex">
-        <div className="w-5">
-          <Field
-            type="checkbox"
-            name={name}
-            id={name}
-            className="h-5 w-5 rounded border-gray-300 bg-gray-100"
-          />
-        </div>
+        {!disabled && (
+          <div className="w-5">
+            <Field
+              type="checkbox"
+              name={name}
+              id={name}
+              disabled={disabled}
+              className="h-5 w-5 rounded border-gray-300 bg-gray-100"
+            />
+          </div>
+        )}
         <a
           className={`ml-3  cursor-pointer ${
             error

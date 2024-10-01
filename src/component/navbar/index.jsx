@@ -36,7 +36,7 @@ export function NavbarUserLoggued() {
                 <img
                   className="h-8 w-auto m-2"
                   src="/public/img/favicon-32x32.png"
-                  alt="Your Company"
+                  alt= {dictNamePortal}
                 />
                 {dictNamePortal}
               </div>

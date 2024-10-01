@@ -114,6 +114,7 @@ export function TableAdmin() {
       displayName: "optionsareas",
       Cell: ({ row }) => (
         <TableActions
+          disabled={row.original.enabled}
           onDelete={() => {
             setId(row.original.id);
             setOpen(true);

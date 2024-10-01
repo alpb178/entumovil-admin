@@ -11,7 +11,7 @@ import React, { useState } from "react";
 import { Captcha } from "@/component/captcha";
 import { ModalConfirmation } from "@/component/modal-confirmation/modal-confirmation";
 import { dictLoad, dictRegist } from "@/lib/dict";
-import { CheckBoxField } from "@/component/field/InputField copy";
+import { CheckBoxField } from "@/component/field/checkBox";
 import { useRegister } from "@/hooks/register/useAuth";
 
 export function RegisterForm() {
@@ -106,7 +106,7 @@ export function RegisterForm() {
 
               <PasswordField
                 name="repeatPassword"
-                label="Confirmar contraseña*"
+                label="Confirmar Contraseña*"
                 error={errors.repeatPassword}
                 placeholder="Insertar confirmación de la contraseña"
               />

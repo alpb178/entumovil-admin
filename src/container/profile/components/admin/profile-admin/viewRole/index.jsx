@@ -10,6 +10,9 @@ import { useFindRoles } from "@/hooks/roles/useRoles";
 import { Loader } from "@/component/loader";
 import { getErrorTransaction } from "@/lib/utils";
 import { saveRoles } from "@/hooks/admin/useAdmin";
+import { Modal } from "@/component/modal";
+import { AssignRole } from "../role-admin";
+import { ButtonSubmit } from "@/component/button";
 
 export function ViewRoleAdmin({ idUser }) {
   const { data, isLoading } = useFindRoles({
@@ -22,10 +25,15 @@ export function ViewRoleAdmin({ idUser }) {
   const queryClient = useQueryClient();
 
   const [open, setOpen] = useState(false);
+  const [openAssingRole, setOpenAssingRole] = useState(false);
   const [user, setUser] = useState({});
 
   const closeShowModal = () => {
     setOpen(false);
+  };
+
+  const closeShowModalAssingRole = () => {
+    setOpenAssingRole(false);
   };
 
   const handleDelete = async () => {
@@ -86,7 +94,19 @@ export function ViewRoleAdmin({ idUser }) {
   return (
     <div className="align-center mt-5 content-center">
       <a className="border-b p-2 text-2xl">Roles del usuario</a>
-      {isLoading ? <Loader /> : <DataTable {...options} />}
+      {isLoading ? (
+        <Loader />
+      ) : (
+        <>
+          {data && data?.length <= 2 && (
+            <ButtonSubmit
+              name="Asignar rol"
+              onClick={() => setOpenAssingRole(true)}
+            />
+          )}
+          <DataTable {...options} />
+        </>
+      )}
 
       <ModalConfirmation
         open={open}
@@ -94,6 +114,17 @@ export function ViewRoleAdmin({ idUser }) {
         onSubmit={handleDelete}
         message={"¿Está seguro que desea desasignar este rol a este usuario?"}
       />
+      <Modal
+        open={openAssingRole}
+        onOpen={closeShowModalAssingRole}
+        hideButton={true}
+      >
+        <AssignRole
+          id={idUser}
+          data={data}
+          onClose={closeShowModalAssingRole}
+        />
+      </Modal>
     </div>
   );
 }

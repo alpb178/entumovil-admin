@@ -2,59 +2,25 @@ import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import LoginPage from "./pages/auth/Login";
 import ProfileAdminPage from "./pages/profile/ProfileAdmin";
-import RegisterPage from "./pages/auth/Register";
-import ProfileUserPage from "./pages/profile/ProfileUser";
-import {
-  URL_FORGOT_PASSWORD,
-  URL_HOME,
-  URL_LOGIN,
-  URL_PROFILE_ADMIN,
-  URL_PROFILE_EDIT_ADMIN,
-  URL_PROFILE_USER,
-  URL_REGISTER,
-  URL_REGISTER_COMPLETE,
-  URL_TERM_CONDITIONS,
-} from "./lib/constant";
-import ForgotPasswordPage from "./pages/auth/ForgotPassword";
+import { URL_HOME, URL_LOGIN, URL_PROFILE_EDIT_ADMIN } from "./lib/constant";
 import ProtectedRoute from "./route/ProtectedRoute";
-import ProfilePage from "./pages/profile/Profile";
+
 import ProfileEditAdminPage from "./pages/profile/ProfileEditAdmin";
-import RegisterCompletePage from "./pages/auth/RegisterComplete";
-import { TermConditions } from "./container/auth/term-conditions";
 
 function App() {
   return (
     <Routes>
       <Route path={URL_LOGIN} element={<LoginPage />} />
-      <Route path={URL_REGISTER} element={<RegisterPage />} />
-      <Route path={URL_REGISTER_COMPLETE} element={<RegisterCompletePage />} />
-      <Route path={URL_FORGOT_PASSWORD} element={<ForgotPasswordPage />} />
-      <Route path={URL_TERM_CONDITIONS} element={<TermConditions />} />
 
       <Route
-        path={URL_PROFILE_ADMIN}
+        path={URL_HOME}
         element={
           <ProtectedRoute>
             <ProfileAdminPage />
           </ProtectedRoute>
         }
       />
-      <Route
-        path={URL_HOME}
-        element={
-          <ProtectedRoute>
-            <ProfilePage />
-          </ProtectedRoute>
-        }
-      />
-      <Route
-        path={URL_PROFILE_USER}
-        element={
-          <ProtectedRoute>
-            <ProfileUserPage />
-          </ProtectedRoute>
-        }
-      />
+
       <Route
         path={URL_PROFILE_EDIT_ADMIN}
         element={

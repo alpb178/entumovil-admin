@@ -3,16 +3,14 @@ import React, { Fragment, useState } from "react";
 import Avatar from "@mui/material/Avatar";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
-import { URL_HOME, URL_PROFILE_ADMIN } from "@/lib/constant";
-import { useNavigate } from "react-router-dom";
 import { useAuth } from "@/hooks/useAuth";
 
 export function MenuItemNavbar(props) {
   const { openModalLogout } = props;
-  const { username, isAdmin } = useAuth();
+  const { username } = useAuth();
 
   const letter = username?.substring(0, 1).toUpperCase();
-  const navigate = useNavigate();
+
   const [anchorEl, setAnchorEl] = useState(null);
 
   const open = Boolean(anchorEl);
@@ -21,16 +19,6 @@ export function MenuItemNavbar(props) {
   };
   const handleClose = () => {
     setAnchorEl(null);
-  };
-
-  const handleViewAdmin = () => {
-    navigate(URL_PROFILE_ADMIN);
-    handleClose();
-  };
-
-  const handleViewProfile = () => {
-    navigate(URL_HOME);
-    handleClose();
   };
 
   return (
@@ -50,14 +38,6 @@ export function MenuItemNavbar(props) {
         onClose={handleClose}
         onClick={handleClose}
       >
-        <MenuItem className="!m-2" onClick={handleViewProfile}>
-          Perfil
-        </MenuItem>
-        {isAdmin === "admin" && (
-          <MenuItem className="!m-2" onClick={handleViewAdmin}>
-            Admin
-          </MenuItem>
-        )}
         <MenuItem className="!m-2" onClick={openModalLogout}>
           Cerrar Sesión
         </MenuItem>

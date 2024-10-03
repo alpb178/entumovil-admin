@@ -11,7 +11,7 @@ export const URL_REGISTER = "/register";
 export const URL_REGISTER_COMPLETE = `/register-complete`;
 export const URL_PROFILE_ADMIN = "/profile/admin";
 export const URL_PROFILE_USER = "/profile/user";
-export const URL_PROFILE_EDIT_ADMIN = "/profile/edit/:id";
+export const URL_PROFILE_EDIT_ADMIN = "/:id";
 export const URL_TERM_CONDITIONS = "/term-conditions";
 
 ///

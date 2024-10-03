@@ -14,7 +14,7 @@ import { useNavigateRoute } from "../navigate/useNavigateRoute";
 const BASE_URL = import.meta.env.VITE_BASE_URL;
 
 export const useLogin = () => {
-  const { navigateToHome, navigateToAdmin } = useNavigateRoute();
+  const { navigateToAdmin } = useNavigateRoute();
 
   const [isBusy, setBusy] = useState(false);
 
@@ -33,8 +33,13 @@ export const useLogin = () => {
       const { body } = response.data;
       const { access_token, id, username, admin } = body;
       setCookiesLogin(access_token, username, admin, id);
-      admin ? navigateToAdmin() : navigateToHome();
-      toast.success(dictWelcome);
+      if (admin) {
+        navigateToAdmin();
+        toast.success(dictWelcome);
+      } else {
+        toast.error("Credenciales inválidas.");
+        cleanCookiesFromSession();
+      }
       setBusy(false);
     } catch (error) {
       catchError(error);

@@ -5,12 +5,12 @@ export const dictHaveAccount = "Ya tienes una cuenta";
 export const dictWrongCode = "Código incorrecto. Por favor intente de nuevo.";
 export const dictCode = "Inserte el código en el campo:";
 export const dictVerifyCode = "Verificar";
-export const dictWelcome = "Bienvenido a la Administración del Sistema de Cuentas";
-export const dictNamePortal = "Sistema de Cuentas";
+export const dictWelcome = "Bienvenido al Sistema de Administración de Cuentas";
+export const dictNamePortal = "Sistema de Administración de Cuentas";
 export const dictRegistPortal =
-  "Ha Sido Registrado en el Sistema de Cuentas. Hemos Enviado un Correo con los pasos a seguir para activar su cuenta.";
+  "Ha Sido Registrado en el Sistema de Administración de Cuentas. Hemos Enviado un Correo con los pasos a seguir para activar su cuenta.";
 export const dictCloseSession =
-  "Su sesión ha sido cerrada en el Sistema de Cuentas";
+  "Su sesión ha sido cerrada en el Sistema de Administración de Cuentas";
 export const dictResetEmail =
   "Hemos enviado un correo con los pasos a seguir para cambiar su contraseña.";
 

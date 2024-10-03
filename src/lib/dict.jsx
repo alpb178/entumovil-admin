@@ -5,7 +5,7 @@ export const dictHaveAccount = "Ya tienes una cuenta";
 export const dictWrongCode = "Código incorrecto. Por favor intente de nuevo.";
 export const dictCode = "Inserte el código en el campo:";
 export const dictVerifyCode = "Verificar";
-export const dictWelcome = "Bienvenido a el Sistema Cuentas";
+export const dictWelcome = "Bienvenido a la Administración del Sistema de Cuentas";
 export const dictNamePortal = "Sistema de Cuentas";
 export const dictRegistPortal =
   "Ha Sido Registrado en el Sistema de Cuentas. Hemos Enviado un Correo con los pasos a seguir para activar su cuenta.";

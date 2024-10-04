@@ -59,7 +59,7 @@
     "vite-plugin-eslint": "^1.8.1"
   },
   "publishConfig": {
-    "registry": "http://nexus.hab.desoft.cu/repository/cuentas-frontend/"
+    "registry": "http://nexus.hab.desoft.cu/repository/cuentas-admin/"
   },
   "description": "Proyecto cuentas",
   "repository": "git@github.com:alpb178/proyecto-etumovil-front.git",

@@ -58,7 +58,7 @@ export const DataTable = (props) => {
 
   return (
     <div
-      className={`flex w-screen overflow-auto p-4  ${
+      className={`flex w-screen font-humanst overflow-auto   ${
         center && "lg:justify-center"
       }`}
     >
@@ -76,8 +76,8 @@ export const DataTable = (props) => {
         </div>
       ) : null}
 
-      <table {...getTableProps()} className="w-5 border">
-        <thead className="border-b">
+      <table {...getTableProps()}>
+        <thead className="-b">
           {headerGroups.map((headerGroup, index) => (
             <tr key={index} {...headerGroup.getHeaderGroupProps()}>
               {headerGroup.headers.map((column, index) => (
@@ -90,7 +90,7 @@ export const DataTable = (props) => {
                     },
                     column.getSortByToggleProps(),
                   ])}
-                  className="px-6 py-5 text-left text-xs font-medium uppercase text-gray-500"
+                  className="px-6 py-5 text-left text-18px  font-semibold uppercase text-black"
                 >
                   <div className="group flex items-center">
                     {column.render("Header")}

@@ -1,18 +1,21 @@
-const colors = require('tailwindcss/colors');
+const colors = require("tailwindcss/colors");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/app/**/*.{js,ts,jsx,tsx}',
-    './src/component/**/*.{js,ts,jsx,tsx}',
-    './src/container/**/*.{js,ts,jsx,tsx}',
-    './src/lib/**/*.{js,ts,jsx,tsx}',
-    './src/pages/**/*.{js,ts,jsx,tsx}'
+    "./src/app/**/*.{js,ts,jsx,tsx}",
+    "./src/component/**/*.{js,ts,jsx,tsx}",
+    "./src/container/**/*.{js,ts,jsx,tsx}",
+    "./src/lib/**/*.{js,ts,jsx,tsx}",
+    "./src/pages/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     colors: {
       black: colors.black,
       blue: colors.blue,
+      buttonActive: "#212f3d",
+      buttonPasive: "#3aa3e0",
+      buttonOver: colors.blue,
       emerald: colors.emerald,
       gray: colors.gray,
       green: colors.green,
@@ -21,37 +24,84 @@ module.exports = {
       secondary: colors.indigo,
       slate: colors.slate,
       teal: colors.teal,
-      transparent: 'transparent',
+      transparent: "transparent",
       white: colors.white,
       yellow: colors.amber,
-      success: '#14A44D',
-      warning: '#E4A11B',
-      info: '#54B4D3',
-      error: '#DC4C64'
+      success: "#14A44D",
+      warning: "#E4A11B",
+      info: "#54B4D3",
+      error: "#DC4C64",
+      field: "#ffffff",
+      label: "#717171",
     },
     extend: {
       fontFamily: {
-        sans: ['var(--font-poppins)']
+        sans: ["var(--font-poppins)"],
+        humanst: ["Humanst521BT", "sans-serif"],
       },
       spacing: {
-        72: '18rem',
-        84: '21rem',
-        96: '24rem'
+        72: "18rem",
+        84: "21rem",
+        96: "24rem",
       },
       screens: {
-        xs: '480px'
+        xs: "480px",
       },
       backgroundImage: {
-        'split-red-white': `linear-gradient(to right, ${colors.red[400]} 50%, #eee 50%);`,
-        'split-white-red': `linear-gradient(to right, #eee 50%, ${colors.red[400]} 50%);`,
-        'split-black-white': `linear-gradient(to right, ${colors.gray[800]} 50%, #f3f4f6 50%);`,
-        'split-white-black': `linear-gradient(to right, #f3f4f6 50%, ${colors.gray[800]} 50%);`
-      }
-    }
+        "split-red-white": `linear-gradient(to right, ${colors.red[400]} 50%, #eee 50%);`,
+        "split-white-red": `linear-gradient(to right, #eee 50%, ${colors.red[400]} 50%);`,
+        "split-black-white": `linear-gradient(to right, ${colors.gray[800]} 50%, #f3f4f6 50%);`,
+        "split-white-black": `linear-gradient(to right, #f3f4f6 50%, ${colors.gray[800]} 50%);`,
+      },
+      width: {
+        "15px": "15px",
+        "20px": "20px",
+        "30px": "30px",
+        "57px": "57px",
+        "187px":"187px",
+        "189px":"189px",
+        "206px":'206px',
+        "404px": "404px",
+        "437px": "437px",
+        "434px": "434px",
+      },
+      height: {
+        "15px": "15px",
+        "20px": "20px",
+        "30px": "30px",
+        "48px": "48px",
+        "57px": "57px",
+        "60px": "60px",
+        "50px": "50px",
+        "437px": "437px",
+        "78px": "78px",
+        "434px": "434px",
+      },
+      fontSize: {
+        "12px": "12px",
+        "14px": "14px",
+        "16px": "16px",
+        "24px": "24px",
+      },
+      text: {
+        "12px": "12px",
+        "14px": "14px",
+        "16px": "16px",
+        "18px":"18px",
+        "24px": "24px",
+      },
+      borderColor: {
+        "custom-border": "#b0b0b0",
+        "custom-button": "#3aa3e0",
+      },
+      borderWidth: {
+        "1px": "1px",
+      },
+    },
   },
   plugins: [
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/typography'),
-    require('@tailwindcss/aspect-ratio')
-  ]
+    require("@tailwindcss/forms"),
+    require("@tailwindcss/typography"),
+    require("@tailwindcss/aspect-ratio"),
+  ],
 };

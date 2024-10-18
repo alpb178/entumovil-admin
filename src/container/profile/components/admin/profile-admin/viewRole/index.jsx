@@ -5,7 +5,6 @@ import { DataTable } from "@/component/table";
 import { TableActions } from "@/component/table/TableActions";
 import { toast } from "react-toastify";
 import { API_URLS_ROLES_LIST, DELETE } from "@/lib/constant";
-import { ModalConfirmation } from "@/component/modal-confirmation/modal-confirmation";
 import { useFindRoles } from "@/hooks/roles/useRoles";
 import { Loader } from "@/component/loader";
 import { getErrorTransaction } from "@/lib/utils";
@@ -71,7 +70,7 @@ export function ViewRoleAdmin({ idUser }) {
     },
 
     {
-      Header: "Eliminar",
+     
       id: "actions",
       displayName: "optionsareas",
       Cell: ({ row }) => (
@@ -92,7 +91,7 @@ export function ViewRoleAdmin({ idUser }) {
   };
 
   return (
-    <div className="align-center mt-5 content-center">
+    <div className="align-center content-center">
       <a className="border-b p-2 text-2xl">Roles del usuario</a>
       {isLoading ? (
         <Loader />
@@ -108,16 +107,20 @@ export function ViewRoleAdmin({ idUser }) {
         </>
       )}
 
-      <ModalConfirmation
+      <Modal
         open={open}
         onOpen={closeShowModal}
         onSubmit={handleDelete}
-        message={"¿Está seguro que desea desasignar este rol a este usuario?"}
-      />
+
+        height="350px"
+      >
+        ¿Está seguro que desea desasignar este rol a este usuario?
+      </Modal>
       <Modal
         open={openAssingRole}
         onOpen={closeShowModalAssingRole}
         hideButton={true}
+        height="350px"
       >
         <AssignRole
           id={idUser}

@@ -6,7 +6,7 @@ export const CheckBoxField = (props) => {
   const { name, error, label, onClick, disabled } = props;
 
   return (
-    <div className="w-full text-lg">
+    <div className="w-full font-humanst mb-[15px] text-16px">
       <div className="flex">
         {!disabled && (
           <div className="w-5">
@@ -15,7 +15,7 @@ export const CheckBoxField = (props) => {
               name={name}
               id={name}
               disabled={disabled}
-              className="h-5 w-5 rounded border-gray-300 bg-gray-100"
+              className="h-5 w-5 rounded-2xl"
             />
           </div>
         )}

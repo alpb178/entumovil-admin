@@ -4,12 +4,12 @@ import { PasswordField } from "@/component/field/PassworField";
 import { Form, Formik } from "formik";
 import { ValidationSchema } from "./validation";
 import { checkIfJSONisEmpty, getErrorTransaction } from "@/lib/utils";
-import { LogoEntuMovil } from "@/component/logo/logo";
 
 import React from "react";
 
 import { dictInitSession, dictLoad } from "@/lib/dict";
 import { useLogin } from "@/hooks/login/useLogin";
+import { ContainerForm } from "@/component/container-form";
 
 export function Login() {
   const initialValues = {
@@ -28,43 +28,33 @@ export function Login() {
   };
 
   return (
-    <div>
-      <LogoEntuMovil isLogin={true} />
+    <ContainerForm nameSection="Te damos la bienvenida al:" height="437">
       <Formik
         initialValues={initialValues}
         validationSchema={ValidationSchema}
         onSubmit={handleSubmit}
       >
         {({ errors }) => (
-          <Form className="m-5 mt-10 flex flex-col items-center justify-center space-y-10">
-            <div className="space-y-6  ">
-              <InputField
-                type="text"
-                name="username"
-                error={errors.username}
-                placeholder="Inserte correo electrónico"
-                label="Correo electrónico*"
-              />
+          <Form className="justify-center space-y-1">
+            <InputField
+              type="text"
+              name="username"
+              error={errors.username}
+              placeholder="Inserte correo electrónico"
+              label="Correo electrónico*"
+            />
 
-              <PasswordField
-                name="password"
-                placeholder="Insertar contraseña"
-                label="Contraseña*"
-                error={errors.password}
-              />
-            </div>
+            <PasswordField
+              name="password"
+              placeholder="Insertar contraseña"
+              label="Contraseña*"
+              error={errors.password}
+            />
 
-            <div className=" flex flex-col justify-center">
-              {/*  <Link
-                to={URL_FORGOT_PASSWORD}
-                className="hover:text-primary-dark mt-1 font-medium text-gray-700 duration-200 ease-in-out hover:text-primary-500"
-                prefetch={false}
-              >
-                ¿Has olvidado la contraseña?
-              </Link>
-              */}
-
+            <div className="mb-[15px]">
               <ButtonSubmit
+                witdh="404px"
+                height="48px"
                 type="submit"
                 disabled={!checkIfJSONisEmpty(errors)}
                 name={isBusy ? dictLoad : dictInitSession}
@@ -73,6 +63,6 @@ export function Login() {
           </Form>
         )}
       </Formik>
-    </div>
+    </ContainerForm>
   );
 }

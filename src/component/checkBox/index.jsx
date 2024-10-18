@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { Input } from "@material-tailwind/react";
+
 import React, { useState } from "react";
 
 export const CheckBox = (props) => {
@@ -11,10 +11,10 @@ export const CheckBox = (props) => {
   };
 
   return (
-    <Input
+    <input
       type="checkbox"
       checked={checked}
-      className="h-8 w-8 rounded border-gray-300 bg-gray-100"
+      className="h-8 w-8 rounded-2xl"
       onChange={(e) => {
         e.stopPropagation();
         handleChange();

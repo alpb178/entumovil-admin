@@ -15,7 +15,7 @@ import { useNavigate } from "react-router-dom";
 import { Loader } from "@/component/loader";
 import { getErrorTransaction } from "@/lib/utils";
 import { useAuth } from "@/hooks/useAuth";
-import { ModalConfirmation } from "@/component/modal-confirmation/modal-confirmation";
+import { Modal } from "@/component/modal";
 
 export function TableAdmin() {
   const { data, isLoading } = useUsers({
@@ -139,12 +139,9 @@ export function TableAdmin() {
   return (
     <div className="align-center m-5 content-center">
       {isLoading ? <Loader /> : <DataTable {...options} />}
-      <ModalConfirmation
-        open={open}
-        onOpen={closeShowModal}
-        onSubmit={handleDelete}
-        message="¿Está seguro que desea eliminar este usuario?"
-      />
+      <Modal open={open} onOpen={closeShowModal} onSubmit={handleDelete}>
+        ¿Está seguro que desea eliminar este usuario?
+      </Modal>
     </div>
   );
 }

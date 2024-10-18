@@ -28,7 +28,7 @@ export function AssignRole(props) {
     if (values.user) roles.push("user");
     if (values.admin) roles.push("admin");
 
-    console.log(values,roles);
+    console.log(values, roles);
 
     let method = POST;
     const args = {
@@ -52,35 +52,35 @@ export function AssignRole(props) {
   };
 
   return (
-    <div className=" flex flex-col items-center justify-center space-y-5">
-      <Formik initialValues={initialValues} onSubmit={handleSubmit}>
-        {({ isSubmitting }) => (
-          <Form className="mt-10 flex flex-col items-center justify-center space-y-10">
-            <div className="space-y-6">
-              <CheckBoxField name="user" label="Usuario" disabled={isUser} />
+    <Formik initialValues={initialValues} onSubmit={handleSubmit}>
+      {({ isSubmitting }) => (
+        <Form className="flex flex-col justify-center space-y-1">
+          <CheckBoxField name="user" label="Usuario" disabled={isUser} />
 
-              <CheckBoxField
-                name="admin"
-                label="Administrador"
-                disabled={isAdmin}
-              />
-            </div>
+          <CheckBoxField
+            name="admin"
+            label="Administrador"
+            disabled={isAdmin}
+          />
 
-            <div className="flex justify-center pt-4">
-              <ButtonSubmit
-                type="submit"
-                name={isSubmitting ? dictLoad : dictButtonAccept}
-              />
-              <ButtonCancel
-                onClick={() => {
-                  onClose();
-                }}
-                name={dictButtonCancel}
-              />
-            </div>
-          </Form>
-        )}
-      </Formik>
-    </div>
+          <div className="mb-[15px] mt-[15px]">
+            <ButtonCancel
+              onClick={() => {
+                onClose();
+              }}
+              name={dictButtonCancel}
+              witdh="189px"
+              height="48px"
+            />
+            <ButtonSubmit
+              type="submit"
+              name={isSubmitting ? dictLoad : dictButtonAccept}
+              witdh="189px"
+              height="48px"
+            />
+          </div>
+        </Form>
+      )}
+    </Formik>
   );
 }

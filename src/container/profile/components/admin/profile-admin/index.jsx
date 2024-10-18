@@ -1,10 +1,10 @@
 import React from "react";
 import { useFindUsers } from "@/hooks/users/useUsers";
 
-import {ViewRoleAdmin} from "./viewRole";
+import { ViewRoleAdmin } from "./viewRole";
 import { ViewUser } from "./viewUser";
 import { useParams } from "react-router-dom";
-import {Loader} from "@/component/loader";
+import { Loader } from "@/component/loader";
 
 export function ProfileEditAdmin() {
   const params = useParams();
@@ -14,17 +14,17 @@ export function ProfileEditAdmin() {
       keepPreviousData: false,
     },
   });
-  return (
-    <div className="align-center content-center justify-center">
-      {isLoading ? (
-        <Loader />
-      ) : (
-        <div className="m-16 ">
-          <ViewUser data={data[0]} />
+  return isLoading ? (
+    <Loader />
+  ) : (
+    <div className="flex flex-row ">
+      <div className="w-1/2 p-10">
+        <ViewUser data={data[0]} />
+      </div>
 
-          <ViewRoleAdmin idUser={data[0].id} />
-        </div>
-      )}
+      <div className="w-1/2 p-10">
+        <ViewRoleAdmin idUser={data[0].id} />
+      </div>
     </div>
   );
 }

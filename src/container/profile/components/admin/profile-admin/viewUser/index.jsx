@@ -9,6 +9,7 @@ import { checkIfJSONisEmpty, getErrorTransaction } from "@/lib/utils";
 import { ValidationSchemaPassoword } from "@/lib/validation";
 import React from "react";
 import { dictButtonAccept, dictLoad } from "@/lib/dict";
+import { ContainerFormPage } from "@/component";
 
 export function ViewUser({ data }) {
   const initialValues = {
@@ -33,59 +34,60 @@ export function ViewUser({ data }) {
   };
 
   return (
-    <>
-      <a className="mb-5 border-b p-2 text-2xl">Detalles del usuario</a>
-      <div className="flex text-lg md:flex-col  lg:flex-row ">
-        <div className="mt-5 w-1/2">
-          <div className="flex flex-col text-lg ">
-            <a className="font-bold">Correo Electrónico:</a>
-            <a className="m-5 ">{data?.email}</a>
-          </div>
-          <div className="flex flex-col text-lg ">
-            <a className="font-bold">Nombre y Apellidos:</a>
-            <a className="m-5 ">{data?.lastName}</a>
-          </div>
-          <div className="flex flex-col text-lg ">
-            <a className="font-bold">Teléfono:</a>
-            <a className="m-5 ">{data?.firstName}</a>
-          </div>
+    <div className="flex flex-col">
+      <a className="mb-5 border-b font-humanst text-2xl">
+        Detalles del usuario
+      </a>
+      <div>
+        <div className="flex flex-col text-lg ">
+          <a className="font-bold">Correo @Electrónico:</a>
+          <a className="m-5 ">{data?.email}</a>
         </div>
-        <div className="w-1/2">
-          <Formik
-            initialValues={initialValues}
-            validationSchema={ValidationSchemaPassoword}
-            onSubmit={handleSubmit}
-          >
-            {({ errors, isSubmitting }) => (
-              <Form className=" flex flex-col">
-                <div className="mt-5 space-y-6">
-                  <PasswordField
-                    name="password"
-                    error={errors.password}
-                    label="Contraseña*"
-                    placeholder="Insertar contraseña"
-                  />
-
-                  <PasswordField
-                    name="repeatPassword"
-                    label="Confirmar Contraseña*"
-                    error={errors.repeatPassword}
-                    placeholder="Insertar confirmación de la contraseña"
-                  />
-                </div>
-
-                <div className="flex justify-center pt-4">
-                  <ButtonSubmit
-                    type="submit"
-                    disabled={!checkIfJSONisEmpty(errors)}
-                    name={isSubmitting ? dictLoad : dictButtonAccept}
-                  />
-                </div>
-              </Form>
-            )}
-          </Formik>
+        <div className="flex flex-col text-lg ">
+          <a className="font-bold">Nombre y Apellidos:</a>
+          <a className="m-5 ">{data?.lastName}</a>
+        </div>
+        <div className="flex flex-col text-lg ">
+          <a className="font-bold">Teléfono:</a>
+          <a className="m-5 ">{data?.firstName}</a>
         </div>
       </div>
-    </>
+
+      <ContainerFormPage>
+        <Formik
+          initialValues={initialValues}
+          validationSchema={ValidationSchemaPassoword}
+          onSubmit={handleSubmit}
+        >
+          {({ errors, isSubmitting }) => (
+            <Form className=" space-y-1">
+              <PasswordField
+                name="password"
+                error={errors.password}
+                label="Contraseña*"
+                placeholder="Insertar contraseña"
+              />
+
+              <PasswordField
+                name="repeatPassword"
+                label="Confirmar Contraseña*"
+                error={errors.repeatPassword}
+                placeholder="Insertar confirmación de la contraseña"
+              />
+
+              <div className="flex justify-center pt-4">
+                <ButtonSubmit
+                  type="submit"
+                  wi
+                  disabled={!checkIfJSONisEmpty(errors)}
+                  name={isSubmitting ? dictLoad : dictButtonAccept}
+                  witdh="404px"
+                />
+              </div>
+            </Form>
+          )}
+        </Formik>
+      </ContainerFormPage>
+    </div>
   );
 }

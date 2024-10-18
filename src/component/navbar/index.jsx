@@ -4,9 +4,10 @@ import { useState } from "react";
 
 import { Disclosure } from "@headlessui/react";
 import { MenuItemNavbar } from "./item-navbar";
-import { ModalConfirmation } from "../modal-confirmation/modal-confirmation";
+
 import { useLogout } from "@/hooks/logout/useLogout";
 import { dictNamePortal } from "@/lib/dict";
+import { Modal } from "../modal";
 
 export function NavbarUserLoggued() {
   const { logout } = useLogout();
@@ -34,24 +35,27 @@ export function NavbarUserLoggued() {
             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
               <div className="flex flex-shrink-0 items-center">
                 <img
-                  className="h-8 w-auto m-2"
-                  src="/public/img/favicon-32x32.png"
-                  alt= {dictNamePortal}
+                  className="m-2 h-8 w-auto"
+                  src="/public/img/logo_negro.svg"
+                  alt={dictNamePortal}
                 />
                 {dictNamePortal}
               </div>
             </div>
-
             <MenuItemNavbar openModalLogout={openModalLogout} />
           </div>
         </div>
       </>
-      <ModalConfirmation
+      <Modal
         open={open}
         onOpen={closeShowModal}
         onSubmit={handlelogout}
         message="¿Está seguro que desea cerrar sesión?"
-      />
+        height="210px"
+        nameSection="Cerrar sesión en:"
+      >
+        ¿Está seguro que desea cerrar sesión?
+      </Modal>
     </Disclosure>
   );
 }

@@ -42,6 +42,13 @@ export function NavbarUserLoggued() {
                 {dictNamePortal}
               </div>
             </div>
+            <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+              <img
+                className="m-2 h-8 w-auto"
+                src="/public/img/logotipo.svg"
+                alt={dictNamePortal}
+              />
+            </div>
             <MenuItemNavbar openModalLogout={openModalLogout} />
           </div>
         </div>

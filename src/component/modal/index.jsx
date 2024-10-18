@@ -79,15 +79,15 @@ export const Modal = (props) => {
                           onClick={() => onOpen(false)}
                           className="m-4 border-t p-4"
                           name={nameButtonCancel ?? dictButtonCancel}
-                          witdh="189px"
-                          height="48px"
+                           witdh="[189px]"
+                          height="[48px]"
                         />
                         {!isInformation && (
                           <ButtonSubmit
                             onClick={() => onSubmit()}
                             name={nameButtonConfirm ?? dictButtonAccept}
-                            witdh={!hideButton ? "189px" : "404px"}
-                            height="48px"
+                            witdh={!hideButton ? "[189px]" : "[404px]"}
+                            height="[48px]"
                           />
                         )}
                       </div>

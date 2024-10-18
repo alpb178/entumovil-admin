@@ -54,14 +54,16 @@ export function AssignRole(props) {
   return (
     <Formik initialValues={initialValues} onSubmit={handleSubmit}>
       {({ isSubmitting }) => (
-        <Form className="flex flex-col justify-center space-y-1">
-          <CheckBoxField name="user" label="Usuario" disabled={isUser} />
+        <Form className="space-y-2">
+          <div className="flex flex-row">
+            <CheckBoxField name="user" label="Usuario" disabled={isUser} />
 
-          <CheckBoxField
-            name="admin"
-            label="Administrador"
-            disabled={isAdmin}
-          />
+            <CheckBoxField
+              name="admin"
+              label="Administrador"
+              disabled={isAdmin}
+            />
+          </div>
 
           <div className="mb-[15px] mt-[15px]">
             <ButtonCancel
@@ -69,14 +71,14 @@ export function AssignRole(props) {
                 onClose();
               }}
               name={dictButtonCancel}
-              witdh="189px"
-              height="48px"
+              witdh="[189px]"
+              height="[48px]"
             />
             <ButtonSubmit
               type="submit"
               name={isSubmitting ? dictLoad : dictButtonAccept}
-              witdh="189px"
-              height="48px"
+              witdh="[189px]"
+              height="[48px]"
             />
           </div>
         </Form>

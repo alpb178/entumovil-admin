@@ -54,7 +54,7 @@ export function Login() {
             <div className="mb-[15px]">
               <ButtonSubmit
                 witdh="404px"
-                height="48px"
+                height="[48px]"
                 type="submit"
                 disabled={!checkIfJSONisEmpty(errors)}
                 name={isBusy ? dictLoad : dictInitSession}
